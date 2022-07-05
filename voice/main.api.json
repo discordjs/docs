@@ -4859,31 +4859,126 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/voice!SpeakingMap#on:member",
-              "docComment": "/**\n * Emitted when a user starts/stops speaking.  @event\n */\n",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/voice!SpeakingMap#on:member(1)",
+              "docComment": "/**\n * Emitted when a user starts speaking.  @event\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "on: "
+                  "text": "on(event: "
                 },
                 {
                   "kind": "Content",
-                  "text": "(event: 'start' | 'end', listener: (userId: string) => void) => this"
+                  "text": "'start'"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", listener: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(userId: string) => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
               "releaseTag": "Public",
-              "name": "on",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "event",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "listener",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "on"
+            },
+            {
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/voice!SpeakingMap#on:member(2)",
+              "docComment": "/**\n * Emitted when a user ends speaking.  @event\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "on(event: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "'end'"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", listener: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(userId: string) => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 2,
+              "parameters": [
+                {
+                  "parameterName": "event",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "listener",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "on"
             }
           ],
           "extendsTokenRanges": [
