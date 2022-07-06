@@ -1505,7 +1505,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ButtonBuilder:class",
-          "docComment": "/**\n * Represents a validated button component\n */\n",
+          "docComment": "/**\n * Represents a button component\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1513,12 +1513,21 @@
             },
             {
               "kind": "Reference",
-              "text": "UnsafeButtonBuilder",
-              "canonicalReference": "@discordjs/builders!~UnsafeButtonBuilder:class"
+              "text": "ComponentBuilder",
+              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
             },
             {
               "kind": "Content",
-              "text": " "
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APIButtonComponent",
+              "canonicalReference": "discord-api-types!APIButtonComponent:type"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
             }
           ],
           "releaseTag": "Public",
@@ -1526,9 +1535,55 @@
           "preserveMemberOrder": false,
           "members": [
             {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!ButtonBuilder:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `ButtonBuilder` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIButtonComponent",
+                  "canonicalReference": "discord-api-types!APIButtonComponent:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setCustomId:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the custom id for this button\n *\n * @param customId - The custom id to use for this button\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1575,7 +1630,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setDisabled:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets whether this button is disabled\n *\n * @param disabled - Whether to disable this button\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1622,7 +1677,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setEmoji:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the emoji to display on this button\n *\n * @param emoji - The emoji to display on this button\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1670,7 +1725,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setLabel:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the label for this button\n *\n * @param label - The label to display on this button\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1717,7 +1772,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setStyle:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the style of this button\n *\n * @param style - The style of the button\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1765,7 +1820,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setURL:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the URL for this button\n *\n * @param url - The URL to open when this button is clicked\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1843,7 +1898,7 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 4
           },
           "implementsTokenRanges": []
         },
@@ -3106,6 +3161,28 @@
           "name": "createComponentBuilder"
         },
         {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/builders!disableValidators:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "disableValidators: "
+            },
+            {
+              "kind": "Content",
+              "text": "() => boolean"
+            }
+          ],
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "disableValidators",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!EmbedAssertions:namespace",
           "docComment": "",
@@ -3206,20 +3283,11 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!EmbedBuilder:class",
-          "docComment": "/**\n * Represents a validated embed in a message (image/video preview, rich embed, etc.)\n */\n",
+          "docComment": "/**\n * Represents a embed in a message (image/video preview, rich embed, etc.)\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class EmbedBuilder extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "UnsafeEmbedBuilder",
-              "canonicalReference": "@discordjs/builders!~UnsafeEmbedBuilder:class"
-            },
-            {
-              "kind": "Content",
-              "text": " "
+              "text": "declare class EmbedBuilder "
             }
           ],
           "releaseTag": "Public",
@@ -3227,9 +3295,42 @@
           "preserveMemberOrder": false,
           "members": [
             {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!EmbedBuilder:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `EmbedBuilder` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIEmbed",
+                  "canonicalReference": "discord-api-types!APIEmbed:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#addFields:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Adds fields to the embed (max 25)\n *\n * @param fields - The fields to add\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3288,9 +3389,39 @@
               "name": "addFields"
             },
             {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/builders!EmbedBuilder#data:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly data: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIEmbed",
+                  "canonicalReference": "discord-api-types!APIEmbed:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "data",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setAuthor:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the author of this embed\n *\n * @param options - The options for the author\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3342,7 +3473,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setColor:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the color of this embed\n *\n * @param color - The color of the embed\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3398,7 +3529,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setDescription:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the description of this embed\n *\n * @param description - The description\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3444,8 +3575,69 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/builders!EmbedBuilder#setFields:member(1)",
+              "docComment": "/**\n * Sets the embed's fields (max 25).\n *\n * @param fields - The fields to set\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setFields(...fields: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIEmbedField",
+                  "canonicalReference": "discord-api-types!APIEmbedField:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "fields",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setFields"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setFooter:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the footer of this embed\n *\n * @param options - The options for the footer\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3497,7 +3689,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setImage:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the image of this embed\n *\n * @param url - The URL of the image\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3544,7 +3736,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setThumbnail:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the thumbnail of this embed\n *\n * @param url - The URL of the thumbnail\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3591,7 +3783,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setTimestamp:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the timestamp of this embed\n *\n * @param timestamp - The timestamp or date\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3647,7 +3839,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setTitle:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the title of this embed\n *\n * @param title - The title\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3694,7 +3886,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setURL:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the URL of this embed\n *\n * @param url - The URL\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3741,7 +3933,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#spliceFields:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Removes, replaces, or inserts fields in the embed (max 25)\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of fields to remove\n *\n * @param fields - The replacing field objects\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3821,12 +4013,39 @@
               ],
               "isOptional": false,
               "name": "spliceFields"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!EmbedBuilder#toJSON:member(1)",
+              "docComment": "/**\n * Transforms the embed to a plain object\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "toJSON(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIEmbed",
+                  "canonicalReference": "discord-api-types!APIEmbed:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "toJSON"
             }
           ],
-          "extendsTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          },
           "implementsTokenRanges": []
         },
         {
@@ -4023,6 +4242,28 @@
             }
           ],
           "name": "embedLength"
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/builders!enableValidators:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "enableValidators: "
+            },
+            {
+              "kind": "Content",
+              "text": "() => boolean"
+            }
+          ],
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "enableValidators",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
         },
         {
           "kind": "Interface",
@@ -5121,6 +5362,28 @@
           "name": "isJSONEncodable"
         },
         {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/builders!isValidationEnabled:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "isValidationEnabled: "
+            },
+            {
+              "kind": "Content",
+              "text": "() => boolean"
+            }
+          ],
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "isValidationEnabled",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!italic:function(1)",
           "docComment": "/**\n * Formats the content into italic text\n *\n * @param content - The content to wrap\n */\n",
@@ -5551,16 +5814,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ModalBuilder extends "
+              "text": "declare class ModalBuilder implements "
             },
             {
               "kind": "Reference",
-              "text": "UnsafeModalBuilder",
-              "canonicalReference": "@discordjs/builders!~UnsafeModalBuilder:class"
+              "text": "JSONEncodable",
+              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
             },
             {
               "kind": "Content",
-              "text": " "
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APIModalInteractionResponseCallbackData",
+              "canonicalReference": "discord-api-types!APIModalInteractionResponseCallbackData:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
             }
           ],
           "releaseTag": "Public",
@@ -5568,9 +5840,299 @@
           "preserveMemberOrder": false,
           "members": [
             {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!ModalBuilder:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `ModalBuilder` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor({ components, ...data }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIModalInteractionResponseCallbackData",
+                  "canonicalReference": "discord-api-types!APIModalInteractionResponseCallbackData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "{ components, ...data }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!ModalBuilder#addComponents:member(1)",
+              "docComment": "/**\n * Adds components to this modal\n *\n * @param components - The components to add to this modal\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "addComponents(...components: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ActionRowBuilder",
+                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ModalActionRowComponentBuilder",
+                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIActionRowComponent",
+                  "canonicalReference": "discord-api-types!APIActionRowComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIModalActionRowComponent",
+                  "canonicalReference": "discord-api-types!APIModalActionRowComponent:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 12,
+                "endIndex": 13
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "components",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 11
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "addComponents"
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/builders!ModalBuilder#components:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly components: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ActionRowBuilder",
+                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ModalActionRowComponentBuilder",
+                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "components",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/builders!ModalBuilder#data:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly data: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIModalInteractionResponseCallbackData",
+                  "canonicalReference": "discord-api-types!APIModalInteractionResponseCallbackData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "data",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!ModalBuilder#setComponents:member(1)",
+              "docComment": "/**\n * Sets the components in this modal\n *\n * @param components - The components to set this modal to\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setComponents(...components: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ActionRowBuilder",
+                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ModalActionRowComponentBuilder",
+                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 9
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "components",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 7
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setComponents"
+            },
+            {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ModalBuilder#setCustomId:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the custom id of the modal\n *\n * @param customId - The custom id of this modal\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5617,7 +6179,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ModalBuilder#setTitle:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the title of the modal\n *\n * @param title - The title of the modal\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5693,11 +6255,12 @@
               "name": "toJSON"
             }
           ],
-          "extendsTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          },
-          "implementsTokenRanges": []
+          "implementsTokenRanges": [
+            {
+              "startIndex": 1,
+              "endIndex": 4
+            }
+          ]
         },
         {
           "kind": "TypeAlias",
@@ -6006,7 +6569,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SelectMenuBuilder:class",
-          "docComment": "/**\n * Represents a validated select menu component\n */\n",
+          "docComment": "/**\n * Represents a select menu component\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6014,12 +6577,21 @@
             },
             {
               "kind": "Reference",
-              "text": "UnsafeSelectMenuBuilder",
-              "canonicalReference": "@discordjs/builders!~UnsafeSelectMenuBuilder:class"
+              "text": "ComponentBuilder",
+              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
             },
             {
               "kind": "Content",
-              "text": " "
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APISelectMenuComponent",
+              "canonicalReference": "discord-api-types!APISelectMenuComponent:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
             }
           ],
           "releaseTag": "Public",
@@ -6027,9 +6599,55 @@
           "preserveMemberOrder": false,
           "members": [
             {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!SelectMenuBuilder:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `SelectMenuBuilder` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuComponent",
+                  "canonicalReference": "discord-api-types!APISelectMenuComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder#addOptions:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Adds options to this select menu\n *\n * @param options - The options to add to this select menu\n *\n * @returns \n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6046,8 +6664,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "UnsafeSelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!~UnsafeSelectMenuOptionBuilder:class"
+                  "text": "SelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6097,9 +6715,43 @@
               "name": "addOptions"
             },
             {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#options:member",
+              "docComment": "/**\n * The options within this select menu\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "options",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setCustomId:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the custom id for this select menu\n *\n * @param customId - The custom id to use for this select menu\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6146,7 +6798,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setDisabled:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets whether this select menu is disabled\n *\n * @param disabled - Whether this select menu is disabled\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6193,7 +6845,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setMaxValues:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the maximum values that must be selected in the select menu\n *\n * @param maxValues - The maximum values that must be selected\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6240,7 +6892,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setMinValues:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the minimum values that must be selected in the select menu\n *\n * @param minValues - The minimum values that must be selected\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6287,7 +6939,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setOptions:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the options on this select menu\n *\n * @param options - The options to set on this select menu\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6304,8 +6956,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "UnsafeSelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!~UnsafeSelectMenuOptionBuilder:class"
+                  "text": "SelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6357,7 +7009,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setPlaceholder:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the placeholder for this select menu\n *\n * @param placeholder - The placeholder to use for this select menu\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6435,27 +7087,18 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 4
           },
           "implementsTokenRanges": []
         },
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class",
-          "docComment": "/**\n * Represents a validated option within a select menu component\n */\n",
+          "docComment": "/**\n * Represents a option within a select menu component\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SelectMenuOptionBuilder extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "UnsafeSelectMenuOptionBuilder",
-              "canonicalReference": "@discordjs/builders!~UnsafeSelectMenuOptionBuilder:class"
-            },
-            {
-              "kind": "Content",
-              "text": " "
+              "text": "declare class SelectMenuOptionBuilder "
             }
           ],
           "releaseTag": "Public",
@@ -6463,9 +7106,98 @@
           "preserveMemberOrder": false,
           "members": [
             {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `SelectMenuOptionBuilder` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuOption",
+                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#data:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "data: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuOption",
+                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "data",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setDefault:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets whether this option is selected by default\n *\n * @param isDefault - Whether this option is selected by default\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6512,7 +7244,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setDescription:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the description of this option\n *\n * @param description - The description of this option\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6559,7 +7291,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setEmoji:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the emoji to display on this option\n *\n * @param emoji - The emoji to display on this option\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6606,6 +7338,100 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setLabel:member(1)",
+              "docComment": "/**\n * Sets the label of this option\n *\n * @param label - The label to show on this option\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setLabel(label: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "label",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setLabel"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setValue:member(1)",
+              "docComment": "/**\n * Sets the value of this option\n *\n * @param value - The value of this option\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setValue(value: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setValue"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#toJSON:member(1)",
               "docComment": "",
               "excerptTokens": [
@@ -6636,10 +7462,6 @@
               "name": "toJSON"
             }
           ],
-          "extendsTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          },
           "implementsTokenRanges": []
         },
         {
@@ -10653,12 +11475,21 @@
             },
             {
               "kind": "Reference",
-              "text": "UnsafeTextInputBuilder",
-              "canonicalReference": "@discordjs/builders!~UnsafeTextInputBuilder:class"
+              "text": "ComponentBuilder",
+              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
             },
             {
               "kind": "Content",
-              "text": " "
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APITextInputComponent",
+              "canonicalReference": "discord-api-types!APITextInputComponent:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
             }
           ],
           "releaseTag": "Public",
@@ -10666,9 +11497,121 @@
           "preserveMemberOrder": false,
           "members": [
             {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!TextInputBuilder:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `TextInputBuilder` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APITextInputComponent",
+                  "canonicalReference": "discord-api-types!APITextInputComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " & {\n        type?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ComponentType.TextInput",
+                  "canonicalReference": "discord-api-types!ComponentType.TextInput:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n    }"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!TextInputBuilder#equals:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "equals(other: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "JSONEncodable",
+                  "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APITextInputComponent",
+                  "canonicalReference": "discord-api-types!APITextInputComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APITextInputComponent",
+                  "canonicalReference": "discord-api-types!APITextInputComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "other",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 6
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "equals"
+            },
+            {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setCustomId:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the custom id for this text input\n *\n * @param customId - The custom id of this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10715,7 +11658,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setLabel:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the label for this text input\n *\n * @param label - The label for this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10762,7 +11705,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setMaxLength:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the maximum length of text for this text input\n *\n * @param maxLength - The maximum length of text for this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10809,7 +11752,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setMinLength:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the minimum length of text for this text input\n *\n * @param minLength - The minimum length of text for this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10856,7 +11799,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setPlaceholder:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the placeholder of this text input\n *\n * @param placeholder - The placeholder of this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10903,7 +11846,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setRequired:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets whether this text input is required\n *\n * @param required - Whether this text input is required\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10950,7 +11893,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setStyle:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the style for this text input\n *\n * @param style - The style for this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10998,7 +11941,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setValue:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the value of this text input\n *\n * @param value - The value for this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11076,7 +12019,7 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 4
           },
           "implementsTokenRanges": []
         },
@@ -11552,3077 +12495,6 @@
             }
           ],
           "name": "underscore"
-        },
-        {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder:class",
-          "docComment": "/**\n * Represents a non-validated button component\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare class UnsafeButtonBuilder extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
-            },
-            {
-              "kind": "Content",
-              "text": "<"
-            },
-            {
-              "kind": "Reference",
-              "text": "APIButtonComponent",
-              "canonicalReference": "discord-api-types!APIButtonComponent:type"
-            },
-            {
-              "kind": "Content",
-              "text": "> "
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "UnsafeButtonBuilder",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `UnsafeButtonBuilder` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor(data?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIButtonComponent",
-                  "canonicalReference": "discord-api-types!APIButtonComponent:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "data",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ]
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom Id for this button\n *\n * @param customId - The custom id to use for this button\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setCustomId(customId: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setCustomId"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder#setDisabled:member(1)",
-              "docComment": "/**\n * Sets whether this button is disable or not\n *\n * @param disabled - Whether or not to disable this button or not\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setDisabled(disabled?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "disabled",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "setDisabled"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder#setEmoji:member(1)",
-              "docComment": "/**\n * Sets the emoji to display on this button\n *\n * @param emoji - The emoji to display on this button\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setEmoji(emoji: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIMessageComponentEmoji",
-                  "canonicalReference": "discord-api-types!APIMessageComponentEmoji:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "emoji",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setEmoji"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder#setLabel:member(1)",
-              "docComment": "/**\n * Sets the label for this button\n *\n * @param label - The label to display on this button\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setLabel(label: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "label",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setLabel"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder#setStyle:member(1)",
-              "docComment": "/**\n * Sets the style of this button\n *\n * @param style - The style of the button\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setStyle(style: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ButtonStyle",
-                  "canonicalReference": "discord-api-types!ButtonStyle:enum"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "style",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setStyle"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder#setURL:member(1)",
-              "docComment": "/**\n * Sets the URL for this button\n *\n * @param url - The URL to open when this button is clicked\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setURL(url: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "url",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setURL"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeButtonBuilder#toJSON:member(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIButtonComponent",
-                  "canonicalReference": "discord-api-types!APIButtonComponent:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "toJSON"
-            }
-          ],
-          "extendsTokenRange": {
-            "startIndex": 1,
-            "endIndex": 4
-          },
-          "implementsTokenRanges": []
-        },
-        {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder:class",
-          "docComment": "/**\n * Represents a non-validated embed in a message (image/video preview, rich embed, etc.)\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare class UnsafeEmbedBuilder "
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "UnsafeEmbedBuilder",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `UnsafeEmbedBuilder` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor(data?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIEmbed",
-                  "canonicalReference": "discord-api-types!APIEmbed:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "data",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                }
-              ]
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#addFields:member(1)",
-              "docComment": "/**\n * Adds fields to the embed (max 25)\n *\n * @param fields - The fields to add\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "addFields(...fields: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIEmbedField",
-                  "canonicalReference": "discord-api-types!APIEmbedField:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "fields",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "addFields"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#data:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly data: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIEmbed",
-                  "canonicalReference": "discord-api-types!APIEmbed:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "data",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setAuthor:member(1)",
-              "docComment": "/**\n * Sets the author of this embed\n *\n * @param options - The options for the author\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setAuthor(options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "EmbedAuthorOptions",
-                  "canonicalReference": "@discordjs/builders!~EmbedAuthorOptions:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 4,
-                "endIndex": 5
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 3
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setAuthor"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setColor:member(1)",
-              "docComment": "/**\n * Sets the color of this embed\n *\n * @param color - The color of the embed\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setColor(color: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RGBTuple",
-                  "canonicalReference": "@discordjs/builders!~RGBTuple:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "color",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 4
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setColor"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setDescription:member(1)",
-              "docComment": "/**\n * Sets the description of this embed\n *\n * @param description - The description\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setDescription(description: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "description",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setDescription"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setFields:member(1)",
-              "docComment": "/**\n * Sets the embed's fields (max 25).\n *\n * @param fields - The fields to set\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setFields(...fields: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIEmbedField",
-                  "canonicalReference": "discord-api-types!APIEmbedField:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "fields",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setFields"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setFooter:member(1)",
-              "docComment": "/**\n * Sets the footer of this embed\n *\n * @param options - The options for the footer\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setFooter(options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "EmbedFooterOptions",
-                  "canonicalReference": "@discordjs/builders!~EmbedFooterOptions:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 4,
-                "endIndex": 5
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 3
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setFooter"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setImage:member(1)",
-              "docComment": "/**\n * Sets the image of this embed\n *\n * @param url - The URL of the image\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setImage(url: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "url",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setImage"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setThumbnail:member(1)",
-              "docComment": "/**\n * Sets the thumbnail of this embed\n *\n * @param url - The URL of the thumbnail\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setThumbnail(url: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "url",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setThumbnail"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setTimestamp:member(1)",
-              "docComment": "/**\n * Sets the timestamp of this embed\n *\n * @param timestamp - The timestamp or date\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setTimestamp(timestamp?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Date",
-                  "canonicalReference": "!Date:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "timestamp",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 4
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "setTimestamp"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setTitle:member(1)",
-              "docComment": "/**\n * Sets the title of this embed\n *\n * @param title - The title\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setTitle(title: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "title",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setTitle"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#setURL:member(1)",
-              "docComment": "/**\n * Sets the URL of this embed\n *\n * @param url - The URL\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setURL(url: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "url",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setURL"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#spliceFields:member(1)",
-              "docComment": "/**\n * Removes, replaces, or inserts fields in the embed (max 25)\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of fields to remove\n *\n * @param fields - The replacing field objects\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "spliceFields(index: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", deleteCount: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", ...fields: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIEmbedField",
-                  "canonicalReference": "discord-api-types!APIEmbedField:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 9
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "index",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "deleteCount",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "fields",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 5,
-                    "endIndex": 7
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "spliceFields"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeEmbedBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Transforms the embed to a plain object\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIEmbed",
-                  "canonicalReference": "discord-api-types!APIEmbed:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "toJSON"
-            }
-          ],
-          "implementsTokenRanges": []
-        },
-        {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/builders!UnsafeModalBuilder:class",
-          "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare class UnsafeModalBuilder implements "
-            },
-            {
-              "kind": "Reference",
-              "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "<"
-            },
-            {
-              "kind": "Reference",
-              "text": "APIModalInteractionResponseCallbackData",
-              "canonicalReference": "discord-api-types!APIModalInteractionResponseCallbackData:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "> "
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "UnsafeModalBuilder",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/builders!UnsafeModalBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `UnsafeModalBuilder` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor({ components, ...data }?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIModalInteractionResponseCallbackData",
-                  "canonicalReference": "discord-api-types!APIModalInteractionResponseCallbackData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "{ components, ...data }",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ]
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeModalBuilder#addComponents:member(1)",
-              "docComment": "/**\n * Adds components to this modal\n *\n * @param components - The components to add to this modal\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "addComponents(...components: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "> | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIActionRowComponent",
-                  "canonicalReference": "discord-api-types!APIActionRowComponent:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIModalActionRowComponent",
-                  "canonicalReference": "discord-api-types!APIModalActionRowComponent:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">>"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 12,
-                "endIndex": 13
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "components",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 11
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "addComponents"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/builders!UnsafeModalBuilder#components:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly components: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "components",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/builders!UnsafeModalBuilder#data:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly data: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIModalInteractionResponseCallbackData",
-                  "canonicalReference": "discord-api-types!APIModalInteractionResponseCallbackData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "data",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeModalBuilder#setComponents:member(1)",
-              "docComment": "/**\n * Sets the components in this modal\n *\n * @param components - The components to set this modal to\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setComponents(...components: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">>"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 9
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "components",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 7
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setComponents"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeModalBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom id of the modal\n *\n * @param customId - The custom id of this modal\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setCustomId(customId: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setCustomId"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeModalBuilder#setTitle:member(1)",
-              "docComment": "/**\n * Sets the title of the modal\n *\n * @param title - The title of the modal\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setTitle(title: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "title",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setTitle"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeModalBuilder#toJSON:member(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIModalInteractionResponseCallbackData",
-                  "canonicalReference": "discord-api-types!APIModalInteractionResponseCallbackData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "toJSON"
-            }
-          ],
-          "implementsTokenRanges": [
-            {
-              "startIndex": 1,
-              "endIndex": 4
-            }
-          ]
-        },
-        {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder:class",
-          "docComment": "/**\n * Represents a non-validated select menu component\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare class UnsafeSelectMenuBuilder extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
-            },
-            {
-              "kind": "Content",
-              "text": "<"
-            },
-            {
-              "kind": "Reference",
-              "text": "APISelectMenuComponent",
-              "canonicalReference": "discord-api-types!APISelectMenuComponent:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "> "
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "UnsafeSelectMenuBuilder",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `UnsafeSelectMenuBuilder` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor(data?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuComponent",
-                  "canonicalReference": "discord-api-types!APISelectMenuComponent:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "data",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ]
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#addOptions:member(1)",
-              "docComment": "/**\n * Adds options to this select menu\n *\n * @param options - The options to add to this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "addOptions(...options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnsafeSelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!~UnsafeSelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 9
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 7
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "addOptions"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#options:member",
-              "docComment": "/**\n * The options within this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnsafeSelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!~UnsafeSelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "options",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom Id for this select menu\n *\n * @param customId - The custom id to use for this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setCustomId(customId: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setCustomId"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#setDisabled:member(1)",
-              "docComment": "/**\n * Sets whether or not this select menu is disabled\n *\n * @param disabled - Whether or not this select menu is disabled\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setDisabled(disabled?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "disabled",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "setDisabled"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#setMaxValues:member(1)",
-              "docComment": "/**\n * Sets the maximum values that must be selected in the select menu\n *\n * @param minValues - The maximum values that must be selected\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setMaxValues(maxValues: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "maxValues",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setMaxValues"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#setMinValues:member(1)",
-              "docComment": "/**\n * Sets the minimum values that must be selected in the select menu\n *\n * @param minValues - The minimum values that must be selected\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setMinValues(minValues: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "minValues",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setMinValues"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#setOptions:member(1)",
-              "docComment": "/**\n * Sets the options on this select menu\n *\n * @param options - The options to set on this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setOptions(...options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnsafeSelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!~UnsafeSelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 9
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 7
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setOptions"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#setPlaceholder:member(1)",
-              "docComment": "/**\n * Sets the placeholder for this select menu\n *\n * @param placeholder - The placeholder to use for this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setPlaceholder(placeholder: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "placeholder",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setPlaceholder"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuBuilder#toJSON:member(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuComponent",
-                  "canonicalReference": "discord-api-types!APISelectMenuComponent:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "toJSON"
-            }
-          ],
-          "extendsTokenRange": {
-            "startIndex": 1,
-            "endIndex": 4
-          },
-          "implementsTokenRanges": []
-        },
-        {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder:class",
-          "docComment": "/**\n * Represents a non-validated option within a select menu component\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare class UnsafeSelectMenuOptionBuilder "
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "UnsafeSelectMenuOptionBuilder",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `UnsafeSelectMenuOptionBuilder` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor(data?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "data",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ]
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder#data:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "data: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "data",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder#setDefault:member(1)",
-              "docComment": "/**\n * Sets whether this option is selected by default\n *\n * @param isDefault - Whether this option is selected by default\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setDefault(isDefault?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "isDefault",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "setDefault"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder#setDescription:member(1)",
-              "docComment": "/**\n * Sets the description of this option.\n *\n * @param description - The description of this option\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setDescription(description: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "description",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setDescription"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder#setEmoji:member(1)",
-              "docComment": "/**\n * Sets the emoji to display on this option\n *\n * @param emoji - The emoji to display on this option\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setEmoji(emoji: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIMessageComponentEmoji",
-                  "canonicalReference": "discord-api-types!APIMessageComponentEmoji:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "emoji",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setEmoji"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder#setLabel:member(1)",
-              "docComment": "/**\n * Sets the label of this option\n *\n * @param label - The label to show on this option\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setLabel(label: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "label",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setLabel"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder#setValue:member(1)",
-              "docComment": "/**\n * Sets the value of this option\n *\n * @param value - The value of this option\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setValue(value: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setValue"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeSelectMenuOptionBuilder#toJSON:member(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "toJSON"
-            }
-          ],
-          "implementsTokenRanges": []
-        },
-        {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder:class",
-          "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare class UnsafeTextInputBuilder extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
-            },
-            {
-              "kind": "Content",
-              "text": "<"
-            },
-            {
-              "kind": "Reference",
-              "text": "APITextInputComponent",
-              "canonicalReference": "discord-api-types!APITextInputComponent:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "> "
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "UnsafeTextInputBuilder",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `UnsafeTextInputBuilder` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor(data?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APITextInputComponent",
-                  "canonicalReference": "discord-api-types!APITextInputComponent:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": " & {\n        type?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ComponentType.TextInput",
-                  "canonicalReference": "discord-api-types!ComponentType.TextInput:member"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";\n    }"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "data",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ]
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#equals:member(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "equals(other: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnsafeTextInputBuilder",
-                  "canonicalReference": "@discordjs/builders!~UnsafeTextInputBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APITextInputComponent",
-                  "canonicalReference": "discord-api-types!APITextInputComponent:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "other",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 4
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "equals"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom id for this text input\n *\n * @param customId - The custom id of this text input\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setCustomId(customId: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setCustomId"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#setLabel:member(1)",
-              "docComment": "/**\n * Sets the label for this text input\n *\n * @param label - The label for this text input\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setLabel(label: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "label",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setLabel"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#setMaxLength:member(1)",
-              "docComment": "/**\n * Sets the maximum length of text for this text input\n *\n * @param maxLength - The maximum length of text for this text input\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setMaxLength(maxLength: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "maxLength",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setMaxLength"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#setMinLength:member(1)",
-              "docComment": "/**\n * Sets the minimum length of text for this text input\n *\n * @param minLength - The minimum length of text for this text input\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setMinLength(minLength: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "minLength",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setMinLength"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#setPlaceholder:member(1)",
-              "docComment": "/**\n * Sets the placeholder of this text input\n *\n * @param placeholder - The placeholder of this text input\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setPlaceholder(placeholder: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "placeholder",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setPlaceholder"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#setRequired:member(1)",
-              "docComment": "/**\n * Sets whether this text input is required or not\n *\n * @param required - Whether this text input is required or not\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setRequired(required?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "required",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "setRequired"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#setStyle:member(1)",
-              "docComment": "/**\n * Sets the style for this text input\n *\n * @param style - The style for this text input\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setStyle(style: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "TextInputStyle",
-                  "canonicalReference": "discord-api-types!TextInputStyle:enum"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "style",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setStyle"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#setValue:member(1)",
-              "docComment": "/**\n * Sets the value of this text input\n *\n * @param value - The value for this text input\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setValue(value: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setValue"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!UnsafeTextInputBuilder#toJSON:member(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APITextInputComponent",
-                  "canonicalReference": "discord-api-types!APITextInputComponent:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "toJSON"
-            }
-          ],
-          "extendsTokenRange": {
-            "startIndex": 1,
-            "endIndex": 4
-          },
-          "implementsTokenRanges": []
         },
         {
           "kind": "Function",
