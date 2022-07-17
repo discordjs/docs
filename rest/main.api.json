@@ -4003,6 +4003,33 @@
           "members": [
             {
               "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/rest!RawFile#contentType:member",
+              "docComment": "/**\n * Content-Type of the file\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "contentType?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "contentType",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
               "canonicalReference": "@discordjs/rest!RawFile#data:member",
               "docComment": "/**\n * The actual data for the file\n */\n",
               "excerptTokens": [
