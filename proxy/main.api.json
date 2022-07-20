@@ -179,7 +179,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function populateAbortErrorResponse(res: "
+              "text": "export declare function populateAbortErrorResponse(res: "
             },
             {
               "kind": "Reference",
@@ -224,7 +224,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function populateGeneralErrorResponse(res: "
+              "text": "export declare function populateGeneralErrorResponse(res: "
             },
             {
               "kind": "Reference",
@@ -238,7 +238,7 @@
             {
               "kind": "Reference",
               "text": "DiscordAPIError",
-              "canonicalReference": "@discordjs/rest!~DiscordAPIError:class"
+              "canonicalReference": "@discordjs/rest!DiscordAPIError:class"
             },
             {
               "kind": "Content",
@@ -247,7 +247,7 @@
             {
               "kind": "Reference",
               "text": "HTTPError",
-              "canonicalReference": "@discordjs/rest!~HTTPError:class"
+              "canonicalReference": "@discordjs/rest!HTTPError:class"
             },
             {
               "kind": "Content",
@@ -295,7 +295,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function populateRatelimitErrorResponse(res: "
+              "text": "export declare function populateRatelimitErrorResponse(res: "
             },
             {
               "kind": "Reference",
@@ -309,7 +309,7 @@
             {
               "kind": "Reference",
               "text": "RateLimitError",
-              "canonicalReference": "@discordjs/rest!~RateLimitError:class"
+              "canonicalReference": "@discordjs/rest!RateLimitError:class"
             },
             {
               "kind": "Content",
@@ -357,7 +357,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function populateSuccessfulResponse(res: "
+              "text": "export declare function populateSuccessfulResponse(res: "
             },
             {
               "kind": "Reference",
@@ -424,12 +424,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function proxyRequests(rest: "
+              "text": "export declare function proxyRequests(rest: "
             },
             {
               "kind": "Reference",
               "text": "REST",
-              "canonicalReference": "@discordjs/rest!~REST:class"
+              "canonicalReference": "@discordjs/rest!REST:class"
             },
             {
               "kind": "Content",
@@ -438,7 +438,7 @@
             {
               "kind": "Reference",
               "text": "RequestHandler",
-              "canonicalReference": "@discordjs/proxy!~RequestHandler:type"
+              "canonicalReference": "@discordjs/proxy!RequestHandler:type"
             },
             {
               "kind": "Content",
@@ -470,7 +470,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type RequestHandler = "
+              "text": "export declare type RequestHandler = "
             },
             {
               "kind": "Content",
@@ -497,7 +497,7 @@
             {
               "kind": "Reference",
               "text": "Awaitable",
-              "canonicalReference": "@discordjs/proxy!~Awaitable:type"
+              "canonicalReference": "@discordjs/proxy!Awaitable:type"
             },
             {
               "kind": "Content",
