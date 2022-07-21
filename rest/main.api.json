@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.28.4",
+    "toolVersion": "7.28.5",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
