@@ -1,0 +1,16 @@
+.vercel
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+node_modules
+.eslintrc.json
+.gitattributes
+.gitignore
+.prettierignore
+.prettierrc.json
+.vercelignore
+README.md
+tsconfig.eslint.json

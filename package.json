@@ -1,0 +1,50 @@
+{
+	"name": "@discordjs/docs",
+	"version": "0.1.0",
+	"description": "The generated doc files for our documentation website",
+	"private": true,
+	"scripts": {
+		"lint": "prettier --check . && eslint api --ext ts && tsc --noEmit",
+		"format": "prettier --write . && eslint api --ext ts --fix",
+		"fmt": "yarn format"
+	},
+	"directories": {
+		"lib": "api"
+	},
+	"contributors": [
+		"Crawl <icrawltogo@gmail.com>"
+	],
+	"license": "Apache-2.0",
+	"keywords": [
+		"api",
+		"bot",
+		"client",
+		"node",
+		"discordjs"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/discordjs/docs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/discordjs/docs/issues"
+	},
+	"homepage": "https://discord.js.org",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.30.7",
+		"@typescript-eslint/parser": "^5.30.7",
+		"@vercel/node": "^2.4.5",
+		"eslint": "^8.20.0",
+		"eslint-config-marine": "^9.4.1",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-import-resolver-typescript": "^3.3.0",
+		"eslint-plugin-import": "^2.26.0",
+		"prettier": "^2.7.1",
+		"typescript": "^4.7.4",
+		"vercel": "^27.2.0"
+	},
+	"engines": {
+		"node": ">=16.9.0"
+	},
+	"packageManager": "yarn@3.2.2"
+}

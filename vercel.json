@@ -1,0 +1,9 @@
+{
+	"functions": {
+		"api/index.ts": {
+			"includeFiles": "{builders,collection,discord.js,proxy,rest,voice}/**"
+		}
+	},
+	"trailingSlash": false,
+	"rewrites": [{ "source": "/docs/:url(.*)", "destination": "/api" }]
+}
