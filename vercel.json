@@ -5,5 +5,5 @@
 		}
 	},
 	"trailingSlash": false,
-	"rewrites": [{ "source": "/docs/:url(.*)", "destination": "/api" }]
+	"redirects": [{ "source": "/docs/:url(.*)", "destination": "/api?url=:url" }]
 }
