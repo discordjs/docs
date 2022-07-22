@@ -6,7 +6,8 @@
 	"scripts": {
 		"lint": "prettier --check . && eslint api --ext ts && tsc --noEmit",
 		"format": "prettier --write . && eslint api --ext ts --fix",
-		"fmt": "yarn format"
+		"fmt": "yarn format",
+		"update": "yarn upgrade-interactive"
 	},
 	"directories": {
 		"lib": "api"

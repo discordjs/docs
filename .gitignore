@@ -22,6 +22,7 @@ pids
 .idea/
 .DS_Store
 tsconfig.tsbuildinfo
+.vercel/
 
 # yarn
 .pnp.*
@@ -31,4 +32,3 @@ tsconfig.tsbuildinfo
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-.vercel
