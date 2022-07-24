@@ -2348,6 +2348,64 @@
             },
             {
               "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.jsonOptionValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "jsonOptionValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ObjectValidator",
+                  "canonicalReference": "@sapphire/shapeshift!~ObjectValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n        id?: string | undefined;\n        name?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}, import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n        id?: string | undefined;\n        name?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}>>"
+                }
+              ],
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "jsonOptionValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 10
+              }
+            },
+            {
+              "kind": "Variable",
               "canonicalReference": "@discordjs/builders!ComponentAssertions.labelValueDescriptionValidator:var",
               "docComment": "",
               "excerptTokens": [
@@ -2459,25 +2517,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<(import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n        id?: string | undefined;\n        name?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}> | "
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -2486,25 +2526,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ")[], import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n        id?: string | undefined;\n        name?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}> | "
+                  "text": "[], "
                 },
                 {
                   "kind": "Reference",
@@ -2521,7 +2543,7 @@
               "name": "optionsValidator",
               "variableTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 16
+                "endIndex": 8
               }
             },
             {
@@ -2539,30 +2561,12 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
+                  "text": "InstanceValidator",
+                  "canonicalReference": "@sapphire/shapeshift!~InstanceValidator:class"
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n        id?: string | undefined;\n        name?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}> | "
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -2579,7 +2583,7 @@
               "name": "optionValidator",
               "variableTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 10
+                "endIndex": 6
               }
             },
             {
