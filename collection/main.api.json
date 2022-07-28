@@ -222,7 +222,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#at:member(1)",
-              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at Array.at()}. Returns the item at a given index, allowing for positive and negative integers. Negative integers count back from the last item in the collection.\n *\n * @param index - The index of the element to obtain\n */\n",
+              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at | Array.at()}. Returns the item at a given index, allowing for positive and negative integers. Negative integers count back from the last item in the collection.\n *\n * @param index - The index of the element to obtain\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -528,7 +528,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#each:member(1)",
-              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/forEach Map.forEach()}, but returns the collection instead of undefined.\n *\n * @param fn - Function to execute for each element\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection .each(user => console.log(user.username)) .filter(user => user.bot) .each(user => console.log(user.username));\n */\n",
+              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/forEach | Map.forEach()}, but returns the collection instead of undefined.\n *\n * @param fn - Function to execute for each element\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection .each(user => console.log(user.username)) .filter(user => user.bot) .each(user => console.log(user.username));\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -766,7 +766,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#every:member(1)",
-              "docComment": "/**\n * Checks if all items passes a test. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every Array.every()}.\n *\n * @param fn - Function used to test (should return a boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.every(user => !user.bot);\n */\n",
+              "docComment": "/**\n * Checks if all items passes a test. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every | Array.every()}.\n *\n * @param fn - Function used to test (should return a boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.every(user => !user.bot);\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1287,7 +1287,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#filter:member(1)",
-              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter Array.filter()}, but returns a Collection instead of an Array.\n *\n * @param fn - The function to test with (should return boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.filter(user => user.username === 'Bob');\n */\n",
+              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter | Array.filter()}, but returns a Collection instead of an Array.\n *\n * @param fn - The function to test with (should return boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.filter(user => user.username === 'Bob');\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1802,7 +1802,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#find:member(1)",
-              "docComment": "/**\n * Searches for a single item where the given function returns a truthy value. This behaves like {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find Array.find()}. <warn>All collections used in Discord.js are mapped using their `id` property, and if you want to find by id you should use the `get` method. See {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get MDN} for details.</warn>\n *\n * @param fn - The function to test with (should return boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.find(user => user.username === 'Bob');\n */\n",
+              "docComment": "/**\n * Searches for a single item where the given function returns a truthy value. This behaves like {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find | Array.find()}. <warn>All collections used in Discord.js are mapped using their `id` property, and if you want to find by id you should use the `get` method. See {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get | MDN} for details.</warn>\n *\n * @param fn - The function to test with (should return boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.find(user => user.username === 'Bob');\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2106,7 +2106,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#findKey:member(1)",
-              "docComment": "/**\n * Searches for the key of a single item where the given function returns a truthy value. This behaves like {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex Array.findIndex()}, but returns the key rather than the positional index.\n *\n * @param fn - The function to test with (should return boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.findKey(user => user.username === 'Bob');\n */\n",
+              "docComment": "/**\n * Searches for the key of a single item where the given function returns a truthy value. This behaves like {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex | Array.findIndex()}, but returns the key rather than the positional index.\n *\n * @param fn - The function to test with (should return boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.findKey(user => user.username === 'Bob');\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2564,7 +2564,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#flatMap:member(1)",
-              "docComment": "/**\n * Maps each item into a Collection, then joins the results into a single Collection. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap Array.flatMap()}.\n *\n * @param fn - Function that produces a new Collection\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.flatMap(guild => guild.members.cache);\n */\n",
+              "docComment": "/**\n * Maps each item into a Collection, then joins the results into a single Collection. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap | Array.flatMap()}.\n *\n * @param fn - Function that produces a new Collection\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.flatMap(guild => guild.members.cache);\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2903,7 +2903,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#keyAt:member(1)",
-              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at Array.at()}. Returns the key at a given index, allowing for positive and negative integers. Negative integers count back from the last item in the collection.\n *\n * @param index - The index of the key to obtain\n */\n",
+              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at | Array.at()}. Returns the key at a given index, allowing for positive and negative integers. Negative integers count back from the last item in the collection.\n *\n * @param index - The index of the key to obtain\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3104,7 +3104,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#map:member(1)",
-              "docComment": "/**\n * Maps each item to another value into an array. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map Array.map()}.\n *\n * @param fn - Function that produces an element of the new array, taking three arguments\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.map(user => user.tag);\n */\n",
+              "docComment": "/**\n * Maps each item to another value into an array. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map | Array.map()}.\n *\n * @param fn - Function that produces an element of the new array, taking three arguments\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.map(user => user.tag);\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3251,7 +3251,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#mapValues:member(1)",
-              "docComment": "/**\n * Maps each item to another value into a collection. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map Array.map()}.\n *\n * @param fn - Function that produces an element of the new collection, taking three arguments\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.mapValues(user => user.tag);\n */\n",
+              "docComment": "/**\n * Maps each item to another value into a collection. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map | Array.map()}.\n *\n * @param fn - Function that produces an element of the new collection, taking three arguments\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.mapValues(user => user.tag);\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4347,7 +4347,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#reduce:member(1)",
-              "docComment": "/**\n * Applies a function to produce a single value. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce Array.reduce()}.\n *\n * @param fn - Function used to reduce, taking four arguments; `accumulator`, `currentValue`, `currentKey`, and `collection`\n *\n * @param initialValue - Starting value for the accumulator\n *\n * @example\n *\n * collection.reduce((acc, guild) => acc + guild.memberCount, 0);\n */\n",
+              "docComment": "/**\n * Applies a function to produce a single value. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce | Array.reduce()}.\n *\n * @param fn - Function used to reduce, taking four arguments; `accumulator`, `currentValue`, `currentKey`, and `collection`\n *\n * @param initialValue - Starting value for the accumulator\n *\n * @example\n *\n * collection.reduce((acc, guild) => acc + guild.memberCount, 0);\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4423,7 +4423,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#reverse:member(1)",
-              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse Array.reverse()} but returns a Collection instead of an Array.\n */\n",
+              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse | Array.reverse()} but returns a Collection instead of an Array.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4453,7 +4453,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#some:member(1)",
-              "docComment": "/**\n * Checks if there exists an item that passes a test. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some Array.some()}.\n *\n * @param fn - Function used to test (should return a boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.some(user => user.discriminator === '0000');\n */\n",
+              "docComment": "/**\n * Checks if there exists an item that passes a test. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some | Array.some()}.\n *\n * @param fn - Function used to test (should return a boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @example\n *\n * collection.some(user => user.discriminator === '0000');\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
