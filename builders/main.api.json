@@ -15452,7 +15452,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/builders!TimestampStyles:var",
-          "docComment": "/**\n * The [message formatting timestamp styles](https://discord.com/developers/docs/reference#message-formatting-timestamp-styles) supported by Discord\n */\n",
+          "docComment": "/**\n * The {@link https://discord.com/developers/docs/reference#message-formatting-timestamp-styles message formatting timestamp styles} supported by Discord\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
