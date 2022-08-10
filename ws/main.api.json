@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.28.6",
+    "toolVersion": "7.29.2",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -421,7 +421,11 @@
             },
             {
               "kind": "Content",
-              "text": ", 'retrieveSessionInfo' | 'updateSessionInfo' | 'shardCount' | 'shardIds' | 'rest'> "
+              "text": ", 'retrieveSessionInfo' | 'updateSessionInfo' | 'shardCount' | 'shardIds' | 'rest'>"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "releaseTag": "Public",
@@ -487,7 +491,7 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 4
+              "endIndex": 5
             }
           ]
         },
@@ -2429,7 +2433,11 @@
             },
             {
               "kind": "Content",
-              "text": "> "
+              "text": ">"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "releaseTag": "Public",
@@ -2942,7 +2950,7 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 4
+            "endIndex": 5
           },
           "implementsTokenRanges": []
         },
@@ -3006,7 +3014,11 @@
             },
             {
               "kind": "Content",
-              "text": "> "
+              "text": ">"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "releaseTag": "Public",
@@ -3236,7 +3248,7 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 4
+            "endIndex": 5
           },
           "implementsTokenRanges": []
         },
