@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.28.6",
+    "toolVersion": "7.29.2",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -188,7 +188,11 @@
             },
             {
               "kind": "Content",
-              "text": "<K, V> "
+              "text": "<K, V>"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "releaseTag": "Public",
@@ -4961,7 +4965,7 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 3
           },
           "implementsTokenRanges": []
         },
