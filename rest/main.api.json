@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.28.6",
+    "toolVersion": "7.29.2",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -3618,11 +3618,7 @@
             },
             {
               "kind": "Content",
-              "text": " "
-            },
-            {
-              "kind": "Content",
-              "text": "implements "
+              "text": " implements "
             },
             {
               "kind": "Reference",
@@ -3939,8 +3935,8 @@
           },
           "implementsTokenRanges": [
             {
-              "startIndex": 4,
-              "endIndex": 5
+              "startIndex": 3,
+              "endIndex": 4
             }
           ]
         },
@@ -4044,7 +4040,7 @@
                 {
                   "kind": "Reference",
                   "text": "Buffer",
-                  "canonicalReference": "!__global.Buffer:interface"
+                  "canonicalReference": "!\"\\\"buffer\\\"\"~__global.Buffer:interface"
                 },
                 {
                   "kind": "Content",
@@ -4451,7 +4447,7 @@
                 {
                   "kind": "Reference",
                   "text": "URLSearchParams",
-                  "canonicalReference": "!__global.URLSearchParams:interface"
+                  "canonicalReference": "!\"\\\"url\\\"\"~__global.URLSearchParams:interface"
                 },
                 {
                   "kind": "Content",
@@ -4634,7 +4630,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!EventEmitter:class"
+              "canonicalReference": "!\"\\\"events\\\"\"~EventEmitter:class"
             },
             {
               "kind": "Content",
@@ -5661,7 +5657,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!EventEmitter:class"
+              "canonicalReference": "!\"\\\"events\\\"\"~EventEmitter:class"
             },
             {
               "kind": "Content",
