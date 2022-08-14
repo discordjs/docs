@@ -1693,6 +1693,33 @@
           "members": [
             {
               "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/ws!SessionInfo#resumeURL:member",
+              "docComment": "/**\n * URL to use when resuming\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "resumeURL: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "resumeURL",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
               "canonicalReference": "@discordjs/ws!SessionInfo#sequence:member",
               "docComment": "/**\n * The sequence number of the last message sent by the shard\n */\n",
               "excerptTokens": [
