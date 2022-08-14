@@ -2149,6 +2149,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | undefined"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -2158,7 +2162,7 @@
               "name": "audioPlayer",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               },
               "isStatic": false,
               "isProtected": false
@@ -3080,7 +3084,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "boolean"
+                  "text": "boolean | undefined"
                 },
                 {
                   "kind": "Content",
@@ -5812,6 +5816,54 @@
               "name": "dispatchAudio"
             },
             {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/voice!VoiceConnection#onSubscriptionRemoved:member(1)",
+              "docComment": "/**\n * Called when a subscription of this voice connection to an audio player is removed.\n *\n * @param subscription - The removed subscription\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "protected onSubscriptionRemoved(subscription: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "PlayerSubscription",
+                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": true,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "subscription",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "onSubscriptionRemoved"
+            },
+            {
               "kind": "Property",
               "canonicalReference": "@discordjs/voice!VoiceConnection#ping:member",
               "docComment": "/**\n * The latest ping (in milliseconds) for the WebSocket connection and audio playback for this voice connection, if this data is available.\n *\n * @remarks\n *\n * For this data to be available, the VoiceConnection must be in the Ready state, and its underlying WebSocket connection and UDP socket must have had at least one ping-pong exchange.\n */\n",
@@ -6663,6 +6715,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | undefined"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -6672,7 +6728,7 @@
               "name": "subscription",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             }
           ],
@@ -6809,6 +6865,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | undefined"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -6818,7 +6878,7 @@
               "name": "subscription",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             }
           ],
@@ -7240,6 +7300,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | undefined"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -7249,7 +7313,7 @@
               "name": "subscription",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             }
           ],
@@ -7341,6 +7405,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | undefined"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -7350,7 +7418,7 @@
               "name": "subscription",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             }
           ],
