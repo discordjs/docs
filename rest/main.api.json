@@ -4883,8 +4883,22 @@
                   "text": "readonly handlers: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
                   "kind": "Content",
-                  "text": "any"
+                  "text": "<string, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IHandler",
+                  "canonicalReference": "@discordjs/rest!IHandler:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4897,7 +4911,7 @@
               "name": "handlers",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 5
               },
               "isStatic": false,
               "isProtected": false
@@ -4912,8 +4926,22 @@
                   "text": "readonly hashes: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
                   "kind": "Content",
-                  "text": "any"
+                  "text": "<string, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "HashData",
+                  "canonicalReference": "@discordjs/rest!HashData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4926,7 +4954,7 @@
               "name": "hashes",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 5
               },
               "isStatic": false,
               "isProtected": false
