@@ -439,7 +439,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ActionRowBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Transforms this object to its JSON format\n */\n",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1545,7 +1545,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!ButtonBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `ButtonBuilder` class\n */\n",
+              "docComment": "/**\n * Creates a new button from API data\n *\n * @param data - The API data to create this button with\n *\n * @example\n *\n * Creating a button from an API data object\n * ```ts\n * const button = new ButtonBuilder({\n * \tstyle: 'primary',\n * \tlabel: 'Click Me',\n * \temoji: {\n * \t\tname: ':smile:',\n * \t\tid: '12345678901234567890123456789012',\n * \t},\n *  custom_id: '12345678901234567890123456789012',\n * });\n * ```\n *\n * @example\n *\n * Creating a button using setters and API data\n * ```ts\n * const button = new ButtonBuilder({\n * \tstyle: 'primary',\n * \tlabel: 'Click Me',\n * })\n * .setEmoji({ name: ':smile:', id: '12345678901234567890123456789012' })\n * .setCustomId('12345678901234567890123456789012');\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1591,7 +1591,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom id for this button\n *\n * @param customId - The custom id to use for this button\n */\n",
+              "docComment": "/**\n * Sets the custom id for this button\n *\n * @remarks\n *\n * This method is only applicable to buttons that are not using the `Link` button style.\n *\n * @param customId - The custom id to use for this button\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1828,7 +1828,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setURL:member(1)",
-              "docComment": "/**\n * Sets the URL for this button\n *\n * @param url - The URL to open when this button is clicked\n */\n",
+              "docComment": "/**\n * Sets the URL for this button\n *\n * @remarks\n *\n * This method is only available to buttons using the `Link` button style. Only three types of URL schemes are currently supported: `https://`, `http://` and `discord://`\n *\n * @param url - The URL to open when this button is clicked\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1875,7 +1875,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Transforms this object to its JSON format\n */\n",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3237,7 +3237,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ComponentBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Transforms this object to its JSON format\n */\n",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3656,7 +3656,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#default_permission:member",
-              "docComment": "/**\n * Whether the command is enabled by default when the app is added to a guild\n *\n * @deprecated\n *\n * This property is deprecated and will be removed in the future. You should use `setDefaultMemberPermissions` or `setDMPermission` instead.\n */\n",
+              "docComment": "/**\n * Whether the command is enabled by default when the app is added to a guild\n *\n * @deprecated\n *\n * This property is deprecated and will be removed in the future. You should use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3825,7 +3825,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDefaultPermission:member(1)",
-              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * **Note**: If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use `setDefaultMemberPermissions` or `setDMPermission` instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * **Note**: If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8552,7 +8552,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ModalBuilder#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9386,7 +9386,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Transforms this object to its JSON format\n */\n",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9785,7 +9785,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Transforms this object to its JSON format\n */\n",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13040,7 +13040,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption#setMaxValue:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the maximum number value of this option\n *\n * @param max - The maximum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13087,7 +13087,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption#setMinValue:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the minimum number value of this option\n *\n * @param min - The minimum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13377,7 +13377,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandNumberOption#setMaxValue:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the maximum number value of this option\n *\n * @param max - The maximum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13424,7 +13424,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandNumberOption#setMinValue:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets the minimum number value of this option\n *\n * @param min - The minimum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15639,7 +15639,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Transforms this object to its JSON format\n */\n",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
