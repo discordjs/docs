@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.29.2",
+    "toolVersion": "7.29.3",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -2208,7 +2208,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!SimpleShardingStrategy#connect:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Initializes all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2243,7 +2243,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!SimpleShardingStrategy#destroy:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Destroys all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2309,7 +2309,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!SimpleShardingStrategy#send:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sends a payload to a shard\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2378,7 +2378,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!SimpleShardingStrategy#spawn:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Spawns all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4490,7 +4490,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!WorkerShardingStrategy#connect:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Initializes all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4525,7 +4525,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!WorkerShardingStrategy#destroy:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Destroys all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4591,7 +4591,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!WorkerShardingStrategy#send:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sends a payload to a shard\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4655,7 +4655,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!WorkerShardingStrategy#spawn:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Spawns all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
