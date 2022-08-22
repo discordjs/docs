@@ -4,6 +4,8 @@
 builders/
 collection/
 discord.js/
+legacy/
 proxy/
 rest/
 voice/
+ws/
