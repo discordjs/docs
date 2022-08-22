@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.29.2",
+    "toolVersion": "7.29.3",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -4319,7 +4319,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/rest!RequestData#dispatcher:member",
-              "docComment": "/**\n * The {@link https://undici.nodejs.org/#/docs/api/Agent Agent} to use for the request.\n */\n",
+              "docComment": "/**\n * The {@link https://undici.nodejs.org/#/docs/api/Agent | Agent} to use for the request.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4690,7 +4690,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/rest!RequestManager#agent:member",
-              "docComment": "/**\n * The {@link https://undici.nodejs.org/#/docs/api/Agent Agent} for all requests performed by this manager.\n */\n",
+              "docComment": "/**\n * The {@link https://undici.nodejs.org/#/docs/api/Agent | Agent} for all requests performed by this manager.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7556,7 +7556,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/rest!RESTOptions#userAgentAppendix:member",
-              "docComment": "/**\n * Extra information to add to the user agent\n *\n * @defaultValue\n *\n * ``Node.js ${process.version}``\n */\n",
+              "docComment": "/**\n * Extra information to add to the user agent\n *\n * @defaultValue\n *\n * `Node.js ${process.version}`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
