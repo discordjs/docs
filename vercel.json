@@ -2,6 +2,9 @@
 	"functions": {
 		"api/index.ts": {
 			"includeFiles": "{builders,collection,discord.js,legacy,proxy,rest,voice,ws}/**"
+		},
+		"api/info.ts": {
+			"includeFiles": "{builders,collection,discord.js,legacy,proxy,rest,voice,ws}/**"
 		}
 	},
 	"trailingSlash": false,
