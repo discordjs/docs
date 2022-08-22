@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.29.2",
+    "toolVersion": "7.29.3",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -553,7 +553,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!AudioPlayer#on:member(1)",
-              "docComment": "/**\n * Emitted when there is an error emitted from the audio resource played by the audio player  @event\n */\n",
+              "docComment": "/**\n * Emitted when there is an error emitted from the audio resource played by the audio player\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -623,7 +623,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!AudioPlayer#on:member(2)",
-              "docComment": "/**\n * Emitted debugging information about the audio player  @event\n */\n",
+              "docComment": "/**\n * Emitted debugging information about the audio player\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -684,7 +684,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!AudioPlayer#on:member(3)",
-              "docComment": "/**\n * Emitted when the state of the audio player changes  @event\n */\n",
+              "docComment": "/**\n * Emitted when the state of the audio player changes\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -763,7 +763,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!AudioPlayer#on:member(4)",
-              "docComment": "/**\n * Emitted when the audio player is subscribed to a voice connection  @event\n */\n",
+              "docComment": "/**\n * Emitted when the audio player is subscribed to a voice connection\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -833,7 +833,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!AudioPlayer#on:member(5)",
-              "docComment": "/**\n * Emitted when the status of state changes to a specific status  @event\n */\n",
+              "docComment": "/**\n * Emitted when the status of state changes to a specific status\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2003,7 +2003,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/voice!AudioResource:class",
-          "docComment": "/**\n * Represents an audio resource that can be played by an audio player.\n *\n * @template T - the type for the metadata (if any) of the audio resource\n */\n",
+          "docComment": "/**\n * Represents an audio resource that can be played by an audio player.\n *\n * @typeParam T - the type for the metadata (if any) of the audio resource\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2638,7 +2638,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/voice!createAudioResource:function(1)",
-          "docComment": "/**\n * Creates an audio resource that can be played by audio players.\n *\n * @remarks\n *\n * If the input is given as a string, then the inputType option will be overridden and FFmpeg will be used.\n *\n * If the input is not in the correct format, then a pipeline of transcoders and transformers will be created to ensure that the resultant stream is in the correct format for playback. This could involve using FFmpeg, Opus transcoders, and Ogg/WebM demuxers.\n *\n * @param input - The resource to play\n *\n * @param options - Configurable options for creating the resource\n *\n * @template T - the type for the metadata (if any) of the audio resource\n */\n",
+          "docComment": "/**\n * Creates an audio resource that can be played by audio players.\n *\n * @remarks\n *\n * If the input is given as a string, then the inputType option will be overridden and FFmpeg will be used.\n *\n * If the input is not in the correct format, then a pipeline of transcoders and transformers will be created to ensure that the resultant stream is in the correct format for playback. This could involve using FFmpeg, Opus transcoders, and Ogg/WebM demuxers.\n *\n * @param input - The resource to play\n *\n * @param options - Configurable options for creating the resource\n *\n * @typeParam T - the type for the metadata (if any) of the audio resource\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2762,7 +2762,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/voice!createAudioResource:function(2)",
-          "docComment": "/**\n * Creates an audio resource that can be played by audio players.\n *\n * @remarks\n *\n * If the input is given as a string, then the inputType option will be overridden and FFmpeg will be used.\n *\n * If the input is not in the correct format, then a pipeline of transcoders and transformers will be created to ensure that the resultant stream is in the correct format for playback. This could involve using FFmpeg, Opus transcoders, and Ogg/WebM demuxers.\n *\n * @param input - The resource to play\n *\n * @param options - Configurable options for creating the resource\n *\n * @template T - the type for the metadata (if any) of the audio resource\n */\n",
+          "docComment": "/**\n * Creates an audio resource that can be played by audio players.\n *\n * @remarks\n *\n * If the input is given as a string, then the inputType option will be overridden and FFmpeg will be used.\n *\n * If the input is not in the correct format, then a pipeline of transcoders and transformers will be created to ensure that the resultant stream is in the correct format for playback. This could involve using FFmpeg, Opus transcoders, and Ogg/WebM demuxers.\n *\n * @param input - The resource to play\n *\n * @param options - Configurable options for creating the resource\n *\n * @typeParam T - the type for the metadata (if any) of the audio resource\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2867,7 +2867,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface",
-          "docComment": "/**\n * Options that are set when creating a new audio resource.\n *\n * @template T - the type for the metadata (if any) of the audio resource\n */\n",
+          "docComment": "/**\n * Options that are set when creating a new audio resource.\n *\n * @typeParam T - the type for the metadata (if any) of the audio resource\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4865,7 +4865,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!SpeakingMap#on:member(1)",
-              "docComment": "/**\n * Emitted when a user starts speaking.  @event\n */\n",
+              "docComment": "/**\n * Emitted when a user starts speaking.\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4926,7 +4926,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!SpeakingMap#on:member(2)",
-              "docComment": "/**\n * Emitted when a user ends speaking.  @event\n */\n",
+              "docComment": "/**\n * Emitted when a user ends speaking.\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6285,7 +6285,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!VoiceConnection#on:member(1)",
-              "docComment": "/**\n * Emitted when there is an error emitted from the voice connection  @event\n */\n",
+              "docComment": "/**\n * Emitted when there is an error emitted from the voice connection\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6355,7 +6355,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!VoiceConnection#on:member(2)",
-              "docComment": "/**\n * Emitted debugging information about the voice connection  @event\n */\n",
+              "docComment": "/**\n * Emitted debugging information about the voice connection\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6416,7 +6416,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!VoiceConnection#on:member(3)",
-              "docComment": "/**\n * Emitted when the state of the voice connection changes  @event\n */\n",
+              "docComment": "/**\n * Emitted when the state of the voice connection changes\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6495,7 +6495,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/voice!VoiceConnection#on:member(4)",
-              "docComment": "/**\n * Emitted when the state of the voice connection changes to a specific status  @event\n */\n",
+              "docComment": "/**\n * Emitted when the state of the voice connection changes to a specific status\n *\n * @eventProperty\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
