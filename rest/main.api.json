@@ -2096,7 +2096,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/rest!DiscordAPIError:class",
-          "docComment": "/**\n * Represents an API error returned by Discord  @extends Error\n */\n",
+          "docComment": "/**\n * Represents an API error returned by Discord\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2191,7 +2191,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'files' | 'body'>"
+                  "text": ", 'body' | 'files'>"
                 },
                 {
                   "kind": "Content",
@@ -2597,7 +2597,7 @@
             },
             {
               "kind": "Content",
-              "text": ", 'files' | 'body' | 'auth'>"
+              "text": ", 'auth' | 'body' | 'files'>"
             },
             {
               "kind": "Content",
@@ -2691,7 +2691,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'files' | 'body'>"
+                  "text": ", 'body' | 'files'>"
                 },
                 {
                   "kind": "Content",
@@ -3118,13 +3118,8 @@
                   "text": "allowedExtensions?: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "ReadonlyArray",
-                  "canonicalReference": "!ReadonlyArray:interface"
-                },
-                {
                   "kind": "Content",
-                  "text": "<string>"
+                  "text": "readonly string[]"
                 },
                 {
                   "kind": "Content",
@@ -3137,7 +3132,7 @@
               "name": "allowedExtensions",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 2
               }
             },
             {
@@ -3960,7 +3955,7 @@
             },
             {
               "kind": "Content",
-              "text": ") => boolean | "
+              "text": ") => "
             },
             {
               "kind": "Reference",
@@ -3969,7 +3964,7 @@
             },
             {
               "kind": "Content",
-              "text": "<boolean>"
+              "text": "<boolean> | boolean"
             },
             {
               "kind": "Content",
@@ -4034,13 +4029,13 @@
                   "text": "data: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "string | number | boolean | "
-                },
-                {
                   "kind": "Reference",
                   "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\"~__global.Buffer:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | boolean | number | string"
                 },
                 {
                   "kind": "Content",
@@ -4268,7 +4263,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "'Bot' | 'Bearer'"
+                  "text": "'Bearer' | 'Bot'"
                 },
                 {
                   "kind": "Content",
@@ -4447,7 +4442,7 @@
                 {
                   "kind": "Reference",
                   "text": "URLSearchParams",
-                  "canonicalReference": "!\"\\\"url\\\"\"~__global.URLSearchParams:interface"
+                  "canonicalReference": "!\"\\\"url\\\"\".URLSearchParams:class"
                 },
                 {
                   "kind": "Content",
@@ -7226,7 +7221,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "'Bot' | 'Bearer'"
+                  "text": "'Bearer' | 'Bot'"
                 },
                 {
                   "kind": "Content",
@@ -7473,17 +7468,13 @@
                   "text": "rejectOnRateLimit: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "string[] | "
-                },
-                {
                   "kind": "Reference",
                   "text": "RateLimitQueueFilter",
                   "canonicalReference": "@discordjs/rest!RateLimitQueueFilter:type"
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | string[] | null"
                 },
                 {
                   "kind": "Content",
@@ -7496,7 +7487,7 @@
               "name": "rejectOnRateLimit",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 4
+                "endIndex": 3
               }
             },
             {
