@@ -1400,8 +1400,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "AudioPlayerStatus.Paused",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Paused:member"
+                  "text": "AudioPlayerStatus.AutoPaused",
+                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.AutoPaused:member"
                 },
                 {
                   "kind": "Content",
@@ -1409,8 +1409,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "AudioPlayerStatus.AutoPaused",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.AutoPaused:member"
+                  "text": "AudioPlayerStatus.Paused",
+                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Paused:member"
                 },
                 {
                   "kind": "Content",
@@ -1603,15 +1603,6 @@
             },
             {
               "kind": "Reference",
-              "text": "AudioPlayerIdleState",
-              "canonicalReference": "@discordjs/voice!AudioPlayerIdleState:interface"
-            },
-            {
-              "kind": "Content",
-              "text": " | "
-            },
-            {
-              "kind": "Reference",
               "text": "AudioPlayerBufferingState",
               "canonicalReference": "@discordjs/voice!AudioPlayerBufferingState:interface"
             },
@@ -1621,8 +1612,8 @@
             },
             {
               "kind": "Reference",
-              "text": "AudioPlayerPlayingState",
-              "canonicalReference": "@discordjs/voice!AudioPlayerPlayingState:interface"
+              "text": "AudioPlayerIdleState",
+              "canonicalReference": "@discordjs/voice!AudioPlayerIdleState:interface"
             },
             {
               "kind": "Content",
@@ -1632,6 +1623,15 @@
               "kind": "Reference",
               "text": "AudioPlayerPausedState",
               "canonicalReference": "@discordjs/voice!AudioPlayerPausedState:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "AudioPlayerPlayingState",
+              "canonicalReference": "@discordjs/voice!AudioPlayerPlayingState:interface"
             },
             {
               "kind": "Content",
@@ -2580,7 +2580,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "{\n        noSubscriber?: "
+                  "text": "{\n        maxMissedFrames?: number;\n        noSubscriber?: "
                 },
                 {
                   "kind": "Reference",
@@ -2589,7 +2589,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ";\n        maxMissedFrames?: number;\n    }"
+                  "text": ";\n    }"
                 },
                 {
                   "kind": "Content",
@@ -2645,13 +2645,13 @@
               "text": "export declare function createAudioResource<T>(input: "
             },
             {
-              "kind": "Content",
-              "text": "string | "
-            },
-            {
               "kind": "Reference",
               "text": "Readable",
               "canonicalReference": "!\"\\\"stream\\\"\"~internal.Readable:class"
+            },
+            {
+              "kind": "Content",
+              "text": " | string"
             },
             {
               "kind": "Content",
@@ -2777,13 +2777,13 @@
               "text": ">(input: "
             },
             {
-              "kind": "Content",
-              "text": "string | "
-            },
-            {
               "kind": "Reference",
               "text": "Readable",
               "canonicalReference": "!\"\\\"stream\\\"\"~internal.Readable:class"
+            },
+            {
+              "kind": "Content",
+              "text": " | string"
             },
             {
               "kind": "Content",
@@ -3253,58 +3253,77 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods#destroy:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods#destroy:member(1)",
               "docComment": "/**\n * This will be called by \\@discordjs/voice when the adapter can safely be destroyed as it will no longer be used.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "destroy: "
+                  "text": "destroy(): "
                 },
                 {
                   "kind": "Content",
-                  "text": "() => void"
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
-              "releaseTag": "Public",
-              "name": "destroy",
-              "propertyTypeTokenRange": {
+              "returnTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              }
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [],
+              "name": "destroy"
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods#sendPayload:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods#sendPayload:member(1)",
               "docComment": "/**\n * Implement this method such that the given payload is sent to the main Discord gateway connection.\n *\n * @param payload - The payload to send to the main Discord gateway connection\n *\n * @returns `false` if the payload definitely failed to send - in this case, the voice connection disconnects\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "sendPayload: "
+                  "text": "sendPayload(payload: "
                 },
                 {
                   "kind": "Content",
-                  "text": "(payload: any) => boolean"
+                  "text": "any"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
               "releaseTag": "Public",
-              "name": "sendPayload",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "payload",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "sendPayload"
             }
           ],
           "extendsTokenRanges": []
@@ -3324,44 +3343,41 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterLibraryMethods#destroy:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterLibraryMethods#destroy:member(1)",
               "docComment": "/**\n * Call this when the adapter can no longer be used (e.g. due to a disconnect from the main gateway)\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "destroy: "
+                  "text": "destroy(): "
                 },
                 {
                   "kind": "Content",
-                  "text": "() => void"
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
-              "releaseTag": "Public",
-              "name": "destroy",
-              "propertyTypeTokenRange": {
+              "returnTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              }
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [],
+              "name": "destroy"
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterLibraryMethods#onVoiceServerUpdate:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterLibraryMethods#onVoiceServerUpdate:member(1)",
               "docComment": "/**\n * Call this when you receive a VOICE_SERVER_UPDATE payload that is relevant to the adapter.\n *\n * @param data - The inner data of the VOICE_SERVER_UPDATE payload\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "onVoiceServerUpdate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "(data: "
+                  "text": "onVoiceServerUpdate(data: "
                 },
                 {
                   "kind": "Reference",
@@ -3370,34 +3386,44 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
-              "releaseTag": "Public",
-              "name": "onVoiceServerUpdate",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
                 "endIndex": 4
-              }
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "onVoiceServerUpdate"
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterLibraryMethods#onVoiceStateUpdate:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterLibraryMethods#onVoiceStateUpdate:member(1)",
               "docComment": "/**\n * Call this when you receive a VOICE_STATE_UPDATE payload that is relevant to the adapter.\n *\n * @param data - The inner data of the VOICE_STATE_UPDATE payload\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "onVoiceStateUpdate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "(data: "
+                  "text": "onVoiceStateUpdate(data: "
                 },
                 {
                   "kind": "Reference",
@@ -3406,21 +3432,35 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
-              "releaseTag": "Public",
-              "name": "onVoiceStateUpdate",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
                 "endIndex": 4
-              }
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "onVoiceStateUpdate"
             }
           ],
           "extendsTokenRanges": []
@@ -3440,12 +3480,12 @@
             },
             {
               "kind": "Reference",
-              "text": "EndBehaviorType.Manual",
-              "canonicalReference": "@discordjs/voice!EndBehaviorType.Manual:member"
+              "text": "EndBehaviorType.AfterInactivity",
+              "canonicalReference": "@discordjs/voice!EndBehaviorType.AfterInactivity:member"
             },
             {
               "kind": "Content",
-              "text": ";\n} | {\n    behavior: "
+              "text": " | "
             },
             {
               "kind": "Reference",
@@ -3454,16 +3494,16 @@
             },
             {
               "kind": "Content",
-              "text": " | "
+              "text": ";\n    duration: number;\n} | {\n    behavior: "
             },
             {
               "kind": "Reference",
-              "text": "EndBehaviorType.AfterInactivity",
-              "canonicalReference": "@discordjs/voice!EndBehaviorType.AfterInactivity:member"
+              "text": "EndBehaviorType.Manual",
+              "canonicalReference": "@discordjs/voice!EndBehaviorType.Manual:member"
             },
             {
               "kind": "Content",
-              "text": ";\n    duration: number;\n}"
+              "text": ";\n}"
             },
             {
               "kind": "Content",
@@ -3584,13 +3624,13 @@
               "text": ", timeoutOrSignal: "
             },
             {
-              "kind": "Content",
-              "text": "number | "
-            },
-            {
               "kind": "Reference",
               "text": "AbortSignal",
               "canonicalReference": "!AbortSignal:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | number"
             },
             {
               "kind": "Content",
@@ -3681,13 +3721,13 @@
               "text": ", timeoutOrSignal: "
             },
             {
-              "kind": "Content",
-              "text": "number | "
-            },
-            {
               "kind": "Reference",
               "text": "AbortSignal",
               "canonicalReference": "!AbortSignal:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | number"
             },
             {
               "kind": "Content",
@@ -4163,7 +4203,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/voice!joinVoiceChannel:function(1)",
-          "docComment": "/**\n * Creates a VoiceConnection to a Discord voice channel.\n *\n * @param voiceChannel - the voice channel to connect to\n *\n * @param options - the options for joining the voice channel\n */\n",
+          "docComment": "/**\n * Creates a VoiceConnection to a Discord voice channel.\n *\n * @param options - the options for joining the voice channel\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4171,8 +4211,8 @@
             },
             {
               "kind": "Reference",
-              "text": "JoinVoiceChannelOptions",
-              "canonicalReference": "@discordjs/voice!JoinVoiceChannelOptions:interface"
+              "text": "CreateVoiceConnectionOptions",
+              "canonicalReference": "@discordjs/voice!CreateVoiceConnectionOptions:interface"
             },
             {
               "kind": "Content",
@@ -4180,8 +4220,8 @@
             },
             {
               "kind": "Reference",
-              "text": "CreateVoiceConnectionOptions",
-              "canonicalReference": "@discordjs/voice!CreateVoiceConnectionOptions:interface"
+              "text": "JoinVoiceChannelOptions",
+              "canonicalReference": "@discordjs/voice!JoinVoiceChannelOptions:interface"
             },
             {
               "kind": "Content",
@@ -6048,7 +6088,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'guildId' | 'group'>"
+                  "text": ", 'group' | 'guildId'>"
                 },
                 {
                   "kind": "Content",
@@ -7435,8 +7475,17 @@
             },
             {
               "kind": "Reference",
-              "text": "VoiceConnectionSignallingState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionSignallingState:interface"
+              "text": "VoiceConnectionConnectingState",
+              "canonicalReference": "@discordjs/voice!VoiceConnectionConnectingState:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "VoiceConnectionDestroyedState",
+              "canonicalReference": "@discordjs/voice!VoiceConnectionDestroyedState:interface"
             },
             {
               "kind": "Content",
@@ -7453,15 +7502,6 @@
             },
             {
               "kind": "Reference",
-              "text": "VoiceConnectionConnectingState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionConnectingState:interface"
-            },
-            {
-              "kind": "Content",
-              "text": " | "
-            },
-            {
-              "kind": "Reference",
               "text": "VoiceConnectionReadyState",
               "canonicalReference": "@discordjs/voice!VoiceConnectionReadyState:interface"
             },
@@ -7471,8 +7511,8 @@
             },
             {
               "kind": "Reference",
-              "text": "VoiceConnectionDestroyedState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionDestroyedState:interface"
+              "text": "VoiceConnectionSignallingState",
+              "canonicalReference": "@discordjs/voice!VoiceConnectionSignallingState:interface"
             },
             {
               "kind": "Content",
