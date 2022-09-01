@@ -488,7 +488,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, V | T>"
+                  "text": "<K, T | V>"
                 },
                 {
                   "kind": "Content",
@@ -4980,15 +4980,6 @@
             },
             {
               "kind": "Reference",
-              "text": "ReadonlyMap",
-              "canonicalReference": "!ReadonlyMap:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "<K, V> & "
-            },
-            {
-              "kind": "Reference",
               "text": "Omit",
               "canonicalReference": "!Omit:type"
             },
@@ -5003,7 +4994,16 @@
             },
             {
               "kind": "Content",
-              "text": "<K, V>, 'forEach' | 'ensure' | 'reverse' | 'sweep' | 'sort' | 'get' | 'set' | 'delete'>"
+              "text": "<K, V>, 'delete' | 'ensure' | 'forEach' | 'get' | 'reverse' | 'set' | 'sort' | 'sweep'> & "
+            },
+            {
+              "kind": "Reference",
+              "text": "ReadonlyMap",
+              "canonicalReference": "!ReadonlyMap:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<K, V>"
             },
             {
               "kind": "Content",
