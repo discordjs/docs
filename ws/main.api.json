@@ -182,17 +182,13 @@
               "text": "export declare type Awaitable<T> = "
             },
             {
-              "kind": "Content",
-              "text": "T | "
-            },
-            {
               "kind": "Reference",
               "text": "Promise",
               "canonicalReference": "!Promise:interface"
             },
             {
               "kind": "Content",
-              "text": "<T>"
+              "text": "<T> | T"
             },
             {
               "kind": "Content",
@@ -216,7 +212,7 @@
           ],
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 4
+            "endIndex": 3
           }
         },
         {
@@ -421,7 +417,7 @@
             },
             {
               "kind": "Content",
-              "text": ", 'retrieveSessionInfo' | 'updateSessionInfo' | 'shardCount' | 'shardIds' | 'rest'>"
+              "text": ", 'rest' | 'retrieveSessionInfo' | 'shardCount' | 'shardIds' | 'updateSessionInfo'>"
             },
             {
               "kind": "Content",
@@ -538,17 +534,21 @@
               }
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!IContextFetchingStrategy#retrieveSessionInfo:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IContextFetchingStrategy#retrieveSessionInfo:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "retrieveSessionInfo: "
+                  "text": "retrieveSessionInfo(shardId: "
                 },
                 {
                   "kind": "Content",
-                  "text": "(shardId: number) => "
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -573,27 +573,41 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
               "releaseTag": "Public",
-              "name": "retrieveSessionInfo",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "retrieveSessionInfo"
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!IContextFetchingStrategy#updateSessionInfo:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IContextFetchingStrategy#updateSessionInfo:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "updateSessionInfo: "
+                  "text": "updateSessionInfo(shardId: "
                 },
                 {
                   "kind": "Content",
-                  "text": "(shardId: number, sessionInfo: "
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", sessionInfo: "
                 },
                 {
                   "kind": "Reference",
@@ -602,7 +616,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null) => "
+                  "text": " | null"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -618,14 +636,32 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 8
+              },
               "releaseTag": "Public",
-              "name": "updateSessionInfo",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "sessionInfo",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 5
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "updateSessionInfo"
             }
           ],
           "extendsTokenRanges": []
@@ -766,17 +802,13 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!IShardingStrategy#connect:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IShardingStrategy#connect:member(1)",
               "docComment": "/**\n * Initializes all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "connect: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "() => "
+                  "text": "connect(): "
                 },
                 {
                   "kind": "Reference",
@@ -792,27 +824,24 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
-              "releaseTag": "Public",
-              "name": "connect",
-              "propertyTypeTokenRange": {
+              "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 4
-              }
+                "endIndex": 3
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [],
+              "name": "connect"
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!IShardingStrategy#destroy:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IShardingStrategy#destroy:member(1)",
               "docComment": "/**\n * Destroys all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "destroy: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "(options?: "
+                  "text": "destroy(options?: "
                 },
                 {
                   "kind": "Reference",
@@ -830,7 +859,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'recover'>) => "
+                  "text": ", 'recover'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -846,27 +879,41 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
-              "releaseTag": "Public",
-              "name": "destroy",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
+              "returnTypeTokenRange": {
+                "startIndex": 6,
                 "endIndex": 8
-              }
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ],
+              "name": "destroy"
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!IShardingStrategy#send:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IShardingStrategy#send:member(1)",
               "docComment": "/**\n * Sends a payload to a shard\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "send: "
+                  "text": "send(shardId: "
                 },
                 {
                   "kind": "Content",
-                  "text": "(shardId: number, payload: "
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", payload: "
                 },
                 {
                   "kind": "Reference",
@@ -875,7 +922,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => "
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -891,27 +938,49 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 7
+              },
               "releaseTag": "Public",
-              "name": "send",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "payload",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "send"
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!IShardingStrategy#spawn:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IShardingStrategy#spawn:member(1)",
               "docComment": "/**\n * Spawns all the shards\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "spawn: "
+                  "text": "spawn(shardIds: "
                 },
                 {
                   "kind": "Content",
-                  "text": "(shardIds: number[]) => "
+                  "text": "number[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -927,14 +996,24 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 5
+              },
               "releaseTag": "Public",
-              "name": "spawn",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "shardIds",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "spawn"
             }
           ],
           "extendsTokenRanges": []
@@ -1350,17 +1429,21 @@
               }
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions#retrieveSessionInfo:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions#retrieveSessionInfo:member(1)",
               "docComment": "/**\n * Function used to retrieve session information (and attempt to resume) for a given shard\n *\n * @example\n * ```ts\n * const manager = new WebSocketManager({\n *   async retrieveSessionInfo(shardId): Awaitable<SessionInfo | null> {\n *     // Fetch this info from redis or similar\n *     return { sessionId: string, sequence: number };\n *     // Return null if no information is found\n *   },\n * });\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "retrieveSessionInfo: "
+                  "text": "retrieveSessionInfo(shardId: "
                 },
                 {
                   "kind": "Content",
-                  "text": "(shardId: number) => "
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -1385,14 +1468,24 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
               "releaseTag": "Public",
-              "name": "retrieveSessionInfo",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "retrieveSessionInfo"
             },
             {
               "kind": "PropertySignature",
@@ -1458,17 +1551,21 @@
               }
             },
             {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions#updateSessionInfo:member",
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions#updateSessionInfo:member(1)",
               "docComment": "/**\n * Function used to store session information for a given shard\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "updateSessionInfo: "
+                  "text": "updateSessionInfo(shardId: "
                 },
                 {
                   "kind": "Content",
-                  "text": "(shardId: number, sessionInfo: "
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", sessionInfo: "
                 },
                 {
                   "kind": "Reference",
@@ -1477,7 +1574,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null) => "
+                  "text": " | null"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -1493,14 +1594,32 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": false,
               "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 8
+              },
               "releaseTag": "Public",
-              "name": "updateSessionInfo",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "sessionInfo",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 5
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "updateSessionInfo"
             },
             {
               "kind": "PropertySignature",
@@ -2096,7 +2215,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "import(\"../..\")."
+                  "text": "import(\"../../index.js\")."
                 },
                 {
                   "kind": "Reference",
@@ -2482,15 +2601,6 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RequiredWebSocketManagerOptions",
-                  "canonicalReference": "@discordjs/ws!RequiredWebSocketManagerOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": " & "
-                },
-                {
-                  "kind": "Reference",
                   "text": "Partial",
                   "canonicalReference": "!Partial:type"
                 },
@@ -2505,7 +2615,12 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ">"
+                  "text": "> & "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequiredWebSocketManagerOptions",
+                  "canonicalReference": "@discordjs/ws!RequiredWebSocketManagerOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -2520,7 +2635,7 @@
                   "parameterName": "options",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 7
+                    "endIndex": 6
                   },
                   "isOptional": false
                 }
@@ -2992,8 +3107,8 @@
             },
             {
               "kind": "Reference",
-              "text": "RequiredWebSocketManagerOptions",
-              "canonicalReference": "@discordjs/ws!RequiredWebSocketManagerOptions:interface"
+              "text": "OptionalWebSocketManagerOptions",
+              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions:interface"
             },
             {
               "kind": "Content",
@@ -3001,8 +3116,8 @@
             },
             {
               "kind": "Reference",
-              "text": "OptionalWebSocketManagerOptions",
-              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions:interface"
+              "text": "RequiredWebSocketManagerOptions",
+              "canonicalReference": "@discordjs/ws!RequiredWebSocketManagerOptions:interface"
             },
             {
               "kind": "Content",
@@ -4028,7 +4143,34 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    op: "
+              "text": "{\n    data: any;\n    event: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WebSocketShardEvents",
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents:enum"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    op: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WorkerRecievePayloadOp.Event",
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Event:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    shardId: number;\n} | {\n    nonce: number;\n    op: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WorkerRecievePayloadOp.RetrieveSessionInfo",
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.RetrieveSessionInfo:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    shardId: number;\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -4050,39 +4192,12 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.Event",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Event:member"
-            },
-            {
-              "kind": "Content",
-              "text": ";\n    shardId: number;\n    event: "
-            },
-            {
-              "kind": "Reference",
-              "text": "WebSocketShardEvents",
-              "canonicalReference": "@discordjs/ws!WebSocketShardEvents:enum"
-            },
-            {
-              "kind": "Content",
-              "text": ";\n    data: any;\n} | {\n    op: "
-            },
-            {
-              "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.RetrieveSessionInfo",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.RetrieveSessionInfo:member"
-            },
-            {
-              "kind": "Content",
-              "text": ";\n    shardId: number;\n    nonce: number;\n} | {\n    op: "
-            },
-            {
-              "kind": "Reference",
               "text": "WorkerRecievePayloadOp.UpdateSessionInfo",
               "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.UpdateSessionInfo:member"
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n    session: "
+              "text": ";\n    session: "
             },
             {
               "kind": "Reference",
@@ -4091,7 +4206,7 @@
             },
             {
               "kind": "Content",
-              "text": " | null;\n}"
+              "text": " | null;\n    shardId: number;\n}"
             },
             {
               "kind": "Content",
@@ -4237,7 +4352,25 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    op: "
+              "text": "{\n    nonce: number;\n    op: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WorkerSendPayloadOp.SessionInfoResponse",
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.SessionInfoResponse:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    session: "
+            },
+            {
+              "kind": "Reference",
+              "text": "SessionInfo",
+              "canonicalReference": "@discordjs/ws!SessionInfo:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | null;\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -4255,7 +4388,7 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n    options?: "
+              "text": ";\n    options?: "
             },
             {
               "kind": "Reference",
@@ -4264,7 +4397,7 @@
             },
             {
               "kind": "Content",
-              "text": ";\n} | {\n    op: "
+              "text": ";\n    shardId: number;\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -4273,7 +4406,7 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n    payload: "
+              "text": ";\n    payload: "
             },
             {
               "kind": "Reference",
@@ -4282,25 +4415,7 @@
             },
             {
               "kind": "Content",
-              "text": ";\n} | {\n    op: "
-            },
-            {
-              "kind": "Reference",
-              "text": "WorkerSendPayloadOp.SessionInfoResponse",
-              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.SessionInfoResponse:member"
-            },
-            {
-              "kind": "Content",
-              "text": ";\n    nonce: number;\n    session: "
-            },
-            {
-              "kind": "Reference",
-              "text": "SessionInfo",
-              "canonicalReference": "@discordjs/ws!SessionInfo:interface"
-            },
-            {
-              "kind": "Content",
-              "text": " | null;\n}"
+              "text": ";\n    shardId: number;\n}"
             },
             {
               "kind": "Content",
