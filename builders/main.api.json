@@ -4134,8 +4134,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPostAPIApplicationCommandsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIApplicationCommandsJSONBody:type"
+                  "text": "RESTPostAPIContextMenuApplicationCommandsJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPostAPIContextMenuApplicationCommandsJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -12825,8 +12825,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPostAPIApplicationCommandsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIApplicationCommandsJSONBody:type"
+                  "text": "RESTPostAPIChatInputApplicationCommandsJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPostAPIChatInputApplicationCommandsJSONBody:type"
                 },
                 {
                   "kind": "Content",
