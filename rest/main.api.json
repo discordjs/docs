@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.29.5",
+    "toolVersion": "7.30.0",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -3326,7 +3326,7 @@
             {
               "kind": "Reference",
               "text": "Dispatcher.ResponseData",
-              "canonicalReference": "undici!~Dispatcher.ResponseData:interface"
+              "canonicalReference": "undici!Dispatcher.ResponseData:interface"
             },
             {
               "kind": "Content",
@@ -4031,7 +4031,7 @@
                 {
                   "kind": "Reference",
                   "text": "Buffer",
-                  "canonicalReference": "!\"\\\"buffer\\\"\"~__global.Buffer:interface"
+                  "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
                   "kind": "Content",
@@ -4323,7 +4323,7 @@
                 {
                   "kind": "Reference",
                   "text": "Agent",
-                  "canonicalReference": "undici!~Agent:class"
+                  "canonicalReference": "undici!Agent:class"
                 },
                 {
                   "kind": "Content",
@@ -4625,7 +4625,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\"~EventEmitter:class"
+              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
             },
             {
               "kind": "Content",
@@ -4694,7 +4694,7 @@
                 {
                   "kind": "Reference",
                   "text": "Dispatcher",
-                  "canonicalReference": "undici!~Dispatcher:class"
+                  "canonicalReference": "undici!Dispatcher:class"
                 },
                 {
                   "kind": "Content",
@@ -4880,7 +4880,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!~Collection:class"
+                  "canonicalReference": "@discordjs/collection!Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -4923,7 +4923,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!~Collection:class"
+                  "canonicalReference": "@discordjs/collection!Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -5014,7 +5014,7 @@
                 {
                   "kind": "Reference",
                   "text": "Dispatcher.ResponseData",
-                  "canonicalReference": "undici!~Dispatcher.ResponseData:interface"
+                  "canonicalReference": "undici!Dispatcher.ResponseData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5058,7 +5058,7 @@
                 {
                   "kind": "Reference",
                   "text": "Dispatcher",
-                  "canonicalReference": "undici!~Dispatcher:class"
+                  "canonicalReference": "undici!Dispatcher:class"
                 },
                 {
                   "kind": "Content",
@@ -5622,7 +5622,7 @@
             {
               "kind": "Reference",
               "text": "request",
-              "canonicalReference": "undici!~request:function"
+              "canonicalReference": "undici!request:function"
             },
             {
               "kind": "Content",
@@ -5652,7 +5652,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\"~EventEmitter:class"
+              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
             },
             {
               "kind": "Content",
@@ -5891,7 +5891,7 @@
                 {
                   "kind": "Reference",
                   "text": "Dispatcher",
-                  "canonicalReference": "undici!~Dispatcher:class"
+                  "canonicalReference": "undici!Dispatcher:class"
                 },
                 {
                   "kind": "Content",
@@ -6154,7 +6154,7 @@
                 {
                   "kind": "Reference",
                   "text": "Dispatcher.ResponseData",
-                  "canonicalReference": "undici!~Dispatcher.ResponseData:interface"
+                  "canonicalReference": "undici!Dispatcher.ResponseData:interface"
                 },
                 {
                   "kind": "Content",
@@ -6281,7 +6281,7 @@
                 {
                   "kind": "Reference",
                   "text": "Dispatcher",
-                  "canonicalReference": "undici!~Dispatcher:class"
+                  "canonicalReference": "undici!Dispatcher:class"
                 },
                 {
                   "kind": "Content",
@@ -6866,7 +6866,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!~Collection:class"
+                  "canonicalReference": "@discordjs/collection!Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -6911,7 +6911,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!~Collection:class"
+                  "canonicalReference": "@discordjs/collection!Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -7091,7 +7091,7 @@
                 {
                   "kind": "Reference",
                   "text": "Dispatcher.ResponseData",
-                  "canonicalReference": "undici!~Dispatcher.ResponseData:interface"
+                  "canonicalReference": "undici!Dispatcher.ResponseData:interface"
                 },
                 {
                   "kind": "Content",
@@ -7167,7 +7167,7 @@
                 {
                   "kind": "Reference",
                   "text": "Dispatcher",
-                  "canonicalReference": "undici!~Dispatcher:class"
+                  "canonicalReference": "undici!Dispatcher:class"
                 },
                 {
                   "kind": "Content",
