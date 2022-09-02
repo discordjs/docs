@@ -179,7 +179,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class AudioPlayer extends "
+              "text": "declare class AudioPlayer extends "
             },
             {
               "kind": "Reference",
@@ -207,7 +207,7 @@
                 {
                   "kind": "Reference",
                   "text": "CreateAudioPlayerOptions",
-                  "canonicalReference": "@discordjs/voice!CreateAudioPlayerOptions:interface"
+                  "canonicalReference": "@discordjs/voice!~CreateAudioPlayerOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -317,7 +317,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -382,7 +382,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -416,7 +416,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -425,7 +425,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -534,7 +534,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface AudioPlayer extends "
+              "text": "interface AudioPlayer extends "
             },
             {
               "kind": "Reference",
@@ -574,7 +574,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerError",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerError:class"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerError:class"
                 },
                 {
                   "kind": "Content",
@@ -705,7 +705,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -714,7 +714,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -784,7 +784,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -842,7 +842,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus:enum"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus:enum"
                 },
                 {
                   "kind": "Content",
@@ -863,7 +863,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -872,7 +872,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -946,7 +946,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface AudioPlayerBufferingState "
+              "text": "interface AudioPlayerBufferingState "
             }
           ],
           "releaseTag": "Public",
@@ -1055,7 +1055,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1083,7 +1083,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.Buffering",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Buffering:member"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.Buffering:member"
                 },
                 {
                   "kind": "Content",
@@ -1109,7 +1109,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class AudioPlayerError extends "
+              "text": "declare class AudioPlayerError extends "
             },
             {
               "kind": "Reference",
@@ -1146,7 +1146,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1187,7 +1187,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1219,7 +1219,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface AudioPlayerIdleState "
+              "text": "interface AudioPlayerIdleState "
             }
           ],
           "releaseTag": "Public",
@@ -1238,7 +1238,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.Idle",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Idle:member"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.Idle:member"
                 },
                 {
                   "kind": "Content",
@@ -1264,7 +1264,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface AudioPlayerPausedState "
+              "text": "interface AudioPlayerPausedState "
             }
           ],
           "releaseTag": "Public",
@@ -1346,7 +1346,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1401,7 +1401,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.AutoPaused",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.AutoPaused:member"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.AutoPaused:member"
                 },
                 {
                   "kind": "Content",
@@ -1410,7 +1410,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.Paused",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Paused:member"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.Paused:member"
                 },
                 {
                   "kind": "Content",
@@ -1436,7 +1436,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface AudioPlayerPlayingState "
+              "text": "interface AudioPlayerPlayingState "
             }
           ],
           "releaseTag": "Public",
@@ -1545,7 +1545,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1573,7 +1573,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.Playing",
-                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Playing:member"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.Playing:member"
                 },
                 {
                   "kind": "Content",
@@ -1599,12 +1599,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type AudioPlayerState = "
+              "text": "declare type AudioPlayerState = "
             },
             {
               "kind": "Reference",
               "text": "AudioPlayerBufferingState",
-              "canonicalReference": "@discordjs/voice!AudioPlayerBufferingState:interface"
+              "canonicalReference": "@discordjs/voice!~AudioPlayerBufferingState:interface"
             },
             {
               "kind": "Content",
@@ -1613,7 +1613,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerIdleState",
-              "canonicalReference": "@discordjs/voice!AudioPlayerIdleState:interface"
+              "canonicalReference": "@discordjs/voice!~AudioPlayerIdleState:interface"
             },
             {
               "kind": "Content",
@@ -1622,7 +1622,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerPausedState",
-              "canonicalReference": "@discordjs/voice!AudioPlayerPausedState:interface"
+              "canonicalReference": "@discordjs/voice!~AudioPlayerPausedState:interface"
             },
             {
               "kind": "Content",
@@ -1631,7 +1631,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerPlayingState",
-              "canonicalReference": "@discordjs/voice!AudioPlayerPlayingState:interface"
+              "canonicalReference": "@discordjs/voice!~AudioPlayerPlayingState:interface"
             },
             {
               "kind": "Content",
@@ -1652,7 +1652,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum AudioPlayerStatus "
+              "text": "declare enum AudioPlayerStatus "
             }
           ],
           "releaseTag": "Public",
@@ -1773,7 +1773,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class AudioReceiveStream extends "
+              "text": "declare class AudioReceiveStream extends "
             },
             {
               "kind": "Reference",
@@ -1831,7 +1831,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioReceiveStreamOptions",
-                  "canonicalReference": "@discordjs/voice!AudioReceiveStreamOptions:interface"
+                  "canonicalReference": "@discordjs/voice!~AudioReceiveStreamOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1864,7 +1864,7 @@
                 {
                   "kind": "Reference",
                   "text": "EndBehavior",
-                  "canonicalReference": "@discordjs/voice!EndBehavior:type"
+                  "canonicalReference": "@discordjs/voice!~EndBehavior:type"
                 },
                 {
                   "kind": "Content",
@@ -1948,7 +1948,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface AudioReceiveStreamOptions extends "
+              "text": "interface AudioReceiveStreamOptions extends "
             },
             {
               "kind": "Reference",
@@ -1976,7 +1976,7 @@
                 {
                   "kind": "Reference",
                   "text": "EndBehavior",
-                  "canonicalReference": "@discordjs/voice!EndBehavior:type"
+                  "canonicalReference": "@discordjs/voice!~EndBehavior:type"
                 },
                 {
                   "kind": "Content",
@@ -2007,7 +2007,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class AudioResource<T = "
+              "text": "declare class AudioResource<T = "
             },
             {
               "kind": "Content",
@@ -2051,7 +2051,7 @@
                 {
                   "kind": "Reference",
                   "text": "Edge",
-                  "canonicalReference": "@discordjs/voice!Edge:interface"
+                  "canonicalReference": "@discordjs/voice!~Edge:interface"
                 },
                 {
                   "kind": "Content",
@@ -2145,7 +2145,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayer",
-                  "canonicalReference": "@discordjs/voice!AudioPlayer:class"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
                 },
                 {
                   "kind": "Content",
@@ -2183,7 +2183,7 @@
                 {
                   "kind": "Reference",
                   "text": "Edge",
-                  "canonicalReference": "@discordjs/voice!Edge:interface"
+                  "canonicalReference": "@discordjs/voice!~Edge:interface"
                 },
                 {
                   "kind": "Content",
@@ -2516,12 +2516,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function createAudioPlayer(options?: "
+              "text": "declare function createAudioPlayer(options?: "
             },
             {
               "kind": "Reference",
               "text": "CreateAudioPlayerOptions",
-              "canonicalReference": "@discordjs/voice!CreateAudioPlayerOptions:interface"
+              "canonicalReference": "@discordjs/voice!~CreateAudioPlayerOptions:interface"
             },
             {
               "kind": "Content",
@@ -2530,7 +2530,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayer",
-              "canonicalReference": "@discordjs/voice!AudioPlayer:class"
+              "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
             },
             {
               "kind": "Content",
@@ -2562,7 +2562,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface CreateAudioPlayerOptions "
+              "text": "interface CreateAudioPlayerOptions "
             }
           ],
           "releaseTag": "Public",
@@ -2585,7 +2585,7 @@
                 {
                   "kind": "Reference",
                   "text": "NoSubscriberBehavior",
-                  "canonicalReference": "@discordjs/voice!NoSubscriberBehavior:enum"
+                  "canonicalReference": "@discordjs/voice!~NoSubscriberBehavior:enum"
                 },
                 {
                   "kind": "Content",
@@ -2642,7 +2642,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function createAudioResource<T>(input: "
+              "text": "declare function createAudioResource<T>(input: "
             },
             {
               "kind": "Reference",
@@ -2660,7 +2660,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioResourceOptions",
-              "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface"
+              "canonicalReference": "@discordjs/voice!~CreateAudioResourceOptions:interface"
             },
             {
               "kind": "Content",
@@ -2678,7 +2678,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioResourceOptions",
-              "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface"
+              "canonicalReference": "@discordjs/voice!~CreateAudioResourceOptions:interface"
             },
             {
               "kind": "Content",
@@ -2696,7 +2696,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioResourceOptions",
-              "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface"
+              "canonicalReference": "@discordjs/voice!~CreateAudioResourceOptions:interface"
             },
             {
               "kind": "Content",
@@ -2709,7 +2709,7 @@
             {
               "kind": "Reference",
               "text": "AudioResource",
-              "canonicalReference": "@discordjs/voice!AudioResource:class"
+              "canonicalReference": "@discordjs/voice!~AudioResource:class"
             },
             {
               "kind": "Content",
@@ -2766,7 +2766,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function createAudioResource<T extends "
+              "text": "declare function createAudioResource<T extends "
             },
             {
               "kind": "Content",
@@ -2801,7 +2801,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioResourceOptions",
-              "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface"
+              "canonicalReference": "@discordjs/voice!~CreateAudioResourceOptions:interface"
             },
             {
               "kind": "Content",
@@ -2814,7 +2814,7 @@
             {
               "kind": "Reference",
               "text": "AudioResource",
-              "canonicalReference": "@discordjs/voice!AudioResource:class"
+              "canonicalReference": "@discordjs/voice!~AudioResource:class"
             },
             {
               "kind": "Content",
@@ -2871,7 +2871,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface CreateAudioResourceOptions<T> "
+              "text": "interface CreateAudioResourceOptions<T> "
             }
           ],
           "releaseTag": "Public",
@@ -2930,7 +2930,7 @@
                 {
                   "kind": "Reference",
                   "text": "StreamType",
-                  "canonicalReference": "@discordjs/voice!StreamType:enum"
+                  "canonicalReference": "@discordjs/voice!~StreamType:enum"
                 },
                 {
                   "kind": "Content",
@@ -3010,12 +3010,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function createDefaultAudioReceiveStreamOptions(): "
+              "text": "declare function createDefaultAudioReceiveStreamOptions(): "
             },
             {
               "kind": "Reference",
               "text": "AudioReceiveStreamOptions",
-              "canonicalReference": "@discordjs/voice!AudioReceiveStreamOptions:interface"
+              "canonicalReference": "@discordjs/voice!~AudioReceiveStreamOptions:interface"
             },
             {
               "kind": "Content",
@@ -3038,7 +3038,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface CreateVoiceConnectionOptions "
+              "text": "interface CreateVoiceConnectionOptions "
             }
           ],
           "releaseTag": "Public",
@@ -3057,7 +3057,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterCreator",
-                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterCreator:type"
+                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterCreator:type"
                 },
                 {
                   "kind": "Content",
@@ -3110,7 +3110,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function demuxProbe(stream: "
+              "text": "declare function demuxProbe(stream: "
             },
             {
               "kind": "Reference",
@@ -3136,7 +3136,7 @@
             {
               "kind": "Reference",
               "text": "validateDiscordOpusHead",
-              "canonicalReference": "@discordjs/voice!validateDiscordOpusHead:function"
+              "canonicalReference": "@discordjs/voice!~validateDiscordOpusHead:function"
             },
             {
               "kind": "Content",
@@ -3154,7 +3154,7 @@
             {
               "kind": "Reference",
               "text": "ProbeInfo",
-              "canonicalReference": "@discordjs/voice!ProbeInfo:interface"
+              "canonicalReference": "@discordjs/voice!~ProbeInfo:interface"
             },
             {
               "kind": "Content",
@@ -3206,7 +3206,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type DiscordGatewayAdapterCreator = "
+              "text": "declare type DiscordGatewayAdapterCreator = "
             },
             {
               "kind": "Content",
@@ -3215,7 +3215,7 @@
             {
               "kind": "Reference",
               "text": "DiscordGatewayAdapterLibraryMethods",
-              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterLibraryMethods:interface"
+              "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterLibraryMethods:interface"
             },
             {
               "kind": "Content",
@@ -3224,7 +3224,7 @@
             {
               "kind": "Reference",
               "text": "DiscordGatewayAdapterImplementerMethods",
-              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
+              "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
             },
             {
               "kind": "Content",
@@ -3245,7 +3245,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface DiscordGatewayAdapterImplementerMethods "
+              "text": "interface DiscordGatewayAdapterImplementerMethods "
             }
           ],
           "releaseTag": "Public",
@@ -3335,7 +3335,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface DiscordGatewayAdapterLibraryMethods "
+              "text": "interface DiscordGatewayAdapterLibraryMethods "
             }
           ],
           "releaseTag": "Public",
@@ -3472,7 +3472,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type EndBehavior = "
+              "text": "declare type EndBehavior = "
             },
             {
               "kind": "Content",
@@ -3481,7 +3481,7 @@
             {
               "kind": "Reference",
               "text": "EndBehaviorType.AfterInactivity",
-              "canonicalReference": "@discordjs/voice!EndBehaviorType.AfterInactivity:member"
+              "canonicalReference": "@discordjs/voice!~EndBehaviorType.AfterInactivity:member"
             },
             {
               "kind": "Content",
@@ -3490,7 +3490,7 @@
             {
               "kind": "Reference",
               "text": "EndBehaviorType.AfterSilence",
-              "canonicalReference": "@discordjs/voice!EndBehaviorType.AfterSilence:member"
+              "canonicalReference": "@discordjs/voice!~EndBehaviorType.AfterSilence:member"
             },
             {
               "kind": "Content",
@@ -3499,7 +3499,7 @@
             {
               "kind": "Reference",
               "text": "EndBehaviorType.Manual",
-              "canonicalReference": "@discordjs/voice!EndBehaviorType.Manual:member"
+              "canonicalReference": "@discordjs/voice!~EndBehaviorType.Manual:member"
             },
             {
               "kind": "Content",
@@ -3524,7 +3524,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum EndBehaviorType "
+              "text": "declare enum EndBehaviorType "
             }
           ],
           "releaseTag": "Public",
@@ -3603,12 +3603,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function entersState(target: "
+              "text": "declare function entersState(target: "
             },
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3617,7 +3617,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionStatus",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionStatus:enum"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus:enum"
             },
             {
               "kind": "Content",
@@ -3648,7 +3648,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3700,12 +3700,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function entersState(target: "
+              "text": "declare function entersState(target: "
             },
             {
               "kind": "Reference",
               "text": "AudioPlayer",
-              "canonicalReference": "@discordjs/voice!AudioPlayer:class"
+              "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
             },
             {
               "kind": "Content",
@@ -3714,7 +3714,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerStatus",
-              "canonicalReference": "@discordjs/voice!AudioPlayerStatus:enum"
+              "canonicalReference": "@discordjs/voice!~AudioPlayerStatus:enum"
             },
             {
               "kind": "Content",
@@ -3745,7 +3745,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayer",
-              "canonicalReference": "@discordjs/voice!AudioPlayer:class"
+              "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
             },
             {
               "kind": "Content",
@@ -3797,7 +3797,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function generateDependencyReport(): "
+              "text": "declare function generateDependencyReport(): "
             },
             {
               "kind": "Content",
@@ -3824,7 +3824,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function getGroups(): "
+              "text": "declare function getGroups(): "
             },
             {
               "kind": "Reference",
@@ -3847,7 +3847,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3874,7 +3874,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function getVoiceConnection(guildId: "
+              "text": "declare function getVoiceConnection(guildId: "
             },
             {
               "kind": "Content",
@@ -3895,7 +3895,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3939,7 +3939,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function getVoiceConnections(group?: "
+              "text": "declare function getVoiceConnections(group?: "
             },
             {
               "kind": "Content",
@@ -3961,7 +3961,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3997,7 +3997,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function getVoiceConnections(group: "
+              "text": "declare function getVoiceConnections(group: "
             },
             {
               "kind": "Content",
@@ -4019,7 +4019,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -4055,7 +4055,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface JoinConfig "
+              "text": "interface JoinConfig "
             }
           ],
           "releaseTag": "Public",
@@ -4207,12 +4207,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function joinVoiceChannel(options: "
+              "text": "declare function joinVoiceChannel(options: "
             },
             {
               "kind": "Reference",
               "text": "CreateVoiceConnectionOptions",
-              "canonicalReference": "@discordjs/voice!CreateVoiceConnectionOptions:interface"
+              "canonicalReference": "@discordjs/voice!~CreateVoiceConnectionOptions:interface"
             },
             {
               "kind": "Content",
@@ -4221,20 +4221,16 @@
             {
               "kind": "Reference",
               "text": "JoinVoiceChannelOptions",
-              "canonicalReference": "@discordjs/voice!JoinVoiceChannelOptions:interface"
+              "canonicalReference": "@discordjs/voice!~JoinVoiceChannelOptions:interface"
             },
             {
               "kind": "Content",
               "text": "): "
             },
             {
-              "kind": "Content",
-              "text": "import(\"./VoiceConnection\")."
-            },
-            {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -4243,7 +4239,7 @@
           ],
           "returnTypeTokenRange": {
             "startIndex": 5,
-            "endIndex": 7
+            "endIndex": 6
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4266,7 +4262,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface JoinVoiceChannelOptions "
+              "text": "interface JoinVoiceChannelOptions "
             }
           ],
           "releaseTag": "Public",
@@ -4418,7 +4414,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum NoSubscriberBehavior "
+              "text": "declare enum NoSubscriberBehavior "
             }
           ],
           "releaseTag": "Public",
@@ -4497,7 +4493,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class PlayerSubscription "
+              "text": "declare class PlayerSubscription "
             }
           ],
           "releaseTag": "Public",
@@ -4516,7 +4512,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -4525,7 +4521,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayer",
-                  "canonicalReference": "@discordjs/voice!AudioPlayer:class"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
                 },
                 {
                   "kind": "Content",
@@ -4566,7 +4562,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -4596,7 +4592,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayer",
-                  "canonicalReference": "@discordjs/voice!AudioPlayer:class"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
                 },
                 {
                   "kind": "Content",
@@ -4654,7 +4650,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ProbeInfo "
+              "text": "interface ProbeInfo "
             }
           ],
           "releaseTag": "Public",
@@ -4701,7 +4697,7 @@
                 {
                   "kind": "Reference",
                   "text": "StreamType",
-                  "canonicalReference": "@discordjs/voice!StreamType:enum"
+                  "canonicalReference": "@discordjs/voice!~StreamType:enum"
                 },
                 {
                   "kind": "Content",
@@ -4727,7 +4723,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SpeakingMap extends "
+              "text": "declare class SpeakingMap extends "
             },
             {
               "kind": "Reference",
@@ -4886,7 +4882,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SpeakingMap extends "
+              "text": "interface SpeakingMap extends "
             },
             {
               "kind": "Reference",
@@ -5039,7 +5035,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SSRCMap extends "
+              "text": "declare class SSRCMap extends "
             },
             {
               "kind": "Reference",
@@ -5090,7 +5086,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5142,7 +5138,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5186,7 +5182,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5236,7 +5232,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SSRCMap extends "
+              "text": "interface SSRCMap extends "
             },
             {
               "kind": "Reference",
@@ -5276,7 +5272,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5346,7 +5342,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5355,7 +5351,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5425,7 +5421,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5486,7 +5482,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum StreamType "
+              "text": "declare enum StreamType "
             }
           ],
           "releaseTag": "Public",
@@ -5607,7 +5603,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function validateDiscordOpusHead(opusHead: "
+              "text": "declare function validateDiscordOpusHead(opusHead: "
             },
             {
               "kind": "Reference",
@@ -5652,7 +5648,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class VoiceConnection extends "
+              "text": "declare class VoiceConnection extends "
             },
             {
               "kind": "Reference",
@@ -5680,7 +5676,7 @@
                 {
                   "kind": "Reference",
                   "text": "JoinConfig",
-                  "canonicalReference": "@discordjs/voice!JoinConfig:interface"
+                  "canonicalReference": "@discordjs/voice!~JoinConfig:interface"
                 },
                 {
                   "kind": "Content",
@@ -5689,7 +5685,7 @@
                 {
                   "kind": "Reference",
                   "text": "CreateVoiceConnectionOptions",
-                  "canonicalReference": "@discordjs/voice!CreateVoiceConnectionOptions:interface"
+                  "canonicalReference": "@discordjs/voice!~CreateVoiceConnectionOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -5867,7 +5863,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -6045,7 +6041,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceReceiver",
-                  "canonicalReference": "@discordjs/voice!VoiceReceiver:class"
+                  "canonicalReference": "@discordjs/voice!~VoiceReceiver:class"
                 },
                 {
                   "kind": "Content",
@@ -6084,7 +6080,7 @@
                 {
                   "kind": "Reference",
                   "text": "JoinConfig",
-                  "canonicalReference": "@discordjs/voice!JoinConfig:interface"
+                  "canonicalReference": "@discordjs/voice!~JoinConfig:interface"
                 },
                 {
                   "kind": "Content",
@@ -6212,7 +6208,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6221,7 +6217,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6251,7 +6247,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayer",
-                  "canonicalReference": "@discordjs/voice!AudioPlayer:class"
+                  "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
                 },
                 {
                   "kind": "Content",
@@ -6260,7 +6256,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -6306,7 +6302,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceConnection extends "
+              "text": "interface VoiceConnection extends "
             },
             {
               "kind": "Reference",
@@ -6477,7 +6473,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6486,7 +6482,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6544,7 +6540,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus:enum"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus:enum"
                 },
                 {
                   "kind": "Content",
@@ -6565,7 +6561,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6574,7 +6570,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6648,7 +6644,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceConnectionConnectingState "
+              "text": "interface VoiceConnectionConnectingState "
             }
           ],
           "releaseTag": "Public",
@@ -6667,7 +6663,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterImplementerMethods",
-                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
+                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
                 },
                 {
                   "kind": "Content",
@@ -6695,7 +6691,7 @@
                 {
                   "kind": "Reference",
                   "text": "Networking",
-                  "canonicalReference": "@discordjs/voice!Networking:class"
+                  "canonicalReference": "@discordjs/voice!~Networking:class"
                 },
                 {
                   "kind": "Content",
@@ -6723,7 +6719,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Connecting",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Connecting:member"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Connecting:member"
                 },
                 {
                   "kind": "Content",
@@ -6751,7 +6747,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -6781,7 +6777,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceConnectionDestroyedState "
+              "text": "interface VoiceConnectionDestroyedState "
             }
           ],
           "releaseTag": "Public",
@@ -6800,7 +6796,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Destroyed",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Destroyed:member"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Destroyed:member"
                 },
                 {
                   "kind": "Content",
@@ -6826,7 +6822,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceConnectionDisconnectedBaseState "
+              "text": "interface VoiceConnectionDisconnectedBaseState "
             }
           ],
           "releaseTag": "Public",
@@ -6845,7 +6841,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterImplementerMethods",
-                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
+                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
                 },
                 {
                   "kind": "Content",
@@ -6873,7 +6869,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Disconnected",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Disconnected:member"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Disconnected:member"
                 },
                 {
                   "kind": "Content",
@@ -6901,7 +6897,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -6931,12 +6927,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceConnectionDisconnectedOtherState extends "
+              "text": "interface VoiceConnectionDisconnectedOtherState extends "
             },
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedBaseState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedBaseState:interface"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedBaseState:interface"
             },
             {
               "kind": "Content",
@@ -6968,7 +6964,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionDisconnectReason",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectReason:enum"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectReason:enum"
                 },
                 {
                   "kind": "Content",
@@ -6977,7 +6973,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionDisconnectReason.WebSocketClose",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectReason.WebSocketClose:member"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectReason.WebSocketClose:member"
                 },
                 {
                   "kind": "Content",
@@ -7012,12 +7008,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type VoiceConnectionDisconnectedState = "
+              "text": "declare type VoiceConnectionDisconnectedState = "
             },
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedOtherState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedOtherState:interface"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedOtherState:interface"
             },
             {
               "kind": "Content",
@@ -7026,7 +7022,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedWebSocketState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedWebSocketState:interface"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedWebSocketState:interface"
             },
             {
               "kind": "Content",
@@ -7047,12 +7043,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceConnectionDisconnectedWebSocketState extends "
+              "text": "interface VoiceConnectionDisconnectedWebSocketState extends "
             },
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedBaseState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedBaseState:interface"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedBaseState:interface"
             },
             {
               "kind": "Content",
@@ -7102,7 +7098,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionDisconnectReason.WebSocketClose",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectReason.WebSocketClose:member"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectReason.WebSocketClose:member"
                 },
                 {
                   "kind": "Content",
@@ -7133,7 +7129,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum VoiceConnectionDisconnectReason "
+              "text": "declare enum VoiceConnectionDisconnectReason "
             }
           ],
           "releaseTag": "Public",
@@ -7233,7 +7229,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceConnectionReadyState "
+              "text": "interface VoiceConnectionReadyState "
             }
           ],
           "releaseTag": "Public",
@@ -7252,7 +7248,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterImplementerMethods",
-                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
+                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
                 },
                 {
                   "kind": "Content",
@@ -7280,7 +7276,7 @@
                 {
                   "kind": "Reference",
                   "text": "Networking",
-                  "canonicalReference": "@discordjs/voice!Networking:class"
+                  "canonicalReference": "@discordjs/voice!~Networking:class"
                 },
                 {
                   "kind": "Content",
@@ -7308,7 +7304,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Ready",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Ready:member"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Ready:member"
                 },
                 {
                   "kind": "Content",
@@ -7336,7 +7332,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -7366,7 +7362,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceConnectionSignallingState "
+              "text": "interface VoiceConnectionSignallingState "
             }
           ],
           "releaseTag": "Public",
@@ -7385,7 +7381,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterImplementerMethods",
-                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
+                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
                 },
                 {
                   "kind": "Content",
@@ -7413,7 +7409,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Signalling",
-                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Signalling:member"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Signalling:member"
                 },
                 {
                   "kind": "Content",
@@ -7441,7 +7437,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -7471,12 +7467,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type VoiceConnectionState = "
+              "text": "declare type VoiceConnectionState = "
             },
             {
               "kind": "Reference",
               "text": "VoiceConnectionConnectingState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionConnectingState:interface"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionConnectingState:interface"
             },
             {
               "kind": "Content",
@@ -7485,7 +7481,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDestroyedState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionDestroyedState:interface"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionDestroyedState:interface"
             },
             {
               "kind": "Content",
@@ -7494,7 +7490,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedState:type"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedState:type"
             },
             {
               "kind": "Content",
@@ -7503,7 +7499,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionReadyState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionReadyState:interface"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionReadyState:interface"
             },
             {
               "kind": "Content",
@@ -7512,7 +7508,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionSignallingState",
-              "canonicalReference": "@discordjs/voice!VoiceConnectionSignallingState:interface"
+              "canonicalReference": "@discordjs/voice!~VoiceConnectionSignallingState:interface"
             },
             {
               "kind": "Content",
@@ -7533,7 +7529,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum VoiceConnectionStatus "
+              "text": "declare enum VoiceConnectionStatus "
             }
           ],
           "releaseTag": "Public",
@@ -7654,7 +7650,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class VoiceReceiver "
+              "text": "declare class VoiceReceiver "
             }
           ],
           "releaseTag": "Beta",
@@ -7673,7 +7669,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -7706,7 +7702,7 @@
                 {
                   "kind": "Reference",
                   "text": "SpeakingMap",
-                  "canonicalReference": "@discordjs/voice!SpeakingMap:class"
+                  "canonicalReference": "@discordjs/voice!~SpeakingMap:class"
                 },
                 {
                   "kind": "Content",
@@ -7736,7 +7732,7 @@
                 {
                   "kind": "Reference",
                   "text": "SSRCMap",
-                  "canonicalReference": "@discordjs/voice!SSRCMap:class"
+                  "canonicalReference": "@discordjs/voice!~SSRCMap:class"
                 },
                 {
                   "kind": "Content",
@@ -7783,7 +7779,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioReceiveStreamOptions",
-                  "canonicalReference": "@discordjs/voice!AudioReceiveStreamOptions:interface"
+                  "canonicalReference": "@discordjs/voice!~AudioReceiveStreamOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -7796,7 +7792,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioReceiveStream",
-                  "canonicalReference": "@discordjs/voice!AudioReceiveStream:class"
+                  "canonicalReference": "@discordjs/voice!~AudioReceiveStream:class"
                 },
                 {
                   "kind": "Content",
@@ -7853,7 +7849,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioReceiveStream",
-                  "canonicalReference": "@discordjs/voice!AudioReceiveStream:class"
+                  "canonicalReference": "@discordjs/voice!~AudioReceiveStream:class"
                 },
                 {
                   "kind": "Content",
@@ -7887,7 +7883,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -7915,7 +7911,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface VoiceUserData "
+              "text": "interface VoiceUserData "
             }
           ],
           "releaseTag": "Public",
