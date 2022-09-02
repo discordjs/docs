@@ -179,12 +179,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class ActionRowBuilder<T extends "
+              "text": "declare class ActionRowBuilder<T extends "
             },
             {
               "kind": "Reference",
               "text": "AnyComponentBuilder",
-              "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~AnyComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -193,7 +193,7 @@
             {
               "kind": "Reference",
               "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
+              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
             },
             {
               "kind": "Content",
@@ -315,7 +315,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -396,7 +396,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -494,7 +494,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type AnyAPIActionRowComponent = "
+              "text": "declare type AnyAPIActionRowComponent = "
             },
             {
               "kind": "Reference",
@@ -538,12 +538,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type AnyComponentBuilder = "
+              "text": "declare type AnyComponentBuilder = "
             },
             {
               "kind": "Reference",
               "text": "MessageActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!MessageActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~MessageActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -552,7 +552,7 @@
             {
               "kind": "Reference",
               "text": "ModalActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -573,7 +573,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare abstract class ApplicationCommandNumericOptionMinMaxValueMixin "
+              "text": "declare abstract class ApplicationCommandNumericOptionMinMaxValueMixin "
             }
           ],
           "releaseTag": "Public",
@@ -742,7 +742,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ApplicationCommandOptionAllowedChannelTypes = "
+              "text": "declare type ApplicationCommandOptionAllowedChannelTypes = "
             },
             {
               "kind": "Content",
@@ -776,12 +776,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare abstract class ApplicationCommandOptionBase extends "
+              "text": "declare abstract class ApplicationCommandOptionBase extends "
             },
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -973,7 +973,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class ApplicationCommandOptionChannelTypesMixin "
+              "text": "declare class ApplicationCommandOptionChannelTypesMixin "
             }
           ],
           "releaseTag": "Public",
@@ -992,7 +992,7 @@
                 {
                   "kind": "Reference",
                   "text": "ApplicationCommandOptionAllowedChannelTypes",
-                  "canonicalReference": "@discordjs/builders!ApplicationCommandOptionAllowedChannelTypes:type"
+                  "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionAllowedChannelTypes:type"
                 },
                 {
                   "kind": "Content",
@@ -1044,7 +1044,7 @@
                 {
                   "kind": "Reference",
                   "text": "ApplicationCommandOptionAllowedChannelTypes",
-                  "canonicalReference": "@discordjs/builders!ApplicationCommandOptionAllowedChannelTypes:type"
+                  "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionAllowedChannelTypes:type"
                 },
                 {
                   "kind": "Content",
@@ -1076,7 +1076,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class ApplicationCommandOptionWithChoicesAndAutocompleteMixin<T extends "
+              "text": "declare class ApplicationCommandOptionWithChoicesAndAutocompleteMixin<T extends "
             },
             {
               "kind": "Content",
@@ -1379,7 +1379,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function blockQuote<C extends "
+              "text": "declare function blockQuote<C extends "
             },
             {
               "kind": "Content",
@@ -1444,7 +1444,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function bold<C extends "
+              "text": "declare function bold<C extends "
             },
             {
               "kind": "Content",
@@ -1509,12 +1509,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class ButtonBuilder extends "
+              "text": "declare class ButtonBuilder extends "
             },
             {
               "kind": "Reference",
               "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
+              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
             },
             {
               "kind": "Content",
@@ -1913,7 +1913,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function channelLink<C extends "
+              "text": "declare function channelLink<C extends "
             },
             {
               "kind": "Reference",
@@ -1979,7 +1979,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function channelLink<C extends "
+              "text": "declare function channelLink<C extends "
             },
             {
               "kind": "Reference",
@@ -2081,7 +2081,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function channelMention<C extends "
+              "text": "declare function channelMention<C extends "
             },
             {
               "kind": "Reference",
@@ -2147,7 +2147,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function codeBlock<C extends "
+              "text": "declare function codeBlock<C extends "
             },
             {
               "kind": "Content",
@@ -2212,7 +2212,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function codeBlock<L extends "
+              "text": "declare function codeBlock<L extends "
             },
             {
               "kind": "Content",
@@ -2309,753 +2309,16 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!ComponentAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [],
-          "releaseTag": "None",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace Assertions$4 "
+            }
+          ],
+          "releaseTag": "Public",
           "name": "ComponentAssertions",
           "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.buttonLabelValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "buttonLabelValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "buttonLabelValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.buttonStyleValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "buttonStyleValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "NativeEnumValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~NativeEnumValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<typeof "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ButtonStyle",
-                  "canonicalReference": "discord-api-types!ButtonStyle:enum"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "buttonStyleValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.customIdValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "customIdValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "customIdValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.defaultValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "defaultValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "BooleanValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~BooleanValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<boolean>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "defaultValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.disabledValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "disabledValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "BooleanValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~BooleanValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<boolean>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "disabledValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.emojiValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "emojiValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ObjectValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~ObjectValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    id?: string | undefined;\n    name?: string | undefined;\n    animated?: boolean | undefined;\n}, import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    id?: string | undefined;\n    name?: string | undefined;\n    animated?: boolean | undefined;\n}>>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "emojiValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.jsonOptionValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "jsonOptionValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ObjectValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~ObjectValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n        id?: string | undefined;\n        name?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}, import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n        id?: string | undefined;\n        name?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}>>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "jsonOptionValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 10
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.labelValueDescriptionValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "labelValueDescriptionValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "labelValueDescriptionValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.minMaxValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "minMaxValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "NumberValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~NumberValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "minMaxValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.optionsLengthValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "optionsLengthValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "NumberValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~NumberValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "optionsLengthValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.optionsValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "optionsValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ArrayValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~ArrayValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[], "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "optionsValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 8
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.optionValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "optionValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "InstanceValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~InstanceValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "optionValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.placeholderValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "placeholderValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "placeholderValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.urlValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "urlValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "urlValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.validateRequiredButtonParameters:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateRequiredButtonParameters(style?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ButtonStyle",
-                  "canonicalReference": "discord-api-types!ButtonStyle:enum"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", label?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", emoji?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIMessageComponentEmoji",
-                  "canonicalReference": "discord-api-types!APIMessageComponentEmoji:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", customId?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", url?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 11,
-                "endIndex": 12
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "style",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "label",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "emoji",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 5,
-                    "endIndex": 6
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 7,
-                    "endIndex": 8
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "url",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 9,
-                    "endIndex": 10
-                  },
-                  "isOptional": true
-                }
-              ],
-              "name": "validateRequiredButtonParameters"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.validateRequiredSelectMenuOptionParameters:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateRequiredSelectMenuOptionParameters(label?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", value?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "label",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": true
-                }
-              ],
-              "name": "validateRequiredSelectMenuOptionParameters"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ComponentAssertions.validateRequiredSelectMenuParameters:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateRequiredSelectMenuParameters(options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", customId?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 3
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 4,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ],
-              "name": "validateRequiredSelectMenuParameters"
-            }
-          ]
+          "members": []
         },
         {
           "kind": "Class",
@@ -3064,7 +2327,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare abstract class ComponentBuilder<DataType extends "
+              "text": "declare abstract class ComponentBuilder<DataType extends "
             },
             {
               "kind": "Reference",
@@ -3122,7 +2385,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -3131,7 +2394,7 @@
             {
               "kind": "Reference",
               "text": "AnyAPIActionRowComponent",
-              "canonicalReference": "@discordjs/builders!AnyAPIActionRowComponent:type"
+              "canonicalReference": "@discordjs/builders!~AnyAPIActionRowComponent:type"
             },
             {
               "kind": "Content",
@@ -3242,7 +2505,7 @@
                 {
                   "kind": "Reference",
                   "text": "AnyAPIActionRowComponent",
-                  "canonicalReference": "@discordjs/builders!AnyAPIActionRowComponent:type"
+                  "canonicalReference": "@discordjs/builders!~AnyAPIActionRowComponent:type"
                 },
                 {
                   "kind": "Content",
@@ -3273,333 +2536,16 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [],
-          "releaseTag": "None",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace Assertions "
+            }
+          ],
+          "releaseTag": "Public",
           "name": "ContextMenuCommandAssertions",
           "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateDefaultMemberPermissions:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateDefaultMemberPermissions(permissions: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string | null | undefined"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "permissions",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateDefaultMemberPermissions"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateDefaultPermission:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateDefaultPermission(value: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "value",
-                  "canonicalReference": "@discordjs/builders!~value"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateDefaultPermission"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateDMPermission:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateDMPermission(value: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "value",
-                  "canonicalReference": "@discordjs/builders!~value"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is boolean | null | undefined"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateDMPermission"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateName:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateName(name: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "name",
-                  "canonicalReference": "@discordjs/builders!~name"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "name",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateName"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateRequiredParameters:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateRequiredParameters(name: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", type: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "name",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "type",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateRequiredParameters"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateType:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateType(type: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "type",
-                  "canonicalReference": "@discordjs/builders!~type"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ContextMenuCommandType",
-                  "canonicalReference": "@discordjs/builders!ContextMenuCommandType:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "type",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateType"
-            }
-          ]
+          "members": []
         },
         {
           "kind": "Class",
@@ -3608,7 +2554,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class ContextMenuCommandBuilder "
+              "text": "declare class ContextMenuCommandBuilder "
             }
           ],
           "releaseTag": "Public",
@@ -4087,7 +3033,7 @@
                 {
                   "kind": "Reference",
                   "text": "ContextMenuCommandType",
-                  "canonicalReference": "@discordjs/builders!ContextMenuCommandType:type"
+                  "canonicalReference": "@discordjs/builders!~ContextMenuCommandType:type"
                 },
                 {
                   "kind": "Content",
@@ -4166,7 +3112,7 @@
                 {
                   "kind": "Reference",
                   "text": "ContextMenuCommandType",
-                  "canonicalReference": "@discordjs/builders!ContextMenuCommandType:type"
+                  "canonicalReference": "@discordjs/builders!~ContextMenuCommandType:type"
                 },
                 {
                   "kind": "Content",
@@ -4194,7 +3140,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ContextMenuCommandType = "
+              "text": "declare type ContextMenuCommandType = "
             },
             {
               "kind": "Reference",
@@ -4229,7 +3175,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function createComponentBuilder<T extends "
+              "text": "declare function createComponentBuilder<T extends "
             },
             {
               "kind": "Content",
@@ -4238,7 +3184,7 @@
             {
               "kind": "Reference",
               "text": "MappedComponentTypes",
-              "canonicalReference": "@discordjs/builders!MappedComponentTypes:interface"
+              "canonicalReference": "@discordjs/builders!~MappedComponentTypes:interface"
             },
             {
               "kind": "Content",
@@ -4273,7 +3219,7 @@
             {
               "kind": "Reference",
               "text": "MappedComponentTypes",
-              "canonicalReference": "@discordjs/builders!MappedComponentTypes:interface"
+              "canonicalReference": "@discordjs/builders!~MappedComponentTypes:interface"
             },
             {
               "kind": "Content",
@@ -4322,12 +3268,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function createComponentBuilder<C extends "
+              "text": "declare function createComponentBuilder<C extends "
             },
             {
               "kind": "Reference",
               "text": "MessageComponentBuilder",
-              "canonicalReference": "@discordjs/builders!MessageComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~MessageComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -4336,7 +3282,7 @@
             {
               "kind": "Reference",
               "text": "ModalComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ModalComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~ModalComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -4416,658 +3362,16 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!EmbedAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [],
-          "releaseTag": "None",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace Assertions$5 "
+            }
+          ],
+          "releaseTag": "Public",
           "name": "EmbedAssertions",
           "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.authorNamePredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "authorNamePredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string | null>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "authorNamePredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.colorPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "colorPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number | [\n    number,\n    number,\n    number\n] | null>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "colorPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.descriptionPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "descriptionPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string | null>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "descriptionPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.embedAuthorPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "embedAuthorPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ObjectValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~ObjectValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    name: string | null;\n    iconURL: string | null | undefined;\n    url: string | null | undefined;\n}, import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    name: string | null;\n    iconURL: string | null | undefined;\n    url: string | null | undefined;\n}>>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "embedAuthorPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.embedFieldPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "embedFieldPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ObjectValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~ObjectValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    name: string;\n    value: string;\n    inline: boolean | undefined;\n}, import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    name: string;\n    value: string;\n    inline: boolean | undefined;\n}>>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "embedFieldPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.embedFieldsArrayPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "embedFieldsArrayPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ArrayValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~ArrayValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    name: string;\n    value: string;\n    inline: boolean | undefined;\n}>[], import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    name: string;\n    value: string;\n    inline: boolean | undefined;\n}>>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "embedFieldsArrayPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 8
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.embedFooterPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "embedFooterPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ObjectValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~ObjectValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    text: string | null;\n    iconURL: string | null | undefined;\n}, import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<{\n    text: string | null;\n    iconURL: string | null | undefined;\n}>>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "embedFooterPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.fieldInlinePredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "fieldInlinePredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<boolean | undefined>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "fieldInlinePredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.fieldLengthPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "fieldLengthPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "NumberValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~NumberValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "fieldLengthPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.fieldNamePredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "fieldNamePredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "fieldNamePredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.fieldValuePredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "fieldValuePredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "fieldValuePredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.footerTextPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "footerTextPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string | null>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "footerTextPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.imageURLPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "imageURLPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string | null | undefined>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "imageURLPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.RGBPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "RGBPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "NumberValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~NumberValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "RGBPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.timestampPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "timestampPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Date",
-                  "canonicalReference": "!Date:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | null>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "timestampPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.titlePredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "titlePredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string | null>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "titlePredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.urlPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "urlPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string | null | undefined>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "urlPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!EmbedAssertions.validateFieldLength:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateFieldLength(amountAdding: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", fields?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIEmbedField",
-                  "canonicalReference": "discord-api-types!APIEmbedField:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "amountAdding",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "fields",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ],
-              "name": "validateFieldLength"
-            }
-          ]
+          "members": []
         },
         {
           "kind": "TypeAlias",
@@ -5076,12 +3380,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type EmbedAuthorData = "
+              "text": "declare type EmbedAuthorData = "
             },
             {
               "kind": "Reference",
               "text": "IconData",
-              "canonicalReference": "@discordjs/builders!IconData:interface"
+              "canonicalReference": "@discordjs/builders!~IconData:interface"
             },
             {
               "kind": "Content",
@@ -5124,7 +3428,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type EmbedAuthorOptions = "
+              "text": "declare type EmbedAuthorOptions = "
             },
             {
               "kind": "Reference",
@@ -5138,7 +3442,7 @@
             {
               "kind": "Reference",
               "text": "EmbedAuthorData",
-              "canonicalReference": "@discordjs/builders!EmbedAuthorData:type"
+              "canonicalReference": "@discordjs/builders!~EmbedAuthorData:type"
             },
             {
               "kind": "Content",
@@ -5163,7 +3467,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class EmbedBuilder "
+              "text": "declare class EmbedBuilder "
             }
           ],
           "releaseTag": "Public",
@@ -5215,7 +3519,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -5306,7 +3610,7 @@
                 {
                   "kind": "Reference",
                   "text": "EmbedAuthorOptions",
-                  "canonicalReference": "@discordjs/builders!EmbedAuthorOptions:type"
+                  "canonicalReference": "@discordjs/builders!~EmbedAuthorOptions:type"
                 },
                 {
                   "kind": "Content",
@@ -5358,7 +3662,7 @@
                 {
                   "kind": "Reference",
                   "text": "RGBTuple",
-                  "canonicalReference": "@discordjs/builders!RGBTuple:type"
+                  "canonicalReference": "@discordjs/builders!~RGBTuple:type"
                 },
                 {
                   "kind": "Content",
@@ -5457,7 +3761,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -5518,7 +3822,7 @@
                 {
                   "kind": "Reference",
                   "text": "EmbedFooterOptions",
-                  "canonicalReference": "@discordjs/builders!EmbedFooterOptions:type"
+                  "canonicalReference": "@discordjs/builders!~EmbedFooterOptions:type"
                 },
                 {
                   "kind": "Content",
@@ -5923,12 +4227,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type EmbedFooterData = "
+              "text": "declare type EmbedFooterData = "
             },
             {
               "kind": "Reference",
               "text": "IconData",
-              "canonicalReference": "@discordjs/builders!IconData:interface"
+              "canonicalReference": "@discordjs/builders!~IconData:interface"
             },
             {
               "kind": "Content",
@@ -5971,7 +4275,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type EmbedFooterOptions = "
+              "text": "declare type EmbedFooterOptions = "
             },
             {
               "kind": "Reference",
@@ -5985,7 +4289,7 @@
             {
               "kind": "Reference",
               "text": "EmbedFooterData",
-              "canonicalReference": "@discordjs/builders!EmbedFooterData:type"
+              "canonicalReference": "@discordjs/builders!~EmbedFooterData:type"
             },
             {
               "kind": "Content",
@@ -6010,7 +4314,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface EmbedImageData extends "
+              "text": "interface EmbedImageData extends "
             },
             {
               "kind": "Reference",
@@ -6081,7 +4385,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function embedLength(data: "
+              "text": "declare function embedLength(data: "
             },
             {
               "kind": "Reference",
@@ -6148,7 +4452,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface Equatable<T> "
+              "text": "interface Equatable<T> "
             }
           ],
           "releaseTag": "Public",
@@ -6223,7 +4527,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum Faces "
+              "text": "declare enum Faces "
             }
           ],
           "releaseTag": "Public",
@@ -6302,7 +4606,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function formatEmoji<C extends "
+              "text": "declare function formatEmoji<C extends "
             },
             {
               "kind": "Reference",
@@ -6384,7 +4688,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function formatEmoji<C extends "
+              "text": "declare function formatEmoji<C extends "
             },
             {
               "kind": "Reference",
@@ -6466,7 +4770,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hideLinkEmbed<C extends "
+              "text": "declare function hideLinkEmbed<C extends "
             },
             {
               "kind": "Content",
@@ -6531,7 +4835,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hideLinkEmbed(url: "
+              "text": "declare function hideLinkEmbed(url: "
             },
             {
               "kind": "Reference",
@@ -6576,7 +4880,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hyperlink<C extends "
+              "text": "declare function hyperlink<C extends "
             },
             {
               "kind": "Content",
@@ -6658,7 +4962,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hyperlink<C extends "
+              "text": "declare function hyperlink<C extends "
             },
             {
               "kind": "Content",
@@ -6758,7 +5062,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hyperlink<C extends "
+              "text": "declare function hyperlink<C extends "
             },
             {
               "kind": "Content",
@@ -6875,7 +5179,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hyperlink<C extends "
+              "text": "declare function hyperlink<C extends "
             },
             {
               "kind": "Content",
@@ -7010,7 +5314,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IconData "
+              "text": "interface IconData "
             }
           ],
           "releaseTag": "Public",
@@ -7081,7 +5385,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function inlineCode<C extends "
+              "text": "declare function inlineCode<C extends "
             },
             {
               "kind": "Content",
@@ -7146,7 +5450,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function isEquatable(maybeEquatable: "
+              "text": "declare function isEquatable(maybeEquatable: "
             },
             {
               "kind": "Content",
@@ -7168,7 +5472,7 @@
             {
               "kind": "Reference",
               "text": "Equatable",
-              "canonicalReference": "@discordjs/builders!Equatable:interface"
+              "canonicalReference": "@discordjs/builders!~Equatable:interface"
             },
             {
               "kind": "Content",
@@ -7204,7 +5508,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function isJSONEncodable(maybeEncodable: "
+              "text": "declare function isJSONEncodable(maybeEncodable: "
             },
             {
               "kind": "Content",
@@ -7226,7 +5530,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -7284,7 +5588,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function italic<C extends "
+              "text": "declare function italic<C extends "
             },
             {
               "kind": "Content",
@@ -7349,7 +5653,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface JSONEncodable<T> "
+              "text": "interface JSONEncodable<T> "
             }
           ],
           "releaseTag": "Public",
@@ -7407,7 +5711,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface MappedComponentTypes "
+              "text": "interface MappedComponentTypes "
             }
           ],
           "releaseTag": "Public",
@@ -7435,7 +5739,7 @@
                 {
                   "kind": "Reference",
                   "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -7444,7 +5748,7 @@
                 {
                   "kind": "Reference",
                   "text": "AnyComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
+                  "canonicalReference": "@discordjs/builders!~AnyComponentBuilder:type"
                 },
                 {
                   "kind": "Content",
@@ -7485,7 +5789,7 @@
                 {
                   "kind": "Reference",
                   "text": "ButtonBuilder",
-                  "canonicalReference": "@discordjs/builders!ButtonBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~ButtonBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -7522,7 +5826,7 @@
                 {
                   "kind": "Reference",
                   "text": "SelectMenuBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SelectMenuBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -7559,7 +5863,7 @@
                 {
                   "kind": "Reference",
                   "text": "TextInputBuilder",
-                  "canonicalReference": "@discordjs/builders!TextInputBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~TextInputBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -7585,12 +5889,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type MessageActionRowComponentBuilder = "
+              "text": "declare type MessageActionRowComponentBuilder = "
             },
             {
               "kind": "Reference",
               "text": "ButtonBuilder",
-              "canonicalReference": "@discordjs/builders!ButtonBuilder:class"
+              "canonicalReference": "@discordjs/builders!~ButtonBuilder:class"
             },
             {
               "kind": "Content",
@@ -7599,7 +5903,7 @@
             {
               "kind": "Reference",
               "text": "SelectMenuBuilder",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder:class"
+              "canonicalReference": "@discordjs/builders!~SelectMenuBuilder:class"
             },
             {
               "kind": "Content",
@@ -7620,12 +5924,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type MessageComponentBuilder = "
+              "text": "declare type MessageComponentBuilder = "
             },
             {
               "kind": "Reference",
               "text": "ActionRowBuilder",
-              "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+              "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
             },
             {
               "kind": "Content",
@@ -7634,7 +5938,7 @@
             {
               "kind": "Reference",
               "text": "MessageActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!MessageActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~MessageActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -7643,7 +5947,7 @@
             {
               "kind": "Reference",
               "text": "MessageActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!MessageActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~MessageActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -7664,7 +5968,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function messageLink<C extends "
+              "text": "declare function messageLink<C extends "
             },
             {
               "kind": "Reference",
@@ -7766,7 +6070,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function messageLink<C extends "
+              "text": "declare function messageLink<C extends "
             },
             {
               "kind": "Reference",
@@ -7904,12 +6208,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ModalActionRowComponentBuilder = "
+              "text": "declare type ModalActionRowComponentBuilder = "
             },
             {
               "kind": "Reference",
               "text": "TextInputBuilder",
-              "canonicalReference": "@discordjs/builders!TextInputBuilder:class"
+              "canonicalReference": "@discordjs/builders!~TextInputBuilder:class"
             },
             {
               "kind": "Content",
@@ -7927,218 +6231,16 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!ModalAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [],
-          "releaseTag": "None",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace Assertions$2 "
+            }
+          ],
+          "releaseTag": "Public",
           "name": "ModalAssertions",
           "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ModalAssertions.componentsValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "componentsValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ArrayValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~ArrayValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<[\n    "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<import(\"../../components/ActionRow.js\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "AnyComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">,\n    ..."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<import(\"../../components/ActionRow.js\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "AnyComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">[]\n], "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<import(\"../../components/ActionRow.js\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "AnyComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "componentsValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 16
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!ModalAssertions.titleValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "titleValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "titleValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!ModalAssertions.validateRequiredParameters:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateRequiredParameters(customId?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", title?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", components?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 10,
-                "endIndex": 11
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "title",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "components",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 5,
-                    "endIndex": 9
-                  },
-                  "isOptional": true
-                }
-              ],
-              "name": "validateRequiredParameters"
-            }
-          ]
+          "members": []
         },
         {
           "kind": "Class",
@@ -8147,12 +6249,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class ModalBuilder implements "
+              "text": "declare class ModalBuilder implements "
             },
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -8234,7 +6336,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -8243,7 +6345,7 @@
                 {
                   "kind": "Reference",
                   "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -8252,7 +6354,7 @@
                 {
                   "kind": "Reference",
                   "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
+                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
                 },
                 {
                   "kind": "Content",
@@ -8322,7 +6424,7 @@
                 {
                   "kind": "Reference",
                   "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -8331,7 +6433,7 @@
                 {
                   "kind": "Reference",
                   "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
+                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
                 },
                 {
                   "kind": "Content",
@@ -8408,7 +6510,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -8417,7 +6519,7 @@
                 {
                   "kind": "Reference",
                   "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -8426,7 +6528,7 @@
                 {
                   "kind": "Reference",
                   "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
+                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
                 },
                 {
                   "kind": "Content",
@@ -8606,12 +6708,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ModalComponentBuilder = "
+              "text": "declare type ModalComponentBuilder = "
             },
             {
               "kind": "Reference",
               "text": "ActionRowBuilder",
-              "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+              "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
             },
             {
               "kind": "Content",
@@ -8620,7 +6722,7 @@
             {
               "kind": "Reference",
               "text": "ModalActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -8629,7 +6731,7 @@
             {
               "kind": "Reference",
               "text": "ModalActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -8650,12 +6752,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function normalizeArray<T>(arr: "
+              "text": "declare function normalizeArray<T>(arr: "
             },
             {
               "kind": "Reference",
               "text": "RestOrArray",
-              "canonicalReference": "@discordjs/builders!RestOrArray:type"
+              "canonicalReference": "@discordjs/builders!~RestOrArray:type"
             },
             {
               "kind": "Content",
@@ -8712,7 +6814,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function quote<C extends "
+              "text": "declare function quote<C extends "
             },
             {
               "kind": "Content",
@@ -8777,7 +6879,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type RestOrArray<T> = "
+              "text": "declare type RestOrArray<T> = "
             },
             {
               "kind": "Content",
@@ -8815,7 +6917,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type RGBTuple = "
+              "text": "declare type RGBTuple = "
             },
             {
               "kind": "Content",
@@ -8840,7 +6942,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function roleMention<C extends "
+              "text": "declare function roleMention<C extends "
             },
             {
               "kind": "Reference",
@@ -8906,12 +7008,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SelectMenuBuilder extends "
+              "text": "declare class SelectMenuBuilder extends "
             },
             {
               "kind": "Reference",
               "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
+              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
             },
             {
               "kind": "Content",
@@ -8993,7 +7095,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -9011,7 +7113,7 @@
                 {
                   "kind": "Reference",
                   "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -9063,7 +7165,7 @@
                 {
                   "kind": "Reference",
                   "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -9285,7 +7387,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -9303,7 +7405,7 @@
                 {
                   "kind": "Reference",
                   "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -9435,12 +7537,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SelectMenuOptionBuilder implements "
+              "text": "declare class SelectMenuOptionBuilder implements "
             },
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -9835,7 +7937,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SharedNameAndDescription "
+              "text": "declare class SharedNameAndDescription "
             }
           ],
           "releaseTag": "Public",
@@ -10296,7 +8398,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SharedSlashCommandOptions<ShouldOmitSubcommandFunctions = "
+              "text": "declare class SharedSlashCommandOptions<ShouldOmitSubcommandFunctions = "
             },
             {
               "kind": "Content",
@@ -10336,7 +8438,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandAttachmentOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandAttachmentOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10345,7 +8447,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandAttachmentOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandAttachmentOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10354,7 +8456,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandAttachmentOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandAttachmentOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10415,7 +8517,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandBooleanOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandBooleanOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10424,7 +8526,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandBooleanOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandBooleanOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10433,7 +8535,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandBooleanOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandBooleanOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10494,7 +8596,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandChannelOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandChannelOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandChannelOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10503,7 +8605,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandChannelOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandChannelOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandChannelOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10512,7 +8614,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandChannelOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandChannelOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandChannelOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10582,7 +8684,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10600,7 +8702,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10609,7 +8711,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10618,7 +8720,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10636,7 +8738,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10654,7 +8756,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10663,7 +8765,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10724,7 +8826,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandMentionableOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandMentionableOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10733,7 +8835,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandMentionableOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandMentionableOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10742,7 +8844,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandMentionableOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandMentionableOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10812,7 +8914,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10830,7 +8932,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10839,7 +8941,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10848,7 +8950,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10866,7 +8968,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10884,7 +8986,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10893,7 +8995,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10954,7 +9056,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandRoleOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandRoleOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandRoleOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10963,7 +9065,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandRoleOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandRoleOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandRoleOption:class"
                 },
                 {
                   "kind": "Content",
@@ -10972,7 +9074,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandRoleOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandRoleOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandRoleOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11042,7 +9144,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11060,7 +9162,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11069,7 +9171,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11078,7 +9180,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11096,7 +9198,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11114,7 +9216,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11123,7 +9225,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11184,7 +9286,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandUserOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandUserOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandUserOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11193,7 +9295,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandUserOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandUserOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandUserOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11202,7 +9304,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandUserOption",
-                  "canonicalReference": "@discordjs/builders!SlashCommandUserOption:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandUserOption:class"
                 },
                 {
                   "kind": "Content",
@@ -11263,7 +9365,7 @@
                 {
                   "kind": "Reference",
                   "text": "ToAPIApplicationCommandOptions",
-                  "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
+                  "canonicalReference": "@discordjs/builders!~ToAPIApplicationCommandOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -11292,799 +9394,16 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!SlashCommandAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [],
-          "releaseTag": "None",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace Assertions$1 "
+            }
+          ],
+          "releaseTag": "Public",
           "name": "SlashCommandAssertions",
           "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.assertReturnOfBuilder:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function assertReturnOfBuilder<T extends "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ApplicationCommandOptionBase",
-                  "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SlashCommandSubcommandGroupBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">(input: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", ExpectedInstanceOf: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "new () => T"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "input",
-                  "canonicalReference": "@discordjs/builders!~input"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is T"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 11,
-                "endIndex": 14
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "input",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 7,
-                    "endIndex": 8
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "ExpectedInstanceOf",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 9,
-                    "endIndex": 10
-                  },
-                  "isOptional": false
-                }
-              ],
-              "typeParameters": [
-                {
-                  "typeParameterName": "T",
-                  "constraintTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 6
-                  },
-                  "defaultTypeTokenRange": {
-                    "startIndex": 0,
-                    "endIndex": 0
-                  }
-                }
-              ],
-              "name": "assertReturnOfBuilder"
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.localizationMapPredicate:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "localizationMapPredicate: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UnionValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~UnionValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "UndefinedToOptional",
-                  "canonicalReference": "@sapphire/shapeshift!~UndefinedToOptional:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Record",
-                  "canonicalReference": "!Record:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<\"en-US\" | \"en-GB\" | \"bg\" | \"zh-CN\" | \"zh-TW\" | \"hr\" | \"cs\" | \"da\" | \"nl\" | \"fi\" | \"fr\" | \"de\" | \"el\" | \"hi\" | \"hu\" | \"it\" | \"ja\" | \"ko\" | \"lt\" | \"no\" | \"pl\" | \"pt-BR\" | \"ro\" | \"ru\" | \"es-ES\" | \"sv-SE\" | \"th\" | \"tr\" | \"uk\" | \"vi\", string | null>>> | null | undefined>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "localizationMapPredicate",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 10
-              }
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateChoicesLength:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateChoicesLength(amountAdding: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", choices?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIApplicationCommandOptionChoice",
-                  "canonicalReference": "discord-api-types!APIApplicationCommandOptionChoice:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "amountAdding",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "choices",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ],
-              "name": "validateChoicesLength"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateDefaultMemberPermissions:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateDefaultMemberPermissions(permissions: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string | null | undefined"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "permissions",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateDefaultMemberPermissions"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateDefaultPermission:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateDefaultPermission(value: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "value",
-                  "canonicalReference": "@discordjs/builders!~value"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateDefaultPermission"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateDescription:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateDescription(description: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "description",
-                  "canonicalReference": "@discordjs/builders!~description"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "description",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateDescription"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateDMPermission:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateDMPermission(value: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "value",
-                  "canonicalReference": "@discordjs/builders!~value"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is boolean | null | undefined"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateDMPermission"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateLocale:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateLocale(locale: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Locale",
-                  "canonicalReference": "discord-api-types!Locale:enum"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "locale",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateLocale"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateLocalizationMap:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateLocalizationMap(value: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "value",
-                  "canonicalReference": "@discordjs/builders!~value"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "LocalizationMap",
-                  "canonicalReference": "discord-api-types!LocalizationMap:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateLocalizationMap"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateMaxOptionsLength:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateMaxOptionsLength(options: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "options",
-                  "canonicalReference": "@discordjs/builders!~options"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ToAPIApplicationCommandOptions",
-                  "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 8
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateMaxOptionsLength"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateName:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateName(name: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "name",
-                  "canonicalReference": "@discordjs/builders!~name"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "name",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateName"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateRequired:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateRequired(required: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "unknown"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "asserts "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "required",
-                  "canonicalReference": "@discordjs/builders!~required"
-                },
-                {
-                  "kind": "Content",
-                  "text": " is boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "required",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateRequired"
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateRequiredParameters:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateRequiredParameters(name: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", description: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ToAPIApplicationCommandOptions",
-                  "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 9
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "name",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "description",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 5,
-                    "endIndex": 7
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "validateRequiredParameters"
-            }
-          ]
+          "members": []
         },
         {
           "kind": "Class",
@@ -12093,12 +9412,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandAttachmentOption extends "
+              "text": "declare class SlashCommandAttachmentOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -12184,12 +9503,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandBooleanOption extends "
+              "text": "declare class SlashCommandBooleanOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -12275,7 +9594,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandBuilder "
+              "text": "declare class SlashCommandBuilder "
             }
           ],
           "releaseTag": "Public",
@@ -12294,7 +9613,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12303,7 +9622,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12312,7 +9631,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12325,7 +9644,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandsOnlyBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandsOnlyBuilder:interface"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandsOnlyBuilder:interface"
                 },
                 {
                   "kind": "Content",
@@ -12365,7 +9684,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandGroupBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandGroupBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12374,7 +9693,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandGroupBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandGroupBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12383,7 +9702,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandGroupBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandGroupBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12396,7 +9715,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandsOnlyBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandsOnlyBuilder:interface"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandsOnlyBuilder:interface"
                 },
                 {
                   "kind": "Content",
@@ -12646,7 +9965,7 @@
                 {
                   "kind": "Reference",
                   "text": "ToAPIApplicationCommandOptions",
-                  "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
+                  "canonicalReference": "@discordjs/builders!~ToAPIApplicationCommandOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -12855,12 +10174,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandBuilder extends "
+              "text": "interface SlashCommandBuilder extends "
             },
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -12869,7 +10188,7 @@
             {
               "kind": "Reference",
               "text": "SharedSlashCommandOptions",
-              "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions:class"
+              "canonicalReference": "@discordjs/builders!~SharedSlashCommandOptions:class"
             },
             {
               "kind": "Content",
@@ -12898,12 +10217,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandChannelOption extends "
+              "text": "declare class SlashCommandChannelOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -12989,12 +10308,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandChannelOption extends "
+              "text": "interface SlashCommandChannelOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionChannelTypesMixin",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionChannelTypesMixin:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionChannelTypesMixin:class"
             },
             {
               "kind": "Content",
@@ -13019,12 +10338,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandIntegerOption extends "
+              "text": "declare class SlashCommandIntegerOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -13033,7 +10352,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandNumericOptionMinMaxValueMixin",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandNumericOptionMinMaxValueMixin:class"
             },
             {
               "kind": "Content",
@@ -13218,12 +10537,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandIntegerOption extends "
+              "text": "interface SlashCommandIntegerOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandNumericOptionMinMaxValueMixin",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandNumericOptionMinMaxValueMixin:class"
             },
             {
               "kind": "Content",
@@ -13232,7 +10551,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionWithChoicesAndAutocompleteMixin",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
             },
             {
               "kind": "Content",
@@ -13265,12 +10584,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandMentionableOption extends "
+              "text": "declare class SlashCommandMentionableOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -13356,12 +10675,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandNumberOption extends "
+              "text": "declare class SlashCommandNumberOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -13370,7 +10689,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandNumericOptionMinMaxValueMixin",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandNumericOptionMinMaxValueMixin:class"
             },
             {
               "kind": "Content",
@@ -13555,12 +10874,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandNumberOption extends "
+              "text": "interface SlashCommandNumberOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandNumericOptionMinMaxValueMixin",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandNumericOptionMinMaxValueMixin:class"
             },
             {
               "kind": "Content",
@@ -13569,7 +10888,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionWithChoicesAndAutocompleteMixin",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
             },
             {
               "kind": "Content",
@@ -13602,12 +10921,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandOptionsOnlyBuilder extends "
+              "text": "interface SlashCommandOptionsOnlyBuilder extends "
             },
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -13616,7 +10935,7 @@
             {
               "kind": "Reference",
               "text": "SharedSlashCommandOptions",
-              "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions:class"
+              "canonicalReference": "@discordjs/builders!~SharedSlashCommandOptions:class"
             },
             {
               "kind": "Content",
@@ -13634,7 +10953,7 @@
             {
               "kind": "Reference",
               "text": "SlashCommandBuilder",
-              "canonicalReference": "@discordjs/builders!SlashCommandBuilder:class"
+              "canonicalReference": "@discordjs/builders!~SlashCommandBuilder:class"
             },
             {
               "kind": "Content",
@@ -13671,12 +10990,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandRoleOption extends "
+              "text": "declare class SlashCommandRoleOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -13762,12 +11081,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandStringOption extends "
+              "text": "declare class SlashCommandStringOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -14005,12 +11324,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandStringOption extends "
+              "text": "interface SlashCommandStringOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionWithChoicesAndAutocompleteMixin",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
             },
             {
               "kind": "Content",
@@ -14039,12 +11358,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandSubcommandBuilder implements "
+              "text": "declare class SlashCommandSubcommandBuilder implements "
             },
             {
               "kind": "Reference",
               "text": "ToAPIApplicationCommandOptions",
-              "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
+              "canonicalReference": "@discordjs/builders!~ToAPIApplicationCommandOptions:interface"
             },
             {
               "kind": "Content",
@@ -14125,7 +11444,7 @@
                 {
                   "kind": "Reference",
                   "text": "ApplicationCommandOptionBase",
-                  "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+                  "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
                 },
                 {
                   "kind": "Content",
@@ -14193,12 +11512,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandSubcommandBuilder extends "
+              "text": "interface SlashCommandSubcommandBuilder extends "
             },
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -14207,7 +11526,7 @@
             {
               "kind": "Reference",
               "text": "SharedSlashCommandOptions",
-              "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions:class"
+              "canonicalReference": "@discordjs/builders!~SharedSlashCommandOptions:class"
             },
             {
               "kind": "Content",
@@ -14240,12 +11559,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandSubcommandGroupBuilder implements "
+              "text": "declare class SlashCommandSubcommandGroupBuilder implements "
             },
             {
               "kind": "Reference",
               "text": "ToAPIApplicationCommandOptions",
-              "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
+              "canonicalReference": "@discordjs/builders!~ToAPIApplicationCommandOptions:interface"
             },
             {
               "kind": "Content",
@@ -14268,7 +11587,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -14277,7 +11596,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -14286,7 +11605,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -14396,7 +11715,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -14464,12 +11783,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandSubcommandGroupBuilder extends "
+              "text": "interface SlashCommandSubcommandGroupBuilder extends "
             },
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -14494,12 +11813,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SlashCommandSubcommandsOnlyBuilder extends "
+              "text": "interface SlashCommandSubcommandsOnlyBuilder extends "
             },
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -14517,7 +11836,7 @@
             {
               "kind": "Reference",
               "text": "SlashCommandBuilder",
-              "canonicalReference": "@discordjs/builders!SlashCommandBuilder:class"
+              "canonicalReference": "@discordjs/builders!~SlashCommandBuilder:class"
             },
             {
               "kind": "Content",
@@ -14550,12 +11869,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class SlashCommandUserOption extends "
+              "text": "declare class SlashCommandUserOption extends "
             },
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -14641,7 +11960,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function spoiler<C extends "
+              "text": "declare function spoiler<C extends "
             },
             {
               "kind": "Content",
@@ -14706,7 +12025,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function strikethrough<C extends "
+              "text": "declare function strikethrough<C extends "
             },
             {
               "kind": "Content",
@@ -14768,315 +12087,16 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!TextInputAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [],
-          "releaseTag": "None",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace Assertions$3 "
+            }
+          ],
+          "releaseTag": "Public",
           "name": "TextInputAssertions",
           "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!TextInputAssertions.labelValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "labelValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "labelValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!TextInputAssertions.maxLengthValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "maxLengthValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "NumberValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~NumberValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "maxLengthValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!TextInputAssertions.minLengthValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "minLengthValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "NumberValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~NumberValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "minLengthValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!TextInputAssertions.placeholderValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "placeholderValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "placeholderValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!TextInputAssertions.requiredValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "requiredValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "BooleanValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~BooleanValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<boolean>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "requiredValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!TextInputAssertions.textInputStyleValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "textInputStyleValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "NativeEnumValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~NativeEnumValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<typeof "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "TextInputStyle",
-                  "canonicalReference": "discord-api-types!TextInputStyle:enum"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "textInputStyleValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 6
-              }
-            },
-            {
-              "kind": "Function",
-              "canonicalReference": "@discordjs/builders!TextInputAssertions.validateRequiredParameters:function(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "export declare function validateRequiredParameters(customId?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", style?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "TextInputStyle",
-                  "canonicalReference": "discord-api-types!TextInputStyle:enum"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", label?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "returnTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "style",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "label",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 5,
-                    "endIndex": 6
-                  },
-                  "isOptional": true
-                }
-              ],
-              "name": "validateRequiredParameters"
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@discordjs/builders!TextInputAssertions.valueValidator:var",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "valueValidator: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "import(\"@sapphire/shapeshift\")."
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StringValidator",
-                  "canonicalReference": "@sapphire/shapeshift!~StringValidator:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string>"
-                }
-              ],
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "valueValidator",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            }
-          ]
+          "members": []
         },
         {
           "kind": "Class",
@@ -15085,12 +12105,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class TextInputBuilder extends "
+              "text": "declare class TextInputBuilder extends "
             },
             {
               "kind": "Reference",
               "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
+              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
             },
             {
               "kind": "Content",
@@ -15112,7 +12132,7 @@
             {
               "kind": "Reference",
               "text": "Equatable",
-              "canonicalReference": "@discordjs/builders!Equatable:interface"
+              "canonicalReference": "@discordjs/builders!~Equatable:interface"
             },
             {
               "kind": "Content",
@@ -15130,7 +12150,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -15221,7 +12241,7 @@
                 {
                   "kind": "Reference",
                   "text": "JSONEncodable",
-                  "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+                  "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
                 },
                 {
                   "kind": "Content",
@@ -15697,7 +12717,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function time(date?: "
+              "text": "declare function time(date?: "
             },
             {
               "kind": "Reference",
@@ -15742,12 +12762,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function time<S extends "
+              "text": "declare function time<S extends "
             },
             {
               "kind": "Reference",
               "text": "TimestampStylesString",
-              "canonicalReference": "@discordjs/builders!TimestampStylesString:type"
+              "canonicalReference": "@discordjs/builders!~TimestampStylesString:type"
             },
             {
               "kind": "Content",
@@ -15825,7 +12845,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function time<C extends "
+              "text": "declare function time<C extends "
             },
             {
               "kind": "Content",
@@ -15890,7 +12910,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function time<C extends "
+              "text": "declare function time<C extends "
             },
             {
               "kind": "Content",
@@ -15903,7 +12923,7 @@
             {
               "kind": "Reference",
               "text": "TimestampStylesString",
-              "canonicalReference": "@discordjs/builders!TimestampStylesString:type"
+              "canonicalReference": "@discordjs/builders!~TimestampStylesString:type"
             },
             {
               "kind": "Content",
@@ -16013,7 +13033,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type TimestampStylesString = "
+              "text": "declare type TimestampStylesString = "
             },
             {
               "kind": "Content",
@@ -16022,7 +13042,7 @@
             {
               "kind": "Reference",
               "text": "TimestampStyles",
-              "canonicalReference": "@discordjs/builders!TimestampStyles:var"
+              "canonicalReference": "@discordjs/builders!~TimestampStyles:var"
             },
             {
               "kind": "Content",
@@ -16031,7 +13051,7 @@
             {
               "kind": "Reference",
               "text": "TimestampStyles",
-              "canonicalReference": "@discordjs/builders!TimestampStyles:var"
+              "canonicalReference": "@discordjs/builders!~TimestampStyles:var"
             },
             {
               "kind": "Content",
@@ -16056,7 +13076,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ToAPIApplicationCommandOptions "
+              "text": "interface ToAPIApplicationCommandOptions "
             }
           ],
           "releaseTag": "Public",
@@ -16102,7 +13122,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function underscore<C extends "
+              "text": "declare function underscore<C extends "
             },
             {
               "kind": "Content",
@@ -16167,7 +13187,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function userMention<C extends "
+              "text": "declare function userMention<C extends "
             },
             {
               "kind": "Reference",
