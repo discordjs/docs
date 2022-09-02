@@ -179,7 +179,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class Collection<K, V> extends "
+              "text": "declare class Collection<K, V> extends "
             },
             {
               "kind": "Reference",
@@ -282,7 +282,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -338,7 +338,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -414,7 +414,7 @@
                 {
                   "kind": "Reference",
                   "text": "ReadonlyCollection",
-                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
+                  "canonicalReference": "@discordjs/collection!~ReadonlyCollection:type"
                 },
                 {
                   "kind": "Content",
@@ -427,7 +427,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -471,7 +471,7 @@
                 {
                   "kind": "Reference",
                   "text": "ReadonlyCollection",
-                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
+                  "canonicalReference": "@discordjs/collection!~ReadonlyCollection:type"
                 },
                 {
                   "kind": "Content",
@@ -484,7 +484,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -727,7 +727,7 @@
                 {
                   "kind": "Reference",
                   "text": "ReadonlyCollection",
-                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
+                  "canonicalReference": "@discordjs/collection!~ReadonlyCollection:type"
                 },
                 {
                   "kind": "Content",
@@ -808,7 +808,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -894,7 +894,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -1035,7 +1035,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -1148,7 +1148,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -1325,7 +1325,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -1407,7 +1407,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -1472,7 +1472,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -1549,7 +1549,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -1658,7 +1658,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -1750,7 +1750,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -2581,7 +2581,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -2594,7 +2594,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -2655,7 +2655,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -2676,7 +2676,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -2846,7 +2846,7 @@
                 {
                   "kind": "Reference",
                   "text": "ReadonlyCollection",
-                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
+                  "canonicalReference": "@discordjs/collection!~ReadonlyCollection:type"
                 },
                 {
                   "kind": "Content",
@@ -2859,7 +2859,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3272,7 +3272,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3345,7 +3345,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3421,7 +3421,7 @@
                 {
                   "kind": "Reference",
                   "text": "ReadonlyCollection",
-                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
+                  "canonicalReference": "@discordjs/collection!~ReadonlyCollection:type"
                 },
                 {
                   "kind": "Content",
@@ -3438,7 +3438,7 @@
                 {
                   "kind": "Reference",
                   "text": "Keep",
-                  "canonicalReference": "@discordjs/collection!Keep:type"
+                  "canonicalReference": "@discordjs/collection!~Keep:type"
                 },
                 {
                   "kind": "Content",
@@ -3455,7 +3455,7 @@
                 {
                   "kind": "Reference",
                   "text": "Keep",
-                  "canonicalReference": "@discordjs/collection!Keep:type"
+                  "canonicalReference": "@discordjs/collection!~Keep:type"
                 },
                 {
                   "kind": "Content",
@@ -3472,7 +3472,7 @@
                 {
                   "kind": "Reference",
                   "text": "Keep",
-                  "canonicalReference": "@discordjs/collection!Keep:type"
+                  "canonicalReference": "@discordjs/collection!~Keep:type"
                 },
                 {
                   "kind": "Content",
@@ -3485,7 +3485,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3606,7 +3606,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3615,7 +3615,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3710,7 +3710,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3719,7 +3719,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3797,7 +3797,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3806,7 +3806,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3887,7 +3887,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -3896,7 +3896,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -4018,7 +4018,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -4027,7 +4027,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -4132,7 +4132,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -4141,7 +4141,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -4589,7 +4589,7 @@
                 {
                   "kind": "Reference",
                   "text": "Comparator",
-                  "canonicalReference": "@discordjs/collection!Comparator:type"
+                  "canonicalReference": "@discordjs/collection!~Comparator:type"
                 },
                 {
                   "kind": "Content",
@@ -4641,7 +4641,7 @@
                 {
                   "kind": "Reference",
                   "text": "Comparator",
-                  "canonicalReference": "@discordjs/collection!Comparator:type"
+                  "canonicalReference": "@discordjs/collection!~Comparator:type"
                 },
                 {
                   "kind": "Content",
@@ -4654,7 +4654,7 @@
                 {
                   "kind": "Reference",
                   "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
+                  "canonicalReference": "@discordjs/collection!~Collection:class"
                 },
                 {
                   "kind": "Content",
@@ -4976,7 +4976,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ReadonlyCollection<K, V> = "
+              "text": "declare type ReadonlyCollection<K, V> = "
             },
             {
               "kind": "Reference",
@@ -4990,7 +4990,7 @@
             {
               "kind": "Reference",
               "text": "Collection",
-              "canonicalReference": "@discordjs/collection!Collection:class"
+              "canonicalReference": "@discordjs/collection!~Collection:class"
             },
             {
               "kind": "Content",
