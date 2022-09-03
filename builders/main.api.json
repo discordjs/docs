@@ -2142,6 +2142,414 @@
         },
         {
           "kind": "Function",
+          "canonicalReference": "@discordjs/builders!chatInputApplicationCommandMention:function(1)",
+          "docComment": "/**\n * Formats an application command name, subcommand group name, subcommand name, and ID into an application command mention\n *\n * @param commandName - The application command name to format\n *\n * @param subcommandGroupName - The subcommand group name to format\n *\n * @param subcommandName - The subcommand name to format\n *\n * @param commandId - The application command ID to format\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare function chatInputApplicationCommandMention<N extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", G extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", S extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", I extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(commandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": ", subcommandGroupName: "
+            },
+            {
+              "kind": "Content",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": ", subcommandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": ", commandId: "
+            },
+            {
+              "kind": "Content",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`</${N} ${G} ${S}:${I}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "returnTypeTokenRange": {
+            "startIndex": 17,
+            "endIndex": 18
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "commandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "subcommandGroupName",
+              "parameterTypeTokenRange": {
+                "startIndex": 11,
+                "endIndex": 12
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "subcommandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 13,
+                "endIndex": 14
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "commandId",
+              "parameterTypeTokenRange": {
+                "startIndex": 15,
+                "endIndex": 16
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "N",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "G",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "S",
+              "constraintTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "I",
+              "constraintTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "chatInputApplicationCommandMention"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/builders!chatInputApplicationCommandMention:function(2)",
+          "docComment": "/**\n * Formats an application command name, subcommand name, and ID into an application command mention\n *\n * @param commandName - The application command name to format\n *\n * @param subcommandName - The subcommand name to format\n *\n * @param commandId - The application command ID to format\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare function chatInputApplicationCommandMention<N extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", S extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", I extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(commandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": ", subcommandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": ", commandId: "
+            },
+            {
+              "kind": "Content",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`</${N} ${S}:${I}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "returnTypeTokenRange": {
+            "startIndex": 13,
+            "endIndex": 14
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "commandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "subcommandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "commandId",
+              "parameterTypeTokenRange": {
+                "startIndex": 11,
+                "endIndex": 12
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "N",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "S",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "I",
+              "constraintTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "chatInputApplicationCommandMention"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/builders!chatInputApplicationCommandMention:function(3)",
+          "docComment": "/**\n * Formats an application command name and ID into an application command mention\n *\n * @param commandName - The application command name to format\n *\n * @param commandId - The application command ID to format\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare function chatInputApplicationCommandMention<N extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", I extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(commandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": ", commandId: "
+            },
+            {
+              "kind": "Content",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`</${N}:${I}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "returnTypeTokenRange": {
+            "startIndex": 9,
+            "endIndex": 10
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 3,
+          "parameters": [
+            {
+              "parameterName": "commandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "commandId",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "N",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "I",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "chatInputApplicationCommandMention"
+        },
+        {
+          "kind": "Function",
           "canonicalReference": "@discordjs/builders!codeBlock:function(1)",
           "docComment": "/**\n * Wraps the content inside a codeblock with no language\n *\n * @param content - The content to wrap\n */\n",
           "excerptTokens": [
