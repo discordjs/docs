@@ -5680,7 +5680,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { debug, adapterCreator }: "
+                  "text": ", options: "
                 },
                 {
                   "kind": "Reference",
@@ -5705,7 +5705,7 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "{ debug, adapterCreator }",
+                  "parameterName": "options",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
                     "endIndex": 4
