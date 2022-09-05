@@ -3123,7 +3123,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDefaultMemberPermissions:member(1)",
-              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * **Note:** You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * @remarks\n *\n * You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3175,7 +3175,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDefaultPermission:member(1)",
-              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * **Note**: If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * @remarks\n *\n * If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3480,7 +3480,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Returns the final data that should be sent to Discord.\n *\n * **Note:** Calling this function will validate required properties based on their conditions.\n */\n",
+              "docComment": "/**\n * Returns the final data that should be sent to Discord.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10398,7 +10398,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#setDefaultMemberPermissions:member(1)",
-              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * **Note:** You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * @remarks\n *\n * You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10450,7 +10450,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#setDefaultPermission:member(1)",
-              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * **Note**: If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link (SlashCommandBuilder:class).setDefaultMemberPermissions} or {@link (SlashCommandBuilder:class).setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * @remarks\n *\n * If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link (SlashCommandBuilder:class).setDefaultMemberPermissions} or {@link (SlashCommandBuilder:class).setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10544,7 +10544,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Returns the final data that should be sent to Discord.\n *\n * **Note:** Calling this function will validate required properties based on their conditions.\n */\n",
+              "docComment": "/**\n * Returns the final data that should be sent to Discord.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
