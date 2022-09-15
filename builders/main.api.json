@@ -12225,17 +12225,8 @@
             },
             {
               "kind": "Reference",
-              "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
-            },
-            {
-              "kind": "Content",
-              "text": ", "
-            },
-            {
-              "kind": "Reference",
-              "text": "Pick",
-              "canonicalReference": "!Pick:type"
+              "text": "Omit",
+              "canonicalReference": "!Omit:type"
             },
             {
               "kind": "Content",
@@ -12248,7 +12239,25 @@
             },
             {
               "kind": "Content",
-              "text": ", 'addSubcommand' | 'addSubcommandGroup' | 'toJSON'>"
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Exclude",
+              "canonicalReference": "!Exclude:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<keyof "
+            },
+            {
+              "kind": "Reference",
+              "text": "SharedSlashCommandOptions",
+              "canonicalReference": "@discordjs/builders!~SharedSlashCommandOptions:class"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'options'>>"
             },
             {
               "kind": "Content",
@@ -12262,11 +12271,7 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
-            },
-            {
-              "startIndex": 3,
-              "endIndex": 7
+              "endIndex": 9
             }
           ]
         },
