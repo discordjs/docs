@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.30.0",
+    "toolVersion": "7.31.1",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -344,7 +344,7 @@
             {
               "kind": "Reference",
               "text": "OptionalWebSocketManagerOptions",
-              "canonicalReference": "@discordjs/ws!~OptionalWebSocketManagerOptions:interface"
+              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions:interface"
             }
           ],
           "isReadonly": true,
@@ -413,7 +413,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketManagerOptions",
-              "canonicalReference": "@discordjs/ws!~WebSocketManagerOptions:type"
+              "canonicalReference": "@discordjs/ws!WebSocketManagerOptions:type"
             },
             {
               "kind": "Content",
@@ -517,7 +517,7 @@
                 {
                   "kind": "Reference",
                   "text": "FetchingStrategyOptions",
-                  "canonicalReference": "@discordjs/ws!~FetchingStrategyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!FetchingStrategyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -562,7 +562,7 @@
                 {
                   "kind": "Reference",
                   "text": "SessionInfo",
-                  "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+                  "canonicalReference": "@discordjs/ws!SessionInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -612,7 +612,7 @@
                 {
                   "kind": "Reference",
                   "text": "SessionInfo",
-                  "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+                  "canonicalReference": "@discordjs/ws!SessionInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -692,7 +692,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketManager",
-                  "canonicalReference": "@discordjs/ws!~WebSocketManager:class"
+                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
                 },
                 {
                   "kind": "Content",
@@ -813,7 +813,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -855,7 +855,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketShardDestroyOptions",
-                  "canonicalReference": "@discordjs/ws!~WebSocketShardDestroyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!WebSocketShardDestroyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -868,7 +868,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -927,7 +927,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -985,7 +985,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -1091,7 +1091,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEventsMap",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEventsMap:type"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEventsMap:type"
             },
             {
               "kind": "Content",
@@ -1100,7 +1100,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEventsMap",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEventsMap:type"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEventsMap:type"
             },
             {
               "kind": "Content",
@@ -1109,7 +1109,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEventsMap",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEventsMap:type"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEventsMap:type"
             },
             {
               "kind": "Content",
@@ -1139,7 +1139,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketManager",
-              "canonicalReference": "@discordjs/ws!~WebSocketManager:class"
+              "canonicalReference": "@discordjs/ws!WebSocketManager:class"
             },
             {
               "kind": "Content",
@@ -1157,7 +1157,7 @@
             {
               "kind": "Reference",
               "text": "FetchingStrategyOptions",
-              "canonicalReference": "@discordjs/ws!~FetchingStrategyOptions:interface"
+              "canonicalReference": "@discordjs/ws!FetchingStrategyOptions:interface"
             },
             {
               "kind": "Content",
@@ -1212,7 +1212,7 @@
                 {
                   "kind": "Reference",
                   "text": "CompressionMethod",
-                  "canonicalReference": "@discordjs/ws!~CompressionMethod:enum"
+                  "canonicalReference": "@discordjs/ws!CompressionMethod:enum"
                 },
                 {
                   "kind": "Content",
@@ -1244,7 +1244,7 @@
                 {
                   "kind": "Reference",
                   "text": "Encoding",
-                  "canonicalReference": "@discordjs/ws!~Encoding:enum"
+                  "canonicalReference": "@discordjs/ws!Encoding:enum"
                 },
                 {
                   "kind": "Content",
@@ -1448,7 +1448,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -1457,7 +1457,7 @@
                 {
                   "kind": "Reference",
                   "text": "SessionInfo",
-                  "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+                  "canonicalReference": "@discordjs/ws!SessionInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -1530,7 +1530,7 @@
                 {
                   "kind": "Reference",
                   "text": "ShardRange",
-                  "canonicalReference": "@discordjs/ws!~ShardRange:interface"
+                  "canonicalReference": "@discordjs/ws!ShardRange:interface"
                 },
                 {
                   "kind": "Content",
@@ -1570,7 +1570,7 @@
                 {
                   "kind": "Reference",
                   "text": "SessionInfo",
-                  "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+                  "canonicalReference": "@discordjs/ws!SessionInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -1583,7 +1583,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -1663,7 +1663,7 @@
             {
               "kind": "Reference",
               "text": "ShardRange",
-              "canonicalReference": "@discordjs/ws!~ShardRange:interface"
+              "canonicalReference": "@discordjs/ws!ShardRange:interface"
             },
             {
               "kind": "Content",
@@ -2031,7 +2031,7 @@
             {
               "kind": "Reference",
               "text": "IContextFetchingStrategy",
-              "canonicalReference": "@discordjs/ws!~IContextFetchingStrategy:interface"
+              "canonicalReference": "@discordjs/ws!IContextFetchingStrategy:interface"
             },
             {
               "kind": "Content",
@@ -2054,7 +2054,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketManager",
-                  "canonicalReference": "@discordjs/ws!~WebSocketManager:class"
+                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
                 },
                 {
                   "kind": "Content",
@@ -2063,7 +2063,7 @@
                 {
                   "kind": "Reference",
                   "text": "FetchingStrategyOptions",
-                  "canonicalReference": "@discordjs/ws!~FetchingStrategyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!FetchingStrategyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -2104,7 +2104,7 @@
                 {
                   "kind": "Reference",
                   "text": "FetchingStrategyOptions",
-                  "canonicalReference": "@discordjs/ws!~FetchingStrategyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!FetchingStrategyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -2151,7 +2151,7 @@
                 {
                   "kind": "Reference",
                   "text": "SessionInfo",
-                  "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+                  "canonicalReference": "@discordjs/ws!SessionInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -2203,7 +2203,7 @@
                 {
                   "kind": "Reference",
                   "text": "SessionInfo",
-                  "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+                  "canonicalReference": "@discordjs/ws!SessionInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -2216,7 +2216,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -2276,7 +2276,7 @@
             {
               "kind": "Reference",
               "text": "IShardingStrategy",
-              "canonicalReference": "@discordjs/ws!~IShardingStrategy:interface"
+              "canonicalReference": "@discordjs/ws!IShardingStrategy:interface"
             },
             {
               "kind": "Content",
@@ -2299,7 +2299,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketManager",
-                  "canonicalReference": "@discordjs/ws!~WebSocketManager:class"
+                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
                 },
                 {
                   "kind": "Content",
@@ -2376,7 +2376,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketShardDestroyOptions",
-                  "canonicalReference": "@discordjs/ws!~WebSocketShardDestroyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!WebSocketShardDestroyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -2571,7 +2571,7 @@
             {
               "kind": "Reference",
               "text": "ManagerShardEventsMap",
-              "canonicalReference": "@discordjs/ws!~ManagerShardEventsMap:type"
+              "canonicalReference": "@discordjs/ws!ManagerShardEventsMap:type"
             },
             {
               "kind": "Content",
@@ -2607,7 +2607,7 @@
                 {
                   "kind": "Reference",
                   "text": "OptionalWebSocketManagerOptions",
-                  "canonicalReference": "@discordjs/ws!~OptionalWebSocketManagerOptions:interface"
+                  "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -2616,7 +2616,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequiredWebSocketManagerOptions",
-                  "canonicalReference": "@discordjs/ws!~RequiredWebSocketManagerOptions:interface"
+                  "canonicalReference": "@discordjs/ws!RequiredWebSocketManagerOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -2693,7 +2693,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketShardDestroyOptions",
-                  "canonicalReference": "@discordjs/ws!~WebSocketShardDestroyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!WebSocketShardDestroyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -2706,7 +2706,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -2898,7 +2898,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketManagerOptions",
-                  "canonicalReference": "@discordjs/ws!~WebSocketManagerOptions:type"
+                  "canonicalReference": "@discordjs/ws!WebSocketManagerOptions:type"
                 },
                 {
                   "kind": "Content",
@@ -2945,7 +2945,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!~Awaitable:type"
+                  "canonicalReference": "@discordjs/ws!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -2997,7 +2997,7 @@
                 {
                   "kind": "Reference",
                   "text": "IShardingStrategy",
-                  "canonicalReference": "@discordjs/ws!~IShardingStrategy:interface"
+                  "canonicalReference": "@discordjs/ws!IShardingStrategy:interface"
                 },
                 {
                   "kind": "Content",
@@ -3104,7 +3104,7 @@
             {
               "kind": "Reference",
               "text": "OptionalWebSocketManagerOptions",
-              "canonicalReference": "@discordjs/ws!~OptionalWebSocketManagerOptions:interface"
+              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions:interface"
             },
             {
               "kind": "Content",
@@ -3113,7 +3113,7 @@
             {
               "kind": "Reference",
               "text": "RequiredWebSocketManagerOptions",
-              "canonicalReference": "@discordjs/ws!~RequiredWebSocketManagerOptions:interface"
+              "canonicalReference": "@discordjs/ws!RequiredWebSocketManagerOptions:interface"
             },
             {
               "kind": "Content",
@@ -3148,7 +3148,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEventsMap",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEventsMap:type"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEventsMap:type"
             },
             {
               "kind": "Content",
@@ -3175,7 +3175,7 @@
                 {
                   "kind": "Reference",
                   "text": "IContextFetchingStrategy",
-                  "canonicalReference": "@discordjs/ws!~IContextFetchingStrategy:interface"
+                  "canonicalReference": "@discordjs/ws!IContextFetchingStrategy:interface"
                 },
                 {
                   "kind": "Content",
@@ -3259,7 +3259,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketShardDestroyOptions",
-                  "canonicalReference": "@discordjs/ws!~WebSocketShardDestroyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!WebSocketShardDestroyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -3365,7 +3365,7 @@
                 {
                   "kind": "Reference",
                   "text": "IContextFetchingStrategy",
-                  "canonicalReference": "@discordjs/ws!~IContextFetchingStrategy:interface"
+                  "canonicalReference": "@discordjs/ws!IContextFetchingStrategy:interface"
                 },
                 {
                   "kind": "Content",
@@ -3470,7 +3470,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketShardDestroyRecovery",
-                  "canonicalReference": "@discordjs/ws!~WebSocketShardDestroyRecovery:enum"
+                  "canonicalReference": "@discordjs/ws!WebSocketShardDestroyRecovery:enum"
                 },
                 {
                   "kind": "Content",
@@ -3684,7 +3684,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEvents.Debug",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEvents.Debug:member"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Debug:member"
             },
             {
               "kind": "Content",
@@ -3693,7 +3693,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEvents.Hello",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEvents.Hello:member"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Hello:member"
             },
             {
               "kind": "Content",
@@ -3702,7 +3702,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEvents.Ready",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEvents.Ready:member"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Ready:member"
             },
             {
               "kind": "Content",
@@ -3711,7 +3711,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEvents.Resumed",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEvents.Resumed:member"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Resumed:member"
             },
             {
               "kind": "Content",
@@ -3720,7 +3720,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEvents.Dispatch",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEvents.Dispatch:member"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Dispatch:member"
             },
             {
               "kind": "Content",
@@ -3859,7 +3859,7 @@
             {
               "kind": "Reference",
               "text": "IContextFetchingStrategy",
-              "canonicalReference": "@discordjs/ws!~IContextFetchingStrategy:interface"
+              "canonicalReference": "@discordjs/ws!IContextFetchingStrategy:interface"
             },
             {
               "kind": "Content",
@@ -3882,7 +3882,7 @@
                 {
                   "kind": "Reference",
                   "text": "FetchingStrategyOptions",
-                  "canonicalReference": "@discordjs/ws!~FetchingStrategyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!FetchingStrategyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -3915,7 +3915,7 @@
                 {
                   "kind": "Reference",
                   "text": "FetchingStrategyOptions",
-                  "canonicalReference": "@discordjs/ws!~FetchingStrategyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!FetchingStrategyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -3962,7 +3962,7 @@
                 {
                   "kind": "Reference",
                   "text": "SessionInfo",
-                  "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+                  "canonicalReference": "@discordjs/ws!SessionInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -4014,7 +4014,7 @@
                 {
                   "kind": "Reference",
                   "text": "SessionInfo",
-                  "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+                  "canonicalReference": "@discordjs/ws!SessionInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -4082,7 +4082,7 @@
             {
               "kind": "Reference",
               "text": "FetchingStrategyOptions",
-              "canonicalReference": "@discordjs/ws!~FetchingStrategyOptions:interface"
+              "canonicalReference": "@discordjs/ws!FetchingStrategyOptions:interface"
             },
             {
               "kind": "Content",
@@ -4144,7 +4144,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardEvents",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardEvents:enum"
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents:enum"
             },
             {
               "kind": "Content",
@@ -4153,7 +4153,7 @@
             {
               "kind": "Reference",
               "text": "WorkerRecievePayloadOp.Event",
-              "canonicalReference": "@discordjs/ws!~WorkerRecievePayloadOp.Event:member"
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Event:member"
             },
             {
               "kind": "Content",
@@ -4162,7 +4162,7 @@
             {
               "kind": "Reference",
               "text": "WorkerRecievePayloadOp.RetrieveSessionInfo",
-              "canonicalReference": "@discordjs/ws!~WorkerRecievePayloadOp.RetrieveSessionInfo:member"
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.RetrieveSessionInfo:member"
             },
             {
               "kind": "Content",
@@ -4171,7 +4171,7 @@
             {
               "kind": "Reference",
               "text": "WorkerRecievePayloadOp.Connected",
-              "canonicalReference": "@discordjs/ws!~WorkerRecievePayloadOp.Connected:member"
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Connected:member"
             },
             {
               "kind": "Content",
@@ -4180,7 +4180,7 @@
             {
               "kind": "Reference",
               "text": "WorkerRecievePayloadOp.Destroyed",
-              "canonicalReference": "@discordjs/ws!~WorkerRecievePayloadOp.Destroyed:member"
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Destroyed:member"
             },
             {
               "kind": "Content",
@@ -4189,7 +4189,7 @@
             {
               "kind": "Reference",
               "text": "WorkerRecievePayloadOp.UpdateSessionInfo",
-              "canonicalReference": "@discordjs/ws!~WorkerRecievePayloadOp.UpdateSessionInfo:member"
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.UpdateSessionInfo:member"
             },
             {
               "kind": "Content",
@@ -4198,7 +4198,7 @@
             {
               "kind": "Reference",
               "text": "SessionInfo",
-              "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+              "canonicalReference": "@discordjs/ws!SessionInfo:interface"
             },
             {
               "kind": "Content",
@@ -4353,7 +4353,7 @@
             {
               "kind": "Reference",
               "text": "WorkerSendPayloadOp.SessionInfoResponse",
-              "canonicalReference": "@discordjs/ws!~WorkerSendPayloadOp.SessionInfoResponse:member"
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.SessionInfoResponse:member"
             },
             {
               "kind": "Content",
@@ -4362,7 +4362,7 @@
             {
               "kind": "Reference",
               "text": "SessionInfo",
-              "canonicalReference": "@discordjs/ws!~SessionInfo:interface"
+              "canonicalReference": "@discordjs/ws!SessionInfo:interface"
             },
             {
               "kind": "Content",
@@ -4371,7 +4371,7 @@
             {
               "kind": "Reference",
               "text": "WorkerSendPayloadOp.Connect",
-              "canonicalReference": "@discordjs/ws!~WorkerSendPayloadOp.Connect:member"
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.Connect:member"
             },
             {
               "kind": "Content",
@@ -4380,7 +4380,7 @@
             {
               "kind": "Reference",
               "text": "WorkerSendPayloadOp.Destroy",
-              "canonicalReference": "@discordjs/ws!~WorkerSendPayloadOp.Destroy:member"
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.Destroy:member"
             },
             {
               "kind": "Content",
@@ -4389,7 +4389,7 @@
             {
               "kind": "Reference",
               "text": "WebSocketShardDestroyOptions",
-              "canonicalReference": "@discordjs/ws!~WebSocketShardDestroyOptions:interface"
+              "canonicalReference": "@discordjs/ws!WebSocketShardDestroyOptions:interface"
             },
             {
               "kind": "Content",
@@ -4398,7 +4398,7 @@
             {
               "kind": "Reference",
               "text": "WorkerSendPayloadOp.Send",
-              "canonicalReference": "@discordjs/ws!~WorkerSendPayloadOp.Send:member"
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.Send:member"
             },
             {
               "kind": "Content",
@@ -4537,7 +4537,7 @@
             {
               "kind": "Reference",
               "text": "IShardingStrategy",
-              "canonicalReference": "@discordjs/ws!~IShardingStrategy:interface"
+              "canonicalReference": "@discordjs/ws!IShardingStrategy:interface"
             },
             {
               "kind": "Content",
@@ -4560,7 +4560,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketManager",
-                  "canonicalReference": "@discordjs/ws!~WebSocketManager:class"
+                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
                 },
                 {
                   "kind": "Content",
@@ -4569,7 +4569,7 @@
                 {
                   "kind": "Reference",
                   "text": "WorkerShardingStrategyOptions",
-                  "canonicalReference": "@discordjs/ws!~WorkerShardingStrategyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!WorkerShardingStrategyOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -4654,7 +4654,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebSocketShardDestroyOptions",
-                  "canonicalReference": "@discordjs/ws!~WebSocketShardDestroyOptions:interface"
+                  "canonicalReference": "@discordjs/ws!WebSocketShardDestroyOptions:interface"
                 },
                 {
                   "kind": "Content",
