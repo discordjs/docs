@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.30.0",
+    "toolVersion": "7.31.1",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -438,7 +438,7 @@
             {
               "kind": "Reference",
               "text": "RequestHandler",
-              "canonicalReference": "@discordjs/proxy!~RequestHandler:type"
+              "canonicalReference": "@discordjs/proxy!RequestHandler:type"
             },
             {
               "kind": "Content",
