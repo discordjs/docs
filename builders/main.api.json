@@ -251,7 +251,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!ActionRowBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `ActionRowBuilder` class\n */\n",
+              "docComment": "/**\n * Creates a new action row from API data\n *\n * @param data - The API data to create this action row with\n *\n * @example\n *\n * Creating an action row from an API data object\n * ```ts\n * const actionRow = new ActionRowBuilder({\n * \tcomponents: [\n * \t\t{\n * \t\t\tcustom_id: \"custom id\",\n * \t\t\tlabel: \"Type something\",\n * \t\t\tstyle: TextInputStyle.Short,\n * \t\t\ttype: ComponentType.TextInput,\n * \t\t},\n * \t],\n * });\n * ```\n *\n * @example\n *\n * Creating an action row using setters and API data\n * ```ts\n * const actionRow = new ActionRowBuilder({\n * \tcomponents: [\n * \t\t{\n * \t\t\tcustom_id: \"custom id\",\n * \t\t\tlabel: \"Click me\",\n * \t\t\tstyle: ButtonStyle.Primary,\n * \t\t\ttype: ComponentType.Button,\n * \t\t},\n * \t],\n * })\n * \t.addComponents(button2, button3);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1541,7 +1541,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!ButtonBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new button from API data\n *\n * @param data - The API data to create this button with\n *\n * @example\n *\n * Creating a button from an API data object\n * ```ts\n * const button = new ButtonBuilder({\n * \tstyle: 'primary',\n * \tlabel: 'Click Me',\n * \temoji: {\n * \t\tname: ':smile:',\n * \t\tid: '12345678901234567890123456789012',\n * \t},\n *  custom_id: '12345678901234567890123456789012',\n * });\n * ```\n *\n * @example\n *\n * Creating a button using setters and API data\n * ```ts\n * const button = new ButtonBuilder({\n * \tstyle: 'primary',\n * \tlabel: 'Click Me',\n * })\n * .setEmoji({ name: ':smile:', id: '12345678901234567890123456789012' })\n * .setCustomId('12345678901234567890123456789012');\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new button from API data\n *\n * @param data - The API data to create this button with\n *\n * @example\n *\n * Creating a button from an API data object\n * ```ts\n * const button = new ButtonBuilder({\n * \tcustom_id: 'a cool button',\n * \tstyle: ButtonStyle.Primary,\n * \tlabel: 'Click Me',\n * \temoji: {\n * \t\tname: 'smile',\n * \t\tid: '123456789012345678',\n * \t},\n * });\n * ```\n *\n * @example\n *\n * Creating a button using setters and API data\n * ```ts\n * const button = new ButtonBuilder({\n * \tstyle: ButtonStyle.Secondary,\n * \tlabel: 'Click Me',\n * })\n * \t.setEmoji({ name: '🙂' })\n * \t.setCustomId('another cool button');\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7448,7 +7448,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!SelectMenuBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `SelectMenuBuilder` class\n */\n",
+              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new SelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * \toptions: [\n * \t\t{ label: 'option 1', value: '1' },\n * \t\t{ label: 'option 2', value: '2' },\n * \t\t{ label: 'option 3', value: '3' },\n * \t],\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new SelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * \t.addOptions({\n * \t\tlabel: 'Catchy',\n * \t\tvalue: 'catch',\n * \t});\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7977,7 +7977,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `SelectMenuOptionBuilder` class\n */\n",
+              "docComment": "/**\n * Creates a new select menu option from API data\n *\n * @param data - The API data to create this select menu option with\n *\n * @example\n *\n * Creating a select menu option from an API data object\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tlabel: 'catchy label',\n * \tvalue: '1',\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu option using setters and API data\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tdefault: true,\n * \tvalue: '1',\n * })\n * \t.setLabel('woah')\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12590,7 +12590,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!TextInputBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `TextInputBuilder` class\n */\n",
+              "docComment": "/**\n * Creates a new text input from API data\n *\n * @param data - The API data to create this text input with\n *\n * @example\n *\n * Creating a select menu option from an API data object\n * ```ts\n * const textInput = new TextInputBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tlabel: 'Type something',\n * \tstyle: TextInputStyle.Short,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu option using setters and API data\n * ```ts\n * const textInput = new TextInputBuilder({\n * \tlabel: 'Type something else',\n * })\n * \t.setCustomId('woah')\n * \t.setStyle(TextInputStyle.Paragraph);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
