@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.30.0",
+    "toolVersion": "7.31.1",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -184,7 +184,7 @@
             {
               "kind": "Reference",
               "text": "AnyComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~AnyComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -193,7 +193,7 @@
             {
               "kind": "Reference",
               "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
+              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
             },
             {
               "kind": "Content",
@@ -315,7 +315,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -396,7 +396,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -543,7 +543,7 @@
             {
               "kind": "Reference",
               "text": "MessageActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~MessageActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!MessageActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -552,7 +552,7 @@
             {
               "kind": "Reference",
               "text": "ModalActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -781,7 +781,7 @@
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -992,7 +992,7 @@
                 {
                   "kind": "Reference",
                   "text": "ApplicationCommandOptionAllowedChannelTypes",
-                  "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionAllowedChannelTypes:type"
+                  "canonicalReference": "@discordjs/builders!ApplicationCommandOptionAllowedChannelTypes:type"
                 },
                 {
                   "kind": "Content",
@@ -1044,7 +1044,7 @@
                 {
                   "kind": "Reference",
                   "text": "ApplicationCommandOptionAllowedChannelTypes",
-                  "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionAllowedChannelTypes:type"
+                  "canonicalReference": "@discordjs/builders!ApplicationCommandOptionAllowedChannelTypes:type"
                 },
                 {
                   "kind": "Content",
@@ -1514,7 +1514,7 @@
             {
               "kind": "Reference",
               "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
+              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
             },
             {
               "kind": "Content",
@@ -2793,7 +2793,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -2802,7 +2802,7 @@
             {
               "kind": "Reference",
               "text": "AnyAPIActionRowComponent",
-              "canonicalReference": "@discordjs/builders!~AnyAPIActionRowComponent:type"
+              "canonicalReference": "@discordjs/builders!AnyAPIActionRowComponent:type"
             },
             {
               "kind": "Content",
@@ -2913,7 +2913,7 @@
                 {
                   "kind": "Reference",
                   "text": "AnyAPIActionRowComponent",
-                  "canonicalReference": "@discordjs/builders!~AnyAPIActionRowComponent:type"
+                  "canonicalReference": "@discordjs/builders!AnyAPIActionRowComponent:type"
                 },
                 {
                   "kind": "Content",
@@ -3441,7 +3441,7 @@
                 {
                   "kind": "Reference",
                   "text": "ContextMenuCommandType",
-                  "canonicalReference": "@discordjs/builders!~ContextMenuCommandType:type"
+                  "canonicalReference": "@discordjs/builders!ContextMenuCommandType:type"
                 },
                 {
                   "kind": "Content",
@@ -3520,7 +3520,7 @@
                 {
                   "kind": "Reference",
                   "text": "ContextMenuCommandType",
-                  "canonicalReference": "@discordjs/builders!~ContextMenuCommandType:type"
+                  "canonicalReference": "@discordjs/builders!ContextMenuCommandType:type"
                 },
                 {
                   "kind": "Content",
@@ -3592,7 +3592,7 @@
             {
               "kind": "Reference",
               "text": "MappedComponentTypes",
-              "canonicalReference": "@discordjs/builders!~MappedComponentTypes:interface"
+              "canonicalReference": "@discordjs/builders!MappedComponentTypes:interface"
             },
             {
               "kind": "Content",
@@ -3627,7 +3627,7 @@
             {
               "kind": "Reference",
               "text": "MappedComponentTypes",
-              "canonicalReference": "@discordjs/builders!~MappedComponentTypes:interface"
+              "canonicalReference": "@discordjs/builders!MappedComponentTypes:interface"
             },
             {
               "kind": "Content",
@@ -3681,7 +3681,7 @@
             {
               "kind": "Reference",
               "text": "MessageComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~MessageComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!MessageComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -3690,7 +3690,7 @@
             {
               "kind": "Reference",
               "text": "ModalComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ModalComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!ModalComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -3793,7 +3793,7 @@
             {
               "kind": "Reference",
               "text": "IconData",
-              "canonicalReference": "@discordjs/builders!~IconData:interface"
+              "canonicalReference": "@discordjs/builders!IconData:interface"
             },
             {
               "kind": "Content",
@@ -3850,7 +3850,7 @@
             {
               "kind": "Reference",
               "text": "EmbedAuthorData",
-              "canonicalReference": "@discordjs/builders!~EmbedAuthorData:type"
+              "canonicalReference": "@discordjs/builders!EmbedAuthorData:type"
             },
             {
               "kind": "Content",
@@ -3927,7 +3927,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -4018,7 +4018,7 @@
                 {
                   "kind": "Reference",
                   "text": "EmbedAuthorOptions",
-                  "canonicalReference": "@discordjs/builders!~EmbedAuthorOptions:type"
+                  "canonicalReference": "@discordjs/builders!EmbedAuthorOptions:type"
                 },
                 {
                   "kind": "Content",
@@ -4070,7 +4070,7 @@
                 {
                   "kind": "Reference",
                   "text": "RGBTuple",
-                  "canonicalReference": "@discordjs/builders!~RGBTuple:type"
+                  "canonicalReference": "@discordjs/builders!RGBTuple:type"
                 },
                 {
                   "kind": "Content",
@@ -4169,7 +4169,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -4230,7 +4230,7 @@
                 {
                   "kind": "Reference",
                   "text": "EmbedFooterOptions",
-                  "canonicalReference": "@discordjs/builders!~EmbedFooterOptions:type"
+                  "canonicalReference": "@discordjs/builders!EmbedFooterOptions:type"
                 },
                 {
                   "kind": "Content",
@@ -4640,7 +4640,7 @@
             {
               "kind": "Reference",
               "text": "IconData",
-              "canonicalReference": "@discordjs/builders!~IconData:interface"
+              "canonicalReference": "@discordjs/builders!IconData:interface"
             },
             {
               "kind": "Content",
@@ -4697,7 +4697,7 @@
             {
               "kind": "Reference",
               "text": "EmbedFooterData",
-              "canonicalReference": "@discordjs/builders!~EmbedFooterData:type"
+              "canonicalReference": "@discordjs/builders!EmbedFooterData:type"
             },
             {
               "kind": "Content",
@@ -5880,7 +5880,7 @@
             {
               "kind": "Reference",
               "text": "Equatable",
-              "canonicalReference": "@discordjs/builders!~Equatable:interface"
+              "canonicalReference": "@discordjs/builders!Equatable:interface"
             },
             {
               "kind": "Content",
@@ -5938,7 +5938,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -6147,7 +6147,7 @@
                 {
                   "kind": "Reference",
                   "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6156,7 +6156,7 @@
                 {
                   "kind": "Reference",
                   "text": "AnyComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!~AnyComponentBuilder:type"
+                  "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
                 },
                 {
                   "kind": "Content",
@@ -6197,7 +6197,7 @@
                 {
                   "kind": "Reference",
                   "text": "ButtonBuilder",
-                  "canonicalReference": "@discordjs/builders!~ButtonBuilder:class"
+                  "canonicalReference": "@discordjs/builders!ButtonBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6234,7 +6234,7 @@
                 {
                   "kind": "Reference",
                   "text": "SelectMenuBuilder",
-                  "canonicalReference": "@discordjs/builders!~SelectMenuBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SelectMenuBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6271,7 +6271,7 @@
                 {
                   "kind": "Reference",
                   "text": "TextInputBuilder",
-                  "canonicalReference": "@discordjs/builders!~TextInputBuilder:class"
+                  "canonicalReference": "@discordjs/builders!TextInputBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6302,7 +6302,7 @@
             {
               "kind": "Reference",
               "text": "ButtonBuilder",
-              "canonicalReference": "@discordjs/builders!~ButtonBuilder:class"
+              "canonicalReference": "@discordjs/builders!ButtonBuilder:class"
             },
             {
               "kind": "Content",
@@ -6311,7 +6311,7 @@
             {
               "kind": "Reference",
               "text": "SelectMenuBuilder",
-              "canonicalReference": "@discordjs/builders!~SelectMenuBuilder:class"
+              "canonicalReference": "@discordjs/builders!SelectMenuBuilder:class"
             },
             {
               "kind": "Content",
@@ -6337,7 +6337,7 @@
             {
               "kind": "Reference",
               "text": "ActionRowBuilder",
-              "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+              "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
             },
             {
               "kind": "Content",
@@ -6346,7 +6346,7 @@
             {
               "kind": "Reference",
               "text": "MessageActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~MessageActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!MessageActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -6355,7 +6355,7 @@
             {
               "kind": "Reference",
               "text": "MessageActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~MessageActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!MessageActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -6621,7 +6621,7 @@
             {
               "kind": "Reference",
               "text": "TextInputBuilder",
-              "canonicalReference": "@discordjs/builders!~TextInputBuilder:class"
+              "canonicalReference": "@discordjs/builders!TextInputBuilder:class"
             },
             {
               "kind": "Content",
@@ -6662,7 +6662,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -6744,7 +6744,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -6753,7 +6753,7 @@
                 {
                   "kind": "Reference",
                   "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6762,7 +6762,7 @@
                 {
                   "kind": "Reference",
                   "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+                  "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
                 },
                 {
                   "kind": "Content",
@@ -6832,7 +6832,7 @@
                 {
                   "kind": "Reference",
                   "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6841,7 +6841,7 @@
                 {
                   "kind": "Reference",
                   "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+                  "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
                 },
                 {
                   "kind": "Content",
@@ -6918,7 +6918,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -6927,7 +6927,7 @@
                 {
                   "kind": "Reference",
                   "text": "ActionRowBuilder",
-                  "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6936,7 +6936,7 @@
                 {
                   "kind": "Reference",
                   "text": "ModalActionRowComponentBuilder",
-                  "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+                  "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
                 },
                 {
                   "kind": "Content",
@@ -7121,7 +7121,7 @@
             {
               "kind": "Reference",
               "text": "ActionRowBuilder",
-              "canonicalReference": "@discordjs/builders!~ActionRowBuilder:class"
+              "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
             },
             {
               "kind": "Content",
@@ -7130,7 +7130,7 @@
             {
               "kind": "Reference",
               "text": "ModalActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -7139,7 +7139,7 @@
             {
               "kind": "Reference",
               "text": "ModalActionRowComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ModalActionRowComponentBuilder:type"
+              "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
             },
             {
               "kind": "Content",
@@ -7165,7 +7165,7 @@
             {
               "kind": "Reference",
               "text": "RestOrArray",
-              "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+              "canonicalReference": "@discordjs/builders!RestOrArray:type"
             },
             {
               "kind": "Content",
@@ -7421,7 +7421,7 @@
             {
               "kind": "Reference",
               "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
+              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
             },
             {
               "kind": "Content",
@@ -7503,7 +7503,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -7521,7 +7521,7 @@
                 {
                   "kind": "Reference",
                   "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -7573,7 +7573,7 @@
                 {
                   "kind": "Reference",
                   "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -7795,7 +7795,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!~RestOrArray:type"
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
                 },
                 {
                   "kind": "Content",
@@ -7813,7 +7813,7 @@
                 {
                   "kind": "Reference",
                   "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!~SelectMenuOptionBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -7950,7 +7950,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -8846,7 +8846,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandAttachmentOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandAttachmentOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption:class"
                 },
                 {
                   "kind": "Content",
@@ -8855,7 +8855,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandAttachmentOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandAttachmentOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption:class"
                 },
                 {
                   "kind": "Content",
@@ -8864,7 +8864,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandAttachmentOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandAttachmentOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption:class"
                 },
                 {
                   "kind": "Content",
@@ -8925,7 +8925,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandBooleanOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandBooleanOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption:class"
                 },
                 {
                   "kind": "Content",
@@ -8934,7 +8934,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandBooleanOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandBooleanOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption:class"
                 },
                 {
                   "kind": "Content",
@@ -8943,7 +8943,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandBooleanOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandBooleanOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9004,7 +9004,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandChannelOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandChannelOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandChannelOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9013,7 +9013,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandChannelOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandChannelOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandChannelOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9022,7 +9022,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandChannelOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandChannelOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandChannelOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9092,7 +9092,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9110,7 +9110,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9119,7 +9119,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9128,7 +9128,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9146,7 +9146,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9164,7 +9164,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9173,7 +9173,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandIntegerOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandIntegerOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9234,7 +9234,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandMentionableOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandMentionableOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9243,7 +9243,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandMentionableOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandMentionableOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9252,7 +9252,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandMentionableOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandMentionableOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9322,7 +9322,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9340,7 +9340,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9349,7 +9349,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9358,7 +9358,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9376,7 +9376,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9394,7 +9394,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9403,7 +9403,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandNumberOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandNumberOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9464,7 +9464,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandRoleOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandRoleOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandRoleOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9473,7 +9473,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandRoleOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandRoleOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandRoleOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9482,7 +9482,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandRoleOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandRoleOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandRoleOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9552,7 +9552,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9570,7 +9570,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9579,7 +9579,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9588,7 +9588,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9606,7 +9606,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9624,7 +9624,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9633,7 +9633,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandStringOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandStringOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9694,7 +9694,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandUserOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandUserOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandUserOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9703,7 +9703,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandUserOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandUserOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandUserOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9712,7 +9712,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandUserOption",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandUserOption:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandUserOption:class"
                 },
                 {
                   "kind": "Content",
@@ -9773,7 +9773,7 @@
                 {
                   "kind": "Reference",
                   "text": "ToAPIApplicationCommandOptions",
-                  "canonicalReference": "@discordjs/builders!~ToAPIApplicationCommandOptions:interface"
+                  "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -9825,7 +9825,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -9916,7 +9916,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -10021,7 +10021,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -10030,7 +10030,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -10039,7 +10039,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -10052,7 +10052,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandsOnlyBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandsOnlyBuilder:interface"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandsOnlyBuilder:interface"
                 },
                 {
                   "kind": "Content",
@@ -10092,7 +10092,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandGroupBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandGroupBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -10101,7 +10101,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandGroupBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandGroupBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -10110,7 +10110,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandGroupBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandGroupBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -10123,7 +10123,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandsOnlyBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandsOnlyBuilder:interface"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandsOnlyBuilder:interface"
                 },
                 {
                   "kind": "Content",
@@ -10373,7 +10373,7 @@
                 {
                   "kind": "Reference",
                   "text": "ToAPIApplicationCommandOptions",
-                  "canonicalReference": "@discordjs/builders!~ToAPIApplicationCommandOptions:interface"
+                  "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -10587,7 +10587,7 @@
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -10596,7 +10596,7 @@
             {
               "kind": "Reference",
               "text": "SharedSlashCommandOptions",
-              "canonicalReference": "@discordjs/builders!~SharedSlashCommandOptions:class"
+              "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions:class"
             },
             {
               "kind": "Content",
@@ -10630,7 +10630,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -10721,7 +10721,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionChannelTypesMixin",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionChannelTypesMixin:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionChannelTypesMixin:class"
             },
             {
               "kind": "Content",
@@ -10751,7 +10751,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -10760,7 +10760,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandNumericOptionMinMaxValueMixin",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandNumericOptionMinMaxValueMixin:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class"
             },
             {
               "kind": "Content",
@@ -10950,7 +10950,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandNumericOptionMinMaxValueMixin",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandNumericOptionMinMaxValueMixin:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class"
             },
             {
               "kind": "Content",
@@ -10959,7 +10959,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionWithChoicesAndAutocompleteMixin",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
             },
             {
               "kind": "Content",
@@ -10997,7 +10997,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -11088,7 +11088,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -11097,7 +11097,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandNumericOptionMinMaxValueMixin",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandNumericOptionMinMaxValueMixin:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class"
             },
             {
               "kind": "Content",
@@ -11287,7 +11287,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandNumericOptionMinMaxValueMixin",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandNumericOptionMinMaxValueMixin:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class"
             },
             {
               "kind": "Content",
@@ -11296,7 +11296,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionWithChoicesAndAutocompleteMixin",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
             },
             {
               "kind": "Content",
@@ -11334,7 +11334,7 @@
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -11343,7 +11343,7 @@
             {
               "kind": "Reference",
               "text": "SharedSlashCommandOptions",
-              "canonicalReference": "@discordjs/builders!~SharedSlashCommandOptions:class"
+              "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions:class"
             },
             {
               "kind": "Content",
@@ -11361,7 +11361,7 @@
             {
               "kind": "Reference",
               "text": "SlashCommandBuilder",
-              "canonicalReference": "@discordjs/builders!~SlashCommandBuilder:class"
+              "canonicalReference": "@discordjs/builders!SlashCommandBuilder:class"
             },
             {
               "kind": "Content",
@@ -11403,7 +11403,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -11494,7 +11494,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -11737,7 +11737,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionWithChoicesAndAutocompleteMixin",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class"
             },
             {
               "kind": "Content",
@@ -11771,7 +11771,7 @@
             {
               "kind": "Reference",
               "text": "ToAPIApplicationCommandOptions",
-              "canonicalReference": "@discordjs/builders!~ToAPIApplicationCommandOptions:interface"
+              "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
             },
             {
               "kind": "Content",
@@ -11852,7 +11852,7 @@
                 {
                   "kind": "Reference",
                   "text": "ApplicationCommandOptionBase",
-                  "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+                  "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
                 },
                 {
                   "kind": "Content",
@@ -11925,7 +11925,7 @@
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -11934,7 +11934,7 @@
             {
               "kind": "Reference",
               "text": "SharedSlashCommandOptions",
-              "canonicalReference": "@discordjs/builders!~SharedSlashCommandOptions:class"
+              "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions:class"
             },
             {
               "kind": "Content",
@@ -11972,7 +11972,7 @@
             {
               "kind": "Reference",
               "text": "ToAPIApplicationCommandOptions",
-              "canonicalReference": "@discordjs/builders!~ToAPIApplicationCommandOptions:interface"
+              "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
             },
             {
               "kind": "Content",
@@ -11995,7 +11995,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12004,7 +12004,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12013,7 +12013,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12123,7 +12123,7 @@
                 {
                   "kind": "Reference",
                   "text": "SlashCommandSubcommandBuilder",
-                  "canonicalReference": "@discordjs/builders!~SlashCommandSubcommandBuilder:class"
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -12196,7 +12196,7 @@
             {
               "kind": "Reference",
               "text": "SharedNameAndDescription",
-              "canonicalReference": "@discordjs/builders!~SharedNameAndDescription:class"
+              "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class"
             },
             {
               "kind": "Content",
@@ -12235,7 +12235,7 @@
             {
               "kind": "Reference",
               "text": "SlashCommandBuilder",
-              "canonicalReference": "@discordjs/builders!~SlashCommandBuilder:class"
+              "canonicalReference": "@discordjs/builders!SlashCommandBuilder:class"
             },
             {
               "kind": "Content",
@@ -12253,7 +12253,7 @@
             {
               "kind": "Reference",
               "text": "SharedSlashCommandOptions",
-              "canonicalReference": "@discordjs/builders!~SharedSlashCommandOptions:class"
+              "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions:class"
             },
             {
               "kind": "Content",
@@ -12287,7 +12287,7 @@
             {
               "kind": "Reference",
               "text": "ApplicationCommandOptionBase",
-              "canonicalReference": "@discordjs/builders!~ApplicationCommandOptionBase:class"
+              "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
             },
             {
               "kind": "Content",
@@ -12523,7 +12523,7 @@
             {
               "kind": "Reference",
               "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!~ComponentBuilder:class"
+              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
             },
             {
               "kind": "Content",
@@ -12545,7 +12545,7 @@
             {
               "kind": "Reference",
               "text": "Equatable",
-              "canonicalReference": "@discordjs/builders!~Equatable:interface"
+              "canonicalReference": "@discordjs/builders!Equatable:interface"
             },
             {
               "kind": "Content",
@@ -12563,7 +12563,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
+              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -12654,7 +12654,7 @@
                 {
                   "kind": "Reference",
                   "text": "JSONEncodable",
-                  "canonicalReference": "@discordjs/builders!~JSONEncodable:interface"
+                  "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
                 },
                 {
                   "kind": "Content",
@@ -13180,7 +13180,7 @@
             {
               "kind": "Reference",
               "text": "TimestampStylesString",
-              "canonicalReference": "@discordjs/builders!~TimestampStylesString:type"
+              "canonicalReference": "@discordjs/builders!TimestampStylesString:type"
             },
             {
               "kind": "Content",
@@ -13336,7 +13336,7 @@
             {
               "kind": "Reference",
               "text": "TimestampStylesString",
-              "canonicalReference": "@discordjs/builders!~TimestampStylesString:type"
+              "canonicalReference": "@discordjs/builders!TimestampStylesString:type"
             },
             {
               "kind": "Content",
@@ -13455,7 +13455,7 @@
             {
               "kind": "Reference",
               "text": "TimestampStyles",
-              "canonicalReference": "@discordjs/builders!~TimestampStyles:var"
+              "canonicalReference": "@discordjs/builders!TimestampStyles:var"
             },
             {
               "kind": "Content",
@@ -13464,7 +13464,7 @@
             {
               "kind": "Reference",
               "text": "TimestampStyles",
-              "canonicalReference": "@discordjs/builders!~TimestampStyles:var"
+              "canonicalReference": "@discordjs/builders!TimestampStyles:var"
             },
             {
               "kind": "Content",
