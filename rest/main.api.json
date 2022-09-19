@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.30.0",
+    "toolVersion": "7.31.1",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -264,7 +264,7 @@
                 {
                   "kind": "Reference",
                   "text": "HandlerRequestData",
-                  "canonicalReference": "@discordjs/rest!~HandlerRequestData:type"
+                  "canonicalReference": "@discordjs/rest!HandlerRequestData:type"
                 },
                 {
                   "kind": "Content",
@@ -319,7 +319,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestOptions",
-                  "canonicalReference": "@discordjs/rest!~RequestOptions:type"
+                  "canonicalReference": "@discordjs/rest!RequestOptions:type"
                 },
                 {
                   "kind": "Content",
@@ -347,7 +347,7 @@
                 {
                   "kind": "Reference",
                   "text": "RouteLike",
-                  "canonicalReference": "@discordjs/rest!~RouteLike:type"
+                  "canonicalReference": "@discordjs/rest!RouteLike:type"
                 },
                 {
                   "kind": "Content",
@@ -446,7 +446,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageExtension",
-                  "canonicalReference": "@discordjs/rest!~ImageExtension:type"
+                  "canonicalReference": "@discordjs/rest!ImageExtension:type"
                 },
                 {
                   "kind": "Content",
@@ -474,7 +474,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageSize",
-                  "canonicalReference": "@discordjs/rest!~ImageSize:type"
+                  "canonicalReference": "@discordjs/rest!ImageSize:type"
                 },
                 {
                   "kind": "Content",
@@ -576,7 +576,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -669,7 +669,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -762,7 +762,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~ImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!ImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -855,7 +855,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~ImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!ImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -948,7 +948,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1088,7 +1088,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1164,7 +1164,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageExtension",
-                  "canonicalReference": "@discordjs/rest!~ImageExtension:type"
+                  "canonicalReference": "@discordjs/rest!ImageExtension:type"
                 },
                 {
                   "kind": "Content",
@@ -1253,7 +1253,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~ImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!ImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1362,7 +1362,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~ImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!ImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1463,7 +1463,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1556,7 +1556,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~ImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!ImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1649,7 +1649,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1742,7 +1742,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1818,7 +1818,7 @@
                 {
                   "kind": "Reference",
                   "text": "StickerExtension",
-                  "canonicalReference": "@discordjs/rest!~StickerExtension:type"
+                  "canonicalReference": "@discordjs/rest!StickerExtension:type"
                 },
                 {
                   "kind": "Content",
@@ -1891,7 +1891,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1976,7 +1976,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -2056,7 +2056,7 @@
             {
               "kind": "Reference",
               "text": "RESTOptions",
-              "canonicalReference": "@discordjs/rest!~RESTOptions:interface"
+              "canonicalReference": "@discordjs/rest!RESTOptions:interface"
             },
             {
               "kind": "Content",
@@ -2128,7 +2128,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordErrorData",
-                  "canonicalReference": "@discordjs/rest!~DiscordErrorData:interface"
+                  "canonicalReference": "@discordjs/rest!DiscordErrorData:interface"
                 },
                 {
                   "kind": "Content",
@@ -2137,7 +2137,7 @@
                 {
                   "kind": "Reference",
                   "text": "OAuthErrorData",
-                  "canonicalReference": "@discordjs/rest!~OAuthErrorData:interface"
+                  "canonicalReference": "@discordjs/rest!OAuthErrorData:interface"
                 },
                 {
                   "kind": "Content",
@@ -2187,7 +2187,7 @@
                 {
                   "kind": "Reference",
                   "text": "InternalRequest",
-                  "canonicalReference": "@discordjs/rest!~InternalRequest:interface"
+                  "canonicalReference": "@discordjs/rest!InternalRequest:interface"
                 },
                 {
                   "kind": "Content",
@@ -2351,7 +2351,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordErrorData",
-                  "canonicalReference": "@discordjs/rest!~DiscordErrorData:interface"
+                  "canonicalReference": "@discordjs/rest!DiscordErrorData:interface"
                 },
                 {
                   "kind": "Content",
@@ -2360,7 +2360,7 @@
                 {
                   "kind": "Reference",
                   "text": "OAuthErrorData",
-                  "canonicalReference": "@discordjs/rest!~OAuthErrorData:interface"
+                  "canonicalReference": "@discordjs/rest!OAuthErrorData:interface"
                 },
                 {
                   "kind": "Content",
@@ -2390,7 +2390,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestBody",
-                  "canonicalReference": "@discordjs/rest!~RequestBody:interface"
+                  "canonicalReference": "@discordjs/rest!RequestBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -2593,7 +2593,7 @@
             {
               "kind": "Reference",
               "text": "InternalRequest",
-              "canonicalReference": "@discordjs/rest!~InternalRequest:interface"
+              "canonicalReference": "@discordjs/rest!InternalRequest:interface"
             },
             {
               "kind": "Content",
@@ -2687,7 +2687,7 @@
                 {
                   "kind": "Reference",
                   "text": "InternalRequest",
-                  "canonicalReference": "@discordjs/rest!~InternalRequest:interface"
+                  "canonicalReference": "@discordjs/rest!InternalRequest:interface"
                 },
                 {
                   "kind": "Content",
@@ -2814,7 +2814,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestBody",
-                  "canonicalReference": "@discordjs/rest!~RequestBody:interface"
+                  "canonicalReference": "@discordjs/rest!RequestBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -2913,7 +2913,7 @@
             {
               "kind": "Reference",
               "text": "ALLOWED_EXTENSIONS",
-              "canonicalReference": "@discordjs/rest!~ALLOWED_EXTENSIONS:var"
+              "canonicalReference": "@discordjs/rest!ALLOWED_EXTENSIONS:var"
             },
             {
               "kind": "Content",
@@ -2947,7 +2947,7 @@
             {
               "kind": "Reference",
               "text": "ALLOWED_SIZES",
-              "canonicalReference": "@discordjs/rest!~ALLOWED_SIZES:var"
+              "canonicalReference": "@discordjs/rest!ALLOWED_SIZES:var"
             },
             {
               "kind": "Content",
@@ -2977,7 +2977,7 @@
             {
               "kind": "Reference",
               "text": "BaseImageURLOptions",
-              "canonicalReference": "@discordjs/rest!~BaseImageURLOptions:interface"
+              "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
             },
             {
               "kind": "Content",
@@ -3174,7 +3174,7 @@
                 {
                   "kind": "Reference",
                   "text": "ImageSize",
-                  "canonicalReference": "@discordjs/rest!~ImageSize:type"
+                  "canonicalReference": "@discordjs/rest!ImageSize:type"
                 },
                 {
                   "kind": "Content",
@@ -3618,7 +3618,7 @@
             {
               "kind": "Reference",
               "text": "RateLimitData",
-              "canonicalReference": "@discordjs/rest!~RateLimitData:interface"
+              "canonicalReference": "@discordjs/rest!RateLimitData:interface"
             },
             {
               "kind": "Content",
@@ -3641,7 +3641,7 @@
                 {
                   "kind": "Reference",
                   "text": "RateLimitData",
-                  "canonicalReference": "@discordjs/rest!~RateLimitData:interface"
+                  "canonicalReference": "@discordjs/rest!RateLimitData:interface"
                 },
                 {
                   "kind": "Content",
@@ -3951,7 +3951,7 @@
             {
               "kind": "Reference",
               "text": "RateLimitData",
-              "canonicalReference": "@discordjs/rest!~RateLimitData:interface"
+              "canonicalReference": "@discordjs/rest!RateLimitData:interface"
             },
             {
               "kind": "Content",
@@ -4134,7 +4134,7 @@
                 {
                   "kind": "Reference",
                   "text": "RawFile",
-                  "canonicalReference": "@discordjs/rest!~RawFile:interface"
+                  "canonicalReference": "@discordjs/rest!RawFile:interface"
                 },
                 {
                   "kind": "Content",
@@ -4351,7 +4351,7 @@
                 {
                   "kind": "Reference",
                   "text": "RawFile",
-                  "canonicalReference": "@discordjs/rest!~RawFile:interface"
+                  "canonicalReference": "@discordjs/rest!RawFile:interface"
                 },
                 {
                   "kind": "Content",
@@ -4657,7 +4657,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTOptions",
-                  "canonicalReference": "@discordjs/rest!~RESTOptions:interface"
+                  "canonicalReference": "@discordjs/rest!RESTOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -4932,7 +4932,7 @@
                 {
                   "kind": "Reference",
                   "text": "HashData",
-                  "canonicalReference": "@discordjs/rest!~HashData:interface"
+                  "canonicalReference": "@discordjs/rest!HashData:interface"
                 },
                 {
                   "kind": "Content",
@@ -4966,7 +4966,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTOptions",
-                  "canonicalReference": "@discordjs/rest!~RESTOptions:interface"
+                  "canonicalReference": "@discordjs/rest!RESTOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -4996,7 +4996,7 @@
                 {
                   "kind": "Reference",
                   "text": "InternalRequest",
-                  "canonicalReference": "@discordjs/rest!~InternalRequest:interface"
+                  "canonicalReference": "@discordjs/rest!InternalRequest:interface"
                 },
                 {
                   "kind": "Content",
@@ -5178,7 +5178,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5187,7 +5187,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5205,7 +5205,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5241,7 +5241,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5250,7 +5250,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5268,7 +5268,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5304,7 +5304,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5313,7 +5313,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5331,7 +5331,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5367,7 +5367,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5376,7 +5376,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5394,7 +5394,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5430,7 +5430,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5448,7 +5448,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -5684,7 +5684,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTOptions",
-                  "canonicalReference": "@discordjs/rest!~RESTOptions:interface"
+                  "canonicalReference": "@discordjs/rest!RESTOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -5721,7 +5721,7 @@
                 {
                   "kind": "Reference",
                   "text": "CDN",
-                  "canonicalReference": "@discordjs/rest!~CDN:class"
+                  "canonicalReference": "@discordjs/rest!CDN:class"
                 },
                 {
                   "kind": "Content",
@@ -5751,7 +5751,7 @@
                 {
                   "kind": "Reference",
                   "text": "RouteLike",
-                  "canonicalReference": "@discordjs/rest!~RouteLike:type"
+                  "canonicalReference": "@discordjs/rest!RouteLike:type"
                 },
                 {
                   "kind": "Content",
@@ -5760,7 +5760,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!~RequestData:interface"
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5821,7 +5821,7 @@
                 {
                   "kind": "Reference",
                   "text": "RouteLike",
-                  "canonicalReference": "@discordjs/rest!~RouteLike:type"
+                  "canonicalReference": "@discordjs/rest!RouteLike:type"
                 },
                 {
                   "kind": "Content",
@@ -5830,7 +5830,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!~RequestData:interface"
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5926,7 +5926,7 @@
                 {
                   "kind": "Reference",
                   "text": "RouteLike",
-                  "canonicalReference": "@discordjs/rest!~RouteLike:type"
+                  "canonicalReference": "@discordjs/rest!RouteLike:type"
                 },
                 {
                   "kind": "Content",
@@ -5935,7 +5935,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!~RequestData:interface"
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5996,7 +5996,7 @@
                 {
                   "kind": "Reference",
                   "text": "RouteLike",
-                  "canonicalReference": "@discordjs/rest!~RouteLike:type"
+                  "canonicalReference": "@discordjs/rest!RouteLike:type"
                 },
                 {
                   "kind": "Content",
@@ -6005,7 +6005,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!~RequestData:interface"
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
                 },
                 {
                   "kind": "Content",
@@ -6066,7 +6066,7 @@
                 {
                   "kind": "Reference",
                   "text": "RouteLike",
-                  "canonicalReference": "@discordjs/rest!~RouteLike:type"
+                  "canonicalReference": "@discordjs/rest!RouteLike:type"
                 },
                 {
                   "kind": "Content",
@@ -6075,7 +6075,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!~RequestData:interface"
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
                 },
                 {
                   "kind": "Content",
@@ -6136,7 +6136,7 @@
                 {
                   "kind": "Reference",
                   "text": "InternalRequest",
-                  "canonicalReference": "@discordjs/rest!~InternalRequest:interface"
+                  "canonicalReference": "@discordjs/rest!InternalRequest:interface"
                 },
                 {
                   "kind": "Content",
@@ -6198,7 +6198,7 @@
                 {
                   "kind": "Reference",
                   "text": "InternalRequest",
-                  "canonicalReference": "@discordjs/rest!~InternalRequest:interface"
+                  "canonicalReference": "@discordjs/rest!InternalRequest:interface"
                 },
                 {
                   "kind": "Content",
@@ -6251,7 +6251,7 @@
                 {
                   "kind": "Reference",
                   "text": "RequestManager",
-                  "canonicalReference": "@discordjs/rest!~RequestManager:class"
+                  "canonicalReference": "@discordjs/rest!RequestManager:class"
                 },
                 {
                   "kind": "Content",
@@ -6401,7 +6401,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6410,7 +6410,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6428,7 +6428,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6464,7 +6464,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6473,7 +6473,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6491,7 +6491,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6527,7 +6527,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6536,7 +6536,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6554,7 +6554,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6590,7 +6590,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6599,7 +6599,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6617,7 +6617,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6653,7 +6653,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6671,7 +6671,7 @@
                 {
                   "kind": "Reference",
                   "text": "RestEvents",
-                  "canonicalReference": "@discordjs/rest!~RestEvents:interface"
+                  "canonicalReference": "@discordjs/rest!RestEvents:interface"
                 },
                 {
                   "kind": "Content",
@@ -6920,7 +6920,7 @@
                 {
                   "kind": "Reference",
                   "text": "HashData",
-                  "canonicalReference": "@discordjs/rest!~HashData:interface"
+                  "canonicalReference": "@discordjs/rest!HashData:interface"
                 },
                 {
                   "kind": "Content",
@@ -6956,7 +6956,7 @@
                 {
                   "kind": "Reference",
                   "text": "InvalidRequestWarningData",
-                  "canonicalReference": "@discordjs/rest!~InvalidRequestWarningData:interface"
+                  "canonicalReference": "@discordjs/rest!InvalidRequestWarningData:interface"
                 },
                 {
                   "kind": "Content",
@@ -7019,7 +7019,7 @@
                 {
                   "kind": "Reference",
                   "text": "RateLimitData",
-                  "canonicalReference": "@discordjs/rest!~RateLimitData:interface"
+                  "canonicalReference": "@discordjs/rest!RateLimitData:interface"
                 },
                 {
                   "kind": "Content",
@@ -7082,7 +7082,7 @@
                 {
                   "kind": "Reference",
                   "text": "APIRequest",
-                  "canonicalReference": "@discordjs/rest!~APIRequest:interface"
+                  "canonicalReference": "@discordjs/rest!APIRequest:interface"
                 },
                 {
                   "kind": "Content",
@@ -7470,7 +7470,7 @@
                 {
                   "kind": "Reference",
                   "text": "RateLimitQueueFilter",
-                  "canonicalReference": "@discordjs/rest!~RateLimitQueueFilter:type"
+                  "canonicalReference": "@discordjs/rest!RateLimitQueueFilter:type"
                 },
                 {
                   "kind": "Content",
@@ -7642,7 +7642,7 @@
             {
               "kind": "Reference",
               "text": "ALLOWED_STICKER_EXTENSIONS",
-              "canonicalReference": "@discordjs/rest!~ALLOWED_STICKER_EXTENSIONS:var"
+              "canonicalReference": "@discordjs/rest!ALLOWED_STICKER_EXTENSIONS:var"
             },
             {
               "kind": "Content",
