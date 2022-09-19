@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.30.0",
+    "toolVersion": "7.31.1",
     "schemaVersion": 1009,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -207,7 +207,7 @@
                 {
                   "kind": "Reference",
                   "text": "CreateAudioPlayerOptions",
-                  "canonicalReference": "@discordjs/voice!~CreateAudioPlayerOptions:interface"
+                  "canonicalReference": "@discordjs/voice!CreateAudioPlayerOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -317,7 +317,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -382,7 +382,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -416,7 +416,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -425,7 +425,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -574,7 +574,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerError",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerError:class"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerError:class"
                 },
                 {
                   "kind": "Content",
@@ -705,7 +705,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -714,7 +714,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -784,7 +784,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -842,7 +842,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus:enum"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus:enum"
                 },
                 {
                   "kind": "Content",
@@ -863,7 +863,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -872,7 +872,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerState",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerState:type"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerState:type"
                 },
                 {
                   "kind": "Content",
@@ -1055,7 +1055,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1083,7 +1083,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.Buffering",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.Buffering:member"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Buffering:member"
                 },
                 {
                   "kind": "Content",
@@ -1146,7 +1146,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1187,7 +1187,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1238,7 +1238,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.Idle",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.Idle:member"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Idle:member"
                 },
                 {
                   "kind": "Content",
@@ -1346,7 +1346,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1401,7 +1401,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.AutoPaused",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.AutoPaused:member"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.AutoPaused:member"
                 },
                 {
                   "kind": "Content",
@@ -1410,7 +1410,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.Paused",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.Paused:member"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Paused:member"
                 },
                 {
                   "kind": "Content",
@@ -1545,7 +1545,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioResource",
-                  "canonicalReference": "@discordjs/voice!~AudioResource:class"
+                  "canonicalReference": "@discordjs/voice!AudioResource:class"
                 },
                 {
                   "kind": "Content",
@@ -1573,7 +1573,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayerStatus.Playing",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayerStatus.Playing:member"
+                  "canonicalReference": "@discordjs/voice!AudioPlayerStatus.Playing:member"
                 },
                 {
                   "kind": "Content",
@@ -1604,7 +1604,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerBufferingState",
-              "canonicalReference": "@discordjs/voice!~AudioPlayerBufferingState:interface"
+              "canonicalReference": "@discordjs/voice!AudioPlayerBufferingState:interface"
             },
             {
               "kind": "Content",
@@ -1613,7 +1613,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerIdleState",
-              "canonicalReference": "@discordjs/voice!~AudioPlayerIdleState:interface"
+              "canonicalReference": "@discordjs/voice!AudioPlayerIdleState:interface"
             },
             {
               "kind": "Content",
@@ -1622,7 +1622,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerPausedState",
-              "canonicalReference": "@discordjs/voice!~AudioPlayerPausedState:interface"
+              "canonicalReference": "@discordjs/voice!AudioPlayerPausedState:interface"
             },
             {
               "kind": "Content",
@@ -1631,7 +1631,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerPlayingState",
-              "canonicalReference": "@discordjs/voice!~AudioPlayerPlayingState:interface"
+              "canonicalReference": "@discordjs/voice!AudioPlayerPlayingState:interface"
             },
             {
               "kind": "Content",
@@ -1831,7 +1831,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioReceiveStreamOptions",
-                  "canonicalReference": "@discordjs/voice!~AudioReceiveStreamOptions:interface"
+                  "canonicalReference": "@discordjs/voice!AudioReceiveStreamOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -1864,7 +1864,7 @@
                 {
                   "kind": "Reference",
                   "text": "EndBehavior",
-                  "canonicalReference": "@discordjs/voice!~EndBehavior:type"
+                  "canonicalReference": "@discordjs/voice!EndBehavior:type"
                 },
                 {
                   "kind": "Content",
@@ -1976,7 +1976,7 @@
                 {
                   "kind": "Reference",
                   "text": "EndBehavior",
-                  "canonicalReference": "@discordjs/voice!~EndBehavior:type"
+                  "canonicalReference": "@discordjs/voice!EndBehavior:type"
                 },
                 {
                   "kind": "Content",
@@ -2145,7 +2145,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayer",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
+                  "canonicalReference": "@discordjs/voice!AudioPlayer:class"
                 },
                 {
                   "kind": "Content",
@@ -2215,12 +2215,8 @@
                   "text": "readonly encoder?: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "prism."
-                },
-                {
                   "kind": "Reference",
-                  "text": "opus.Encoder",
+                  "text": "prism.opus.Encoder",
                   "canonicalReference": "prism-media!opus.Encoder:class"
                 },
                 {
@@ -2234,7 +2230,7 @@
               "name": "encoder",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 2
               },
               "isStatic": false,
               "isProtected": false
@@ -2482,12 +2478,8 @@
                   "text": "readonly volume?: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "prism."
-                },
-                {
                   "kind": "Reference",
-                  "text": "VolumeTransformer",
+                  "text": "prism.VolumeTransformer",
                   "canonicalReference": "prism-media!VolumeTransformer:class"
                 },
                 {
@@ -2501,7 +2493,7 @@
               "name": "volume",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 2
               },
               "isStatic": false,
               "isProtected": false
@@ -2521,7 +2513,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioPlayerOptions",
-              "canonicalReference": "@discordjs/voice!~CreateAudioPlayerOptions:interface"
+              "canonicalReference": "@discordjs/voice!CreateAudioPlayerOptions:interface"
             },
             {
               "kind": "Content",
@@ -2530,7 +2522,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayer",
-              "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
+              "canonicalReference": "@discordjs/voice!AudioPlayer:class"
             },
             {
               "kind": "Content",
@@ -2585,7 +2577,7 @@
                 {
                   "kind": "Reference",
                   "text": "NoSubscriberBehavior",
-                  "canonicalReference": "@discordjs/voice!~NoSubscriberBehavior:enum"
+                  "canonicalReference": "@discordjs/voice!NoSubscriberBehavior:enum"
                 },
                 {
                   "kind": "Content",
@@ -2660,7 +2652,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioResourceOptions",
-              "canonicalReference": "@discordjs/voice!~CreateAudioResourceOptions:interface"
+              "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface"
             },
             {
               "kind": "Content",
@@ -2678,7 +2670,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioResourceOptions",
-              "canonicalReference": "@discordjs/voice!~CreateAudioResourceOptions:interface"
+              "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface"
             },
             {
               "kind": "Content",
@@ -2696,7 +2688,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioResourceOptions",
-              "canonicalReference": "@discordjs/voice!~CreateAudioResourceOptions:interface"
+              "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface"
             },
             {
               "kind": "Content",
@@ -2709,7 +2701,7 @@
             {
               "kind": "Reference",
               "text": "AudioResource",
-              "canonicalReference": "@discordjs/voice!~AudioResource:class"
+              "canonicalReference": "@discordjs/voice!AudioResource:class"
             },
             {
               "kind": "Content",
@@ -2801,7 +2793,7 @@
             {
               "kind": "Reference",
               "text": "CreateAudioResourceOptions",
-              "canonicalReference": "@discordjs/voice!~CreateAudioResourceOptions:interface"
+              "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface"
             },
             {
               "kind": "Content",
@@ -2814,7 +2806,7 @@
             {
               "kind": "Reference",
               "text": "AudioResource",
-              "canonicalReference": "@discordjs/voice!~AudioResource:class"
+              "canonicalReference": "@discordjs/voice!AudioResource:class"
             },
             {
               "kind": "Content",
@@ -2930,7 +2922,7 @@
                 {
                   "kind": "Reference",
                   "text": "StreamType",
-                  "canonicalReference": "@discordjs/voice!~StreamType:enum"
+                  "canonicalReference": "@discordjs/voice!StreamType:enum"
                 },
                 {
                   "kind": "Content",
@@ -3015,7 +3007,7 @@
             {
               "kind": "Reference",
               "text": "AudioReceiveStreamOptions",
-              "canonicalReference": "@discordjs/voice!~AudioReceiveStreamOptions:interface"
+              "canonicalReference": "@discordjs/voice!AudioReceiveStreamOptions:interface"
             },
             {
               "kind": "Content",
@@ -3057,7 +3049,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterCreator",
-                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterCreator:type"
+                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterCreator:type"
                 },
                 {
                   "kind": "Content",
@@ -3136,7 +3128,7 @@
             {
               "kind": "Reference",
               "text": "validateDiscordOpusHead",
-              "canonicalReference": "@discordjs/voice!~validateDiscordOpusHead:function"
+              "canonicalReference": "@discordjs/voice!validateDiscordOpusHead:function"
             },
             {
               "kind": "Content",
@@ -3154,7 +3146,7 @@
             {
               "kind": "Reference",
               "text": "ProbeInfo",
-              "canonicalReference": "@discordjs/voice!~ProbeInfo:interface"
+              "canonicalReference": "@discordjs/voice!ProbeInfo:interface"
             },
             {
               "kind": "Content",
@@ -3215,7 +3207,7 @@
             {
               "kind": "Reference",
               "text": "DiscordGatewayAdapterLibraryMethods",
-              "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterLibraryMethods:interface"
+              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterLibraryMethods:interface"
             },
             {
               "kind": "Content",
@@ -3224,7 +3216,7 @@
             {
               "kind": "Reference",
               "text": "DiscordGatewayAdapterImplementerMethods",
-              "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
+              "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
             },
             {
               "kind": "Content",
@@ -3481,7 +3473,7 @@
             {
               "kind": "Reference",
               "text": "EndBehaviorType.AfterInactivity",
-              "canonicalReference": "@discordjs/voice!~EndBehaviorType.AfterInactivity:member"
+              "canonicalReference": "@discordjs/voice!EndBehaviorType.AfterInactivity:member"
             },
             {
               "kind": "Content",
@@ -3490,7 +3482,7 @@
             {
               "kind": "Reference",
               "text": "EndBehaviorType.AfterSilence",
-              "canonicalReference": "@discordjs/voice!~EndBehaviorType.AfterSilence:member"
+              "canonicalReference": "@discordjs/voice!EndBehaviorType.AfterSilence:member"
             },
             {
               "kind": "Content",
@@ -3499,7 +3491,7 @@
             {
               "kind": "Reference",
               "text": "EndBehaviorType.Manual",
-              "canonicalReference": "@discordjs/voice!~EndBehaviorType.Manual:member"
+              "canonicalReference": "@discordjs/voice!EndBehaviorType.Manual:member"
             },
             {
               "kind": "Content",
@@ -3608,7 +3600,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3617,7 +3609,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionStatus",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus:enum"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionStatus:enum"
             },
             {
               "kind": "Content",
@@ -3648,7 +3640,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3705,7 +3697,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayer",
-              "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
+              "canonicalReference": "@discordjs/voice!AudioPlayer:class"
             },
             {
               "kind": "Content",
@@ -3714,7 +3706,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayerStatus",
-              "canonicalReference": "@discordjs/voice!~AudioPlayerStatus:enum"
+              "canonicalReference": "@discordjs/voice!AudioPlayerStatus:enum"
             },
             {
               "kind": "Content",
@@ -3745,7 +3737,7 @@
             {
               "kind": "Reference",
               "text": "AudioPlayer",
-              "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
+              "canonicalReference": "@discordjs/voice!AudioPlayer:class"
             },
             {
               "kind": "Content",
@@ -3847,7 +3839,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3895,7 +3887,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -3961,7 +3953,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -4019,7 +4011,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -4212,7 +4204,7 @@
             {
               "kind": "Reference",
               "text": "CreateVoiceConnectionOptions",
-              "canonicalReference": "@discordjs/voice!~CreateVoiceConnectionOptions:interface"
+              "canonicalReference": "@discordjs/voice!CreateVoiceConnectionOptions:interface"
             },
             {
               "kind": "Content",
@@ -4221,7 +4213,7 @@
             {
               "kind": "Reference",
               "text": "JoinVoiceChannelOptions",
-              "canonicalReference": "@discordjs/voice!~JoinVoiceChannelOptions:interface"
+              "canonicalReference": "@discordjs/voice!JoinVoiceChannelOptions:interface"
             },
             {
               "kind": "Content",
@@ -4230,7 +4222,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnection",
-              "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+              "canonicalReference": "@discordjs/voice!VoiceConnection:class"
             },
             {
               "kind": "Content",
@@ -4512,7 +4504,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -4521,7 +4513,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayer",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
+                  "canonicalReference": "@discordjs/voice!AudioPlayer:class"
                 },
                 {
                   "kind": "Content",
@@ -4562,7 +4554,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -4592,7 +4584,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayer",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
+                  "canonicalReference": "@discordjs/voice!AudioPlayer:class"
                 },
                 {
                   "kind": "Content",
@@ -4697,7 +4689,7 @@
                 {
                   "kind": "Reference",
                   "text": "StreamType",
-                  "canonicalReference": "@discordjs/voice!~StreamType:enum"
+                  "canonicalReference": "@discordjs/voice!StreamType:enum"
                 },
                 {
                   "kind": "Content",
@@ -5086,7 +5078,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5138,7 +5130,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5182,7 +5174,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5272,7 +5264,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5342,7 +5334,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5351,7 +5343,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5421,7 +5413,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceUserData",
-                  "canonicalReference": "@discordjs/voice!~VoiceUserData:interface"
+                  "canonicalReference": "@discordjs/voice!VoiceUserData:interface"
                 },
                 {
                   "kind": "Content",
@@ -5676,7 +5668,7 @@
                 {
                   "kind": "Reference",
                   "text": "JoinConfig",
-                  "canonicalReference": "@discordjs/voice!~JoinConfig:interface"
+                  "canonicalReference": "@discordjs/voice!JoinConfig:interface"
                 },
                 {
                   "kind": "Content",
@@ -5685,7 +5677,7 @@
                 {
                   "kind": "Reference",
                   "text": "CreateVoiceConnectionOptions",
-                  "canonicalReference": "@discordjs/voice!~CreateVoiceConnectionOptions:interface"
+                  "canonicalReference": "@discordjs/voice!CreateVoiceConnectionOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -5863,7 +5855,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -6041,7 +6033,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceReceiver",
-                  "canonicalReference": "@discordjs/voice!~VoiceReceiver:class"
+                  "canonicalReference": "@discordjs/voice!VoiceReceiver:class"
                 },
                 {
                   "kind": "Content",
@@ -6080,7 +6072,7 @@
                 {
                   "kind": "Reference",
                   "text": "JoinConfig",
-                  "canonicalReference": "@discordjs/voice!~JoinConfig:interface"
+                  "canonicalReference": "@discordjs/voice!JoinConfig:interface"
                 },
                 {
                   "kind": "Content",
@@ -6208,7 +6200,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6217,7 +6209,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6247,7 +6239,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioPlayer",
-                  "canonicalReference": "@discordjs/voice!~AudioPlayer:class"
+                  "canonicalReference": "@discordjs/voice!AudioPlayer:class"
                 },
                 {
                   "kind": "Content",
@@ -6256,7 +6248,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -6473,7 +6465,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6482,7 +6474,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6540,7 +6532,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus:enum"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus:enum"
                 },
                 {
                   "kind": "Content",
@@ -6561,7 +6553,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6570,7 +6562,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionState",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionState:type"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionState:type"
                 },
                 {
                   "kind": "Content",
@@ -6663,7 +6655,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterImplementerMethods",
-                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
+                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
                 },
                 {
                   "kind": "Content",
@@ -6719,7 +6711,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Connecting",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Connecting:member"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Connecting:member"
                 },
                 {
                   "kind": "Content",
@@ -6747,7 +6739,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -6796,7 +6788,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Destroyed",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Destroyed:member"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Destroyed:member"
                 },
                 {
                   "kind": "Content",
@@ -6841,7 +6833,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterImplementerMethods",
-                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
+                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
                 },
                 {
                   "kind": "Content",
@@ -6869,7 +6861,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Disconnected",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Disconnected:member"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Disconnected:member"
                 },
                 {
                   "kind": "Content",
@@ -6897,7 +6889,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -6932,7 +6924,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedBaseState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedBaseState:interface"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedBaseState:interface"
             },
             {
               "kind": "Content",
@@ -6964,7 +6956,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionDisconnectReason",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectReason:enum"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectReason:enum"
                 },
                 {
                   "kind": "Content",
@@ -6973,7 +6965,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionDisconnectReason.WebSocketClose",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectReason.WebSocketClose:member"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectReason.WebSocketClose:member"
                 },
                 {
                   "kind": "Content",
@@ -7013,7 +7005,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedOtherState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedOtherState:interface"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedOtherState:interface"
             },
             {
               "kind": "Content",
@@ -7022,7 +7014,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedWebSocketState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedWebSocketState:interface"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedWebSocketState:interface"
             },
             {
               "kind": "Content",
@@ -7048,7 +7040,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedBaseState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedBaseState:interface"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedBaseState:interface"
             },
             {
               "kind": "Content",
@@ -7098,7 +7090,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionDisconnectReason.WebSocketClose",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectReason.WebSocketClose:member"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectReason.WebSocketClose:member"
                 },
                 {
                   "kind": "Content",
@@ -7248,7 +7240,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterImplementerMethods",
-                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
+                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
                 },
                 {
                   "kind": "Content",
@@ -7304,7 +7296,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Ready",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Ready:member"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Ready:member"
                 },
                 {
                   "kind": "Content",
@@ -7332,7 +7324,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -7381,7 +7373,7 @@
                 {
                   "kind": "Reference",
                   "text": "DiscordGatewayAdapterImplementerMethods",
-                  "canonicalReference": "@discordjs/voice!~DiscordGatewayAdapterImplementerMethods:interface"
+                  "canonicalReference": "@discordjs/voice!DiscordGatewayAdapterImplementerMethods:interface"
                 },
                 {
                   "kind": "Content",
@@ -7409,7 +7401,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnectionStatus.Signalling",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnectionStatus.Signalling:member"
+                  "canonicalReference": "@discordjs/voice!VoiceConnectionStatus.Signalling:member"
                 },
                 {
                   "kind": "Content",
@@ -7437,7 +7429,7 @@
                 {
                   "kind": "Reference",
                   "text": "PlayerSubscription",
-                  "canonicalReference": "@discordjs/voice!~PlayerSubscription:class"
+                  "canonicalReference": "@discordjs/voice!PlayerSubscription:class"
                 },
                 {
                   "kind": "Content",
@@ -7472,7 +7464,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionConnectingState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionConnectingState:interface"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionConnectingState:interface"
             },
             {
               "kind": "Content",
@@ -7481,7 +7473,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDestroyedState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionDestroyedState:interface"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionDestroyedState:interface"
             },
             {
               "kind": "Content",
@@ -7490,7 +7482,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionDisconnectedState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionDisconnectedState:type"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionDisconnectedState:type"
             },
             {
               "kind": "Content",
@@ -7499,7 +7491,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionReadyState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionReadyState:interface"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionReadyState:interface"
             },
             {
               "kind": "Content",
@@ -7508,7 +7500,7 @@
             {
               "kind": "Reference",
               "text": "VoiceConnectionSignallingState",
-              "canonicalReference": "@discordjs/voice!~VoiceConnectionSignallingState:interface"
+              "canonicalReference": "@discordjs/voice!VoiceConnectionSignallingState:interface"
             },
             {
               "kind": "Content",
@@ -7669,7 +7661,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
@@ -7702,7 +7694,7 @@
                 {
                   "kind": "Reference",
                   "text": "SpeakingMap",
-                  "canonicalReference": "@discordjs/voice!~SpeakingMap:class"
+                  "canonicalReference": "@discordjs/voice!SpeakingMap:class"
                 },
                 {
                   "kind": "Content",
@@ -7732,7 +7724,7 @@
                 {
                   "kind": "Reference",
                   "text": "SSRCMap",
-                  "canonicalReference": "@discordjs/voice!~SSRCMap:class"
+                  "canonicalReference": "@discordjs/voice!SSRCMap:class"
                 },
                 {
                   "kind": "Content",
@@ -7779,7 +7771,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioReceiveStreamOptions",
-                  "canonicalReference": "@discordjs/voice!~AudioReceiveStreamOptions:interface"
+                  "canonicalReference": "@discordjs/voice!AudioReceiveStreamOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -7792,7 +7784,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioReceiveStream",
-                  "canonicalReference": "@discordjs/voice!~AudioReceiveStream:class"
+                  "canonicalReference": "@discordjs/voice!AudioReceiveStream:class"
                 },
                 {
                   "kind": "Content",
@@ -7849,7 +7841,7 @@
                 {
                   "kind": "Reference",
                   "text": "AudioReceiveStream",
-                  "canonicalReference": "@discordjs/voice!~AudioReceiveStream:class"
+                  "canonicalReference": "@discordjs/voice!AudioReceiveStream:class"
                 },
                 {
                   "kind": "Content",
@@ -7883,7 +7875,7 @@
                 {
                   "kind": "Reference",
                   "text": "VoiceConnection",
-                  "canonicalReference": "@discordjs/voice!~VoiceConnection:class"
+                  "canonicalReference": "@discordjs/voice!VoiceConnection:class"
                 },
                 {
                   "kind": "Content",
