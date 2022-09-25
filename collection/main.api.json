@@ -950,7 +950,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(value: V, key: K, collection: this) => boolean"
+                  "text": "(value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -1223,7 +1223,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(this: This, value: V, key: K, collection: this) => boolean"
+                  "text": "(this: This, value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -1463,7 +1463,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(value: V, key: K, collection: this) => boolean"
+                  "text": "(value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -1733,7 +1733,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(this: This, value: V, key: K, collection: this) => boolean"
+                  "text": "(this: This, value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -1891,7 +1891,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(value: V, key: K, collection: this) => boolean"
+                  "text": "(value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -2042,7 +2042,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(this: This, value: V, key: K, collection: this) => boolean"
+                  "text": "(this: This, value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -2195,7 +2195,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(value: V, key: K, collection: this) => boolean"
+                  "text": "(value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -2346,7 +2346,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(this: This, value: V, key: K, collection: this) => boolean"
+                  "text": "(this: This, value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -3784,7 +3784,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(value: V, key: K, collection: this) => boolean"
+                  "text": "(value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -4111,7 +4111,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(this: This, value: V, key: K, collection: this) => boolean"
+                  "text": "(this: This, value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -4465,7 +4465,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(value: V, key: K, collection: this) => boolean"
+                  "text": "(value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -4512,7 +4512,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(this: T, value: V, key: K, collection: this) => boolean"
+                  "text": "(this: T, value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -4697,7 +4697,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(value: V, key: K, collection: this) => boolean"
+                  "text": "(value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
@@ -4744,7 +4744,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(this: T, value: V, key: K, collection: this) => boolean"
+                  "text": "(this: T, value: V, key: K, collection: this) => unknown"
                 },
                 {
                   "kind": "Content",
