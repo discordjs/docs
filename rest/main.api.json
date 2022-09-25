@@ -2597,7 +2597,7 @@
             },
             {
               "kind": "Content",
-              "text": ", 'auth' | 'body' | 'files'>"
+              "text": ", 'auth' | 'body' | 'files' | 'signal'>"
             },
             {
               "kind": "Content",
@@ -4483,6 +4483,38 @@
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/rest!RequestData#signal:member",
+              "docComment": "/**\n * The signal to abort the queue entry or the REST call, where applicable\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "signal?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AbortSignal",
+                  "canonicalReference": "!AbortSignal:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "signal",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
               }
             },
             {
