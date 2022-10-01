@@ -2637,19 +2637,11 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/rest!HTTPError:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `HTTPError` class\n *\n * @param name - The name of the error\n *\n * @param status - The status code of the response\n *\n * @param method - The method of the request that erred\n *\n * @param url - The url of the request that erred\n *\n * @param bodyData - The unparsed data for the request that errored\n */\n",
+              "docComment": "/**\n * Constructs a new instance of the `HTTPError` class\n *\n * @param status - The status code of the response\n *\n * @param method - The method of the request that erred\n *\n * @param url - The url of the request that erred\n *\n * @param bodyData - The unparsed data for the request that errored\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "constructor(name: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", status: "
+                  "text": "constructor(status: "
                 },
                 {
                   "kind": "Content",
@@ -2703,7 +2695,7 @@
               "overloadIndex": 1,
               "parameters": [
                 {
-                  "parameterName": "name",
+                  "parameterName": "status",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
                     "endIndex": 2
@@ -2711,7 +2703,7 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "status",
+                  "parameterName": "method",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
                     "endIndex": 4
@@ -2719,7 +2711,7 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "method",
+                  "parameterName": "url",
                   "parameterTypeTokenRange": {
                     "startIndex": 5,
                     "endIndex": 6
@@ -2727,18 +2719,10 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "url",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 7,
-                    "endIndex": 8
-                  },
-                  "isOptional": false
-                },
-                {
                   "parameterName": "bodyData",
                   "parameterTypeTokenRange": {
-                    "startIndex": 9,
-                    "endIndex": 13
+                    "startIndex": 7,
+                    "endIndex": 11
                   },
                   "isOptional": false
                 }
