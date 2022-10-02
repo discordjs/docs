@@ -173,49 +173,6 @@
       "preserveMemberOrder": false,
       "members": [
         {
-          "kind": "TypeAlias",
-          "canonicalReference": "@discordjs/ws!Awaitable:type",
-          "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare type Awaitable<T> = "
-            },
-            {
-              "kind": "Reference",
-              "text": "Promise",
-              "canonicalReference": "!Promise:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "<T> | T"
-            },
-            {
-              "kind": "Content",
-              "text": ";"
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "Awaitable",
-          "typeParameters": [
-            {
-              "typeParameterName": "T",
-              "constraintTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              },
-              "defaultTypeTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              }
-            }
-          ],
-          "typeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 3
-          }
-        },
-        {
           "kind": "Enum",
           "canonicalReference": "@discordjs/ws!CloseCodes:enum",
           "docComment": "",
@@ -552,8 +509,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Awaitable$1",
-                  "canonicalReference": "@vladfrangu/async_event_emitter!Awaitable:type"
+                  "text": "Awaitable",
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -624,8 +581,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Awaitable$1",
-                  "canonicalReference": "@vladfrangu/async_event_emitter!Awaitable:type"
+                  "text": "Awaitable",
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -813,7 +770,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -868,7 +825,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -927,7 +884,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -985,7 +942,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -1017,63 +974,6 @@
             }
           ],
           "extendsTokenRanges": []
-        },
-        {
-          "kind": "Function",
-          "canonicalReference": "@discordjs/ws!lazy:function(1)",
-          "docComment": "/**\n * Lazily evaluate a callback, storing its result\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare function lazy<T>(cb: "
-            },
-            {
-              "kind": "Content",
-              "text": "() => T"
-            },
-            {
-              "kind": "Content",
-              "text": "): "
-            },
-            {
-              "kind": "Content",
-              "text": "() => T"
-            },
-            {
-              "kind": "Content",
-              "text": ";"
-            }
-          ],
-          "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
-          },
-          "releaseTag": "Public",
-          "overloadIndex": 1,
-          "parameters": [
-            {
-              "parameterName": "cb",
-              "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isOptional": false
-            }
-          ],
-          "typeParameters": [
-            {
-              "typeParameterName": "T",
-              "constraintTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              },
-              "defaultTypeTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              }
-            }
-          ],
-          "name": "lazy"
         },
         {
           "kind": "TypeAlias",
@@ -1448,7 +1348,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -1583,7 +1483,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -1650,51 +1550,6 @@
             }
           ],
           "extendsTokenRanges": []
-        },
-        {
-          "kind": "Function",
-          "canonicalReference": "@discordjs/ws!range:function(1)",
-          "docComment": "/**\n * Yields the numbers in the given range as an array\n *\n * @example\n * ```ts\n * range({ start: 3, end: 5 }); // [3, 4, 5]\n * ```\n *\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare function range({ start, end }: "
-            },
-            {
-              "kind": "Reference",
-              "text": "ShardRange",
-              "canonicalReference": "@discordjs/ws!ShardRange:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "): "
-            },
-            {
-              "kind": "Content",
-              "text": "number[]"
-            },
-            {
-              "kind": "Content",
-              "text": ";"
-            }
-          ],
-          "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
-          },
-          "releaseTag": "Public",
-          "overloadIndex": 1,
-          "parameters": [
-            {
-              "parameterName": "{ start, end }",
-              "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isOptional": false
-            }
-          ],
-          "name": "range"
         },
         {
           "kind": "Interface",
@@ -2215,8 +2070,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "text": "_discordjs_util.Awaitable",
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -2706,7 +2561,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
@@ -2945,7 +2800,7 @@
                 {
                   "kind": "Reference",
                   "text": "Awaitable",
-                  "canonicalReference": "@discordjs/ws!Awaitable:type"
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
                 },
                 {
                   "kind": "Content",
