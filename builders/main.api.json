@@ -2793,7 +2793,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/util!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -4854,81 +4854,6 @@
           }
         },
         {
-          "kind": "Interface",
-          "canonicalReference": "@discordjs/builders!Equatable:interface",
-          "docComment": "/**\n * Represents a structure that can be checked against another given structure for equality\n *\n * @typeParam T - The type of object to compare the current object to\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "interface Equatable<T> "
-            }
-          ],
-          "releaseTag": "Public",
-          "typeParameters": [
-            {
-              "typeParameterName": "T",
-              "constraintTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              },
-              "defaultTypeTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              }
-            }
-          ],
-          "name": "Equatable",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "MethodSignature",
-              "canonicalReference": "@discordjs/builders!Equatable#equals:member(1)",
-              "docComment": "/**\n * Whether or not this is equal to another structure\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "equals(other: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "T"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isOptional": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "other",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "equals"
-            }
-          ],
-          "extendsTokenRanges": []
-        },
-        {
           "kind": "Enum",
           "canonicalReference": "@discordjs/builders!Faces:enum",
           "docComment": "/**\n * An enum with all the available faces from Discord's native slash commands\n */\n",
@@ -5852,122 +5777,6 @@
           "name": "inlineCode"
         },
         {
-          "kind": "Function",
-          "canonicalReference": "@discordjs/builders!isEquatable:function(1)",
-          "docComment": "/**\n * Indicates if an object is equatable or not.\n *\n * @param maybeEquatable - The object to check against\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare function isEquatable(maybeEquatable: "
-            },
-            {
-              "kind": "Content",
-              "text": "unknown"
-            },
-            {
-              "kind": "Content",
-              "text": "): "
-            },
-            {
-              "kind": "Reference",
-              "text": "maybeEquatable",
-              "canonicalReference": "@discordjs/builders!~maybeEquatable"
-            },
-            {
-              "kind": "Content",
-              "text": " is "
-            },
-            {
-              "kind": "Reference",
-              "text": "Equatable",
-              "canonicalReference": "@discordjs/builders!Equatable:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "<unknown>"
-            },
-            {
-              "kind": "Content",
-              "text": ";"
-            }
-          ],
-          "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 7
-          },
-          "releaseTag": "Public",
-          "overloadIndex": 1,
-          "parameters": [
-            {
-              "parameterName": "maybeEquatable",
-              "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isOptional": false
-            }
-          ],
-          "name": "isEquatable"
-        },
-        {
-          "kind": "Function",
-          "canonicalReference": "@discordjs/builders!isJSONEncodable:function(1)",
-          "docComment": "/**\n * Indicates if an object is encodable or not.\n *\n * @param maybeEncodable - The object to check against\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare function isJSONEncodable(maybeEncodable: "
-            },
-            {
-              "kind": "Content",
-              "text": "unknown"
-            },
-            {
-              "kind": "Content",
-              "text": "): "
-            },
-            {
-              "kind": "Reference",
-              "text": "maybeEncodable",
-              "canonicalReference": "@discordjs/builders!~maybeEncodable"
-            },
-            {
-              "kind": "Content",
-              "text": " is "
-            },
-            {
-              "kind": "Reference",
-              "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "<unknown>"
-            },
-            {
-              "kind": "Content",
-              "text": ";"
-            }
-          ],
-          "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 7
-          },
-          "releaseTag": "Public",
-          "overloadIndex": 1,
-          "parameters": [
-            {
-              "parameterName": "maybeEncodable",
-              "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isOptional": false
-            }
-          ],
-          "name": "isJSONEncodable"
-        },
-        {
           "kind": "Variable",
           "canonicalReference": "@discordjs/builders!isValidationEnabled:var",
           "docComment": "",
@@ -6053,64 +5862,6 @@
             }
           ],
           "name": "italic"
-        },
-        {
-          "kind": "Interface",
-          "canonicalReference": "@discordjs/builders!JSONEncodable:interface",
-          "docComment": "/**\n * Represents an object capable of representing itself as a JSON object\n *\n * @typeParam T - The JSON type corresponding to {@link JSONEncodable.toJSON} outputs.\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "interface JSONEncodable<T> "
-            }
-          ],
-          "releaseTag": "Public",
-          "typeParameters": [
-            {
-              "typeParameterName": "T",
-              "constraintTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              },
-              "defaultTypeTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              }
-            }
-          ],
-          "name": "JSONEncodable",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "MethodSignature",
-              "canonicalReference": "@discordjs/builders!JSONEncodable#toJSON:member(1)",
-              "docComment": "/**\n * Transforms this object to its JSON format\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "T"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isOptional": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [],
-              "name": "toJSON"
-            }
-          ],
-          "extendsTokenRanges": []
         },
         {
           "kind": "Interface",
@@ -6662,7 +6413,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/util!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -7950,7 +7701,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/util!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -12545,7 +12296,7 @@
             {
               "kind": "Reference",
               "text": "Equatable",
-              "canonicalReference": "@discordjs/builders!Equatable:interface"
+              "canonicalReference": "@discordjs/util!Equatable:interface"
             },
             {
               "kind": "Content",
@@ -12563,7 +12314,7 @@
             {
               "kind": "Reference",
               "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+              "canonicalReference": "@discordjs/util!JSONEncodable:interface"
             },
             {
               "kind": "Content",
@@ -12636,7 +12387,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#equals:member(1)",
-              "docComment": "/**\n * Whether or not this is equal to another structure\n */\n",
+              "docComment": "/**\n * {@inheritDoc Equatable.equals}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12654,7 +12405,7 @@
                 {
                   "kind": "Reference",
                   "text": "JSONEncodable",
-                  "canonicalReference": "@discordjs/builders!JSONEncodable:interface"
+                  "canonicalReference": "@discordjs/util!JSONEncodable:interface"
                 },
                 {
                   "kind": "Content",
