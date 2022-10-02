@@ -497,7 +497,7 @@
             {
               "kind": "Reference",
               "text": "Awaitable",
-              "canonicalReference": "@discordjs/proxy!~Awaitable:type"
+              "canonicalReference": "@discordjs/util!Awaitable:type"
             },
             {
               "kind": "Content",
