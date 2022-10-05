@@ -3561,7 +3561,16 @@
             },
             {
               "kind": "Content",
-              "text": "]: [];\n    ["
+              "text": "]: [payload: {\n        data: "
+            },
+            {
+              "kind": "Reference",
+              "text": "GatewayReadyDispatchData",
+              "canonicalReference": "discord-api-types!GatewayReadyDispatchData:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    }];\n    ["
             },
             {
               "kind": "Reference",
@@ -3599,7 +3608,7 @@
           "name": "WebSocketShardEventsMap",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 14
+            "endIndex": 16
           }
         },
         {
