@@ -274,19 +274,23 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "DefaultDeviceProperty: "
+              "text": "DefaultDeviceProperty = "
             },
             {
               "kind": "Content",
-              "text": "string"
+              "text": "\"@discordjs/ws [VI]{{inject}}[/VI]\""
             }
           ],
+          "initializerTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultDeviceProperty",
           "variableTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
+            "startIndex": 0,
+            "endIndex": 0
           }
         },
         {
@@ -2404,6 +2408,28 @@
               "endIndex": 2
             }
           ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/ws!version:var",
+          "docComment": "/**\n * The [\\@discordjs/voice](https://github.com/discordjs/discord.js/blob/main/packages/voice/#readme) version that you are currently using.\n *\n * Note to developers: This needs to explicitly be `string` so it is not typed as a \"const string\" that gets injected by esbuild\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "version: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            }
+          ],
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "version",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
         },
         {
           "kind": "Class",
