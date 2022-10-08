@@ -2078,19 +2078,23 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "DefaultUserAgent: "
+              "text": "DefaultUserAgent = "
             },
             {
               "kind": "Content",
-              "text": "string"
+              "text": "\"DiscordBot (https://discord.js.org, [VI]{{inject}}[/VI])\""
             }
           ],
+          "initializerTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultUserAgent",
           "variableTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
+            "startIndex": 0,
+            "endIndex": 0
           }
         },
         {
@@ -7674,6 +7678,28 @@
           "typeTokenRange": {
             "startIndex": 1,
             "endIndex": 4
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/rest!version:var",
+          "docComment": "/**\n * The [\\@discordjs/rest](https://github.com/discordjs/discord.js/blob/main/packages/rest/#readme) version that you are currently using.\n *\n * Note to developers: This needs to explicitly be `string` so it is not typed as a \"const string\" that gets injected by esbuild\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "version: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            }
+          ],
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "version",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
           }
         }
       ]
