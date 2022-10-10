@@ -7683,7 +7683,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/rest!version:var",
-          "docComment": "/**\n * The [\\@discordjs/rest](https://github.com/discordjs/discord.js/blob/main/packages/rest/#readme) version that you are currently using.\n */\n",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/rest/#readme | @discordjs/rest} version that you are currently using.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
