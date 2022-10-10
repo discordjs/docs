@@ -5044,7 +5044,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/collection!version:var",
-          "docComment": "/**\n * The [\\@discordjs/collection](https://github.com/discordjs/discord.js/blob/main/packages/collection/#readme) version that you are currently using.\n *\n * Note to developers: This needs to explicitly be `string` so it is not typed as a \"const string\" that gets injected by esbuild\n */\n",
+          "docComment": "/**\n * The [\\@discordjs/collection](https://github.com/discordjs/discord.js/blob/main/packages/collection/#readme) version that you are currently using.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
