@@ -2412,7 +2412,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/ws!version:var",
-          "docComment": "/**\n * The [\\@discordjs/ws](https://github.com/discordjs/discord.js/blob/main/packages/ws/#readme) version that you are currently using.\n */\n",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/ws/#readme | @discordjs/ws} version that you are currently using.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
