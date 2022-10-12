@@ -321,7 +321,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<[\n        K,\n        V\n    ]>"
+                  "text": "<[K, V]>"
                 },
                 {
                   "kind": "Content",
@@ -3601,7 +3601,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "["
                 },
                 {
                   "kind": "Reference",
@@ -3610,7 +3610,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K2, V>,\n        "
+                  "text": "<K2, V>, "
                 },
                 {
                   "kind": "Reference",
@@ -3628,7 +3628,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, K2>, V>\n    ]"
+                  "text": "<K, K2>, V>]"
                 },
                 {
                   "kind": "Content",
@@ -3705,7 +3705,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "["
                 },
                 {
                   "kind": "Reference",
@@ -3714,7 +3714,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, V2>,\n        "
+                  "text": "<K, V2>, "
                 },
                 {
                   "kind": "Reference",
@@ -3732,7 +3732,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<V, V2>>\n    ]"
+                  "text": "<V, V2>>]"
                 },
                 {
                   "kind": "Content",
@@ -3792,7 +3792,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "["
                 },
                 {
                   "kind": "Reference",
@@ -3801,7 +3801,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, V>,\n        "
+                  "text": "<K, V>, "
                 },
                 {
                   "kind": "Reference",
@@ -3810,7 +3810,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, V>\n    ]"
+                  "text": "<K, V>]"
                 },
                 {
                   "kind": "Content",
@@ -3882,7 +3882,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "["
                 },
                 {
                   "kind": "Reference",
@@ -3891,7 +3891,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K2, V>,\n        "
+                  "text": "<K2, V>, "
                 },
                 {
                   "kind": "Reference",
@@ -3909,7 +3909,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, K2>, V>\n    ]"
+                  "text": "<K, K2>, V>]"
                 },
                 {
                   "kind": "Content",
@@ -4013,7 +4013,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "["
                 },
                 {
                   "kind": "Reference",
@@ -4022,7 +4022,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, V2>,\n        "
+                  "text": "<K, V2>, "
                 },
                 {
                   "kind": "Reference",
@@ -4040,7 +4040,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<V, V2>>\n    ]"
+                  "text": "<V, V2>>]"
                 },
                 {
                   "kind": "Content",
@@ -4127,7 +4127,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "["
                 },
                 {
                   "kind": "Reference",
@@ -4136,7 +4136,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, V>,\n        "
+                  "text": "<K, V>, "
                 },
                 {
                   "kind": "Reference",
@@ -4145,7 +4145,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, V>\n    ]"
+                  "text": "<K, V>]"
                 },
                 {
                   "kind": "Content",
