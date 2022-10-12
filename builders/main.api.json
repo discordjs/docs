@@ -7042,7 +7042,7 @@
             },
             {
               "kind": "Content",
-              "text": "T[] | [\n    T[]\n]"
+              "text": "T[] | [T[]]"
             },
             {
               "kind": "Content",
@@ -7080,7 +7080,7 @@
             },
             {
               "kind": "Content",
-              "text": "[\n    /*red*/ number,\n    /*green*/ number,\n    /*blue*/ number\n]"
+              "text": "[red: number, green: number, blue: number]"
             },
             {
               "kind": "Content",
