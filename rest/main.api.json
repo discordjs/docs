@@ -183,7 +183,7 @@
             },
             {
               "kind": "Content",
-              "text": "readonly [\n    \"webp\",\n    \"png\",\n    \"jpg\",\n    \"jpeg\",\n    \"gif\"\n]"
+              "text": "readonly [\"webp\", \"png\", \"jpg\", \"jpeg\", \"gif\"]"
             }
           ],
           "isReadonly": true,
@@ -205,7 +205,7 @@
             },
             {
               "kind": "Content",
-              "text": "readonly [\n    16,\n    32,\n    64,\n    128,\n    256,\n    512,\n    1024,\n    2048,\n    4096\n]"
+              "text": "readonly [16, 32, 64, 128, 256, 512, 1024, 2048, 4096]"
             }
           ],
           "isReadonly": true,
@@ -227,7 +227,7 @@
             },
             {
               "kind": "Content",
-              "text": "readonly [\n    \"png\",\n    \"json\"\n]"
+              "text": "readonly [\"png\", \"json\"]"
             }
           ],
           "isReadonly": true,
@@ -6881,7 +6881,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        /*sweptHandlers*/ "
+                  "text": "[sweptHandlers: "
                 },
                 {
                   "kind": "Reference",
@@ -6899,7 +6899,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ">\n    ]"
+                  "text": ">]"
                 },
                 {
                   "kind": "Content",
@@ -6926,7 +6926,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        /*sweptHashes*/ "
+                  "text": "[sweptHashes: "
                 },
                 {
                   "kind": "Reference",
@@ -6944,7 +6944,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ">\n    ]"
+                  "text": ">]"
                 },
                 {
                   "kind": "Content",
@@ -6971,7 +6971,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        /*invalidRequestInfo*/ "
+                  "text": "[invalidRequestInfo: "
                 },
                 {
                   "kind": "Reference",
@@ -6980,7 +6980,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "\n    ]"
+                  "text": "]"
                 },
                 {
                   "kind": "Content",
@@ -7007,7 +7007,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        /*name*/ string,\n        /*listener*/ (...args: any) => void\n    ]"
+                  "text": "[name: string, listener: (...args: any) => void]"
                 },
                 {
                   "kind": "Content",
@@ -7034,7 +7034,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        /*rateLimitInfo*/ "
+                  "text": "[rateLimitInfo: "
                 },
                 {
                   "kind": "Reference",
@@ -7043,7 +7043,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "\n    ]"
+                  "text": "]"
                 },
                 {
                   "kind": "Content",
@@ -7070,7 +7070,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        /*name*/ string,\n        /*listener*/ (...args: any) => void\n    ]"
+                  "text": "[name: string, listener: (...args: any) => void]"
                 },
                 {
                   "kind": "Content",
@@ -7097,7 +7097,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        /*request*/ "
+                  "text": "[request: "
                 },
                 {
                   "kind": "Reference",
@@ -7106,7 +7106,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ",\n        /*response*/ "
+                  "text": ", response: "
                 },
                 {
                   "kind": "Reference",
@@ -7115,7 +7115,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "\n    ]"
+                  "text": "]"
                 },
                 {
                   "kind": "Content",
@@ -7142,7 +7142,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        /*info*/ string\n    ]"
+                  "text": "[info: string]"
                 },
                 {
                   "kind": "Content",
