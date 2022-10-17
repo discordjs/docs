@@ -746,7 +746,7 @@
                 {
                   "kind": "Reference",
                   "text": "Redis",
-                  "canonicalReference": "ioredis!Redis:class"
+                  "canonicalReference": "!unknown"
                 },
                 {
                   "kind": "Content",
@@ -1888,7 +1888,7 @@
                 {
                   "kind": "Reference",
                   "text": "Redis",
-                  "canonicalReference": "ioredis!Redis:class"
+                  "canonicalReference": "!unknown"
                 },
                 {
                   "kind": "Content",
