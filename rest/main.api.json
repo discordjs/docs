@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.32.1",
-    "schemaVersion": 1009,
+    "toolVersion": "7.33.4",
+    "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -186,6 +186,7 @@
               "text": "readonly [\"webp\", \"png\", \"jpg\", \"jpeg\", \"gif\"]"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_EXTENSIONS",
@@ -208,6 +209,7 @@
               "text": "readonly [16, 32, 64, 128, 256, 512, 1024, 2048, 4096]"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_SIZES",
@@ -230,6 +232,7 @@
               "text": "readonly [\"png\", \"json\"]"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_STICKER_EXTENSIONS",
@@ -248,6 +251,7 @@
               "text": "interface APIRequest "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "APIRequest",
           "preserveMemberOrder": false,
@@ -430,6 +434,7 @@
               "text": "interface BaseImageURLOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "BaseImageURLOptions",
           "preserveMemberOrder": false,
@@ -503,6 +508,7 @@
               "text": "declare class CDN "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "CDN",
           "preserveMemberOrder": false,
@@ -2063,6 +2069,7 @@
               "text": ">"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultRestOptions",
@@ -2085,6 +2092,7 @@
               "text": "\"DiscordBot (https://discord.js.org, [VI]{{inject}}[/VI])\""
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "initializerTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -2116,6 +2124,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "DiscordAPIError",
           "preserveMemberOrder": false,
@@ -2487,6 +2496,7 @@
               "text": "interface DiscordErrorData "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "DiscordErrorData",
           "preserveMemberOrder": false,
@@ -2608,6 +2618,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "HandlerRequestData",
           "typeTokenRange": {
@@ -2634,6 +2645,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "HTTPError",
           "preserveMemberOrder": false,
@@ -2912,6 +2924,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ImageExtension",
           "typeTokenRange": {
@@ -2946,6 +2959,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ImageSize",
           "typeTokenRange": {
@@ -2972,6 +2986,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ImageURLOptions",
           "preserveMemberOrder": false,
@@ -3021,6 +3036,7 @@
               "text": "interface InvalidRequestWarningData "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "InvalidRequestWarningData",
           "preserveMemberOrder": false,
@@ -3092,6 +3108,7 @@
               "text": "interface MakeURLOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "MakeURLOptions",
           "preserveMemberOrder": false,
@@ -3213,6 +3230,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 4,
             "endIndex": 5
@@ -3241,6 +3259,7 @@
               "text": "interface OAuthErrorData "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "OAuthErrorData",
           "preserveMemberOrder": false,
@@ -3334,6 +3353,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 5
@@ -3362,6 +3382,7 @@
               "text": "interface RateLimitData "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RateLimitData",
           "preserveMemberOrder": false,
@@ -3613,6 +3634,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RateLimitError",
           "preserveMemberOrder": false,
@@ -3959,6 +3981,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RateLimitQueueFilter",
           "typeTokenRange": {
@@ -3976,6 +3999,7 @@
               "text": "interface RawFile "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RawFile",
           "preserveMemberOrder": false,
@@ -4106,6 +4130,7 @@
               "text": "interface RequestBody "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RequestBody",
           "preserveMemberOrder": false,
@@ -4182,6 +4207,7 @@
               "text": "interface RequestData "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RequestData",
           "preserveMemberOrder": false,
@@ -4545,6 +4571,7 @@
               "text": "interface RequestHeaders "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RequestHeaders",
           "preserveMemberOrder": false,
@@ -4652,6 +4679,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RequestManager",
           "preserveMemberOrder": false,
@@ -5178,6 +5206,7 @@
               "text": "interface RequestManager "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RequestManager",
           "preserveMemberOrder": false,
@@ -5501,6 +5530,7 @@
               "text": "declare const enum RequestMethod "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RequestMethod",
           "preserveMemberOrder": false,
@@ -5653,6 +5683,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RequestOptions",
           "typeTokenRange": {
@@ -5679,6 +5710,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "REST",
           "preserveMemberOrder": false,
@@ -6401,6 +6433,7 @@
               "text": "interface REST "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "REST",
           "preserveMemberOrder": false,
@@ -6724,6 +6757,7 @@
               "text": "declare const enum RESTEvents "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RESTEvents",
           "preserveMemberOrder": false,
@@ -6866,6 +6900,7 @@
               "text": "interface RestEvents "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RestEvents",
           "preserveMemberOrder": false,
@@ -7171,6 +7206,7 @@
               "text": "interface RESTOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RESTOptions",
           "preserveMemberOrder": false,
@@ -7639,6 +7675,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RouteLike",
           "typeTokenRange": {
@@ -7673,6 +7710,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "StickerExtension",
           "typeTokenRange": {
@@ -7694,6 +7732,7 @@
               "text": "string"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
