@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.32.1",
-    "schemaVersion": 1009,
+    "toolVersion": "7.33.4",
+    "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -191,6 +191,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayer",
           "preserveMemberOrder": false,
@@ -546,6 +547,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayer",
           "preserveMemberOrder": false,
@@ -949,6 +951,7 @@
               "text": "interface AudioPlayerBufferingState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerBufferingState",
           "preserveMemberOrder": false,
@@ -1121,6 +1124,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerError",
           "preserveMemberOrder": false,
@@ -1222,6 +1226,7 @@
               "text": "interface AudioPlayerIdleState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerIdleState",
           "preserveMemberOrder": false,
@@ -1267,6 +1272,7 @@
               "text": "interface AudioPlayerPausedState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerPausedState",
           "preserveMemberOrder": false,
@@ -1439,6 +1445,7 @@
               "text": "interface AudioPlayerPlayingState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerPlayingState",
           "preserveMemberOrder": false,
@@ -1638,6 +1645,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerState",
           "typeTokenRange": {
@@ -1655,6 +1663,7 @@
               "text": "declare enum AudioPlayerStatus "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerStatus",
           "preserveMemberOrder": false,
@@ -1785,6 +1794,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioReceiveStream",
           "preserveMemberOrder": false,
@@ -1960,6 +1970,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AudioReceiveStreamOptions",
           "preserveMemberOrder": false,
@@ -2018,6 +2029,7 @@
               "text": "> "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2529,6 +2541,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -2557,6 +2570,7 @@
               "text": "interface CreateAudioPlayerOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "CreateAudioPlayerOptions",
           "preserveMemberOrder": false,
@@ -2712,6 +2726,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 15,
             "endIndex": 17
@@ -2817,6 +2832,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 11,
             "endIndex": 13
@@ -2866,6 +2882,7 @@
               "text": "interface CreateAudioResourceOptions<T> "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -3014,6 +3031,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -3033,6 +3051,7 @@
               "text": "interface CreateVoiceConnectionOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "CreateVoiceConnectionOptions",
           "preserveMemberOrder": false,
@@ -3157,6 +3176,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3223,6 +3243,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterCreator",
           "typeTokenRange": {
@@ -3240,6 +3261,7 @@
               "text": "interface DiscordGatewayAdapterImplementerMethods "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterImplementerMethods",
           "preserveMemberOrder": false,
@@ -3330,6 +3352,7 @@
               "text": "interface DiscordGatewayAdapterLibraryMethods "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterLibraryMethods",
           "preserveMemberOrder": false,
@@ -3502,6 +3525,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EndBehavior",
           "typeTokenRange": {
@@ -3519,6 +3543,7 @@
               "text": "declare enum EndBehaviorType "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EndBehaviorType",
           "preserveMemberOrder": false,
@@ -3651,6 +3676,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3748,6 +3774,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3800,6 +3827,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -3850,6 +3878,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 7
@@ -3898,6 +3927,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 7
@@ -3964,6 +3994,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -4022,6 +4053,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -4050,6 +4082,7 @@
               "text": "interface JoinConfig "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "JoinConfig",
           "preserveMemberOrder": false,
@@ -4229,6 +4262,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -4257,6 +4291,7 @@
               "text": "interface JoinVoiceChannelOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "JoinVoiceChannelOptions",
           "preserveMemberOrder": false,
@@ -4409,6 +4444,7 @@
               "text": "declare enum NoSubscriberBehavior "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "NoSubscriberBehavior",
           "preserveMemberOrder": false,
@@ -4488,6 +4524,7 @@
               "text": "declare class PlayerSubscription "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "PlayerSubscription",
           "preserveMemberOrder": false,
@@ -4645,6 +4682,7 @@
               "text": "interface ProbeInfo "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ProbeInfo",
           "preserveMemberOrder": false,
@@ -4727,6 +4765,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SpeakingMap",
           "preserveMemberOrder": false,
@@ -4886,6 +4925,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SpeakingMap",
           "preserveMemberOrder": false,
@@ -5039,6 +5079,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SSRCMap",
           "preserveMemberOrder": false,
@@ -5236,6 +5277,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SSRCMap",
           "preserveMemberOrder": false,
@@ -5477,6 +5519,7 @@
               "text": "declare enum StreamType "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "StreamType",
           "preserveMemberOrder": false,
@@ -5615,6 +5658,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -5647,6 +5691,7 @@
               "text": "string"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
@@ -5674,6 +5719,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnection",
           "preserveMemberOrder": false,
@@ -6328,6 +6374,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnection",
           "preserveMemberOrder": false,
@@ -6661,6 +6708,7 @@
               "text": "interface VoiceConnectionConnectingState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionConnectingState",
           "preserveMemberOrder": false,
@@ -6794,6 +6842,7 @@
               "text": "interface VoiceConnectionDestroyedState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDestroyedState",
           "preserveMemberOrder": false,
@@ -6839,6 +6888,7 @@
               "text": "interface VoiceConnectionDisconnectedBaseState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedBaseState",
           "preserveMemberOrder": false,
@@ -6953,6 +7003,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedOtherState",
           "preserveMemberOrder": false,
@@ -7043,6 +7094,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedState",
           "typeTokenRange": {
@@ -7069,6 +7121,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedWebSocketState",
           "preserveMemberOrder": false,
@@ -7146,6 +7199,7 @@
               "text": "declare enum VoiceConnectionDisconnectReason "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectReason",
           "preserveMemberOrder": false,
@@ -7246,6 +7300,7 @@
               "text": "interface VoiceConnectionReadyState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionReadyState",
           "preserveMemberOrder": false,
@@ -7379,6 +7434,7 @@
               "text": "interface VoiceConnectionSignallingState "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionSignallingState",
           "preserveMemberOrder": false,
@@ -7529,6 +7585,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionState",
           "typeTokenRange": {
@@ -7546,6 +7603,7 @@
               "text": "declare enum VoiceConnectionStatus "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionStatus",
           "preserveMemberOrder": false,
@@ -7667,6 +7725,7 @@
               "text": "declare class VoiceReceiver "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Beta",
           "name": "VoiceReceiver",
           "preserveMemberOrder": false,
@@ -7928,6 +7987,7 @@
               "text": "interface VoiceUserData "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "VoiceUserData",
           "preserveMemberOrder": false,
