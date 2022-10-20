@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.32.1",
-    "schemaVersion": 1009,
+    "toolVersion": "7.33.4",
+    "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -231,6 +231,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -524,6 +525,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AnyAPIActionRowComponent",
           "typeTokenRange": {
@@ -559,6 +561,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "AnyComponentBuilder",
           "typeTokenRange": {
@@ -576,6 +579,7 @@
               "text": "declare abstract class ApplicationCommandNumericOptionMinMaxValueMixin "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandNumericOptionMinMaxValueMixin",
           "preserveMemberOrder": false,
@@ -762,6 +766,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandOptionAllowedChannelTypes",
           "typeTokenRange": {
@@ -788,6 +793,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandOptionBase",
           "preserveMemberOrder": false,
@@ -976,6 +982,7 @@
               "text": "declare class ApplicationCommandOptionChannelTypesMixin "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandOptionChannelTypesMixin",
           "preserveMemberOrder": false,
@@ -1087,6 +1094,7 @@
               "text": "> "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1406,6 +1414,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -1471,6 +1480,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -1534,6 +1544,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ButtonBuilder",
           "preserveMemberOrder": false,
@@ -1941,6 +1952,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -2024,6 +2036,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -2109,6 +2122,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -2223,6 +2237,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 17,
             "endIndex": 18
@@ -2378,6 +2393,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 13,
             "endIndex": 14
@@ -2498,6 +2514,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -2582,6 +2599,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -2663,6 +2681,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -2723,6 +2742,7 @@
               "text": "declare namespace Assertions$4 "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ComponentAssertions",
           "preserveMemberOrder": false,
@@ -2813,6 +2833,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2950,6 +2971,7 @@
               "text": "declare namespace Assertions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ContextMenuCommandAssertions",
           "preserveMemberOrder": false,
@@ -2965,6 +2987,7 @@
               "text": "declare class ContextMenuCommandBuilder "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ContextMenuCommandBuilder",
           "preserveMemberOrder": false,
@@ -3569,6 +3592,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ContextMenuCommandType",
           "typeTokenRange": {
@@ -3638,6 +3662,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 10,
             "endIndex": 12
@@ -3713,6 +3738,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -3758,6 +3784,7 @@
               "text": "() => boolean"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "disableValidators",
@@ -3776,6 +3803,7 @@
               "text": "declare namespace Assertions$5 "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EmbedAssertions",
           "preserveMemberOrder": false,
@@ -3822,6 +3850,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EmbedAuthorData",
           "typeTokenRange": {
@@ -3861,6 +3890,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EmbedAuthorOptions",
           "typeTokenRange": {
@@ -3878,6 +3908,7 @@
               "text": "declare class EmbedBuilder "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EmbedBuilder",
           "preserveMemberOrder": false,
@@ -4669,6 +4700,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EmbedFooterData",
           "typeTokenRange": {
@@ -4708,6 +4740,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EmbedFooterOptions",
           "typeTokenRange": {
@@ -4747,6 +4780,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "EmbedImageData",
           "preserveMemberOrder": false,
@@ -4813,6 +4847,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -4845,6 +4880,7 @@
               "text": "() => boolean"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "enableValidators",
@@ -4863,6 +4899,7 @@
               "text": "declare enum Faces "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "Faces",
           "preserveMemberOrder": false,
@@ -4975,6 +5012,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -5057,6 +5095,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -5130,6 +5169,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -5188,6 +5228,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -5249,6 +5290,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -5338,6 +5380,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -5447,6 +5490,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 11,
             "endIndex": 12
@@ -5571,6 +5615,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 13,
             "endIndex": 14
@@ -5650,6 +5695,7 @@
               "text": "interface IconData "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IconData",
           "preserveMemberOrder": false,
@@ -5745,6 +5791,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -5790,6 +5837,7 @@
               "text": "() => boolean"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "isValidationEnabled",
@@ -5832,6 +5880,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -5873,6 +5922,7 @@
               "text": "interface MappedComponentTypes "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "MappedComponentTypes",
           "preserveMemberOrder": false,
@@ -6069,6 +6119,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "MessageActionRowComponentBuilder",
           "typeTokenRange": {
@@ -6113,6 +6164,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "MessageComponentBuilder",
           "typeTokenRange": {
@@ -6172,6 +6224,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -6291,6 +6344,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 13,
             "endIndex": 14
@@ -6379,6 +6433,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ModalActionRowComponentBuilder",
           "typeTokenRange": {
@@ -6396,6 +6451,7 @@
               "text": "declare namespace Assertions$2 "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ModalAssertions",
           "preserveMemberOrder": false,
@@ -6433,6 +6489,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ModalBuilder",
           "preserveMemberOrder": false,
@@ -6897,6 +6954,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ModalComponentBuilder",
           "typeTokenRange": {
@@ -6935,6 +6993,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 4,
             "endIndex": 5
@@ -7000,6 +7059,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -7049,6 +7109,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RestOrArray",
           "typeParameters": [
@@ -7087,6 +7148,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RGBTuple",
           "typeTokenRange": {
@@ -7129,6 +7191,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -7192,6 +7255,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SelectMenuBuilder",
           "preserveMemberOrder": false,
@@ -7721,6 +7785,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SelectMenuOptionBuilder",
           "preserveMemberOrder": false,
@@ -8099,6 +8164,7 @@
               "text": "declare class SharedNameAndDescription "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SharedNameAndDescription",
           "preserveMemberOrder": false,
@@ -8568,6 +8634,7 @@
               "text": "> "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -9559,6 +9626,7 @@
               "text": "declare namespace Assertions$1 "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandAssertions",
           "preserveMemberOrder": false,
@@ -9583,6 +9651,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandAttachmentOption",
           "preserveMemberOrder": false,
@@ -9674,6 +9743,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandBooleanOption",
           "preserveMemberOrder": false,
@@ -9756,6 +9826,7 @@
               "text": "declare class SlashCommandBuilder "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandBuilder",
           "preserveMemberOrder": false,
@@ -10354,6 +10425,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandBuilder",
           "preserveMemberOrder": false,
@@ -10388,6 +10460,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandChannelOption",
           "preserveMemberOrder": false,
@@ -10479,6 +10552,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandChannelOption",
           "preserveMemberOrder": false,
@@ -10518,6 +10592,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandIntegerOption",
           "preserveMemberOrder": false,
@@ -10721,6 +10796,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandIntegerOption",
           "preserveMemberOrder": false,
@@ -10755,6 +10831,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandMentionableOption",
           "preserveMemberOrder": false,
@@ -10855,6 +10932,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandNumberOption",
           "preserveMemberOrder": false,
@@ -11058,6 +11136,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandNumberOption",
           "preserveMemberOrder": false,
@@ -11123,6 +11202,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandOptionsOnlyBuilder",
           "preserveMemberOrder": false,
@@ -11161,6 +11241,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandRoleOption",
           "preserveMemberOrder": false,
@@ -11252,6 +11333,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandStringOption",
           "preserveMemberOrder": false,
@@ -11499,6 +11581,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandStringOption",
           "preserveMemberOrder": false,
@@ -11529,6 +11612,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandBuilder",
           "preserveMemberOrder": false,
@@ -11696,6 +11780,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandBuilder",
           "preserveMemberOrder": false,
@@ -11730,6 +11815,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandGroupBuilder",
           "preserveMemberOrder": false,
@@ -11954,6 +12040,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandGroupBuilder",
           "preserveMemberOrder": false,
@@ -12015,6 +12102,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandsOnlyBuilder",
           "preserveMemberOrder": false,
@@ -12045,6 +12133,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SlashCommandUserOption",
           "preserveMemberOrder": false,
@@ -12151,6 +12240,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -12216,6 +12306,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -12257,6 +12348,7 @@
               "text": "declare namespace Assertions$3 "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "TextInputAssertions",
           "preserveMemberOrder": false,
@@ -12334,6 +12426,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "TextInputBuilder",
           "preserveMemberOrder": false,
@@ -12901,6 +12994,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -12963,6 +13057,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -13036,6 +13131,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -13118,6 +13214,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -13182,6 +13279,7 @@
               "text": "{\n    readonly ShortTime: \"t\";\n    readonly LongTime: \"T\";\n    readonly ShortDate: \"d\";\n    readonly LongDate: \"D\";\n    readonly ShortDateTime: \"f\";\n    readonly LongDateTime: \"F\";\n    readonly RelativeTime: \"R\";\n}"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "TimestampStyles",
@@ -13226,6 +13324,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "TimestampStylesString",
           "typeTokenRange": {
@@ -13243,6 +13342,7 @@
               "text": "interface ToAPIApplicationCommandOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ToAPIApplicationCommandOptions",
           "preserveMemberOrder": false,
@@ -13313,6 +13413,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -13379,6 +13480,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -13424,6 +13526,7 @@
               "text": "string"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
