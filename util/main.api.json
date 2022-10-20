@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.32.1",
-    "schemaVersion": 1009,
+    "toolVersion": "7.33.4",
+    "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -195,6 +195,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "Awaitable",
           "typeParameters": [
@@ -225,6 +226,7 @@
               "text": "interface Equatable<T> "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -330,6 +332,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -388,6 +391,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -416,6 +420,7 @@
               "text": "interface JSONEncodable<T> "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -490,6 +495,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -563,6 +569,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
