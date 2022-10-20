@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.32.1",
-    "schemaVersion": 1009,
+    "toolVersion": "7.33.4",
+    "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -182,6 +182,7 @@
               "text": "declare enum CloseCodes "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "CloseCodes",
           "preserveMemberOrder": false,
@@ -240,6 +241,7 @@
               "text": "declare enum CompressionMethod "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "CompressionMethod",
           "preserveMemberOrder": false,
@@ -281,6 +283,7 @@
               "text": "\"@discordjs/ws [VI]{{inject}}[/VI]\""
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "initializerTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -308,6 +311,7 @@
               "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions:interface"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultWebSocketManagerOptions",
@@ -326,6 +330,7 @@
               "text": "declare enum Encoding "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "Encoding",
           "preserveMemberOrder": false,
@@ -385,6 +390,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "FetchingStrategyOptions",
           "preserveMemberOrder": false,
@@ -462,6 +468,7 @@
               "text": "interface IContextFetchingStrategy "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IContextFetchingStrategy",
           "preserveMemberOrder": false,
@@ -637,6 +644,7 @@
               "text": "declare class IdentifyThrottler "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IdentifyThrottler",
           "preserveMemberOrder": false,
@@ -740,6 +748,7 @@
               "text": ">"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ImportantGatewayOpcodes",
@@ -758,6 +767,7 @@
               "text": "interface IShardingStrategy "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "IShardingStrategy",
           "preserveMemberOrder": false,
@@ -1024,6 +1034,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ManagerShardEventsMap",
           "typeTokenRange": {
@@ -1072,6 +1083,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -1100,6 +1112,7 @@
               "text": "interface OptionalWebSocketManagerOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "OptionalWebSocketManagerOptions",
           "preserveMemberOrder": false,
@@ -1565,6 +1578,7 @@
               "text": "interface RequiredWebSocketManagerOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "RequiredWebSocketManagerOptions",
           "preserveMemberOrder": false,
@@ -1665,6 +1679,7 @@
               "text": "interface SessionInfo "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SessionInfo",
           "preserveMemberOrder": false,
@@ -1817,6 +1832,7 @@
               "text": "interface ShardRange "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "ShardRange",
           "preserveMemberOrder": false,
@@ -1897,6 +1913,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SimpleContextFetchingStrategy",
           "preserveMemberOrder": false,
@@ -2142,6 +2159,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "SimpleShardingStrategy",
           "preserveMemberOrder": false,
@@ -2423,6 +2441,7 @@
               "text": "string"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
@@ -2463,6 +2482,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WebSocketManager",
           "preserveMemberOrder": false,
@@ -3001,6 +3021,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WebSocketManagerOptions",
           "typeTokenRange": {
@@ -3040,6 +3061,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WebSocketShard",
           "preserveMemberOrder": false,
@@ -3281,6 +3303,7 @@
               "text": "interface WebSocketShardDestroyOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardDestroyOptions",
           "preserveMemberOrder": false,
@@ -3380,6 +3403,7 @@
               "text": "declare enum WebSocketShardDestroyRecovery "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardDestroyRecovery",
           "preserveMemberOrder": false,
@@ -3438,6 +3462,7 @@
               "text": "declare enum WebSocketShardEvents "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardEvents",
           "preserveMemberOrder": false,
@@ -3630,6 +3655,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardEventsMap",
           "typeTokenRange": {
@@ -3647,6 +3673,7 @@
               "text": "declare enum WebSocketShardStatus "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardStatus",
           "preserveMemberOrder": false,
@@ -3756,6 +3783,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WorkerContextFetchingStrategy",
           "preserveMemberOrder": false,
@@ -3979,6 +4007,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WorkerData",
           "preserveMemberOrder": false,
@@ -4099,6 +4128,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WorkerRecievePayload",
           "typeTokenRange": {
@@ -4116,6 +4146,7 @@
               "text": "declare enum WorkerRecievePayloadOp "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WorkerRecievePayloadOp",
           "preserveMemberOrder": false,
@@ -4308,6 +4339,7 @@
               "text": ";"
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WorkerSendPayload",
           "typeTokenRange": {
@@ -4325,6 +4357,7 @@
               "text": "declare enum WorkerSendPayloadOp "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WorkerSendPayloadOp",
           "preserveMemberOrder": false,
@@ -4434,6 +4467,7 @@
               "text": " "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WorkerShardingStrategy",
           "preserveMemberOrder": false,
@@ -4723,6 +4757,7 @@
               "text": "interface WorkerShardingStrategyOptions "
             }
           ],
+          "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
           "name": "WorkerShardingStrategyOptions",
           "preserveMemberOrder": false,
