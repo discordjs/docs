@@ -1381,6 +1381,328 @@
           "implementsTokenRanges": []
         },
         {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare class BaseSelectMenuBuilder<SelectMenuType extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "APISelectMenuComponent",
+              "canonicalReference": "discord-api-types!APISelectMenuComponent:type"
+            },
+            {
+              "kind": "Content",
+              "text": "> extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "ComponentBuilder",
+              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": "<SelectMenuType>"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "typeParameters": [
+            {
+              "typeParameterName": "SelectMenuType",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "BaseSelectMenuBuilder",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setCustomId:member(1)",
+              "docComment": "/**\n * Sets the custom id for this select menu\n *\n * @param customId - The custom id to use for this select menu\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setCustomId(customId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "customId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setCustomId"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setDisabled:member(1)",
+              "docComment": "/**\n * Sets whether this select menu is disabled\n *\n * @param disabled - Whether this select menu is disabled\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setDisabled(disabled?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "disabled",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "name": "setDisabled"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setMaxValues:member(1)",
+              "docComment": "/**\n * Sets the maximum values that must be selected in the select menu\n *\n * @param maxValues - The maximum values that must be selected\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setMaxValues(maxValues: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "maxValues",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setMaxValues"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setMinValues:member(1)",
+              "docComment": "/**\n * Sets the minimum values that must be selected in the select menu\n *\n * @param minValues - The minimum values that must be selected\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setMinValues(minValues: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "minValues",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setMinValues"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setPlaceholder:member(1)",
+              "docComment": "/**\n * Sets the placeholder for this select menu\n *\n * @param placeholder - The placeholder to use for this select menu\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setPlaceholder(placeholder: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "placeholder",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setPlaceholder"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#toJSON:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "toJSON(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "SelectMenuType"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "toJSON"
+            }
+          ],
+          "extendsTokenRange": {
+            "startIndex": 3,
+            "endIndex": 5
+          },
+          "implementsTokenRanges": []
+        },
+        {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!blockQuote:function(1)",
           "docComment": "/**\n * Formats the content into a block quote. This needs to be at the start of the line for Discord to format it\n *\n * @param content - The content to wrap\n */\n",
@@ -2153,6 +2475,249 @@
             }
           ],
           "name": "channelMention"
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare class ChannelSelectMenuBuilder extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "BaseSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APIChannelSelectComponent",
+              "canonicalReference": "discord-api-types!APIChannelSelectComponent:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "ChannelSelectMenuBuilder",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder:constructor(1)",
+              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new ChannelSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new ChannelSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.addChannelTypes(ChannelType.GuildText, ChannelType.GuildAnnouncement)\n * \t.setMinValues(2)\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIChannelSelectComponent",
+                  "canonicalReference": "discord-api-types!APIChannelSelectComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#addChannelTypes:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "addChannelTypes(...types: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ChannelType",
+                  "canonicalReference": "discord-api-types!ChannelType:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "types",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "addChannelTypes"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#setChannelTypes:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setChannelTypes(...types: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ChannelType",
+                  "canonicalReference": "discord-api-types!ChannelType:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "types",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setChannelTypes"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#toJSON:member(1)",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "toJSON(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIChannelSelectComponent",
+                  "canonicalReference": "discord-api-types!APIChannelSelectComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "toJSON"
+            }
+          ],
+          "extendsTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          },
+          "implementsTokenRanges": []
         },
         {
           "kind": "Function",
@@ -6025,8 +6590,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "ComponentType.SelectMenu",
-                  "canonicalReference": "discord-api-types!ComponentType.SelectMenu:member"
+                  "text": "ComponentType.StringSelect",
+                  "canonicalReference": "discord-api-types!ComponentType.StringSelect:member"
                 },
                 {
                   "kind": "Content",
@@ -6034,8 +6599,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "SelectMenuBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuBuilder:class"
+                  "text": "StringSelectMenuBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder:class"
                 },
                 {
                   "kind": "Content",
@@ -6087,9 +6652,247 @@
                 "startIndex": 3,
                 "endIndex": 4
               }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"5\":member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "["
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ComponentType.UserSelect",
+                  "canonicalReference": "discord-api-types!ComponentType.UserSelect:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": "]: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UserSelectMenuBuilder",
+                  "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "\"5\"",
+              "propertyTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"6\":member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "["
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ComponentType.RoleSelect",
+                  "canonicalReference": "discord-api-types!ComponentType.RoleSelect:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": "]: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RoleSelectMenuBuilder",
+                  "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "\"6\"",
+              "propertyTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"7\":member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "["
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ComponentType.MentionableSelect",
+                  "canonicalReference": "discord-api-types!ComponentType.MentionableSelect:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": "]: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MentionableSelectMenuBuilder",
+                  "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "\"7\"",
+              "propertyTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"8\":member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "["
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ComponentType.ChannelSelect",
+                  "canonicalReference": "discord-api-types!ComponentType.ChannelSelect:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": "]: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ChannelSelectMenuBuilder",
+                  "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "\"8\"",
+              "propertyTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              }
             }
           ],
           "extendsTokenRanges": []
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare class MentionableSelectMenuBuilder extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "BaseSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APIMentionableSelectComponent",
+              "canonicalReference": "discord-api-types!APIMentionableSelectComponent:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "MentionableSelectMenuBuilder",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder:constructor(1)",
+              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new MentionableSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new MentionableSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIMentionableSelectComponent",
+                  "canonicalReference": "discord-api-types!APIMentionableSelectComponent:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            }
+          ],
+          "extendsTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          },
+          "implementsTokenRanges": []
         },
         {
           "kind": "TypeAlias",
@@ -6111,8 +6914,44 @@
             },
             {
               "kind": "Reference",
-              "text": "SelectMenuBuilder",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder:class"
+              "text": "ChannelSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "MentionableSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "RoleSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "StringSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "UserSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder:class"
             },
             {
               "kind": "Content",
@@ -6124,7 +6963,7 @@
           "name": "MessageActionRowComponentBuilder",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 4
+            "endIndex": 12
           }
         },
         {
@@ -7225,17 +8064,17 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@discordjs/builders!SelectMenuBuilder:class",
-          "docComment": "/**\n * Represents a select menu component\n */\n",
+          "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder:class",
+          "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SelectMenuBuilder extends "
+              "text": "declare class RoleSelectMenuBuilder extends "
             },
             {
               "kind": "Reference",
-              "text": "ComponentBuilder",
-              "canonicalReference": "@discordjs/builders!ComponentBuilder:class"
+              "text": "BaseSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder:class"
             },
             {
               "kind": "Content",
@@ -7243,8 +8082,8 @@
             },
             {
               "kind": "Reference",
-              "text": "APISelectMenuComponent",
-              "canonicalReference": "discord-api-types!APISelectMenuComponent:interface"
+              "text": "APIRoleSelectComponent",
+              "canonicalReference": "discord-api-types!APIRoleSelectComponent:type"
             },
             {
               "kind": "Content",
@@ -7257,13 +8096,13 @@
           ],
           "fileUrlPath": "dist/index.d.ts",
           "releaseTag": "Public",
-          "name": "SelectMenuBuilder",
+          "name": "RoleSelectMenuBuilder",
           "preserveMemberOrder": false,
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new SelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * \toptions: [\n * \t\t{ label: 'option 1', value: '1' },\n * \t\t{ label: 'option 2', value: '2' },\n * \t\t{ label: 'option 3', value: '3' },\n * \t],\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new SelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * \t.addOptions({\n * \t\tlabel: 'Catchy',\n * \t\tvalue: 'catch',\n * \t});\n * ```\n *\n */\n",
+              "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder:constructor(1)",
+              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new RoleSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new RoleSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7280,8 +8119,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "APISelectMenuComponent",
-                  "canonicalReference": "discord-api-types!APISelectMenuComponent:interface"
+                  "text": "APIRoleSelectComponent",
+                  "canonicalReference": "discord-api-types!APIRoleSelectComponent:type"
                 },
                 {
                   "kind": "Content",
@@ -7305,446 +8144,6 @@
                   "isOptional": true
                 }
               ]
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#addOptions:member(1)",
-              "docComment": "/**\n * Adds options to this select menu\n *\n * @param options - The options to add to this select menu\n *\n * @returns \n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "addOptions(...options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 9
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 7
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "addOptions"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#options:member",
-              "docComment": "/**\n * The options within this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "options",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom id for this select menu\n *\n * @param customId - The custom id to use for this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setCustomId(customId: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "customId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setCustomId"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setDisabled:member(1)",
-              "docComment": "/**\n * Sets whether this select menu is disabled\n *\n * @param disabled - Whether this select menu is disabled\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setDisabled(disabled?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "disabled",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "setDisabled"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setMaxValues:member(1)",
-              "docComment": "/**\n * Sets the maximum values that must be selected in the select menu\n *\n * @param maxValues - The maximum values that must be selected\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setMaxValues(maxValues: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "maxValues",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setMaxValues"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setMinValues:member(1)",
-              "docComment": "/**\n * Sets the minimum values that must be selected in the select menu\n *\n * @param minValues - The minimum values that must be selected\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setMinValues(minValues: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "minValues",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setMinValues"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setOptions:member(1)",
-              "docComment": "/**\n * Sets the options on this select menu\n *\n * @param options - The options to set on this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setOptions(...options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RestOrArray",
-                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SelectMenuOptionBuilder",
-                  "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 9
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 7
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setOptions"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#setPlaceholder:member(1)",
-              "docComment": "/**\n * Sets the placeholder for this select menu\n *\n * @param placeholder - The placeholder to use for this select menu\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setPlaceholder(placeholder: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "placeholder",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setPlaceholder"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuComponent",
-                  "canonicalReference": "discord-api-types!APISelectMenuComponent:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "toJSON"
             }
           ],
           "extendsTokenRange": {
@@ -7752,407 +8151,6 @@
             "endIndex": 5
           },
           "implementsTokenRanges": []
-        },
-        {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:class",
-          "docComment": "/**\n * Represents a option within a select menu component\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare class SelectMenuOptionBuilder implements "
-            },
-            {
-              "kind": "Reference",
-              "text": "JSONEncodable",
-              "canonicalReference": "@discordjs/util!JSONEncodable:interface"
-            },
-            {
-              "kind": "Content",
-              "text": "<"
-            },
-            {
-              "kind": "Reference",
-              "text": "APISelectMenuOption",
-              "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-            },
-            {
-              "kind": "Content",
-              "text": ">"
-            },
-            {
-              "kind": "Content",
-              "text": " "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
-          "name": "SelectMenuOptionBuilder",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new select menu option from API data\n *\n * @param data - The API data to create this select menu option with\n *\n * @example\n *\n * Creating a select menu option from an API data object\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tlabel: 'catchy label',\n * \tvalue: '1',\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu option using setters and API data\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tdefault: true,\n * \tvalue: '1',\n * })\n * \t.setLabel('woah')\n * ```\n *\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor(data?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "data",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ]
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#data:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "data: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "data",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setDefault:member(1)",
-              "docComment": "/**\n * Sets whether this option is selected by default\n *\n * @param isDefault - Whether this option is selected by default\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setDefault(isDefault?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "isDefault",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "setDefault"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setDescription:member(1)",
-              "docComment": "/**\n * Sets the description of this option\n *\n * @param description - The description of this option\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setDescription(description: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "description",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setDescription"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setEmoji:member(1)",
-              "docComment": "/**\n * Sets the emoji to display on this option\n *\n * @param emoji - The emoji to display on this option\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setEmoji(emoji: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIMessageComponentEmoji",
-                  "canonicalReference": "discord-api-types!APIMessageComponentEmoji:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "emoji",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setEmoji"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setLabel:member(1)",
-              "docComment": "/**\n * Sets the label of this option\n *\n * @param label - The label to show on this option\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setLabel(label: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "label",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setLabel"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#setValue:member(1)",
-              "docComment": "/**\n * Sets the value of this option\n *\n * @param value - The value of this option\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setValue(value: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "value",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setValue"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/builders!SelectMenuOptionBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "toJSON(): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APISelectMenuOption",
-                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "toJSON"
-            }
-          ],
-          "implementsTokenRanges": [
-            {
-              "startIndex": 1,
-              "endIndex": 5
-            }
-          ]
         },
         {
           "kind": "Class",
@@ -12339,6 +12337,702 @@
           "name": "strikethrough"
         },
         {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder:class",
+          "docComment": "/**\n * Represents a string select menu component\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare class StringSelectMenuBuilder extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "BaseSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APIStringSelectComponent",
+              "canonicalReference": "discord-api-types!APIStringSelectComponent:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "StringSelectMenuBuilder",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder:constructor(1)",
+              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new StringSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * \toptions: [\n * \t\t{ label: 'option 1', value: '1' },\n * \t\t{ label: 'option 2', value: '2' },\n * \t\t{ label: 'option 3', value: '3' },\n * \t],\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new StringSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * \t.addOptions({\n * \t\tlabel: 'Catchy',\n * \t\tvalue: 'catch',\n * \t});\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIStringSelectComponent",
+                  "canonicalReference": "discord-api-types!APIStringSelectComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#addOptions:member(1)",
+              "docComment": "/**\n * Adds options to this select menu\n *\n * @param options - The options to add to this select menu\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "addOptions(...options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuOption",
+                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringSelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 9
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 7
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "addOptions"
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#options:member",
+              "docComment": "/**\n * The options within this select menu\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringSelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "options",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#setOptions:member(1)",
+              "docComment": "/**\n * Sets the options on this select menu\n *\n * @param options - The options to set on this select menu\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setOptions(...options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuOption",
+                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringSelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 9
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 7
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setOptions"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#toJSON:member(1)",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "toJSON(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIStringSelectComponent",
+                  "canonicalReference": "discord-api-types!APIStringSelectComponent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "toJSON"
+            }
+          ],
+          "extendsTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          },
+          "implementsTokenRanges": []
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class",
+          "docComment": "/**\n * Represents an option within a string select menu component\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare class StringSelectMenuOptionBuilder implements "
+            },
+            {
+              "kind": "Reference",
+              "text": "JSONEncodable",
+              "canonicalReference": "@discordjs/util!JSONEncodable:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APISelectMenuOption",
+              "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "StringSelectMenuOptionBuilder",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:constructor(1)",
+              "docComment": "/**\n * Creates a new string select menu option from API data\n *\n * @param data - The API data to create this string select menu option with\n *\n * @example\n *\n * Creating a string select menu option from an API data object\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tlabel: 'catchy label',\n * \tvalue: '1',\n * });\n * ```\n *\n * @example\n *\n * Creating a string select menu option using setters and API data\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tdefault: true,\n * \tvalue: '1',\n * })\n * \t.setLabel('woah')\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuOption",
+                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#data:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "data: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuOption",
+                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "data",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setDefault:member(1)",
+              "docComment": "/**\n * Sets whether this option is selected by default\n *\n * @param isDefault - Whether this option is selected by default\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setDefault(isDefault?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "isDefault",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "name": "setDefault"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setDescription:member(1)",
+              "docComment": "/**\n * Sets the description of this option\n *\n * @param description - The description of this option\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setDescription(description: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "description",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setDescription"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setEmoji:member(1)",
+              "docComment": "/**\n * Sets the emoji to display on this option\n *\n * @param emoji - The emoji to display on this option\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setEmoji(emoji: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIMessageComponentEmoji",
+                  "canonicalReference": "discord-api-types!APIMessageComponentEmoji:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "emoji",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setEmoji"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setLabel:member(1)",
+              "docComment": "/**\n * Sets the label of this option\n *\n * @param label - The label to show on this option\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setLabel(label: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "label",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setLabel"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setValue:member(1)",
+              "docComment": "/**\n * Sets the value of this option\n *\n * @param value - The value of this option\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setValue(value: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "setValue"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#toJSON:member(1)",
+              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "toJSON(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuOption",
+                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "toJSON"
+            }
+          ],
+          "implementsTokenRanges": [
+            {
+              "startIndex": 1,
+              "endIndex": 5
+            }
+          ]
+        },
+        {
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!TextInputAssertions:namespace",
           "docComment": "",
@@ -13511,6 +14205,96 @@
             }
           ],
           "name": "userMention"
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare class UserSelectMenuBuilder extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "BaseSelectMenuBuilder",
+              "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "APIUserSelectComponent",
+              "canonicalReference": "discord-api-types!APIUserSelectComponent:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "UserSelectMenuBuilder",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder:constructor(1)",
+              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new UserSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new UserSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(data?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIUserSelectComponent",
+                  "canonicalReference": "discord-api-types!APIUserSelectComponent:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ]
+            }
+          ],
+          "extendsTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          },
+          "implementsTokenRanges": []
         },
         {
           "kind": "Variable",
