@@ -4689,6 +4689,76 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#subtract:member(1)",
+              "docComment": "/**\n * The subtract method returns a new structure containing items where the keys and values of the original structure are not present in the other.\n *\n * @param other - The other Collection to filter against\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "subtract<T>(other: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ReadonlyCollection",
+                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, T>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, V>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "T",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 4,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "other",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 3
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "subtract"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#sweep:member(1)",
               "docComment": "/**\n * Removes items that satisfy the provided filter function.\n *\n * @param fn - Function used to test (should return a boolean)\n *\n * @param thisArg - Value to use as `this` when executing function\n *\n * @returns The number of removed entries\n */\n",
               "excerptTokens": [
