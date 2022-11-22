@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.4",
+    "toolVersion": "7.33.6",
     "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -2593,7 +2593,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type HandlerRequestData = "
+              "text": "type HandlerRequestData = "
             },
             {
               "kind": "Reference",
@@ -2904,7 +2904,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type ImageExtension = "
+              "text": "type ImageExtension = "
             },
             {
               "kind": "Content",
@@ -2939,7 +2939,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type ImageSize = "
+              "text": "type ImageSize = "
             },
             {
               "kind": "Content",
@@ -3952,7 +3952,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type RateLimitQueueFilter = "
+              "text": "type RateLimitQueueFilter = "
             },
             {
               "kind": "Content",
@@ -5649,7 +5649,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type RequestOptions = "
+              "text": "type RequestOptions = "
             },
             {
               "kind": "Reference",
@@ -7664,7 +7664,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type RouteLike = "
+              "text": "type RouteLike = "
             },
             {
               "kind": "Content",
@@ -7690,7 +7690,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type StickerExtension = "
+              "text": "type StickerExtension = "
             },
             {
               "kind": "Content",
