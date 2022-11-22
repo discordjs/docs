@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.4",
+    "toolVersion": "7.33.6",
     "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -1606,7 +1606,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type AudioPlayerState = "
+              "text": "type AudioPlayerState = "
             },
             {
               "kind": "Reference",
@@ -3218,7 +3218,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type DiscordGatewayAdapterCreator = "
+              "text": "type DiscordGatewayAdapterCreator = "
             },
             {
               "kind": "Content",
@@ -3487,7 +3487,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type EndBehavior = "
+              "text": "type EndBehavior = "
             },
             {
               "kind": "Content",
@@ -7073,7 +7073,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type VoiceConnectionDisconnectedState = "
+              "text": "type VoiceConnectionDisconnectedState = "
             },
             {
               "kind": "Reference",
@@ -7537,7 +7537,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type VoiceConnectionState = "
+              "text": "type VoiceConnectionState = "
             },
             {
               "kind": "Reference",
