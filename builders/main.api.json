@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.4",
+    "toolVersion": "7.33.6",
     "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -495,7 +495,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type AnyAPIActionRowComponent = "
+              "text": "type AnyAPIActionRowComponent = "
             },
             {
               "kind": "Reference",
@@ -540,7 +540,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type AnyComponentBuilder = "
+              "text": "type AnyComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -746,7 +746,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type ApplicationCommandOptionAllowedChannelTypes = "
+              "text": "type ApplicationCommandOptionAllowedChannelTypes = "
             },
             {
               "kind": "Content",
@@ -4136,7 +4136,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type ContextMenuCommandType = "
+              "text": "type ContextMenuCommandType = "
             },
             {
               "kind": "Reference",
@@ -4381,7 +4381,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type EmbedAuthorData = "
+              "text": "type EmbedAuthorData = "
             },
             {
               "kind": "Reference",
@@ -4430,7 +4430,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type EmbedAuthorOptions = "
+              "text": "type EmbedAuthorOptions = "
             },
             {
               "kind": "Reference",
@@ -5231,7 +5231,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type EmbedFooterData = "
+              "text": "type EmbedFooterData = "
             },
             {
               "kind": "Reference",
@@ -5280,7 +5280,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type EmbedFooterOptions = "
+              "text": "type EmbedFooterOptions = "
             },
             {
               "kind": "Reference",
@@ -6901,7 +6901,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type MessageActionRowComponentBuilder = "
+              "text": "type MessageActionRowComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -6973,7 +6973,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type MessageComponentBuilder = "
+              "text": "type MessageComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -7260,7 +7260,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type ModalActionRowComponentBuilder = "
+              "text": "type ModalActionRowComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -7763,7 +7763,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type ModalComponentBuilder = "
+              "text": "type ModalComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -7937,7 +7937,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type RestOrArray<T> = "
+              "text": "type RestOrArray<T> = "
             },
             {
               "kind": "Content",
@@ -7976,7 +7976,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type RGBTuple = "
+              "text": "type RGBTuple = "
             },
             {
               "kind": "Content",
@@ -13989,7 +13989,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type TimestampStylesString = "
+              "text": "type TimestampStylesString = "
             },
             {
               "kind": "Content",
