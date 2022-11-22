@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.4",
+    "toolVersion": "7.33.6",
     "schemaVersion": 1010,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -996,7 +996,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type ManagerShardEventsMap = "
+              "text": "type ManagerShardEventsMap = "
             },
             {
               "kind": "Content",
@@ -3000,7 +3000,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type WebSocketManagerOptions = "
+              "text": "type WebSocketManagerOptions = "
             },
             {
               "kind": "Reference",
@@ -3581,7 +3581,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type WebSocketShardEventsMap = "
+              "text": "type WebSocketShardEventsMap = "
             },
             {
               "kind": "Content",
@@ -4054,7 +4054,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type WorkerRecievePayload = "
+              "text": "type WorkerRecievePayload = "
             },
             {
               "kind": "Content",
@@ -4265,7 +4265,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare type WorkerSendPayload = "
+              "text": "type WorkerSendPayload = "
             },
             {
               "kind": "Content",
