@@ -11,7 +11,7 @@ export default async function handler(request: VercelRequest, response: VercelRe
 		response
 			.setHeader('Content-Type', 'application/json')
 			.setHeader('Cache-Control', 'public, max-age=604800, s-maxage=31536000')
-			.send(file.filter((f) => f.endsWith('.api.json')).map((v) => v.slice(0, -9)));
+			.send(file.filter((filename) => filename.endsWith('.api.json')).map((value) => value.slice(0, -9)));
 	} catch {
 		response.status(404).end();
 	}
