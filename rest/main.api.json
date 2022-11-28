@@ -3205,16 +3205,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function makeURLSearchParams(options?: "
-            },
-            {
-              "kind": "Reference",
-              "text": "Record",
-              "canonicalReference": "!Record:type"
+              "text": "declare function makeURLSearchParams<T extends "
             },
             {
               "kind": "Content",
-              "text": "<string, unknown>"
+              "text": "object"
+            },
+            {
+              "kind": "Content",
+              "text": ">(options?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Readonly",
+              "canonicalReference": "!Readonly:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<T>"
             },
             {
               "kind": "Content",
@@ -3232,8 +3240,8 @@
           ],
           "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
-            "startIndex": 4,
-            "endIndex": 5
+            "startIndex": 6,
+            "endIndex": 7
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3241,10 +3249,23 @@
             {
               "parameterName": "options",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
+                "startIndex": 3,
+                "endIndex": 5
               },
               "isOptional": true
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "T",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
             }
           ],
           "name": "makeURLSearchParams"
