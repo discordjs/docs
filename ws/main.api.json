@@ -459,6 +459,35 @@
           ]
         },
         {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/ws!getInitialSendRateLimitState:function(1)",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare function getInitialSendRateLimitState(): "
+            },
+            {
+              "kind": "Reference",
+              "text": "SendRateLimitState",
+              "canonicalReference": "@discordjs/ws!SendRateLimitState:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [],
+          "name": "getInitialSendRateLimitState"
+        },
+        {
           "kind": "Interface",
           "canonicalReference": "@discordjs/ws!IContextFetchingStrategy:interface",
           "docComment": "/**\n * Strategies responsible solely for making manager information accessible\n */\n",
@@ -1661,6 +1690,78 @@
               "isOptional": false,
               "releaseTag": "Public",
               "name": "token",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@discordjs/ws!SendRateLimitState:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "interface SendRateLimitState "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "SendRateLimitState",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/ws!SendRateLimitState#remaining:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "remaining: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "remaining",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/ws!SendRateLimitState#resetAt:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "resetAt: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "resetAt",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -3469,6 +3570,27 @@
           "members": [
             {
               "kind": "EnumMember",
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Closed:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Closed = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"closed\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Closed"
+            },
+            {
+              "kind": "EnumMember",
               "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Debug:member",
               "docComment": "",
               "excerptTokens": [
@@ -3589,6 +3711,15 @@
             },
             {
               "kind": "Reference",
+              "text": "WebSocketShardEvents.Closed",
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Closed:member"
+            },
+            {
+              "kind": "Content",
+              "text": "]: [{\n        code: number;\n    }];\n    ["
+            },
+            {
+              "kind": "Reference",
               "text": "WebSocketShardEvents.Debug",
               "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Debug:member"
             },
@@ -3660,7 +3791,7 @@
           "name": "WebSocketShardEventsMap",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 16
+            "endIndex": 18
           }
         },
         {
