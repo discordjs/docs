@@ -659,6 +659,39 @@
                 }
               ],
               "name": "updateSessionInfo"
+            },
+            {
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IContextFetchingStrategy#waitForIdentify:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "waitForIdentify(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<void>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [],
+              "name": "waitForIdentify"
             }
           ],
           "extendsTokenRanges": []
@@ -2232,6 +2265,41 @@
               ],
               "isOptional": false,
               "name": "updateSessionInfo"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/ws!SimpleContextFetchingStrategy#waitForIdentify:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "waitForIdentify(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<void>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "waitForIdentify"
             }
           ],
           "implementsTokenRanges": [
@@ -4110,6 +4178,41 @@
               ],
               "isOptional": false,
               "name": "updateSessionInfo"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/ws!WorkerContextFetchingStrategy#waitForIdentify:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "waitForIdentify(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<void>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "waitForIdentify"
             }
           ],
           "implementsTokenRanges": [
@@ -4216,7 +4319,16 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    op: "
+              "text": ";\n    shardId: number;\n} | {\n    nonce: number;\n    op: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WorkerRecievePayloadOp.WaitForIdentify",
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.WaitForIdentify:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -4264,7 +4376,7 @@
           "name": "WorkerRecievePayload",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 16
+            "endIndex": 18
           }
         },
         {
@@ -4386,6 +4498,27 @@
               },
               "releaseTag": "Public",
               "name": "UpdateSessionInfo"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.WaitForIdentify:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "WaitForIdentify = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "5"
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "WaitForIdentify"
             }
           ]
         },
@@ -4418,7 +4551,16 @@
             },
             {
               "kind": "Content",
-              "text": " | null;\n} | {\n    op: "
+              "text": " | null;\n} | {\n    nonce: number;\n    op: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WorkerSendPayloadOp.ShardCanIdentify",
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.ShardCanIdentify:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -4475,7 +4617,7 @@
           "name": "WorkerSendPayload",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 16
+            "endIndex": 18
           }
         },
         {
@@ -4576,6 +4718,27 @@
               },
               "releaseTag": "Public",
               "name": "SessionInfoResponse"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.ShardCanIdentify:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ShardCanIdentify = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "4"
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "ShardCanIdentify"
             }
           ]
         },
