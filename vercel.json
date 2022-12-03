@@ -1,10 +1,10 @@
 {
 	"functions": {
 		"api/index.ts": {
-			"includeFiles": "{brokers,builders,collection,core,discord.js,legacy,proxy,rest,util,voice,ws}/**"
+			"includeFiles": "{brokers,builders,collection,core,discord.js,formatters,legacy,proxy,rest,util,voice,ws}/**"
 		},
 		"api/info.ts": {
-			"includeFiles": "{brokers,builders,collection,core,discord.js,legacy,proxy,rest,util,voice,ws}/**"
+			"includeFiles": "{brokers,builders,collection,core,discord.js,formatters,legacy,proxy,rest,util,voice,ws}/**"
 		}
 	},
 	"trailingSlash": false,
