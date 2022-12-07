@@ -604,7 +604,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#bulkOverwriteGlobalCommands:member(1)",
-              "docComment": "/**\n * Overwrites global commands\n *\n * @param applicationId - The application id to overwrite commands for\n *\n * @param data - The data to use when overwriting commands\n */\n",
+              "docComment": "/**\n * Overwrites global commands\n *\n * @param applicationId - The application id to overwrite commands for\n *\n * @param data - The data to use when overwriting commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#bulk-overwrite-global-application-commands}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -683,7 +683,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#bulkOverwriteGuildCommands:member(1)",
-              "docComment": "/**\n * Bulk overwrites guild commands\n *\n * @param applicationId - The application id to overwrite commands for\n *\n * @param guildId - The guild id to overwrite commands for\n *\n * @param data - The data to use when overwriting commands\n */\n",
+              "docComment": "/**\n * Bulk overwrites guild commands\n *\n * @param applicationId - The application id to overwrite commands for\n *\n * @param guildId - The guild id to overwrite commands for\n *\n * @param data - The data to use when overwriting commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#bulk-overwrite-guild-application-commands}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -779,7 +779,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#createGlobalCommand:member(1)",
-              "docComment": "/**\n * Creates a new global command\n *\n * @param applicationId - The application id to create the command for\n *\n * @param data - The data to use when creating the command\n */\n",
+              "docComment": "/**\n * Creates a new global command\n *\n * @param applicationId - The application id to create the command for\n *\n * @param data - The data to use when creating the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#create-global-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -858,7 +858,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#createGuildCommand:member(1)",
-              "docComment": "/**\n * Creates a new command for a guild\n *\n * @param applicationId - The application id to create the command for\n *\n * @param guildId - The guild id to create the command for\n *\n * @param data - The data to use when creating the command\n */\n",
+              "docComment": "/**\n * Creates a new command for a guild\n *\n * @param applicationId - The application id to create the command for\n *\n * @param guildId - The guild id to create the command for\n *\n * @param data - The data to use when creating the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#create-guild-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -954,7 +954,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#deleteGlobalCommand:member(1)",
-              "docComment": "/**\n * Deletes a global command\n *\n * @param applicationId - The application id of the command\n *\n * @param commandId - The id of the command to delete\n */\n",
+              "docComment": "/**\n * Deletes a global command\n *\n * @param applicationId - The application id of the command\n *\n * @param commandId - The id of the command to delete\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#delete-global-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1024,7 +1024,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#deleteGuildCommand:member(1)",
-              "docComment": "/**\n * Deletes a guild command\n *\n * @param applicationId - The application id of the command\n *\n * @param guildId - The guild id of the command\n *\n * @param commandId - The id of the command to delete\n */\n",
+              "docComment": "/**\n * Deletes a guild command\n *\n * @param applicationId - The application id of the command\n *\n * @param guildId - The guild id of the command\n *\n * @param commandId - The id of the command to delete\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#delete-guild-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1111,7 +1111,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#editGlobalCommand:member(1)",
-              "docComment": "/**\n * Edits a global command\n *\n * @param applicationId - The application id of the command\n *\n * @param commandId - The id of the command to edit\n *\n * @param data - The data to use when editing the command\n */\n",
+              "docComment": "/**\n * Edits a global command\n *\n * @param applicationId - The application id of the command\n *\n * @param commandId - The id of the command to edit\n *\n * @param data - The data to use when editing the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-global-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1207,7 +1207,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#editGuildCommand:member(1)",
-              "docComment": "/**\n * Edits a guild command\n *\n * @param applicationId - The application id of the command\n *\n * @param guildId - The guild id of the command\n *\n * @param commandId - The command id to edit\n *\n * @param data - The data to use when editing the command\n */\n",
+              "docComment": "/**\n * Edits a guild command\n *\n * @param applicationId - The application id of the command\n *\n * @param guildId - The guild id of the command\n *\n * @param commandId - The command id to edit\n *\n * @param data - The data to use when editing the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-guild-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1320,7 +1320,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#editGuildCommandPermissions:member(1)",
-              "docComment": "/**\n * Edits the permissions for a guild command\n *\n * @param userToken - The token of the user to edit permissions on behalf of\n *\n * @param applicationId - The application id to edit the permissions for\n *\n * @param guildId - The guild id to edit the permissions for\n *\n * @param commandId - The id of the command to edit the permissions for\n *\n * @param data - The data to use when editing the permissions\n */\n",
+              "docComment": "/**\n * Edits the permissions for a guild command\n *\n * @param userToken - The token of the user to edit permissions on behalf of\n *\n * @param applicationId - The application id to edit the permissions for\n *\n * @param guildId - The guild id to edit the permissions for\n *\n * @param commandId - The id of the command to edit the permissions for\n *\n * @param data - The data to use when editing the permissions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-application-command-permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1449,7 +1449,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGlobalCommand:member(1)",
-              "docComment": "/**\n * Fetches a global command\n *\n * @param applicationId - The application id to fetch the command from\n *\n * @param commandId - The command id to fetch\n */\n",
+              "docComment": "/**\n * Fetches a global command\n *\n * @param applicationId - The application id to fetch the command from\n *\n * @param commandId - The command id to fetch\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-global-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1528,7 +1528,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGlobalCommands:member(1)",
-              "docComment": "/**\n * Fetches all global commands for a application\n *\n * @param applicationId - The application id to fetch commands for\n *\n * @param options - The options to use when fetching commands\n */\n",
+              "docComment": "/**\n * Fetches all global commands for a application\n *\n * @param applicationId - The application id to fetch commands for\n *\n * @param options - The options to use when fetching commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-global-application-commands}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1607,7 +1607,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGuildCommand:member(1)",
-              "docComment": "/**\n * Fetches a guild command\n *\n * @param applicationId - The application id to fetch the command from\n *\n * @param guildId - The guild id to fetch the command from\n *\n * @param commandId - The command id to fetch\n */\n",
+              "docComment": "/**\n * Fetches a guild command\n *\n * @param applicationId - The application id to fetch the command from\n *\n * @param guildId - The guild id to fetch the command from\n *\n * @param commandId - The command id to fetch\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-guild-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1703,7 +1703,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGuildCommandPermissions:member(1)",
-              "docComment": "/**\n * Fetches the permissions for a guild command\n *\n * @param applicationId - The application id to get the permissions for\n *\n * @param guildId - The guild id of the command\n *\n * @param commandId - The command id to get the permissions for\n */\n",
+              "docComment": "/**\n * Fetches the permissions for a guild command\n *\n * @param applicationId - The application id to get the permissions for\n *\n * @param guildId - The guild id of the command\n *\n * @param commandId - The command id to get the permissions for\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-guild-application-command-permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1799,7 +1799,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGuildCommands:member(1)",
-              "docComment": "/**\n * Fetches all commands for a guild\n *\n * @param applicationId - The application id to fetch commands for\n *\n * @param guildId - The guild id to fetch commands for\n *\n * @param data - The data to use when fetching commands\n */\n",
+              "docComment": "/**\n * Fetches all commands for a guild\n *\n * @param applicationId - The application id to fetch commands for\n *\n * @param guildId - The guild id to fetch commands for\n *\n * @param data - The data to use when fetching commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-guild-application-commands}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1895,7 +1895,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGuildCommandsPermissions:member(1)",
-              "docComment": "/**\n * Fetches all permissions for all commands in a guild\n *\n * @param applicationId - The application id to get the permissions for\n *\n * @param guildId - The guild id to get the permissions for\n */\n",
+              "docComment": "/**\n * Fetches all permissions for all commands in a guild\n *\n * @param applicationId - The application id to get the permissions for\n *\n * @param guildId - The guild id to get the permissions for\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-application-command-permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2025,7 +2025,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#addMessageReaction:member(1)",
-              "docComment": "/**\n * Adds a reaction to a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to add the reaction to\n *\n * @param emoji - The emoji to add the reaction with\n */\n",
+              "docComment": "/**\n * Adds a reaction to a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to add the reaction to\n *\n * @param emoji - The emoji to add the reaction with\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#create-reaction}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2111,7 +2111,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#bulkDeleteMessages:member(1)",
-              "docComment": "/**\n * Bulk deletes messages\n *\n * @param channelId - The id of the channel the messages are in\n *\n * @param messageIds - The ids of the messages to delete\n */\n",
+              "docComment": "/**\n * Bulk deletes messages\n *\n * @param channelId - The id of the channel the messages are in\n *\n * @param messageIds - The ids of the messages to delete\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#bulk-delete-messages}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2201,7 +2201,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#createInvite:member(1)",
-              "docComment": "/**\n * Creates a new invite for a channel\n *\n * @param channelId - The id of the channel to create an invite for\n *\n * @param data - The data to use when creating the invite\n */\n",
+              "docComment": "/**\n * Creates a new invite for a channel\n *\n * @param channelId - The id of the channel to create an invite for\n *\n * @param data - The data to use when creating the invite\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#create-channel-invite}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2296,7 +2296,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#createMessage:member(1)",
-              "docComment": "/**\n * Sends a message in a channel\n *\n * @param channelId - The id of the channel to send the message in\n *\n * @param data - The data to use when sending the message\n */\n",
+              "docComment": "/**\n * Sends a message in a channel\n *\n * @param channelId - The id of the channel to send the message in\n *\n * @param data - The data to use when sending the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#create-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2388,7 +2388,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#crosspostMessage:member(1)",
-              "docComment": "/**\n * Crossposts a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to crosspost\n */\n",
+              "docComment": "/**\n * Crossposts a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to crosspost\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#crosspost-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2467,7 +2467,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#delete:member(1)",
-              "docComment": "/**\n * Deletes a channel\n *\n * @param channelId - The id of the channel to delete\n */\n",
+              "docComment": "/**\n * Deletes a channel\n *\n * @param channelId - The id of the channel to delete\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#deleteclose-channel}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2529,7 +2529,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#deleteAllMessageReactions:member(1)",
-              "docComment": "/**\n * Deletes all reactions for a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete the reactions for\n */\n",
+              "docComment": "/**\n * Deletes all reactions for a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete the reactions for\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#delete-all-reactions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2599,7 +2599,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#deleteAllMessageReactionsForEmoji:member(1)",
-              "docComment": "/**\n * Deletes all reactions of an emoji for a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete the reactions for\n *\n * @param emoji - The emoji to delete the reactions for\n */\n",
+              "docComment": "/**\n * Deletes all reactions of an emoji for a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete the reactions for\n *\n * @param emoji - The emoji to delete the reactions for\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#delete-all-reactions-for-emoji}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2685,7 +2685,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#deleteMessage:member(1)",
-              "docComment": "/**\n * Deletes a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete\n *\n * @param reason - The reason for deleting the message\n */\n",
+              "docComment": "/**\n * Deletes a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete\n *\n * @param reason - The reason for deleting the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#delete-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2771,7 +2771,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#deleteOwnMessageReaction:member(1)",
-              "docComment": "/**\n * Deletes a reaction for the current user\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete the reaction for\n *\n * @param emoji - The emoji to delete the reaction for\n */\n",
+              "docComment": "/**\n * Deletes a reaction for the current user\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete the reaction for\n *\n * @param emoji - The emoji to delete the reaction for\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#delete-own-reaction}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2857,7 +2857,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#deleteUserMessageReaction:member(1)",
-              "docComment": "/**\n * Deletes a reaction for a user\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete the reaction for\n *\n * @param emoji - The emoji to delete the reaction for\n *\n * @param userId - The id of the user to delete the reaction for\n */\n",
+              "docComment": "/**\n * Deletes a reaction for a user\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to delete the reaction for\n *\n * @param emoji - The emoji to delete the reaction for\n *\n * @param userId - The id of the user to delete the reaction for\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#delete-user-reaction}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2960,7 +2960,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#edit:member(1)",
-              "docComment": "/**\n * Edits a channel\n *\n * @param channelId - The id of the channel to edit\n *\n * @param data - The new channel data\n */\n",
+              "docComment": "/**\n * Edits a channel\n *\n * @param channelId - The id of the channel to edit\n *\n * @param data - The new channel data\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#modify-channel}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3039,7 +3039,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#editMessage:member(1)",
-              "docComment": "/**\n * Edits a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to edit\n *\n * @param data - The data to use when editing the message\n */\n",
+              "docComment": "/**\n * Edits a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to edit\n *\n * @param data - The data to use when editing the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#edit-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3148,7 +3148,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#followAnnouncements:member(1)",
-              "docComment": "/**\n * Follows an announcement channel\n *\n * @param channelId - The id of the announcement channel to follow\n *\n * @param webhookChannelId - The id of the webhook channel to follow the announcements in\n */\n",
+              "docComment": "/**\n * Follows an announcement channel\n *\n * @param channelId - The id of the announcement channel to follow\n *\n * @param webhookChannelId - The id of the webhook channel to follow the announcements in\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#follow-announcement-channel}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3227,7 +3227,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a channel\n *\n * @param channelId - The id of the channel\n */\n",
+              "docComment": "/**\n * Fetches a channel\n *\n * @param channelId - The id of the channel\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-channel}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3289,7 +3289,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getArchivedThreads:member(1)",
-              "docComment": "/**\n * Fetches the archived threads of a channel\n *\n * @param channelId - The id of the channel to fetch archived threads from\n *\n * @param archivedStatus - The archived status of the threads to fetch\n *\n * @param options - The options to use when fetching archived threads\n */\n",
+              "docComment": "/**\n * Fetches the archived threads of a channel\n *\n * @param channelId - The id of the channel to fetch archived threads from\n *\n * @param archivedStatus - The archived status of the threads to fetch\n *\n * @param options - The options to use when fetching archived threads\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-public-archived-threads}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-private-archived-threads}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3384,7 +3384,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getInvites:member(1)",
-              "docComment": "/**\n * Fetches the invites of a channel\n *\n * @param channelId - The id of the channel to fetch invites from\n */\n",
+              "docComment": "/**\n * Fetches the invites of a channel\n *\n * @param channelId - The id of the channel to fetch invites from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-channel-invites}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3446,7 +3446,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getJoinedPrivateArchivedThreads:member(1)",
-              "docComment": "/**\n * Fetches the private joined archived threads of a channel\n *\n * @param channelId - The id of the channel to fetch joined archived threads from\n *\n * @param options - The options to use when fetching joined archived threads\n */\n",
+              "docComment": "/**\n * Fetches the private joined archived threads of a channel\n *\n * @param channelId - The id of the channel to fetch joined archived threads from\n *\n * @param options - The options to use when fetching joined archived threads\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-joined-private-archived-threads}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3525,7 +3525,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getMessage:member(1)",
-              "docComment": "/**\n * Fetches a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to fetch\n */\n",
+              "docComment": "/**\n * Fetches a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to fetch\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-channel-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3604,7 +3604,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getMessageReactions:member(1)",
-              "docComment": "/**\n * Fetches the reactions for a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to get the reactions for\n *\n * @param emoji - The emoji to get the reactions for\n *\n * @param options - The options to use when fetching the reactions\n */\n",
+              "docComment": "/**\n * Fetches the reactions for a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to get the reactions for\n *\n * @param emoji - The emoji to get the reactions for\n *\n * @param options - The options to use when fetching the reactions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-reactions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3716,7 +3716,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getMessages:member(1)",
-              "docComment": "/**\n * Fetches the messages of a channel\n *\n * @param channelId - The id of the channel to fetch messages from\n *\n * @param options - The options to use when fetching messages\n */\n",
+              "docComment": "/**\n * Fetches the messages of a channel\n *\n * @param channelId - The id of the channel to fetch messages from\n *\n * @param options - The options to use when fetching messages\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-channel-messages}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3795,7 +3795,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getPins:member(1)",
-              "docComment": "/**\n * Fetches the pinned messages of a channel\n *\n * @param channelId - The id of the channel to fetch pinned messages from\n */\n",
+              "docComment": "/**\n * Fetches the pinned messages of a channel\n *\n * @param channelId - The id of the channel to fetch pinned messages from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-pinned-messages}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3857,7 +3857,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#pinMessage:member(1)",
-              "docComment": "/**\n * Pins a message in a channel\n *\n * @param channelId - The id of the channel to pin the message in\n *\n * @param messageId - The id of the message to pin\n *\n * @param reason - The reason for pinning the message\n */\n",
+              "docComment": "/**\n * Pins a message in a channel\n *\n * @param channelId - The id of the channel to pin the message in\n *\n * @param messageId - The id of the message to pin\n *\n * @param reason - The reason for pinning the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#pin-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3943,7 +3943,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#showTyping:member(1)",
-              "docComment": "/**\n * Shows a typing indicator in a channel\n *\n * @param channelId - The id of the channel to show the typing indicator in\n */\n",
+              "docComment": "/**\n * Shows a typing indicator in a channel\n *\n * @param channelId - The id of the channel to show the typing indicator in\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#trigger-typing-indicator}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3996,7 +3996,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#unpinMessage:member(1)",
-              "docComment": "/**\n * Unpins a message in a channel\n *\n * @param channelId - The id of the channel to unpin the message in\n *\n * @param messageId - The id of the message to unpin\n *\n * @param reason - The reason for unpinning the message\n */\n",
+              "docComment": "/**\n * Unpins a message in a channel\n *\n * @param channelId - The id of the channel to unpin the message in\n *\n * @param messageId - The id of the message to unpin\n *\n * @param reason - The reason for unpinning the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#unpin-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4326,7 +4326,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#addRoleToMember:member(1)",
-              "docComment": "/**\n * Adds a role to a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param roleId - The id of the role\n *\n * @param reason - The reason for adding this role to the guild member\n */\n",
+              "docComment": "/**\n * Adds a role to a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param roleId - The id of the role\n *\n * @param reason - The reason for adding this role to the guild member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#add-guild-member-role}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4429,7 +4429,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#banUser:member(1)",
-              "docComment": "/**\n * Bans a user from a guild\n *\n * @param guildId - The id of the guild to ban the member in\n *\n * @param userId - The id of the user to ban\n *\n * @param options - Options for banning the user\n *\n * @param reason - The reason for banning the user\n */\n",
+              "docComment": "/**\n * Bans a user from a guild\n *\n * @param guildId - The id of the guild to ban the member in\n *\n * @param userId - The id of the user to ban\n *\n * @param options - Options for banning the user\n *\n * @param reason - The reason for banning the user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#create-guild-ban}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4532,7 +4532,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#beginPrune:member(1)",
-              "docComment": "/**\n * Prunes members in a guild\n *\n * @param guildId - The id of the guild to prune members in\n *\n * @param options - The options for pruning members\n *\n * @param reason - The reason for pruning members\n */\n",
+              "docComment": "/**\n * Prunes members in a guild\n *\n * @param guildId - The id of the guild to prune members in\n *\n * @param options - The options for pruning members\n *\n * @param reason - The reason for pruning members\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#begin-guild-prune}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4627,7 +4627,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#create:member(1)",
-              "docComment": "/**\n * Creates a guild\n *\n * @param data - The guild to create\n */\n",
+              "docComment": "/**\n * Creates a guild\n *\n * @param data - The guild to create\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#create-guild}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4689,7 +4689,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#createAutoModerationRule:member(1)",
-              "docComment": "/**\n * Creates a new auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to create the auto moderation rule from\n *\n * @param data - The data for creating the auto moderation rule\n */\n",
+              "docComment": "/**\n * Creates a new auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to create the auto moderation rule from\n *\n * @param data - The data for creating the auto moderation rule\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/auto-moderation#create-auto-moderation-rule}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4784,7 +4784,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#createChannel:member(1)",
-              "docComment": "/**\n * Creates a guild channel\n *\n * @param guildId - The id of the guild to create the channel in\n *\n * @param data - The data to create the new channel\n *\n * @param reason - The reason for creating this channel\n */\n",
+              "docComment": "/**\n * Creates a guild channel\n *\n * @param guildId - The id of the guild to create the channel in\n *\n * @param data - The data to create the new channel\n *\n * @param reason - The reason for creating this channel\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#create-guild-channel}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4879,7 +4879,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#createEmoji:member(1)",
-              "docComment": "/**\n * Creates a new emoji for a guild\n *\n * @param guildId - The id of the guild to create the emoji from\n *\n * @param data - The data for creating the emoji\n *\n * @param reason - The reason for creating the emoji\n */\n",
+              "docComment": "/**\n * Creates a new emoji for a guild\n *\n * @param guildId - The id of the guild to create the emoji from\n *\n * @param data - The data for creating the emoji\n *\n * @param reason - The reason for creating the emoji\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/emoji#create-guild-emoji}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4974,7 +4974,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#createRole:member(1)",
-              "docComment": "/**\n * Creates a guild role\n *\n * @param guildId - The id of the guild to create the role in\n *\n * @param data - The data to create the role with\n *\n * @param reason - The reason for creating the role\n */\n",
+              "docComment": "/**\n * Creates a guild role\n *\n * @param guildId - The id of the guild to create the role in\n *\n * @param data - The data to create the role with\n *\n * @param reason - The reason for creating the role\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#create-guild-role}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5069,7 +5069,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#createScheduledEvent:member(1)",
-              "docComment": "/**\n * Creates a new scheduled event for a guild\n *\n * @param guildId - The id of the guild to create the scheduled event from\n *\n * @param data - The data to create the event with\n *\n * @param reason - The reason for creating the scheduled event\n */\n",
+              "docComment": "/**\n * Creates a new scheduled event for a guild\n *\n * @param guildId - The id of the guild to create the scheduled event from\n *\n * @param data - The data to create the event with\n *\n * @param reason - The reason for creating the scheduled event\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-scheduled-event#create-guild-scheduled-event}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5164,7 +5164,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#createSticker:member(1)",
-              "docComment": "/**\n * Creates a sticker for a guild\n *\n * @param guildId - The id of the guild to create the sticker for\n *\n * @param data - The data for creating the sticker\n *\n * @param reason - The reason for creating the sticker\n */\n",
+              "docComment": "/**\n * Creates a sticker for a guild\n *\n * @param guildId - The id of the guild to create the sticker for\n *\n * @param data - The data for creating the sticker\n *\n * @param reason - The reason for creating the sticker\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#create-guild-sticker}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5281,7 +5281,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#createTemplate:member(1)",
-              "docComment": "/**\n * Creates a new template\n *\n * @param templateCode - The code of the template\n *\n * @param data - The data to use when creating the template\n */\n",
+              "docComment": "/**\n * Creates a new template\n *\n * @param templateCode - The code of the template\n *\n * @param data - The data to use when creating the template\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#create-guild-template}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5359,7 +5359,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#delete:member(1)",
-              "docComment": "/**\n * Deletes a guild\n *\n * @param guildId - The id of the guild to delete\n *\n * @param reason - The reason for deleting this guild\n */\n",
+              "docComment": "/**\n * Deletes a guild\n *\n * @param guildId - The id of the guild to delete\n *\n * @param reason - The reason for deleting this guild\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#delete-guild}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5428,7 +5428,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#deleteAutoModerationRule:member(1)",
-              "docComment": "/**\n * Deletes an auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to delete the auto moderation rule from\n *\n * @param ruleId - The id of the auto moderation rule to delete\n *\n * @param reason - The reason for deleting the auto moderation rule\n */\n",
+              "docComment": "/**\n * Deletes an auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to delete the auto moderation rule from\n *\n * @param ruleId - The id of the auto moderation rule to delete\n *\n * @param reason - The reason for deleting the auto moderation rule\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/auto-moderation#delete-auto-moderation-rule}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5514,7 +5514,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#deleteEmoji:member(1)",
-              "docComment": "/**\n * Deletes an emoji for a guild\n *\n * @param guildId - The id of the guild to delete the emoji from\n *\n * @param emojiId - The id of the emoji to delete\n *\n * @param reason - The reason for deleting the emoji\n */\n",
+              "docComment": "/**\n * Deletes an emoji for a guild\n *\n * @param guildId - The id of the guild to delete the emoji from\n *\n * @param emojiId - The id of the emoji to delete\n *\n * @param reason - The reason for deleting the emoji\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/emoji#delete-guild-emoji}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5600,7 +5600,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#deleteIntegration:member(1)",
-              "docComment": "/**\n * Deletes an integration from a guild\n *\n * @param guildId - The id of the guild to delete the integration from\n *\n * @param integrationId - The id of the integration to delete\n *\n * @param reason - The reason for deleting the integration\n */\n",
+              "docComment": "/**\n * Deletes an integration from a guild\n *\n * @param guildId - The id of the guild to delete the integration from\n *\n * @param integrationId - The id of the integration to delete\n *\n * @param reason - The reason for deleting the integration\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#delete-guild-integration}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5686,7 +5686,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#deleteRole:member(1)",
-              "docComment": "/**\n * Deletes a guild role\n *\n * @param guildId - The id of the guild to delete the role in\n *\n * @param roleId - The id of the role to delete\n *\n * @param reason - The reason for deleting the role\n */\n",
+              "docComment": "/**\n * Deletes a guild role\n *\n * @param guildId - The id of the guild to delete the role in\n *\n * @param roleId - The id of the role to delete\n *\n * @param reason - The reason for deleting the role\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#delete-guild-role}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5772,7 +5772,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#deleteScheduledEvent:member(1)",
-              "docComment": "/**\n * Deletes a scheduled event for a guild\n *\n * @param guildId - The id of the guild to delete the scheduled event from\n *\n * @param eventId - The id of the scheduled event to delete\n *\n * @param reason - The reason for deleting the scheduled event\n */\n",
+              "docComment": "/**\n * Deletes a scheduled event for a guild\n *\n * @param guildId - The id of the guild to delete the scheduled event from\n *\n * @param eventId - The id of the scheduled event to delete\n *\n * @param reason - The reason for deleting the scheduled event\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-scheduled-event#delete-guild-scheduled-event}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5858,7 +5858,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#deleteSticker:member(1)",
-              "docComment": "/**\n * Deletes a sticker for a guild\n *\n * @param guildId - The id of the guild to delete the sticker from\n *\n * @param stickerId - The id of the sticker to delete\n *\n * @param reason - The reason for deleting the sticker\n */\n",
+              "docComment": "/**\n * Deletes a sticker for a guild\n *\n * @param guildId - The id of the guild to delete the sticker from\n *\n * @param stickerId - The id of the sticker to delete\n *\n * @param reason - The reason for deleting the sticker\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#delete-guild-sticker}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5944,7 +5944,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#deleteTemplate:member(1)",
-              "docComment": "/**\n * Deletes a template for a guild\n *\n * @param guildId - The id of the guild to delete the template from\n *\n * @param templateCode - The code of the template to delete\n */\n",
+              "docComment": "/**\n * Deletes a template for a guild\n *\n * @param guildId - The id of the guild to delete the template from\n *\n * @param templateCode - The code of the template to delete\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#delete-guild-template}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6013,7 +6013,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#edit:member(1)",
-              "docComment": "/**\n * Edits a guild\n *\n * @param guildId - The id of the guild to edit\n *\n * @param data - The new guild data\n *\n * @param reason - The reason for editing this guild\n */\n",
+              "docComment": "/**\n * Edits a guild\n *\n * @param guildId - The id of the guild to edit\n *\n * @param data - The new guild data\n *\n * @param reason - The reason for editing this guild\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6108,7 +6108,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editAutoModerationRule:member(1)",
-              "docComment": "/**\n * Edits an auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to edit the auto moderation rule from\n *\n * @param ruleId - The id of the auto moderation rule to edit\n *\n * @param data - The data for editing the auto moderation rule\n *\n * @param reason - The reason for editing the auto moderation rule\n */\n",
+              "docComment": "/**\n * Edits an auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to edit the auto moderation rule from\n *\n * @param ruleId - The id of the auto moderation rule to edit\n *\n * @param data - The data for editing the auto moderation rule\n *\n * @param reason - The reason for editing the auto moderation rule\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/auto-moderation#modify-auto-moderation-rule}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6220,7 +6220,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editEmoji:member(1)",
-              "docComment": "/**\n * Edits an emoji for a guild\n *\n * @param guildId - The id of the guild to edit the emoji from\n *\n * @param emojiId - The id of the emoji to edit\n *\n * @param data - The data for editing the emoji\n *\n * @param reason - The reason for editing the emoji\n */\n",
+              "docComment": "/**\n * Edits an emoji for a guild\n *\n * @param guildId - The id of the guild to edit the emoji from\n *\n * @param emojiId - The id of the emoji to edit\n *\n * @param data - The data for editing the emoji\n *\n * @param reason - The reason for editing the emoji\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/emoji#modify-guild-emoji}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6332,7 +6332,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editMember:member(1)",
-              "docComment": "/**\n * Edits a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param data - The data to use when editing the guild member\n *\n * @param reason - The reason for editing this guild member\n */\n",
+              "docComment": "/**\n * Edits a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param data - The data to use when editing the guild member\n *\n * @param reason - The reason for editing this guild member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6444,7 +6444,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editMFALevel:member(1)",
-              "docComment": "/**\n * Edits the multi-factor-authentication (MFA) level of a guild\n *\n * @param guildId - The id of the guild to edit the MFA level for\n *\n * @param level - The new MFA level\n *\n * @param reason - The reason for editing the MFA level\n */\n",
+              "docComment": "/**\n * Edits the multi-factor-authentication (MFA) level of a guild\n *\n * @param guildId - The id of the guild to edit the MFA level for\n *\n * @param level - The new MFA level\n *\n * @param reason - The reason for editing the MFA level\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-mfa-level}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6539,7 +6539,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editRole:member(1)",
-              "docComment": "/**\n * Edits a guild role\n *\n * @param guildId - The id of the guild to edit the role in\n *\n * @param roleId - The id of the role to edit\n *\n * @param data - data for editing the role\n *\n * @param reason - The reason for editing the role\n */\n",
+              "docComment": "/**\n * Edits a guild role\n *\n * @param guildId - The id of the guild to edit the role in\n *\n * @param roleId - The id of the role to edit\n *\n * @param data - data for editing the role\n *\n * @param reason - The reason for editing the role\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-role}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6651,7 +6651,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editScheduledEvent:member(1)",
-              "docComment": "/**\n * Edits a scheduled event for a guild\n *\n * @param guildId - The id of the guild to edit the scheduled event from\n *\n * @param eventId - The id of the scheduled event to edit\n *\n * @param data - The new event data\n *\n * @param reason - The reason for editing the scheduled event\n */\n",
+              "docComment": "/**\n * Edits a scheduled event for a guild\n *\n * @param guildId - The id of the guild to edit the scheduled event from\n *\n * @param eventId - The id of the scheduled event to edit\n *\n * @param data - The new event data\n *\n * @param reason - The reason for editing the scheduled event\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-scheduled-event#modify-guild-scheduled-event}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6763,7 +6763,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editSticker:member(1)",
-              "docComment": "/**\n * Edits a sticker for a guild\n *\n * @param guildId - The id of the guild to edit the sticker from\n *\n * @param stickerId - The id of the sticker to edit\n *\n * @param data - The data for editing the sticker\n *\n * @param reason - The reason for editing the sticker\n */\n",
+              "docComment": "/**\n * Edits a sticker for a guild\n *\n * @param guildId - The id of the guild to edit the sticker from\n *\n * @param stickerId - The id of the sticker to edit\n *\n * @param data - The data for editing the sticker\n *\n * @param reason - The reason for editing the sticker\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#modify-guild-sticker}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6875,7 +6875,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editTemplate:member(1)",
-              "docComment": "/**\n * Edits a template for a guild\n *\n * @param guildId - The id of the guild to edit the template from\n *\n * @param templateCode - The code of the template to edit\n *\n * @param data - The data for editing the template\n */\n",
+              "docComment": "/**\n * Edits a template for a guild\n *\n * @param guildId - The id of the guild to edit the template from\n *\n * @param templateCode - The code of the template to edit\n *\n * @param data - The data for editing the template\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#modify-guild-template}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6970,7 +6970,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editUserVoiceState:member(1)",
-              "docComment": "/**\n * Edits a user's voice state in a guild\n *\n * @param guildId - The id of the guild to edit the current user's voice state in\n *\n * @param userId - The id of the user to edit the voice state for\n *\n * @param data - The data for editing the voice state\n *\n * @param reason - The reason for editing the voice state\n */\n",
+              "docComment": "/**\n * Edits a user's voice state in a guild\n *\n * @param guildId - The id of the guild to edit the current user's voice state in\n *\n * @param userId - The id of the user to edit the voice state for\n *\n * @param data - The data for editing the voice state\n *\n * @param reason - The reason for editing the voice state\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-user-voice-state}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7073,7 +7073,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editWelcomeScreen:member(1)",
-              "docComment": "/**\n * Edits the welcome screen for a guild\n *\n * @param guildId - The id of the guild to edit the welcome screen for\n *\n * @param data - The new welcome screen data\n *\n * @param reason - The reason for editing the welcome screen\n */\n",
+              "docComment": "/**\n * Edits the welcome screen for a guild\n *\n * @param guildId - The id of the guild to edit the welcome screen for\n *\n * @param data - The new welcome screen data\n *\n * @param reason - The reason for editing the welcome screen\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-welcome-screen}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7168,7 +7168,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editWidgetSettings:member(1)",
-              "docComment": "/**\n * Edits the widget settings for a guild\n *\n * @param guildId - The id of the guild to edit the widget settings from\n *\n * @param data - The new widget settings data\n *\n * @param reason - The reason for editing the widget settings\n */\n",
+              "docComment": "/**\n * Edits the widget settings for a guild\n *\n * @param guildId - The id of the guild to edit the widget settings from\n *\n * @param data - The new widget settings data\n *\n * @param reason - The reason for editing the widget settings\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-widget}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7263,7 +7263,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a guild\n *\n * @param guildId - The id of the guild\n */\n",
+              "docComment": "/**\n * Fetches a guild\n *\n * @param guildId - The id of the guild\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7324,7 +7324,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getActiveThreads:member(1)",
-              "docComment": "/**\n * Fetches the active threads in a guild\n *\n * @param guildId - The id of the guild to fetch the active threads from\n */\n",
+              "docComment": "/**\n * Fetches the active threads in a guild\n *\n * @param guildId - The id of the guild to fetch the active threads from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#list-active-guild-threads}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7386,7 +7386,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getAuditLogs:member(1)",
-              "docComment": "/**\n * Fetches the audit logs for a guild\n *\n * @param guildId - The id of the guild to fetch the audit logs from\n *\n * @param options - The options for fetching the audit logs\n */\n",
+              "docComment": "/**\n * Fetches the audit logs for a guild\n *\n * @param guildId - The id of the guild to fetch the audit logs from\n *\n * @param options - The options for fetching the audit logs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/audit-log#get-guild-audit-log}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7465,7 +7465,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getAutoModerationRule:member(1)",
-              "docComment": "/**\n * Fetches an auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to fetch the auto moderation rule from\n *\n * @param ruleId - The id of the auto moderation rule to fetch\n */\n",
+              "docComment": "/**\n * Fetches an auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to fetch the auto moderation rule from\n *\n * @param ruleId - The id of the auto moderation rule to fetch\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/auto-moderation#get-auto-moderation-rule}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7544,7 +7544,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getAutoModerationRules:member(1)",
-              "docComment": "/**\n * Fetches all auto moderation rules for a guild\n *\n * @param guildId - The id of the guild to fetch the auto moderation rules from\n */\n",
+              "docComment": "/**\n * Fetches all auto moderation rules for a guild\n *\n * @param guildId - The id of the guild to fetch the auto moderation rules from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/auto-moderation#list-auto-moderation-rules-for-guild}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7606,7 +7606,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getChannels:member(1)",
-              "docComment": "/**\n * Fetches a guild's channels\n *\n * @param guildId - The id of the guild to fetch the channels from\n */\n",
+              "docComment": "/**\n * Fetches a guild's channels\n *\n * @param guildId - The id of the guild to fetch the channels from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-channels}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7668,7 +7668,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getEmoji:member(1)",
-              "docComment": "/**\n * Fetches an emoji for a guild\n *\n * @param guildId - The id of the guild to fetch the emoji from\n *\n * @param emojiId - The id of the emoji to fetch\n */\n",
+              "docComment": "/**\n * Fetches an emoji for a guild\n *\n * @param guildId - The id of the guild to fetch the emoji from\n *\n * @param emojiId - The id of the emoji to fetch\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/emoji#get-guild-emoji}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7747,7 +7747,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getEmojis:member(1)",
-              "docComment": "/**\n * Fetches all emojis for a guild\n *\n * @param guildId - The id of the guild to fetch the emojis from\n */\n",
+              "docComment": "/**\n * Fetches all emojis for a guild\n *\n * @param guildId - The id of the guild to fetch the emojis from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/emoji#list-guild-emojis}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7809,7 +7809,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getIntegrations:member(1)",
-              "docComment": "/**\n * Fetches the integrations for a guild\n *\n * @param guildId - The id of the guild to fetch the integrations from\n */\n",
+              "docComment": "/**\n * Fetches the integrations for a guild\n *\n * @param guildId - The id of the guild to fetch the integrations from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-integrations}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7871,7 +7871,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getInvites:member(1)",
-              "docComment": "/**\n * Fetches the invites for a guild\n *\n * @param guildId - The id of the guild to fetch the invites from\n */\n",
+              "docComment": "/**\n * Fetches the invites for a guild\n *\n * @param guildId - The id of the guild to fetch the invites from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-invites}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7933,7 +7933,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getMember:member(1)",
-              "docComment": "/**\n * Fetches a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n */\n",
+              "docComment": "/**\n * Fetches a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8012,7 +8012,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getMemberBans:member(1)",
-              "docComment": "/**\n * Fetches a guild member ban\n *\n * @param guildId - The id of the guild to fetch the ban from\n */\n",
+              "docComment": "/**\n * Fetches a guild member ban\n *\n * @param guildId - The id of the guild to fetch the ban from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-bans}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8074,7 +8074,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getMembers:member(1)",
-              "docComment": "/**\n * Fetches all the members of a guild\n *\n * @param guildId - The id of the guild\n *\n * @param options - The options to use when fetching the guild members\n */\n",
+              "docComment": "/**\n * Fetches all the members of a guild\n *\n * @param guildId - The id of the guild\n *\n * @param options - The options to use when fetching the guild members\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#list-guild-members}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8153,7 +8153,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getPreview:member(1)",
-              "docComment": "/**\n * Fetches a guild preview\n *\n * @param guildId - The id of the guild to fetch the preview from\n */\n",
+              "docComment": "/**\n * Fetches a guild preview\n *\n * @param guildId - The id of the guild to fetch the preview from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-preview}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8215,7 +8215,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getPruneCount:member(1)",
-              "docComment": "/**\n * Fetch the number of members that can be pruned from a guild\n *\n * @param guildId - The id of the guild to fetch the number of pruned members from\n *\n * @param options - The options for fetching the number of pruned members\n */\n",
+              "docComment": "/**\n * Fetch the number of members that can be pruned from a guild\n *\n * @param guildId - The id of the guild to fetch the number of pruned members from\n *\n * @param options - The options for fetching the number of pruned members\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-prune-count}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8294,7 +8294,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getRoles:member(1)",
-              "docComment": "/**\n * Gets all the roles in a guild\n *\n * @param guildId - The id of the guild to fetch the roles from\n */\n",
+              "docComment": "/**\n * Gets all the roles in a guild\n *\n * @param guildId - The id of the guild to fetch the roles from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-roles}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8356,7 +8356,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getScheduledEvent:member(1)",
-              "docComment": "/**\n * Fetches a scheduled event for a guild\n *\n * @param guildId - The id of the guild to fetch the scheduled event from\n *\n * @param eventId - The id of the scheduled event to fetch\n *\n * @param options - The options for fetching the scheduled event\n */\n",
+              "docComment": "/**\n * Fetches a scheduled event for a guild\n *\n * @param guildId - The id of the guild to fetch the scheduled event from\n *\n * @param eventId - The id of the scheduled event to fetch\n *\n * @param options - The options for fetching the scheduled event\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-scheduled-event#get-guild-scheduled-event}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8452,7 +8452,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getScheduledEvents:member(1)",
-              "docComment": "/**\n * Fetches all scheduled events for a guild\n *\n * @param guildId - The id of the guild to fetch the scheduled events from\n *\n * @param options - The options for fetching the scheduled events\n */\n",
+              "docComment": "/**\n * Fetches all scheduled events for a guild\n *\n * @param guildId - The id of the guild to fetch the scheduled events from\n *\n * @param options - The options for fetching the scheduled events\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-scheduled-event#list-scheduled-events-for-guild}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8531,7 +8531,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getScheduledEventUsers:member(1)",
-              "docComment": "/**\n * Gets all users that are interested in a scheduled event\n *\n * @param guildId - The id of the guild to fetch the scheduled event users from\n *\n * @param eventId - The id of the scheduled event to fetch the users for\n *\n * @param options - The options for fetching the scheduled event users\n */\n",
+              "docComment": "/**\n * Gets all users that are interested in a scheduled event\n *\n * @param guildId - The id of the guild to fetch the scheduled event users from\n *\n * @param eventId - The id of the scheduled event to fetch the users for\n *\n * @param options - The options for fetching the scheduled event users\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-scheduled-event#get-guild-scheduled-event-users}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8627,7 +8627,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getSticker:member(1)",
-              "docComment": "/**\n * Fetches a sticker for a guild\n *\n * @param guildId - The id of the guild to fetch the sticker from\n *\n * @param stickerId - The id of the sticker to fetch\n */\n",
+              "docComment": "/**\n * Fetches a sticker for a guild\n *\n * @param guildId - The id of the guild to fetch the sticker from\n *\n * @param stickerId - The id of the sticker to fetch\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#get-guild-sticker}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8706,7 +8706,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getStickers:member(1)",
-              "docComment": "/**\n * Fetches all the stickers for a guild\n *\n * @param guildId - The id of the guild to fetch the stickers from\n */\n",
+              "docComment": "/**\n * Fetches all the stickers for a guild\n *\n * @param guildId - The id of the guild to fetch the stickers from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-guild-stickers}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8768,7 +8768,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getTemplate:member(1)",
-              "docComment": "/**\n * Fetches a guild template\n *\n * @param templateCode - The code of the template\n */\n",
+              "docComment": "/**\n * Fetches a guild template\n *\n * @param templateCode - The code of the template\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#get-guild-template}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8829,7 +8829,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getTemplates:member(1)",
-              "docComment": "/**\n * Fetches all the templates for a guild\n *\n * @param guildId - The id of the guild to fetch the templates from\n */\n",
+              "docComment": "/**\n * Fetches all the templates for a guild\n *\n * @param guildId - The id of the guild to fetch the templates from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#get-guild-templates}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8891,7 +8891,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getVanityURL:member(1)",
-              "docComment": "/**\n * Fetches the vanity url for a guild\n *\n * @param guildId - The id of the guild to fetch the vanity url from\n */\n",
+              "docComment": "/**\n * Fetches the vanity url for a guild\n *\n * @param guildId - The id of the guild to fetch the vanity url from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-vanity-url}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8953,7 +8953,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getVoiceRegions:member(1)",
-              "docComment": "/**\n * Fetches voice regions for a guild\n *\n * @param guildId - The id of the guild to fetch the voice regions from\n */\n",
+              "docComment": "/**\n * Fetches voice regions for a guild\n *\n * @param guildId - The id of the guild to fetch the voice regions from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-voice-regions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9015,7 +9015,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getWelcomeScreen:member(1)",
-              "docComment": "/**\n * Fetches the welcome screen for a guild\n *\n * @param guildId - The id of the guild to fetch the welcome screen from\n */\n",
+              "docComment": "/**\n * Fetches the welcome screen for a guild\n *\n * @param guildId - The id of the guild to fetch the welcome screen from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-welcome-screen}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9077,7 +9077,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getWidget:member(1)",
-              "docComment": "/**\n * Fetches the widget for a guild\n *\n * @param guildId - The id of the guild to fetch the widget from\n */\n",
+              "docComment": "/**\n * Fetches the widget for a guild\n *\n * @param guildId - The id of the guild to fetch the widget from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-widget}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9139,7 +9139,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getWidgetImage:member(1)",
-              "docComment": "/**\n * Fetches the widget image for a guild\n *\n * @param guildId - The id of the guild to fetch the widget image from\n *\n * @param style - The style of the widget image\n */\n",
+              "docComment": "/**\n * Fetches the widget image for a guild\n *\n * @param guildId - The id of the guild to fetch the widget image from\n *\n * @param style - The style of the widget image\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-widget-image}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9218,7 +9218,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getWidgetSettings:member(1)",
-              "docComment": "/**\n * Fetches the widget settings for a guild\n *\n * @param guildId - The id of the guild to fetch the widget settings from\n */\n",
+              "docComment": "/**\n * Fetches the widget settings for a guild\n *\n * @param guildId - The id of the guild to fetch the widget settings from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-widget-settings}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9280,7 +9280,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#removeRoleFromMember:member(1)",
-              "docComment": "/**\n * Removes a role from a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param roleId - The id of the role\n *\n * @param reason - The reason for removing this role from the guild member\n */\n",
+              "docComment": "/**\n * Removes a role from a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param roleId - The id of the role\n *\n * @param reason - The reason for removing this role from the guild member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#remove-guild-member-role}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9383,7 +9383,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#searchForMembers:member(1)",
-              "docComment": "/**\n * Searches for guild members\n *\n * @param guildId - The id of the guild to search in\n *\n * @param query - The query to search for\n *\n * @param limit - The maximum number of members to return\n */\n",
+              "docComment": "/**\n * Searches for guild members\n *\n * @param guildId - The id of the guild to search in\n *\n * @param query - The query to search for\n *\n * @param limit - The maximum number of members to return\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#search-guild-members}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9462,7 +9462,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#setChannelPositions:member(1)",
-              "docComment": "/**\n * Edits a guild channel's positions\n *\n * @param guildId - The id of the guild to edit the channel positions from\n *\n * @param data - The data to edit the channel positions with\n *\n * @param reason - The reason for editing the channel positions\n */\n",
+              "docComment": "/**\n * Edits a guild channel's positions\n *\n * @param guildId - The id of the guild to edit the channel positions from\n *\n * @param data - The data to edit the channel positions with\n *\n * @param reason - The reason for editing the channel positions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-channel-positions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9548,7 +9548,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#setRolePositions:member(1)",
-              "docComment": "/**\n * Sets role positions in a guild\n *\n * @param guildId - The id of the guild to set role positions for\n *\n * @param data - The data for setting a role position\n *\n * @param reason - The reason for setting the role position\n */\n",
+              "docComment": "/**\n * Sets role positions in a guild\n *\n * @param guildId - The id of the guild to set role positions for\n *\n * @param data - The data for setting a role position\n *\n * @param reason - The reason for setting the role position\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-role-positions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9643,7 +9643,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#syncTemplate:member(1)",
-              "docComment": "/**\n * Syncs a template for a guild\n *\n * @param guildId - The id of the guild to sync the template from\n *\n * @param templateCode - The code of the template to sync\n */\n",
+              "docComment": "/**\n * Syncs a template for a guild\n *\n * @param guildId - The id of the guild to sync the template from\n *\n * @param templateCode - The code of the template to sync\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#sync-guild-template}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9721,7 +9721,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#unbanUser:member(1)",
-              "docComment": "/**\n * Unbans a user from a guild\n *\n * @param guildId - The id of the guild to unban the member in\n *\n * @param userId - The id of the user to unban\n *\n * @param reason - The reason for unbanning the user\n */\n",
+              "docComment": "/**\n * Unbans a user from a guild\n *\n * @param guildId - The id of the guild to unban the member in\n *\n * @param userId - The id of the user to unban\n *\n * @param reason - The reason for unbanning the user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#remove-guild-ban}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9875,7 +9875,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#createAutocompleteResponse:member(1)",
-              "docComment": "/**\n * Sends an autocomplete response to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - Data for the autocomplete response\n */\n",
+              "docComment": "/**\n * Sends an autocomplete response to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - Data for the autocomplete response\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9961,7 +9961,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#createModal:member(1)",
-              "docComment": "/**\n * Sends a modal response to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The modal to send\n */\n",
+              "docComment": "/**\n * Sends a modal response to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The modal to send\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10047,7 +10047,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#defer:member(1)",
-              "docComment": "/**\n * Defers the reply to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n */\n",
+              "docComment": "/**\n * Defers the reply to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10116,7 +10116,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#deferMessageUpdate:member(1)",
-              "docComment": "/**\n * Defers an update from a message component interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n */\n",
+              "docComment": "/**\n * Defers an update from a message component interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10185,7 +10185,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#deleteReply:member(1)",
-              "docComment": "/**\n * Deletes the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param messageId - The id of the message to delete. If omitted, the original reply will be deleted\n */\n",
+              "docComment": "/**\n * Deletes the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param messageId - The id of the message to delete. If omitted, the original reply will be deleted\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#delete-original-interaction-response}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#delete-followup-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10275,7 +10275,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#editReply:member(1)",
-              "docComment": "/**\n * Edits the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when editing the reply\n *\n * @param messageId - The id of the message to edit. If omitted, the original reply will be edited\n */\n",
+              "docComment": "/**\n * Edits the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when editing the reply\n *\n * @param messageId - The id of the message to edit. If omitted, the original reply will be edited\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#edit-original-interaction-response}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#edit-followup-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10404,7 +10404,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#followUp:member(1)",
-              "docComment": "/**\n * Reply to a deferred interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when replying\n */\n",
+              "docComment": "/**\n * Reply to a deferred interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when replying\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-followup-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10503,7 +10503,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#getOriginalReply:member(1)",
-              "docComment": "/**\n * Fetches the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n */\n",
+              "docComment": "/**\n * Fetches the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#get-original-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10581,7 +10581,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#reply:member(1)",
-              "docComment": "/**\n * Replies to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when replying\n */\n",
+              "docComment": "/**\n * Replies to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when replying\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10680,7 +10680,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#updateMessage:member(1)",
-              "docComment": "/**\n * Updates the the message the component interaction was triggered on\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when updating the interaction\n */\n",
+              "docComment": "/**\n * Updates the the message the component interaction was triggered on\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when updating the interaction\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10903,7 +10903,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InvitesAPI#delete:member(1)",
-              "docComment": "/**\n * Deletes an invite\n *\n * @param code - The invite code\n *\n * @param reason - The reason for deleting the invite\n */\n",
+              "docComment": "/**\n * Deletes an invite\n *\n * @param code - The invite code\n *\n * @param reason - The reason for deleting the invite\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/invite#delete-invite}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10971,7 +10971,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InvitesAPI#get:member(1)",
-              "docComment": "/**\n * Fetches an invite\n *\n * @param code - The invite code\n */\n",
+              "docComment": "/**\n * Fetches an invite\n *\n * @param code - The invite code\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/invite#get-invite}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14471,7 +14471,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!StickersAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a sticker\n *\n * @param stickerId - The id of the sticker\n */\n",
+              "docComment": "/**\n * Fetches a sticker\n *\n * @param stickerId - The id of the sticker\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#get-sticker}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14533,7 +14533,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!StickersAPI#getNitroStickers:member(1)",
-              "docComment": "/**\n * Fetches all of the nitro sticker packs\n */\n",
+              "docComment": "/**\n * Fetches all of the nitro sticker packs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-nitro-sticker-packs}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14628,7 +14628,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#addMember:member(1)",
-              "docComment": "/**\n * Adds a member to a thread\n *\n * @param threadId - The id of the thread to add the member to\n *\n * @param userId - The id of the user to add to the thread\n */\n",
+              "docComment": "/**\n * Adds a member to a thread\n *\n * @param threadId - The id of the thread to add the member to\n *\n * @param userId - The id of the user to add to the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#add-thread-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14698,7 +14698,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#create:member(1)",
-              "docComment": "/**\n * Creates a new thread\n *\n * @param channelId - The id of the channel to start the thread in\n *\n * @param data - The data to use when starting the thread\n */\n",
+              "docComment": "/**\n * Creates a new thread\n *\n * @param channelId - The id of the channel to start the thread in\n *\n * @param data - The data to use when starting the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#start-thread-from-message}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#start-thread-without-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14777,7 +14777,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#createForumThread:member(1)",
-              "docComment": "/**\n * Creates a new forum post\n *\n * @param channelId - The id of the forum channel to start the thread in\n *\n * @param data - The data to use when starting the thread\n */\n",
+              "docComment": "/**\n * Creates a new forum post\n *\n * @param channelId - The id of the forum channel to start the thread in\n *\n * @param data - The data to use when starting the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#start-thread-in-forum-channel}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14856,7 +14856,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a thread\n *\n * @param threadId - The id of the thread\n */\n",
+              "docComment": "/**\n * Fetches a thread\n *\n * @param threadId - The id of the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-channel}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14918,7 +14918,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#getAllMembers:member(1)",
-              "docComment": "/**\n * Fetches all members of a thread\n *\n * @param threadId - The id of the thread to fetch the members from\n */\n",
+              "docComment": "/**\n * Fetches all members of a thread\n *\n * @param threadId - The id of the thread to fetch the members from\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-thread-members}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14980,7 +14980,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#getMember:member(1)",
-              "docComment": "/**\n * Fetches a member of a thread\n *\n * @param threadId - The id of the thread to fetch the member from\n *\n * @param userId - The id of the user\n */\n",
+              "docComment": "/**\n * Fetches a member of a thread\n *\n * @param threadId - The id of the thread to fetch the member from\n *\n * @param userId - The id of the user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-thread-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15059,7 +15059,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#join:member(1)",
-              "docComment": "/**\n * Adds the current user to a thread\n *\n * @param threadId - The id of the thread to join\n */\n",
+              "docComment": "/**\n * Adds the current user to a thread\n *\n * @param threadId - The id of the thread to join\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#join-thread}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15112,7 +15112,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#leave:member(1)",
-              "docComment": "/**\n * Removes the current user from a thread\n *\n * @param threadId - The id of the thread to leave\n */\n",
+              "docComment": "/**\n * Removes the current user from a thread\n *\n * @param threadId - The id of the thread to leave\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#leave-thread}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15165,7 +15165,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#removeMember:member(1)",
-              "docComment": "/**\n * Removes a member from a thread\n *\n * @param threadId - The id of the thread to remove the member from\n *\n * @param userId - The id of the user to remove from the thread\n */\n",
+              "docComment": "/**\n * Removes a member from a thread\n *\n * @param threadId - The id of the thread to remove the member from\n *\n * @param userId - The id of the user to remove from the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#remove-thread-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15286,7 +15286,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#createDM:member(1)",
-              "docComment": "/**\n * Opens a new DM channel with a user\n *\n * @param userId - The id of the user to open a DM channel with\n */\n",
+              "docComment": "/**\n * Opens a new DM channel with a user\n *\n * @param userId - The id of the user to open a DM channel with\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#create-dm}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15348,7 +15348,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#edit:member(1)",
-              "docComment": "/**\n * Edits the current user\n *\n * @param user - The new data for the current user\n */\n",
+              "docComment": "/**\n * Edits the current user\n *\n * @param user - The new data for the current user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#modify-current-user}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15410,7 +15410,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#editGuildMember:member(1)",
-              "docComment": "/**\n * Edits the guild member for the current user\n *\n * @param guildId - The id of the guild\n *\n * @param member - The new data for the guild member\n *\n * @param reason - The reason for editing this guild member\n */\n",
+              "docComment": "/**\n * Edits the guild member for the current user\n *\n * @param guildId - The id of the guild\n *\n * @param member - The new data for the guild member\n *\n * @param reason - The reason for editing this guild member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-current-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15505,7 +15505,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a user by their id\n *\n * @param userId - The id of the user to fetch\n */\n",
+              "docComment": "/**\n * Fetches a user by their id\n *\n * @param userId - The id of the user to fetch\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-user}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15567,7 +15567,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#getCurrent:member(1)",
-              "docComment": "/**\n * Returns the user object of the requester's account\n */\n",
+              "docComment": "/**\n * Returns the user object of the requester's account\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-current-user}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15611,7 +15611,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#getGuildMember:member(1)",
-              "docComment": "/**\n * Fetches the guild member for the current user\n *\n * @param guildId - The id of the guild\n */\n",
+              "docComment": "/**\n * Fetches the guild member for the current user\n *\n * @param guildId - The id of the guild\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-current-user-guild-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15673,7 +15673,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#getGuilds:member(1)",
-              "docComment": "/**\n * Returns a list of partial guild objects the current user is a member of\n *\n * @param options - The options to use when fetching the current user's guilds\n */\n",
+              "docComment": "/**\n * Returns a list of partial guild objects the current user is a member of\n *\n * @param options - The options to use when fetching the current user's guilds\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-current-user-guilds}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15735,7 +15735,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#leaveGuild:member(1)",
-              "docComment": "/**\n * Leaves the guild with the given id\n *\n * @param guildId - The id of the guild\n */\n",
+              "docComment": "/**\n * Leaves the guild with the given id\n *\n * @param guildId - The id of the guild\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#leave-guild}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15788,7 +15788,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#setVoiceState:member(1)",
-              "docComment": "/**\n * Sets the voice state for the current user\n *\n * @param guildId - The id of the guild\n *\n * @param options - The options to use when setting the voice state\n */\n",
+              "docComment": "/**\n * Sets the voice state for the current user\n *\n * @param guildId - The id of the guild\n *\n * @param options - The options to use when setting the voice state\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-current-user-voice-state}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15909,7 +15909,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!VoiceAPI#getVoiceRegions:member(1)",
-              "docComment": "/**\n * Fetches all voice regions\n */\n",
+              "docComment": "/**\n * Fetches all voice regions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/voice#list-voice-regions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16004,7 +16004,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#create:member(1)",
-              "docComment": "/**\n * Creates a new webhook\n *\n * @param channelId - The id of the channel to create the webhook in\n *\n * @param data - The data to use when creating the webhook\n *\n * @param reason - The reason for creating the webhook\n */\n",
+              "docComment": "/**\n * Creates a new webhook\n *\n * @param channelId - The id of the channel to create the webhook in\n *\n * @param data - The data to use when creating the webhook\n *\n * @param reason - The reason for creating the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#create-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16090,7 +16090,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#delete:member(1)",
-              "docComment": "/**\n * Deletes a webhook\n *\n * @param id - The id of the webhook to delete\n *\n * @param options - The options to use when deleting the webhook\n */\n",
+              "docComment": "/**\n * Deletes a webhook\n *\n * @param id - The id of the webhook to delete\n *\n * @param options - The options to use when deleting the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook-with-token}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16159,7 +16159,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#deleteMessage:member(1)",
-              "docComment": "/**\n * Deletes an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to delete\n *\n * @param options - The options to use when deleting the message\n */\n",
+              "docComment": "/**\n * Deletes an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to delete\n *\n * @param options - The options to use when deleting the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16261,7 +16261,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#edit:member(1)",
-              "docComment": "/**\n * Edits a webhook\n *\n * @param id - The id of the webhook to edit\n *\n * @param webhook - The new webhook data\n *\n * @param options - The options to use when editing the webhook\n */\n",
+              "docComment": "/**\n * Edits a webhook\n *\n * @param id - The id of the webhook to edit\n *\n * @param webhook - The new webhook data\n *\n * @param options - The options to use when editing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#modify-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#modify-webhook-with-token}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16356,7 +16356,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#editMessage:member(1)",
-              "docComment": "/**\n * Edits an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to edit\n *\n * @param data - The data to use when editing the message\n */\n",
+              "docComment": "/**\n * Edits an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to edit\n *\n * @param data - The data to use when editing the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#edit-webhook-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16472,7 +16472,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#execute:member(1)",
-              "docComment": "/**\n * Executes a webhook and returns the created message\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param data - The data to use when executing the webhook\n */\n",
+              "docComment": "/**\n * Executes a webhook and returns the created message\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param data - The data to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16589,7 +16589,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#execute:member(2)",
-              "docComment": "/**\n * Executes a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param data - The data to use when executing the webhook\n */\n",
+              "docComment": "/**\n * Executes a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param data - The data to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16697,7 +16697,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#executeGitHub:member(1)",
-              "docComment": "/**\n * Executes a github webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param options - The options to use when executing the webhook\n */\n",
+              "docComment": "/**\n * Executes a github webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-githubcompatible-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16799,7 +16799,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#executeSlack:member(1)",
-              "docComment": "/**\n * Executes a slack webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param options - The options to use when executing the webhook\n */\n",
+              "docComment": "/**\n * Executes a slack webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-slackcompatible-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16901,7 +16901,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n */\n",
+              "docComment": "/**\n * Fetches a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook-with-token}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -16979,7 +16979,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#getMessage:member(1)",
-              "docComment": "/**\n * Fetches an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to fetch\n *\n * @param options - The options to use when fetching the message\n */\n",
+              "docComment": "/**\n * Fetches an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to fetch\n *\n * @param options - The options to use when fetching the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
