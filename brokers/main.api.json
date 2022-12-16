@@ -958,22 +958,26 @@
               "text": "DefaultBrokerOptions: "
             },
             {
-              "kind": "Reference",
-              "text": "Required",
-              "canonicalReference": "!Required:type"
-            },
-            {
               "kind": "Content",
-              "text": "<"
+              "text": "{\n    readonly name: string;\n    readonly maxChunk: 10;\n    readonly blockTimeout: 5000;\n    readonly encode: (data: unknown) => "
             },
             {
               "kind": "Reference",
-              "text": "BaseBrokerOptions",
-              "canonicalReference": "@discordjs/brokers!BaseBrokerOptions:interface"
+              "text": "Buffer",
+              "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
               "kind": "Content",
-              "text": ">"
+              "text": ";\n    readonly decode: (data: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Buffer",
+              "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ") => unknown;\n}"
             }
           ],
           "fileUrlPath": "dist/index.d.ts",
@@ -982,7 +986,7 @@
           "name": "DefaultBrokerOptions",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 6
           }
         },
         {
@@ -995,31 +999,26 @@
               "text": "DefaultRPCRedisBrokerOptions: "
             },
             {
-              "kind": "Reference",
-              "text": "Required",
-              "canonicalReference": "!Required:type"
-            },
-            {
               "kind": "Content",
-              "text": "<"
+              "text": "{\n    readonly timeout: 5000;\n    readonly name: string;\n    readonly maxChunk: 10;\n    readonly blockTimeout: 5000;\n    readonly encode: (data: unknown) => "
             },
             {
               "kind": "Reference",
-              "text": "Omit",
-              "canonicalReference": "!Omit:type"
+              "text": "Buffer",
+              "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
               "kind": "Content",
-              "text": "<"
+              "text": ";\n    readonly decode: (data: "
             },
             {
               "kind": "Reference",
-              "text": "RPCRedisBrokerOptions",
-              "canonicalReference": "@discordjs/brokers!RPCRedisBrokerOptions:interface"
+              "text": "Buffer",
+              "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
               "kind": "Content",
-              "text": ", 'redisClient'>>"
+              "text": ") => unknown;\n}"
             }
           ],
           "fileUrlPath": "dist/index.d.ts",
@@ -1028,7 +1027,7 @@
           "name": "DefaultRPCRedisBrokerOptions",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 7
+            "endIndex": 6
           }
         },
         {
