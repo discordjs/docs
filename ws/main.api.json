@@ -306,9 +306,44 @@
               "text": "DefaultWebSocketManagerOptions: "
             },
             {
+              "kind": "Content",
+              "text": "{\n    readonly shardCount: null;\n    readonly shardIds: null;\n    readonly largeThreshold: null;\n    readonly initialPresence: null;\n    readonly identifyProperties: {\n        readonly browser: \"@discordjs/ws [VI]{{inject}}[/VI]\";\n        readonly device: \"@discordjs/ws [VI]{{inject}}[/VI]\";\n        readonly os: "
+            },
+            {
               "kind": "Reference",
-              "text": "OptionalWebSocketManagerOptions",
-              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions:interface"
+              "text": "NodeJS.Platform",
+              "canonicalReference": "!\"\\\"process\\\"\".__global.NodeJS.Platform:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    };\n    readonly version: \"10\";\n    readonly encoding: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Encoding",
+              "canonicalReference": "@discordjs/ws!Encoding:enum"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly compression: null;\n    readonly retrieveSessionInfo: (shardId: number) => "
+            },
+            {
+              "kind": "Reference",
+              "text": "SessionInfo",
+              "canonicalReference": "@discordjs/ws!SessionInfo:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | null;\n    readonly updateSessionInfo: (shardId: number, info: "
+            },
+            {
+              "kind": "Reference",
+              "text": "SessionInfo",
+              "canonicalReference": "@discordjs/ws!SessionInfo:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | null) => void;\n    readonly handshakeTimeout: 30000;\n    readonly helloTimeout: 60000;\n    readonly readyTimeout: 15000;\n}"
             }
           ],
           "fileUrlPath": "dist/index.d.ts",
@@ -317,7 +352,7 @@
           "name": "DefaultWebSocketManagerOptions",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 10
           }
         },
         {
