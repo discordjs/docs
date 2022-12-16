@@ -7933,6 +7933,35 @@
             },
             {
               "kind": "Property",
+              "canonicalReference": "@discordjs/builders!SlashCommandBuilder#nsfw:member",
+              "docComment": "/**\n * Whether this command is NSFW\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly nsfw: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "nsfw",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#options:member",
               "docComment": "/**\n * The options of this slash command\n */\n",
               "excerptTokens": [
@@ -8110,6 +8139,53 @@
               ],
               "isOptional": false,
               "name": "setDMPermission"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!SlashCommandBuilder#setNSFW:member(1)",
+              "docComment": "/**\n * Sets whether this command is NSFW\n *\n * @param nsfw - Whether this command is NSFW\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setNSFW(nsfw?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "nsfw",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "name": "setNSFW"
             },
             {
               "kind": "Method",
