@@ -2051,22 +2051,17 @@
               "text": "DefaultRestOptions: "
             },
             {
-              "kind": "Reference",
-              "text": "Required",
-              "canonicalReference": "!Required:type"
-            },
-            {
               "kind": "Content",
-              "text": "<"
+              "text": "{\n    readonly agent: "
             },
             {
               "kind": "Reference",
-              "text": "RESTOptions",
-              "canonicalReference": "@discordjs/rest!RESTOptions:interface"
+              "text": "Agent",
+              "canonicalReference": "undici!Agent:class"
             },
             {
               "kind": "Content",
-              "text": ">"
+              "text": ";\n    readonly api: \"https://discord.com/api\";\n    readonly authPrefix: \"Bot\";\n    readonly cdn: \"https://cdn.discordapp.com\";\n    readonly headers: {};\n    readonly invalidRequestWarningInterval: 0;\n    readonly globalRequestsPerSecond: 50;\n    readonly offset: 50;\n    readonly rejectOnRateLimit: null;\n    readonly retries: 3;\n    readonly timeout: 15000;\n    readonly userAgentAppendix: `Node.js ${string}`;\n    readonly version: \"10\";\n    readonly hashSweepInterval: 14400000;\n    readonly hashLifetime: 86400000;\n    readonly handlerSweepInterval: 3600000;\n}"
             }
           ],
           "fileUrlPath": "dist/index.d.ts",
@@ -2075,7 +2070,7 @@
           "name": "DefaultRestOptions",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 4
           }
         },
         {
