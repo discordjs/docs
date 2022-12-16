@@ -15566,6 +15566,112 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/core!UsersAPI#getApplicationRoleConnection:member(1)",
+              "docComment": "/**\n * Gets the current user's active application role connection\n *\n * @param applicationId - The id of the application\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-user-application-role-connection}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getApplicationRoleConnection(applicationId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "discord_api_types_v10.APIApplicationRoleConnection",
+                  "canonicalReference": "discord-api-types!APIApplicationRoleConnection:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "applicationId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "getApplicationRoleConnection"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!UsersAPI#getConnections:member(1)",
+              "docComment": "/**\n * Gets the current user's connections\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-user-connections}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getConnections(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTGetAPICurrentUserConnectionsResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPICurrentUserConnectionsResult:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "getConnections"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#getCurrent:member(1)",
               "docComment": "/**\n * Returns the user object of the requester's account\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-current-user}\n */\n",
               "excerptTokens": [
@@ -15854,6 +15960,85 @@
               ],
               "isOptional": false,
               "name": "setVoiceState"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!UsersAPI#updateApplicationRoleConnection:member(1)",
+              "docComment": "/**\n * Updates the current user's application role connection\n *\n * @param applicationId - The id of the application\n *\n * @param options - The options to use when updating the application role connection\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#update-user-application-role-connection}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "updateApplicationRoleConnection(applicationId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPutAPICurrentUserApplicationRoleConnectionJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPutAPICurrentUserApplicationRoleConnectionJSONBody:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "discord_api_types_v10.APIApplicationRoleConnection",
+                  "canonicalReference": "discord-api-types!APIApplicationRoleConnection:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 9
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "applicationId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "updateApplicationRoleConnection"
             }
           ],
           "implementsTokenRanges": []
