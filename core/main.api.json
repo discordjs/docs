@@ -402,6 +402,36 @@
             },
             {
               "kind": "Property",
+              "canonicalReference": "@discordjs/core!API#roleConnections:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly roleConnections: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RoleConnectionsAPI",
+                  "canonicalReference": "@discordjs/core!RoleConnectionsAPI:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "roleConnections",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "@discordjs/core!API#stickers:member",
               "docComment": "",
               "excerptTokens": [
@@ -14287,6 +14317,198 @@
             }
           ],
           "extendsTokenRanges": []
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/core!RoleConnectionsAPI:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare class RoleConnectionsAPI "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "RoleConnectionsAPI",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/core!RoleConnectionsAPI:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `RoleConnectionsAPI` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(rest: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "REST",
+                  "canonicalReference": "@discordjs/rest!REST:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "rest",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!RoleConnectionsAPI#getMetadataRecords:member(1)",
+              "docComment": "/**\n * Gets the role connection metadata records for the application\n *\n * @param applicationId - The id of the application to get role connection metadata records for\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application-role-connection-metadata#get-application-role-connection-metadata-records}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getMetadataRecords(applicationId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTGetAPIApplicationRoleConnectionMetadataResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPIApplicationRoleConnectionMetadataResult:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "applicationId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "getMetadataRecords"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!RoleConnectionsAPI#updateMetadataRecords:member(1)",
+              "docComment": "/**\n * Updates the role connection metadata records for the application\n *\n * @param applicationId - The id of the application to update role connection metadata records for\n *\n * @param options - The new role connection metadata records\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application-role-connection-metadata#update-application-role-connection-metadata-records}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "updateMetadataRecords(applicationId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPutAPIApplicationCommandPermissionsJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPutAPIApplicationCommandPermissionsJSONBody:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPutAPIApplicationRoleConnectionMetadataResult",
+                  "canonicalReference": "discord-api-types!RESTPutAPIApplicationRoleConnectionMetadataResult:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 9
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "applicationId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "updateMetadataRecords"
+            }
+          ],
+          "implementsTokenRanges": []
         },
         {
           "kind": "Interface",
