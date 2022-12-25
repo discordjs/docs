@@ -530,39 +530,33 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/util!range:function(1)",
-          "docComment": "/**\n * Yields the numbers in the given range as an array\n *\n * @param start - The start of the range\n *\n * @param end - The end of the range (inclusive)\n *\n * @param step - The amount to increment between each number\n *\n * @example\n *\n * Basic range\n * ```ts\n * range(3, 5); // [3, 4, 5]\n * ```\n *\n * @example\n *\n * Range with a step\n * ```ts\n * range(3, 10, 2); // [3, 5, 7, 9]\n * ```\n *\n */\n",
+          "docComment": "/**\n * A generator to yield numbers in a given range\n *\n * @remarks\n *\n * This method is end-exclusive, for example the last number yielded by `range(5)` is 4. If you prefer for the end to be included add 1 to the range or `end` option.\n *\n * @param range - A number representing the the range to yield (exclusive) or an object with start, end and step\n *\n * @example\n *\n * Basic range\n * ```ts\n * for (const number of range(5)) {\n *  console.log(number);\n * }\n * // Prints 0, 1, 2, 3, 4\n * ```\n *\n * @example\n *\n * Range with a step\n * ```ts\n * for (const number of range({ start: 3, end: 10, step: 2 })) {\n * \tconsole.log(number);\n * }\n * // Prints 3, 5, 7, 9\n * ```\n *\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function range(start: "
+              "text": "declare function range(range: "
+            },
+            {
+              "kind": "Reference",
+              "text": "RangeOptions",
+              "canonicalReference": "@discordjs/util!RangeOptions:interface"
             },
             {
               "kind": "Content",
-              "text": "number"
-            },
-            {
-              "kind": "Content",
-              "text": ", end: "
-            },
-            {
-              "kind": "Content",
-              "text": "number"
-            },
-            {
-              "kind": "Content",
-              "text": ", step?: "
-            },
-            {
-              "kind": "Content",
-              "text": "number"
+              "text": " | number"
             },
             {
               "kind": "Content",
               "text": "): "
             },
             {
+              "kind": "Reference",
+              "text": "Generator",
+              "canonicalReference": "!Generator:interface"
+            },
+            {
               "kind": "Content",
-              "text": "number[]"
+              "text": "<number, void, unknown>"
             },
             {
               "kind": "Content",
@@ -571,38 +565,121 @@
           ],
           "fileUrlPath": "dist/index.d.ts",
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 8
+            "startIndex": 4,
+            "endIndex": 6
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
           "parameters": [
             {
-              "parameterName": "start",
+              "parameterName": "range",
               "parameterTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               },
               "isOptional": false
-            },
-            {
-              "parameterName": "end",
-              "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "isOptional": false
-            },
-            {
-              "parameterName": "step",
-              "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
-              },
-              "isOptional": true
             }
           ],
           "name": "range"
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@discordjs/util!RangeOptions:interface",
+          "docComment": "/**\n * Options for creating a range\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "interface RangeOptions "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "RangeOptions",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/util!RangeOptions#end:member",
+              "docComment": "/**\n * The end of the range (exclusive)\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "end: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "end",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/util!RangeOptions#start:member",
+              "docComment": "/**\n * The start of the range (inclusive)\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "start: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "start",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/util!RangeOptions#step:member",
+              "docComment": "/**\n * The amount to increment by\n *\n * @defaultValue\n *\n * `1`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "step?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "step",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
         }
       ]
     }
