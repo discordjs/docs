@@ -372,6 +372,36 @@
             },
             {
               "kind": "Property",
+              "canonicalReference": "@discordjs/core!API#oauth2:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly oauth2: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "OAuth2API",
+                  "canonicalReference": "@discordjs/core!OAuth2API:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "oauth2",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "@discordjs/core!API#rest:member",
               "docComment": "",
               "excerptTokens": [
@@ -14317,6 +14347,379 @@
             }
           ],
           "extendsTokenRanges": []
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/core!OAuth2API:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare class OAuth2API "
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "releaseTag": "Public",
+          "name": "OAuth2API",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/core!OAuth2API:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `OAuth2API` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(rest: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "REST",
+                  "canonicalReference": "@discordjs/rest!REST:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "rest",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!OAuth2API#generateAuthorizationURL:member(1)",
+              "docComment": "/**\n * Creates an OAuth2 authorization URL given the options\n *\n * @param options - The options for creating the authorization URL\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/oauth2#authorization-code-grant-authorization-url-example}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "generateAuthorizationURL(options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTOAuth2AuthorizationQuery",
+                  "canonicalReference": "discord-api-types!RESTOAuth2AuthorizationQuery:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "generateAuthorizationURL"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!OAuth2API#getCurrentAuthorizationInformation:member(1)",
+              "docComment": "/**\n * Fetches the current authorization information\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/oauth2#get-current-authorization-information}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getCurrentAuthorizationInformation(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTGetAPIOAuth2CurrentAuthorizationResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPIOAuth2CurrentAuthorizationResult:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "getCurrentAuthorizationInformation"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!OAuth2API#getCurrentBotApplicationInformation:member(1)",
+              "docComment": "/**\n * Fetches the current bot's application information\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/oauth2#get-current-bot-application-information}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getCurrentBotApplicationInformation(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTGetAPIOAuth2CurrentApplicationResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPIOAuth2CurrentApplicationResult:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "getCurrentBotApplicationInformation"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!OAuth2API#getToken:member(1)",
+              "docComment": "/**\n * Fetches the bearer token for the current application\n *\n * @remarks\n *\n * This is primarily used for testing purposes\n *\n * @param options - The options for the client credentials grant request\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/oauth2#client-credentials-grant}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getToken(options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPostOAuth2ClientCredentialsURLEncodedData",
+                  "canonicalReference": "discord-api-types!RESTPostOAuth2ClientCredentialsURLEncodedData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "discord_api_types_v10.RESTOAuth2ImplicitAuthorizationURLFragmentResult",
+                  "canonicalReference": "discord-api-types!RESTOAuth2ImplicitAuthorizationURLFragmentResult:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "getToken"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!OAuth2API#refreshToken:member(1)",
+              "docComment": "/**\n * Refreshes an OAuth2 access token, giving you a new one\n *\n * @param options - The options for the refresh token request\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/oauth2#authorization-code-grant-refresh-token-exchange-example}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "refreshToken(options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPostOAuth2RefreshTokenURLEncodedData",
+                  "canonicalReference": "discord-api-types!RESTPostOAuth2RefreshTokenURLEncodedData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPostOAuth2AccessTokenResult",
+                  "canonicalReference": "discord-api-types!RESTPostOAuth2AccessTokenResult:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "refreshToken"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!OAuth2API#tokenExchange:member(1)",
+              "docComment": "/**\n * Performs an OAuth2 token exchange, giving you an access token\n *\n * @param options - The options for the token exchange request\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/oauth2#authorization-code-grant-access-token-exchange-example}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "tokenExchange(options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPostOAuth2AccessTokenURLEncodedData",
+                  "canonicalReference": "discord-api-types!RESTPostOAuth2AccessTokenURLEncodedData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPostOAuth2AccessTokenResult",
+                  "canonicalReference": "discord-api-types!RESTPostOAuth2AccessTokenResult:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "tokenExchange"
+            }
+          ],
+          "implementsTokenRanges": []
         },
         {
           "kind": "Class",
