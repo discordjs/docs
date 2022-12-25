@@ -10289,6 +10289,108 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#spliceOptions:member(1)",
+              "docComment": "/**\n * Removes, replaces, or inserts options in the string select menu.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice | Array.prototype.splice}.\n *\n * It's useful for modifying and adjusting order of the already-existing options of a string select menu.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of options to remove\n *\n * @param options - The replacing option objects or builders\n *\n * @example\n *\n * Remove the first option\n * ```ts\n * selectMenu.spliceOptions(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n option\n * ```ts\n * const n = 4\n * selectMenu.spliceOptions(0, n);\n * ```\n *\n * @example\n *\n * Remove the last option\n * ```ts\n * selectMenu.spliceOptions(-1, 1);\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "spliceOptions(index: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", deleteCount: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", ...options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuOption",
+                  "canonicalReference": "discord-api-types!APISelectMenuOption:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringSelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 12,
+                "endIndex": 13
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "index",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "deleteCount",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 11
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "spliceOptions"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#toJSON:member(1)",
               "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
