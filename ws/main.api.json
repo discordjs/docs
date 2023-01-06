@@ -968,6 +968,57 @@
             },
             {
               "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IShardingStrategy#fetchStatus:member(1)",
+              "docComment": "/**\n * Fetches the status of all the shards\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fetchStatus(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Awaitable",
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WebSocketShardStatus",
+                  "canonicalReference": "@discordjs/ws!WebSocketShardStatus:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [],
+              "name": "fetchStatus"
+            },
+            {
+              "kind": "MethodSignature",
               "canonicalReference": "@discordjs/ws!IShardingStrategy#send:member(1)",
               "docComment": "/**\n * Sends a payload to a shard\n */\n",
               "excerptTokens": [
@@ -2504,6 +2555,59 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/ws!SimpleShardingStrategy#fetchStatus:member(1)",
+              "docComment": "/**\n * Fetches the status of all the shards\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fetchStatus(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WebSocketShardStatus",
+                  "canonicalReference": "@discordjs/ws!WebSocketShardStatus:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "fetchStatus"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/ws!SimpleShardingStrategy#send:member(1)",
               "docComment": "/**\n * Sends a payload to a shard\n */\n",
               "excerptTokens": [
@@ -2903,6 +3007,59 @@
               ],
               "isOptional": false,
               "name": "fetchGatewayInformation"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/ws!WebSocketManager#fetchStatus:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fetchStatus(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Awaitable",
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "_discordjs_collection.Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WebSocketShardStatus",
+                  "canonicalReference": "@discordjs/ws!WebSocketShardStatus:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "fetchStatus"
             },
             {
               "kind": "Method",
@@ -3462,6 +3619,36 @@
             },
             {
               "kind": "Property",
+              "canonicalReference": "@discordjs/ws!WebSocketShard#status:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "get status(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WebSocketShardStatus",
+                  "canonicalReference": "@discordjs/ws!WebSocketShardStatus:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "status",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "@discordjs/ws!WebSocketShard#strategy:member",
               "docComment": "",
               "excerptTokens": [
@@ -3736,6 +3923,27 @@
             },
             {
               "kind": "EnumMember",
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.HeartbeatComplete:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HeartbeatComplete = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"heartbeat\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "HeartbeatComplete"
+            },
+            {
+              "kind": "EnumMember",
               "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Hello:member",
               "docComment": "",
               "excerptTokens": [
@@ -3832,6 +4040,24 @@
             },
             {
               "kind": "Reference",
+              "text": "WebSocketShardEvents.Dispatch",
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Dispatch:member"
+            },
+            {
+              "kind": "Content",
+              "text": "]: [payload: {\n        data: "
+            },
+            {
+              "kind": "Reference",
+              "text": "GatewayDispatchPayload",
+              "canonicalReference": "discord-api-types!GatewayDispatchPayload:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    }];\n    ["
+            },
+            {
+              "kind": "Reference",
               "text": "WebSocketShardEvents.Hello",
               "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Hello:member"
             },
@@ -3868,21 +4094,12 @@
             },
             {
               "kind": "Reference",
-              "text": "WebSocketShardEvents.Dispatch",
-              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Dispatch:member"
+              "text": "WebSocketShardEvents.HeartbeatComplete",
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.HeartbeatComplete:member"
             },
             {
               "kind": "Content",
-              "text": "]: [payload: {\n        data: "
-            },
-            {
-              "kind": "Reference",
-              "text": "GatewayDispatchPayload",
-              "canonicalReference": "discord-api-types!GatewayDispatchPayload:type"
-            },
-            {
-              "kind": "Content",
-              "text": ";\n    }];\n}"
+              "text": "]: [payload: {\n        ackAt: number;\n        heartbeatAt: number;\n        latency: number;\n    }];\n}"
             },
             {
               "kind": "Content",
@@ -3894,7 +4111,7 @@
           "name": "WebSocketShardEventsMap",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 18
+            "endIndex": 20
           }
         },
         {
@@ -4349,6 +4566,24 @@
             },
             {
               "kind": "Reference",
+              "text": "WorkerRecievePayloadOp.FetchStatusResponse",
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.FetchStatusResponse:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    status: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WebSocketShardStatus",
+              "canonicalReference": "@discordjs/ws!WebSocketShardStatus:enum"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    nonce: number;\n    op: "
+            },
+            {
+              "kind": "Reference",
               "text": "WorkerRecievePayloadOp.RetrieveSessionInfo",
               "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.RetrieveSessionInfo:member"
             },
@@ -4411,7 +4646,7 @@
           "name": "WorkerRecievePayload",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 18
+            "endIndex": 22
           }
         },
         {
@@ -4494,6 +4729,27 @@
             },
             {
               "kind": "EnumMember",
+              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.FetchStatusResponse:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FetchStatusResponse = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "6"
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "FetchStatusResponse"
+            },
+            {
+              "kind": "EnumMember",
               "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.RetrieveSessionInfo:member",
               "docComment": "",
               "excerptTokens": [
@@ -4569,6 +4825,15 @@
             {
               "kind": "Content",
               "text": "{\n    nonce: number;\n    op: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WorkerSendPayloadOp.FetchStatus",
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.FetchStatus:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    shardId: number;\n} | {\n    nonce: number;\n    op: "
             },
             {
               "kind": "Reference",
@@ -4652,7 +4917,7 @@
           "name": "WorkerSendPayload",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 18
+            "endIndex": 20
           }
         },
         {
@@ -4711,6 +4976,27 @@
               },
               "releaseTag": "Public",
               "name": "Destroy"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.FetchStatus:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FetchStatus = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "5"
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "FetchStatus"
             },
             {
               "kind": "EnumMember",
@@ -4951,6 +5237,59 @@
               ],
               "isOptional": false,
               "name": "destroy"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/ws!WorkerShardingStrategy#fetchStatus:member(1)",
+              "docComment": "/**\n * Fetches the status of all the shards\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fetchStatus(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WebSocketShardStatus",
+                  "canonicalReference": "@discordjs/ws!WebSocketShardStatus:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "name": "fetchStatus"
             },
             {
               "kind": "Method",
