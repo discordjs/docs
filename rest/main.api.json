@@ -3338,6 +3338,29 @@
           "extendsTokenRanges": []
         },
         {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/rest!OverwrittenMimeTypes:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "OverwrittenMimeTypes: "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    readonly 'image/apng': \"image/png\";\n}"
+            }
+          ],
+          "fileUrlPath": "dist/index.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "OverwrittenMimeTypes",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
           "kind": "Function",
           "canonicalReference": "@discordjs/rest!parseResponse:function(1)",
           "docComment": "/**\n * Converts the response to usable data\n *\n * @param res - The fetch response\n */\n",
