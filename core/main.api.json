@@ -8476,8 +8476,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildMember",
-                  "canonicalReference": "discord-api-types!APIGuildMember:interface"
+                  "text": "RESTGetAPIGuildMembersResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPIGuildMembersResult:type"
                 },
                 {
                   "kind": "Content",
