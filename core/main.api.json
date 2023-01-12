@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/core",
   "kind": "Package",
   "canonicalReference": "@discordjs/core!",
   "docComment": "",
@@ -179,10 +180,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class API "
+              "text": "export declare class API "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/index.ts",
           "releaseTag": "Public",
           "name": "API",
           "preserveMemberOrder": false,
@@ -620,10 +621,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ApplicationCommandsAPI "
+              "text": "export declare class ApplicationCommandsAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/applicationCommands.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandsAPI",
           "preserveMemberOrder": false,
@@ -870,11 +871,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIApplicationCommand",
+                  "text": "APIApplicationCommand",
                   "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
                 },
                 {
@@ -958,11 +959,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIApplicationCommand",
+                  "text": "APIApplicationCommand",
                   "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
                 },
                 {
@@ -1211,11 +1212,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIApplicationCommand",
+                  "text": "APIApplicationCommand",
                   "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
                 },
                 {
@@ -1316,11 +1317,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIApplicationCommand",
+                  "text": "APIApplicationCommand",
                   "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
                 },
                 {
@@ -1437,11 +1438,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildApplicationCommandPermissions",
+                  "text": "APIGuildApplicationCommandPermissions",
                   "canonicalReference": "discord-api-types!APIGuildApplicationCommandPermissions:interface"
                 },
                 {
@@ -1540,11 +1541,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIApplicationCommand",
+                  "text": "APIApplicationCommand",
                   "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
                 },
                 {
@@ -1707,11 +1708,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIApplicationCommand",
+                  "text": "APIApplicationCommand",
                   "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
                 },
                 {
@@ -1803,11 +1804,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildApplicationCommandPermissions",
+                  "text": "APIGuildApplicationCommandPermissions",
                   "canonicalReference": "discord-api-types!APIGuildApplicationCommandPermissions:interface"
                 },
                 {
@@ -2041,10 +2042,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ChannelsAPI "
+              "text": "export declare class ChannelsAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/channel.ts",
           "releaseTag": "Public",
           "name": "ChannelsAPI",
           "preserveMemberOrder": false,
@@ -2300,11 +2301,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIExtendedInvite",
+                  "text": "APIExtendedInvite",
                   "canonicalReference": "discord-api-types!APIExtendedInvite:interface"
                 },
                 {
@@ -2400,11 +2401,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIMessage",
+                  "text": "APIMessage",
                   "canonicalReference": "discord-api-types!APIMessage:interface"
                 },
                 {
@@ -2479,11 +2480,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIMessage",
+                  "text": "APIMessage",
                   "canonicalReference": "discord-api-types!APIMessage:interface"
                 },
                 {
@@ -2549,11 +2550,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIChannel",
+                  "text": "APIChannel",
                   "canonicalReference": "discord-api-types!APIChannel:type"
                 },
                 {
@@ -3051,11 +3052,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIChannel",
+                  "text": "APIChannel",
                   "canonicalReference": "discord-api-types!APIChannel:type"
                 },
                 {
@@ -3152,11 +3153,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIMessage",
+                  "text": "APIMessage",
                   "canonicalReference": "discord-api-types!APIMessage:interface"
                 },
                 {
@@ -3239,11 +3240,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIFollowedChannel",
+                  "text": "APIFollowedChannel",
                   "canonicalReference": "discord-api-types!APIFollowedChannel:interface"
                 },
                 {
@@ -3309,11 +3310,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIChannel",
+                  "text": "APIChannel",
                   "canonicalReference": "discord-api-types!APIChannel:type"
                 },
                 {
@@ -3616,11 +3617,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIMessage",
+                  "text": "APIMessage",
                   "canonicalReference": "discord-api-types!APIMessage:interface"
                 },
                 {
@@ -4149,7 +4150,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class Client extends "
+              "text": "export declare class Client extends "
             },
             {
               "kind": "Reference",
@@ -4174,7 +4175,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/client.ts",
           "releaseTag": "Public",
           "name": "Client",
           "preserveMemberOrder": false,
@@ -4516,10 +4517,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface ClientOptions "
+              "text": "export interface ClientOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/client.ts",
           "releaseTag": "Public",
           "name": "ClientOptions",
           "preserveMemberOrder": false,
@@ -4590,7 +4591,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface DescriptiveRawFile extends "
+              "text": "export interface DescriptiveRawFile extends "
             },
             {
               "kind": "Reference",
@@ -4602,7 +4603,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/files.ts",
           "releaseTag": "Public",
           "name": "DescriptiveRawFile",
           "preserveMemberOrder": false,
@@ -4649,10 +4650,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class GuildsAPI "
+              "text": "export declare class GuildsAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/guild.ts",
           "releaseTag": "Public",
           "name": "GuildsAPI",
           "preserveMemberOrder": false,
@@ -5016,11 +5017,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuild",
+                  "text": "APIGuild",
                   "canonicalReference": "discord-api-types!APIGuild:interface"
                 },
                 {
@@ -5095,11 +5096,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIAutoModerationRule",
+                  "text": "APIAutoModerationRule",
                   "canonicalReference": "discord-api-types!APIAutoModerationRule:interface"
                 },
                 {
@@ -5190,11 +5191,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIChannel",
+                  "text": "APIChannel",
                   "canonicalReference": "discord-api-types!APIChannel:type"
                 },
                 {
@@ -5285,11 +5286,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIEmoji",
+                  "text": "APIEmoji",
                   "canonicalReference": "discord-api-types!APIEmoji:interface"
                 },
                 {
@@ -5380,11 +5381,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIRole",
+                  "text": "APIRole",
                   "canonicalReference": "discord-api-types!APIRole:interface"
                 },
                 {
@@ -5475,11 +5476,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildScheduledEvent",
+                  "text": "APIGuildScheduledEvent",
                   "canonicalReference": "discord-api-types!APIGuildScheduledEvent:type"
                 },
                 {
@@ -5592,11 +5593,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APISticker",
+                  "text": "APISticker",
                   "canonicalReference": "discord-api-types!APISticker:interface"
                 },
                 {
@@ -5678,11 +5679,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APITemplate",
+                  "text": "APITemplate",
                   "canonicalReference": "discord-api-types!APITemplate:interface"
                 },
                 {
@@ -6419,11 +6420,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuild",
+                  "text": "APIGuild",
                   "canonicalReference": "discord-api-types!APIGuild:interface"
                 },
                 {
@@ -6635,11 +6636,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIEmoji",
+                  "text": "APIEmoji",
                   "canonicalReference": "discord-api-types!APIEmoji:interface"
                 },
                 {
@@ -6747,11 +6748,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildMember",
+                  "text": "APIGuildMember",
                   "canonicalReference": "discord-api-types!APIGuildMember:interface"
                 },
                 {
@@ -6850,11 +6851,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.RESTPostAPIGuildsMFAJSONBody",
+                  "text": "RESTPostAPIGuildsMFAJSONBody",
                   "canonicalReference": "discord-api-types!RESTPostAPIGuildsMFAJSONBody:interface"
                 },
                 {
@@ -6954,11 +6955,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIRole",
+                  "text": "APIRole",
                   "canonicalReference": "discord-api-types!APIRole:interface"
                 },
                 {
@@ -7066,11 +7067,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildScheduledEvent",
+                  "text": "APIGuildScheduledEvent",
                   "canonicalReference": "discord-api-types!APIGuildScheduledEvent:type"
                 },
                 {
@@ -7178,11 +7179,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APISticker",
+                  "text": "APISticker",
                   "canonicalReference": "discord-api-types!APISticker:interface"
                 },
                 {
@@ -7281,11 +7282,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APITemplate",
+                  "text": "APITemplate",
                   "canonicalReference": "discord-api-types!APITemplate:interface"
                 },
                 {
@@ -7479,11 +7480,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildWelcomeScreen",
+                  "text": "APIGuildWelcomeScreen",
                   "canonicalReference": "discord-api-types!APIGuildWelcomeScreen:interface"
                 },
                 {
@@ -7574,11 +7575,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildWidgetSettings",
+                  "text": "APIGuildWidgetSettings",
                   "canonicalReference": "discord-api-types!APIGuildWidgetSettings:interface"
                 },
                 {
@@ -7651,11 +7652,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuild",
+                  "text": "APIGuild",
                   "canonicalReference": "discord-api-types!APIGuild:interface"
                 },
                 {
@@ -7713,11 +7714,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIThreadList",
+                  "text": "APIThreadList",
                   "canonicalReference": "discord-api-types!APIThreadList:interface"
                 },
                 {
@@ -7784,11 +7785,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIAuditLog",
+                  "text": "APIAuditLog",
                   "canonicalReference": "discord-api-types!APIAuditLog:interface"
                 },
                 {
@@ -7863,11 +7864,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIAutoModerationRule",
+                  "text": "APIAutoModerationRule",
                   "canonicalReference": "discord-api-types!APIAutoModerationRule:interface"
                 },
                 {
@@ -8066,11 +8067,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIEmoji",
+                  "text": "APIEmoji",
                   "canonicalReference": "discord-api-types!APIEmoji:interface"
                 },
                 {
@@ -8331,11 +8332,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildMember",
+                  "text": "APIGuildMember",
                   "canonicalReference": "discord-api-types!APIGuildMember:interface"
                 },
                 {
@@ -8542,11 +8543,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildPreview",
+                  "text": "APIGuildPreview",
                   "canonicalReference": "discord-api-types!APIGuildPreview:interface"
                 },
                 {
@@ -8763,11 +8764,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildScheduledEvent",
+                  "text": "APIGuildScheduledEvent",
                   "canonicalReference": "discord-api-types!APIGuildScheduledEvent:type"
                 },
                 {
@@ -9025,11 +9026,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APISticker",
+                  "text": "APISticker",
                   "canonicalReference": "discord-api-types!APISticker:interface"
                 },
                 {
@@ -9156,11 +9157,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APITemplate",
+                  "text": "APITemplate",
                   "canonicalReference": "discord-api-types!APITemplate:interface"
                 },
                 {
@@ -9404,11 +9405,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildWelcomeScreen",
+                  "text": "APIGuildWelcomeScreen",
                   "canonicalReference": "discord-api-types!APIGuildWelcomeScreen:interface"
                 },
                 {
@@ -9466,11 +9467,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildWidget",
+                  "text": "APIGuildWidget",
                   "canonicalReference": "discord-api-types!APIGuildWidget:interface"
                 },
                 {
@@ -10040,11 +10041,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APITemplate",
+                  "text": "APITemplate",
                   "canonicalReference": "discord-api-types!APITemplate:interface"
                 },
                 {
@@ -10181,10 +10182,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class InteractionsAPI "
+              "text": "export declare class InteractionsAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/interactions.ts",
           "releaseTag": "Public",
           "name": "InteractionsAPI",
           "preserveMemberOrder": false,
@@ -10707,11 +10708,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIMessage",
+                  "text": "APIMessage",
                   "canonicalReference": "discord-api-types!APIMessage:interface"
                 },
                 {
@@ -10900,11 +10901,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIMessage",
+                  "text": "APIMessage",
                   "canonicalReference": "discord-api-types!APIMessage:interface"
                 },
                 {
@@ -11153,10 +11154,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface IntrinsicProps "
+              "text": "export interface IntrinsicProps "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/client.ts",
           "releaseTag": "Public",
           "name": "IntrinsicProps",
           "preserveMemberOrder": false,
@@ -11226,10 +11227,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class InvitesAPI "
+              "text": "export declare class InvitesAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/invite.ts",
           "releaseTag": "Public",
           "name": "InvitesAPI",
           "preserveMemberOrder": false,
@@ -11368,11 +11369,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIInvite",
+                  "text": "APIInvite",
                   "canonicalReference": "discord-api-types!APIInvite:interface"
                 },
                 {
@@ -11423,7 +11424,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ManagerShardEventsMap = "
+              "text": "export type ManagerShardEventsMap = "
             },
             {
               "kind": "Content",
@@ -11452,7 +11453,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/client.ts",
           "releaseTag": "Public",
           "name": "ManagerShardEventsMap",
           "typeTokenRange": {
@@ -11467,10 +11468,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface MappedEvents "
+              "text": "export interface MappedEvents "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/client.ts",
           "releaseTag": "Public",
           "name": "MappedEvents",
           "preserveMemberOrder": false,
@@ -14662,10 +14663,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class OAuth2API "
+              "text": "export declare class OAuth2API "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/oauth2.ts",
           "releaseTag": "Public",
           "name": "OAuth2API",
           "preserveMemberOrder": false,
@@ -14864,11 +14865,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.RESTOAuth2ImplicitAuthorizationURLFragmentResult",
+                  "text": "RESTOAuth2ImplicitAuthorizationURLFragmentResult",
                   "canonicalReference": "discord-api-types!RESTOAuth2ImplicitAuthorizationURLFragmentResult:type"
                 },
                 {
@@ -15035,10 +15036,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class RoleConnectionsAPI "
+              "text": "export declare class RoleConnectionsAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/roleConnections.ts",
           "releaseTag": "Public",
           "name": "RoleConnectionsAPI",
           "preserveMemberOrder": false,
@@ -15227,7 +15228,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface StartForumThreadOptions extends "
+              "text": "export interface StartForumThreadOptions extends "
             },
             {
               "kind": "Reference",
@@ -15239,7 +15240,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/thread.ts",
           "releaseTag": "Public",
           "name": "StartForumThreadOptions",
           "preserveMemberOrder": false,
@@ -15300,7 +15301,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface StartThreadOptions extends "
+              "text": "export interface StartThreadOptions extends "
             },
             {
               "kind": "Reference",
@@ -15312,7 +15313,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/thread.ts",
           "releaseTag": "Public",
           "name": "StartThreadOptions",
           "preserveMemberOrder": false,
@@ -15359,10 +15360,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class StickersAPI "
+              "text": "export declare class StickersAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/sticker.ts",
           "releaseTag": "Public",
           "name": "StickersAPI",
           "preserveMemberOrder": false,
@@ -15425,11 +15426,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APISticker",
+                  "text": "APISticker",
                   "canonicalReference": "discord-api-types!APISticker:interface"
                 },
                 {
@@ -15516,10 +15517,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ThreadsAPI "
+              "text": "export declare class ThreadsAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/thread.ts",
           "releaseTag": "Public",
           "name": "ThreadsAPI",
           "preserveMemberOrder": false,
@@ -15661,11 +15662,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIChannel",
+                  "text": "APIChannel",
                   "canonicalReference": "discord-api-types!APIChannel:type"
                 },
                 {
@@ -16174,10 +16175,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class UsersAPI "
+              "text": "export declare class UsersAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/user.ts",
           "releaseTag": "Public",
           "name": "UsersAPI",
           "preserveMemberOrder": false,
@@ -16240,11 +16241,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIChannel",
+                  "text": "APIChannel",
                   "canonicalReference": "discord-api-types!APIChannel:type"
                 },
                 {
@@ -16302,11 +16303,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIUser",
+                  "text": "APIUser",
                   "canonicalReference": "discord-api-types!APIUser:interface"
                 },
                 {
@@ -16381,11 +16382,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildMember",
+                  "text": "APIGuildMember",
                   "canonicalReference": "discord-api-types!APIGuildMember:interface"
                 },
                 {
@@ -16459,11 +16460,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIUser",
+                  "text": "APIUser",
                   "canonicalReference": "discord-api-types!APIUser:interface"
                 },
                 {
@@ -16521,11 +16522,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIApplicationRoleConnection",
+                  "text": "APIApplicationRoleConnection",
                   "canonicalReference": "discord-api-types!APIApplicationRoleConnection:interface"
                 },
                 {
@@ -16618,11 +16619,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIUser",
+                  "text": "APIUser",
                   "canonicalReference": "discord-api-types!APIUser:interface"
                 },
                 {
@@ -16671,11 +16672,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIGuildMember",
+                  "text": "APIGuildMember",
                   "canonicalReference": "discord-api-types!APIGuildMember:interface"
                 },
                 {
@@ -16927,11 +16928,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIApplicationRoleConnection",
+                  "text": "APIApplicationRoleConnection",
                   "canonicalReference": "discord-api-types!APIApplicationRoleConnection:interface"
                 },
                 {
@@ -16982,10 +16983,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class VoiceAPI "
+              "text": "export declare class VoiceAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/voice.ts",
           "releaseTag": "Public",
           "name": "VoiceAPI",
           "preserveMemberOrder": false,
@@ -17039,11 +17040,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.RESTGetAPIVoiceRegionsResult",
+                  "text": "RESTGetAPIVoiceRegionsResult",
                   "canonicalReference": "discord-api-types!RESTGetAPIVoiceRegionsResult:type"
                 },
                 {
@@ -17077,10 +17078,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class WebhooksAPI "
+              "text": "export declare class WebhooksAPI "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/api/webhook.ts",
           "releaseTag": "Public",
           "name": "WebhooksAPI",
           "preserveMemberOrder": false,
@@ -17417,11 +17418,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIWebhook",
+                  "text": "APIWebhook",
                   "canonicalReference": "discord-api-types!APIWebhook:interface"
                 },
                 {
@@ -17525,11 +17526,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIMessage",
+                  "text": "APIMessage",
                   "canonicalReference": "discord-api-types!APIMessage:interface"
                 },
                 {
@@ -18048,11 +18049,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIWebhook",
+                  "text": "APIWebhook",
                   "canonicalReference": "discord-api-types!APIWebhook:interface"
                 },
                 {
@@ -18143,11 +18144,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "discord_api_types_v10.APIMessage",
+                  "text": "APIMessage",
                   "canonicalReference": "discord-api-types!APIMessage:interface"
                 },
                 {
@@ -18214,7 +18215,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function withFiles(files: "
+              "text": "export declare function withFiles(files: "
             },
             {
               "kind": "Reference",
@@ -18240,74 +18241,74 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: "
+              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: import(\"discord-api-types/utils/internals\")."
             },
             {
               "kind": "Reference",
-              "text": "discord_api_types_utils_internals.AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
+              "text": "AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
               "canonicalReference": "discord-api-types!AddUndefinedToPossiblyUndefinedPropertiesOfInterface:type"
             },
             {
               "kind": "Content",
-              "text": "<"
+              "text": "<import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
-              "text": "discord_api_types_v10.APIEmbed",
+              "text": "APIEmbed",
               "canonicalReference": "discord-api-types!APIEmbed:interface"
             },
             {
               "kind": "Content",
-              "text": ">[] | undefined;\n        allowed_mentions?: "
+              "text": ">[] | undefined;\n        allowed_mentions?: import(\"discord-api-types/utils/internals\")."
             },
             {
               "kind": "Reference",
-              "text": "discord_api_types_utils_internals.AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
+              "text": "AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
               "canonicalReference": "discord-api-types!AddUndefinedToPossiblyUndefinedPropertiesOfInterface:type"
             },
             {
               "kind": "Content",
-              "text": "<"
+              "text": "<import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
-              "text": "discord_api_types_v10.APIAllowedMentions",
+              "text": "APIAllowedMentions",
               "canonicalReference": "discord-api-types!APIAllowedMentions:interface"
             },
             {
               "kind": "Content",
-              "text": "> | undefined;\n        components?: "
+              "text": "> | undefined;\n        components?: import(\"discord-api-types/utils/internals\")."
             },
             {
               "kind": "Reference",
-              "text": "discord_api_types_utils_internals.AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
+              "text": "AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
               "canonicalReference": "discord-api-types!AddUndefinedToPossiblyUndefinedPropertiesOfInterface:type"
             },
             {
               "kind": "Content",
-              "text": "<"
+              "text": "<import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
-              "text": "discord_api_types_v10.APIActionRowComponent",
+              "text": "APIActionRowComponent",
               "canonicalReference": "discord-api-types!APIActionRowComponent:interface"
             },
             {
               "kind": "Content",
-              "text": "<"
+              "text": "<import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
-              "text": "discord_api_types_v10.APIMessageActionRowComponent",
+              "text": "APIMessageActionRowComponent",
               "canonicalReference": "discord-api-types!APIMessageActionRowComponent:type"
             },
             {
               "kind": "Content",
-              "text": ">>[] | undefined;\n        flags?: "
+              "text": ">>[] | undefined;\n        flags?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
-              "text": "discord_api_types_v10.MessageFlags",
+              "text": "MessageFlags",
               "canonicalReference": "discord-api-types!MessageFlags:enum"
             },
             {
@@ -18328,7 +18329,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/files.ts",
           "returnTypeTokenRange": {
             "startIndex": 6,
             "endIndex": 25
@@ -18362,7 +18363,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface WithIntrinsicProps<T> extends "
+              "text": "export interface WithIntrinsicProps<T> extends "
             },
             {
               "kind": "Reference",
@@ -18374,7 +18375,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/client.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
