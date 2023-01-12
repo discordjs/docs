@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/rest",
   "kind": "Package",
   "canonicalReference": "@discordjs/rest!",
   "docComment": "",
@@ -186,7 +187,7 @@
               "text": "readonly [\"webp\", \"png\", \"jpg\", \"jpeg\", \"gif\"]"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_EXTENSIONS",
@@ -209,7 +210,7 @@
               "text": "readonly [16, 32, 64, 128, 256, 512, 1024, 2048, 4096]"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_SIZES",
@@ -232,7 +233,7 @@
               "text": "readonly [\"png\", \"json\"]"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_STICKER_EXTENSIONS",
@@ -248,10 +249,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface APIRequest "
+              "text": "export interface APIRequest "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "APIRequest",
           "preserveMemberOrder": false,
@@ -431,10 +432,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface BaseImageURLOptions "
+              "text": "export interface BaseImageURLOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/CDN.ts",
           "releaseTag": "Public",
           "name": "BaseImageURLOptions",
           "preserveMemberOrder": false,
@@ -505,10 +506,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class CDN "
+              "text": "export declare class CDN "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/CDN.ts",
           "releaseTag": "Public",
           "name": "CDN",
           "preserveMemberOrder": false,
@@ -2064,7 +2065,7 @@
               "text": ";\n    readonly api: \"https://discord.com/api\";\n    readonly authPrefix: \"Bot\";\n    readonly cdn: \"https://cdn.discordapp.com\";\n    readonly headers: {};\n    readonly invalidRequestWarningInterval: 0;\n    readonly globalRequestsPerSecond: 50;\n    readonly offset: 50;\n    readonly rejectOnRateLimit: null;\n    readonly retries: 3;\n    readonly timeout: 15000;\n    readonly userAgentAppendix: `Node.js ${string}`;\n    readonly version: \"10\";\n    readonly hashSweepInterval: 14400000;\n    readonly hashLifetime: 86400000;\n    readonly handlerSweepInterval: 3600000;\n}"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultRestOptions",
@@ -2087,7 +2088,7 @@
               "text": "\"DiscordBot (https://discord.js.org, [VI]{{inject}}[/VI])\""
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "initializerTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -2107,7 +2108,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class DiscordAPIError extends "
+              "text": "export declare class DiscordAPIError extends "
             },
             {
               "kind": "Reference",
@@ -2119,7 +2120,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
           "releaseTag": "Public",
           "name": "DiscordAPIError",
           "preserveMemberOrder": false,
@@ -2488,10 +2489,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface DiscordErrorData "
+              "text": "export interface DiscordErrorData "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
           "releaseTag": "Public",
           "name": "DiscordErrorData",
           "preserveMemberOrder": false,
@@ -2588,7 +2589,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type HandlerRequestData = "
+              "text": "export type HandlerRequestData = "
             },
             {
               "kind": "Reference",
@@ -2613,7 +2614,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
           "name": "HandlerRequestData",
           "typeTokenRange": {
@@ -2628,7 +2629,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class HTTPError extends "
+              "text": "export declare class HTTPError extends "
             },
             {
               "kind": "Reference",
@@ -2640,7 +2641,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/errors/HTTPError.ts",
           "releaseTag": "Public",
           "name": "HTTPError",
           "preserveMemberOrder": false,
@@ -2899,7 +2900,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ImageExtension = "
+              "text": "export type ImageExtension = "
             },
             {
               "kind": "Content",
@@ -2919,7 +2920,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "releaseTag": "Public",
           "name": "ImageExtension",
           "typeTokenRange": {
@@ -2934,7 +2935,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ImageSize = "
+              "text": "export type ImageSize = "
             },
             {
               "kind": "Content",
@@ -2954,7 +2955,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "releaseTag": "Public",
           "name": "ImageSize",
           "typeTokenRange": {
@@ -2969,7 +2970,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface ImageURLOptions extends "
+              "text": "export interface ImageURLOptions extends "
             },
             {
               "kind": "Reference",
@@ -2981,7 +2982,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/CDN.ts",
           "releaseTag": "Public",
           "name": "ImageURLOptions",
           "preserveMemberOrder": false,
@@ -3028,10 +3029,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface InvalidRequestWarningData "
+              "text": "export interface InvalidRequestWarningData "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "InvalidRequestWarningData",
           "preserveMemberOrder": false,
@@ -3100,10 +3101,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface MakeURLOptions "
+              "text": "export interface MakeURLOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/CDN.ts",
           "releaseTag": "Public",
           "name": "MakeURLOptions",
           "preserveMemberOrder": false,
@@ -3200,7 +3201,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function makeURLSearchParams<T extends "
+              "text": "export declare function makeURLSearchParams<T extends "
             },
             {
               "kind": "Content",
@@ -3233,7 +3234,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/utils.ts",
           "returnTypeTokenRange": {
             "startIndex": 6,
             "endIndex": 7
@@ -3272,10 +3273,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface OAuthErrorData "
+              "text": "export interface OAuthErrorData "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
           "releaseTag": "Public",
           "name": "OAuthErrorData",
           "preserveMemberOrder": false,
@@ -3351,7 +3352,7 @@
               "text": "{\n    readonly 'image/apng': \"image/png\";\n}"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "OverwrittenMimeTypes",
@@ -3367,7 +3368,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function parseResponse(res: "
+              "text": "export declare function parseResponse(res: "
             },
             {
               "kind": "Reference",
@@ -3392,7 +3393,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/utils.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 5
@@ -3418,10 +3419,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RateLimitData "
+              "text": "export interface RateLimitData "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "RateLimitData",
           "preserveMemberOrder": false,
@@ -3652,7 +3653,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class RateLimitError extends "
+              "text": "export declare class RateLimitError extends "
             },
             {
               "kind": "Reference",
@@ -3673,7 +3674,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/errors/RateLimitError.ts",
           "releaseTag": "Public",
           "name": "RateLimitError",
           "preserveMemberOrder": false,
@@ -3991,7 +3992,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type RateLimitQueueFilter = "
+              "text": "export type RateLimitQueueFilter = "
             },
             {
               "kind": "Content",
@@ -4020,7 +4021,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "RateLimitQueueFilter",
           "typeTokenRange": {
@@ -4035,10 +4036,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RawFile "
+              "text": "export interface RawFile "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
           "name": "RawFile",
           "preserveMemberOrder": false,
@@ -4166,10 +4167,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RequestBody "
+              "text": "export interface RequestBody "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
           "releaseTag": "Public",
           "name": "RequestBody",
           "preserveMemberOrder": false,
@@ -4243,10 +4244,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RequestData "
+              "text": "export interface RequestData "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
           "name": "RequestData",
           "preserveMemberOrder": false,
@@ -4607,10 +4608,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RequestHeaders "
+              "text": "export interface RequestHeaders "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
           "name": "RequestHeaders",
           "preserveMemberOrder": false,
@@ -4706,7 +4707,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class RequestManager extends "
+              "text": "export declare class RequestManager extends "
             },
             {
               "kind": "Reference",
@@ -4718,7 +4719,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
           "name": "RequestManager",
           "preserveMemberOrder": false,
@@ -5242,10 +5243,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RequestManager "
+              "text": "export interface RequestManager "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
           "name": "RequestManager",
           "preserveMemberOrder": false,
@@ -5566,10 +5567,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare const enum RequestMethod "
+              "text": "export declare const enum RequestMethod "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
           "name": "RequestMethod",
           "preserveMemberOrder": false,
@@ -5688,7 +5689,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type RequestOptions = "
+              "text": "export type RequestOptions = "
             },
             {
               "kind": "Reference",
@@ -5722,7 +5723,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "RequestOptions",
           "typeTokenRange": {
@@ -5737,7 +5738,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class REST extends "
+              "text": "export declare class REST extends "
             },
             {
               "kind": "Reference",
@@ -5749,7 +5750,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "REST",
           "preserveMemberOrder": false,
@@ -6469,10 +6470,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface REST "
+              "text": "export interface REST "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "REST",
           "preserveMemberOrder": false,
@@ -6793,10 +6794,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare const enum RESTEvents "
+              "text": "export declare const enum RESTEvents "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "releaseTag": "Public",
           "name": "RESTEvents",
           "preserveMemberOrder": false,
@@ -6936,10 +6937,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RestEvents "
+              "text": "export interface RestEvents "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "RestEvents",
           "preserveMemberOrder": false,
@@ -7242,10 +7243,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RESTOptions "
+              "text": "export interface RESTOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
           "name": "RESTOptions",
           "preserveMemberOrder": false,
@@ -7703,7 +7704,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type RouteLike = "
+              "text": "export type RouteLike = "
             },
             {
               "kind": "Content",
@@ -7714,7 +7715,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
           "name": "RouteLike",
           "typeTokenRange": {
@@ -7729,7 +7730,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type StickerExtension = "
+              "text": "export type StickerExtension = "
             },
             {
               "kind": "Content",
@@ -7749,7 +7750,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
           "releaseTag": "Public",
           "name": "StickerExtension",
           "typeTokenRange": {
@@ -7771,7 +7772,7 @@
               "text": "string"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
