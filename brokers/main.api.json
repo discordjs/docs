@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/brokers",
   "kind": "Package",
   "canonicalReference": "@discordjs/brokers!",
   "docComment": "",
@@ -179,10 +180,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface BaseBrokerOptions "
+              "text": "export interface BaseBrokerOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
           "releaseTag": "Public",
           "name": "BaseBrokerOptions",
           "preserveMemberOrder": false,
@@ -346,7 +347,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare abstract class BaseRedisBroker<TEvents extends "
+              "text": "export declare abstract class BaseRedisBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -397,7 +398,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/redis/BaseRedis.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -980,7 +981,7 @@
               "text": ") => unknown;\n}"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultBrokerOptions",
@@ -1021,7 +1022,7 @@
               "text": ") => unknown;\n}"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultRPCRedisBrokerOptions",
@@ -1037,7 +1038,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface IBaseBroker<TEvents extends "
+              "text": "export interface IBaseBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1053,7 +1054,7 @@
               "text": "> "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1213,7 +1214,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface IPubSubBroker<TEvents extends "
+              "text": "export interface IPubSubBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1264,7 +1265,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1388,7 +1389,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface IRPCBroker<TEvents extends "
+              "text": "export interface IRPCBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1452,7 +1453,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1603,7 +1604,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class PubSubRedisBroker<TEvents extends "
+              "text": "export declare class PubSubRedisBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1645,7 +1646,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/redis/PubSubRedis.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1867,7 +1868,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RedisBrokerOptions extends "
+              "text": "export interface RedisBrokerOptions extends "
             },
             {
               "kind": "Reference",
@@ -1879,7 +1880,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/redis/BaseRedis.ts",
           "releaseTag": "Public",
           "name": "RedisBrokerOptions",
           "preserveMemberOrder": false,
@@ -1927,7 +1928,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class RPCRedisBroker<TEvents extends "
+              "text": "export declare class RPCRedisBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1982,7 +1983,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2350,7 +2351,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RPCRedisBrokerOptions extends "
+              "text": "export interface RPCRedisBrokerOptions extends "
             },
             {
               "kind": "Reference",
@@ -2362,7 +2363,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
           "releaseTag": "Public",
           "name": "RPCRedisBrokerOptions",
           "preserveMemberOrder": false,
@@ -2409,7 +2410,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ToEventMap<TRecord extends "
+              "text": "export type ToEventMap<TRecord extends "
             },
             {
               "kind": "Reference",
@@ -2490,7 +2491,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
           "releaseTag": "Public",
           "name": "ToEventMap",
           "typeParameters": [
