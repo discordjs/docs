@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/util",
   "kind": "Package",
   "canonicalReference": "@discordjs/util!",
   "docComment": "",
@@ -179,7 +180,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type Awaitable<T> = "
+              "text": "export type Awaitable<T> = "
             },
             {
               "kind": "Reference",
@@ -195,7 +196,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/types.ts",
           "releaseTag": "Public",
           "name": "Awaitable",
           "typeParameters": [
@@ -223,7 +224,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function calculateShardId(guildId: "
+              "text": "export declare function calculateShardId(guildId: "
             },
             {
               "kind": "Content",
@@ -250,7 +251,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/functions/calculateShardId.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -284,10 +285,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface Equatable<T> "
+              "text": "export interface Equatable<T> "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/Equatable.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -360,7 +361,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function isEquatable(maybeEquatable: "
+              "text": "export declare function isEquatable(maybeEquatable: "
             },
             {
               "kind": "Content",
@@ -393,7 +394,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/Equatable.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -419,7 +420,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function isJSONEncodable(maybeEncodable: "
+              "text": "export declare function isJSONEncodable(maybeEncodable: "
             },
             {
               "kind": "Content",
@@ -452,7 +453,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/JSONEncodable.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -478,10 +479,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface JSONEncodable<T> "
+              "text": "export interface JSONEncodable<T> "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/JSONEncodable.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -537,7 +538,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function lazy<T>(cb: "
+              "text": "export declare function lazy<T>(cb: "
             },
             {
               "kind": "Content",
@@ -556,7 +557,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/functions/lazy.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -595,7 +596,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function range(range: "
+              "text": "export declare function range(range: "
             },
             {
               "kind": "Reference",
@@ -624,7 +625,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/functions/range.ts",
           "returnTypeTokenRange": {
             "startIndex": 4,
             "endIndex": 6
@@ -650,10 +651,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface RangeOptions "
+              "text": "export interface RangeOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/functions/range.ts",
           "releaseTag": "Public",
           "name": "RangeOptions",
           "preserveMemberOrder": false,
