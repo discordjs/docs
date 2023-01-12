@@ -2969,7 +2969,7 @@
             },
             {
               "kind": "Content",
-              "text": "typeof "
+              "text": "(typeof "
             },
             {
               "kind": "Reference",
@@ -2978,7 +2978,7 @@
             },
             {
               "kind": "Content",
-              "text": "[keyof typeof "
+              "text": ")[keyof typeof "
             },
             {
               "kind": "Reference",
