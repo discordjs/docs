@@ -750,7 +750,7 @@
             },
             {
               "kind": "Content",
-              "text": "typeof "
+              "text": "(typeof "
             },
             {
               "kind": "Reference",
@@ -759,7 +759,7 @@
             },
             {
               "kind": "Content",
-              "text": "[number]"
+              "text": ")[number]"
             },
             {
               "kind": "Content",
