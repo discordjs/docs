@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/voice",
   "kind": "Package",
   "canonicalReference": "@discordjs/voice!",
   "docComment": "",
@@ -179,7 +180,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class AudioPlayer extends "
+              "text": "export declare class AudioPlayer extends "
             },
             {
               "kind": "Reference",
@@ -191,7 +192,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "AudioPlayer",
           "preserveMemberOrder": false,
@@ -535,7 +536,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface AudioPlayer extends "
+              "text": "export interface AudioPlayer extends "
             },
             {
               "kind": "Reference",
@@ -547,7 +548,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "AudioPlayer",
           "preserveMemberOrder": false,
@@ -948,10 +949,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface AudioPlayerBufferingState "
+              "text": "export interface AudioPlayerBufferingState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerBufferingState",
           "preserveMemberOrder": false,
@@ -1112,7 +1113,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class AudioPlayerError extends "
+              "text": "export declare class AudioPlayerError extends "
             },
             {
               "kind": "Reference",
@@ -1124,7 +1125,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayerError.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerError",
           "preserveMemberOrder": false,
@@ -1223,10 +1224,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface AudioPlayerIdleState "
+              "text": "export interface AudioPlayerIdleState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerIdleState",
           "preserveMemberOrder": false,
@@ -1269,10 +1270,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface AudioPlayerPausedState "
+              "text": "export interface AudioPlayerPausedState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerPausedState",
           "preserveMemberOrder": false,
@@ -1442,10 +1443,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface AudioPlayerPlayingState "
+              "text": "export interface AudioPlayerPlayingState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerPlayingState",
           "preserveMemberOrder": false,
@@ -1606,7 +1607,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type AudioPlayerState = "
+              "text": "export type AudioPlayerState = "
             },
             {
               "kind": "Reference",
@@ -1645,7 +1646,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerState",
           "typeTokenRange": {
@@ -1660,10 +1661,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare enum AudioPlayerStatus "
+              "text": "export declare enum AudioPlayerStatus "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "AudioPlayerStatus",
           "preserveMemberOrder": false,
@@ -1782,7 +1783,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class AudioReceiveStream extends "
+              "text": "export declare class AudioReceiveStream extends "
             },
             {
               "kind": "Reference",
@@ -1794,7 +1795,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
           "releaseTag": "Public",
           "name": "AudioReceiveStream",
           "preserveMemberOrder": false,
@@ -1958,7 +1959,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface AudioReceiveStreamOptions extends "
+              "text": "export interface AudioReceiveStreamOptions extends "
             },
             {
               "kind": "Reference",
@@ -1970,7 +1971,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
           "releaseTag": "Public",
           "name": "AudioReceiveStreamOptions",
           "preserveMemberOrder": false,
@@ -2018,7 +2019,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class AudioResource<T = "
+              "text": "export declare class AudioResource<T = "
             },
             {
               "kind": "Content",
@@ -2029,7 +2030,7 @@
               "text": "> "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioResource.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2520,7 +2521,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function createAudioPlayer(options?: "
+              "text": "export declare function createAudioPlayer(options?: "
             },
             {
               "kind": "Reference",
@@ -2541,7 +2542,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -2567,10 +2568,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface CreateAudioPlayerOptions "
+              "text": "export interface CreateAudioPlayerOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "CreateAudioPlayerOptions",
           "preserveMemberOrder": false,
@@ -2648,7 +2649,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function createAudioResource<T>(input: "
+              "text": "export declare function createAudioResource<T>(input: "
             },
             {
               "kind": "Reference",
@@ -2726,7 +2727,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioResource.ts",
           "returnTypeTokenRange": {
             "startIndex": 15,
             "endIndex": 17
@@ -2773,7 +2774,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function createAudioResource<T extends "
+              "text": "export declare function createAudioResource<T extends "
             },
             {
               "kind": "Content",
@@ -2832,7 +2833,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioResource.ts",
           "returnTypeTokenRange": {
             "startIndex": 11,
             "endIndex": 13
@@ -2879,10 +2880,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface CreateAudioResourceOptions<T> "
+              "text": "export interface CreateAudioResourceOptions<T> "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioResource.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -3019,7 +3020,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function createDefaultAudioReceiveStreamOptions(): "
+              "text": "export declare function createDefaultAudioReceiveStreamOptions(): "
             },
             {
               "kind": "Reference",
@@ -3031,7 +3032,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -3048,10 +3049,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface CreateVoiceConnectionOptions "
+              "text": "export interface CreateVoiceConnectionOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/joinVoiceChannel.ts",
           "releaseTag": "Public",
           "name": "CreateVoiceConnectionOptions",
           "preserveMemberOrder": false,
@@ -3121,7 +3122,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function demuxProbe(stream: "
+              "text": "export declare function demuxProbe(stream: "
             },
             {
               "kind": "Reference",
@@ -3176,7 +3177,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/demuxProbe.ts",
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3218,7 +3219,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type DiscordGatewayAdapterCreator = "
+              "text": "export type DiscordGatewayAdapterCreator = "
             },
             {
               "kind": "Content",
@@ -3243,7 +3244,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/adapter.ts",
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterCreator",
           "typeTokenRange": {
@@ -3258,10 +3259,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface DiscordGatewayAdapterImplementerMethods "
+              "text": "export interface DiscordGatewayAdapterImplementerMethods "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/adapter.ts",
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterImplementerMethods",
           "preserveMemberOrder": false,
@@ -3349,10 +3350,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface DiscordGatewayAdapterLibraryMethods "
+              "text": "export interface DiscordGatewayAdapterLibraryMethods "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/adapter.ts",
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterLibraryMethods",
           "preserveMemberOrder": false,
@@ -3487,7 +3488,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type EndBehavior = "
+              "text": "export type EndBehavior = "
             },
             {
               "kind": "Content",
@@ -3525,7 +3526,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
           "releaseTag": "Public",
           "name": "EndBehavior",
           "typeTokenRange": {
@@ -3540,10 +3541,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare enum EndBehaviorType "
+              "text": "export declare enum EndBehaviorType "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
           "releaseTag": "Public",
           "name": "EndBehaviorType",
           "preserveMemberOrder": false,
@@ -3620,7 +3621,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function entersState(target: "
+              "text": "export declare function entersState(target: "
             },
             {
               "kind": "Reference",
@@ -3676,7 +3677,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/entersState.ts",
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3718,7 +3719,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function entersState(target: "
+              "text": "export declare function entersState(target: "
             },
             {
               "kind": "Reference",
@@ -3774,7 +3775,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/entersState.ts",
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3816,7 +3817,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function generateDependencyReport(): "
+              "text": "export declare function generateDependencyReport(): "
             },
             {
               "kind": "Content",
@@ -3827,7 +3828,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/generateDependencyReport.ts",
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -3844,7 +3845,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function getGroups(): "
+              "text": "export declare function getGroups(): "
             },
             {
               "kind": "Reference",
@@ -3878,7 +3879,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/DataStore.ts",
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 7
@@ -3895,7 +3896,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function getVoiceConnection(guildId: "
+              "text": "export declare function getVoiceConnection(guildId: "
             },
             {
               "kind": "Content",
@@ -3927,7 +3928,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/DataStore.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 7
@@ -3961,7 +3962,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function getVoiceConnections(group?: "
+              "text": "export declare function getVoiceConnections(group?: "
             },
             {
               "kind": "Content",
@@ -3994,7 +3995,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/DataStore.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -4020,7 +4021,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function getVoiceConnections(group: "
+              "text": "export declare function getVoiceConnections(group: "
             },
             {
               "kind": "Content",
@@ -4053,7 +4054,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/DataStore.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -4079,10 +4080,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface JoinConfig "
+              "text": "export interface JoinConfig "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/DataStore.ts",
           "releaseTag": "Public",
           "name": "JoinConfig",
           "preserveMemberOrder": false,
@@ -4232,7 +4233,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function joinVoiceChannel(options: "
+              "text": "export declare function joinVoiceChannel(options: "
             },
             {
               "kind": "Reference",
@@ -4253,6 +4254,10 @@
               "text": "): "
             },
             {
+              "kind": "Content",
+              "text": "import(\"./VoiceConnection\")."
+            },
+            {
               "kind": "Reference",
               "text": "VoiceConnection",
               "canonicalReference": "@discordjs/voice!VoiceConnection:class"
@@ -4262,10 +4267,10 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/joinVoiceChannel.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
-            "endIndex": 6
+            "endIndex": 7
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4288,10 +4293,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface JoinVoiceChannelOptions "
+              "text": "export interface JoinVoiceChannelOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/joinVoiceChannel.ts",
           "releaseTag": "Public",
           "name": "JoinVoiceChannelOptions",
           "preserveMemberOrder": false,
@@ -4441,10 +4446,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare enum NoSubscriberBehavior "
+              "text": "export declare enum NoSubscriberBehavior "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
           "name": "NoSubscriberBehavior",
           "preserveMemberOrder": false,
@@ -4521,10 +4526,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class PlayerSubscription "
+              "text": "export declare class PlayerSubscription "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/PlayerSubscription.ts",
           "releaseTag": "Public",
           "name": "PlayerSubscription",
           "preserveMemberOrder": false,
@@ -4679,10 +4684,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface ProbeInfo "
+              "text": "export interface ProbeInfo "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/demuxProbe.ts",
           "releaseTag": "Public",
           "name": "ProbeInfo",
           "preserveMemberOrder": false,
@@ -4753,7 +4758,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SpeakingMap extends "
+              "text": "export declare class SpeakingMap extends "
             },
             {
               "kind": "Reference",
@@ -4765,7 +4770,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/SpeakingMap.ts",
           "releaseTag": "Public",
           "name": "SpeakingMap",
           "preserveMemberOrder": false,
@@ -4913,7 +4918,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SpeakingMap extends "
+              "text": "export interface SpeakingMap extends "
             },
             {
               "kind": "Reference",
@@ -4925,7 +4930,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/SpeakingMap.ts",
           "releaseTag": "Public",
           "name": "SpeakingMap",
           "preserveMemberOrder": false,
@@ -5067,7 +5072,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SSRCMap extends "
+              "text": "export declare class SSRCMap extends "
             },
             {
               "kind": "Reference",
@@ -5079,7 +5084,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/SSRCMap.ts",
           "releaseTag": "Public",
           "name": "SSRCMap",
           "preserveMemberOrder": false,
@@ -5265,7 +5270,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SSRCMap extends "
+              "text": "export interface SSRCMap extends "
             },
             {
               "kind": "Reference",
@@ -5277,7 +5282,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/SSRCMap.ts",
           "releaseTag": "Public",
           "name": "SSRCMap",
           "preserveMemberOrder": false,
@@ -5516,10 +5521,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare enum StreamType "
+              "text": "export declare enum StreamType "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/audio/TransformerGraph.ts",
           "releaseTag": "Public",
           "name": "StreamType",
           "preserveMemberOrder": false,
@@ -5638,7 +5643,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function validateDiscordOpusHead(opusHead: "
+              "text": "export declare function validateDiscordOpusHead(opusHead: "
             },
             {
               "kind": "Reference",
@@ -5658,7 +5663,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/demuxProbe.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -5691,7 +5696,7 @@
               "text": "string"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
@@ -5707,7 +5712,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class VoiceConnection extends "
+              "text": "export declare class VoiceConnection extends "
             },
             {
               "kind": "Reference",
@@ -5719,7 +5724,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnection",
           "preserveMemberOrder": false,
@@ -6362,7 +6367,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceConnection extends "
+              "text": "export interface VoiceConnection extends "
             },
             {
               "kind": "Reference",
@@ -6374,7 +6379,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnection",
           "preserveMemberOrder": false,
@@ -6705,10 +6710,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceConnectionConnectingState "
+              "text": "export interface VoiceConnectionConnectingState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionConnectingState",
           "preserveMemberOrder": false,
@@ -6839,10 +6844,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceConnectionDestroyedState "
+              "text": "export interface VoiceConnectionDestroyedState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDestroyedState",
           "preserveMemberOrder": false,
@@ -6885,10 +6890,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceConnectionDisconnectedBaseState "
+              "text": "export interface VoiceConnectionDisconnectedBaseState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedBaseState",
           "preserveMemberOrder": false,
@@ -6991,7 +6996,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceConnectionDisconnectedOtherState extends "
+              "text": "export interface VoiceConnectionDisconnectedOtherState extends "
             },
             {
               "kind": "Reference",
@@ -7003,7 +7008,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedOtherState",
           "preserveMemberOrder": false,
@@ -7073,7 +7078,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type VoiceConnectionDisconnectedState = "
+              "text": "export type VoiceConnectionDisconnectedState = "
             },
             {
               "kind": "Reference",
@@ -7094,7 +7099,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedState",
           "typeTokenRange": {
@@ -7109,7 +7114,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceConnectionDisconnectedWebSocketState extends "
+              "text": "export interface VoiceConnectionDisconnectedWebSocketState extends "
             },
             {
               "kind": "Reference",
@@ -7121,7 +7126,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedWebSocketState",
           "preserveMemberOrder": false,
@@ -7196,10 +7201,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare enum VoiceConnectionDisconnectReason "
+              "text": "export declare enum VoiceConnectionDisconnectReason "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectReason",
           "preserveMemberOrder": false,
@@ -7297,10 +7302,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceConnectionReadyState "
+              "text": "export interface VoiceConnectionReadyState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionReadyState",
           "preserveMemberOrder": false,
@@ -7431,10 +7436,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceConnectionSignallingState "
+              "text": "export interface VoiceConnectionSignallingState "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionSignallingState",
           "preserveMemberOrder": false,
@@ -7537,7 +7542,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type VoiceConnectionState = "
+              "text": "export type VoiceConnectionState = "
             },
             {
               "kind": "Reference",
@@ -7585,7 +7590,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionState",
           "typeTokenRange": {
@@ -7600,10 +7605,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare enum VoiceConnectionStatus "
+              "text": "export declare enum VoiceConnectionStatus "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
           "name": "VoiceConnectionStatus",
           "preserveMemberOrder": false,
@@ -7722,10 +7727,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class VoiceReceiver "
+              "text": "export declare class VoiceReceiver "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/VoiceReceiver.ts",
           "releaseTag": "Beta",
           "name": "VoiceReceiver",
           "preserveMemberOrder": false,
@@ -7984,10 +7989,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface VoiceUserData "
+              "text": "export interface VoiceUserData "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/receive/SSRCMap.ts",
           "releaseTag": "Public",
           "name": "VoiceUserData",
           "preserveMemberOrder": false,
