@@ -173,107 +173,6 @@
       "preserveMemberOrder": false,
       "members": [
         {
-          "kind": "Interface",
-          "canonicalReference": "@discordjs/ws!BootstrapOptions:interface",
-          "docComment": "/**\n * Options for bootstrapping the worker\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "interface BootstrapOptions "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
-          "name": "BootstrapOptions",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!BootstrapOptions#forwardEvents:member",
-              "docComment": "/**\n * Shard events to just arbitrarily forward to the parent thread for the manager to emit Note: By default, this will include ALL events you most likely want to handle dispatch within the worker itself\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "forwardEvents?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "WebSocketShardEvents",
-                  "canonicalReference": "@discordjs/ws!WebSocketShardEvents:enum"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": true,
-              "releaseTag": "Public",
-              "name": "forwardEvents",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
-              }
-            },
-            {
-              "kind": "MethodSignature",
-              "canonicalReference": "@discordjs/ws!BootstrapOptions#shardCallback:member(1)",
-              "docComment": "/**\n * Function to call when a shard is created for additional setup\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "shardCallback?(shard: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "WebSocketShard",
-                  "canonicalReference": "@discordjs/ws!WebSocketShard:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Awaitable",
-                  "canonicalReference": "@discordjs/util!Awaitable:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<void>"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isOptional": true,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "shard",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "name": "shardCallback"
-            }
-          ],
-          "extendsTokenRanges": []
-        },
-        {
           "kind": "Enum",
           "canonicalReference": "@discordjs/ws!CloseCodes:enum",
           "docComment": "",
@@ -3666,35 +3565,6 @@
               "name": "destroy"
             },
             {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/ws!WebSocketShard#id:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly id: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "id",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
               "kind": "Method",
               "canonicalReference": "@discordjs/ws!WebSocketShard#send:member(1)",
               "docComment": "",
@@ -3770,6 +3640,36 @@
               "isOptional": false,
               "releaseTag": "Public",
               "name": "status",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/ws!WebSocketShard#strategy:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly strategy: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IContextFetchingStrategy",
+                  "canonicalReference": "@discordjs/ws!IContextFetchingStrategy:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "strategy",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4317,329 +4217,6 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@discordjs/ws!WorkerBootstrapper:class",
-          "docComment": "/**\n * Utility class for bootstraping a worker thread to be used for sharding\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare class WorkerBootstrapper "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
-          "name": "WorkerBootstrapper",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/ws!WorkerBootstrapper:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `WorkerBootstrapper` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor();"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": []
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/ws!WorkerBootstrapper#bootstrap:member(1)",
-              "docComment": "/**\n * Bootstraps the worker thread with the provided options\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "bootstrap(options?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Readonly",
-                  "canonicalReference": "!Readonly:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "BootstrapOptions",
-                  "canonicalReference": "@discordjs/ws!BootstrapOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<void>"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 8
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "bootstrap"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/ws!WorkerBootstrapper#connect:member(1)",
-              "docComment": "/**\n * Helper method to initiate a shard's connection process\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "protected connect(shardId: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<void>"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
-              },
-              "releaseTag": "Public",
-              "isProtected": true,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "shardId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "connect"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/ws!WorkerBootstrapper#data:member",
-              "docComment": "/**\n * The data passed to the worker thread\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "protected readonly data: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "WorkerData",
-                  "canonicalReference": "@discordjs/ws!WorkerData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "data",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": true
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/ws!WorkerBootstrapper#destroy:member(1)",
-              "docComment": "/**\n * Helper method to destroy a shard\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "protected destroy(shardId: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", options?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "WebSocketShardDestroyOptions",
-                  "canonicalReference": "@discordjs/ws!WebSocketShardDestroyOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<void>"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "isProtected": true,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "shardId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "name": "destroy"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/ws!WorkerBootstrapper#setupThreadEvents:member(1)",
-              "docComment": "/**\n * Helper method to attach event listeners to the parentPort\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "protected setupThreadEvents(): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": true,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "name": "setupThreadEvents"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/ws!WorkerBootstrapper#shards:member",
-              "docComment": "/**\n * The shards that are managed by this worker\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "protected readonly shards: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<number, "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "WebSocketShard",
-                  "canonicalReference": "@discordjs/ws!WebSocketShard:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "shards",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              },
-              "isStatic": false,
-              "isProtected": true
-            }
-          ],
-          "implementsTokenRanges": []
-        },
-        {
-          "kind": "Class",
           "canonicalReference": "@discordjs/ws!WorkerContextFetchingStrategy:class",
           "docComment": "",
           "excerptTokens": [
@@ -5057,16 +4634,7 @@
             },
             {
               "kind": "Content",
-              "text": " | null;\n    shardId: number;\n} | {\n    op: "
-            },
-            {
-              "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.WorkerReady",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.WorkerReady:member"
-            },
-            {
-              "kind": "Content",
-              "text": ";\n}"
+              "text": " | null;\n    shardId: number;\n}"
             },
             {
               "kind": "Content",
@@ -5078,7 +4646,7 @@
           "name": "WorkerRecievePayload",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 24
+            "endIndex": 22
           }
         },
         {
@@ -5242,27 +4810,6 @@
               },
               "releaseTag": "Public",
               "name": "WaitForIdentify"
-            },
-            {
-              "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.WorkerReady:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "WorkerReady = "
-                },
-                {
-                  "kind": "Content",
-                  "text": "7"
-                }
-              ],
-              "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "name": "WorkerReady"
             }
           ]
         },
@@ -5905,33 +5452,6 @@
               "isOptional": false,
               "releaseTag": "Public",
               "name": "shardsPerWorker",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/ws!WorkerShardingStrategyOptions#workerPath:member",
-              "docComment": "/**\n * Path to the worker file to use. The worker requires quite a bit of setup, it is recommended you leverage the {@link WorkerBootstrapper} class.\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "workerPath?: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": true,
-              "releaseTag": "Public",
-              "name": "workerPath",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
