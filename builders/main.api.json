@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/builders",
   "kind": "Package",
   "canonicalReference": "@discordjs/builders!",
   "docComment": "",
@@ -179,7 +180,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ActionRowBuilder<T extends "
+              "text": "export declare class ActionRowBuilder<T extends "
             },
             {
               "kind": "Reference",
@@ -231,7 +232,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/ActionRow.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -495,7 +496,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type AnyAPIActionRowComponent = "
+              "text": "export type AnyAPIActionRowComponent = "
             },
             {
               "kind": "Reference",
@@ -525,7 +526,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/Component.ts",
           "releaseTag": "Public",
           "name": "AnyAPIActionRowComponent",
           "typeTokenRange": {
@@ -540,7 +541,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type AnyComponentBuilder = "
+              "text": "export type AnyComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -561,7 +562,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/ActionRow.ts",
           "releaseTag": "Public",
           "name": "AnyComponentBuilder",
           "typeTokenRange": {
@@ -576,10 +577,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare abstract class ApplicationCommandNumericOptionMinMaxValueMixin "
+              "text": "export declare abstract class ApplicationCommandNumericOptionMinMaxValueMixin "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/mixins/ApplicationCommandNumericOptionMinMaxValueMixin.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandNumericOptionMinMaxValueMixin",
           "preserveMemberOrder": false,
@@ -746,7 +747,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ApplicationCommandOptionAllowedChannelTypes = "
+              "text": "export type ApplicationCommandOptionAllowedChannelTypes = "
             },
             {
               "kind": "Content",
@@ -766,7 +767,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/mixins/ApplicationCommandOptionChannelTypesMixin.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandOptionAllowedChannelTypes",
           "typeTokenRange": {
@@ -781,7 +782,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare abstract class ApplicationCommandOptionBase extends "
+              "text": "export declare abstract class ApplicationCommandOptionBase extends "
             },
             {
               "kind": "Reference",
@@ -793,7 +794,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/mixins/ApplicationCommandOptionBase.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandOptionBase",
           "preserveMemberOrder": false,
@@ -979,10 +980,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ApplicationCommandOptionChannelTypesMixin "
+              "text": "export declare class ApplicationCommandOptionChannelTypesMixin "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/mixins/ApplicationCommandOptionChannelTypesMixin.ts",
           "releaseTag": "Public",
           "name": "ApplicationCommandOptionChannelTypesMixin",
           "preserveMemberOrder": false,
@@ -1083,7 +1084,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ApplicationCommandOptionWithChoicesAndAutocompleteMixin<T extends "
+              "text": "export declare class ApplicationCommandOptionWithChoicesAndAutocompleteMixin<T extends "
             },
             {
               "kind": "Content",
@@ -1094,7 +1095,7 @@
               "text": "> "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/mixins/ApplicationCommandOptionWithChoicesAndAutocompleteMixin.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1387,7 +1388,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class BaseSelectMenuBuilder<SelectMenuType extends "
+              "text": "export declare class BaseSelectMenuBuilder<SelectMenuType extends "
             },
             {
               "kind": "Reference",
@@ -1412,7 +1413,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/selectMenu/BaseSelectMenu.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1709,7 +1710,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ButtonBuilder extends "
+              "text": "export declare class ButtonBuilder extends "
             },
             {
               "kind": "Reference",
@@ -1734,7 +1735,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/button/Button.ts",
           "releaseTag": "Public",
           "name": "ButtonBuilder",
           "preserveMemberOrder": false,
@@ -2114,7 +2115,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ChannelSelectMenuBuilder extends "
+              "text": "export declare class ChannelSelectMenuBuilder extends "
             },
             {
               "kind": "Reference",
@@ -2139,7 +2140,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/selectMenu/ChannelSelectMenu.ts",
           "releaseTag": "Public",
           "name": "ChannelSelectMenuBuilder",
           "preserveMemberOrder": false,
@@ -2354,17 +2355,821 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!ComponentAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare namespace Assertions$4 "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
+          "excerptTokens": [],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "None",
           "name": "ComponentAssertions",
           "preserveMemberOrder": false,
-          "members": []
+          "members": [
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.buttonLabelValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "buttonLabelValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "buttonLabelValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.buttonStyleValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "buttonStyleValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NativeEnumValidator",
+                  "canonicalReference": "@sapphire/shapeshift!NativeEnumValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<typeof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ButtonStyle",
+                  "canonicalReference": "discord-api-types!ButtonStyle:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "buttonStyleValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 6
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.channelTypesValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "channelTypesValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ArrayValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ArrayValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ChannelType",
+                  "canonicalReference": "discord-api-types!ChannelType:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[], "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ChannelType",
+                  "canonicalReference": "discord-api-types!ChannelType:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "channelTypesValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 8
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.customIdValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "customIdValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "customIdValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.defaultValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "defaultValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "BooleanValidator",
+                  "canonicalReference": "@sapphire/shapeshift!BooleanValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<boolean>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "defaultValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.disabledValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "disabledValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "BooleanValidator",
+                  "canonicalReference": "@sapphire/shapeshift!BooleanValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<boolean>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "disabledValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.emojiValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "emojiValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ObjectValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ObjectValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    name?: string | undefined;\n    id?: string | undefined;\n    animated?: boolean | undefined;\n}, import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    name?: string | undefined;\n    id?: string | undefined;\n    animated?: boolean | undefined;\n}>>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "emojiValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 6
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.jsonOptionValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "jsonOptionValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ObjectValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ObjectValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n        name?: string | undefined;\n        id?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}, import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    label: string;\n    value: string;\n    description: string | undefined;\n    emoji: import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n        name?: string | undefined;\n        id?: string | undefined;\n        animated?: boolean | undefined;\n    }> | undefined;\n    default: boolean | undefined;\n}>>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "jsonOptionValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 10
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.labelValueDescriptionValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "labelValueDescriptionValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "labelValueDescriptionValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.minMaxValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "minMaxValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NumberValidator",
+                  "canonicalReference": "@sapphire/shapeshift!NumberValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "minMaxValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.optionsLengthValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "optionsLengthValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NumberValidator",
+                  "canonicalReference": "@sapphire/shapeshift!NumberValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "optionsLengthValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.optionsValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "optionsValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ArrayValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ArrayValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringSelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[], "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringSelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "optionsValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 8
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.optionValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "optionValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "InstanceValidator",
+                  "canonicalReference": "@sapphire/shapeshift!InstanceValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringSelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "optionValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 6
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.placeholderValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "placeholderValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "placeholderValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.urlValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "urlValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "urlValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.validateRequiredButtonParameters:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateRequiredButtonParameters(style?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ButtonStyle",
+                  "canonicalReference": "discord-api-types!ButtonStyle:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", label?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", emoji?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIMessageComponentEmoji",
+                  "canonicalReference": "discord-api-types!APIMessageComponentEmoji:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", customId?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", url?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 11,
+                "endIndex": 12
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "style",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "label",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "emoji",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 6
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "customId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 7,
+                    "endIndex": 8
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "url",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 9,
+                    "endIndex": 10
+                  },
+                  "isOptional": true
+                }
+              ],
+              "name": "validateRequiredButtonParameters"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.validateRequiredSelectMenuOptionParameters:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateRequiredSelectMenuOptionParameters(label?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", value?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "label",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": true
+                }
+              ],
+              "name": "validateRequiredSelectMenuOptionParameters"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ComponentAssertions.validateRequiredSelectMenuParameters:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateRequiredSelectMenuParameters(options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringSelectMenuOptionBuilder",
+                  "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", customId?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/components/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 3
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "customId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ],
+              "name": "validateRequiredSelectMenuParameters"
+            }
+          ]
         },
         {
           "kind": "Class",
@@ -2373,7 +3178,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare abstract class ComponentBuilder<DataType extends "
+              "text": "export declare abstract class ComponentBuilder<DataType extends "
             },
             {
               "kind": "Reference",
@@ -2451,7 +3256,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/Component.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2583,17 +3388,299 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare namespace Assertions "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
+          "excerptTokens": [],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "None",
           "name": "ContextMenuCommandAssertions",
           "preserveMemberOrder": false,
-          "members": []
+          "members": [
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateDefaultMemberPermissions:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateDefaultMemberPermissions(permissions: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string | null | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/contextMenuCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "permissions",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateDefaultMemberPermissions"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateDefaultPermission:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateDefaultPermission(value: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/contextMenuCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateDefaultPermission"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateDMPermission:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateDMPermission(value: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/contextMenuCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateDMPermission"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateName:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateName(name: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/contextMenuCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "name",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateName"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateRequiredParameters:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateRequiredParameters(name: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", type: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/contextMenuCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "name",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "type",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateRequiredParameters"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ContextMenuCommandAssertions.validateType:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateType(type: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/contextMenuCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "type",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateType"
+            }
+          ]
         },
         {
           "kind": "Class",
@@ -2602,10 +3689,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ContextMenuCommandBuilder "
+              "text": "export declare class ContextMenuCommandBuilder "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/contextMenuCommands/ContextMenuCommandBuilder.ts",
           "releaseTag": "Public",
           "name": "ContextMenuCommandBuilder",
           "preserveMemberOrder": false,
@@ -3189,7 +4276,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ContextMenuCommandType = "
+              "text": "export type ContextMenuCommandType = "
             },
             {
               "kind": "Reference",
@@ -3210,7 +4297,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/contextMenuCommands/ContextMenuCommandBuilder.ts",
           "releaseTag": "Public",
           "name": "ContextMenuCommandType",
           "typeTokenRange": {
@@ -3225,7 +4312,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function createComponentBuilder<T extends "
+              "text": "export declare function createComponentBuilder<T extends "
             },
             {
               "kind": "Content",
@@ -3280,7 +4367,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/Components.ts",
           "returnTypeTokenRange": {
             "startIndex": 10,
             "endIndex": 12
@@ -3319,7 +4406,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function createComponentBuilder<C extends "
+              "text": "export declare function createComponentBuilder<C extends "
             },
             {
               "kind": "Reference",
@@ -3356,7 +4443,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/Components.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -3402,7 +4489,7 @@
               "text": "() => boolean"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/validation.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "disableValidators",
@@ -3415,17 +4502,677 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!EmbedAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare namespace Assertions$5 "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
+          "excerptTokens": [],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "None",
           "name": "EmbedAssertions",
           "preserveMemberOrder": false,
-          "members": []
+          "members": [
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.authorNamePredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "authorNamePredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string | null>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "authorNamePredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.colorPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "colorPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number | [\n    number,\n    number,\n    number\n] | null>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "colorPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.descriptionPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "descriptionPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string | null>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "descriptionPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.embedAuthorPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "embedAuthorPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ObjectValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ObjectValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    name: string | null;\n    iconURL: string | null | undefined;\n    url: string | null | undefined;\n}, import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    name: string | null;\n    iconURL: string | null | undefined;\n    url: string | null | undefined;\n}>>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "embedAuthorPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 6
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.embedFieldPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "embedFieldPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ObjectValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ObjectValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    name: string;\n    value: string;\n    inline: boolean | undefined;\n}, import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    name: string;\n    value: string;\n    inline: boolean | undefined;\n}>>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "embedFieldPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 6
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.embedFieldsArrayPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "embedFieldsArrayPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ArrayValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ArrayValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    name: string;\n    value: string;\n    inline: boolean | undefined;\n}>[], import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    name: string;\n    value: string;\n    inline: boolean | undefined;\n}>>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "embedFieldsArrayPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 8
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.embedFooterPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "embedFooterPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ObjectValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ObjectValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    text: string | null;\n    iconURL: string | null | undefined;\n}, import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n    text: string | null;\n    iconURL: string | null | undefined;\n}>>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "embedFooterPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 6
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.fieldInlinePredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fieldInlinePredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<boolean | undefined>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "fieldInlinePredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.fieldLengthPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fieldLengthPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NumberValidator",
+                  "canonicalReference": "@sapphire/shapeshift!NumberValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "fieldLengthPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.fieldNamePredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fieldNamePredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "fieldNamePredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.fieldValuePredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fieldValuePredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "fieldValuePredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.footerTextPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "footerTextPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string | null>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "footerTextPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.imageURLPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "imageURLPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string | null | undefined>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "imageURLPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.RGBPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RGBPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NumberValidator",
+                  "canonicalReference": "@sapphire/shapeshift!NumberValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "RGBPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.timestampPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "timestampPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Date",
+                  "canonicalReference": "!Date:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | null>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "timestampPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 6
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.titlePredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "titlePredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string | null>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "titlePredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.urlPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "urlPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string | null | undefined>"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "urlPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!EmbedAssertions.validateFieldLength:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateFieldLength(amountAdding: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", fields?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIEmbedField",
+                  "canonicalReference": "discord-api-types!APIEmbedField:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/messages/embed/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "amountAdding",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "fields",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ],
+              "name": "validateFieldLength"
+            }
+          ]
         },
         {
           "kind": "TypeAlias",
@@ -3434,7 +5181,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type EmbedAuthorData = "
+              "text": "export type EmbedAuthorData = "
             },
             {
               "kind": "Reference",
@@ -3447,8 +5194,8 @@
             },
             {
               "kind": "Reference",
-              "text": "Omit",
-              "canonicalReference": "!Omit:type"
+              "text": "Pick",
+              "canonicalReference": "!Pick:type"
             },
             {
               "kind": "Content",
@@ -3461,19 +5208,37 @@
             },
             {
               "kind": "Content",
-              "text": ", 'icon_url' | 'proxy_icon_url'>"
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Exclude",
+              "canonicalReference": "!Exclude:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<keyof "
+            },
+            {
+              "kind": "Reference",
+              "text": "APIEmbedAuthor",
+              "canonicalReference": "discord-api-types!APIEmbedAuthor:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'icon_url' | 'proxy_icon_url'>>"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
           "name": "EmbedAuthorData",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 7
+            "endIndex": 11
           }
         },
         {
@@ -3483,12 +5248,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type EmbedAuthorOptions = "
+              "text": "export type EmbedAuthorOptions = "
             },
             {
               "kind": "Reference",
-              "text": "Omit",
-              "canonicalReference": "!Omit:type"
+              "text": "Pick",
+              "canonicalReference": "!Pick:type"
             },
             {
               "kind": "Content",
@@ -3501,19 +5266,37 @@
             },
             {
               "kind": "Content",
-              "text": ", 'proxyIconURL'>"
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Exclude",
+              "canonicalReference": "!Exclude:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<keyof "
+            },
+            {
+              "kind": "Reference",
+              "text": "EmbedAuthorData",
+              "canonicalReference": "@discordjs/builders!EmbedAuthorData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'proxyIconURL'>>"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
           "name": "EmbedAuthorOptions",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 9
           }
         },
         {
@@ -3523,10 +5306,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class EmbedBuilder "
+              "text": "export declare class EmbedBuilder "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
           "name": "EmbedBuilder",
           "preserveMemberOrder": false,
@@ -4284,7 +6067,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type EmbedFooterData = "
+              "text": "export type EmbedFooterData = "
             },
             {
               "kind": "Reference",
@@ -4297,8 +6080,8 @@
             },
             {
               "kind": "Reference",
-              "text": "Omit",
-              "canonicalReference": "!Omit:type"
+              "text": "Pick",
+              "canonicalReference": "!Pick:type"
             },
             {
               "kind": "Content",
@@ -4311,19 +6094,37 @@
             },
             {
               "kind": "Content",
-              "text": ", 'icon_url' | 'proxy_icon_url'>"
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Exclude",
+              "canonicalReference": "!Exclude:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<keyof "
+            },
+            {
+              "kind": "Reference",
+              "text": "APIEmbedFooter",
+              "canonicalReference": "discord-api-types!APIEmbedFooter:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'icon_url' | 'proxy_icon_url'>>"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
           "name": "EmbedFooterData",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 7
+            "endIndex": 11
           }
         },
         {
@@ -4333,12 +6134,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type EmbedFooterOptions = "
+              "text": "export type EmbedFooterOptions = "
             },
             {
               "kind": "Reference",
-              "text": "Omit",
-              "canonicalReference": "!Omit:type"
+              "text": "Pick",
+              "canonicalReference": "!Pick:type"
             },
             {
               "kind": "Content",
@@ -4351,19 +6152,37 @@
             },
             {
               "kind": "Content",
-              "text": ", 'proxyIconURL'>"
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Exclude",
+              "canonicalReference": "!Exclude:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<keyof "
+            },
+            {
+              "kind": "Reference",
+              "text": "EmbedFooterData",
+              "canonicalReference": "@discordjs/builders!EmbedFooterData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'proxyIconURL'>>"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
           "name": "EmbedFooterOptions",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 9
           }
         },
         {
@@ -4373,12 +6192,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface EmbedImageData extends "
+              "text": "export interface EmbedImageData extends "
             },
             {
               "kind": "Reference",
-              "text": "Omit",
-              "canonicalReference": "!Omit:type"
+              "text": "Pick",
+              "canonicalReference": "!Pick:type"
             },
             {
               "kind": "Content",
@@ -4391,14 +6210,32 @@
             },
             {
               "kind": "Content",
-              "text": ", 'proxy_url'>"
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Exclude",
+              "canonicalReference": "!Exclude:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<keyof "
+            },
+            {
+              "kind": "Reference",
+              "text": "APIEmbedImage",
+              "canonicalReference": "discord-api-types!APIEmbedImage:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'proxy_url'>>"
             },
             {
               "kind": "Content",
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
           "name": "EmbedImageData",
           "preserveMemberOrder": false,
@@ -4434,7 +6271,7 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 5
+              "endIndex": 9
             }
           ]
         },
@@ -4445,7 +6282,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function embedLength(data: "
+              "text": "export declare function embedLength(data: "
             },
             {
               "kind": "Reference",
@@ -4465,7 +6302,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/componentUtil.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -4498,7 +6335,7 @@
               "text": "() => boolean"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/validation.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "enableValidators",
@@ -4514,10 +6351,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface IconData "
+              "text": "export interface IconData "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
           "name": "IconData",
           "preserveMemberOrder": false,
@@ -4593,7 +6430,7 @@
               "text": "() => boolean"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/validation.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "isValidationEnabled",
@@ -4609,10 +6446,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface MappedComponentTypes "
+              "text": "export interface MappedComponentTypes "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/Components.ts",
           "releaseTag": "Public",
           "name": "MappedComponentTypes",
           "preserveMemberOrder": false,
@@ -4936,7 +6773,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class MentionableSelectMenuBuilder extends "
+              "text": "export declare class MentionableSelectMenuBuilder extends "
             },
             {
               "kind": "Reference",
@@ -4961,7 +6798,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/selectMenu/MentionableSelectMenu.ts",
           "releaseTag": "Public",
           "name": "MentionableSelectMenuBuilder",
           "preserveMemberOrder": false,
@@ -5026,7 +6863,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type MessageActionRowComponentBuilder = "
+              "text": "export type MessageActionRowComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -5083,7 +6920,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/ActionRow.ts",
           "releaseTag": "Public",
           "name": "MessageActionRowComponentBuilder",
           "typeTokenRange": {
@@ -5098,7 +6935,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type MessageComponentBuilder = "
+              "text": "export type MessageComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -5128,7 +6965,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/ActionRow.ts",
           "releaseTag": "Public",
           "name": "MessageComponentBuilder",
           "typeTokenRange": {
@@ -5143,7 +6980,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ModalActionRowComponentBuilder = "
+              "text": "export type ModalActionRowComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -5155,7 +6992,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/ActionRow.ts",
           "releaseTag": "Public",
           "name": "ModalActionRowComponentBuilder",
           "typeTokenRange": {
@@ -5167,17 +7004,222 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!ModalAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare namespace Assertions$2 "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
+          "excerptTokens": [],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "None",
           "name": "ModalAssertions",
           "preserveMemberOrder": false,
-          "members": []
+          "members": [
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ModalAssertions.componentsValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "componentsValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ArrayValidator",
+                  "canonicalReference": "@sapphire/shapeshift!ArrayValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<[\n    "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ActionRowBuilder",
+                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<import(\"../../components/ActionRow.js\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AnyComponentBuilder",
+                  "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">,\n    ..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ActionRowBuilder",
+                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<import(\"../../components/ActionRow.js\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AnyComponentBuilder",
+                  "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">[]\n], "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ActionRowBuilder",
+                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<import(\"../../components/ActionRow.js\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AnyComponentBuilder",
+                  "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                }
+              ],
+              "fileUrlPath": "src/interactions/modals/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "componentsValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 16
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!ModalAssertions.titleValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "titleValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/interactions/modals/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "titleValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!ModalAssertions.validateRequiredParameters:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateRequiredParameters(customId?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", title?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", components?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ActionRowBuilder",
+                  "canonicalReference": "@discordjs/builders!ActionRowBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ModalActionRowComponentBuilder",
+                  "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/modals/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 10,
+                "endIndex": 11
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "customId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "title",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "components",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 9
+                  },
+                  "isOptional": true
+                }
+              ],
+              "name": "validateRequiredParameters"
+            }
+          ]
         },
         {
           "kind": "Class",
@@ -5186,7 +7228,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class ModalBuilder implements "
+              "text": "export declare class ModalBuilder implements "
             },
             {
               "kind": "Reference",
@@ -5211,7 +7253,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/modals/Modal.ts",
           "releaseTag": "Public",
           "name": "ModalBuilder",
           "preserveMemberOrder": false,
@@ -5646,7 +7688,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ModalComponentBuilder = "
+              "text": "export type ModalComponentBuilder = "
             },
             {
               "kind": "Reference",
@@ -5676,7 +7718,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/ActionRow.ts",
           "releaseTag": "Public",
           "name": "ModalComponentBuilder",
           "typeTokenRange": {
@@ -5691,7 +7733,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function normalizeArray<T>(arr: "
+              "text": "export declare function normalizeArray<T>(arr: "
             },
             {
               "kind": "Reference",
@@ -5715,7 +7757,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/normalizeArray.ts",
           "returnTypeTokenRange": {
             "startIndex": 4,
             "endIndex": 5
@@ -5754,18 +7796,18 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type RestOrArray<T> = "
+              "text": "export type RestOrArray<T> = "
             },
             {
               "kind": "Content",
-              "text": "T[] | [T[]]"
+              "text": "T[] | [\n    T[]\n]"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/normalizeArray.ts",
           "releaseTag": "Public",
           "name": "RestOrArray",
           "typeParameters": [
@@ -5793,18 +7835,18 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type RGBTuple = "
+              "text": "export type RGBTuple = "
             },
             {
               "kind": "Content",
-              "text": "[red: number, green: number, blue: number]"
+              "text": "[\n    /*red*/ number,\n    /*green*/ number,\n    /*blue*/ number\n]"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
           "name": "RGBTuple",
           "typeTokenRange": {
@@ -5819,7 +7861,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class RoleSelectMenuBuilder extends "
+              "text": "export declare class RoleSelectMenuBuilder extends "
             },
             {
               "kind": "Reference",
@@ -5844,7 +7886,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/selectMenu/RoleSelectMenu.ts",
           "releaseTag": "Public",
           "name": "RoleSelectMenuBuilder",
           "preserveMemberOrder": false,
@@ -5909,10 +7951,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SharedNameAndDescription "
+              "text": "export declare class SharedNameAndDescription "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/mixins/NameAndDescription.ts",
           "releaseTag": "Public",
           "name": "SharedNameAndDescription",
           "preserveMemberOrder": false,
@@ -6371,7 +8413,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SharedSlashCommandOptions<ShouldOmitSubcommandFunctions = "
+              "text": "export declare class SharedSlashCommandOptions<ShouldOmitSubcommandFunctions = "
             },
             {
               "kind": "Content",
@@ -6382,7 +8424,7 @@
               "text": "> "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/mixins/SharedSlashCommandOptions.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -6446,12 +8488,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -6461,7 +8512,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 11
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6525,12 +8576,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -6540,7 +8600,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 11
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6604,12 +8664,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -6619,7 +8688,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 11
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6648,8 +8717,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -6662,12 +8731,30 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'addChoices'> | "
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandIntegerOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'addChoices'>> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -6680,7 +8767,25 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'setAutocomplete'> | "
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandIntegerOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'setAutocomplete'>> | "
                 },
                 {
                   "kind": "Reference",
@@ -6702,8 +8807,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -6716,12 +8821,30 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'addChoices'> | "
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandIntegerOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'addChoices'>> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -6734,7 +8857,25 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'setAutocomplete'> | "
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandIntegerOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'setAutocomplete'>> | "
                 },
                 {
                   "kind": "Reference",
@@ -6755,12 +8896,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -6769,8 +8919,8 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 24,
-                "endIndex": 27
+                "startIndex": 40,
+                "endIndex": 45
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6780,7 +8930,7 @@
                   "parameterName": "input",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 23
+                    "endIndex": 39
                   },
                   "isOptional": false
                 }
@@ -6834,12 +8984,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -6849,7 +9008,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 11
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6878,8 +9037,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -6892,12 +9051,30 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'addChoices'> | "
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandNumberOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'addChoices'>> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -6910,7 +9087,25 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'setAutocomplete'> | "
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandNumberOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'setAutocomplete'>> | "
                 },
                 {
                   "kind": "Reference",
@@ -6932,8 +9127,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -6946,12 +9141,30 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'addChoices'> | "
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandNumberOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'addChoices'>> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -6964,7 +9177,25 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'setAutocomplete'> | "
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandNumberOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'setAutocomplete'>> | "
                 },
                 {
                   "kind": "Reference",
@@ -6985,12 +9216,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -6999,8 +9239,8 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 24,
-                "endIndex": 27
+                "startIndex": 40,
+                "endIndex": 45
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -7010,7 +9250,7 @@
                   "parameterName": "input",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 23
+                    "endIndex": 39
                   },
                   "isOptional": false
                 }
@@ -7064,12 +9304,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -7079,7 +9328,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 11
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -7108,8 +9357,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -7122,12 +9371,30 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'addChoices'> | "
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandStringOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'addChoices'>> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -7140,7 +9407,25 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'setAutocomplete'> | "
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandStringOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'setAutocomplete'>> | "
                 },
                 {
                   "kind": "Reference",
@@ -7162,8 +9447,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -7176,12 +9461,30 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'addChoices'> | "
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandStringOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'addChoices'>> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
@@ -7194,7 +9497,25 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'setAutocomplete'> | "
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandStringOption",
+                  "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'setAutocomplete'>> | "
                 },
                 {
                   "kind": "Reference",
@@ -7215,12 +9536,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -7229,8 +9559,8 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 24,
-                "endIndex": 27
+                "startIndex": 40,
+                "endIndex": 45
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -7240,7 +9570,7 @@
                   "parameterName": "input",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 23
+                    "endIndex": 39
                   },
                   "isOptional": false
                 }
@@ -7294,12 +9624,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Omit",
-                  "canonicalReference": "!Omit:type"
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
                 },
                 {
                   "kind": "Content",
-                  "text": "<this, \"addSubcommand\" | \"addSubcommandGroup\"> : this"
+                  "text": "<this, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Exclude",
+                  "canonicalReference": "!Exclude:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<keyof this, \"addSubcommand\" | \"addSubcommandGroup\">> : this"
                 },
                 {
                   "kind": "Content",
@@ -7309,7 +9648,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 11
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -7368,17 +9707,772 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!SlashCommandAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare namespace Assertions$1 "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
+          "excerptTokens": [],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "None",
           "name": "SlashCommandAssertions",
           "preserveMemberOrder": false,
-          "members": []
+          "members": [
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.assertReturnOfBuilder:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function assertReturnOfBuilder<T extends "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ApplicationCommandOptionBase",
+                  "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandSubcommandBuilder",
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SlashCommandSubcommandGroupBuilder",
+                  "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">(input: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", ExpectedInstanceOf: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "new () => T"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 11,
+                "endIndex": 12
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "input",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 7,
+                    "endIndex": 8
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "ExpectedInstanceOf",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 9,
+                    "endIndex": 10
+                  },
+                  "isOptional": false
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "T",
+                  "constraintTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 6
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "name": "assertReturnOfBuilder"
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.localizationMapPredicate:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "localizationMapPredicate: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnionValidator",
+                  "canonicalReference": "@sapphire/shapeshift!UnionValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UndefinedToOptional",
+                  "canonicalReference": "@sapphire/shapeshift!UndefinedToOptional:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial",
+                  "canonicalReference": "!Partial:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Record",
+                  "canonicalReference": "!Record:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<\"id\" | \"en-US\" | \"en-GB\" | \"bg\" | \"zh-CN\" | \"zh-TW\" | \"hr\" | \"cs\" | \"da\" | \"nl\" | \"fi\" | \"fr\" | \"de\" | \"el\" | \"hi\" | \"hu\" | \"it\" | \"ja\" | \"ko\" | \"lt\" | \"no\" | \"pl\" | \"pt-BR\" | \"ro\" | \"ru\" | \"es-ES\" | \"sv-SE\" | \"th\" | \"tr\" | \"uk\" | \"vi\", string | null>>> | null | undefined>"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "localizationMapPredicate",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 10
+              }
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateChoicesLength:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateChoicesLength(amountAdding: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", choices?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIApplicationCommandOptionChoice",
+                  "canonicalReference": "discord-api-types!APIApplicationCommandOptionChoice:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "amountAdding",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "choices",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ],
+              "name": "validateChoicesLength"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateDefaultMemberPermissions:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateDefaultMemberPermissions(permissions: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string | null | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "permissions",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateDefaultMemberPermissions"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateDefaultPermission:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateDefaultPermission(value: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateDefaultPermission"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateDescription:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateDescription(description: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "description",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateDescription"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateDMPermission:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateDMPermission(value: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateDMPermission"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateLocale:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateLocale(locale: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Locale",
+                  "canonicalReference": "discord-api-types!Locale:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "locale",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateLocale"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateLocalizationMap:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateLocalizationMap(value: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateLocalizationMap"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateMaxOptionsLength:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateMaxOptionsLength(options: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateMaxOptionsLength"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateName:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateName(name: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "name",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateName"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateNSFW:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateNSFW(value: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "value",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateNSFW"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateRequired:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateRequired(required: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "required",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateRequired"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!SlashCommandAssertions.validateRequiredParameters:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateRequiredParameters(name: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", description: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ToAPIApplicationCommandOptions",
+                  "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/interactions/slashCommands/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 9
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "name",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "description",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 7
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "validateRequiredParameters"
+            }
+          ]
         },
         {
           "kind": "Class",
@@ -7387,7 +10481,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandAttachmentOption extends "
+              "text": "export declare class SlashCommandAttachmentOption extends "
             },
             {
               "kind": "Reference",
@@ -7399,7 +10493,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/attachment.ts",
           "releaseTag": "Public",
           "name": "SlashCommandAttachmentOption",
           "preserveMemberOrder": false,
@@ -7479,7 +10573,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandBooleanOption extends "
+              "text": "export declare class SlashCommandBooleanOption extends "
             },
             {
               "kind": "Reference",
@@ -7491,7 +10585,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/boolean.ts",
           "releaseTag": "Public",
           "name": "SlashCommandBooleanOption",
           "preserveMemberOrder": false,
@@ -7571,10 +10665,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandBuilder "
+              "text": "export declare class SlashCommandBuilder "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandBuilder.ts",
           "releaseTag": "Public",
           "name": "SlashCommandBuilder",
           "preserveMemberOrder": false,
@@ -8228,7 +11322,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandBuilder extends "
+              "text": "export interface SlashCommandBuilder extends "
             },
             {
               "kind": "Reference",
@@ -8249,7 +11343,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandBuilder.ts",
           "releaseTag": "Public",
           "name": "SlashCommandBuilder",
           "preserveMemberOrder": false,
@@ -8272,7 +11366,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandChannelOption extends "
+              "text": "export declare class SlashCommandChannelOption extends "
             },
             {
               "kind": "Reference",
@@ -8284,7 +11378,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/channel.ts",
           "releaseTag": "Public",
           "name": "SlashCommandChannelOption",
           "preserveMemberOrder": false,
@@ -8364,7 +11458,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandChannelOption extends "
+              "text": "export interface SlashCommandChannelOption extends "
             },
             {
               "kind": "Reference",
@@ -8376,7 +11470,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/channel.ts",
           "releaseTag": "Public",
           "name": "SlashCommandChannelOption",
           "preserveMemberOrder": false,
@@ -8395,7 +11489,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandIntegerOption extends "
+              "text": "export declare class SlashCommandIntegerOption extends "
             },
             {
               "kind": "Reference",
@@ -8416,7 +11510,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/integer.ts",
           "releaseTag": "Public",
           "name": "SlashCommandIntegerOption",
           "preserveMemberOrder": false,
@@ -8595,7 +11689,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandIntegerOption extends "
+              "text": "export interface SlashCommandIntegerOption extends "
             },
             {
               "kind": "Reference",
@@ -8620,7 +11714,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/integer.ts",
           "releaseTag": "Public",
           "name": "SlashCommandIntegerOption",
           "preserveMemberOrder": false,
@@ -8643,7 +11737,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandMentionableOption extends "
+              "text": "export declare class SlashCommandMentionableOption extends "
             },
             {
               "kind": "Reference",
@@ -8655,7 +11749,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/mentionable.ts",
           "releaseTag": "Public",
           "name": "SlashCommandMentionableOption",
           "preserveMemberOrder": false,
@@ -8735,7 +11829,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandNumberOption extends "
+              "text": "export declare class SlashCommandNumberOption extends "
             },
             {
               "kind": "Reference",
@@ -8756,7 +11850,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/number.ts",
           "releaseTag": "Public",
           "name": "SlashCommandNumberOption",
           "preserveMemberOrder": false,
@@ -8935,7 +12029,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandNumberOption extends "
+              "text": "export interface SlashCommandNumberOption extends "
             },
             {
               "kind": "Reference",
@@ -8960,7 +12054,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/number.ts",
           "releaseTag": "Public",
           "name": "SlashCommandNumberOption",
           "preserveMemberOrder": false,
@@ -8983,7 +12077,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandOptionsOnlyBuilder extends "
+              "text": "export interface SlashCommandOptionsOnlyBuilder extends "
             },
             {
               "kind": "Reference",
@@ -9026,7 +12120,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandBuilder.ts",
           "releaseTag": "Public",
           "name": "SlashCommandOptionsOnlyBuilder",
           "preserveMemberOrder": false,
@@ -9053,7 +12147,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandRoleOption extends "
+              "text": "export declare class SlashCommandRoleOption extends "
             },
             {
               "kind": "Reference",
@@ -9065,7 +12159,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/role.ts",
           "releaseTag": "Public",
           "name": "SlashCommandRoleOption",
           "preserveMemberOrder": false,
@@ -9145,7 +12239,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandStringOption extends "
+              "text": "export declare class SlashCommandStringOption extends "
             },
             {
               "kind": "Reference",
@@ -9157,7 +12251,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/string.ts",
           "releaseTag": "Public",
           "name": "SlashCommandStringOption",
           "preserveMemberOrder": false,
@@ -9389,7 +12483,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandStringOption extends "
+              "text": "export interface SlashCommandStringOption extends "
             },
             {
               "kind": "Reference",
@@ -9405,7 +12499,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/string.ts",
           "releaseTag": "Public",
           "name": "SlashCommandStringOption",
           "preserveMemberOrder": false,
@@ -9424,7 +12518,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandSubcommandBuilder implements "
+              "text": "export declare class SlashCommandSubcommandBuilder implements "
             },
             {
               "kind": "Reference",
@@ -9436,7 +12530,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandSubcommands.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandBuilder",
           "preserveMemberOrder": false,
@@ -9579,7 +12673,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandSubcommandBuilder extends "
+              "text": "export interface SlashCommandSubcommandBuilder extends "
             },
             {
               "kind": "Reference",
@@ -9604,7 +12698,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandSubcommands.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandBuilder",
           "preserveMemberOrder": false,
@@ -9627,7 +12721,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandSubcommandGroupBuilder implements "
+              "text": "export declare class SlashCommandSubcommandGroupBuilder implements "
             },
             {
               "kind": "Reference",
@@ -9639,7 +12733,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandSubcommands.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandGroupBuilder",
           "preserveMemberOrder": false,
@@ -9852,7 +12946,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandSubcommandGroupBuilder extends "
+              "text": "export interface SlashCommandSubcommandGroupBuilder extends "
             },
             {
               "kind": "Reference",
@@ -9864,7 +12958,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandSubcommands.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandGroupBuilder",
           "preserveMemberOrder": false,
@@ -9883,16 +12977,34 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface SlashCommandSubcommandsOnlyBuilder extends "
+              "text": "export interface SlashCommandSubcommandsOnlyBuilder extends "
             },
             {
               "kind": "Reference",
-              "text": "Omit",
-              "canonicalReference": "!Omit:type"
+              "text": "Pick",
+              "canonicalReference": "!Pick:type"
             },
             {
               "kind": "Content",
               "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "SlashCommandBuilder",
+              "canonicalReference": "@discordjs/builders!SlashCommandBuilder:class"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Exclude",
+              "canonicalReference": "!Exclude:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<keyof "
             },
             {
               "kind": "Reference",
@@ -9919,14 +13031,14 @@
             },
             {
               "kind": "Content",
-              "text": ", 'options'>>"
+              "text": ", 'options'>>>"
             },
             {
               "kind": "Content",
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandBuilder.ts",
           "releaseTag": "Public",
           "name": "SlashCommandSubcommandsOnlyBuilder",
           "preserveMemberOrder": false,
@@ -9934,7 +13046,7 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 9
+              "endIndex": 13
             }
           ]
         },
@@ -9945,7 +13057,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class SlashCommandUserOption extends "
+              "text": "export declare class SlashCommandUserOption extends "
             },
             {
               "kind": "Reference",
@@ -9957,7 +13069,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/options/user.ts",
           "releaseTag": "Public",
           "name": "SlashCommandUserOption",
           "preserveMemberOrder": false,
@@ -10037,7 +13149,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class StringSelectMenuBuilder extends "
+              "text": "export declare class StringSelectMenuBuilder extends "
             },
             {
               "kind": "Reference",
@@ -10062,7 +13174,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/selectMenu/StringSelectMenu.ts",
           "releaseTag": "Public",
           "name": "StringSelectMenuBuilder",
           "preserveMemberOrder": false,
@@ -10434,7 +13546,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class StringSelectMenuOptionBuilder implements "
+              "text": "export declare class StringSelectMenuOptionBuilder implements "
             },
             {
               "kind": "Reference",
@@ -10459,7 +13571,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/selectMenu/StringSelectMenuOption.ts",
           "releaseTag": "Public",
           "name": "StringSelectMenuOptionBuilder",
           "preserveMemberOrder": false,
@@ -10832,17 +13944,324 @@
           "kind": "Namespace",
           "canonicalReference": "@discordjs/builders!TextInputAssertions:namespace",
           "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "declare namespace Assertions$3 "
-            }
-          ],
-          "fileUrlPath": "dist/index.d.ts",
-          "releaseTag": "Public",
+          "excerptTokens": [],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "None",
           "name": "TextInputAssertions",
           "preserveMemberOrder": false,
-          "members": []
+          "members": [
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!TextInputAssertions.labelValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "labelValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/components/textInput/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "labelValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!TextInputAssertions.maxLengthValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "maxLengthValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NumberValidator",
+                  "canonicalReference": "@sapphire/shapeshift!NumberValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number>"
+                }
+              ],
+              "fileUrlPath": "src/components/textInput/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "maxLengthValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!TextInputAssertions.minLengthValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "minLengthValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NumberValidator",
+                  "canonicalReference": "@sapphire/shapeshift!NumberValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number>"
+                }
+              ],
+              "fileUrlPath": "src/components/textInput/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "minLengthValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!TextInputAssertions.placeholderValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "placeholderValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/components/textInput/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "placeholderValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!TextInputAssertions.requiredValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "requiredValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "BooleanValidator",
+                  "canonicalReference": "@sapphire/shapeshift!BooleanValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<boolean>"
+                }
+              ],
+              "fileUrlPath": "src/components/textInput/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "requiredValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!TextInputAssertions.textInputStyleValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "textInputStyleValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NativeEnumValidator",
+                  "canonicalReference": "@sapphire/shapeshift!NativeEnumValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<typeof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "TextInputStyle",
+                  "canonicalReference": "discord-api-types!TextInputStyle:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                }
+              ],
+              "fileUrlPath": "src/components/textInput/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "textInputStyleValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 6
+              }
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@discordjs/builders!TextInputAssertions.validateRequiredParameters:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function validateRequiredParameters(customId?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", style?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "TextInputStyle",
+                  "canonicalReference": "discord-api-types!TextInputStyle:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", label?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "src/components/textInput/Assertions.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "customId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "style",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "label",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 6
+                  },
+                  "isOptional": true
+                }
+              ],
+              "name": "validateRequiredParameters"
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@discordjs/builders!TextInputAssertions.valueValidator:var",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "valueValidator: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "import(\"@sapphire/shapeshift\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StringValidator",
+                  "canonicalReference": "@sapphire/shapeshift!StringValidator:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string>"
+                }
+              ],
+              "fileUrlPath": "src/components/textInput/Assertions.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "valueValidator",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            }
+          ]
         },
         {
           "kind": "Class",
@@ -10851,7 +14270,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class TextInputBuilder extends "
+              "text": "export declare class TextInputBuilder extends "
             },
             {
               "kind": "Reference",
@@ -10916,7 +14335,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/textInput/TextInput.ts",
           "releaseTag": "Public",
           "name": "TextInputBuilder",
           "preserveMemberOrder": false,
@@ -11464,10 +14883,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "interface ToAPIApplicationCommandOptions "
+              "text": "export interface ToAPIApplicationCommandOptions "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/interactions/slashCommands/SlashCommandBuilder.ts",
           "releaseTag": "Public",
           "name": "ToAPIApplicationCommandOptions",
           "preserveMemberOrder": false,
@@ -11511,7 +14930,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class UserSelectMenuBuilder extends "
+              "text": "export declare class UserSelectMenuBuilder extends "
             },
             {
               "kind": "Reference",
@@ -11536,7 +14955,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/components/selectMenu/UserSelectMenu.ts",
           "releaseTag": "Public",
           "name": "UserSelectMenuBuilder",
           "preserveMemberOrder": false,
@@ -11608,7 +15027,7 @@
               "text": "string"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
