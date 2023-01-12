@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/proxy",
   "kind": "Package",
   "canonicalReference": "@discordjs/proxy!",
   "docComment": "",
@@ -179,7 +180,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function populateAbortErrorResponse(res: "
+              "text": "export declare function populateAbortErrorResponse(res: "
             },
             {
               "kind": "Reference",
@@ -199,7 +200,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/responseHelpers.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -225,7 +226,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function populateGeneralErrorResponse(res: "
+              "text": "export declare function populateGeneralErrorResponse(res: "
             },
             {
               "kind": "Reference",
@@ -263,7 +264,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/responseHelpers.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -297,7 +298,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function populateRatelimitErrorResponse(res: "
+              "text": "export declare function populateRatelimitErrorResponse(res: "
             },
             {
               "kind": "Reference",
@@ -326,7 +327,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/responseHelpers.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -360,7 +361,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function populateSuccessfulResponse(res: "
+              "text": "export declare function populateSuccessfulResponse(res: "
             },
             {
               "kind": "Reference",
@@ -394,7 +395,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/responseHelpers.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 7
@@ -428,7 +429,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function proxyRequests(rest: "
+              "text": "export declare function proxyRequests(rest: "
             },
             {
               "kind": "Reference",
@@ -449,7 +450,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/handlers/proxyRequests.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -475,7 +476,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type RequestHandler = "
+              "text": "export type RequestHandler = "
             },
             {
               "kind": "Content",
@@ -513,7 +514,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/util/util.ts",
           "releaseTag": "Public",
           "name": "RequestHandler",
           "typeTokenRange": {
