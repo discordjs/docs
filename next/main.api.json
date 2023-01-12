@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/next",
   "kind": "Package",
   "canonicalReference": "@discordjs/next!",
   "docComment": "",
@@ -186,7 +187,7 @@
               "text": "string"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
