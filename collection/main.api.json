@@ -160,6 +160,7 @@
       "reportUnsupportedHtmlElements": false
     }
   },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/collection",
   "kind": "Package",
   "canonicalReference": "@discordjs/collection!",
   "docComment": "",
@@ -179,7 +180,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare class Collection<K, V> extends "
+              "text": "export declare class Collection<K, V> extends "
             },
             {
               "kind": "Reference",
@@ -195,7 +196,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/collection.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -5047,7 +5048,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "type ReadonlyCollection<K, V> = "
+              "text": "export type ReadonlyCollection<K, V> = "
             },
             {
               "kind": "Reference",
@@ -5081,7 +5082,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/collection.ts",
           "releaseTag": "Public",
           "name": "ReadonlyCollection",
           "typeParameters": [
@@ -5127,7 +5128,7 @@
               "text": "string"
             }
           ],
-          "fileUrlPath": "dist/index.d.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
