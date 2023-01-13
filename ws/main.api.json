@@ -4963,12 +4963,12 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@discordjs/ws!WorkerRecievePayload:type",
+          "canonicalReference": "@discordjs/ws!WorkerReceivePayload:type",
           "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type WorkerRecievePayload = "
+              "text": "export type WorkerReceivePayload = "
             },
             {
               "kind": "Content",
@@ -4985,8 +4985,8 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.Event",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Event:member"
+              "text": "WorkerReceivePayloadOp.Event",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.Event:member"
             },
             {
               "kind": "Content",
@@ -4994,8 +4994,8 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.FetchStatusResponse",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.FetchStatusResponse:member"
+              "text": "WorkerReceivePayloadOp.FetchStatusResponse",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.FetchStatusResponse:member"
             },
             {
               "kind": "Content",
@@ -5012,8 +5012,8 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.RetrieveSessionInfo",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.RetrieveSessionInfo:member"
+              "text": "WorkerReceivePayloadOp.RetrieveSessionInfo",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.RetrieveSessionInfo:member"
             },
             {
               "kind": "Content",
@@ -5021,8 +5021,8 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.WaitForIdentify",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.WaitForIdentify:member"
+              "text": "WorkerReceivePayloadOp.WaitForIdentify",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.WaitForIdentify:member"
             },
             {
               "kind": "Content",
@@ -5030,8 +5030,8 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.Connected",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Connected:member"
+              "text": "WorkerReceivePayloadOp.Connected",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.Connected:member"
             },
             {
               "kind": "Content",
@@ -5039,8 +5039,8 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.Destroyed",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Destroyed:member"
+              "text": "WorkerReceivePayloadOp.Destroyed",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.Destroyed:member"
             },
             {
               "kind": "Content",
@@ -5048,8 +5048,8 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.UpdateSessionInfo",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.UpdateSessionInfo:member"
+              "text": "WorkerReceivePayloadOp.UpdateSessionInfo",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.UpdateSessionInfo:member"
             },
             {
               "kind": "Content",
@@ -5066,8 +5066,8 @@
             },
             {
               "kind": "Reference",
-              "text": "WorkerRecievePayloadOp.WorkerReady",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.WorkerReady:member"
+              "text": "WorkerReceivePayloadOp.WorkerReady",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.WorkerReady:member"
             },
             {
               "kind": "Content",
@@ -5080,7 +5080,7 @@
           ],
           "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
           "releaseTag": "Public",
-          "name": "WorkerRecievePayload",
+          "name": "WorkerReceivePayload",
           "typeTokenRange": {
             "startIndex": 1,
             "endIndex": 24
@@ -5088,22 +5088,22 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp:enum",
+          "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp:enum",
           "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum WorkerRecievePayloadOp "
+              "text": "export declare enum WorkerReceivePayloadOp "
             }
           ],
           "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
           "releaseTag": "Public",
-          "name": "WorkerRecievePayloadOp",
+          "name": "WorkerReceivePayloadOp",
           "preserveMemberOrder": false,
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Connected:member",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.Connected:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5124,7 +5124,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Destroyed:member",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.Destroyed:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5145,7 +5145,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.Event:member",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.Event:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5166,7 +5166,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.FetchStatusResponse:member",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.FetchStatusResponse:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5187,7 +5187,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.RetrieveSessionInfo:member",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.RetrieveSessionInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5208,7 +5208,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.UpdateSessionInfo:member",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.UpdateSessionInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5229,7 +5229,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.WaitForIdentify:member",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.WaitForIdentify:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5250,7 +5250,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerRecievePayloadOp.WorkerReady:member",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.WorkerReady:member",
               "docComment": "",
               "excerptTokens": [
                 {
