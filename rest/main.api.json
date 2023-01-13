@@ -230,7 +230,7 @@
             },
             {
               "kind": "Content",
-              "text": "readonly [\"png\", \"json\"]"
+              "text": "readonly [\"png\", \"json\", \"gif\"]"
             }
           ],
           "fileUrlPath": "src/lib/utils/constants.ts",
