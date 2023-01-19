@@ -2081,24 +2081,20 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "DefaultUserAgent = "
+              "text": "DefaultUserAgent: "
             },
             {
               "kind": "Content",
-              "text": "\"DiscordBot (https://discord.js.org, [VI]{{inject}}[/VI])\""
+              "text": "`DiscordBot (https://discord.js.org, ${string})`"
             }
           ],
           "fileUrlPath": "src/lib/utils/constants.ts",
-          "initializerTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          },
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultUserAgent",
           "variableTypeTokenRange": {
-            "startIndex": 0,
-            "endIndex": 0
+            "startIndex": 1,
+            "endIndex": 2
           }
         },
         {
