@@ -378,24 +378,20 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "DefaultDeviceProperty = "
+              "text": "DefaultDeviceProperty: "
             },
             {
               "kind": "Content",
-              "text": "\"@discordjs/ws [VI]{{inject}}[/VI]\""
+              "text": "`@discordjs/ws ${string}`"
             }
           ],
           "fileUrlPath": "src/utils/constants.ts",
-          "initializerTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          },
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultDeviceProperty",
           "variableTypeTokenRange": {
-            "startIndex": 0,
-            "endIndex": 0
+            "startIndex": 1,
+            "endIndex": 2
           }
         },
         {
@@ -409,7 +405,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    readonly shardCount: null;\n    readonly shardIds: null;\n    readonly largeThreshold: null;\n    readonly initialPresence: null;\n    readonly identifyProperties: {\n        readonly browser: \"@discordjs/ws [VI]{{inject}}[/VI]\";\n        readonly device: \"@discordjs/ws [VI]{{inject}}[/VI]\";\n        readonly os: "
+              "text": "{\n    readonly shardCount: null;\n    readonly shardIds: null;\n    readonly largeThreshold: null;\n    readonly initialPresence: null;\n    readonly identifyProperties: {\n        readonly browser: `@discordjs/ws ${string}`;\n        readonly device: `@discordjs/ws ${string}`;\n        readonly os: "
             },
             {
               "kind": "Reference",
