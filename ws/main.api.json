@@ -4319,7 +4319,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/ws!WorkerBootstrapper:class",
-          "docComment": "/**\n * Utility class for bootstraping a worker thread to be used for sharding\n */\n",
+          "docComment": "/**\n * Utility class for bootstrapping a worker thread to be used for sharding\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
