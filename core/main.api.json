@@ -3917,6 +3917,68 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/core!ChannelsAPI#getWebhooks:member(1)",
+              "docComment": "/**\n * Fetches the webhooks of a channel\n *\n * @param id - The id of the channel\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-channel-webhooks}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getWebhooks(id: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTGetAPIChannelWebhooksResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPIChannelWebhooksResult:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "id",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "getWebhooks"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#pinMessage:member(1)",
               "docComment": "/**\n * Pins a message in a channel\n *\n * @param channelId - The id of the channel to pin the message in\n *\n * @param messageId - The id of the message to pin\n *\n * @param reason - The reason for pinning the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#pin-message}\n */\n",
               "excerptTokens": [
@@ -9379,6 +9441,68 @@
               ],
               "isOptional": false,
               "name": "getVoiceRegions"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!GuildsAPI#getWebhooks:member(1)",
+              "docComment": "/**\n * Fetches webhooks for a guild\n *\n * @param id - The id of the guild\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-guild-webhooks}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getWebhooks(id: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTGetAPIGuildWebhooksResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPIGuildWebhooksResult:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "id",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "getWebhooks"
             },
             {
               "kind": "Method",
