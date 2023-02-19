@@ -4041,6 +4041,27 @@
             },
             {
               "kind": "EnumMember",
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Error:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Error = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"error\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Error"
+            },
+            {
+              "kind": "EnumMember",
               "canonicalReference": "@discordjs/ws!WebSocketShardEvents.HeartbeatComplete:member",
               "docComment": "",
               "excerptTokens": [
@@ -4176,6 +4197,24 @@
             },
             {
               "kind": "Reference",
+              "text": "WebSocketShardEvents.Error",
+              "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Error:member"
+            },
+            {
+              "kind": "Content",
+              "text": "]: [payload: {\n        error: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Error",
+              "canonicalReference": "!Error:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    }];\n    ["
+            },
+            {
+              "kind": "Reference",
               "text": "WebSocketShardEvents.Hello",
               "canonicalReference": "@discordjs/ws!WebSocketShardEvents.Hello:member"
             },
@@ -4229,7 +4268,7 @@
           "name": "WebSocketShardEventsMap",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 20
+            "endIndex": 24
           }
         },
         {
