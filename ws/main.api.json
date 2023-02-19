@@ -405,7 +405,25 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    readonly shardCount: null;\n    readonly shardIds: null;\n    readonly largeThreshold: null;\n    readonly initialPresence: null;\n    readonly identifyProperties: {\n        readonly browser: `@discordjs/ws ${string}`;\n        readonly device: `@discordjs/ws ${string}`;\n        readonly os: "
+              "text": "{\n    readonly buildStrategy: (manager: import(\"../ws/WebSocketManager.js\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "WebSocketManager",
+              "canonicalReference": "@discordjs/ws!WebSocketManager:class"
+            },
+            {
+              "kind": "Content",
+              "text": ") => "
+            },
+            {
+              "kind": "Reference",
+              "text": "SimpleShardingStrategy",
+              "canonicalReference": "@discordjs/ws!SimpleShardingStrategy:class"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly shardCount: null;\n    readonly shardIds: null;\n    readonly largeThreshold: null;\n    readonly initialPresence: null;\n    readonly identifyProperties: {\n        readonly browser: `@discordjs/ws ${string}`;\n        readonly device: `@discordjs/ws ${string}`;\n        readonly os: "
             },
             {
               "kind": "Reference",
@@ -450,7 +468,7 @@
           "name": "DefaultWebSocketManagerOptions",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 10
+            "endIndex": 14
           }
         },
         {
@@ -1363,6 +1381,53 @@
           "name": "OptionalWebSocketManagerOptions",
           "preserveMemberOrder": false,
           "members": [
+            {
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions#buildStrategy:member(1)",
+              "docComment": "/**\n * Builds the strategy to use for sharding\n *\n * @example\n * ```ts\n * const manager = new WebSocketManager({\n *  token: process.env.DISCORD_TOKEN,\n *  intents: 0, // for no intents\n *  rest,\n *  buildStrategy: (manager) => new WorkerShardingStrategy(manager, { shardsPerWorker: 2 }),\n * });\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "buildStrategy(manager: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WebSocketManager",
+                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IShardingStrategy",
+                  "canonicalReference": "@discordjs/ws!IShardingStrategy:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "manager",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "buildStrategy"
+            },
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions#compression:member",
@@ -3348,54 +3413,6 @@
               ],
               "isOptional": false,
               "name": "send"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/ws!WebSocketManager#setStrategy:member(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setStrategy(strategy: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "IShardingStrategy",
-                  "canonicalReference": "@discordjs/ws!IShardingStrategy:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "strategy",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "name": "setStrategy"
             },
             {
               "kind": "Method",
