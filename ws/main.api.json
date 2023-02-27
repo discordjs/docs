@@ -534,7 +534,7 @@
             },
             {
               "kind": "Content",
-              "text": ", 'rest' | 'retrieveSessionInfo' | 'shardCount' | 'shardIds' | 'updateSessionInfo'>"
+              "text": ", 'buildStrategy' | 'rest' | 'retrieveSessionInfo' | 'shardCount' | 'shardIds' | 'updateSessionInfo'>"
             },
             {
               "kind": "Content",
