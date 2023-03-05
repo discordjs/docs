@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.7",
-    "schemaVersion": 1010,
+    "toolVersion": "7.34.4",
+    "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -859,6 +859,7 @@
           ],
           "fileUrlPath": "src/utils/IdentifyThrottler.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "IdentifyThrottler",
           "preserveMemberOrder": false,
           "members": [
@@ -928,6 +929,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "waitForIdentify"
             }
           ],
@@ -2298,6 +2300,7 @@
           ],
           "fileUrlPath": "src/strategies/context/SimpleContextFetchingStrategy.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SimpleContextFetchingStrategy",
           "preserveMemberOrder": false,
           "members": [
@@ -2379,7 +2382,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -2440,6 +2444,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "retrieveSessionInfo"
             },
             {
@@ -2517,6 +2522,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "updateSessionInfo"
             },
             {
@@ -2552,6 +2558,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "waitForIdentify"
             }
           ],
@@ -2583,6 +2590,7 @@
           ],
           "fileUrlPath": "src/strategies/sharding/SimpleShardingStrategy.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SimpleShardingStrategy",
           "preserveMemberOrder": false,
           "members": [
@@ -2652,6 +2660,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "connect"
             },
             {
@@ -2718,6 +2727,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "destroy"
             },
             {
@@ -2771,6 +2781,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "fetchStatus"
             },
             {
@@ -2840,6 +2851,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "send"
             },
             {
@@ -2892,6 +2904,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "spawn"
             }
           ],
@@ -2959,6 +2972,7 @@
           ],
           "fileUrlPath": "src/ws/WebSocketManager.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "WebSocketManager",
           "preserveMemberOrder": false,
           "members": [
@@ -3046,6 +3060,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "connect"
             },
             {
@@ -3112,6 +3127,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "destroy"
             },
             {
@@ -3173,6 +3189,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "fetchGatewayInformation"
             },
             {
@@ -3226,6 +3243,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "fetchStatus"
             },
             {
@@ -3261,6 +3279,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getShardCount"
             },
             {
@@ -3313,6 +3332,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getShardIds"
             },
             {
@@ -3343,7 +3363,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -3412,6 +3433,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "send"
             },
             {
@@ -3464,6 +3486,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "updateShardCount"
             }
           ],
@@ -3543,6 +3566,7 @@
           ],
           "fileUrlPath": "src/ws/WebSocketShard.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "WebSocketShard",
           "preserveMemberOrder": false,
           "members": [
@@ -3628,6 +3652,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "connect"
             },
             {
@@ -3681,6 +3706,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "destroy"
             },
             {
@@ -3710,7 +3736,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -3763,6 +3790,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "send"
             },
             {
@@ -3793,7 +3821,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -4384,6 +4413,7 @@
           ],
           "fileUrlPath": "src/utils/WorkerBootstrapper.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "WorkerBootstrapper",
           "preserveMemberOrder": false,
           "members": [
@@ -4466,6 +4496,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "bootstrap"
             },
             {
@@ -4518,6 +4549,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "connect"
             },
             {
@@ -4548,7 +4580,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": true
+              "isProtected": true,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -4617,6 +4650,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "destroy"
             },
             {
@@ -4647,6 +4681,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setupThreadEvents"
             },
             {
@@ -4690,7 +4725,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": true
+              "isProtected": true,
+              "isAbstract": false
             }
           ],
           "implementsTokenRanges": []
@@ -4716,6 +4752,7 @@
           ],
           "fileUrlPath": "src/strategies/context/WorkerContextFetchingStrategy.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "WorkerContextFetchingStrategy",
           "preserveMemberOrder": false,
           "members": [
@@ -4780,7 +4817,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -4841,6 +4879,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "retrieveSessionInfo"
             },
             {
@@ -4909,6 +4948,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "updateSessionInfo"
             },
             {
@@ -4944,6 +4984,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "waitForIdentify"
             }
           ],
@@ -5594,6 +5635,7 @@
           ],
           "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "WorkerShardingStrategy",
           "preserveMemberOrder": false,
           "members": [
@@ -5680,6 +5722,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "connect"
             },
             {
@@ -5746,6 +5789,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "destroy"
             },
             {
@@ -5799,6 +5843,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "fetchStatus"
             },
             {
@@ -5863,6 +5908,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "send"
             },
             {
@@ -5915,6 +5961,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "spawn"
             }
           ],
