@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.7",
-    "schemaVersion": 1010,
+    "toolVersion": "7.34.4",
+    "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -194,6 +194,7 @@
           ],
           "fileUrlPath": "src/audio/AudioPlayer.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "AudioPlayer",
           "preserveMemberOrder": false,
           "members": [
@@ -258,6 +259,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "checkPlayable"
             },
             {
@@ -305,6 +307,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "pause"
             },
             {
@@ -370,6 +373,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "play"
             },
             {
@@ -404,7 +408,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -443,7 +448,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -490,6 +496,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "stop"
             },
             {
@@ -520,6 +527,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "unpause"
             }
           ],
@@ -1127,6 +1135,7 @@
           ],
           "fileUrlPath": "src/audio/AudioPlayerError.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "AudioPlayerError",
           "preserveMemberOrder": false,
           "members": [
@@ -1208,7 +1217,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -1797,6 +1807,7 @@
           ],
           "fileUrlPath": "src/receive/AudioReceiveStream.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "AudioReceiveStream",
           "preserveMemberOrder": false,
           "members": [
@@ -1828,6 +1839,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "_read"
             },
             {
@@ -1891,7 +1903,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -1943,6 +1956,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "push"
             }
           ],
@@ -2045,6 +2059,7 @@
               }
             }
           ],
+          "isAbstract": false,
           "name": "AudioResource",
           "preserveMemberOrder": false,
           "members": [
@@ -2178,7 +2193,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2216,7 +2232,8 @@
                 "endIndex": 4
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2246,7 +2263,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2275,7 +2293,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2304,7 +2323,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2333,7 +2353,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2363,7 +2384,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2392,7 +2414,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2421,7 +2444,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2450,7 +2474,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2479,7 +2504,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2509,7 +2535,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "implementsTokenRanges": []
@@ -4531,6 +4558,7 @@
           ],
           "fileUrlPath": "src/audio/PlayerSubscription.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "PlayerSubscription",
           "preserveMemberOrder": false,
           "members": [
@@ -4612,7 +4640,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -4642,7 +4671,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -4672,6 +4702,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "unsubscribe"
             }
           ],
@@ -4772,6 +4803,7 @@
           ],
           "fileUrlPath": "src/receive/SpeakingMap.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SpeakingMap",
           "preserveMemberOrder": false,
           "members": [
@@ -4821,7 +4853,8 @@
                 "endIndex": 2
               },
               "isStatic": true,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -4868,6 +4901,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "onPacket"
             },
             {
@@ -4902,7 +4936,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -5086,6 +5121,7 @@
           ],
           "fileUrlPath": "src/receive/SSRCMap.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SSRCMap",
           "preserveMemberOrder": false,
           "members": [
@@ -5154,6 +5190,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "delete"
             },
             {
@@ -5206,6 +5243,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             },
             {
@@ -5254,6 +5292,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "update"
             }
           ],
@@ -5726,6 +5765,7 @@
           ],
           "fileUrlPath": "src/VoiceConnection.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "VoiceConnection",
           "preserveMemberOrder": false,
           "members": [
@@ -5807,6 +5847,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "configureNetworking"
             },
             {
@@ -5854,6 +5895,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "destroy"
             },
             {
@@ -5884,6 +5926,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "disconnect"
             },
             {
@@ -5914,6 +5957,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "dispatchAudio"
             },
             {
@@ -5962,6 +6006,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "onSubscriptionRemoved"
             },
             {
@@ -5991,7 +6036,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -6039,6 +6085,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "playOpusPacket"
             },
             {
@@ -6092,6 +6139,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "prepareAudioPacket"
             },
             {
@@ -6122,7 +6170,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -6183,6 +6232,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "rejoin"
             },
             {
@@ -6212,7 +6262,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -6259,6 +6310,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setSpeaking"
             },
             {
@@ -6298,7 +6350,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -6351,6 +6404,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "subscribe"
             }
           ],
@@ -7732,6 +7786,7 @@
           ],
           "fileUrlPath": "src/receive/VoiceReceiver.ts",
           "releaseTag": "Beta",
+          "isAbstract": false,
           "name": "VoiceReceiver",
           "preserveMemberOrder": false,
           "members": [
@@ -7796,7 +7851,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -7826,7 +7882,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -7904,6 +7961,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "subscribe"
             },
             {
@@ -7947,7 +8005,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -7977,7 +8036,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "implementsTokenRanges": []
