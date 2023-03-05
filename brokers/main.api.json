@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.7",
-    "schemaVersion": 1010,
+    "toolVersion": "7.34.4",
+    "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -413,6 +413,7 @@
               }
             }
           ],
+          "isAbstract": true,
           "name": "BaseRedisBroker",
           "preserveMemberOrder": false,
           "members": [
@@ -482,6 +483,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "destroy"
             },
             {
@@ -578,6 +580,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": true,
               "name": "emitEvent"
             },
             {
@@ -630,6 +633,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "listen"
             },
             {
@@ -659,7 +663,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": true
+              "isProtected": true,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -702,7 +707,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": true
+              "isProtected": true,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -735,7 +741,8 @@
                 "endIndex": 2
               },
               "isStatic": true,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -765,7 +772,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": true
+              "isProtected": true,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -833,6 +841,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "subscribe"
             },
             {
@@ -867,7 +876,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": true
+              "isProtected": true,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -935,6 +945,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "unsubscribe"
             }
           ],
@@ -1661,6 +1672,7 @@
               }
             }
           ],
+          "isAbstract": false,
           "name": "PubSubRedisBroker",
           "preserveMemberOrder": false,
           "members": [
@@ -1758,6 +1770,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "emitEvent"
             },
             {
@@ -1847,6 +1860,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "publish"
             }
           ],
@@ -2009,6 +2023,7 @@
               }
             }
           ],
+          "isAbstract": false,
           "name": "RPCRedisBroker",
           "preserveMemberOrder": false,
           "members": [
@@ -2148,6 +2163,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "call"
             },
             {
@@ -2244,6 +2260,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "emitEvent"
             },
             {
@@ -2287,7 +2304,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": true
+              "isProtected": true,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2330,7 +2348,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": true
+              "isProtected": true,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
