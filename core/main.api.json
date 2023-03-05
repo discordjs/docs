@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.7",
-    "schemaVersion": 1010,
+    "toolVersion": "7.34.4",
+    "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -185,6 +185,7 @@
           ],
           "fileUrlPath": "src/api/index.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "API",
           "preserveMemberOrder": false,
           "members": [
@@ -249,7 +250,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -279,7 +281,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -309,7 +312,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -339,7 +343,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -369,7 +374,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -399,7 +405,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -429,7 +436,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -459,7 +467,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -489,7 +498,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -519,7 +529,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -549,7 +560,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -579,7 +591,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -609,7 +622,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "implementsTokenRanges": []
@@ -626,6 +640,7 @@
           ],
           "fileUrlPath": "src/api/applicationCommands.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "ApplicationCommandsAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -739,6 +754,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "bulkOverwriteGlobalCommands"
             },
             {
@@ -835,6 +851,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "bulkOverwriteGuildCommands"
             },
             {
@@ -914,6 +931,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createGlobalCommand"
             },
             {
@@ -1010,6 +1028,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createGuildCommand"
             },
             {
@@ -1080,6 +1099,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteGlobalCommand"
             },
             {
@@ -1167,6 +1187,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteGuildCommand"
             },
             {
@@ -1263,6 +1284,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editGlobalCommand"
             },
             {
@@ -1376,6 +1398,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editGuildCommand"
             },
             {
@@ -1505,6 +1528,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editGuildCommandPermissions"
             },
             {
@@ -1584,6 +1608,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getGlobalCommand"
             },
             {
@@ -1663,6 +1688,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getGlobalCommands"
             },
             {
@@ -1759,6 +1785,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getGuildCommand"
             },
             {
@@ -1855,6 +1882,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getGuildCommandPermissions"
             },
             {
@@ -1951,6 +1979,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getGuildCommands"
             },
             {
@@ -2030,6 +2059,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getGuildCommandsPermissions"
             }
           ],
@@ -2047,6 +2077,7 @@
           ],
           "fileUrlPath": "src/api/channel.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "ChannelsAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -2167,6 +2198,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addMessageReaction"
             },
             {
@@ -2257,6 +2289,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "bulkDeleteMessages"
             },
             {
@@ -2352,6 +2385,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createInvite"
             },
             {
@@ -2444,6 +2478,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createMessage"
             },
             {
@@ -2523,6 +2558,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "crosspostMessage"
             },
             {
@@ -2585,6 +2621,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "delete"
             },
             {
@@ -2655,6 +2692,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteAllMessageReactions"
             },
             {
@@ -2741,6 +2779,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteAllMessageReactionsForEmoji"
             },
             {
@@ -2827,6 +2866,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteMessage"
             },
             {
@@ -2913,6 +2953,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteOwnMessageReaction"
             },
             {
@@ -3016,6 +3057,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteUserMessageReaction"
             },
             {
@@ -3095,6 +3137,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "edit"
             },
             {
@@ -3204,6 +3247,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editMessage"
             },
             {
@@ -3283,6 +3327,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "followAnnouncements"
             },
             {
@@ -3345,6 +3390,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             },
             {
@@ -3440,6 +3486,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getArchivedThreads"
             },
             {
@@ -3502,6 +3549,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getInvites"
             },
             {
@@ -3581,6 +3629,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getJoinedPrivateArchivedThreads"
             },
             {
@@ -3660,6 +3709,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMessage"
             },
             {
@@ -3772,6 +3822,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMessageReactions"
             },
             {
@@ -3851,6 +3902,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMessages"
             },
             {
@@ -3913,6 +3965,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getPins"
             },
             {
@@ -3975,6 +4028,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getWebhooks"
             },
             {
@@ -4061,6 +4115,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "pinMessage"
             },
             {
@@ -4114,6 +4169,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "showTyping"
             },
             {
@@ -4200,6 +4256,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "unpinMessage"
             }
           ],
@@ -4239,6 +4296,7 @@
           ],
           "fileUrlPath": "src/client.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "Client",
           "preserveMemberOrder": false,
           "members": [
@@ -4303,7 +4361,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -4381,6 +4440,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "requestGuildMembers"
             },
             {
@@ -4411,7 +4471,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -4480,6 +4541,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "updatePresence"
             },
             {
@@ -4533,6 +4595,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "updateVoiceState"
             },
             {
@@ -4563,7 +4626,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -4717,6 +4781,7 @@
           ],
           "fileUrlPath": "src/api/guild.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "GuildsAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -4854,6 +4919,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addRoleToMember"
             },
             {
@@ -4957,6 +5023,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "banUser"
             },
             {
@@ -5052,6 +5119,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "beginPrune"
             },
             {
@@ -5114,6 +5182,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "create"
             },
             {
@@ -5209,6 +5278,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createAutoModerationRule"
             },
             {
@@ -5304,6 +5374,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createChannel"
             },
             {
@@ -5399,6 +5470,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createEmoji"
             },
             {
@@ -5494,6 +5566,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createRole"
             },
             {
@@ -5589,6 +5662,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createScheduledEvent"
             },
             {
@@ -5706,6 +5780,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createSticker"
             },
             {
@@ -5784,6 +5859,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createTemplate"
             },
             {
@@ -5853,6 +5929,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "delete"
             },
             {
@@ -5939,6 +6016,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteAutoModerationRule"
             },
             {
@@ -6025,6 +6103,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteEmoji"
             },
             {
@@ -6111,6 +6190,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteIntegration"
             },
             {
@@ -6197,6 +6277,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteRole"
             },
             {
@@ -6283,6 +6364,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteScheduledEvent"
             },
             {
@@ -6369,6 +6451,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteSticker"
             },
             {
@@ -6438,6 +6521,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteTemplate"
             },
             {
@@ -6533,6 +6617,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "edit"
             },
             {
@@ -6645,6 +6730,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editAutoModerationRule"
             },
             {
@@ -6757,6 +6843,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editEmoji"
             },
             {
@@ -6869,6 +6956,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editMember"
             },
             {
@@ -6964,6 +7052,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editMFALevel"
             },
             {
@@ -7076,6 +7165,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editRole"
             },
             {
@@ -7188,6 +7278,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editScheduledEvent"
             },
             {
@@ -7300,6 +7391,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editSticker"
             },
             {
@@ -7395,6 +7487,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editTemplate"
             },
             {
@@ -7498,6 +7591,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editUserVoiceState"
             },
             {
@@ -7593,6 +7687,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editWelcomeScreen"
             },
             {
@@ -7688,6 +7783,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editWidgetSettings"
             },
             {
@@ -7749,6 +7845,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             },
             {
@@ -7811,6 +7908,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getActiveThreads"
             },
             {
@@ -7890,6 +7988,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getAuditLogs"
             },
             {
@@ -7969,6 +8068,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getAutoModerationRule"
             },
             {
@@ -8031,6 +8131,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getAutoModerationRules"
             },
             {
@@ -8093,6 +8194,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getChannels"
             },
             {
@@ -8172,6 +8274,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getEmoji"
             },
             {
@@ -8234,6 +8337,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getEmojis"
             },
             {
@@ -8296,6 +8400,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getIntegrations"
             },
             {
@@ -8358,6 +8463,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getInvites"
             },
             {
@@ -8437,6 +8543,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMember"
             },
             {
@@ -8499,6 +8606,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMemberBans"
             },
             {
@@ -8578,6 +8686,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMembers"
             },
             {
@@ -8640,6 +8749,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getPreview"
             },
             {
@@ -8719,6 +8829,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getPruneCount"
             },
             {
@@ -8781,6 +8892,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getRoles"
             },
             {
@@ -8877,6 +8989,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getScheduledEvent"
             },
             {
@@ -8956,6 +9069,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getScheduledEvents"
             },
             {
@@ -9052,6 +9166,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getScheduledEventUsers"
             },
             {
@@ -9131,6 +9246,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getSticker"
             },
             {
@@ -9193,6 +9309,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getStickers"
             },
             {
@@ -9254,6 +9371,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getTemplate"
             },
             {
@@ -9316,6 +9434,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getTemplates"
             },
             {
@@ -9378,6 +9497,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getVanityURL"
             },
             {
@@ -9440,6 +9560,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getVoiceRegions"
             },
             {
@@ -9502,6 +9623,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getWebhooks"
             },
             {
@@ -9564,6 +9686,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getWelcomeScreen"
             },
             {
@@ -9626,6 +9749,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getWidget"
             },
             {
@@ -9705,6 +9829,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getWidgetImage"
             },
             {
@@ -9767,6 +9892,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getWidgetSettings"
             },
             {
@@ -9870,6 +9996,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "removeRoleFromMember"
             },
             {
@@ -9949,6 +10076,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "searchForMembers"
             },
             {
@@ -10035,6 +10163,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setChannelPositions"
             },
             {
@@ -10130,6 +10259,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setRolePositions"
             },
             {
@@ -10208,6 +10338,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "syncTemplate"
             },
             {
@@ -10294,6 +10425,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "unbanUser"
             }
           ],
@@ -10311,6 +10443,7 @@
           ],
           "fileUrlPath": "src/api/interactions.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "InteractionsAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -10448,6 +10581,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createAutocompleteResponse"
             },
             {
@@ -10534,6 +10668,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createModal"
             },
             {
@@ -10603,6 +10738,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "defer"
             },
             {
@@ -10672,6 +10808,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deferMessageUpdate"
             },
             {
@@ -10762,6 +10899,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteReply"
             },
             {
@@ -10891,6 +11029,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editReply"
             },
             {
@@ -10990,6 +11129,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "followUp"
             },
             {
@@ -11068,6 +11208,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getOriginalReply"
             },
             {
@@ -11167,6 +11308,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "reply"
             },
             {
@@ -11266,6 +11408,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "updateMessage"
             }
           ],
@@ -11356,6 +11499,7 @@
           ],
           "fileUrlPath": "src/api/invite.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "InvitesAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -11458,6 +11602,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "delete"
             },
             {
@@ -11536,6 +11681,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             }
           ],
@@ -14792,6 +14938,7 @@
           ],
           "fileUrlPath": "src/api/oauth2.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "OAuth2API",
           "preserveMemberOrder": false,
           "members": [
@@ -14874,6 +15021,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "generateAuthorizationURL"
             },
             {
@@ -14918,6 +15066,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getCurrentAuthorizationInformation"
             },
             {
@@ -14962,6 +15111,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getCurrentBotApplicationInformation"
             },
             {
@@ -15024,6 +15174,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getToken"
             },
             {
@@ -15086,6 +15237,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "refreshToken"
             },
             {
@@ -15148,6 +15300,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "tokenExchange"
             }
           ],
@@ -15165,6 +15318,7 @@
           ],
           "fileUrlPath": "src/api/roleConnections.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "RoleConnectionsAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -15261,6 +15415,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMetadataRecords"
             },
             {
@@ -15340,6 +15495,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "updateMetadataRecords"
             }
           ],
@@ -15489,6 +15645,7 @@
           ],
           "fileUrlPath": "src/api/sticker.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "StickersAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -15585,6 +15742,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             },
             {
@@ -15629,6 +15787,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getNitroStickers"
             }
           ],
@@ -15646,6 +15805,7 @@
           ],
           "fileUrlPath": "src/api/thread.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "ThreadsAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -15750,6 +15910,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addMember"
             },
             {
@@ -15829,6 +15990,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "create"
             },
             {
@@ -15908,6 +16070,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createForumThread"
             },
             {
@@ -15970,6 +16133,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             },
             {
@@ -16032,6 +16196,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getAllMembers"
             },
             {
@@ -16111,6 +16276,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMember"
             },
             {
@@ -16164,6 +16330,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "join"
             },
             {
@@ -16217,6 +16384,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "leave"
             },
             {
@@ -16287,6 +16455,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "removeMember"
             }
           ],
@@ -16304,6 +16473,7 @@
           ],
           "fileUrlPath": "src/api/user.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "UsersAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -16400,6 +16570,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "createDM"
             },
             {
@@ -16462,6 +16633,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "edit"
             },
             {
@@ -16557,6 +16729,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editGuildMember"
             },
             {
@@ -16619,6 +16792,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             },
             {
@@ -16681,6 +16855,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getApplicationRoleConnection"
             },
             {
@@ -16725,6 +16900,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getConnections"
             },
             {
@@ -16769,6 +16945,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getCurrent"
             },
             {
@@ -16831,6 +17008,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getGuildMember"
             },
             {
@@ -16893,6 +17071,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getGuilds"
             },
             {
@@ -16946,6 +17125,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "leaveGuild"
             },
             {
@@ -17016,6 +17196,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setVoiceState"
             },
             {
@@ -17095,6 +17276,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "updateApplicationRoleConnection"
             }
           ],
@@ -17112,6 +17294,7 @@
           ],
           "fileUrlPath": "src/api/voice.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "VoiceAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -17190,6 +17373,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getVoiceRegions"
             }
           ],
@@ -17207,6 +17391,7 @@
           ],
           "fileUrlPath": "src/api/webhook.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "WebhooksAPI",
           "preserveMemberOrder": false,
           "members": [
@@ -17327,6 +17512,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "create"
             },
             {
@@ -17396,6 +17582,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "delete"
             },
             {
@@ -17498,6 +17685,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "deleteMessage"
             },
             {
@@ -17593,6 +17781,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "edit"
             },
             {
@@ -17709,6 +17898,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "editMessage"
             },
             {
@@ -17826,6 +18016,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "execute"
             },
             {
@@ -17934,6 +18125,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "execute"
             },
             {
@@ -18036,6 +18228,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "executeGitHub"
             },
             {
@@ -18138,6 +18331,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "executeSlack"
             },
             {
@@ -18216,6 +18410,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             },
             {
@@ -18327,6 +18522,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getMessage"
             }
           ],
