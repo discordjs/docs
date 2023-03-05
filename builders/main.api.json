@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.7",
-    "schemaVersion": 1010,
+    "toolVersion": "7.34.4",
+    "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -247,6 +247,7 @@
               }
             }
           ],
+          "isAbstract": false,
           "name": "ActionRowBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -355,6 +356,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addComponents"
             },
             {
@@ -384,7 +386,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -436,6 +439,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setComponents"
             },
             {
@@ -480,6 +484,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -582,6 +587,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/mixins/ApplicationCommandNumericOptionMinMaxValueMixin.ts",
           "releaseTag": "Public",
+          "isAbstract": true,
           "name": "ApplicationCommandNumericOptionMinMaxValueMixin",
           "preserveMemberOrder": false,
           "members": [
@@ -612,7 +618,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -641,7 +648,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -688,6 +696,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": true,
               "name": "setMaxValue"
             },
             {
@@ -735,6 +744,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": true,
               "name": "setMinValue"
             }
           ],
@@ -796,6 +806,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/mixins/ApplicationCommandOptionBase.ts",
           "releaseTag": "Public",
+          "isAbstract": true,
           "name": "ApplicationCommandOptionBase",
           "preserveMemberOrder": false,
           "members": [
@@ -826,7 +837,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -856,6 +868,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "runRequiredValidations"
             },
             {
@@ -903,6 +916,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setRequired"
             },
             {
@@ -934,6 +948,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": true,
               "name": "toJSON"
             },
             {
@@ -964,7 +979,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": true
             }
           ],
           "extendsTokenRange": {
@@ -985,6 +1001,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/mixins/ApplicationCommandOptionChannelTypesMixin.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "ApplicationCommandOptionChannelTypesMixin",
           "preserveMemberOrder": false,
           "members": [
@@ -1038,6 +1055,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addChannelTypes"
             },
             {
@@ -1072,7 +1090,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "implementsTokenRanges": []
@@ -1110,6 +1129,7 @@
               }
             }
           ],
+          "isAbstract": false,
           "name": "ApplicationCommandOptionWithChoicesAndAutocompleteMixin",
           "preserveMemberOrder": false,
           "members": [
@@ -1163,6 +1183,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addChoices"
             },
             {
@@ -1192,7 +1213,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -1226,7 +1248,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -1273,6 +1296,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setAutocomplete"
             },
             {
@@ -1346,6 +1370,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setChoices"
             },
             {
@@ -1376,7 +1401,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "implementsTokenRanges": []
@@ -1428,6 +1454,7 @@
               }
             }
           ],
+          "isAbstract": false,
           "name": "BaseSelectMenuBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -1476,6 +1503,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setCustomId"
             },
             {
@@ -1523,6 +1551,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDisabled"
             },
             {
@@ -1570,6 +1599,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMaxValues"
             },
             {
@@ -1617,6 +1647,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMinValues"
             },
             {
@@ -1664,6 +1695,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setPlaceholder"
             },
             {
@@ -1694,6 +1726,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -1737,6 +1770,7 @@
           ],
           "fileUrlPath": "src/components/button/Button.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "ButtonBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -1831,6 +1865,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setCustomId"
             },
             {
@@ -1878,6 +1913,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDisabled"
             },
             {
@@ -1926,6 +1962,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setEmoji"
             },
             {
@@ -1973,6 +2010,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setLabel"
             },
             {
@@ -2021,6 +2059,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setStyle"
             },
             {
@@ -2068,6 +2107,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setURL"
             },
             {
@@ -2099,6 +2139,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -2142,6 +2183,7 @@
           ],
           "fileUrlPath": "src/components/selectMenu/ChannelSelectMenu.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "ChannelSelectMenuBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -2250,6 +2292,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addChannelTypes"
             },
             {
@@ -2311,6 +2354,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setChannelTypes"
             },
             {
@@ -2342,6 +2386,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -3271,6 +3316,7 @@
               }
             }
           ],
+          "isAbstract": true,
           "name": "ComponentBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -3343,7 +3389,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -3374,6 +3421,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": true,
               "name": "toJSON"
             }
           ],
@@ -3694,6 +3742,7 @@
           ],
           "fileUrlPath": "src/interactions/contextMenuCommands/ContextMenuCommandBuilder.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "ContextMenuCommandBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -3729,7 +3778,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3758,7 +3808,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3787,7 +3838,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3817,7 +3869,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3846,7 +3899,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -3898,6 +3952,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDefaultMemberPermissions"
             },
             {
@@ -3945,6 +4000,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDefaultPermission"
             },
             {
@@ -3992,6 +4048,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDMPermission"
             },
             {
@@ -4039,6 +4096,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setName"
             },
             {
@@ -4103,6 +4161,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setNameLocalization"
             },
             {
@@ -4155,6 +4214,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setNameLocalizations"
             },
             {
@@ -4203,6 +4263,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setType"
             },
             {
@@ -4234,6 +4295,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -4264,7 +4326,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "implementsTokenRanges": []
@@ -5311,6 +5374,7 @@
           ],
           "fileUrlPath": "src/messages/embed/Embed.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "EmbedBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -5406,6 +5470,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addFields"
             },
             {
@@ -5436,7 +5501,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -5488,6 +5554,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setAuthor"
             },
             {
@@ -5540,6 +5607,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setColor"
             },
             {
@@ -5587,6 +5655,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDescription"
             },
             {
@@ -5648,6 +5717,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setFields"
             },
             {
@@ -5700,6 +5770,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setFooter"
             },
             {
@@ -5747,6 +5818,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setImage"
             },
             {
@@ -5794,6 +5866,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setThumbnail"
             },
             {
@@ -5846,6 +5919,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setTimestamp"
             },
             {
@@ -5893,6 +5967,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setTitle"
             },
             {
@@ -5940,12 +6015,13 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setURL"
             },
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#spliceFields:member(1)",
-              "docComment": "/**\n * Removes, replaces, or inserts fields in the embed.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice | Array.prototype.splice}. The maximum amount of fields that can be added is 25.\n *\n * It's useful for modifying and adjusting order of the already-existing fields of an embed.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of fields to remove\n *\n * @param fields - The replacing field objects\n *\n * @example\n *\n * Remove the first field\n * ```ts\n * embed.spliceFields(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n fields\n * ```ts\n * const n = 4\n * embed.spliceFields(0, n);\n * ```\n *\n * @example\n *\n * Remove the last field\n * ```ts\n * embed.spliceFields(-1, 1);\n * ```\n *\n */\n",
+              "docComment": "/**\n * Removes, replaces, or inserts fields in the embed.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice | Array.prototype.splice}. The maximum amount of fields that can be added is 25.\n *\n * It's useful for modifying and adjusting order of the already-existing fields of an embed.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of fields to remove\n *\n * @param fields - The replacing field objects\n *\n * @example\n *\n * Remove the first field\n * ```ts\n * embed.spliceFields(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n fields\n * ```ts\n * const n = 4\n * embed.spliceFields(0, n);\n * ```\n *\n * @example\n *\n * Remove the last field\n * ```ts\n * embed.spliceFields(-1, 1);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6024,6 +6100,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "spliceFields"
             },
             {
@@ -6055,6 +6132,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -6800,6 +6878,7 @@
           ],
           "fileUrlPath": "src/components/selectMenu/MentionableSelectMenu.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "MentionableSelectMenuBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -7255,6 +7334,7 @@
           ],
           "fileUrlPath": "src/interactions/modals/Modal.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "ModalBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -7390,6 +7470,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addComponents"
             },
             {
@@ -7433,7 +7514,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -7476,7 +7558,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -7546,6 +7629,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setComponents"
             },
             {
@@ -7593,6 +7677,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setCustomId"
             },
             {
@@ -7640,6 +7725,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setTitle"
             },
             {
@@ -7671,6 +7757,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -7888,6 +7975,7 @@
           ],
           "fileUrlPath": "src/components/selectMenu/RoleSelectMenu.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "RoleSelectMenuBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -7956,6 +8044,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/mixins/NameAndDescription.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SharedNameAndDescription",
           "preserveMemberOrder": false,
           "members": [
@@ -7987,7 +8076,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -8016,7 +8106,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -8046,7 +8137,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -8075,7 +8167,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -8122,6 +8215,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDescription"
             },
             {
@@ -8186,6 +8280,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDescriptionLocalization"
             },
             {
@@ -8238,6 +8333,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDescriptionLocalizations"
             },
             {
@@ -8285,6 +8381,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setName"
             },
             {
@@ -8349,6 +8446,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setNameLocalization"
             },
             {
@@ -8401,6 +8499,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setNameLocalizations"
             }
           ],
@@ -8439,6 +8538,7 @@
               }
             }
           ],
+          "isAbstract": false,
           "name": "SharedSlashCommandOptions",
           "preserveMemberOrder": false,
           "members": [
@@ -8528,6 +8628,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addAttachmentOption"
             },
             {
@@ -8616,6 +8717,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addBooleanOption"
             },
             {
@@ -8704,6 +8806,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addChannelOption"
             },
             {
@@ -8936,6 +9039,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addIntegerOption"
             },
             {
@@ -9024,6 +9128,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addMentionableOption"
             },
             {
@@ -9256,6 +9361,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addNumberOption"
             },
             {
@@ -9344,6 +9450,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addRoleOption"
             },
             {
@@ -9576,6 +9683,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addStringOption"
             },
             {
@@ -9664,6 +9772,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addUserOption"
             },
             {
@@ -9698,7 +9807,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "implementsTokenRanges": []
@@ -10495,6 +10605,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/attachment.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandAttachmentOption",
           "preserveMemberOrder": false,
           "members": [
@@ -10527,6 +10638,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -10557,7 +10669,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -10587,6 +10700,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/boolean.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandBooleanOption",
           "preserveMemberOrder": false,
           "members": [
@@ -10619,6 +10733,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -10649,7 +10764,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -10670,6 +10786,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/SlashCommandBuilder.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -10742,6 +10859,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addSubcommand"
             },
             {
@@ -10813,6 +10931,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addSubcommandGroup"
             },
             {
@@ -10847,7 +10966,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -10876,7 +10996,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -10906,7 +11027,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -10935,7 +11057,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -10964,7 +11087,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -10994,7 +11118,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -11023,7 +11148,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -11052,7 +11178,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -11086,7 +11213,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -11138,6 +11266,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDefaultMemberPermissions"
             },
             {
@@ -11185,6 +11314,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDefaultPermission"
             },
             {
@@ -11232,6 +11362,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDMPermission"
             },
             {
@@ -11279,6 +11410,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setNSFW"
             },
             {
@@ -11310,6 +11442,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -11380,6 +11513,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/channel.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandChannelOption",
           "preserveMemberOrder": false,
           "members": [
@@ -11412,6 +11546,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -11442,7 +11577,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -11512,6 +11648,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/integer.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandIntegerOption",
           "preserveMemberOrder": false,
           "members": [
@@ -11560,6 +11697,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMaxValue"
             },
             {
@@ -11607,6 +11745,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMinValue"
             },
             {
@@ -11638,6 +11777,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -11668,7 +11808,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -11751,6 +11892,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/mentionable.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandMentionableOption",
           "preserveMemberOrder": false,
           "members": [
@@ -11783,6 +11925,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -11813,7 +11956,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -11852,6 +11996,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/number.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandNumberOption",
           "preserveMemberOrder": false,
           "members": [
@@ -11900,6 +12045,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMaxValue"
             },
             {
@@ -11947,6 +12093,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMinValue"
             },
             {
@@ -11978,6 +12125,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -12008,7 +12156,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -12161,6 +12310,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/role.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandRoleOption",
           "preserveMemberOrder": false,
           "members": [
@@ -12193,6 +12343,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -12223,7 +12374,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -12253,6 +12405,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/string.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandStringOption",
           "preserveMemberOrder": false,
           "members": [
@@ -12283,7 +12436,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -12312,7 +12466,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -12359,6 +12514,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMaxLength"
             },
             {
@@ -12406,6 +12562,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMinLength"
             },
             {
@@ -12437,6 +12594,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -12467,7 +12625,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -12532,6 +12691,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/SlashCommandSubcommands.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandSubcommandBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -12562,7 +12722,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -12591,7 +12752,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -12625,7 +12787,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -12656,6 +12819,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -12735,6 +12899,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/SlashCommandSubcommands.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandSubcommandGroupBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -12806,6 +12971,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addSubcommand"
             },
             {
@@ -12835,7 +13001,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -12864,7 +13031,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -12898,7 +13066,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -12929,6 +13098,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -13071,6 +13241,7 @@
           ],
           "fileUrlPath": "src/interactions/slashCommands/options/user.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "SlashCommandUserOption",
           "preserveMemberOrder": false,
           "members": [
@@ -13103,6 +13274,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             },
             {
@@ -13133,7 +13305,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -13176,6 +13349,7 @@
           ],
           "fileUrlPath": "src/components/selectMenu/StringSelectMenu.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "StringSelectMenuBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -13293,6 +13467,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "addOptions"
             },
             {
@@ -13327,7 +13502,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -13397,6 +13573,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setOptions"
             },
             {
@@ -13499,6 +13676,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "spliceOptions"
             },
             {
@@ -13530,6 +13708,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -13573,6 +13752,7 @@
           ],
           "fileUrlPath": "src/components/selectMenu/StringSelectMenuOption.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "StringSelectMenuOptionBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -13663,7 +13843,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -13710,6 +13891,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDefault"
             },
             {
@@ -13757,6 +13939,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setDescription"
             },
             {
@@ -13805,6 +13988,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setEmoji"
             },
             {
@@ -13852,6 +14036,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setLabel"
             },
             {
@@ -13899,6 +14084,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setValue"
             },
             {
@@ -13930,6 +14116,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -14337,6 +14524,7 @@
           ],
           "fileUrlPath": "src/components/textInput/TextInput.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "TextInputBuilder",
           "preserveMemberOrder": false,
           "members": [
@@ -14454,6 +14642,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "equals"
             },
             {
@@ -14501,6 +14690,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setCustomId"
             },
             {
@@ -14548,6 +14738,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setLabel"
             },
             {
@@ -14595,6 +14786,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMaxLength"
             },
             {
@@ -14642,6 +14834,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setMinLength"
             },
             {
@@ -14689,6 +14882,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setPlaceholder"
             },
             {
@@ -14736,6 +14930,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setRequired"
             },
             {
@@ -14784,6 +14979,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setStyle"
             },
             {
@@ -14831,6 +15027,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setValue"
             },
             {
@@ -14862,6 +15059,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
@@ -14957,6 +15155,7 @@
           ],
           "fileUrlPath": "src/components/selectMenu/UserSelectMenu.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "UserSelectMenuBuilder",
           "preserveMemberOrder": false,
           "members": [
