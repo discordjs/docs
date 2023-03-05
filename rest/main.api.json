@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.7",
-    "schemaVersion": 1010,
+    "toolVersion": "7.34.4",
+    "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -511,6 +511,7 @@
           ],
           "fileUrlPath": "src/lib/CDN.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "CDN",
           "preserveMemberOrder": false,
           "members": [
@@ -637,6 +638,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "appAsset"
             },
             {
@@ -730,6 +732,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "appIcon"
             },
             {
@@ -823,6 +826,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "avatar"
             },
             {
@@ -916,6 +920,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "banner"
             },
             {
@@ -1009,6 +1014,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "channelIcon"
             },
             {
@@ -1056,6 +1062,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "defaultAvatar"
             },
             {
@@ -1149,6 +1156,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "discoverySplash"
             },
             {
@@ -1213,6 +1221,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "emoji"
             },
             {
@@ -1322,6 +1331,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "guildMemberAvatar"
             },
             {
@@ -1431,6 +1441,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "guildMemberBanner"
             },
             {
@@ -1524,6 +1535,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "guildScheduledEventCover"
             },
             {
@@ -1617,6 +1629,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "icon"
             },
             {
@@ -1710,6 +1723,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "roleIcon"
             },
             {
@@ -1803,6 +1817,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "splash"
             },
             {
@@ -1867,6 +1882,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "sticker"
             },
             {
@@ -1944,6 +1960,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "stickerPackBanner"
             },
             {
@@ -2037,6 +2054,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "teamIcon"
             }
           ],
@@ -2118,6 +2136,7 @@
           ],
           "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "DiscordAPIError",
           "preserveMemberOrder": false,
           "members": [
@@ -2284,7 +2303,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2313,7 +2333,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2342,7 +2363,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2381,7 +2403,8 @@
                 "endIndex": 4
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2411,7 +2434,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2440,7 +2464,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2469,7 +2494,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -2639,6 +2665,7 @@
           ],
           "fileUrlPath": "src/lib/errors/HTTPError.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "HTTPError",
           "preserveMemberOrder": false,
           "members": [
@@ -2763,7 +2790,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2792,7 +2820,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2822,7 +2851,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2851,7 +2881,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -2880,7 +2911,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -3672,6 +3704,7 @@
           ],
           "fileUrlPath": "src/lib/errors/RateLimitError.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "RateLimitError",
           "preserveMemberOrder": false,
           "members": [
@@ -3735,7 +3768,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3764,7 +3798,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3793,7 +3828,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3822,7 +3858,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3851,7 +3888,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3880,7 +3918,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3909,7 +3948,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3938,7 +3978,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -3967,7 +4008,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -4717,6 +4759,7 @@
           ],
           "fileUrlPath": "src/lib/RequestManager.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "RequestManager",
           "preserveMemberOrder": false,
           "members": [
@@ -4798,7 +4841,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -4828,6 +4872,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "clearHandlerSweeper"
             },
             {
@@ -4858,6 +4903,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "clearHashSweeper"
             },
             {
@@ -4892,7 +4938,8 @@
                 "endIndex": 3
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -4921,7 +4968,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -4950,7 +4998,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -4993,7 +5042,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -5036,7 +5086,8 @@
                 "endIndex": 5
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Property",
@@ -5066,7 +5117,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -5128,6 +5180,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "queueRequest"
             },
             {
@@ -5176,6 +5229,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setAgent"
             },
             {
@@ -5223,6 +5277,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setToken"
             }
           ],
@@ -5748,6 +5803,7 @@
           ],
           "fileUrlPath": "src/lib/REST.ts",
           "releaseTag": "Public",
+          "isAbstract": false,
           "name": "REST",
           "preserveMemberOrder": false,
           "members": [
@@ -5825,7 +5881,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -5895,6 +5952,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "delete"
             },
             {
@@ -5965,6 +6023,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "get"
             },
             {
@@ -6000,6 +6059,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "getAgent"
             },
             {
@@ -6070,6 +6130,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "patch"
             },
             {
@@ -6140,6 +6201,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "post"
             },
             {
@@ -6210,6 +6272,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "put"
             },
             {
@@ -6272,6 +6335,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "raw"
             },
             {
@@ -6325,6 +6389,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "request"
             },
             {
@@ -6355,7 +6420,8 @@
                 "endIndex": 2
               },
               "isStatic": false,
-              "isProtected": false
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -6403,6 +6469,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setAgent"
             },
             {
@@ -6450,6 +6517,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "setToken"
             }
           ],
