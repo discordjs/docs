@@ -1,8 +1,8 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.33.7",
-    "schemaVersion": 1010,
+    "toolVersion": "7.34.4",
+    "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -222,6 +222,7 @@
               }
             }
           ],
+          "isAbstract": false,
           "name": "Collection",
           "preserveMemberOrder": false,
           "members": [
@@ -270,6 +271,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "at"
             },
             {
@@ -305,6 +307,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "clone"
             },
             {
@@ -402,6 +405,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "combineEntries"
             },
             {
@@ -459,6 +463,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "concat"
             },
             {
@@ -529,6 +534,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "difference"
             },
             {
@@ -576,6 +582,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "each"
             },
             {
@@ -652,6 +659,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "each"
             },
             {
@@ -715,6 +723,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "ensure"
             },
             {
@@ -767,6 +776,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "equals"
             },
             {
@@ -853,6 +863,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "every"
             },
             {
@@ -939,6 +950,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "every"
             },
             {
@@ -986,6 +998,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "every"
             },
             {
@@ -1099,6 +1112,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "every"
             },
             {
@@ -1212,6 +1226,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "every"
             },
             {
@@ -1288,6 +1303,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "every"
             },
             {
@@ -1370,6 +1386,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "filter"
             },
             {
@@ -1452,6 +1469,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "filter"
             },
             {
@@ -1504,6 +1522,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "filter"
             },
             {
@@ -1613,6 +1632,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "filter"
             },
             {
@@ -1722,6 +1742,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "filter"
             },
             {
@@ -1803,6 +1824,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "filter"
             },
             {
@@ -1880,6 +1902,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "find"
             },
             {
@@ -1927,6 +1950,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "find"
             },
             {
@@ -2031,6 +2055,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "find"
             },
             {
@@ -2107,6 +2132,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "find"
             },
             {
@@ -2184,6 +2210,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "findKey"
             },
             {
@@ -2231,6 +2258,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "findKey"
             },
             {
@@ -2335,6 +2363,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "findKey"
             },
             {
@@ -2411,6 +2440,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "findKey"
             },
             {
@@ -2441,6 +2471,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "first"
             },
             {
@@ -2488,6 +2519,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "first"
             },
             {
@@ -2518,6 +2550,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "firstKey"
             },
             {
@@ -2565,6 +2598,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "firstKey"
             },
             {
@@ -2639,6 +2673,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "flatMap"
             },
             {
@@ -2740,6 +2775,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "flatMap"
             },
             {
@@ -2787,6 +2823,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "hasAll"
             },
             {
@@ -2834,6 +2871,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "hasAny"
             },
             {
@@ -2904,6 +2942,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "intersect"
             },
             {
@@ -2951,6 +2990,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "keyAt"
             },
             {
@@ -2981,6 +3021,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "last"
             },
             {
@@ -3028,6 +3069,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "last"
             },
             {
@@ -3058,6 +3100,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "lastKey"
             },
             {
@@ -3105,6 +3148,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "lastKey"
             },
             {
@@ -3165,6 +3209,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "map"
             },
             {
@@ -3252,6 +3297,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "map"
             },
             {
@@ -3317,6 +3363,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "mapValues"
             },
             {
@@ -3409,6 +3456,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "mapValues"
             },
             {
@@ -3565,6 +3613,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "merge"
             },
             {
@@ -3669,6 +3718,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "partition"
             },
             {
@@ -3773,6 +3823,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "partition"
             },
             {
@@ -3838,6 +3889,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "partition"
             },
             {
@@ -3969,6 +4021,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "partition"
             },
             {
@@ -4100,6 +4153,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "partition"
             },
             {
@@ -4194,6 +4248,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "partition"
             },
             {
@@ -4224,6 +4279,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "random"
             },
             {
@@ -4271,6 +4327,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "random"
             },
             {
@@ -4301,6 +4358,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "randomKey"
             },
             {
@@ -4348,6 +4406,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "randomKey"
             },
             {
@@ -4424,6 +4483,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "reduce"
             },
             {
@@ -4454,6 +4514,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "reverse"
             },
             {
@@ -4501,6 +4562,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "some"
             },
             {
@@ -4577,6 +4639,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "some"
             },
             {
@@ -4629,6 +4692,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "sort"
             },
             {
@@ -4686,6 +4750,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "sorted"
             },
             {
@@ -4756,6 +4821,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "subtract"
             },
             {
@@ -4803,6 +4869,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "sweep"
             },
             {
@@ -4879,6 +4946,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "sweep"
             },
             {
@@ -4926,6 +4994,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "tap"
             },
             {
@@ -5002,6 +5071,7 @@
                 }
               ],
               "isOptional": false,
+              "isAbstract": false,
               "name": "tap"
             },
             {
@@ -5032,6 +5102,7 @@
               "overloadIndex": 1,
               "parameters": [],
               "isOptional": false,
+              "isAbstract": false,
               "name": "toJSON"
             }
           ],
