@@ -12180,6 +12180,60 @@
             },
             {
               "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/core!MappedEvents#GUILD_AUDIT_LOG_ENTRY_CREATE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "["
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayDispatchEvents.GuildAuditLogEntryCreate",
+                  "canonicalReference": "discord-api-types!GatewayDispatchEvents.GuildAuditLogEntryCreate:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": "]: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "["
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WithIntrinsicProps",
+                  "canonicalReference": "@discordjs/core!WithIntrinsicProps:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayGuildAuditLogEntryCreateDispatchData",
+                  "canonicalReference": "discord-api-types!GatewayGuildAuditLogEntryCreateDispatchData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "GUILD_AUDIT_LOG_ENTRY_CREATE",
+              "propertyTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 8
+              }
+            },
+            {
+              "kind": "PropertySignature",
               "canonicalReference": "@discordjs/core!MappedEvents#GUILD_BAN_ADD:member",
               "docComment": "",
               "excerptTokens": [
