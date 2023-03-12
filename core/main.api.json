@@ -10264,6 +10264,77 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/core!GuildsAPI#setVoiceState:member(1)",
+              "docComment": "/**\n * Sets the voice state for the current user\n *\n * @param guildId - The id of the guild\n *\n * @param options - The options to use when setting the voice state\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-current-user-voice-state}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setVoiceState(guildId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", options?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPatchAPIGuildVoiceStateCurrentMemberJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildVoiceStateCurrentMemberJSONBody:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<never>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "guildId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "setVoiceState"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#syncTemplate:member(1)",
               "docComment": "/**\n * Syncs a template for a guild\n *\n * @param guildId - The id of the guild to sync the template from\n *\n * @param templateCode - The code of the template to sync\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#sync-guild-template}\n */\n",
               "excerptTokens": [
@@ -17181,77 +17252,6 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "leaveGuild"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/core!UsersAPI#setVoiceState:member(1)",
-              "docComment": "/**\n * Sets the voice state for the current user\n *\n * @param guildId - The id of the guild\n *\n * @param options - The options to use when setting the voice state\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-current-user-voice-state}\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setVoiceState(guildId: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Snowflake",
-                  "canonicalReference": "discord-api-types!Snowflake:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", options?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RESTPatchAPIGuildVoiceStateCurrentMemberJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildVoiceStateCurrentMemberJSONBody:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<never>"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "guildId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "setVoiceState"
             },
             {
               "kind": "Method",
