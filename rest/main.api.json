@@ -5618,7 +5618,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare const enum RequestMethod "
+              "text": "export declare enum RequestMethod "
             }
           ],
           "fileUrlPath": "src/lib/RequestManager.ts",
@@ -6858,7 +6858,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare const enum RESTEvents "
+              "text": "export declare enum RESTEvents "
             }
           ],
           "fileUrlPath": "src/lib/utils/constants.ts",
