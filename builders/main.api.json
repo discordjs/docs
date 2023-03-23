@@ -11425,7 +11425,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIChatInputApplicationCommandsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIChatInputApplicationCommandsJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIChatInputApplicationCommandsJSONBody:interface"
                 },
                 {
                   "kind": "Content",
