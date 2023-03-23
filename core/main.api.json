@@ -2313,7 +2313,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIChannelInviteJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIChannelInviteJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIChannelInviteJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -2409,7 +2409,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIChannelMessageJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIChannelMessageJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIChannelMessageJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -3081,7 +3081,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIChannelJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIChannelJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIChannelJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -3170,7 +3170,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIChannelMessageJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIChannelMessageJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIChannelMessageJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -4952,7 +4952,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPutAPIGuildBanJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPutAPIGuildBanJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPutAPIGuildBanJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -5047,7 +5047,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIGuildPruneJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIGuildPruneJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIGuildPruneJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -5134,7 +5134,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIGuildsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIGuildsJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIGuildsJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -5206,7 +5206,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIAutoModerationRuleJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIAutoModerationRuleJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIAutoModerationRuleJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -5398,7 +5398,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIGuildEmojiJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIGuildEmojiJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIGuildEmojiJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -5494,7 +5494,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIGuildRoleJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIGuildRoleJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIGuildRoleJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -5590,7 +5590,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIGuildScheduledEventJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIGuildScheduledEventJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIGuildScheduledEventJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -5803,7 +5803,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPITemplateCreateGuildJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPITemplateCreateGuildJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPITemplateCreateGuildJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -6545,7 +6545,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIGuildJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -6763,7 +6763,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIGuildEmojiJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildEmojiJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildEmojiJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -6876,7 +6876,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIGuildMemberJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildMemberJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildMemberJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -7085,7 +7085,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIGuildRoleJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildRoleJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildRoleJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -7311,7 +7311,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIGuildStickerJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildStickerJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildStickerJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -7520,7 +7520,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIGuildVoiceStateUserJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildVoiceStateUserJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildVoiceStateUserJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -10283,7 +10283,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIGuildVoiceStateCurrentMemberJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildVoiceStateCurrentMemberJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildVoiceStateCurrentMemberJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -15711,7 +15711,7 @@
             {
               "kind": "Reference",
               "text": "RESTPostAPIChannelThreadsJSONBody",
-              "canonicalReference": "discord-api-types!RESTPostAPIChannelThreadsJSONBody:type"
+              "canonicalReference": "discord-api-types!RESTPostAPIChannelThreadsJSONBody:interface"
             },
             {
               "kind": "Content",
@@ -16710,7 +16710,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPICurrentUserJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPICurrentUserJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPICurrentUserJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -16782,7 +16782,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIGuildMemberJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildMemberJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIGuildMemberJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -17503,7 +17503,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIChannelWebhookJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIChannelWebhookJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIChannelWebhookJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -17763,7 +17763,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPatchAPIWebhookJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIWebhookJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPatchAPIWebhookJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -17984,7 +17984,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIWebhookWithTokenJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIWebhookWithTokenJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIWebhookWithTokenJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -18102,7 +18102,7 @@
                 {
                   "kind": "Reference",
                   "text": "RESTPostAPIWebhookWithTokenJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIWebhookWithTokenJSONBody:type"
+                  "canonicalReference": "discord-api-types!RESTPostAPIWebhookWithTokenJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -18615,16 +18615,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: import(\"discord-api-types/utils/internals\")."
-            },
-            {
-              "kind": "Reference",
-              "text": "AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
-              "canonicalReference": "discord-api-types!AddUndefinedToPossiblyUndefinedPropertiesOfInterface:type"
-            },
-            {
-              "kind": "Content",
-              "text": "<import(\"discord-api-types/v10\")."
+              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -18633,16 +18624,7 @@
             },
             {
               "kind": "Content",
-              "text": ">[] | undefined;\n        allowed_mentions?: import(\"discord-api-types/utils/internals\")."
-            },
-            {
-              "kind": "Reference",
-              "text": "AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
-              "canonicalReference": "discord-api-types!AddUndefinedToPossiblyUndefinedPropertiesOfInterface:type"
-            },
-            {
-              "kind": "Content",
-              "text": "<import(\"discord-api-types/v10\")."
+              "text": "[] | undefined;\n        allowed_mentions?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -18651,16 +18633,7 @@
             },
             {
               "kind": "Content",
-              "text": "> | undefined;\n        components?: import(\"discord-api-types/utils/internals\")."
-            },
-            {
-              "kind": "Reference",
-              "text": "AddUndefinedToPossiblyUndefinedPropertiesOfInterface",
-              "canonicalReference": "discord-api-types!AddUndefinedToPossiblyUndefinedPropertiesOfInterface:type"
-            },
-            {
-              "kind": "Content",
-              "text": "<import(\"discord-api-types/v10\")."
+              "text": " | undefined;\n        components?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -18678,7 +18651,7 @@
             },
             {
               "kind": "Content",
-              "text": ">>[] | undefined;\n        flags?: import(\"discord-api-types/v10\")."
+              "text": ">[] | undefined;\n        flags?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -18706,7 +18679,7 @@
           "fileUrlPath": "src/util/files.ts",
           "returnTypeTokenRange": {
             "startIndex": 6,
-            "endIndex": 25
+            "endIndex": 19
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
