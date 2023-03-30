@@ -500,6 +500,33 @@
           "extendsTokenRanges": []
         },
         {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/rest!BurstHandlerMajorIdKey:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "BurstHandlerMajorIdKey = "
+            },
+            {
+              "kind": "Content",
+              "text": "\"burst\""
+            }
+          ],
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "initializerTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "BurstHandlerMajorIdKey",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
           "kind": "Class",
           "canonicalReference": "@discordjs/rest!CDN:class",
           "docComment": "/**\n * The CDN link builder\n */\n",
