@@ -2107,7 +2107,7 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    readonly api: \"https://discord.com/api\";\n    readonly authPrefix: \"Bot\";\n    readonly cdn: \"https://cdn.discordapp.com\";\n    readonly headers: {};\n    readonly invalidRequestWarningInterval: 0;\n    readonly globalRequestsPerSecond: 50;\n    readonly offset: 50;\n    readonly rejectOnRateLimit: null;\n    readonly retries: 3;\n    readonly timeout: 15000;\n    readonly userAgentAppendix: `Node.js ${string}`;\n    readonly version: \"10\";\n    readonly hashSweepInterval: 14400000;\n    readonly hashLifetime: 86400000;\n    readonly handlerSweepInterval: 3600000;\n}"
+              "text": ";\n    readonly api: \"https://discord.com/api\";\n    readonly authPrefix: \"Bot\";\n    readonly cdn: \"https://cdn.discordapp.com\";\n    readonly headers: {};\n    readonly invalidRequestWarningInterval: 0;\n    readonly globalRequestsPerSecond: 50;\n    readonly offset: 50;\n    readonly rejectOnRateLimit: null;\n    readonly retries: 3;\n    readonly timeout: 15000;\n    readonly userAgentAppendix: string;\n    readonly version: \"10\";\n    readonly hashSweepInterval: 14400000;\n    readonly hashLifetime: 86400000;\n    readonly handlerSweepInterval: 3600000;\n}"
             }
           ],
           "fileUrlPath": "src/lib/utils/constants.ts",
@@ -2137,6 +2137,29 @@
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultUserAgent",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/rest!DefaultUserAgentAppendix:var",
+          "docComment": "/**\n * The default string to append onto the user agent.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "DefaultUserAgentAppendix: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            }
+          ],
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "DefaultUserAgentAppendix",
           "variableTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -7734,7 +7757,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/rest!RESTOptions#userAgentAppendix:member",
-              "docComment": "/**\n * Extra information to add to the user agent\n *\n * @defaultValue\n *\n * `Node.js ${process.version}`\n */\n",
+              "docComment": "/**\n * Extra information to add to the user agent\n *\n * @defaultValue\n *\n * DefaultUserAgentAppendix\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
