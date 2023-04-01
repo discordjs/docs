@@ -13409,7 +13409,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#defer:member(1)",
-              "docComment": "/**\n * Defers the reply to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param options - The options to use when deferring\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
+              "docComment": "/**\n * Defers the reply to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when deferring the reply\n *\n * @param options - The options to use when deferring\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13427,6 +13427,19 @@
                 {
                   "kind": "Content",
                   "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", data: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIInteractionResponseDeferredChannelMessageWithSource",
+                  "canonicalReference": "discord-api-types!APIInteractionResponseDeferredChannelMessageWithSource:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "['data']"
                 },
                 {
                   "kind": "Content",
@@ -13470,8 +13483,8 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 10,
-                "endIndex": 12
+                "startIndex": 13,
+                "endIndex": 15
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -13494,10 +13507,18 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "{ signal }",
+                  "parameterName": "data",
                   "parameterTypeTokenRange": {
                     "startIndex": 5,
-                    "endIndex": 9
+                    "endIndex": 7
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 8,
+                    "endIndex": 12
                   },
                   "isOptional": true
                 }
@@ -21100,6 +21121,29 @@
             }
           ],
           "implementsTokenRanges": []
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/core!version:var",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/core/#readme | @discordjs/core} version that you are currently using.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "version: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "version",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
         },
         {
           "kind": "Class",
