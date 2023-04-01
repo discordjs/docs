@@ -23,6 +23,7 @@ pids
 .DS_Store
 tsconfig.tsbuildinfo
 .vercel/
+migrate.mjs
 
 # yarn
 .pnp.*
