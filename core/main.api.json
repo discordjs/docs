@@ -3949,7 +3949,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { signal }: "
+                  "text": ", { signal }?: "
                 },
                 {
                   "kind": "Reference",
@@ -4035,7 +4035,7 @@
                     "startIndex": 10,
                     "endIndex": 14
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
@@ -6300,7 +6300,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { signal }: "
+                  "text": ", { signal }?: "
                 },
                 {
                   "kind": "Reference",
@@ -6370,7 +6370,7 @@
                     "startIndex": 3,
                     "endIndex": 7
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
@@ -7580,7 +7580,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { reason, signal }: "
+                  "text": ", { reason, signal }?: "
                 },
                 {
                   "kind": "Reference",
@@ -7649,7 +7649,7 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
@@ -9419,7 +9419,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { signal }: "
+                  "text": ", { signal }?: "
                 },
                 {
                   "kind": "Reference",
@@ -9489,7 +9489,7 @@
                     "startIndex": 3,
                     "endIndex": 7
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
@@ -10713,7 +10713,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { signal }: "
+                  "text": ", { signal }?: "
                 },
                 {
                   "kind": "Reference",
@@ -10783,7 +10783,7 @@
                     "startIndex": 3,
                     "endIndex": 7
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
@@ -12417,7 +12417,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { reason, signal }: "
+                  "text": ", { reason, signal }?: "
                 },
                 {
                   "kind": "Reference",
@@ -12494,7 +12494,7 @@
                     "startIndex": 7,
                     "endIndex": 11
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
@@ -14062,7 +14062,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { signal }: "
+                  "text": ", { signal }?: "
                 },
                 {
                   "kind": "Reference",
@@ -14140,7 +14140,7 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
@@ -21952,7 +21952,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { signal }: "
+                  "text": ", options?: "
                 },
                 {
                   "kind": "Reference",
@@ -22033,12 +22033,12 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "{ signal }",
+                  "parameterName": "options",
                   "parameterTypeTokenRange": {
                     "startIndex": 12,
                     "endIndex": 16
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
@@ -22100,7 +22100,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { signal }: "
+                  "text": ", options?: "
                 },
                 {
                   "kind": "Reference",
@@ -22172,12 +22172,12 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "{ signal }",
+                  "parameterName": "options",
                   "parameterTypeTokenRange": {
                     "startIndex": 12,
                     "endIndex": 16
                   },
-                  "isOptional": false
+                  "isOptional": true
                 }
               ],
               "isOptional": false,
