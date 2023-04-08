@@ -3905,7 +3905,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDefaultMemberPermissions:member(1)",
-              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * @remarks\n *\n * You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * @remarks\n *\n * You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3958,7 +3958,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDefaultPermission:member(1)",
-              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * @remarks\n *\n * If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * @remarks\n *\n * If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4006,7 +4006,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDMPermission:member(1)",
-              "docComment": "/**\n * Sets if the command is available in DMs with the application, only for globally-scoped commands. By default, commands are visible.\n *\n * @param enabled - If the command should be enabled in DMs\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets if the command is available in DMs with the application, only for globally-scoped commands. By default, commands are visible.\n *\n * @param enabled - If the command should be enabled in DMs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6021,7 +6021,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#spliceFields:member(1)",
-              "docComment": "/**\n * Removes, replaces, or inserts fields in the embed.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice | Array.prototype.splice}. The maximum amount of fields that can be added is 25.\n *\n * It's useful for modifying and adjusting order of the already-existing fields of an embed.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of fields to remove\n *\n * @param fields - The replacing field objects\n *\n * @example\n *\n * Remove the first field\n * ```ts\n * embed.spliceFields(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n fields\n * ```ts\n * const n = 4\n * embed.spliceFields(0, n);\n * ```\n *\n * @example\n *\n * Remove the last field\n * ```ts\n * embed.spliceFields(-1, 1);\n * ```\n *\n */\n",
+              "docComment": "/**\n * Removes, replaces, or inserts fields in the embed.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice | Array.prototype.splice()}. The maximum amount of fields that can be added is 25.\n *\n * It's useful for modifying and adjusting order of the already-existing fields of an embed.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of fields to remove\n *\n * @param fields - The replacing field objects\n *\n * @example\n *\n * Remove the first field\n * ```ts\n * embed.spliceFields(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n fields\n * ```ts\n * const n = 4\n * embed.spliceFields(0, n);\n * ```\n *\n * @example\n *\n * Remove the last field\n * ```ts\n * embed.spliceFields(-1, 1);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11219,7 +11219,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#setDefaultMemberPermissions:member(1)",
-              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * @remarks\n *\n * You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * @remarks\n *\n * You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11272,7 +11272,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#setDefaultPermission:member(1)",
-              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * @remarks\n *\n * If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link (SlashCommandBuilder:class).setDefaultMemberPermissions} or {@link (SlashCommandBuilder:class).setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * @remarks\n *\n * If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link (SlashCommandBuilder:class).setDefaultMemberPermissions} or {@link (SlashCommandBuilder:class).setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11320,7 +11320,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#setDMPermission:member(1)",
-              "docComment": "/**\n * Sets if the command is available in DMs with the application, only for globally-scoped commands. By default, commands are visible.\n *\n * @param enabled - If the command should be enabled in DMs\n *\n * @see\n *\n * https://discord.com/developers/docs/interactions/application-commands#permissions\n */\n",
+              "docComment": "/**\n * Sets if the command is available in DMs with the application, only for globally-scoped commands. By default, commands are visible.\n *\n * @param enabled - If the command should be enabled in DMs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12673,7 +12673,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class",
-          "docComment": "/**\n * Represents a subcommand\n *\n * For more information, go to https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups\n */\n",
+          "docComment": "/**\n * Represents a subcommand\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups}\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -12881,7 +12881,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class",
-          "docComment": "/**\n * Represents a folder for subcommands\n *\n * For more information, go to https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups\n */\n",
+          "docComment": "/**\n * Represents a folder for subcommands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups}\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
