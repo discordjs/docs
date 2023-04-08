@@ -313,7 +313,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/brokers!BaseBrokerOptions#name:member",
-              "docComment": "/**\n * Unique consumer name. See: https://redis.io/commands/xreadgroup/\n */\n",
+              "docComment": "/**\n * Unique consumer name.\n *\n * @see\n *\n * {@link https://redis.io/commands/xreadgroup/}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
