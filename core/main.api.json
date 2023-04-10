@@ -21783,7 +21783,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", { thread_id, ...body }: "
+                  "text": ", { thread_id, files, ...body }: "
                 },
                 {
                   "kind": "Reference",
@@ -21792,7 +21792,16 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " & {\n        thread_id?: string;\n    }"
+                  "text": " & {\n        files?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RawFile",
+                  "canonicalReference": "@discordjs/rest!RawFile:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[];\n        thread_id?: string;\n    }"
                 },
                 {
                   "kind": "Content",
@@ -21845,8 +21854,8 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 15,
-                "endIndex": 19
+                "startIndex": 17,
+                "endIndex": 21
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -21877,18 +21886,18 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "{ thread_id, ...body }",
+                  "parameterName": "{ thread_id, files, ...body }",
                   "parameterTypeTokenRange": {
                     "startIndex": 7,
-                    "endIndex": 9
+                    "endIndex": 11
                   },
                   "isOptional": false
                 },
                 {
                   "parameterName": "{ signal }",
                   "parameterTypeTokenRange": {
-                    "startIndex": 10,
-                    "endIndex": 14
+                    "startIndex": 12,
+                    "endIndex": 16
                   },
                   "isOptional": true
                 }
