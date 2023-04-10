@@ -176,7 +176,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ActionRowBuilder:class",
-          "docComment": "/**\n * Represents an action row component\n *\n * @typeParam T - The types of components this action row holds\n */\n",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for action rows.\n *\n * @typeParam T - The types of components this action row holds\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -254,7 +254,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!ActionRowBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new action row from API data\n *\n * @param data - The API data to create this action row with\n *\n * @example\n *\n * Creating an action row from an API data object\n * ```ts\n * const actionRow = new ActionRowBuilder({\n * \tcomponents: [\n * \t\t{\n * \t\t\tcustom_id: \"custom id\",\n * \t\t\tlabel: \"Type something\",\n * \t\t\tstyle: TextInputStyle.Short,\n * \t\t\ttype: ComponentType.TextInput,\n * \t\t},\n * \t],\n * });\n * ```\n *\n * @example\n *\n * Creating an action row using setters and API data\n * ```ts\n * const actionRow = new ActionRowBuilder({\n * \tcomponents: [\n * \t\t{\n * \t\t\tcustom_id: \"custom id\",\n * \t\t\tlabel: \"Click me\",\n * \t\t\tstyle: ButtonStyle.Primary,\n * \t\t\ttype: ComponentType.Button,\n * \t\t},\n * \t],\n * })\n * \t.addComponents(button2, button3);\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new action row from API data.\n *\n * @param data - The API data to create this action row with\n *\n * @example\n *\n * Creating an action row from an API data object:\n * ```ts\n * const actionRow = new ActionRowBuilder({\n * \tcomponents: [\n * \t\t{\n * \t\t\tcustom_id: \"custom id\",\n * \t\t\tlabel: \"Type something\",\n * \t\t\tstyle: TextInputStyle.Short,\n * \t\t\ttype: ComponentType.TextInput,\n * \t\t},\n * \t],\n * });\n * ```\n *\n * @example\n *\n * Creating an action row using setters and API data:\n * ```ts\n * const actionRow = new ActionRowBuilder({\n * \tcomponents: [\n * \t\t{\n * \t\t\tcustom_id: \"custom id\",\n * \t\t\tlabel: \"Click me\",\n * \t\t\tstyle: ButtonStyle.Primary,\n * \t\t\ttype: ComponentType.Button,\n * \t\t},\n * \t],\n * })\n * \t.addComponents(button2, button3);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -309,7 +309,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ActionRowBuilder#addComponents:member(1)",
-              "docComment": "/**\n * Adds components to this action row.\n *\n * @param components - The components to add to this action row.\n */\n",
+              "docComment": "/**\n * Adds components to this action row.\n *\n * @param components - The components to add\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -362,7 +362,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ActionRowBuilder#components:member",
-              "docComment": "/**\n * The components within this action row\n */\n",
+              "docComment": "/**\n * The components within this action row.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -392,7 +392,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ActionRowBuilder#setComponents:member(1)",
-              "docComment": "/**\n * Sets the components in this action row\n *\n * @param components - The components to set this row to\n */\n",
+              "docComment": "/**\n * Sets components for this action row.\n *\n * @param components - The components to set\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -445,7 +445,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ActionRowBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -497,7 +497,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!AnyAPIActionRowComponent:type",
-          "docComment": "",
+          "docComment": "/**\n * Any action row component data represented as an object.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -542,7 +542,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!AnyComponentBuilder:type",
-          "docComment": "",
+          "docComment": "/**\n * Any builder.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -578,7 +578,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin:class",
-          "docComment": "",
+          "docComment": "/**\n * This mixin holds minimum and maximum symbols used for options.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -594,7 +594,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin#max_value:member",
-              "docComment": "",
+              "docComment": "/**\n * The maximum value of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -624,7 +624,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin#min_value:member",
-              "docComment": "",
+              "docComment": "/**\n * The minimum value of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -654,7 +654,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin#setMaxValue:member(1)",
-              "docComment": "/**\n * Sets the maximum number value of this option\n *\n * @param max - The maximum value this option can be\n */\n",
+              "docComment": "/**\n * Sets the maximum number value of this option.\n *\n * @param max - The maximum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -702,7 +702,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandNumericOptionMinMaxValueMixin#setMinValue:member(1)",
-              "docComment": "/**\n * Sets the minimum number value of this option\n *\n * @param min - The minimum value this option can be\n */\n",
+              "docComment": "/**\n * Sets the minimum number value of this option.\n *\n * @param min - The minimum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -753,7 +753,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!ApplicationCommandOptionAllowedChannelTypes:type",
-          "docComment": "",
+          "docComment": "/**\n * The type of allowed channel types used for a channel option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -788,7 +788,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase:class",
-          "docComment": "",
+          "docComment": "/**\n * The base application command option builder that contains common symbols for application command builders.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -813,7 +813,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase#required:member",
-              "docComment": "",
+              "docComment": "/**\n * Whether this option is required.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -843,7 +843,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase#runRequiredValidations:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * This method runs required validators on this builder.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -874,7 +874,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase#setRequired:member(1)",
-              "docComment": "/**\n * Marks the option as required\n *\n * @param required - If this option should be required\n */\n",
+              "docComment": "/**\n * Sets whether this option is required.\n *\n * @param required - Whether this option should be required\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -922,7 +922,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -954,7 +954,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionBase#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -992,7 +992,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ApplicationCommandOptionChannelTypesMixin:class",
-          "docComment": "",
+          "docComment": "/**\n * This mixin holds channel type symbols used for options.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1008,7 +1008,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionChannelTypesMixin#addChannelTypes:member(1)",
-              "docComment": "/**\n * Adds channel types to this option\n *\n * @param channelTypes - The channel types to add\n */\n",
+              "docComment": "/**\n * Adds channel types to this option.\n *\n * @param channelTypes - The channel types\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1061,7 +1061,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionChannelTypesMixin#channel_types:member",
-              "docComment": "",
+              "docComment": "/**\n * The channel types of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1099,7 +1099,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin:class",
-          "docComment": "",
+          "docComment": "/**\n * This mixin holds choices and autocomplete symbols used for options.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1136,7 +1136,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin#addChoices:member(1)",
-              "docComment": "/**\n * Adds multiple choices for this option\n *\n * @param choices - The choices to add\n */\n",
+              "docComment": "/**\n * Adds multiple choices to this option.\n *\n * @param choices - The choices to add\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1189,7 +1189,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin#autocomplete:member",
-              "docComment": "",
+              "docComment": "/**\n * Whether this option utilizes autocomplete.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1219,7 +1219,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin#choices:member",
-              "docComment": "",
+              "docComment": "/**\n * The choices of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1254,7 +1254,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin#setAutocomplete:member(1)",
-              "docComment": "/**\n * Marks the option as autocompletable\n *\n * @param autocomplete - If this option should be autocompletable\n */\n",
+              "docComment": "/**\n * Whether this option uses autocomplete.\n *\n * @param autocomplete - Whether this option should use autocomplete\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1302,7 +1302,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin#setChoices:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets multiple choices for this option.\n *\n * @param choices - The choices to set\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1376,7 +1376,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ApplicationCommandOptionWithChoicesAndAutocompleteMixin#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1410,7 +1410,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * The base select menu builder that contains common symbols for select menu builders.\n *\n * @typeParam SelectMenuType - The type of select menu this would be instantiated for.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1461,7 +1461,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom id for this select menu\n *\n * @param customId - The custom id to use for this select menu\n */\n",
+              "docComment": "/**\n * Sets the custom id for this select menu.\n *\n * @param customId - The custom id to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1509,7 +1509,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setDisabled:member(1)",
-              "docComment": "/**\n * Sets whether this select menu is disabled\n *\n * @param disabled - Whether this select menu is disabled\n */\n",
+              "docComment": "/**\n * Sets whether this select menu is disabled.\n *\n * @param disabled - Whether this select menu is disabled\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1557,7 +1557,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setMaxValues:member(1)",
-              "docComment": "/**\n * Sets the maximum values that must be selected in the select menu\n *\n * @param maxValues - The maximum values that must be selected\n */\n",
+              "docComment": "/**\n * Sets the maximum values that must be selected in the select menu.\n *\n * @param maxValues - The maximum values that must be selected\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1605,7 +1605,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setMinValues:member(1)",
-              "docComment": "/**\n * Sets the minimum values that must be selected in the select menu\n *\n * @param minValues - The minimum values that must be selected\n */\n",
+              "docComment": "/**\n * Sets the minimum values that must be selected in the select menu.\n *\n * @param minValues - The minimum values that must be selected\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1653,7 +1653,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#setPlaceholder:member(1)",
-              "docComment": "/**\n * Sets the placeholder for this select menu\n *\n * @param placeholder - The placeholder to use for this select menu\n */\n",
+              "docComment": "/**\n * Sets the placeholder for this select menu.\n *\n * @param placeholder - The placeholder to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1701,7 +1701,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!BaseSelectMenuBuilder#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1739,7 +1739,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ButtonBuilder:class",
-          "docComment": "/**\n * Represents a button component\n */\n",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for buttons.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1777,7 +1777,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!ButtonBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new button from API data\n *\n * @param data - The API data to create this button with\n *\n * @example\n *\n * Creating a button from an API data object\n * ```ts\n * const button = new ButtonBuilder({\n * \tcustom_id: 'a cool button',\n * \tstyle: ButtonStyle.Primary,\n * \tlabel: 'Click Me',\n * \temoji: {\n * \t\tname: 'smile',\n * \t\tid: '123456789012345678',\n * \t},\n * });\n * ```\n *\n * @example\n *\n * Creating a button using setters and API data\n * ```ts\n * const button = new ButtonBuilder({\n * \tstyle: ButtonStyle.Secondary,\n * \tlabel: 'Click Me',\n * })\n * \t.setEmoji({ name: '🙂' })\n * \t.setCustomId('another cool button');\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new button from API data.\n *\n * @param data - The API data to create this button with\n *\n * @example\n *\n * Creating a button from an API data object:\n * ```ts\n * const button = new ButtonBuilder({\n * \tcustom_id: 'a cool button',\n * \tstyle: ButtonStyle.Primary,\n * \tlabel: 'Click Me',\n * \temoji: {\n * \t\tname: 'smile',\n * \t\tid: '123456789012345678',\n * \t},\n * });\n * ```\n *\n * @example\n *\n * Creating a button using setters and API data:\n * ```ts\n * const button = new ButtonBuilder({\n * \tstyle: ButtonStyle.Secondary,\n * \tlabel: 'Click Me',\n * })\n * \t.setEmoji({ name: '🙂' })\n * \t.setCustomId('another cool button');\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1823,7 +1823,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom id for this button\n *\n * @remarks\n *\n * This method is only applicable to buttons that are not using the `Link` button style.\n *\n * @param customId - The custom id to use for this button\n */\n",
+              "docComment": "/**\n * Sets the custom id for this button.\n *\n * @remarks\n *\n * This method is only applicable to buttons that are not using the `Link` button style.\n *\n * @param customId - The custom id to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1871,7 +1871,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setDisabled:member(1)",
-              "docComment": "/**\n * Sets whether this button is disabled\n *\n * @param disabled - Whether to disable this button\n */\n",
+              "docComment": "/**\n * Sets whether this button is disabled.\n *\n * @param disabled - Whether to disable this button\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1919,7 +1919,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setEmoji:member(1)",
-              "docComment": "/**\n * Sets the emoji to display on this button\n *\n * @param emoji - The emoji to display on this button\n */\n",
+              "docComment": "/**\n * Sets the emoji to display on this button.\n *\n * @param emoji - The emoji to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1968,7 +1968,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setLabel:member(1)",
-              "docComment": "/**\n * Sets the label for this button\n *\n * @param label - The label to display on this button\n */\n",
+              "docComment": "/**\n * Sets the label for this button.\n *\n * @param label - The label to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2016,7 +2016,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setStyle:member(1)",
-              "docComment": "/**\n * Sets the style of this button\n *\n * @param style - The style of the button\n */\n",
+              "docComment": "/**\n * Sets the style of this button.\n *\n * @param style - The style to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2065,7 +2065,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#setURL:member(1)",
-              "docComment": "/**\n * Sets the URL for this button\n *\n * @remarks\n *\n * This method is only available to buttons using the `Link` button style. Only three types of URL schemes are currently supported: `https://`, `http://` and `discord://`\n *\n * @param url - The URL to open when this button is clicked\n */\n",
+              "docComment": "/**\n * Sets the URL for this button.\n *\n * @remarks\n *\n * This method is only available to buttons using the `Link` button style. Only three types of URL schemes are currently supported: `https://`, `http://`, and `discord://`.\n *\n * @param url - The URL to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2113,7 +2113,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ButtonBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2152,7 +2152,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for channel select menus.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2190,7 +2190,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new ChannelSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new ChannelSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.addChannelTypes(ChannelType.GuildText, ChannelType.GuildAnnouncement)\n * \t.setMinValues(2)\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new select menu from API data.\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object:\n * ```ts\n * const selectMenu = new ChannelSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data:\n * ```ts\n * const selectMenu = new ChannelSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.addChannelTypes(ChannelType.GuildText, ChannelType.GuildAnnouncement)\n * \t.setMinValues(2);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2236,7 +2236,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#addChannelTypes:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Adds channel types to this select menu.\n *\n * @param types - The channel types to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2298,7 +2298,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#setChannelTypes:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Sets channel types for this select menu.\n *\n * @param types - The channel types to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2360,7 +2360,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3219,7 +3219,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ComponentBuilder:class",
-          "docComment": "/**\n * Represents a discord component\n *\n * @typeParam DataType - The type of internal API data that is stored within the component\n */\n",
+          "docComment": "/**\n * The base component builder that contains common symbols for all sorts of components.\n *\n * @typeParam DataType - The type of internal API data that is stored within the component\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3323,7 +3323,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!ComponentBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `ComponentBuilder` class\n */\n",
+              "docComment": "/**\n * Constructs a new kind of component.\n *\n * @param data - The data to construct a component out of\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3360,7 +3360,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ComponentBuilder#data:member",
-              "docComment": "/**\n * The API data associated with this component\n */\n",
+              "docComment": "/**\n * The API data associated with this component.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3395,7 +3395,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ComponentBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3733,7 +3733,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for context menu commands.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3749,7 +3749,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#default_member_permissions:member",
-              "docComment": "/**\n * Set of permissions represented as a bit set for the command\n */\n",
+              "docComment": "/**\n * The set of permissions represented as a bit set for the command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3784,7 +3784,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#default_permission:member",
-              "docComment": "/**\n * Whether the command is enabled by default when the app is added to a guild\n *\n * @deprecated\n *\n * This property is deprecated and will be removed in the future. You should use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n */\n",
+              "docComment": "/**\n * Whether this command is enabled by default when the application is added to a guild.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3814,7 +3814,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#dm_permission:member",
-              "docComment": "/**\n * Indicates whether the command is available in DMs with the application, only for globally-scoped commands. By default, commands are visible.\n */\n",
+              "docComment": "/**\n * Indicates whether the command is available in direct messages with the application.\n *\n * @remarks\n *\n * By default, commands are visible. This property is only for global commands.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3844,7 +3844,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#name_localizations:member",
-              "docComment": "/**\n * The localized names for this command\n */\n",
+              "docComment": "/**\n * The name localizations of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3875,7 +3875,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#name:member",
-              "docComment": "/**\n * The name of this context menu command\n */\n",
+              "docComment": "/**\n * The name of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3905,7 +3905,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDefaultMemberPermissions:member(1)",
-              "docComment": "/**\n * Sets the default permissions a member should have in order to run the command.\n *\n * @remarks\n *\n * You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
+              "docComment": "/**\n * Sets the default permissions a member should have in order to run this command.\n *\n * @remarks\n *\n * You can set this to `'0'` to disable the command by default.\n *\n * @param permissions - The permissions bit field to set\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3958,7 +3958,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDefaultPermission:member(1)",
-              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * @remarks\n *\n * If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n *\n * @param value - Whether or not to enable this command by default\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
+              "docComment": "/**\n * Sets whether the command is enabled by default when the application is added to a guild.\n *\n * @remarks\n *\n * If set to `false`, you will have to later `PUT` the permissions for this command.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n *\n * @param value - Whether to enable this command by default\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4006,7 +4006,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setDMPermission:member(1)",
-              "docComment": "/**\n * Sets if the command is available in DMs with the application, only for globally-scoped commands. By default, commands are visible.\n *\n * @param enabled - If the command should be enabled in DMs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
+              "docComment": "/**\n * Sets if the command is available in direct messages with the application.\n *\n * @remarks\n *\n * By default, commands are visible. This method is only for global commands.\n *\n * @param enabled - Whether the command should be enabled in direct messages\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4054,7 +4054,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setName:member(1)",
-              "docComment": "/**\n * Sets the name\n *\n * @param name - The name\n */\n",
+              "docComment": "/**\n * Sets the name of this command.\n *\n * @param name - The name to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4102,7 +4102,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setNameLocalization:member(1)",
-              "docComment": "/**\n * Sets a name localization\n *\n * @param locale - The locale to set a description for\n *\n * @param localizedName - The localized description for the given locale\n */\n",
+              "docComment": "/**\n * Sets a name localization for this command.\n *\n * @param locale - The locale to set\n *\n * @param localizedName - The localized name for the given `locale`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4167,7 +4167,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setNameLocalizations:member(1)",
-              "docComment": "/**\n * Sets the name localizations\n *\n * @param localizedNames - The dictionary of localized descriptions to set\n */\n",
+              "docComment": "/**\n * Sets the name localizations for this command.\n *\n * @param localizedNames - The object of localized names to set\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4220,7 +4220,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#setType:member(1)",
-              "docComment": "/**\n * Sets the type\n *\n * @param type - The type\n */\n",
+              "docComment": "/**\n * Sets the type of this command.\n *\n * @param type - The type to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4269,7 +4269,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Returns the final data that should be sent to Discord.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4301,7 +4301,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ContextMenuCommandBuilder#type:member",
-              "docComment": "/**\n * The type of this context menu command\n */\n",
+              "docComment": "/**\n * The type of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4335,7 +4335,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!ContextMenuCommandType:type",
-          "docComment": "",
+          "docComment": "/**\n * The type a context menu command can be.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4371,7 +4371,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!createComponentBuilder:function(1)",
-          "docComment": "/**\n * Factory for creating components from API data\n *\n * @param data - The api data to transform to a component class\n */\n",
+          "docComment": "/**\n * Factory for creating components from API data.\n *\n * @param data - The API data to transform to a component class\n *\n * @typeParam T - The type of component to use\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4465,7 +4465,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!createComponentBuilder:function(2)",
-          "docComment": "",
+          "docComment": "/**\n * Factory for creating components from API data.\n *\n * @param data - The API data to transform to a component class\n *\n * @typeParam C - The type of component to use\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4539,27 +4539,32 @@
           "name": "createComponentBuilder"
         },
         {
-          "kind": "Variable",
-          "canonicalReference": "@discordjs/builders!disableValidators:var",
-          "docComment": "",
+          "kind": "Function",
+          "canonicalReference": "@discordjs/builders!disableValidators:function(1)",
+          "docComment": "/**\n * Disables validators.\n *\n * @returns Whether validation is occurring.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "disableValidators: "
+              "text": "export declare function disableValidators(): "
             },
             {
               "kind": "Content",
-              "text": "() => boolean"
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
             }
           ],
           "fileUrlPath": "src/util/validation.ts",
-          "isReadonly": true,
-          "releaseTag": "Public",
-          "name": "disableValidators",
-          "variableTypeTokenRange": {
+          "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
-          }
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [],
+          "name": "disableValidators"
         },
         {
           "kind": "Namespace",
@@ -5240,7 +5245,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!EmbedAuthorData:type",
-          "docComment": "",
+          "docComment": "/**\n * Represents the author data of an embed.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -5307,7 +5312,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!EmbedAuthorOptions:type",
-          "docComment": "",
+          "docComment": "/**\n * Represents the author options of an embed.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -5365,7 +5370,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!EmbedBuilder:class",
-          "docComment": "/**\n * Represents a embed in a message (image/video preview, rich embed, etc.)\n */\n",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for embeds.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -5381,7 +5386,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!EmbedBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `EmbedBuilder` class\n */\n",
+              "docComment": "/**\n * Creates a new embed from API data.\n *\n * @param data - The API data to create this embed with\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5414,7 +5419,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#addFields:member(1)",
-              "docComment": "/**\n * Appends fields to the embed\n *\n * @remarks\n *\n * This method accepts either an array of fields or a variable number of field parameters. The maximum amount of fields that can be added is 25.\n *\n * @param fields - The fields to add\n *\n * @example\n *\n * Using an array\n * ```ts\n * const fields: APIEmbedField[] = ...;\n * const embed = new EmbedBuilder()\n * \t.addFields(fields);\n * ```\n *\n * @example\n *\n * Using rest parameters (variadic)\n * ```ts\n * const embed = new EmbedBuilder()\n * \t.addFields(\n * \t\t{ name: 'Field 1', value: 'Value 1' },\n * \t\t{ name: 'Field 2', value: 'Value 2' },\n * \t);\n * ```\n *\n */\n",
+              "docComment": "/**\n * Appends fields to the embed.\n *\n * @remarks\n *\n * This method accepts either an array of fields or a variable number of field parameters. The maximum amount of fields that can be added is 25.\n *\n * @param fields - The fields to add\n *\n * @example\n *\n * Using an array:\n * ```ts\n * const fields: APIEmbedField[] = ...;\n * const embed = new EmbedBuilder()\n * \t.addFields(fields);\n * ```\n *\n * @example\n *\n * Using rest parameters (variadic):\n * ```ts\n * const embed = new EmbedBuilder()\n * \t.addFields(\n * \t\t{ name: 'Field 1', value: 'Value 1' },\n * \t\t{ name: 'Field 2', value: 'Value 2' },\n * \t);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5476,7 +5481,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#data:member",
-              "docComment": "",
+              "docComment": "/**\n * The API data associated with this embed.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5507,7 +5512,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setAuthor:member(1)",
-              "docComment": "/**\n * Sets the author of this embed\n *\n * @param options - The options for the author\n */\n",
+              "docComment": "/**\n * Sets the author of this embed.\n *\n * @param options - The options to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5560,7 +5565,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setColor:member(1)",
-              "docComment": "/**\n * Sets the color of this embed\n *\n * @param color - The color of the embed\n */\n",
+              "docComment": "/**\n * Sets the color of this embed.\n *\n * @param color - The color to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5613,7 +5618,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setDescription:member(1)",
-              "docComment": "/**\n * Sets the description of this embed\n *\n * @param description - The description\n */\n",
+              "docComment": "/**\n * Sets the description of this embed.\n *\n * @param description - The description to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5661,7 +5666,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setFields:member(1)",
-              "docComment": "/**\n * Sets the embed's fields\n *\n * @remarks\n *\n * This method is an alias for {@link EmbedBuilder.spliceFields}. More specifically, it splices the entire array of fields, replacing them with the provided fields.\n *\n * You can set a maximum of 25 fields.\n *\n * @param fields - The fields to set\n */\n",
+              "docComment": "/**\n * Sets the fields for this embed.\n *\n * @remarks\n *\n * This method is an alias for {@link EmbedBuilder.spliceFields}. More specifically, it splices the entire array of fields, replacing them with the provided fields.\n *\n * You can set a maximum of 25 fields.\n *\n * @param fields - The fields to set\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5723,7 +5728,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setFooter:member(1)",
-              "docComment": "/**\n * Sets the footer of this embed\n *\n * @param options - The options for the footer\n */\n",
+              "docComment": "/**\n * Sets the footer of this embed.\n *\n * @param options - The footer to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5776,7 +5781,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setImage:member(1)",
-              "docComment": "/**\n * Sets the image of this embed\n *\n * @param url - The URL of the image\n */\n",
+              "docComment": "/**\n * Sets the image of this embed.\n *\n * @param url - The image URL to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5824,7 +5829,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setThumbnail:member(1)",
-              "docComment": "/**\n * Sets the thumbnail of this embed\n *\n * @param url - The URL of the thumbnail\n */\n",
+              "docComment": "/**\n * Sets the thumbnail of this embed.\n *\n * @param url - The thumbnail URL to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5872,7 +5877,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setTimestamp:member(1)",
-              "docComment": "/**\n * Sets the timestamp of this embed\n *\n * @param timestamp - The timestamp or date\n */\n",
+              "docComment": "/**\n * Sets the timestamp of this embed.\n *\n * @param timestamp - The timestamp or date to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5925,7 +5930,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setTitle:member(1)",
-              "docComment": "/**\n * Sets the title of this embed\n *\n * @param title - The title\n */\n",
+              "docComment": "/**\n * Sets the title for this embed.\n *\n * @param title - The title to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5973,7 +5978,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#setURL:member(1)",
-              "docComment": "/**\n * Sets the URL of this embed\n *\n * @param url - The URL\n */\n",
+              "docComment": "/**\n * Sets the URL of this embed.\n *\n * @param url - The URL to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6021,7 +6026,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#spliceFields:member(1)",
-              "docComment": "/**\n * Removes, replaces, or inserts fields in the embed.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice | Array.prototype.splice()}. The maximum amount of fields that can be added is 25.\n *\n * It's useful for modifying and adjusting order of the already-existing fields of an embed.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of fields to remove\n *\n * @param fields - The replacing field objects\n *\n * @example\n *\n * Remove the first field\n * ```ts\n * embed.spliceFields(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n fields\n * ```ts\n * const n = 4\n * embed.spliceFields(0, n);\n * ```\n *\n * @example\n *\n * Remove the last field\n * ```ts\n * embed.spliceFields(-1, 1);\n * ```\n *\n */\n",
+              "docComment": "/**\n * Removes, replaces, or inserts fields for this embed.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice | Array.prototype.splice()}. The maximum amount of fields that can be added is 25.\n *\n * It's useful for modifying and adjusting order of the already-existing fields of an embed.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of fields to remove\n *\n * @param fields - The replacing field objects\n *\n * @example\n *\n * Remove the first field:\n * ```ts\n * embed.spliceFields(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n fields:\n * ```ts\n * const n = 4;\n * embed.spliceFields(0, n);\n * ```\n *\n * @example\n *\n * Remove the last field:\n * ```ts\n * embed.spliceFields(-1, 1);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6106,7 +6111,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!EmbedBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Transforms the embed to a plain object\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6141,7 +6146,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!EmbedFooterData:type",
-          "docComment": "",
+          "docComment": "/**\n * Represents the footer data of an embed.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6208,7 +6213,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!EmbedFooterOptions:type",
-          "docComment": "",
+          "docComment": "/**\n * Represents the footer options of an embed.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6266,7 +6271,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/builders!EmbedImageData:interface",
-          "docComment": "",
+          "docComment": "/**\n * Represents the image data of an embed.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6321,7 +6326,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!EmbedImageData#proxyURL:member",
-              "docComment": "/**\n * The proxy URL for the image\n */\n",
+              "docComment": "/**\n * The proxy URL for the image.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6356,7 +6361,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!embedLength:function(1)",
-          "docComment": "",
+          "docComment": "/**\n * Calculates the length of the embed.\n *\n * @param data - The embed data to check\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6400,32 +6405,37 @@
           "name": "embedLength"
         },
         {
-          "kind": "Variable",
-          "canonicalReference": "@discordjs/builders!enableValidators:var",
-          "docComment": "",
+          "kind": "Function",
+          "canonicalReference": "@discordjs/builders!enableValidators:function(1)",
+          "docComment": "/**\n * Enables validators.\n *\n * @returns Whether validation is occurring.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "enableValidators: "
+              "text": "export declare function enableValidators(): "
             },
             {
               "kind": "Content",
-              "text": "() => boolean"
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
             }
           ],
           "fileUrlPath": "src/util/validation.ts",
-          "isReadonly": true,
-          "releaseTag": "Public",
-          "name": "enableValidators",
-          "variableTypeTokenRange": {
+          "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
-          }
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [],
+          "name": "enableValidators"
         },
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/builders!IconData:interface",
-          "docComment": "",
+          "docComment": "/**\n * The base icon data typically used in payloads.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6440,7 +6450,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!IconData#iconURL:member",
-              "docComment": "/**\n * The URL of the icon\n */\n",
+              "docComment": "/**\n * The URL of the icon.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6467,7 +6477,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!IconData#proxyIconURL:member",
-              "docComment": "/**\n * The proxy URL of the icon\n */\n",
+              "docComment": "/**\n * The proxy URL of the icon.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6495,32 +6505,37 @@
           "extendsTokenRanges": []
         },
         {
-          "kind": "Variable",
-          "canonicalReference": "@discordjs/builders!isValidationEnabled:var",
-          "docComment": "",
+          "kind": "Function",
+          "canonicalReference": "@discordjs/builders!isValidationEnabled:function(1)",
+          "docComment": "/**\n * Checks whether validation is occurring.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "isValidationEnabled: "
+              "text": "export declare function isValidationEnabled(): "
             },
             {
               "kind": "Content",
-              "text": "() => boolean"
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
             }
           ],
           "fileUrlPath": "src/util/validation.ts",
-          "isReadonly": true,
-          "releaseTag": "Public",
-          "name": "isValidationEnabled",
-          "variableTypeTokenRange": {
+          "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
-          }
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [],
+          "name": "isValidationEnabled"
         },
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/builders!MappedComponentTypes:interface",
-          "docComment": "",
+          "docComment": "/**\n * Components here are mapped to their respective builder.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6535,7 +6550,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"1\":member",
-              "docComment": "",
+              "docComment": "/**\n * The action row component type is associated with an {@link ActionRowBuilder}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6585,7 +6600,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"2\":member",
-              "docComment": "",
+              "docComment": "/**\n * The button component type is associated with an {@link ButtonBuilder}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6622,7 +6637,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"3\":member",
-              "docComment": "",
+              "docComment": "/**\n * The string select component type is associated with an {@link StringSelectMenuBuilder}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6659,7 +6674,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"4\":member",
-              "docComment": "",
+              "docComment": "/**\n * The text inpiut component type is associated with an {@link TextInputBuilder}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6696,7 +6711,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"5\":member",
-              "docComment": "",
+              "docComment": "/**\n * The user select component type is associated with an {@link UserSelectMenuBuilder}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6733,7 +6748,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"6\":member",
-              "docComment": "",
+              "docComment": "/**\n * The role select component type is associated with an {@link RoleSelectMenuBuilder}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6770,7 +6785,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"7\":member",
-              "docComment": "",
+              "docComment": "/**\n * The mentionable select component type is associated with an {@link MentionableSelectMenuBuilder}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6807,7 +6822,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/builders!MappedComponentTypes#\"8\":member",
-              "docComment": "",
+              "docComment": "/**\n * The channel select component type is associated with an {@link ChannelSelectMenuBuilder}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6847,7 +6862,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for mentionable select menus.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6885,7 +6900,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new MentionableSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new MentionableSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new select menu from API data.\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object:\n * ```ts\n * const selectMenu = new MentionableSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data:\n * ```ts\n * const selectMenu = new MentionableSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6938,7 +6953,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!MessageActionRowComponentBuilder:type",
-          "docComment": "",
+          "docComment": "/**\n * The builders that may be used within an action row for messages.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7010,7 +7025,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!MessageComponentBuilder:type",
-          "docComment": "",
+          "docComment": "/**\n * The builders that may be used for messages.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7055,7 +7070,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!ModalActionRowComponentBuilder:type",
-          "docComment": "",
+          "docComment": "/**\n * The builders that may be used within an action row for modals.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7303,7 +7318,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ModalBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for modals.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7341,7 +7356,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!ModalBuilder:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `ModalBuilder` class\n */\n",
+              "docComment": "/**\n * Creates a new modal from API data.\n *\n * @param data - The API data to create this modal with\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7387,7 +7402,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ModalBuilder#addComponents:member(1)",
-              "docComment": "/**\n * Adds components to this modal\n *\n * @param components - The components to add to this modal\n */\n",
+              "docComment": "/**\n * Adds components to this modal.\n *\n * @param components - The components to add\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7476,7 +7491,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ModalBuilder#components:member",
-              "docComment": "",
+              "docComment": "/**\n * The components within this modal.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7520,7 +7535,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!ModalBuilder#data:member",
-              "docComment": "",
+              "docComment": "/**\n * The API data associated with this modal.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7564,7 +7579,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ModalBuilder#setComponents:member(1)",
-              "docComment": "/**\n * Sets the components in this modal\n *\n * @param components - The components to set this modal to\n */\n",
+              "docComment": "/**\n * Sets components for this modal.\n *\n * @param components - The components to set\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7635,7 +7650,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ModalBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom id of the modal\n *\n * @param customId - The custom id of this modal\n */\n",
+              "docComment": "/**\n * Sets the custom id of this modal.\n *\n * @param customId - The custom id to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7683,7 +7698,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ModalBuilder#setTitle:member(1)",
-              "docComment": "/**\n * Sets the title of the modal\n *\n * @param title - The title of the modal\n */\n",
+              "docComment": "/**\n * Sets the title of this modal.\n *\n * @param title - The title to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7731,7 +7746,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!ModalBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7771,7 +7786,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!ModalComponentBuilder:type",
-          "docComment": "",
+          "docComment": "/**\n * The builders that may be used for modals.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7816,7 +7831,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!normalizeArray:function(1)",
-          "docComment": "",
+          "docComment": "/**\n * Normalizes data that is a rest parameter or an array into an array with a depth of 1.\n *\n * @param arr - The (possibly variadic) data to normalize\n *\n * @typeParam T - The data that must satisfy {@link RestOrArray}.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7879,7 +7894,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!RestOrArray:type",
-          "docComment": "",
+          "docComment": "/**\n * Represents data that may be an array or came from a rest parameter.\n *\n * @remarks\n *\n * This type is used throughout builders to ensure both an array and variadic arguments may be used. It is normalized with {@link normalizeArray}.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7918,7 +7933,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/builders!RGBTuple:type",
-          "docComment": "",
+          "docComment": "/**\n * A tuple satisfying the RGB color model.\n *\n * @see\n *\n * {@link https://developer.mozilla.org/docs/Glossary/RGB}\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7944,7 +7959,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for role select menus.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -7982,7 +7997,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new RoleSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new RoleSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new select menu from API data.\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object:\n * ```ts\n * const selectMenu = new RoleSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data:\n * ```ts\n * const selectMenu = new RoleSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8035,7 +8050,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SharedNameAndDescription:class",
-          "docComment": "",
+          "docComment": "/**\n * This mixin holds name and description symbols for slash commands.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -8051,7 +8066,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#description_localizations:member",
-              "docComment": "",
+              "docComment": "/**\n * The description localizations of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8082,7 +8097,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#description:member",
-              "docComment": "",
+              "docComment": "/**\n * The description of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8112,7 +8127,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#name_localizations:member",
-              "docComment": "",
+              "docComment": "/**\n * The name localizations of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8143,7 +8158,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#name:member",
-              "docComment": "",
+              "docComment": "/**\n * The name of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8173,7 +8188,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#setDescription:member(1)",
-              "docComment": "/**\n * Sets the description\n *\n * @param description - The description\n */\n",
+              "docComment": "/**\n * Sets the description of this command.\n *\n * @param description - The description to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8221,7 +8236,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#setDescriptionLocalization:member(1)",
-              "docComment": "/**\n * Sets a description localization\n *\n * @param locale - The locale to set a description for\n *\n * @param localizedDescription - The localized description for the given locale\n */\n",
+              "docComment": "/**\n * Sets a description localization for this command.\n *\n * @param locale - The locale to set\n *\n * @param localizedDescription - The localized description for the given locale\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8286,7 +8301,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#setDescriptionLocalizations:member(1)",
-              "docComment": "/**\n * Sets the description localizations\n *\n * @param localizedDescriptions - The dictionary of localized descriptions to set\n */\n",
+              "docComment": "/**\n * Sets the description localizations for this command.\n *\n * @param localizedDescriptions - The object of localized descriptions to set\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8339,7 +8354,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#setName:member(1)",
-              "docComment": "/**\n * Sets the name\n *\n * @param name - The name\n */\n",
+              "docComment": "/**\n * Sets the name of this command.\n *\n * @param name - The name to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8387,7 +8402,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#setNameLocalization:member(1)",
-              "docComment": "/**\n * Sets a name localization\n *\n * @param locale - The locale to set a description for\n *\n * @param localizedName - The localized description for the given locale\n */\n",
+              "docComment": "/**\n * SSets a name localization for this command.\n *\n * @param locale - The locale to set\n *\n * @param localizedName - The localized name for the given `locale`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8452,7 +8467,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#setNameLocalizations:member(1)",
-              "docComment": "/**\n * Sets the name localizations\n *\n * @param localizedNames - The dictionary of localized descriptions to set\n */\n",
+              "docComment": "/**\n * Sets the name localizations for this command.\n *\n * @param localizedNames - The object of localized names to set\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8508,7 +8523,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions:class",
-          "docComment": "",
+          "docComment": "/**\n * This mixin holds symbols that can be shared in slash command options.\n *\n * @typeParam ShouldOmitSubcommandFunctions - Whether to omit subcommand functions.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -8545,7 +8560,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addAttachmentOption:member(1)",
-              "docComment": "/**\n * Adds an attachment option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds an attachment option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8634,7 +8649,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addBooleanOption:member(1)",
-              "docComment": "/**\n * Adds a boolean option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a boolean option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8723,7 +8738,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addChannelOption:member(1)",
-              "docComment": "/**\n * Adds a channel option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a channel option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8812,7 +8827,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addIntegerOption:member(1)",
-              "docComment": "/**\n * Adds an integer option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds an integer option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9045,7 +9060,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addMentionableOption:member(1)",
-              "docComment": "/**\n * Adds a mentionable option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a mentionable option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9134,7 +9149,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addNumberOption:member(1)",
-              "docComment": "/**\n * Adds a number option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a number option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9367,7 +9382,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addRoleOption:member(1)",
-              "docComment": "/**\n * Adds a role option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a role option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9456,7 +9471,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addStringOption:member(1)",
-              "docComment": "/**\n * Adds a string option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a string option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -9689,7 +9704,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedSlashCommandOptions#addUserOption:member(1)",
-              "docComment": "/**\n * Adds a user option\n *\n * @param input - A function that returns an option builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a user option.\n *\n * @param input - A function that returns an option builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10587,7 +10602,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command attachment option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -10612,7 +10627,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10644,7 +10659,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandAttachmentOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10682,7 +10697,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command boolean option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -10707,7 +10722,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10739,7 +10754,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBooleanOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10777,7 +10792,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for slash commands.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -10793,7 +10808,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#addSubcommand:member(1)",
-              "docComment": "/**\n * Adds a new subcommand to this command\n *\n * @param input - A function that returns a subcommand builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a new subcommand to this command.\n *\n * @param input - A function that returns a subcommand builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10865,7 +10880,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#addSubcommandGroup:member(1)",
-              "docComment": "/**\n * Adds a new subcommand group to this command\n *\n * @param input - A function that returns a subcommand group builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a new subcommand group to this command.\n *\n * @param input - A function that returns a subcommand group builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10937,7 +10952,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#default_member_permissions:member",
-              "docComment": "/**\n * Set of permissions represented as a bit set for the command\n */\n",
+              "docComment": "/**\n * The set of permissions represented as a bit set for the command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10972,7 +10987,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#default_permission:member",
-              "docComment": "/**\n * Whether the command is enabled by default when the app is added to a guild\n *\n * @deprecated\n *\n * This property is deprecated and will be removed in the future. You should use {@link SlashCommandBuilder.setDefaultMemberPermissions} or {@link SlashCommandBuilder.setDMPermission} instead.\n */\n",
+              "docComment": "/**\n * Whether this command is enabled by default when the application is added to a guild.\n *\n * @deprecated\n *\n * Use {@link ContextMenuCommandBuilder.setDefaultMemberPermissions} or {@link ContextMenuCommandBuilder.setDMPermission} instead.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11002,7 +11017,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#description_localizations:member",
-              "docComment": "/**\n * The localized descriptions for this command\n */\n",
+              "docComment": "/**\n * The description localizations of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11033,7 +11048,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#description:member",
-              "docComment": "/**\n * The description of this slash command\n */\n",
+              "docComment": "/**\n * The description of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11063,7 +11078,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#dm_permission:member",
-              "docComment": "/**\n * Indicates whether the command is available in DMs with the application, only for globally-scoped commands. By default, commands are visible.\n */\n",
+              "docComment": "/**\n * Indicates whether the command is available in direct messages with the application.\n *\n * @remarks\n *\n * By default, commands are visible. This property is only for global commands.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11093,7 +11108,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#name_localizations:member",
-              "docComment": "/**\n * The localized names for this command\n */\n",
+              "docComment": "/**\n * The name localizations of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11124,7 +11139,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#name:member",
-              "docComment": "/**\n * The name of this slash command\n */\n",
+              "docComment": "/**\n * The name of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11154,7 +11169,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#nsfw:member",
-              "docComment": "/**\n * Whether this command is NSFW\n */\n",
+              "docComment": "/**\n * Whether this command is NSFW.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11184,7 +11199,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#options:member",
-              "docComment": "/**\n * The options of this slash command\n */\n",
+              "docComment": "/**\n * The options of this command.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11320,7 +11335,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#setDMPermission:member(1)",
-              "docComment": "/**\n * Sets if the command is available in DMs with the application, only for globally-scoped commands. By default, commands are visible.\n *\n * @param enabled - If the command should be enabled in DMs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
+              "docComment": "/**\n * Sets if the command is available in direct messages with the application.\n *\n * @remarks\n *\n * By default, commands are visible. This method is only for global commands.\n *\n * @param enabled - Whether the command should be enabled in direct messages\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11368,7 +11383,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#setNSFW:member(1)",
-              "docComment": "/**\n * Sets whether this command is NSFW\n *\n * @param nsfw - Whether this command is NSFW\n */\n",
+              "docComment": "/**\n * Sets whether this command is NSFW.\n *\n * @param nsfw - Whether this command is NSFW\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11416,7 +11431,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Returns the final data that should be sent to Discord.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11495,7 +11510,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandChannelOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command channel option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -11520,7 +11535,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandChannelOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11552,7 +11567,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandChannelOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11621,7 +11636,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command integer option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -11655,7 +11670,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption#setMaxValue:member(1)",
-              "docComment": "/**\n * Sets the maximum number value of this option\n *\n * @param max - The maximum value this option can be\n */\n",
+              "docComment": "/**\n * Sets the maximum number value of this option.\n *\n * @param max - The maximum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11703,7 +11718,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption#setMinValue:member(1)",
-              "docComment": "/**\n * Sets the minimum number value of this option\n *\n * @param min - The minimum value this option can be\n */\n",
+              "docComment": "/**\n * Sets the minimum number value of this option.\n *\n * @param min - The minimum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11751,7 +11766,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11783,7 +11798,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandIntegerOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11874,7 +11889,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command mentionable option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -11899,7 +11914,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11931,7 +11946,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandMentionableOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -11969,7 +11984,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandNumberOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command number option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -12003,7 +12018,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandNumberOption#setMaxValue:member(1)",
-              "docComment": "/**\n * Sets the maximum number value of this option\n *\n * @param max - The maximum value this option can be\n */\n",
+              "docComment": "/**\n * Sets the maximum number value of this option.\n *\n * @param max - The maximum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12051,7 +12066,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandNumberOption#setMinValue:member(1)",
-              "docComment": "/**\n * Sets the minimum number value of this option\n *\n * @param min - The minimum value this option can be\n */\n",
+              "docComment": "/**\n * Sets the minimum number value of this option.\n *\n * @param min - The minimum value this option can be\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12099,7 +12114,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandNumberOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12131,7 +12146,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandNumberOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12222,7 +12237,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/builders!SlashCommandOptionsOnlyBuilder:interface",
-          "docComment": "",
+          "docComment": "/**\n * An interface specifically for slash command options.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -12292,7 +12307,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandRoleOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command role option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -12317,7 +12332,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandRoleOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12349,7 +12364,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandRoleOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12387,7 +12402,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandStringOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command string option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -12412,7 +12427,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandStringOption#max_length:member",
-              "docComment": "",
+              "docComment": "/**\n * The maximum length of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12442,7 +12457,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandStringOption#min_length:member",
-              "docComment": "",
+              "docComment": "/**\n * The minimum length of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12568,7 +12583,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandStringOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12600,7 +12615,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandStringOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12673,7 +12688,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder:class",
-          "docComment": "/**\n * Represents a subcommand\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups}\n */\n",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for slash command subcommands.\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups}\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -12698,7 +12713,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder#description:member",
-              "docComment": "/**\n * The description of this subcommand\n */\n",
+              "docComment": "/**\n * The description of this subcommand.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12728,7 +12743,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder#name:member",
-              "docComment": "/**\n * The name of this subcommand\n */\n",
+              "docComment": "/**\n * The name of this subcommand.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12758,7 +12773,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder#options:member",
-              "docComment": "/**\n * The options of this subcommand\n */\n",
+              "docComment": "/**\n * The options within this subcommand.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12793,7 +12808,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandBuilder#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12881,7 +12896,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder:class",
-          "docComment": "/**\n * Represents a folder for subcommands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups}\n */\n",
+          "docComment": "/**\n * Represents a folder for subcommands.\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups}\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -12906,7 +12921,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder#addSubcommand:member(1)",
-              "docComment": "/**\n * Adds a new subcommand to this group\n *\n * @param input - A function that returns a subcommand builder, or an already built builder\n */\n",
+              "docComment": "/**\n * Adds a new subcommand to this group.\n *\n * @param input - A function that returns a subcommand builder or an already built builder\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -12977,7 +12992,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder#description:member",
-              "docComment": "/**\n * The description of this subcommand group\n */\n",
+              "docComment": "/**\n * The description of this subcommand group.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13007,7 +13022,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder#name:member",
-              "docComment": "/**\n * The name of this subcommand group\n */\n",
+              "docComment": "/**\n * The name of this subcommand group.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13037,7 +13052,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder#options:member",
-              "docComment": "/**\n * The subcommands part of this subcommand group\n */\n",
+              "docComment": "/**\n * The subcommands within this subcommand group.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13072,7 +13087,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandSubcommandGroupBuilder#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13143,7 +13158,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/builders!SlashCommandSubcommandsOnlyBuilder:interface",
-          "docComment": "",
+          "docComment": "/**\n * An interface specifically for slash command subcommands.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13223,7 +13238,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!SlashCommandUserOption:class",
-          "docComment": "",
+          "docComment": "/**\n * A slash command user option.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13248,7 +13263,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SlashCommandUserOption#toJSON:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13280,7 +13295,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!SlashCommandUserOption#type:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of this option.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13318,7 +13333,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder:class",
-          "docComment": "/**\n * Represents a string select menu component\n */\n",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for string select menus.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13356,7 +13371,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new StringSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * \toptions: [\n * \t\t{ label: 'option 1', value: '1' },\n * \t\t{ label: 'option 2', value: '2' },\n * \t\t{ label: 'option 3', value: '3' },\n * \t],\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new StringSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * \t.addOptions({\n * \t\tlabel: 'Catchy',\n * \t\tvalue: 'catch',\n * \t});\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new select menu from API data.\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object:\n * ```ts\n * const selectMenu = new StringSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * \toptions: [\n * \t\t{ label: 'option 1', value: '1' },\n * \t\t{ label: 'option 2', value: '2' },\n * \t\t{ label: 'option 3', value: '3' },\n * \t],\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data:\n * ```ts\n * const selectMenu = new StringSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * \t.addOptions({\n * \t\tlabel: 'Catchy',\n * \t\tvalue: 'catch',\n * \t});\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13402,7 +13417,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#addOptions:member(1)",
-              "docComment": "/**\n * Adds options to this select menu\n *\n * @param options - The options to add to this select menu\n *\n * @returns \n */\n",
+              "docComment": "/**\n * Adds options to this select menu.\n *\n * @param options - The options to add\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13473,7 +13488,7 @@
             {
               "kind": "Property",
               "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#options:member",
-              "docComment": "/**\n * The options within this select menu\n */\n",
+              "docComment": "/**\n * The options within this select menu.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13508,7 +13523,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#setOptions:member(1)",
-              "docComment": "/**\n * Sets the options on this select menu\n *\n * @param options - The options to set on this select menu\n */\n",
+              "docComment": "/**\n * Sets the options for this select menu.\n *\n * @param options - The options to set\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13579,7 +13594,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#spliceOptions:member(1)",
-              "docComment": "/**\n * Removes, replaces, or inserts options in the string select menu.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice | Array.prototype.splice}.\n *\n * It's useful for modifying and adjusting order of the already-existing options of a string select menu.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of options to remove\n *\n * @param options - The replacing option objects or builders\n *\n * @example\n *\n * Remove the first option\n * ```ts\n * selectMenu.spliceOptions(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n option\n * ```ts\n * const n = 4\n * selectMenu.spliceOptions(0, n);\n * ```\n *\n * @example\n *\n * Remove the last option\n * ```ts\n * selectMenu.spliceOptions(-1, 1);\n * ```\n *\n */\n",
+              "docComment": "/**\n * Removes, replaces, or inserts options for this select menu.\n *\n * @remarks\n *\n * This method behaves similarly to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice | Array.prototype.splice()}. It's useful for modifying and adjusting the order of existing options.\n *\n * @param index - The index to start at\n *\n * @param deleteCount - The number of options to remove\n *\n * @param options - The replacing option objects or builders\n *\n * @example\n *\n * Remove the first option:\n * ```ts\n * selectMenu.spliceOptions(0, 1);\n * ```\n *\n * @example\n *\n * Remove the first n option:\n * ```ts\n * const n = 4;\n * selectMenu.spliceOptions(0, n);\n * ```\n *\n * @example\n *\n * Remove the last option:\n * ```ts\n * selectMenu.spliceOptions(-1, 1);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13682,7 +13697,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13721,7 +13736,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:class",
-          "docComment": "/**\n * Represents an option within a string select menu component\n */\n",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for string select menu options.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -13759,7 +13774,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new string select menu option from API data\n *\n * @param data - The API data to create this string select menu option with\n *\n * @example\n *\n * Creating a string select menu option from an API data object\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tlabel: 'catchy label',\n * \tvalue: '1',\n * });\n * ```\n *\n * @example\n *\n * Creating a string select menu option using setters and API data\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tdefault: true,\n * \tvalue: '1',\n * })\n * \t.setLabel('woah')\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new string select menu option from API data.\n *\n * @param data - The API data to create this string select menu option with\n *\n * @example\n *\n * Creating a string select menu option from an API data object:\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tlabel: 'catchy label',\n * \tvalue: '1',\n * });\n * ```\n *\n * @example\n *\n * Creating a string select menu option using setters and API data:\n * ```ts\n * const selectMenuOption = new SelectMenuOptionBuilder({\n * \tdefault: true,\n * \tvalue: '1',\n * })\n * \t.setLabel('woah');\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13849,7 +13864,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setDefault:member(1)",
-              "docComment": "/**\n * Sets whether this option is selected by default\n *\n * @param isDefault - Whether this option is selected by default\n */\n",
+              "docComment": "/**\n * Sets whether this option is selected by default.\n *\n * @param isDefault - Whether this option is selected by default\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13897,7 +13912,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setDescription:member(1)",
-              "docComment": "/**\n * Sets the description of this option\n *\n * @param description - The description of this option\n */\n",
+              "docComment": "/**\n * Sets the description for this option.\n *\n * @param description - The description to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13945,7 +13960,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setEmoji:member(1)",
-              "docComment": "/**\n * Sets the emoji to display on this option\n *\n * @param emoji - The emoji to display on this option\n */\n",
+              "docComment": "/**\n * Sets the emoji to display for this option.\n *\n * @param emoji - The emoji to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13994,7 +14009,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setLabel:member(1)",
-              "docComment": "/**\n * Sets the label of this option\n *\n * @param label - The label to show on this option\n */\n",
+              "docComment": "/**\n * Sets the label for this option.\n *\n * @param label - The label to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14042,7 +14057,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#setValue:member(1)",
-              "docComment": "/**\n * Sets the value of this option\n *\n * @param value - The value of this option\n */\n",
+              "docComment": "/**\n * Sets the value for this option.\n *\n * @param value - The value to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14090,7 +14105,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!StringSelectMenuOptionBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14453,7 +14468,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!TextInputBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for text inputs.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -14531,7 +14546,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!TextInputBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new text input from API data\n *\n * @param data - The API data to create this text input with\n *\n * @example\n *\n * Creating a select menu option from an API data object\n * ```ts\n * const textInput = new TextInputBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tlabel: 'Type something',\n * \tstyle: TextInputStyle.Short,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu option using setters and API data\n * ```ts\n * const textInput = new TextInputBuilder({\n * \tlabel: 'Type something else',\n * })\n * \t.setCustomId('woah')\n * \t.setStyle(TextInputStyle.Paragraph);\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new text input from API data.\n *\n * @param data - The API data to create this text input with\n *\n * @example\n *\n * Creating a select menu option from an API data object:\n * ```ts\n * const textInput = new TextInputBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tlabel: 'Type something',\n * \tstyle: TextInputStyle.Short,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu option using setters and API data:\n * ```ts\n * const textInput = new TextInputBuilder({\n * \tlabel: 'Type something else',\n * })\n * \t.setCustomId('woah')\n * \t.setStyle(TextInputStyle.Paragraph);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14648,7 +14663,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setCustomId:member(1)",
-              "docComment": "/**\n * Sets the custom id for this text input\n *\n * @param customId - The custom id of this text input\n */\n",
+              "docComment": "/**\n * Sets the custom id for this text input.\n *\n * @param customId - The custom id to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14696,7 +14711,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setLabel:member(1)",
-              "docComment": "/**\n * Sets the label for this text input\n *\n * @param label - The label for this text input\n */\n",
+              "docComment": "/**\n * Sets the label for this text input.\n *\n * @param label - The label to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14744,7 +14759,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setMaxLength:member(1)",
-              "docComment": "/**\n * Sets the maximum length of text for this text input\n *\n * @param maxLength - The maximum length of text for this text input\n */\n",
+              "docComment": "/**\n * Sets the maximum length of text for this text input.\n *\n * @param maxLength - The maximum length of text for this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14792,7 +14807,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setMinLength:member(1)",
-              "docComment": "/**\n * Sets the minimum length of text for this text input\n *\n * @param minLength - The minimum length of text for this text input\n */\n",
+              "docComment": "/**\n * Sets the minimum length of text for this text input.\n *\n * @param minLength - The minimum length of text for this text input\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14840,7 +14855,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setPlaceholder:member(1)",
-              "docComment": "/**\n * Sets the placeholder of this text input\n *\n * @param placeholder - The placeholder of this text input\n */\n",
+              "docComment": "/**\n * Sets the placeholder for this text input.\n *\n * @param placeholder - The placeholder to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14888,7 +14903,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setRequired:member(1)",
-              "docComment": "/**\n * Sets whether this text input is required\n *\n * @param required - Whether this text input is required\n */\n",
+              "docComment": "/**\n * Sets whether this text input is required.\n *\n * @param required - Whether this text input is required\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14936,7 +14951,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setStyle:member(1)",
-              "docComment": "/**\n * Sets the style for this text input\n *\n * @param style - The style for this text input\n */\n",
+              "docComment": "/**\n * Sets the style for this text input.\n *\n * @param style - The style to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14985,7 +15000,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#setValue:member(1)",
-              "docComment": "/**\n * Sets the value of this text input\n *\n * @param value - The value for this text input\n */\n",
+              "docComment": "/**\n * Sets the value for this text input.\n *\n * @param value - The value to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15033,7 +15048,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!TextInputBuilder#toJSON:member(1)",
-              "docComment": "/**\n * Serializes this component to an API-compatible JSON object\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
+              "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15077,7 +15092,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/builders!ToAPIApplicationCommandOptions:interface",
-          "docComment": "",
+          "docComment": "/**\n * An interface that ensures the `toJSON()` call will return something that can be serialized into API-compatible data.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -15124,7 +15139,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder:class",
-          "docComment": "",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for user select menus.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -15162,7 +15177,7 @@
             {
               "kind": "Constructor",
               "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder:constructor(1)",
-              "docComment": "/**\n * Creates a new select menu from API data\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object\n * ```ts\n * const selectMenu = new UserSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data\n * ```ts\n * const selectMenu = new UserSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1)\n * ```\n *\n */\n",
+              "docComment": "/**\n * Creates a new select menu from API data.\n *\n * @param data - The API data to create this select menu with\n *\n * @example\n *\n * Creating a select menu from an API data object:\n * ```ts\n * const selectMenu = new UserSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * \tplaceholder: 'select an option',\n * \tmax_values: 2,\n * });\n * ```\n *\n * @example\n *\n * Creating a select menu using setters and API data:\n * ```ts\n * const selectMenu = new UserSelectMenuBuilder({\n * \tcustom_id: 'a cool select menu',\n * })\n * \t.setMinValues(1);\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -15215,7 +15230,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/builders!version:var",
-          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/builders/#readme | @discordjs/builders} version that you are currently using.\n */\n",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/builders#readme | @discordjs/builders} version that you are currently using.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
