@@ -176,7 +176,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!blockQuote:function(1)",
-          "docComment": "/**\n * Formats the content into a block quote. This needs to be at the start of the line for Discord to format it\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Formats the content into a block quote.\n *\n * @remarks\n *\n * This needs to be at the start of the line for Discord to format it.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -242,7 +242,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!bold:function(1)",
-          "docComment": "/**\n * Formats the content into bold text\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Formats the content into bold text.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -308,7 +308,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!channelLink:function(1)",
-          "docComment": "/**\n * Formats a channel link for a direct message channel.\n *\n * @param channelId - The channel's id\n */\n",
+          "docComment": "/**\n * Formats a channel link for a direct message channel.\n *\n * @param channelId - The channel's id\n *\n * @typeParam C - This is inferred by the supplied channel id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -375,7 +375,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!channelLink:function(2)",
-          "docComment": "/**\n * Formats a channel link for a guild channel.\n *\n * @param channelId - The channel's id\n *\n * @param guildId - The guild's id\n */\n",
+          "docComment": "/**\n * Formats a channel link for a guild channel.\n *\n * @param channelId - The channel's id\n *\n * @param guildId - The guild's id\n *\n * @typeParam C - This is inferred by the supplied channel id\n *\n * @typeParam G - This is inferred by the supplied guild id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -478,7 +478,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!channelMention:function(1)",
-          "docComment": "/**\n * Formats a channel ID into a channel mention\n *\n * @param channelId - The channel ID to format\n */\n",
+          "docComment": "/**\n * Formats a channel id into a channel mention.\n *\n * @param channelId - The channel id to format\n *\n * @typeParam C - This is inferred by the supplied channel id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -545,7 +545,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention:function(1)",
-          "docComment": "/**\n * Formats an application command name, subcommand group name, subcommand name, and ID into an application command mention\n *\n * @param commandName - The application command name to format\n *\n * @param subcommandGroupName - The subcommand group name to format\n *\n * @param subcommandName - The subcommand name to format\n *\n * @param commandId - The application command ID to format\n */\n",
+          "docComment": "/**\n * Formats an application command name, subcommand group name, subcommand name, and id into an application command mention.\n *\n * @param commandName - The application command name to format\n *\n * @param subcommandGroupName - The subcommand group name to format\n *\n * @param subcommandName - The subcommand name to format\n *\n * @param commandId - The application command id to format\n *\n * @typeParam N - This is inferred by the supplied command name\n *\n * @typeParam G - This is inferred by the supplied subcommand group name\n *\n * @typeParam S - This is inferred by the supplied subcommand name\n *\n * @typeParam I - This is inferred by the supplied command id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -717,7 +717,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention:function(2)",
-          "docComment": "/**\n * Formats an application command name, subcommand name, and ID into an application command mention\n *\n * @param commandName - The application command name to format\n *\n * @param subcommandName - The subcommand name to format\n *\n * @param commandId - The application command ID to format\n */\n",
+          "docComment": "/**\n * Formats an application command name, subcommand name, and id into an application command mention.\n *\n * @param commandName - The application command name to format\n *\n * @param subcommandName - The subcommand name to format\n *\n * @param commandId - The application command id to format\n *\n * @typeParam N - This is inferred by the supplied command name\n *\n * @typeParam S - This is inferred by the supplied subcommand name\n *\n * @typeParam I - This is inferred by the supplied command id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -854,7 +854,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention:function(3)",
-          "docComment": "/**\n * Formats an application command name and ID into an application command mention\n *\n * @param commandName - The application command name to format\n *\n * @param commandId - The application command ID to format\n */\n",
+          "docComment": "/**\n * Formats an application command name and id into an application command mention.\n *\n * @param commandName - The application command name to format\n *\n * @param commandId - The application command id to format\n *\n * @typeParam N - This is inferred by the supplied command name\n *\n * @typeParam I - This is inferred by the supplied command id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -956,7 +956,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!codeBlock:function(1)",
-          "docComment": "/**\n * Wraps the content inside a codeblock with no language\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Wraps the content inside a code block with no language.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1022,7 +1022,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!codeBlock:function(2)",
-          "docComment": "/**\n * Wraps the content inside a codeblock with the specified language\n *\n * @param language - The language for the codeblock\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Wraps the content inside a code block with the specified language.\n *\n * @param language - The language for the code block\n *\n * @param content - The content to wrap\n *\n * @typeParam L - This is inferred by the supplied language\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1438,7 +1438,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!escapeMarkdown:function(1)",
-          "docComment": "/**\n * Escapes any Discord-flavour markdown in a string.\n *\n * @param text - Content to escape\n *\n * @param options - Options for escaping the markdown\n */\n",
+          "docComment": "/**\n * Escapes any Discord-flavored markdown in a string.\n *\n * @param text - Content to escape\n *\n * @param options - Options for escaping the markdown\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1500,7 +1500,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions:interface",
-          "docComment": "",
+          "docComment": "/**\n * The options that affect what will be escaped.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1515,7 +1515,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#bold:member",
-              "docComment": "/**\n * Whether to escape bolds\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape bold text.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1542,7 +1542,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#bulletedList:member",
-              "docComment": "/**\n * Whether to escape bulleted lists\n *\n * @defaultValue\n *\n * false\n */\n",
+              "docComment": "/**\n * Whether to escape bulleted lists.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1569,7 +1569,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#codeBlock:member",
-              "docComment": "/**\n * Whether to escape code blocks\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape code blocks.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1596,7 +1596,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#codeBlockContent:member",
-              "docComment": "/**\n * Whether to escape text inside code blocks\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape text inside code blocks.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1623,7 +1623,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#escape:member",
-              "docComment": "/**\n * Whether to escape escape characters\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape `\\`.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1650,7 +1650,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#heading:member",
-              "docComment": "/**\n * Whether to escape headings\n *\n * @defaultValue\n *\n * false\n */\n",
+              "docComment": "/**\n * Whether to escape headings.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1677,7 +1677,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#inlineCode:member",
-              "docComment": "/**\n * Whether to escape inline code\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape inline code.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1704,7 +1704,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#inlineCodeContent:member",
-              "docComment": "/**\n * Whether to escape text inside inline code\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape text inside inline code.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1731,7 +1731,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#italic:member",
-              "docComment": "/**\n * Whether to escape italics\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape italics.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1758,7 +1758,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#maskedLink:member",
-              "docComment": "/**\n * Whether to escape masked links\n *\n * @defaultValue\n *\n * false\n */\n",
+              "docComment": "/**\n * Whether to escape masked links.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1785,7 +1785,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#numberedList:member",
-              "docComment": "/**\n * Whether to escape numbered lists\n *\n * @defaultValue\n *\n * false\n */\n",
+              "docComment": "/**\n * Whether to escape numbered lists.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1812,7 +1812,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#spoiler:member",
-              "docComment": "/**\n * Whether to escape spoilers\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape spoilers.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1839,7 +1839,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#strikethrough:member",
-              "docComment": "/**\n * Whether to escape strikethroughs\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape strikethroughs.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1866,7 +1866,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#underline:member",
-              "docComment": "/**\n * Whether to escape underlines\n *\n * @defaultValue\n *\n * true\n */\n",
+              "docComment": "/**\n * Whether to escape underlines.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2121,7 +2121,7 @@
         {
           "kind": "Enum",
           "canonicalReference": "@discordjs/formatters!Faces:enum",
-          "docComment": "/**\n * An enum with all the available faces from Discord's native slash commands\n */\n",
+          "docComment": "/**\n * All the available faces from Discord's native slash commands.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2136,7 +2136,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/formatters!Faces.Shrug:member",
-              "docComment": "/**\n * ¯\\\\_(ツ)\\\\_/¯\n */\n",
+              "docComment": "/**\n * `¯\\_(ツ)_/¯`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2144,7 +2144,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "\"\\u00AF\\\\_(\\u30C4)\\\\_/\\u00AF\""
+                  "text": "\"\\u00AF_(\\u30C4)_/\\u00AF\""
                 }
               ],
               "initializerTokenRange": {
@@ -2157,7 +2157,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/formatters!Faces.Tableflip:member",
-              "docComment": "/**\n * (╯°□°）╯︵ ┻━┻\n */\n",
+              "docComment": "/**\n * `(╯°□°)╯︵ ┻━┻`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2165,7 +2165,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "\"(\\u256F\\u00B0\\u25A1\\u00B0\\uFF09\\u256F\\uFE35 \\u253B\\u2501\\u253B\""
+                  "text": "\"(\\u256F\\u00B0\\u25A1\\u00B0)\\u256F\\uFE35 \\u253B\\u2501\\u253B\""
                 }
               ],
               "initializerTokenRange": {
@@ -2178,7 +2178,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/formatters!Faces.Unflip:member",
-              "docComment": "/**\n * ┬─┬ ノ( ゜-゜ノ)\n */\n",
+              "docComment": "/**\n * `┬─┬ノ( º _ ºノ)`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2186,7 +2186,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "\"\\u252C\\u2500\\u252C \\u30CE( \\u309C-\\u309C\\u30CE)\""
+                  "text": "\"\\u252C\\u2500\\u252C\\u30CE( \\u00BA _ \\u00BA\\u30CE)\""
                 }
               ],
               "initializerTokenRange": {
@@ -2201,7 +2201,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!formatEmoji:function(1)",
-          "docComment": "/**\n * Formats an emoji ID into a fully qualified emoji identifier\n *\n * @param emojiId - The emoji ID to format\n */\n",
+          "docComment": "/**\n * Formats a non-animated emoji id into a fully qualified emoji identifier.\n *\n * @param emojiId - The emoji id to format\n *\n * @typeParam C - This is inferred by the supplied emoji id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2284,7 +2284,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!formatEmoji:function(2)",
-          "docComment": "/**\n * Formats an emoji ID into a fully qualified emoji identifier\n *\n * @param emojiId - The emoji ID to format\n *\n * @param animated - Whether the emoji is animated or not. Defaults to `false`\n */\n",
+          "docComment": "/**\n * Formats an animated emoji id into a fully qualified emoji identifier.\n *\n * @param emojiId - The emoji id to format\n *\n * @param animated - Whether the emoji is animated\n *\n * @typeParam C - This is inferred by the supplied emoji id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2367,7 +2367,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!formatEmoji:function(3)",
-          "docComment": "/**\n * Formats an emoji ID into a fully qualified emoji identifier\n *\n * @param emojiId - The emoji ID to format\n *\n * @param animated - Whether the emoji is animated or not. Defaults to `false`\n */\n",
+          "docComment": "/**\n * Formats an emoji id into a fully qualified emoji identifier.\n *\n * @param emojiId - The emoji id to format\n *\n * @param animated - Whether the emoji is animated\n *\n * @typeParam C - This is inferred by the supplied emoji id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2450,7 +2450,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!hideLinkEmbed:function(1)",
-          "docComment": "/**\n * Wraps the URL into `<>`, which stops it from embedding\n *\n * @param url - The URL to wrap\n */\n",
+          "docComment": "/**\n * Wraps the URL into `<>` which stops it from embedding.\n *\n * @param url - The URL to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2516,7 +2516,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!hideLinkEmbed:function(2)",
-          "docComment": "/**\n * Wraps the URL into `<>`, which stops it from embedding\n *\n * @param url - The URL to wrap\n */\n",
+          "docComment": "/**\n * Wraps the URL into `<>` which stops it from embedding.\n *\n * @param url - The URL to wrap\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2562,7 +2562,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!hyperlink:function(1)",
-          "docComment": "/**\n * Formats the content and the URL into a masked URL\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n */\n",
+          "docComment": "/**\n * Formats the content and the URL into a masked URL.\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2645,7 +2645,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!hyperlink:function(2)",
-          "docComment": "/**\n * Formats the content and the URL into a masked URL\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n */\n",
+          "docComment": "/**\n * Formats the content and the URL into a masked URL.\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @typeParam C - This is inferred by the supplied content\n *\n * @typeParam U - This is inferred by the supplied URL\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2746,7 +2746,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!hyperlink:function(3)",
-          "docComment": "/**\n * Formats the content and the URL into a masked URL\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @param title - The title shown when hovering on the masked link\n */\n",
+          "docComment": "/**\n * Formats the content and the URL into a masked URL with a custom tooltip.\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @param title - The title shown when hovering on the masked link\n *\n * @typeParam C - This is inferred by the supplied content\n *\n * @typeParam T - This is inferred by the supplied title\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2864,7 +2864,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!hyperlink:function(4)",
-          "docComment": "/**\n * Formats the content and the URL into a masked URL\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @param title - The title shown when hovering on the masked link\n */\n",
+          "docComment": "/**\n * Formats the content and the URL into a masked URL with a custom tooltip.\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @param title - The title shown when hovering on the masked link\n *\n * @typeParam C - This is inferred by the supplied content\n *\n * @typeParam U - This is inferred by the supplied URL\n *\n * @typeParam T - This is inferred by the supplied title\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3000,7 +3000,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!inlineCode:function(1)",
-          "docComment": "/**\n * Wraps the content inside \\`backticks\\`, which formats it as inline code\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Wraps the content inside \\`backticks\\` which formats it as inline code.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3066,7 +3066,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!italic:function(1)",
-          "docComment": "/**\n * Formats the content into italic text\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Formats the content into italic text.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3132,7 +3132,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!messageLink:function(1)",
-          "docComment": "/**\n * Formats a message link for a direct message channel.\n *\n * @param channelId - The channel's id\n *\n * @param messageId - The message's id\n */\n",
+          "docComment": "/**\n * Formats a message link for a direct message channel.\n *\n * @param channelId - The channel's id\n *\n * @param messageId - The message's id\n *\n * @typeParam C - This is inferred by the supplied channel id\n *\n * @typeParam M - This is inferred by the supplied message id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3235,7 +3235,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!messageLink:function(2)",
-          "docComment": "/**\n * Formats a message link for a guild channel.\n *\n * @param channelId - The channel's id\n *\n * @param messageId - The message's id\n *\n * @param guildId - The guild's id\n */\n",
+          "docComment": "/**\n * Formats a message link for a guild channel.\n *\n * @param channelId - The channel's id\n *\n * @param messageId - The message's id\n *\n * @param guildId - The guild's id\n *\n * @typeParam C - This is inferred by the supplied channel id\n *\n * @typeParam M - This is inferred by the supplied message id\n *\n * @typeParam G - This is inferred by the supplied guild id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3374,7 +3374,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!quote:function(1)",
-          "docComment": "/**\n * Formats the content into a quote. This needs to be at the start of the line for Discord to format it\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Formats the content into a quote.\n *\n * @remarks\n *\n * This needs to be at the start of the line for Discord to format it.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3440,7 +3440,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!roleMention:function(1)",
-          "docComment": "/**\n * Formats a role ID into a role mention\n *\n * @param roleId - The role ID to format\n */\n",
+          "docComment": "/**\n * Formats a role id into a role mention.\n *\n * @param roleId - The role id to format\n *\n * @typeParam C - This is inferred by the supplied role id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3507,7 +3507,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!spoiler:function(1)",
-          "docComment": "/**\n * Wraps the content inside spoiler (hidden text)\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Formats the content into a spoiler.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3573,7 +3573,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!strikethrough:function(1)",
-          "docComment": "/**\n * Formats the content into strike-through text\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Formats the content into strike-through text.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3639,7 +3639,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!time:function(1)",
-          "docComment": "/**\n * Formats a date into a short date-time string\n *\n * @param date - The date to format, defaults to the current time\n */\n",
+          "docComment": "/**\n * Formats a date into a short date-time string.\n *\n * @param date - The date to format. Defaults to the current time\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3685,7 +3685,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!time:function(2)",
-          "docComment": "/**\n * Formats a date given a format style\n *\n * @param date - The date to format\n *\n * @param style - The style to use\n */\n",
+          "docComment": "/**\n * Formats a date given a format style.\n *\n * @param date - The date to format\n *\n * @param style - The style to use\n *\n * @typeParam S - This is inferred by the supplied {@link TimestampStylesString}\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3769,7 +3769,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!time:function(3)",
-          "docComment": "/**\n * Formats the given timestamp into a short date-time string\n *\n * @param seconds - The time to format, represents an UNIX timestamp in seconds\n */\n",
+          "docComment": "/**\n * Formats the given timestamp into a short date-time string.\n *\n * @param seconds - A Unix timestamp in seconds\n *\n * @typeParam C - This is inferred by the supplied timestamp\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3835,7 +3835,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!time:function(4)",
-          "docComment": "/**\n * Formats the given timestamp into a short date-time string\n *\n * @param seconds - The time to format, represents an UNIX timestamp in seconds\n *\n * @param style - The style to use\n */\n",
+          "docComment": "/**\n * Formats the given timestamp into a short date-time string.\n *\n * @param seconds - A Unix timestamp in seconds\n *\n * @param style - The style to use\n *\n * @typeParam C - This is inferred by the supplied timestamp\n *\n * @typeParam S - This is inferred by the supplied {@link TimestampStylesString}\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3937,7 +3937,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/formatters!TimestampStyles:var",
-          "docComment": "/**\n * The {@link https://discord.com/developers/docs/reference#message-formatting-timestamp-styles | message formatting timestamp styles} supported by Discord\n */\n",
+          "docComment": "/**\n * The {@link https://discord.com/developers/docs/reference#message-formatting-timestamp-styles | message formatting timestamp styles} supported by Discord.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3960,7 +3960,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "@discordjs/formatters!TimestampStylesString:type",
-          "docComment": "/**\n * The possible values, see {@link TimestampStyles} for more information\n */\n",
+          "docComment": "/**\n * The possible {@link TimestampStyles} values.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4004,7 +4004,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!underscore:function(1)",
-          "docComment": "/**\n * Formats the content into underscored text\n *\n * @param content - The content to wrap\n */\n",
+          "docComment": "/**\n * Formats the content into underscored text.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4070,7 +4070,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!userMention:function(1)",
-          "docComment": "/**\n * Formats a user ID into a user mention\n *\n * @param userId - The user ID to format\n */\n",
+          "docComment": "/**\n * Formats a user id into a user mention.\n *\n * @param userId - The user id to format\n *\n * @typeParam C - This is inferred by the supplied user id\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
