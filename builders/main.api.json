@@ -1414,7 +1414,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class BaseSelectMenuBuilder<SelectMenuType extends "
+              "text": "export declare abstract class BaseSelectMenuBuilder<SelectMenuType extends "
             },
             {
               "kind": "Reference",
@@ -1454,7 +1454,7 @@
               }
             }
           ],
-          "isAbstract": false,
+          "isAbstract": true,
           "name": "BaseSelectMenuBuilder",
           "preserveMemberOrder": false,
           "members": [
