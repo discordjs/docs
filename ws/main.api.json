@@ -405,7 +405,34 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    readonly buildStrategy: (manager: import(\"../ws/WebSocketManager.js\")."
+              "text": "{\n    readonly buildIdentifyThrottler: (manager: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WebSocketManager",
+              "canonicalReference": "@discordjs/ws!WebSocketManager:class"
+            },
+            {
+              "kind": "Content",
+              "text": ") => "
+            },
+            {
+              "kind": "Reference",
+              "text": "Promise",
+              "canonicalReference": "!Promise:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "SimpleIdentifyThrottler",
+              "canonicalReference": "@discordjs/ws!SimpleIdentifyThrottler:class"
+            },
+            {
+              "kind": "Content",
+              "text": ">;\n    readonly buildStrategy: (manager: "
             },
             {
               "kind": "Reference",
@@ -468,7 +495,7 @@
           "name": "DefaultWebSocketManagerOptions",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 14
+            "endIndex": 20
           }
         },
         {
@@ -534,7 +561,7 @@
             },
             {
               "kind": "Content",
-              "text": ", 'buildStrategy' | 'rest' | 'retrieveSessionInfo' | 'shardCount' | 'shardIds' | 'updateSessionInfo'>"
+              "text": ", 'buildIdentifyThrottler' | 'buildStrategy' | 'rest' | 'retrieveSessionInfo' | 'shardCount' | 'shardIds' | 'updateSessionInfo'>"
             },
             {
               "kind": "Content",
@@ -814,11 +841,28 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/ws!IContextFetchingStrategy#waitForIdentify:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Resolves once the given shard should be allowed to identify, or rejects if the operation was aborted\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "waitForIdentify(): "
+                  "text": "waitForIdentify(shardId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", signal: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AbortSignal",
+                  "canonicalReference": "!AbortSignal:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -836,74 +880,147 @@
               ],
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
+                "startIndex": 5,
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
-              "parameters": [],
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "signal",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
               "name": "waitForIdentify"
             }
           ],
           "extendsTokenRanges": []
         },
         {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/ws!IdentifyThrottler:class",
-          "docComment": "",
+          "kind": "Interface",
+          "canonicalReference": "@discordjs/ws!IdentifyState:interface",
+          "docComment": "/**\n * The state of a rate limit key's identify queue.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare class IdentifyThrottler "
+              "text": "export interface IdentifyState "
             }
           ],
-          "fileUrlPath": "src/utils/IdentifyThrottler.ts",
+          "fileUrlPath": "src/throttling/SimpleIdentifyThrottler.ts",
           "releaseTag": "Public",
-          "isAbstract": false,
-          "name": "IdentifyThrottler",
+          "name": "IdentifyState",
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/ws!IdentifyThrottler:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `IdentifyThrottler` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor(manager: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "WebSocketManager",
-                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "manager",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ]
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/ws!IdentifyThrottler#waitForIdentify:member(1)",
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/ws!IdentifyState#queue:member",
               "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "waitForIdentify(): "
+                  "text": "queue: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AsyncQueue",
+                  "canonicalReference": "@sapphire/async-queue!AsyncQueue:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "queue",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/ws!IdentifyState#resetsAt:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "resetsAt: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "resetsAt",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@discordjs/ws!IIdentifyThrottler:interface",
+          "docComment": "/**\n * IdentifyThrottlers are responsible for dictating when a shard is allowed to identify.\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/gateway#sharding-max-concurrency}\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface IIdentifyThrottler "
+            }
+          ],
+          "fileUrlPath": "dist-docs/throttling/IIdentifyThrottler.d.ts",
+          "releaseTag": "Public",
+          "name": "IIdentifyThrottler",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!IIdentifyThrottler#waitForIdentify:member(1)",
+              "docComment": "/**\n * Resolves once the given shard should be allowed to identify, or rejects if the operation was aborted.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "waitForIdentify(shardId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", signal: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AbortSignal",
+                  "canonicalReference": "!AbortSignal:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -919,21 +1036,36 @@
                   "text": ";"
                 }
               ],
-              "isStatic": false,
+              "fileUrlPath": "src/throttling/IIdentifyThrottler.ts",
+              "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
+                "startIndex": 5,
+                "endIndex": 7
               },
               "releaseTag": "Public",
-              "isProtected": false,
               "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "isAbstract": false,
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "signal",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
               "name": "waitForIdentify"
             }
           ],
-          "implementsTokenRanges": []
+          "extendsTokenRanges": []
         },
         {
           "kind": "Variable",
@@ -1383,6 +1515,66 @@
           "name": "OptionalWebSocketManagerOptions",
           "preserveMemberOrder": false,
           "members": [
+            {
+              "kind": "MethodSignature",
+              "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions#buildIdentifyThrottler:member(1)",
+              "docComment": "/**\n * Builds an identify throttler to use for this manager's shards\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "buildIdentifyThrottler(manager: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WebSocketManager",
+                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Awaitable",
+                  "canonicalReference": "@discordjs/util!Awaitable:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IIdentifyThrottler",
+                  "canonicalReference": "@discordjs/ws!IIdentifyThrottler:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "manager",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "buildIdentifyThrottler"
+            },
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/ws!OptionalWebSocketManagerOptions#buildStrategy:member(1)",
@@ -1912,6 +2104,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | 0"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -1921,7 +2117,7 @@
               "name": "intents",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             },
             {
@@ -2532,7 +2728,24 @@
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "waitForIdentify(): "
+                  "text": "waitForIdentify(shardId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", signal: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AbortSignal",
+                  "canonicalReference": "!AbortSignal:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -2550,13 +2763,165 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
+                "startIndex": 5,
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
-              "parameters": [],
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "signal",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "waitForIdentify"
+            }
+          ],
+          "implementsTokenRanges": [
+            {
+              "startIndex": 1,
+              "endIndex": 2
+            }
+          ]
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/ws!SimpleIdentifyThrottler:class",
+          "docComment": "/**\n * Local, in-memory identify throttler.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class SimpleIdentifyThrottler implements "
+            },
+            {
+              "kind": "Reference",
+              "text": "IIdentifyThrottler",
+              "canonicalReference": "@discordjs/ws!IIdentifyThrottler:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "fileUrlPath": "src/throttling/SimpleIdentifyThrottler.ts",
+          "releaseTag": "Public",
+          "isAbstract": false,
+          "name": "SimpleIdentifyThrottler",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/ws!SimpleIdentifyThrottler:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `SimpleIdentifyThrottler` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(maxConcurrency: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "maxConcurrency",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/ws!SimpleIdentifyThrottler#waitForIdentify:member(1)",
+              "docComment": "/**\n * Resolves once the given shard should be allowed to identify, or rejects if the operation was aborted.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "waitForIdentify(shardId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", signal: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AbortSignal",
+                  "canonicalReference": "!AbortSignal:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<void>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "signal",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
               "isOptional": false,
               "isAbstract": false,
               "name": "waitForIdentify"
@@ -4958,7 +5323,24 @@
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "waitForIdentify(): "
+                  "text": "waitForIdentify(shardId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", signal: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AbortSignal",
+                  "canonicalReference": "!AbortSignal:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
                 },
                 {
                   "kind": "Reference",
@@ -4976,13 +5358,30 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
+                "startIndex": 5,
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
-              "parameters": [],
+              "parameters": [
+                {
+                  "parameterName": "shardId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "signal",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
               "isOptional": false,
               "isAbstract": false,
               "name": "waitForIdentify"
@@ -5087,6 +5486,15 @@
             },
             {
               "kind": "Reference",
+              "text": "WorkerReceivePayloadOp.CancelIdentify",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.CancelIdentify:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    nonce: number;\n    op: "
+            },
+            {
+              "kind": "Reference",
               "text": "WorkerReceivePayloadOp.FetchStatusResponse",
               "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.FetchStatusResponse:member"
             },
@@ -5119,7 +5527,7 @@
             },
             {
               "kind": "Content",
-              "text": ";\n} | {\n    op: "
+              "text": ";\n    shardId: number;\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -5176,7 +5584,7 @@
           "name": "WorkerReceivePayload",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 24
+            "endIndex": 26
           }
         },
         {
@@ -5194,6 +5602,27 @@
           "name": "WorkerReceivePayloadOp",
           "preserveMemberOrder": false,
           "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.CancelIdentify:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CancelIdentify = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "8"
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "CancelIdentify"
+            },
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/ws!WorkerReceivePayloadOp.Connected:member",
@@ -5375,7 +5804,16 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    nonce: number;\n    op: "
+              "text": "{\n    nonce: number;\n    ok: boolean;\n    op: "
+            },
+            {
+              "kind": "Reference",
+              "text": "WorkerSendPayloadOp.ShardIdentifyResponse",
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.ShardIdentifyResponse:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    nonce: number;\n    op: "
             },
             {
               "kind": "Reference",
@@ -5402,16 +5840,7 @@
             },
             {
               "kind": "Content",
-              "text": " | null;\n} | {\n    nonce: number;\n    op: "
-            },
-            {
-              "kind": "Reference",
-              "text": "WorkerSendPayloadOp.ShardCanIdentify",
-              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.ShardCanIdentify:member"
-            },
-            {
-              "kind": "Content",
-              "text": ";\n} | {\n    op: "
+              "text": " | null;\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -5593,12 +6022,12 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.ShardCanIdentify:member",
+              "canonicalReference": "@discordjs/ws!WorkerSendPayloadOp.ShardIdentifyResponse:member",
               "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "ShardCanIdentify = "
+                  "text": "ShardIdentifyResponse = "
                 },
                 {
                   "kind": "Content",
@@ -5610,7 +6039,7 @@
                 "endIndex": 2
               },
               "releaseTag": "Public",
-              "name": "ShardCanIdentify"
+              "name": "ShardIdentifyResponse"
             }
           ]
         },
