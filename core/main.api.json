@@ -3931,8 +3931,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPostAPIChannelMessageJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIChannelMessageJSONBody:interface"
+                  "text": "RESTPatchAPIChannelMessageJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPatchAPIChannelMessageJSONBody:interface"
                 },
                 {
                   "kind": "Content",
