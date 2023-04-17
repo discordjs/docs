@@ -180,10 +180,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface BaseBrokerOptions "
+              "text": "export declare interface BaseBrokerOptions "
             }
           ],
-          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "BaseBrokerOptions",
           "preserveMemberOrder": false,
@@ -230,7 +230,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer",
+                  "text": "Buffer_2",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -266,7 +266,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer",
+                  "text": "Buffer_2",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -398,7 +398,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/brokers/redis/BaseRedis.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -497,7 +497,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer",
+                  "text": "Buffer_2",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -975,7 +975,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer",
+              "text": "Buffer_2",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -984,7 +984,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer",
+              "text": "Buffer_2",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -992,7 +992,7 @@
               "text": ") => unknown;\n}"
             }
           ],
-          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultBrokerOptions",
@@ -1016,7 +1016,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer",
+              "text": "Buffer_2",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -1025,7 +1025,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer",
+              "text": "Buffer_2",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -1033,7 +1033,7 @@
               "text": ") => unknown;\n}"
             }
           ],
-          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultRPCRedisBrokerOptions",
@@ -1049,7 +1049,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IBaseBroker<TEvents extends "
+              "text": "export declare interface IBaseBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1065,7 +1065,7 @@
               "text": "> "
             }
           ],
-          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1225,7 +1225,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IPubSubBroker<TEvents extends "
+              "text": "export declare interface IPubSubBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1276,7 +1276,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1400,7 +1400,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IRPCBroker<TEvents extends "
+              "text": "export declare interface IRPCBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1464,7 +1464,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1657,7 +1657,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/brokers/redis/PubSubRedis.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1687,7 +1687,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer",
+                  "text": "Buffer_2",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -1882,7 +1882,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface RedisBrokerOptions extends "
+              "text": "export declare interface RedisBrokerOptions extends "
             },
             {
               "kind": "Reference",
@@ -1894,7 +1894,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/brokers/redis/BaseRedis.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "RedisBrokerOptions",
           "preserveMemberOrder": false,
@@ -1997,7 +1997,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2177,7 +2177,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer",
+                  "text": "Buffer_2",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -2370,7 +2370,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface RPCRedisBrokerOptions extends "
+              "text": "export declare interface RPCRedisBrokerOptions extends "
             },
             {
               "kind": "Reference",
@@ -2382,7 +2382,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "RPCRedisBrokerOptions",
           "preserveMemberOrder": false,
@@ -2429,7 +2429,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type ToEventMap<TRecord extends "
+              "text": "export declare type ToEventMap<TRecord extends "
             },
             {
               "kind": "Reference",
@@ -2467,7 +2467,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    [TKey in keyof TRecord]: [\n        event: TResponses extends "
+              "text": "{\n    [TKey in keyof TRecord]: [\n    event: TResponses extends "
             },
             {
               "kind": "Reference",
@@ -2476,7 +2476,7 @@
             },
             {
               "kind": "Content",
-              "text": "<keyof TRecord, any> ? {\n            ack(): "
+              "text": "<keyof TRecord, any> ? {\n        ack(): "
             },
             {
               "kind": "Reference",
@@ -2485,7 +2485,7 @@
             },
             {
               "kind": "Content",
-              "text": "<void>;\n            reply(data: TResponses[TKey]): "
+              "text": "<void>;\n        reply(data: TResponses[TKey]): "
             },
             {
               "kind": "Reference",
@@ -2494,7 +2494,7 @@
             },
             {
               "kind": "Content",
-              "text": "<void>;\n        } : {\n            ack(): "
+              "text": "<void>;\n    } : {\n        ack(): "
             },
             {
               "kind": "Reference",
@@ -2503,14 +2503,14 @@
             },
             {
               "kind": "Content",
-              "text": "<void>;\n        } & {\n            data: TRecord[TKey];\n        }\n    ];\n} & {\n    [K: string]: any;\n}"
+              "text": "<void>;\n    } & {\n        data: TRecord[TKey];\n    }\n    ];\n} & {\n    [K: string]: any;\n}"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "ToEventMap",
           "typeParameters": [
