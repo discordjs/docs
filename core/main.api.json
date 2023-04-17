@@ -183,7 +183,7 @@
               "text": "export declare class API "
             }
           ],
-          "fileUrlPath": "src/api/index.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "API",
@@ -638,7 +638,7 @@
               "text": "export declare class ApplicationCommandsAPI "
             }
           ],
-          "fileUrlPath": "src/api/applicationCommands.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "ApplicationCommandsAPI",
@@ -970,7 +970,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -1089,7 +1089,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -1435,7 +1435,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -1571,7 +1571,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -1723,7 +1723,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -1857,7 +1857,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -2086,7 +2086,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -2213,7 +2213,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -2525,7 +2525,7 @@
               "text": "export declare class ChannelsAPI "
             }
           ],
-          "fileUrlPath": "src/api/channel.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "ChannelsAPI",
@@ -2842,7 +2842,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -2965,7 +2965,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -3075,7 +3075,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -3176,7 +3176,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -3848,7 +3848,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -3980,7 +3980,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -4098,7 +4098,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -4199,7 +4199,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -4630,7 +4630,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -5414,7 +5414,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/client.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "Client",
@@ -5763,10 +5763,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ClientOptions "
+              "text": "export declare interface ClientOptions "
             }
           ],
-          "fileUrlPath": "src/client.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "ClientOptions",
           "preserveMemberOrder": false,
@@ -5837,7 +5837,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface DescriptiveRawFile extends "
+              "text": "export declare interface DescriptiveRawFile extends "
             },
             {
               "kind": "Reference",
@@ -5849,7 +5849,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/util/files.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "DescriptiveRawFile",
           "preserveMemberOrder": false,
@@ -5899,7 +5899,7 @@
               "text": "export declare class GuildsAPI "
             }
           ],
-          "fileUrlPath": "src/api/guild.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "GuildsAPI",
@@ -6331,7 +6331,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -6433,7 +6433,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -6543,7 +6543,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -6653,7 +6653,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -6763,7 +6763,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -6873,7 +6873,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -7005,7 +7005,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -7114,7 +7114,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -8014,7 +8014,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -8260,7 +8260,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -8387,7 +8387,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -8505,7 +8505,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -8624,7 +8624,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -8751,7 +8751,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -8878,7 +8878,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -9004,7 +9004,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -9240,7 +9240,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -9350,7 +9350,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -9450,7 +9450,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -9543,7 +9543,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -9645,7 +9645,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -9755,7 +9755,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -10051,7 +10051,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -10440,7 +10440,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -10744,7 +10744,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -11058,7 +11058,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -11413,7 +11413,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -11606,7 +11606,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -12041,7 +12041,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -12134,7 +12134,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -12948,7 +12948,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -13116,7 +13116,7 @@
               "text": "export declare class InteractionsAPI "
             }
           ],
-          "fileUrlPath": "src/api/interactions.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "InteractionsAPI",
@@ -13838,7 +13838,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -14093,7 +14093,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -14417,10 +14417,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IntrinsicProps "
+              "text": "export declare interface IntrinsicProps "
             }
           ],
-          "fileUrlPath": "src/client.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "IntrinsicProps",
           "preserveMemberOrder": false,
@@ -14493,7 +14493,7 @@
               "text": "export declare class InvitesAPI "
             }
           ],
-          "fileUrlPath": "src/api/invite.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "InvitesAPI",
@@ -14670,7 +14670,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -14734,7 +14734,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type ManagerShardEventsMap = "
+              "text": "export declare type ManagerShardEventsMap = "
             },
             {
               "kind": "Content",
@@ -14763,7 +14763,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/client.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "ManagerShardEventsMap",
           "typeTokenRange": {
@@ -14778,10 +14778,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface MappedEvents "
+              "text": "export declare interface MappedEvents "
             }
           ],
-          "fileUrlPath": "src/client.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "MappedEvents",
           "preserveMemberOrder": false,
@@ -14806,7 +14806,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "[\n    "
                 },
                 {
                   "kind": "Reference",
@@ -16156,7 +16156,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "[\n    "
                 },
                 {
                   "kind": "Reference",
@@ -16210,7 +16210,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "[\n    "
                 },
                 {
                   "kind": "Reference",
@@ -16966,7 +16966,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[\n        "
+                  "text": "[\n    "
                 },
                 {
                   "kind": "Reference",
@@ -18030,7 +18030,7 @@
               "text": "export declare class OAuth2API "
             }
           ],
-          "fileUrlPath": "src/api/oauth2.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "OAuth2API",
@@ -18317,7 +18317,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -18562,7 +18562,7 @@
               "text": "export declare class RoleConnectionsAPI "
             }
           ],
-          "fileUrlPath": "src/api/roleConnections.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "RoleConnectionsAPI",
@@ -18814,7 +18814,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface StartForumThreadOptions extends "
+              "text": "export declare interface StartForumThreadOptions extends "
             },
             {
               "kind": "Reference",
@@ -18826,7 +18826,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/api/thread.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "StartForumThreadOptions",
           "preserveMemberOrder": false,
@@ -18890,7 +18890,7 @@
               "text": "export declare class StickersAPI "
             }
           ],
-          "fileUrlPath": "src/api/sticker.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "StickersAPI",
@@ -18976,7 +18976,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -19111,7 +19111,7 @@
               "text": "export declare class ThreadsAPI "
             }
           ],
-          "fileUrlPath": "src/api/thread.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "ThreadsAPI",
@@ -19316,7 +19316,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -20066,7 +20066,7 @@
               "text": "export declare class UsersAPI "
             }
           ],
-          "fileUrlPath": "src/api/user.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "UsersAPI",
@@ -20152,7 +20152,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -20245,7 +20245,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -20347,7 +20347,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -20448,7 +20448,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -20541,7 +20541,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -20701,7 +20701,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -20786,7 +20786,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -21065,7 +21065,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -21155,7 +21155,7 @@
               "text": "export declare class VoiceAPI "
             }
           ],
-          "fileUrlPath": "src/api/voice.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "VoiceAPI",
@@ -21283,7 +21283,7 @@
               "text": "export declare class WebhooksAPI "
             }
           ],
-          "fileUrlPath": "src/api/webhook.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WebhooksAPI",
@@ -21696,7 +21696,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -21836,7 +21836,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -22514,7 +22514,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -22641,7 +22641,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"discord-api-types/v10\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -22747,7 +22747,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: import(\"discord-api-types/v10\")."
+              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: "
             },
             {
               "kind": "Reference",
@@ -22756,7 +22756,7 @@
             },
             {
               "kind": "Content",
-              "text": "[] | undefined;\n        allowed_mentions?: import(\"discord-api-types/v10\")."
+              "text": "[] | undefined;\n        allowed_mentions?: "
             },
             {
               "kind": "Reference",
@@ -22765,7 +22765,7 @@
             },
             {
               "kind": "Content",
-              "text": " | undefined;\n        components?: import(\"discord-api-types/v10\")."
+              "text": " | undefined;\n        components?: "
             },
             {
               "kind": "Reference",
@@ -22774,7 +22774,7 @@
             },
             {
               "kind": "Content",
-              "text": "<import(\"discord-api-types/v10\")."
+              "text": "<"
             },
             {
               "kind": "Reference",
@@ -22783,7 +22783,7 @@
             },
             {
               "kind": "Content",
-              "text": ">[] | undefined;\n        flags?: import(\"discord-api-types/v10\")."
+              "text": ">[] | undefined;\n        flags?: "
             },
             {
               "kind": "Reference",
@@ -22808,7 +22808,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/util/files.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 6,
             "endIndex": 19
@@ -22842,7 +22842,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface WithIntrinsicProps<T> extends "
+              "text": "export declare interface WithIntrinsicProps<T> extends "
             },
             {
               "kind": "Reference",
@@ -22854,7 +22854,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/client.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
