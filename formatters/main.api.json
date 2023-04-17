@@ -207,7 +207,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -273,7 +273,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -340,7 +340,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -424,7 +424,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -510,7 +510,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -625,7 +625,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 17,
             "endIndex": 18
@@ -781,7 +781,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 13,
             "endIndex": 14
@@ -902,7 +902,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -987,7 +987,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -1069,7 +1069,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -1146,7 +1146,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -1191,7 +1191,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -1236,7 +1236,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -1281,7 +1281,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -1326,7 +1326,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -1371,7 +1371,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -1416,7 +1416,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -1470,7 +1470,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -1504,10 +1504,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface EscapeMarkdownOptions "
+              "text": "export declare interface EscapeMarkdownOptions "
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "EscapeMarkdownOptions",
           "preserveMemberOrder": false,
@@ -1919,7 +1919,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -1964,7 +1964,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -2009,7 +2009,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -2054,7 +2054,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -2099,7 +2099,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/escapers.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -2128,7 +2128,7 @@
               "text": "export declare enum Faces "
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "Faces",
           "preserveMemberOrder": false,
@@ -2241,7 +2241,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -2324,7 +2324,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -2407,7 +2407,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -2481,7 +2481,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -2524,7 +2524,7 @@
             },
             {
               "kind": "Reference",
-              "text": "URL",
+              "text": "URL_2",
               "canonicalReference": "!\"\\\"url\\\"\".URL:class"
             },
             {
@@ -2540,7 +2540,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -2586,7 +2586,7 @@
             },
             {
               "kind": "Reference",
-              "text": "URL",
+              "text": "URL_2",
               "canonicalReference": "!\"\\\"url\\\"\".URL:class"
             },
             {
@@ -2602,7 +2602,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -2692,7 +2692,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -2778,7 +2778,7 @@
             },
             {
               "kind": "Reference",
-              "text": "URL",
+              "text": "URL_2",
               "canonicalReference": "!\"\\\"url\\\"\".URL:class"
             },
             {
@@ -2802,7 +2802,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 11,
             "endIndex": 12
@@ -2927,7 +2927,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 13,
             "endIndex": 14
@@ -3031,7 +3031,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -3097,7 +3097,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -3181,7 +3181,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -3301,7 +3301,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 13,
             "endIndex": 14
@@ -3405,7 +3405,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -3472,7 +3472,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -3538,7 +3538,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -3604,7 +3604,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -3663,7 +3663,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -3726,7 +3726,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 7,
             "endIndex": 8
@@ -3800,7 +3800,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -3883,7 +3883,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 9,
             "endIndex": 10
@@ -3948,7 +3948,7 @@
               "text": "{\n    readonly ShortTime: \"t\";\n    readonly LongTime: \"T\";\n    readonly ShortDate: \"d\";\n    readonly LongDate: \"D\";\n    readonly ShortDateTime: \"f\";\n    readonly LongDateTime: \"F\";\n    readonly RelativeTime: \"R\";\n}"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "TimestampStyles",
@@ -3964,7 +3964,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type TimestampStylesString = "
+              "text": "export declare type TimestampStylesString = "
             },
             {
               "kind": "Content",
@@ -3993,7 +3993,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "TimestampStylesString",
           "typeTokenRange": {
@@ -4035,7 +4035,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -4102,7 +4102,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/formatters.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
