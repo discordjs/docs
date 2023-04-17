@@ -196,7 +196,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/collection.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -5119,7 +5119,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type ReadonlyCollection<K, V> = "
+              "text": "export declare type ReadonlyCollection<K, V> = "
             },
             {
               "kind": "Reference",
@@ -5153,7 +5153,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/collection.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "ReadonlyCollection",
           "typeParameters": [
