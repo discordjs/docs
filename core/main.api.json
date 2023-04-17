@@ -5427,7 +5427,7 @@
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "constructor({ rest, ws }: "
+                  "text": "constructor({ rest, gateway }: "
                 },
                 {
                   "kind": "Reference",
@@ -5444,7 +5444,7 @@
               "overloadIndex": 1,
               "parameters": [
                 {
-                  "parameterName": "{ rest, ws }",
+                  "parameterName": "{ rest, gateway }",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
                     "endIndex": 2
@@ -5476,6 +5476,37 @@
               "isOptional": false,
               "releaseTag": "Public",
               "name": "api",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/core!Client#gateway:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly gateway: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Gateway",
+                  "canonicalReference": "@discordjs/core!~Gateway:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "gateway",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5717,37 +5748,6 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "updateVoiceState"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/core!Client#ws:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly ws: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "WebSocketManager",
-                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "ws",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
             }
           ],
           "extendsTokenRange": {
@@ -5773,6 +5773,34 @@
           "members": [
             {
               "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/core!ClientOptions#gateway:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "gateway: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Gateway",
+                  "canonicalReference": "@discordjs/core!~Gateway:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "gateway",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
               "canonicalReference": "@discordjs/core!ClientOptions#rest:member",
               "docComment": "",
               "excerptTokens": [
@@ -5794,34 +5822,6 @@
               "isOptional": false,
               "releaseTag": "Public",
               "name": "rest",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
-            },
-            {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/core!ClientOptions#ws:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "ws: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "WebSocketManager",
-                  "canonicalReference": "@discordjs/ws!WebSocketManager:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "ws",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
