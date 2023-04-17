@@ -180,10 +180,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface BootstrapOptions "
+              "text": "export declare interface BootstrapOptions "
             }
           ],
-          "fileUrlPath": "src/utils/WorkerBootstrapper.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "BootstrapOptions",
           "preserveMemberOrder": false,
@@ -284,7 +284,7 @@
               "text": "export declare enum CloseCodes "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "CloseCodes",
           "preserveMemberOrder": false,
@@ -343,7 +343,7 @@
               "text": "export declare enum CompressionMethod "
             }
           ],
-          "fileUrlPath": "src/utils/constants.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "CompressionMethod",
           "preserveMemberOrder": false,
@@ -385,7 +385,7 @@
               "text": "`@discordjs/ws ${string}`"
             }
           ],
-          "fileUrlPath": "src/utils/constants.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultDeviceProperty",
@@ -489,7 +489,7 @@
               "text": " | null) => void;\n    readonly handshakeTimeout: 30000;\n    readonly helloTimeout: 60000;\n    readonly readyTimeout: 15000;\n}"
             }
           ],
-          "fileUrlPath": "src/utils/constants.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultWebSocketManagerOptions",
@@ -508,7 +508,7 @@
               "text": "export declare enum Encoding "
             }
           ],
-          "fileUrlPath": "src/utils/constants.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "Encoding",
           "preserveMemberOrder": false,
@@ -543,7 +543,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface FetchingStrategyOptions extends "
+              "text": "export declare interface FetchingStrategyOptions extends "
             },
             {
               "kind": "Reference",
@@ -568,7 +568,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/strategies/context/IContextFetchingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "FetchingStrategyOptions",
           "preserveMemberOrder": false,
@@ -655,7 +655,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/utils/constants.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -672,10 +672,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IContextFetchingStrategy "
+              "text": "export declare interface IContextFetchingStrategy "
             }
           ],
-          "fileUrlPath": "src/strategies/context/IContextFetchingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "IContextFetchingStrategy",
           "preserveMemberOrder": false,
@@ -915,10 +915,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IdentifyState "
+              "text": "export declare interface IdentifyState "
             }
           ],
-          "fileUrlPath": "src/throttling/SimpleIdentifyThrottler.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "IdentifyState",
           "preserveMemberOrder": false,
@@ -988,10 +988,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IIdentifyThrottler "
+              "text": "export declare interface IIdentifyThrottler "
             }
           ],
-          "fileUrlPath": "dist-docs/throttling/IIdentifyThrottler.d.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "IIdentifyThrottler",
           "preserveMemberOrder": false,
@@ -1036,7 +1036,6 @@
                   "text": ";"
                 }
               ],
-              "fileUrlPath": "src/throttling/IIdentifyThrottler.ts",
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -1095,7 +1094,7 @@
               "text": ">"
             }
           ],
-          "fileUrlPath": "src/utils/constants.ts",
+          "fileUrlPath": "src/index.ts",
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ImportantGatewayOpcodes",
@@ -1111,10 +1110,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface IShardingStrategy "
+              "text": "export declare interface IShardingStrategy "
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/IShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "IShardingStrategy",
           "preserveMemberOrder": false,
@@ -1394,7 +1393,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type ManagerShardEventsMap = "
+              "text": "export declare type ManagerShardEventsMap = "
             },
             {
               "kind": "Content",
@@ -1407,7 +1406,7 @@
             },
             {
               "kind": "Content",
-              "text": "]: [\n        "
+              "text": "]: [\n    "
             },
             {
               "kind": "Reference",
@@ -1416,7 +1415,7 @@
             },
             {
               "kind": "Content",
-              "text": "[K] extends [] ? {\n            shardId: number;\n        } : "
+              "text": "[K] extends [] ? {\n        shardId: number;\n    } : "
             },
             {
               "kind": "Reference",
@@ -1425,14 +1424,14 @@
             },
             {
               "kind": "Content",
-              "text": "[K][0] & {\n            shardId: number;\n        }\n    ];\n}"
+              "text": "[K][0] & {\n        shardId: number;\n    }\n    ];\n}"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "ManagerShardEventsMap",
           "typeTokenRange": {
@@ -1481,7 +1480,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/strategies/context/IContextFetchingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -1507,10 +1506,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface OptionalWebSocketManagerOptions "
+              "text": "export declare interface OptionalWebSocketManagerOptions "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "OptionalWebSocketManagerOptions",
           "preserveMemberOrder": false,
@@ -2080,10 +2079,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface RequiredWebSocketManagerOptions "
+              "text": "export declare interface RequiredWebSocketManagerOptions "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "RequiredWebSocketManagerOptions",
           "preserveMemberOrder": false,
@@ -2185,10 +2184,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SendRateLimitState "
+              "text": "export declare interface SendRateLimitState "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "SendRateLimitState",
           "preserveMemberOrder": false,
@@ -2257,10 +2256,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface SessionInfo "
+              "text": "export declare interface SessionInfo "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "SessionInfo",
           "preserveMemberOrder": false,
@@ -2410,10 +2409,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface ShardRange "
+              "text": "export declare interface ShardRange "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "ShardRange",
           "preserveMemberOrder": false,
@@ -2494,7 +2493,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/strategies/context/SimpleContextFetchingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "SimpleContextFetchingStrategy",
@@ -2674,10 +2673,6 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
-                  "text": "import(\"@discordjs/util\")."
-                },
-                {
                   "kind": "Reference",
                   "text": "Awaitable",
                   "canonicalReference": "@discordjs/util!Awaitable:type"
@@ -2694,7 +2689,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
-                "endIndex": 9
+                "endIndex": 8
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2818,7 +2813,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/throttling/SimpleIdentifyThrottler.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "SimpleIdentifyThrottler",
@@ -2953,7 +2948,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/SimpleShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "SimpleShardingStrategy",
@@ -3120,7 +3115,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, import(\"../../ws/WebSocketShard.js\")."
+                  "text": "<number, "
                 },
                 {
                   "kind": "Reference",
@@ -3335,7 +3330,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WebSocketManager",
@@ -3573,7 +3568,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<import(\"@discordjs/collection\")."
+                  "text": "<"
                 },
                 {
                   "kind": "Reference",
@@ -3582,7 +3577,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, import(\"./WebSocketShard.js\")."
+                  "text": "<number, "
                 },
                 {
                   "kind": "Reference",
@@ -3868,7 +3863,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type WebSocketManagerOptions = "
+              "text": "export declare type WebSocketManagerOptions = "
             },
             {
               "kind": "Reference",
@@ -3889,7 +3884,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WebSocketManagerOptions",
           "typeTokenRange": {
@@ -3929,7 +3924,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WebSocketShard",
@@ -4203,10 +4198,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface WebSocketShardDestroyOptions "
+              "text": "export declare interface WebSocketShardDestroyOptions "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardDestroyOptions",
           "preserveMemberOrder": false,
@@ -4306,7 +4301,7 @@
               "text": "export declare enum WebSocketShardDestroyRecovery "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardDestroyRecovery",
           "preserveMemberOrder": false,
@@ -4365,7 +4360,7 @@
               "text": "export declare enum WebSocketShardEvents "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardEvents",
           "preserveMemberOrder": false,
@@ -4547,7 +4542,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type WebSocketShardEventsMap = "
+              "text": "export declare type WebSocketShardEventsMap = "
             },
             {
               "kind": "Content",
@@ -4657,7 +4652,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardEventsMap",
           "typeTokenRange": {
@@ -4675,7 +4670,7 @@
               "text": "export declare enum WebSocketShardStatus "
             }
           ],
-          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WebSocketShardStatus",
           "preserveMemberOrder": false,
@@ -4776,7 +4771,7 @@
               "text": "export declare class WorkerBootstrapper "
             }
           ],
-          "fileUrlPath": "src/utils/WorkerBootstrapper.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WorkerBootstrapper",
@@ -5115,7 +5110,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/strategies/context/WorkerContextFetchingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WorkerContextFetchingStrategy",
@@ -5401,7 +5396,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface WorkerData extends "
+              "text": "export declare interface WorkerData extends "
             },
             {
               "kind": "Reference",
@@ -5413,7 +5408,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WorkerData",
           "preserveMemberOrder": false,
@@ -5460,7 +5455,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type WorkerReceivePayload = "
+              "text": "export declare type WorkerReceivePayload = "
             },
             {
               "kind": "Content",
@@ -5579,7 +5574,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WorkerReceivePayload",
           "typeTokenRange": {
@@ -5597,7 +5592,7 @@
               "text": "export declare enum WorkerReceivePayloadOp "
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WorkerReceivePayloadOp",
           "preserveMemberOrder": false,
@@ -5800,7 +5795,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type WorkerSendPayload = "
+              "text": "export declare type WorkerSendPayload = "
             },
             {
               "kind": "Content",
@@ -5892,7 +5887,7 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WorkerSendPayload",
           "typeTokenRange": {
@@ -5910,7 +5905,7 @@
               "text": "export declare enum WorkerSendPayloadOp "
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WorkerSendPayloadOp",
           "preserveMemberOrder": false,
@@ -6062,7 +6057,7 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WorkerShardingStrategy",
@@ -6408,10 +6403,10 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface WorkerShardingStrategyOptions "
+              "text": "export declare interface WorkerShardingStrategyOptions "
             }
           ],
-          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileUrlPath": "src/index.ts",
           "releaseTag": "Public",
           "name": "WorkerShardingStrategyOptions",
           "preserveMemberOrder": false,
