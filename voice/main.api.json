@@ -5552,7 +5552,7 @@
         {
           "kind": "Enum",
           "canonicalReference": "@discordjs/voice!StreamType:enum",
-          "docComment": "/**\n * The different types of stream that can exist within the pipeline.\n *\n * @remarks\n *\n * - `Arbitrary` - the type of the stream at this point is unknown. - `Raw` - the stream at this point is s16le PCM. - `OggOpus` - the stream at this point is Opus audio encoded in an Ogg wrapper. - `WebmOpus` - the stream at this point is Opus audio encoded in a WebM wrapper. - `Opus` - the stream at this point is Opus audio, and the stream is in object-mode. This is ready to play.\n */\n",
+          "docComment": "/**\n * The different types of stream that can exist within the pipeline.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -5567,7 +5567,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/voice!StreamType.Arbitrary:member",
-              "docComment": "",
+              "docComment": "/**\n * The type of the stream at this point is unknown.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5588,7 +5588,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/voice!StreamType.OggOpus:member",
-              "docComment": "",
+              "docComment": "/**\n * The stream at this point is Opus audio encoded in an Ogg wrapper.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5609,7 +5609,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/voice!StreamType.Opus:member",
-              "docComment": "",
+              "docComment": "/**\n * The stream at this point is Opus audio, and the stream is in object-mode. This is ready to play.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5630,7 +5630,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/voice!StreamType.Raw:member",
-              "docComment": "",
+              "docComment": "/**\n * The stream at this point is s16le PCM.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5651,7 +5651,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/voice!StreamType.WebmOpus:member",
-              "docComment": "",
+              "docComment": "/**\n * The stream at this point is Opus audio encoded in a WebM wrapper.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
