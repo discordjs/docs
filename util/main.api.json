@@ -220,7 +220,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/util!calculateShardId:function(1)",
-          "docComment": "",
+          "docComment": "/**\n * Calculates the shard id for a given guild id.\n *\n * @param guildId - The guild id to calculate the shard id for\n *\n * @param shardCount - The total number of shards\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
