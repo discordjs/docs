@@ -1,0 +1,590 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.34.6",
+    "schemaVersion": 1011,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      },
+      "reportUnsupportedHtmlElements": false
+    }
+  },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/proxy",
+  "kind": "Package",
+  "canonicalReference": "@discordjs/proxy!",
+  "docComment": "",
+  "name": "@discordjs/proxy",
+  "preserveMemberOrder": false,
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@discordjs/proxy!",
+      "name": "",
+      "preserveMemberOrder": false,
+      "members": [
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/proxy!populateAbortErrorResponse:function(1)",
+          "docComment": "/**\n * Populates a server response with data relevant for a timeout\n *\n * @param res - The sever response to populate\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function populateAbortErrorResponse(res: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ServerResponse",
+              "canonicalReference": "!\"\\\"http\\\"\".ServerResponse:class"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "void"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "res",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "populateAbortErrorResponse"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/proxy!populateErrorResponse:function(1)",
+          "docComment": "/**\n * Tries to populate a server response from an error object\n *\n * @param res - The server response to populate\n *\n * @param error - The error to check and use\n *\n * @returns - True if the error is known and the response object was populated, otherwise false\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function populateErrorResponse(res: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ServerResponse",
+              "canonicalReference": "!\"\\\"http\\\"\".ServerResponse:class"
+            },
+            {
+              "kind": "Content",
+              "text": ", error: "
+            },
+            {
+              "kind": "Content",
+              "text": "unknown"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "res",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "error",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "populateErrorResponse"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/proxy!populateGeneralErrorResponse:function(1)",
+          "docComment": "/**\n * Populates a server response with the data from a Discord non-2xx REST response that is NOT a 429\n *\n * @param res - The server response to populate\n *\n * @param error - The error to populate the response with\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function populateGeneralErrorResponse(res: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ServerResponse",
+              "canonicalReference": "!\"\\\"http\\\"\".ServerResponse:class"
+            },
+            {
+              "kind": "Content",
+              "text": ", error: "
+            },
+            {
+              "kind": "Reference",
+              "text": "DiscordAPIError",
+              "canonicalReference": "@discordjs/rest!DiscordAPIError:class"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "HTTPError",
+              "canonicalReference": "@discordjs/rest!HTTPError:class"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "void"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "res",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "error",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 6
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "populateGeneralErrorResponse"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/proxy!populateRatelimitErrorResponse:function(1)",
+          "docComment": "/**\n * Populates a server response with the data from a Discord 429 REST response\n *\n * @param res - The server response to populate\n *\n * @param error - The error to populate the response with\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function populateRatelimitErrorResponse(res: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ServerResponse",
+              "canonicalReference": "!\"\\\"http\\\"\".ServerResponse:class"
+            },
+            {
+              "kind": "Content",
+              "text": ", error: "
+            },
+            {
+              "kind": "Reference",
+              "text": "RateLimitError",
+              "canonicalReference": "@discordjs/rest!RateLimitError:class"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "void"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "res",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "error",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "populateRatelimitErrorResponse"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/proxy!populateSuccessfulResponse:function(1)",
+          "docComment": "/**\n * Populates a server response with the data from a Discord 2xx REST response\n *\n * @param res - The server response to populate\n *\n * @param data - The data to populate the response with\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function populateSuccessfulResponse(res: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ServerResponse",
+              "canonicalReference": "!\"\\\"http\\\"\".ServerResponse:class"
+            },
+            {
+              "kind": "Content",
+              "text": ", data: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Dispatcher.ResponseData",
+              "canonicalReference": "undici!Dispatcher.ResponseData:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Reference",
+              "text": "Promise",
+              "canonicalReference": "!Promise:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<void>"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 7
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "res",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "data",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "populateSuccessfulResponse"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/proxy!proxyRequests:function(1)",
+          "docComment": "/**\n * Creates an HTTP handler used to forward requests to Discord\n *\n * @param rest - REST instance to use for the requests\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function proxyRequests(rest: "
+            },
+            {
+              "kind": "Reference",
+              "text": "REST",
+              "canonicalReference": "@discordjs/rest!REST:class"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Reference",
+              "text": "RequestHandler",
+              "canonicalReference": "@discordjs/proxy!RequestHandler:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "rest",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "proxyRequests"
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@discordjs/proxy!RequestHandler:type",
+          "docComment": "/**\n * Represents a simple HTTP request handler\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type RequestHandler = "
+            },
+            {
+              "kind": "Content",
+              "text": "(req: "
+            },
+            {
+              "kind": "Reference",
+              "text": "IncomingMessage",
+              "canonicalReference": "!\"\\\"http\\\"\".IncomingMessage:class"
+            },
+            {
+              "kind": "Content",
+              "text": ", res: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ServerResponse",
+              "canonicalReference": "!\"\\\"http\\\"\".ServerResponse:class"
+            },
+            {
+              "kind": "Content",
+              "text": ") => "
+            },
+            {
+              "kind": "Reference",
+              "text": "Awaitable",
+              "canonicalReference": "@discordjs/util!Awaitable:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<void>"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "RequestHandler",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 8
+          }
+        }
+      ]
+    }
+  ]
+}
