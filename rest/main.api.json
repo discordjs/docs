@@ -4432,7 +4432,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "BodyInit",
+                  "text": "BodyInit_2",
                   "canonicalReference": "undici!BodyInit:type"
                 },
                 {

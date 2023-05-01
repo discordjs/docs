@@ -2247,7 +2247,7 @@
                 {
                   "kind": "Reference",
                   "text": "prism.opus.Encoder",
-                  "canonicalReference": "prism-media!opus.Encoder:class"
+                  "canonicalReference": "!prism.opus.Encoder:type"
                 },
                 {
                   "kind": "Content",
@@ -2519,7 +2519,7 @@
                 {
                   "kind": "Reference",
                   "text": "prism.VolumeTransformer",
-                  "canonicalReference": "prism-media!VolumeTransformer:class"
+                  "canonicalReference": "!prism.VolumeTransformer:type"
                 },
                 {
                   "kind": "Content",

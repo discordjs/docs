@@ -2671,7 +2671,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Permissions",
+                  "text": "Permissions_2",
                   "canonicalReference": "discord-api-types!Permissions:type"
                 },
                 {
@@ -2827,7 +2827,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Permissions",
+                  "text": "Permissions_2",
                   "canonicalReference": "discord-api-types!Permissions:type"
                 },
                 {
@@ -8254,7 +8254,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Permissions",
+                  "text": "Permissions_2",
                   "canonicalReference": "discord-api-types!Permissions:type"
                 },
                 {
@@ -8536,7 +8536,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Permissions",
+                  "text": "Permissions_2",
                   "canonicalReference": "discord-api-types!Permissions:type"
                 },
                 {
