@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.34.7",
+    "toolVersion": "7.34.8",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -18714,8 +18714,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPutAPIApplicationCommandPermissionsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPutAPIApplicationCommandPermissionsJSONBody:interface"
+                  "text": "RESTPutAPIApplicationRoleConnectionMetadataJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPutAPIApplicationRoleConnectionMetadataJSONBody:type"
                 },
                 {
                   "kind": "Content",
