@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.34.6",
+    "toolVersion": "7.34.7",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -7255,7 +7255,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#deleteAutoModerationRule:member(1)",
-              "docComment": "/**\n * Deletes an auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to delete the auto moderation rule from\n *\n * @param options - The options for deleting the auto moderation rule\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/auto-moderation#delete-auto-moderation-rule}\n */\n",
+              "docComment": "/**\n * Deletes an auto moderation rule for a guild\n *\n * @param guildId - The id of the guild to delete the auto moderation rule from\n *\n * @param ruleId - The id of the auto moderation rule to delete\n *\n * @param options - The options for deleting the auto moderation rule\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/auto-moderation#delete-auto-moderation-rule}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -22196,7 +22196,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#executeGitHub:member(1)",
-              "docComment": "/**\n * Executes a github webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param query - The options to use when executing the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-githubcompatible-webhook}\n */\n",
+              "docComment": "/**\n * Executes a github webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data to use when executing the webhook\n *\n * @param query - The options to use when executing the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-githubcompatible-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -22329,7 +22329,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#executeSlack:member(1)",
-              "docComment": "/**\n * Executes a slack webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param query - The query options to use when executing the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-slackcompatible-webhook}\n */\n",
+              "docComment": "/**\n * Executes a slack webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data to use when executing the webhook\n *\n * @param query - The query options to use when executing the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-slackcompatible-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
