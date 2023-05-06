@@ -436,8 +436,8 @@
             },
             {
               "kind": "Reference",
-              "text": "Dispatcher.ResponseData",
-              "canonicalReference": "undici!Dispatcher.ResponseData:interface"
+              "text": "ResponseLike",
+              "canonicalReference": "@discordjs/rest!ResponseLike:interface"
             },
             {
               "kind": "Content",
