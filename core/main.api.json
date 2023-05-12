@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.34.8",
+    "toolVersion": "7.34.9",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -5552,12 +5552,12 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "APIGuildMember",
-                  "canonicalReference": "discord-api-types!APIGuildMember:interface"
+                  "text": "RequestGuildMembersResult",
+                  "canonicalReference": "@discordjs/core!RequestGuildMembersResult:interface"
                 },
                 {
                   "kind": "Content",
-                  "text": "[]>"
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -18551,6 +18551,179 @@
             }
           ],
           "implementsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@discordjs/core!RequestGuildMembersResult:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare interface RequestGuildMembersResult "
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "RequestGuildMembersResult",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/core!RequestGuildMembersResult#members:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "members: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayGuildMembersChunkDispatchData",
+                  "canonicalReference": "discord-api-types!GatewayGuildMembersChunkDispatchData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "['members']"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "members",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/core!RequestGuildMembersResult#nonce:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "nonce: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NonNullable",
+                  "canonicalReference": "!NonNullable:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayGuildMembersChunkDispatchData",
+                  "canonicalReference": "discord-api-types!GatewayGuildMembersChunkDispatchData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "['nonce']>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "nonce",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/core!RequestGuildMembersResult#notFound:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "notFound: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NonNullable",
+                  "canonicalReference": "!NonNullable:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayGuildMembersChunkDispatchData",
+                  "canonicalReference": "discord-api-types!GatewayGuildMembersChunkDispatchData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "['not_found']>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "notFound",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/core!RequestGuildMembersResult#presences:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "presences: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "NonNullable",
+                  "canonicalReference": "!NonNullable:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayGuildMembersChunkDispatchData",
+                  "canonicalReference": "discord-api-types!GatewayGuildMembersChunkDispatchData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "['presences']>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "presences",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              }
+            }
+          ],
+          "extendsTokenRanges": []
         },
         {
           "kind": "Class",
