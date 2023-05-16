@@ -10496,8 +10496,118 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/core!GuildsAPI#getMemberBan:member(1)",
+              "docComment": "/**\n * Fetches a guild member ban\n *\n * @param guildId - The id of the guild to fetch the ban from\n *\n * @param userId - The id of the user to fetch the ban\n *\n * @param options - The options for fetching the ban\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-ban}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getMemberBan(guildId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", userId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIBan",
+                  "canonicalReference": "discord-api-types!APIBan:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 10,
+                "endIndex": 14
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "guildId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "userId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 9
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "getMemberBan"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getMemberBans:member(1)",
-              "docComment": "/**\n * Fetches a guild member ban\n *\n * @param guildId - The id of the guild to fetch the ban from\n *\n * @param options - The options for fetching the guild member ban\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-bans}\n */\n",
+              "docComment": "/**\n * Fetches guild member bans\n *\n * @param guildId - The id of the guild to fetch the bans from\n *\n * @param query - The query options for fetching the bans\n *\n * @param options - The options for fetching the bans\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#get-guild-bans}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10507,6 +10617,15 @@
                   "kind": "Reference",
                   "text": "Snowflake",
                   "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", query?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTGetAPIGuildBansQuery",
+                  "canonicalReference": "discord-api-types!RESTGetAPIGuildBansQuery:interface"
                 },
                 {
                   "kind": "Content",
@@ -10559,8 +10678,8 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 12
+                "startIndex": 10,
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -10575,10 +10694,18 @@
                   "isOptional": false
                 },
                 {
-                  "parameterName": "{ signal }",
+                  "parameterName": "query",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 7
+                    "endIndex": 4
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "{ signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 9
                   },
                   "isOptional": true
                 }
@@ -12382,6 +12509,107 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "getWidgetSettings"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!GuildsAPI#removeMember:member(1)",
+              "docComment": "/**\n * Removes a member from a guild\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param options - The options for removing the guild member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#remove-guild-member}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "removeMember(guildId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", userId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { reason, signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'reason' | 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<unknown>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 10,
+                "endIndex": 12
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "guildId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "userId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ reason, signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 9
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "removeMember"
             },
             {
               "kind": "Method",
