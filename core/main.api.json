@@ -472,6 +472,37 @@
             },
             {
               "kind": "Property",
+              "canonicalReference": "@discordjs/core!API#stageInstances:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly stageInstances: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StageInstancesAPI",
+                  "canonicalReference": "@discordjs/core!StageInstancesAPI:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "stageInstances",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "@discordjs/core!API#stickers:member",
               "docComment": "",
               "excerptTokens": [
@@ -19205,6 +19236,438 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "updateMetadataRecords"
+            }
+          ],
+          "implementsTokenRanges": []
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@discordjs/core!StageInstancesAPI:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class StageInstancesAPI "
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "isAbstract": false,
+          "name": "StageInstancesAPI",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@discordjs/core!StageInstancesAPI:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `StageInstancesAPI` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(rest: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "REST",
+                  "canonicalReference": "@discordjs/rest!REST:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "rest",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!StageInstancesAPI#create:member(1)",
+              "docComment": "/**\n * Creates a new stage instance\n *\n * @param body - The data to use when creating the new stage instance\n *\n * @param options - The options for creating the new stage instance\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/stage-instance#get-stage-instance}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "create(body: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPostAPIStageInstanceJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPostAPIStageInstanceJSONBody:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { reason, signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'reason' | 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIStageInstance",
+                  "canonicalReference": "discord-api-types!APIStageInstance:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 12
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "body",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ reason, signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 7
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "create"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!StageInstancesAPI#delete:member(1)",
+              "docComment": "/**\n * Deletes a stage instance\n *\n * @param channelId - The id of the channel\n *\n * @param options - The options for deleting the stage instance\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/stage-instance#delete-stage-instance}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "delete(channelId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { reason, signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'reason' | 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<void>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "channelId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ reason, signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 7
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "delete"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!StageInstancesAPI#edit:member(1)",
+              "docComment": "/**\n * Edits a stage instance\n *\n * @param channelId - The id of the channel\n *\n * @param body - The new stage instance data\n *\n * @param options - The options for editing the stage instance\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/stage-instance#modify-stage-instance}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "edit(channelId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", body: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPatchAPIStageInstanceJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPatchAPIStageInstanceJSONBody:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { reason, signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'reason' | 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIStageInstance",
+                  "canonicalReference": "discord-api-types!APIStageInstance:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 10,
+                "endIndex": 14
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "channelId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "body",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ reason, signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 9
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "edit"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!StageInstancesAPI#get:member(1)",
+              "docComment": "/**\n * Fetches a stage instance\n *\n * @param channelId - The id of the channel\n *\n * @param options - The options for fetching the stage instance\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/stage-instance#get-stage-instance}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "get(channelId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIStageInstance",
+                  "canonicalReference": "discord-api-types!APIStageInstance:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 12
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "channelId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 7
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "get"
             }
           ],
           "implementsTokenRanges": []
