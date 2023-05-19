@@ -9414,8 +9414,9 @@
                   "text": "get(guildId: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "string"
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
                 },
                 {
                   "kind": "Content",
@@ -21945,7 +21946,16 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "{\n        thread_id?: string;\n    }"
+                  "text": "{\n        thread_id?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n    }"
                 },
                 {
                   "kind": "Content",
@@ -21989,8 +21999,8 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 14,
-                "endIndex": 16
+                "startIndex": 16,
+                "endIndex": 18
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -22024,15 +22034,15 @@
                   "parameterName": "query",
                   "parameterTypeTokenRange": {
                     "startIndex": 7,
-                    "endIndex": 8
+                    "endIndex": 10
                   },
                   "isOptional": true
                 },
                 {
                   "parameterName": "{ signal }",
                   "parameterTypeTokenRange": {
-                    "startIndex": 9,
-                    "endIndex": 13
+                    "startIndex": 11,
+                    "endIndex": 15
                   },
                   "isOptional": true
                 }
