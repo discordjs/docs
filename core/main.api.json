@@ -847,8 +847,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPutAPIApplicationCommandsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPutAPIApplicationCommandsJSONBody:type"
+                  "text": "RESTPutAPIApplicationGuildCommandsJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPutAPIApplicationGuildCommandsJSONBody:type"
                 },
                 {
                   "kind": "Content",
@@ -887,8 +887,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPutAPIApplicationCommandsResult",
-                  "canonicalReference": "discord-api-types!RESTPutAPIApplicationCommandsResult:type"
+                  "text": "RESTPutAPIApplicationGuildCommandsResult",
+                  "canonicalReference": "discord-api-types!RESTPutAPIApplicationGuildCommandsResult:type"
                 },
                 {
                   "kind": "Content",
@@ -1084,8 +1084,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPostAPIApplicationCommandsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIApplicationCommandsJSONBody:type"
+                  "text": "RESTPostAPIApplicationGuildCommandsJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPostAPIApplicationGuildCommandsJSONBody:type"
                 },
                 {
                   "kind": "Content",
@@ -1124,8 +1124,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "APIApplicationCommand",
-                  "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
+                  "text": "RESTPostAPIApplicationGuildCommandsResult",
+                  "canonicalReference": "discord-api-types!RESTPostAPIApplicationGuildCommandsResult:type"
                 },
                 {
                   "kind": "Content",
@@ -1566,8 +1566,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPatchAPIApplicationCommandJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIApplicationCommandJSONBody:type"
+                  "text": "RESTPatchAPIApplicationGuildCommandJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPatchAPIApplicationGuildCommandJSONBody:type"
                 },
                 {
                   "kind": "Content",
@@ -1606,8 +1606,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "APIApplicationCommand",
-                  "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
+                  "text": "RESTPatchAPIApplicationGuildCommandResult",
+                  "canonicalReference": "discord-api-types!RESTPatchAPIApplicationGuildCommandResult:type"
                 },
                 {
                   "kind": "Content",
@@ -2121,8 +2121,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "APIApplicationCommand",
-                  "canonicalReference": "discord-api-types!APIApplicationCommand:interface"
+                  "text": "RESTGetAPIApplicationGuildCommandResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPIApplicationGuildCommandResult:type"
                 },
                 {
                   "kind": "Content",
@@ -2375,8 +2375,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTGetAPIApplicationCommandsResult",
-                  "canonicalReference": "discord-api-types!RESTGetAPIApplicationCommandsResult:type"
+                  "text": "RESTGetAPIApplicationGuildCommandsResult",
+                  "canonicalReference": "discord-api-types!RESTGetAPIApplicationGuildCommandsResult:type"
                 },
                 {
                   "kind": "Content",
@@ -6265,8 +6265,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTGetAPIGuildPruneCountResult",
-                  "canonicalReference": "discord-api-types!RESTGetAPIGuildPruneCountResult:interface"
+                  "text": "RESTPostAPIGuildPruneResult",
+                  "canonicalReference": "discord-api-types!RESTPostAPIGuildPruneResult:interface"
                 },
                 {
                   "kind": "Content",
@@ -7109,8 +7109,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPostAPITemplateCreateGuildJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPITemplateCreateGuildJSONBody:interface"
+                  "text": "RESTPostAPIGuildTemplatesJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPostAPIGuildTemplatesJSONBody:interface"
                 },
                 {
                   "kind": "Content",
@@ -8168,8 +8168,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTPatchAPIAutoModerationRuleJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPatchAPIAutoModerationRuleJSONBody:type"
+                  "text": "APIAutoModerationRule",
+                  "canonicalReference": "discord-api-types!APIAutoModerationRule:interface"
                 },
                 {
                   "kind": "Content",
@@ -12500,8 +12500,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "ArrayBuffer",
-                  "canonicalReference": "!ArrayBuffer:interface"
+                  "text": "APIGuildWidgetSettings",
+                  "canonicalReference": "discord-api-types!APIGuildWidgetSettings:interface"
                 },
                 {
                   "kind": "Content",
@@ -14245,7 +14245,16 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIMessage",
+                  "canonicalReference": "discord-api-types!APIMessage:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -14255,7 +14264,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 15,
-                "endIndex": 17
+                "endIndex": 19
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -22243,7 +22252,16 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<never>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIWebhook",
+                  "canonicalReference": "discord-api-types!APIWebhook:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -22253,7 +22271,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
