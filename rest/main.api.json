@@ -7555,7 +7555,7 @@
             {
               "kind": "PropertySignature",
               "canonicalReference": "@discordjs/rest!RESTOptions#cdn:member",
-              "docComment": "/**\n * The cdn path\n *\n * @defaultValue\n *\n * 'https://cdn.discordapp.com'\n */\n",
+              "docComment": "/**\n * The cdn path\n *\n * @defaultValue\n *\n * `'https://cdn.discordapp.com'`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
