@@ -15057,6 +15057,60 @@
           "members": [
             {
               "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/core!MappedEvents#APPLICATION_COMMAND_PERMISSIONS_UPDATE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "["
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayDispatchEvents.ApplicationCommandPermissionsUpdate",
+                  "canonicalReference": "discord-api-types!GatewayDispatchEvents.ApplicationCommandPermissionsUpdate:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": "]: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "[\n    "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "WithIntrinsicProps",
+                  "canonicalReference": "@discordjs/core!WithIntrinsicProps:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayApplicationCommandPermissionsUpdateDispatchData",
+                  "canonicalReference": "discord-api-types!GatewayApplicationCommandPermissionsUpdateDispatchData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">\n    ]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "APPLICATION_COMMAND_PERMISSIONS_UPDATE",
+              "propertyTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 8
+              }
+            },
+            {
+              "kind": "PropertySignature",
               "canonicalReference": "@discordjs/core!MappedEvents#AUTO_MODERATION_ACTION_EXECUTION:member",
               "docComment": "",
               "excerptTokens": [
