@@ -711,7 +711,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#bulkOverwriteGlobalCommands:member(1)",
-              "docComment": "/**\n * Overwrites global commands\n *\n * @param applicationId - The application id to overwrite commands for\n *\n * @param body - The data to use when overwriting commands\n *\n * @param options - The options for overwriting commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#bulk-overwrite-global-application-commands}\n */\n",
+              "docComment": "/**\n * Overwrites global commands\n *\n * @param applicationId - The application id to overwrite commands for\n *\n * @param body - The data for overwriting commands\n *\n * @param options - The options for overwriting commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#bulk-overwrite-global-application-commands}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -821,7 +821,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#bulkOverwriteGuildCommands:member(1)",
-              "docComment": "/**\n * Bulk overwrites guild commands\n *\n * @param applicationId - The application id to overwrite commands for\n *\n * @param guildId - The guild id to overwrite commands for\n *\n * @param body - The data to use when overwriting commands\n *\n * @param options - The options to use when overwriting the commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#bulk-overwrite-guild-application-commands}\n */\n",
+              "docComment": "/**\n * Bulk overwrites guild commands\n *\n * @param applicationId - The application id to overwrite commands for\n *\n * @param guildId - The guild id to overwrite commands for\n *\n * @param body - The data for overwriting commands\n *\n * @param options - The options for overwriting the commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#bulk-overwrite-guild-application-commands}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -948,7 +948,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#createGlobalCommand:member(1)",
-              "docComment": "/**\n * Creates a new global command\n *\n * @param applicationId - The application id to create the command for\n *\n * @param body - The data to use when creating the command\n *\n * @param options - The options to use when creating the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#create-global-application-command}\n */\n",
+              "docComment": "/**\n * Creates a new global command\n *\n * @param applicationId - The application id to create the command for\n *\n * @param body - The data for creating the command\n *\n * @param options - The options for creating the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#create-global-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1058,7 +1058,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#createGuildCommand:member(1)",
-              "docComment": "/**\n * Creates a new command for a guild\n *\n * @param applicationId - The application id to create the command for\n *\n * @param guildId - The guild id to create the command for\n *\n * @param body - The data to use when creating the command\n *\n * @param options - The options to use when creating the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#create-guild-application-command}\n */\n",
+              "docComment": "/**\n * Creates a new command for a guild\n *\n * @param applicationId - The application id to create the command for\n *\n * @param guildId - The guild id to create the command for\n *\n * @param body - The data for creating the command\n *\n * @param options - The options for creating the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#create-guild-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1404,7 +1404,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#editGlobalCommand:member(1)",
-              "docComment": "/**\n * Edits a global command\n *\n * @param applicationId - The application id of the command\n *\n * @param commandId - The id of the command to edit\n *\n * @param body - The data to use when editing the command\n *\n * @param options - The options for editing the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-global-application-command}\n */\n",
+              "docComment": "/**\n * Edits a global command\n *\n * @param applicationId - The application id of the command\n *\n * @param commandId - The id of the command to edit\n *\n * @param body - The data for editing the command\n *\n * @param options - The options for editing the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-global-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1531,7 +1531,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#editGuildCommand:member(1)",
-              "docComment": "/**\n * Edits a guild command\n *\n * @param applicationId - The application id of the command\n *\n * @param guildId - The guild id of the command\n *\n * @param commandId - The command id to edit\n *\n * @param body - The data to use when editing the command\n *\n * @param options - The options to use when editing the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-guild-application-command}\n */\n",
+              "docComment": "/**\n * Edits a guild command\n *\n * @param applicationId - The application id of the command\n *\n * @param guildId - The guild id of the command\n *\n * @param commandId - The command id to edit\n *\n * @param body - The data for editing the command\n *\n * @param options - The options for editing the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-guild-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1675,7 +1675,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#editGuildCommandPermissions:member(1)",
-              "docComment": "/**\n * Edits the permissions for a guild command\n *\n * @param userToken - The token of the user to edit permissions on behalf of\n *\n * @param applicationId - The application id to edit the permissions for\n *\n * @param guildId - The guild id to edit the permissions for\n *\n * @param commandId - The id of the command to edit the permissions for\n *\n * @param body - The data to use when editing the permissions\n *\n * @param options - The options to use when editing the permissions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-application-command-permissions}\n */\n",
+              "docComment": "/**\n * Edits the permissions for a guild command\n *\n * @param userToken - The token of the user to edit permissions on behalf of\n *\n * @param applicationId - The application id to edit the permissions for\n *\n * @param guildId - The guild id to edit the permissions for\n *\n * @param commandId - The id of the command to edit the permissions for\n *\n * @param body - The data for editing the permissions\n *\n * @param options - The options for editing the permissions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#edit-application-command-permissions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1835,7 +1835,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGlobalCommand:member(1)",
-              "docComment": "/**\n * Fetches a global command\n *\n * @param applicationId - The application id to fetch the command from\n *\n * @param commandId - The command id to fetch\n *\n * @param options - The options to use when fetching the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-global-application-command}\n */\n",
+              "docComment": "/**\n * Fetches a global command\n *\n * @param applicationId - The application id to fetch the command from\n *\n * @param commandId - The command id to fetch\n *\n * @param options - The options for fetching the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-global-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1945,7 +1945,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGlobalCommands:member(1)",
-              "docComment": "/**\n * Fetches all global commands for a application\n *\n * @param applicationId - The application id to fetch commands for\n *\n * @param query - The query options to use when fetching commands\n *\n * @param options - The options to use when fetching commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-global-application-commands}\n */\n",
+              "docComment": "/**\n * Fetches all global commands for a application\n *\n * @param applicationId - The application id to fetch commands for\n *\n * @param query - The query options for fetching commands\n *\n * @param options - The options for fetching commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-global-application-commands}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2055,7 +2055,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGuildCommand:member(1)",
-              "docComment": "/**\n * Fetches a guild command\n *\n * @param applicationId - The application id to fetch the command from\n *\n * @param guildId - The guild id to fetch the command from\n *\n * @param commandId - The command id to fetch\n *\n * @param options - The options to use when fetching the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-guild-application-command}\n */\n",
+              "docComment": "/**\n * Fetches a guild command\n *\n * @param applicationId - The application id to fetch the command from\n *\n * @param guildId - The guild id to fetch the command from\n *\n * @param commandId - The command id to fetch\n *\n * @param options - The options for fetching the command\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-guild-application-command}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2309,7 +2309,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationCommandsAPI#getGuildCommands:member(1)",
-              "docComment": "/**\n * Fetches all commands for a guild\n *\n * @param applicationId - The application id to fetch commands for\n *\n * @param guildId - The guild id to fetch commands for\n *\n * @param query - The data to use when fetching commands\n *\n * @param options - The options to use when fetching commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-guild-application-commands}\n */\n",
+              "docComment": "/**\n * Fetches all commands for a guild\n *\n * @param applicationId - The application id to fetch commands for\n *\n * @param guildId - The guild id to fetch commands for\n *\n * @param query - The data for fetching commands\n *\n * @param options - The options for fetching commands\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/application-commands#get-guild-application-commands}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2819,8 +2819,118 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/core!ChannelsAPI#create:member(1)",
+              "docComment": "/**\n * Creates a new webhook\n *\n * @param channelId - The id of the channel to create the webhook in\n *\n * @param body - The data for creating the webhook\n *\n * @param options - The options for creating the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#create-webhook}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "create(channelId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", body: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPostAPIChannelWebhookJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPostAPIChannelWebhookJSONBody:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { reason, signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'reason' | 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIWebhook",
+                  "canonicalReference": "discord-api-types!APIWebhook:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 10,
+                "endIndex": 14
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "channelId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "body",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ reason, signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 9
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "create"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#createInvite:member(1)",
-              "docComment": "/**\n * Creates a new invite for a channel\n *\n * @param channelId - The id of the channel to create an invite for\n *\n * @param body - The data to use when creating the invite\n *\n * @param options - The options for creating the invite\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#create-channel-invite}\n */\n",
+              "docComment": "/**\n * Creates a new invite for a channel\n *\n * @param channelId - The id of the channel to create an invite for\n *\n * @param body - The data for creating the invite\n *\n * @param options - The options for creating the invite\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#create-channel-invite}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2930,7 +3040,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#createMessage:member(1)",
-              "docComment": "/**\n * Sends a message in a channel\n *\n * @param channelId - The id of the channel to send the message in\n *\n * @param body - The data to use when sending the message\n *\n * @param options - The options to use when sending the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#create-message}\n */\n",
+              "docComment": "/**\n * Sends a message in a channel\n *\n * @param channelId - The id of the channel to send the message in\n *\n * @param body - The data for sending the message\n *\n * @param options - The options for sending the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#create-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3049,6 +3159,133 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "createMessage"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!ChannelsAPI#createThread:member(1)",
+              "docComment": "/**\n * Creates a new thread\n *\n * @param channelId - The id of the channel to start the thread in\n *\n * @param body - The data for starting the thread\n *\n * @param messageId - The id of the message to start the thread from\n *\n * @param options - The options for starting the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#start-thread-from-message}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#start-thread-without-message}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "createThread(channelId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", body: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPostAPIChannelThreadsJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPostAPIChannelThreadsJSONBody:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", messageId?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIChannel",
+                  "canonicalReference": "discord-api-types!APIChannel:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 12,
+                "endIndex": 16
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "channelId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "body",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "messageId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 6
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "{ signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 7,
+                    "endIndex": 11
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "createThread"
             },
             {
               "kind": "Method",
@@ -3936,7 +4173,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#editMessage:member(1)",
-              "docComment": "/**\n * Edits a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to edit\n *\n * @param body - The data to use when editing the message\n *\n * @param options - The options to use when editing the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#edit-message}\n */\n",
+              "docComment": "/**\n * Edits a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to edit\n *\n * @param body - The data for editing the message\n *\n * @param options - The options for editing the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#edit-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4279,7 +4516,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getArchivedThreads:member(1)",
-              "docComment": "/**\n * Fetches the archived threads of a channel\n *\n * @param channelId - The id of the channel to fetch archived threads from\n *\n * @param archivedStatus - The archived status of the threads to fetch\n *\n * @param query - The options to use when fetching archived threads\n *\n * @param options - The options for fetching archived threads\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-public-archived-threads}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-private-archived-threads}\n */\n",
+              "docComment": "/**\n * Fetches the archived threads of a channel\n *\n * @param channelId - The id of the channel to fetch archived threads from\n *\n * @param archivedStatus - The archived status of the threads to fetch\n *\n * @param query - The options for fetching archived threads\n *\n * @param options - The options for fetching archived threads\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-public-archived-threads}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-private-archived-threads}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4498,7 +4735,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getJoinedPrivateArchivedThreads:member(1)",
-              "docComment": "/**\n * Fetches the private joined archived threads of a channel\n *\n * @param channelId - The id of the channel to fetch joined archived threads from\n *\n * @param query - The options to use when fetching joined archived threads\n *\n * @param options - The options for fetching joined archived threads\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-joined-private-archived-threads}\n */\n",
+              "docComment": "/**\n * Fetches the private joined archived threads of a channel\n *\n * @param channelId - The id of the channel to fetch joined archived threads from\n *\n * @param query - The options for fetching joined archived threads\n *\n * @param options - The options for fetching joined archived threads\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-joined-private-archived-threads}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4718,7 +4955,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getMessageReactions:member(1)",
-              "docComment": "/**\n * Fetches the reactions for a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to get the reactions for\n *\n * @param emoji - The emoji to get the reactions for\n *\n * @param query - The query options to use when fetching the reactions\n *\n * @param options - The options for fetching the message reactions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-reactions}\n */\n",
+              "docComment": "/**\n * Fetches the reactions for a message\n *\n * @param channelId - The id of the channel the message is in\n *\n * @param messageId - The id of the message to get the reactions for\n *\n * @param emoji - The emoji to get the reactions for\n *\n * @param query - The query options for fetching the reactions\n *\n * @param options - The options for fetching the message reactions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-reactions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4861,7 +5098,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getMessages:member(1)",
-              "docComment": "/**\n * Fetches the messages of a channel\n *\n * @param channelId - The id of the channel to fetch messages from\n *\n * @param query - The query options to use when fetching messages\n *\n * @param options - The options for fetching the messages\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-channel-messages}\n */\n",
+              "docComment": "/**\n * Fetches the messages of a channel\n *\n * @param channelId - The id of the channel to fetch messages from\n *\n * @param query - The query options for fetching messages\n *\n * @param options - The options for fetching the messages\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-channel-messages}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -5064,11 +5301,11 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ChannelsAPI#getWebhooks:member(1)",
-              "docComment": "/**\n * Fetches the webhooks of a channel\n *\n * @param id - The id of the channel\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-channel-webhooks}\n */\n",
+              "docComment": "/**\n * Fetches the webhooks of a channel\n *\n * @param channelId - The id of the channel\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-channel-webhooks}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "getWebhooks(id: "
+                  "text": "getWebhooks(channelId: "
                 },
                 {
                   "kind": "Reference",
@@ -5112,7 +5349,7 @@
               "overloadIndex": 1,
               "parameters": [
                 {
-                  "parameterName": "id",
+                  "parameterName": "channelId",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
                     "endIndex": 2
@@ -7093,7 +7330,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#createTemplate:member(1)",
-              "docComment": "/**\n * Creates a new template\n *\n * @param templateCode - The code of the template\n *\n * @param body - The data to use when creating the template\n *\n * @param options - The options for creating the template\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#create-guild-template}\n */\n",
+              "docComment": "/**\n * Creates a new template\n *\n * @param templateCode - The code of the template\n *\n * @param body - The data for creating the template\n *\n * @param options - The options for creating the template\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild-template#create-guild-template}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -8356,7 +8593,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editMember:member(1)",
-              "docComment": "/**\n * Edits a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param body - The data to use when editing the guild member\n *\n * @param options - The options for editing the guild member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-member}\n */\n",
+              "docComment": "/**\n * Edits a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param body - The data for editing the guild member\n *\n * @param options - The options for editing the guild member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -10749,7 +10986,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#getMembers:member(1)",
-              "docComment": "/**\n * Fetches all the members of a guild\n *\n * @param guildId - The id of the guild\n *\n * @param query - The query to use when fetching the guild members\n *\n * @param options - The options for fetching the guild members\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#list-guild-members}\n */\n",
+              "docComment": "/**\n * Fetches all the members of a guild\n *\n * @param guildId - The id of the guild\n *\n * @param query - The query for fetching the guild members\n *\n * @param options - The options for fetching the guild members\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#list-guild-members}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13085,7 +13322,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#setVoiceState:member(1)",
-              "docComment": "/**\n * Sets the voice state for the current user\n *\n * @param guildId - The id of the guild\n *\n * @param body - The options to use when setting the voice state\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-current-user-voice-state}\n */\n",
+              "docComment": "/**\n * Sets the voice state for the current user\n *\n * @param guildId - The id of the guild\n *\n * @param body - The options for setting the voice state\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-current-user-voice-state}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13435,7 +13672,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#createAutocompleteResponse:member(1)",
-              "docComment": "/**\n * Sends an autocomplete response to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param callbackData - The callback data for the autocomplete response\n *\n * @param options - The options to use when sending the autocomplete response\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
+              "docComment": "/**\n * Sends an autocomplete response to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param callbackData - The callback data for the autocomplete response\n *\n * @param options - The options for sending the autocomplete response\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13552,7 +13789,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#createModal:member(1)",
-              "docComment": "/**\n * Sends a modal response to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param callbackData - The modal callback data to send\n *\n * @param options - The options to use when sending the modal\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
+              "docComment": "/**\n * Sends a modal response to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param callbackData - The modal callback data to send\n *\n * @param options - The options for sending the modal\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13669,7 +13906,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#defer:member(1)",
-              "docComment": "/**\n * Defers the reply to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data to use when deferring the reply\n *\n * @param options - The options to use when deferring\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
+              "docComment": "/**\n * Defers the reply to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param data - The data for deferring the reply\n *\n * @param options - The options for deferring\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13790,7 +14027,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#deferMessageUpdate:member(1)",
-              "docComment": "/**\n * Defers an update from a message component interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param options - The options to use when deferring\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
+              "docComment": "/**\n * Defers an update from a message component interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param options - The options for deferring\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -13890,7 +14127,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#deleteReply:member(1)",
-              "docComment": "/**\n * Deletes the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param messageId - The id of the message to delete. If omitted, the original reply will be deleted\n *\n * @param options - The options to use when deleting the reply\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#delete-original-interaction-response}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#delete-followup-message}\n */\n",
+              "docComment": "/**\n * Deletes the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param messageId - The id of the message to delete. If omitted, the original reply will be deleted\n *\n * @param options - The options for deleting the reply\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#delete-original-interaction-response}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#delete-followup-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14011,7 +14248,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#editReply:member(1)",
-              "docComment": "/**\n * Edits the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param callbackData - The callback data to use when editing the reply\n *\n * @param messageId - The id of the message to edit. If omitted, the original reply will be edited\n *\n * @param options - The options to use when editing the reply\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#edit-original-interaction-response}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#edit-followup-message}\n */\n",
+              "docComment": "/**\n * Edits the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param callbackData - The callback data for editing the reply\n *\n * @param messageId - The id of the message to edit. If omitted, the original reply will be edited\n *\n * @param options - The options for editing the reply\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#edit-original-interaction-response}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#edit-followup-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14171,7 +14408,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#followUp:member(1)",
-              "docComment": "/**\n * Reply to a deferred interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param body - The callback data to use when replying\n *\n * @param options - The options to use when replying\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-followup-message}\n */\n",
+              "docComment": "/**\n * Reply to a deferred interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param body - The callback data for replying\n *\n * @param options - The options for replying\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-followup-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14310,7 +14547,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#getOriginalReply:member(1)",
-              "docComment": "/**\n * Fetches the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param options - The options to use when fetching the reply\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#get-original-interaction-response}\n */\n",
+              "docComment": "/**\n * Fetches the initial reply to an interaction\n *\n * @param applicationId - The application id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param options - The options for fetching the reply\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#get-original-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14419,7 +14656,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#reply:member(1)",
-              "docComment": "/**\n * Replies to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param body - The callback data to use when replying\n *\n * @param options - The options to use when replying\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
+              "docComment": "/**\n * Replies to an interaction\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param body - The callback data for replying\n *\n * @param options - The options for replying\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14549,7 +14786,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InteractionsAPI#updateMessage:member(1)",
-              "docComment": "/**\n * Updates the the message the component interaction was triggered on\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param callbackData - The callback data to use when updating the interaction\n *\n * @param options - The options to use when updating the interaction\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
+              "docComment": "/**\n * Updates the the message the component interaction was triggered on\n *\n * @param interactionId - The id of the interaction\n *\n * @param interactionToken - The token of the interaction\n *\n * @param callbackData - The callback data for updating the interaction\n *\n * @param options - The options for updating the interaction\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/interactions/receiving-and-responding#create-interaction-response}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14804,7 +15041,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InvitesAPI#delete:member(1)",
-              "docComment": "/**\n * Deletes an invite\n *\n * @param code - The invite code\n *\n * @param options - The options to use when deleting the invite\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/invite#delete-invite}\n */\n",
+              "docComment": "/**\n * Deletes an invite\n *\n * @param code - The invite code\n *\n * @param options - The options for deleting the invite\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/invite#delete-invite}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -14887,7 +15124,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!InvitesAPI#get:member(1)",
-              "docComment": "/**\n * Fetches an invite\n *\n * @param code - The invite code\n *\n * @param query - The options to use when fetching the invite\n *\n * @param options - The options to use when fetching the invite\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/invite#get-invite}\n */\n",
+              "docComment": "/**\n * Fetches an invite\n *\n * @param code - The invite code\n *\n * @param query - The options for fetching the invite\n *\n * @param options - The options for fetching the invite\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/invite#get-invite}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -19100,7 +19337,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!RoleConnectionsAPI#getMetadataRecords:member(1)",
-              "docComment": "/**\n * Gets the role connection metadata records for the application\n *\n * @param applicationId - The id of the application to get role connection metadata records for\n *\n * @param options - The options to use when fetching the role connection metadata records\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application-role-connection-metadata#get-application-role-connection-metadata-records}\n */\n",
+              "docComment": "/**\n * Gets the role connection metadata records for the application\n *\n * @param applicationId - The id of the application to get role connection metadata records for\n *\n * @param options - The options for fetching the role connection metadata records\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application-role-connection-metadata#get-application-role-connection-metadata-records}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -19193,7 +19430,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!RoleConnectionsAPI#updateMetadataRecords:member(1)",
-              "docComment": "/**\n * Updates the role connection metadata records for the application\n *\n * @param applicationId - The id of the application to update role connection metadata records for\n *\n * @param body - The new role connection metadata records\n *\n * @param options - The options to use when updating the role connection metadata records\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application-role-connection-metadata#update-application-role-connection-metadata-records}\n */\n",
+              "docComment": "/**\n * Updates the role connection metadata records for the application\n *\n * @param applicationId - The id of the application to update role connection metadata records for\n *\n * @param body - The new role connection metadata records\n *\n * @param options - The options for updating the role connection metadata records\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application-role-connection-metadata#update-application-role-connection-metadata-records}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -19355,7 +19592,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!StageInstancesAPI#create:member(1)",
-              "docComment": "/**\n * Creates a new stage instance\n *\n * @param body - The data to use when creating the new stage instance\n *\n * @param options - The options for creating the new stage instance\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/stage-instance#get-stage-instance}\n */\n",
+              "docComment": "/**\n * Creates a new stage instance\n *\n * @param body - The data for creating the new stage instance\n *\n * @param options - The options for creating the new stage instance\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/stage-instance#get-stage-instance}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -19736,79 +19973,6 @@
           "implementsTokenRanges": []
         },
         {
-          "kind": "Interface",
-          "canonicalReference": "@discordjs/core!StartForumThreadOptions:interface",
-          "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "export declare interface StartForumThreadOptions extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "RESTPostAPIGuildForumThreadsJSONBody",
-              "canonicalReference": "discord-api-types!RESTPostAPIGuildForumThreadsJSONBody:type"
-            },
-            {
-              "kind": "Content",
-              "text": " "
-            }
-          ],
-          "fileUrlPath": "src/index.ts",
-          "releaseTag": "Public",
-          "name": "StartForumThreadOptions",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "PropertySignature",
-              "canonicalReference": "@discordjs/core!StartForumThreadOptions#message:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "message: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RESTPostAPIGuildForumThreadsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIGuildForumThreadsJSONBody:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "['message'] & {\n        files?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RawFile",
-                  "canonicalReference": "@discordjs/rest!RawFile:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[];\n    }"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "message",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              }
-            }
-          ],
-          "extendsTokenRanges": [
-            {
-              "startIndex": 1,
-              "endIndex": 2
-            }
-          ]
-        },
-        {
           "kind": "Class",
           "canonicalReference": "@discordjs/core!StickersAPI:class",
           "docComment": "",
@@ -19860,7 +20024,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!StickersAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a sticker\n *\n * @param stickerId - The id of the sticker\n *\n * @param options - The options to use when fetching the sticker\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#get-sticker}\n */\n",
+              "docComment": "/**\n * Fetches a sticker\n *\n * @param stickerId - The id of the sticker\n *\n * @param options - The options for fetching the sticker\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#get-sticker}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -19953,7 +20117,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!StickersAPI#getNitroStickers:member(1)",
-              "docComment": "/**\n * Fetches all of the nitro sticker packs\n *\n * @param options - The options to use when fetching the sticker packs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-nitro-sticker-packs}\n */\n",
+              "docComment": "/**\n * Fetches all of the nitro sticker packs\n *\n * @param options - The options for fetching the sticker packs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-nitro-sticker-packs}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -20081,7 +20245,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#addMember:member(1)",
-              "docComment": "/**\n * Adds a member to a thread\n *\n * @param threadId - The id of the thread to add the member to\n *\n * @param userId - The id of the user to add to the thread\n *\n * @param options - The options to use when adding the member to the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#add-thread-member}\n */\n",
+              "docComment": "/**\n * Adds a member to a thread\n *\n * @param threadId - The id of the thread to add the member to\n *\n * @param userId - The id of the user to add to the thread\n *\n * @param options - The options for adding the member to the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#add-thread-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -20181,338 +20345,8 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@discordjs/core!ThreadsAPI#create:member(1)",
-              "docComment": "/**\n * Creates a new thread\n *\n * @param channelId - The id of the channel to start the thread in\n *\n * @param body - The data to use when starting the thread\n *\n * @param messageId - The id of the message to start the thread from\n *\n * @param options - The options to use when starting the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#start-thread-from-message}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#start-thread-without-message}\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "create(channelId: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Snowflake",
-                  "canonicalReference": "discord-api-types!Snowflake:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", body: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RESTPostAPIChannelThreadsJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIChannelThreadsJSONBody:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", messageId?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Snowflake",
-                  "canonicalReference": "discord-api-types!Snowflake:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", { signal }?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Pick",
-                  "canonicalReference": "!Pick:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!RequestData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", 'signal'>"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIChannel",
-                  "canonicalReference": "discord-api-types!APIChannel:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 12,
-                "endIndex": 16
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "channelId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "body",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "messageId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 5,
-                    "endIndex": 6
-                  },
-                  "isOptional": true
-                },
-                {
-                  "parameterName": "{ signal }",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 7,
-                    "endIndex": 11
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "create"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/core!ThreadsAPI#createForumThread:member(1)",
-              "docComment": "/**\n * Creates a new forum post\n *\n * @param channelId - The id of the forum channel to start the thread in\n *\n * @param body - The data to use when starting the thread\n *\n * @param options - The options to use when starting the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#start-thread-in-forum-channel}\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "createForumThread(channelId: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Snowflake",
-                  "canonicalReference": "discord-api-types!Snowflake:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", { message, ...optionsBody }: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "StartForumThreadOptions",
-                  "canonicalReference": "@discordjs/core!StartForumThreadOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", { signal }?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Pick",
-                  "canonicalReference": "!Pick:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!RequestData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", 'signal'>"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIThreadChannel",
-                  "canonicalReference": "discord-api-types!APIThreadChannel:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 10,
-                "endIndex": 14
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "channelId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "{ message, ...optionsBody }",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "{ signal }",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 5,
-                    "endIndex": 9
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "createForumThread"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/core!ThreadsAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a thread\n *\n * @param threadId - The id of the thread\n *\n * @param options - The options to use when fetching the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-channel}\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "get(threadId: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Snowflake",
-                  "canonicalReference": "discord-api-types!Snowflake:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", { signal }?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Pick",
-                  "canonicalReference": "!Pick:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!RequestData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", 'signal'>"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIThreadChannel",
-                  "canonicalReference": "discord-api-types!APIThreadChannel:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 12
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "threadId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "{ signal }",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 7
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "get"
-            },
-            {
-              "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#getAllMembers:member(1)",
-              "docComment": "/**\n * Fetches all members of a thread\n *\n * @param threadId - The id of the thread to fetch the members from\n *\n * @param options - The options to use when fetching the members\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-thread-members}\n */\n",
+              "docComment": "/**\n * Fetches all members of a thread\n *\n * @param threadId - The id of the thread to fetch the members from\n *\n * @param options - The options for fetching the members\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#list-thread-members}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -20605,7 +20439,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#getMember:member(1)",
-              "docComment": "/**\n * Fetches a member of a thread\n *\n * @param threadId - The id of the thread to fetch the member from\n *\n * @param userId - The id of the user\n *\n * @param options - The options to use when fetching the member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-thread-member}\n */\n",
+              "docComment": "/**\n * Fetches a member of a thread\n *\n * @param threadId - The id of the thread to fetch the member from\n *\n * @param userId - The id of the user\n *\n * @param options - The options for fetching the member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#get-thread-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -20715,7 +20549,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#join:member(1)",
-              "docComment": "/**\n * Adds the current user to a thread\n *\n * @param threadId - The id of the thread to join\n *\n * @param options - The options to use when joining the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#join-thread}\n */\n",
+              "docComment": "/**\n * Adds the current user to a thread\n *\n * @param threadId - The id of the thread to join\n *\n * @param options - The options for joining the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#join-thread}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -20799,7 +20633,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#leave:member(1)",
-              "docComment": "/**\n * Removes the current user from a thread\n *\n * @param threadId - The id of the thread to leave\n *\n * @param options - The options to use when leaving the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#leave-thread}\n */\n",
+              "docComment": "/**\n * Removes the current user from a thread\n *\n * @param threadId - The id of the thread to leave\n *\n * @param options - The options for leaving the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#leave-thread}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -20883,7 +20717,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ThreadsAPI#removeMember:member(1)",
-              "docComment": "/**\n * Removes a member from a thread\n *\n * @param threadId - The id of the thread to remove the member from\n *\n * @param userId - The id of the user to remove from the thread\n *\n * @param options - The options to use when removing the member from the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#remove-thread-member}\n */\n",
+              "docComment": "/**\n * Removes a member from a thread\n *\n * @param threadId - The id of the thread to remove the member from\n *\n * @param userId - The id of the user to remove from the thread\n *\n * @param options - The options for removing the member from the thread\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/channel#remove-thread-member}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -21332,7 +21166,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a user by their id\n *\n * @param userId - The id of the user to fetch\n *\n * @param options - The options to use when fetching the user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-user}\n */\n",
+              "docComment": "/**\n * Fetches a user by their id\n *\n * @param userId - The id of the user to fetch\n *\n * @param options - The options for fetching the user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-user}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -21594,7 +21428,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#getCurrent:member(1)",
-              "docComment": "/**\n * Returns the user object of the requester's account\n *\n * @param options - The options to use when fetching the current user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-current-user}\n */\n",
+              "docComment": "/**\n * Returns the user object of the requester's account\n *\n * @param options - The options for fetching the current user\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-current-user}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -21763,7 +21597,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#getGuilds:member(1)",
-              "docComment": "/**\n * Returns a list of partial guild objects the current user is a member of\n *\n * @param query - The query options to use when fetching the current user's guilds\n *\n * @param options - The options to use when fetching the guilds\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-current-user-guilds}\n */\n",
+              "docComment": "/**\n * Returns a list of partial guild objects the current user is a member of\n *\n * @param query - The query options for fetching the current user's guilds\n *\n * @param options - The options for fetching the guilds\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#get-current-user-guilds}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -21940,7 +21774,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!UsersAPI#updateApplicationRoleConnection:member(1)",
-              "docComment": "/**\n * Updates the current user's application role connection\n *\n * @param applicationId - The id of the application\n *\n * @param body - The data to use when updating the application role connection\n *\n * @param options - The options to use when updating the application role connection\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#update-user-application-role-connection}\n */\n",
+              "docComment": "/**\n * Updates the current user's application role connection\n *\n * @param applicationId - The id of the application\n *\n * @param body - The data for updating the application role connection\n *\n * @param options - The options for updating the application role connection\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/user#update-user-application-role-connection}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -22125,7 +21959,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!VoiceAPI#getVoiceRegions:member(1)",
-              "docComment": "/**\n * Fetches all voice regions\n *\n * @param options - The options to use when fetching the voice regions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/voice#list-voice-regions}\n */\n",
+              "docComment": "/**\n * Fetches all voice regions\n *\n * @param options - The options for fetching the voice regions\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/voice#list-voice-regions}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -22252,118 +22086,8 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@discordjs/core!WebhooksAPI#create:member(1)",
-              "docComment": "/**\n * Creates a new webhook\n *\n * @param channelId - The id of the channel to create the webhook in\n *\n * @param body - The data to use when creating the webhook\n *\n * @param options - The options to use when creating the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#create-webhook}\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "create(channelId: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Snowflake",
-                  "canonicalReference": "discord-api-types!Snowflake:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", body: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RESTPostAPIChannelWebhookJSONBody",
-                  "canonicalReference": "discord-api-types!RESTPostAPIChannelWebhookJSONBody:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", { reason, signal }?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Pick",
-                  "canonicalReference": "!Pick:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RequestData",
-                  "canonicalReference": "@discordjs/rest!RequestData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", 'reason' | 'signal'>"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "APIWebhook",
-                  "canonicalReference": "discord-api-types!APIWebhook:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 10,
-                "endIndex": 14
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "channelId",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "body",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 4
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "{ reason, signal }",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 5,
-                    "endIndex": 9
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "create"
-            },
-            {
-              "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#delete:member(1)",
-              "docComment": "/**\n * Deletes a webhook\n *\n * @param id - The id of the webhook to delete\n *\n * @param options - The options to use when deleting the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook-with-token}\n */\n",
+              "docComment": "/**\n * Deletes a webhook\n *\n * @param id - The id of the webhook to delete\n *\n * @param options - The options for deleting the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook-with-token}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -22447,7 +22171,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#deleteMessage:member(1)",
-              "docComment": "/**\n * Deletes an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to delete\n *\n * @param query - The options to use when deleting the message\n *\n * @param options - The options to use when deleting the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook-message}\n */\n",
+              "docComment": "/**\n * Deletes an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to delete\n *\n * @param query - The options for deleting the message\n *\n * @param options - The options for deleting the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#delete-webhook-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -22589,7 +22313,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#edit:member(1)",
-              "docComment": "/**\n * Edits a webhook\n *\n * @param id - The id of the webhook to edit\n *\n * @param body - The new webhook data\n *\n * @param options - The options to use when editing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#modify-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#modify-webhook-with-token}\n */\n",
+              "docComment": "/**\n * Edits a webhook\n *\n * @param id - The id of the webhook to edit\n *\n * @param body - The new webhook data\n *\n * @param options - The options for editing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#modify-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#modify-webhook-with-token}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -22699,7 +22423,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#editMessage:member(1)",
-              "docComment": "/**\n * Edits an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to edit\n *\n * @param body - The data to use when editing the message\n *\n * @param options - The options to use when editing the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#edit-webhook-message}\n */\n",
+              "docComment": "/**\n * Edits an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to edit\n *\n * @param body - The data for editing the message\n *\n * @param options - The options for editing the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#edit-webhook-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -22855,7 +22579,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#execute:member(1)",
-              "docComment": "/**\n * Executes a webhook and returns the created message\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data to use when executing the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-webhook}\n */\n",
+              "docComment": "/**\n * Executes a webhook and returns the created message\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data for executing the webhook\n *\n * @param options - The options for executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -23003,7 +22727,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#execute:member(2)",
-              "docComment": "/**\n * Executes a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data to use when executing the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-webhook}\n */\n",
+              "docComment": "/**\n * Executes a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data for executing the webhook\n *\n * @param options - The options for executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -23142,7 +22866,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#executeGitHub:member(1)",
-              "docComment": "/**\n * Executes a github webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data to use when executing the webhook\n *\n * @param query - The options to use when executing the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-githubcompatible-webhook}\n */\n",
+              "docComment": "/**\n * Executes a github webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data for executing the webhook\n *\n * @param query - The options for executing the webhook\n *\n * @param options - The options for executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-githubcompatible-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -23275,7 +22999,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#executeSlack:member(1)",
-              "docComment": "/**\n * Executes a slack webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data to use when executing the webhook\n *\n * @param query - The query options to use when executing the webhook\n *\n * @param options - The options to use when executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-slackcompatible-webhook}\n */\n",
+              "docComment": "/**\n * Executes a slack webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param body - The data for executing the webhook\n *\n * @param query - The query options for executing the webhook\n *\n * @param options - The options for executing the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#execute-slackcompatible-webhook}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -23408,7 +23132,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#get:member(1)",
-              "docComment": "/**\n * Fetches a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param options - The options to use when fetching the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook-with-token}\n */\n",
+              "docComment": "/**\n * Fetches a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param options - The options for fetching the webhook\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook}\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook-with-token}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -23517,7 +23241,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!WebhooksAPI#getMessage:member(1)",
-              "docComment": "/**\n * Fetches an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to fetch\n *\n * @param query - The query options to use when fetching the message\n *\n * @param options - The options to use when fetching the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook-message}\n */\n",
+              "docComment": "/**\n * Fetches an associated message from a webhook\n *\n * @param id - The id of the webhook\n *\n * @param token - The token of the webhook\n *\n * @param messageId - The id of the message to fetch\n *\n * @param query - The query options for fetching the message\n *\n * @param options - The options for fetching the message\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/webhook#get-webhook-message}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",

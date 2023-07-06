@@ -6451,7 +6451,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/builders!SharedNameAndDescription#setNameLocalization:member(1)",
-              "docComment": "/**\n * SSets a name localization for this command.\n *\n * @param locale - The locale to set\n *\n * @param localizedName - The localized name for the given `locale`\n */\n",
+              "docComment": "/**\n * Sets a name localization for this command.\n *\n * @param locale - The locale to set\n *\n * @param localizedName - The localized name for the given `locale`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
