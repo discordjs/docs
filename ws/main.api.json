@@ -841,7 +841,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/ws!IContextFetchingStrategy#waitForIdentify:member(1)",
-              "docComment": "/**\n * Resolves once the given shard should be allowed to identify, or rejects if the operation was aborted\n */\n",
+              "docComment": "/**\n * Resolves once the given shard should be allowed to identify This should correctly handle the signal and reject with an abort error if the operation is aborted. Other errors will cause the shard to reconnect.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
