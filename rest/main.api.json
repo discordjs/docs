@@ -904,6 +904,100 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/rest!CDN#avatarDecoration:member(1)",
+              "docComment": "/**\n * Generates a user avatar decoration URL.\n *\n * @param userId - The id of the user\n *\n * @param userAvatarDecoration - The hash provided by Discord for this avatar decoration\n *\n * @param options - Optional options for the avatar decoration\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "avatarDecoration(userId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", userAvatarDecoration: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", options?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Readonly",
+                  "canonicalReference": "!Readonly:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "BaseImageURLOptions",
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 10,
+                "endIndex": 11
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "userId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "userAvatarDecoration",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 9
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "avatarDecoration"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/rest!CDN#banner:member(1)",
               "docComment": "/**\n * Generates a banner URL, e.g. for a user or a guild.\n *\n * @param id - The id that has the banner splash\n *\n * @param bannerHash - The hash provided by Discord for this banner\n *\n * @param options - Optional options for the banner\n */\n",
               "excerptTokens": [
