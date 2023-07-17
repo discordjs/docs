@@ -23945,6 +23945,15 @@
             },
             {
               "kind": "Reference",
+              "text": "Uint8Array",
+              "canonicalReference": "!Uint8Array:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
               "text": "Buffer",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
@@ -23960,7 +23969,7 @@
           "fileUrlPath": "src/index.ts",
           "returnTypeTokenRange": {
             "startIndex": 6,
-            "endIndex": 19
+            "endIndex": 21
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
