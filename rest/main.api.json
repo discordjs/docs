@@ -4972,568 +4972,6 @@
           "extendsTokenRanges": []
         },
         {
-          "kind": "Class",
-          "canonicalReference": "@discordjs/rest!RequestManager:class",
-          "docComment": "/**\n * Represents the class that manages handlers for endpoints\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "export declare class RequestManager extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "AsyncEventEmitter",
-              "canonicalReference": "@vladfrangu/async_event_emitter!AsyncEventEmitter:class"
-            },
-            {
-              "kind": "Content",
-              "text": "<"
-            },
-            {
-              "kind": "Reference",
-              "text": "RestEventsMap",
-              "canonicalReference": "@discordjs/rest!RestEventsMap:type"
-            },
-            {
-              "kind": "Content",
-              "text": ">"
-            },
-            {
-              "kind": "Content",
-              "text": " "
-            }
-          ],
-          "fileUrlPath": "src/index.ts",
-          "releaseTag": "Public",
-          "isAbstract": false,
-          "name": "RequestManager",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Constructor",
-              "canonicalReference": "@discordjs/rest!RequestManager:constructor(1)",
-              "docComment": "/**\n * Constructs a new instance of the `RequestManager` class\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "constructor(options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Partial",
-                  "canonicalReference": "!Partial:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RESTOptions",
-                  "canonicalReference": "@discordjs/rest!RESTOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ");"
-                }
-              ],
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 5
-                  },
-                  "isOptional": false
-                }
-              ]
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/rest!RequestManager#agent:member",
-              "docComment": "/**\n * The {@link https://undici.nodejs.org/#/docs/api/Agent | Agent} for all requests performed by this manager.\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "agent: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Dispatcher",
-                  "canonicalReference": "undici!Dispatcher:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "agent",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/rest!RequestManager#clearHandlerSweeper:member(1)",
-              "docComment": "/**\n * Stops the request handler sweeping interval\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "clearHandlerSweeper(): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "clearHandlerSweeper"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/rest!RequestManager#clearHashSweeper:member(1)",
-              "docComment": "/**\n * Stops the hash sweeping interval\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "clearHashSweeper(): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "clearHashSweeper"
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/rest!RequestManager#globalDelay:member",
-              "docComment": "/**\n * The promise used to wait out the global rate limit\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "globalDelay: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<void> | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "globalDelay",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/rest!RequestManager#globalRemaining:member",
-              "docComment": "/**\n * The number of requests remaining in the global bucket\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "globalRemaining: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "globalRemaining",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/rest!RequestManager#globalReset:member",
-              "docComment": "/**\n * The timestamp at which the global bucket resets\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "globalReset: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "globalReset",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/rest!RequestManager#handlers:member",
-              "docComment": "/**\n * Request handlers created from the bucket hash and the major parameters\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly handlers: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string, "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "IHandler",
-                  "canonicalReference": "@discordjs/rest!~IHandler:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "handlers",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/rest!RequestManager#hashes:member",
-              "docComment": "/**\n * API bucket hashes that are cached from provided routes\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly hashes: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<string, "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "HashData",
-                  "canonicalReference": "@discordjs/rest!HashData:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "hashes",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/rest!RequestManager#options:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly options: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RESTOptions",
-                  "canonicalReference": "@discordjs/rest!RESTOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "options",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/rest!RequestManager#queueRequest:member(1)",
-              "docComment": "/**\n * Queues a request to be sent\n *\n * @param request - All the information needed to make a request\n *\n * @returns The response from the api request\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "queueRequest(request: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "InternalRequest",
-                  "canonicalReference": "@discordjs/rest!InternalRequest:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ResponseLike",
-                  "canonicalReference": "@discordjs/rest!ResponseLike:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 7
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "request",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "queueRequest"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/rest!RequestManager#setAgent:member(1)",
-              "docComment": "/**\n * Sets the default agent to use for requests performed by this manager\n *\n * @param agent - The agent to use\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setAgent(agent: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Dispatcher",
-                  "canonicalReference": "undici!Dispatcher:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "agent",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "setAgent"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/rest!RequestManager#setToken:member(1)",
-              "docComment": "/**\n * Sets the authorization token that should be used for requests\n *\n * @param token - The authorization token to use\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setToken(token: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "this"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "token",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "setToken"
-            }
-          ],
-          "extendsTokenRange": {
-            "startIndex": 1,
-            "endIndex": 5
-          },
-          "implementsTokenRanges": []
-        },
-        {
           "kind": "Enum",
           "canonicalReference": "@discordjs/rest!RequestMethod:enum",
           "docComment": "/**\n * Possible API methods to be used when doing requests\n */\n",
@@ -5744,7 +5182,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/rest!REST:class",
-          "docComment": "",
+          "docComment": "/**\n * Represents the class that manages handlers for endpoints\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -5827,6 +5265,41 @@
             },
             {
               "kind": "Property",
+              "canonicalReference": "@discordjs/rest!REST#agent:member",
+              "docComment": "/**\n * The {@link https://undici.nodejs.org/#/docs/api/Agent | Agent} for all requests performed by this manager.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "agent: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Dispatcher",
+                  "canonicalReference": "undici!Dispatcher:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "agent",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "@discordjs/rest!REST#cdn:member",
               "docComment": "",
               "excerptTokens": [
@@ -5855,6 +5328,68 @@
               "isStatic": false,
               "isProtected": false,
               "isAbstract": false
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/rest!REST#clearHandlerSweeper:member(1)",
+              "docComment": "/**\n * Stops the request handler sweeping interval\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "clearHandlerSweeper(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "clearHandlerSweeper"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/rest!REST#clearHashSweeper:member(1)",
+              "docComment": "/**\n * Stops the hash sweeping interval\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "clearHashSweeper(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "clearHashSweeper"
             },
             {
               "kind": "Method",
@@ -5999,40 +5534,218 @@
               "name": "get"
             },
             {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/rest!REST#getAgent:member(1)",
-              "docComment": "/**\n * Gets the agent set for this instance\n */\n",
+              "kind": "Property",
+              "canonicalReference": "@discordjs/rest!REST#globalDelay:member",
+              "docComment": "/**\n * The promise used to wait out the global rate limit\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "getAgent(): "
+                  "text": "globalDelay: "
                 },
                 {
                   "kind": "Reference",
-                  "text": "Dispatcher",
-                  "canonicalReference": "undici!Dispatcher:class"
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": "<void> | null"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "globalDelay",
+              "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 3
               },
-              "releaseTag": "Public",
+              "isStatic": false,
               "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [],
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/rest!REST#globalRemaining:member",
+              "docComment": "/**\n * The number of requests remaining in the global bucket\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "globalRemaining: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
               "isOptional": false,
-              "isAbstract": false,
-              "name": "getAgent"
+              "releaseTag": "Public",
+              "name": "globalRemaining",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/rest!REST#globalReset:member",
+              "docComment": "/**\n * The timestamp at which the global bucket resets\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "globalReset: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "globalReset",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/rest!REST#handlers:member",
+              "docComment": "/**\n * Request handlers created from the bucket hash and the major parameters\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly handlers: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IHandler",
+                  "canonicalReference": "@discordjs/rest!~IHandler:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "handlers",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/rest!REST#hashes:member",
+              "docComment": "/**\n * API bucket hashes that are cached from provided routes\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly hashes: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<string, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "HashData",
+                  "canonicalReference": "@discordjs/rest!HashData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "hashes",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/rest!REST#options:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTOptions",
+                  "canonicalReference": "@discordjs/rest!RESTOptions:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "options",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
             },
             {
               "kind": "Method",
@@ -6249,12 +5962,12 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@discordjs/rest!REST#raw:member(1)",
-              "docComment": "/**\n * Runs a request from the API, yielding the raw Response object\n *\n * @param options - Request options\n */\n",
+              "canonicalReference": "@discordjs/rest!REST#queueRequest:member(1)",
+              "docComment": "/**\n * Queues a request to be sent\n *\n * @param request - All the information needed to make a request\n *\n * @returns The response from the api request\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "raw(options: "
+                  "text": "queueRequest(request: "
                 },
                 {
                   "kind": "Reference",
@@ -6298,7 +6011,7 @@
               "overloadIndex": 1,
               "parameters": [
                 {
-                  "parameterName": "options",
+                  "parameterName": "request",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
                     "endIndex": 2
@@ -6308,7 +6021,7 @@
               ],
               "isOptional": false,
               "isAbstract": false,
-              "name": "raw"
+              "name": "queueRequest"
             },
             {
               "kind": "Method",
@@ -6365,40 +6078,9 @@
               "name": "request"
             },
             {
-              "kind": "Property",
-              "canonicalReference": "@discordjs/rest!REST#requestManager:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "readonly requestManager: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "RequestManager",
-                  "canonicalReference": "@discordjs/rest!RequestManager:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "requestManager",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false,
-              "isAbstract": false
-            },
-            {
               "kind": "Method",
               "canonicalReference": "@discordjs/rest!REST#setAgent:member(1)",
-              "docComment": "/**\n * Sets the default agent to use for requests performed by this instance\n *\n * @param agent - Sets the agent to use\n */\n",
+              "docComment": "/**\n * Sets the default agent to use for requests performed by this manager\n *\n * @param agent - The agent to use\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -7236,7 +6918,7 @@
             {
               "kind": "MethodSignature",
               "canonicalReference": "@discordjs/rest!RESTOptions#makeRequest:member(1)",
-              "docComment": "/**\n * The method called to perform the actual HTTP request given a url and web `fetch` options For example, to use global fetch, simply provide `makeRequest: fetch`\n *\n * @defaultValue\n *\n * `undici.request`\n */\n",
+              "docComment": "/**\n * The method called to perform the actual HTTP request given a url and web `fetch` options For example, to use global fetch, simply provide `makeRequest: fetch`\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
