@@ -1,0 +1,4140 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.36.4",
+    "schemaVersion": 1011,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      },
+      "reportUnsupportedHtmlElements": false
+    }
+  },
+  "projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/formatters",
+  "kind": "Package",
+  "canonicalReference": "@discordjs/formatters!",
+  "docComment": "",
+  "name": "@discordjs/formatters",
+  "preserveMemberOrder": false,
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@discordjs/formatters!",
+      "name": "",
+      "preserveMemberOrder": false,
+      "members": [
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!blockQuote:function(1)",
+          "docComment": "/**\n * Formats the content into a block quote.\n *\n * @remarks\n *\n * This needs to be at the start of the line for Discord to format it.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function blockQuote<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`>>> ${C}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "blockQuote"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!bold:function(1)",
+          "docComment": "/**\n * Formats the content into bold text.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function bold<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`**${C}**`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "bold"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!channelLink:function(1)",
+          "docComment": "/**\n * Formats a channel link for a direct message channel.\n *\n * @param channelId - The channel's id\n *\n * @typeParam C - This is inferred by the supplied channel id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function channelLink<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(channelId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`https://discord.com/channels/@me/${C}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "channelId",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "channelLink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!channelLink:function(2)",
+          "docComment": "/**\n * Formats a channel link for a guild channel.\n *\n * @param channelId - The channel's id\n *\n * @param guildId - The guild's id\n *\n * @typeParam C - This is inferred by the supplied channel id\n *\n * @typeParam G - This is inferred by the supplied guild id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function channelLink<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", G extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(channelId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", guildId: "
+            },
+            {
+              "kind": "Content",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`https://discord.com/channels/${G}/${C}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 9,
+            "endIndex": 10
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "channelId",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "guildId",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "G",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "channelLink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!channelMention:function(1)",
+          "docComment": "/**\n * Formats a channel id into a channel mention.\n *\n * @param channelId - The channel id to format\n *\n * @typeParam C - This is inferred by the supplied channel id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function channelMention<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(channelId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<#${C}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "channelId",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "channelMention"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention:function(1)",
+          "docComment": "/**\n * Formats an application command name, subcommand group name, subcommand name, and id into an application command mention.\n *\n * @param commandName - The application command name to format\n *\n * @param subcommandGroupName - The subcommand group name to format\n *\n * @param subcommandName - The subcommand name to format\n *\n * @param commandId - The application command id to format\n *\n * @typeParam N - This is inferred by the supplied command name\n *\n * @typeParam G - This is inferred by the supplied subcommand group name\n *\n * @typeParam S - This is inferred by the supplied subcommand name\n *\n * @typeParam I - This is inferred by the supplied command id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function chatInputApplicationCommandMention<N extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", G extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", S extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", I extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(commandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": ", subcommandGroupName: "
+            },
+            {
+              "kind": "Content",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": ", subcommandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": ", commandId: "
+            },
+            {
+              "kind": "Content",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`</${N} ${G} ${S}:${I}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 17,
+            "endIndex": 18
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "commandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "subcommandGroupName",
+              "parameterTypeTokenRange": {
+                "startIndex": 11,
+                "endIndex": 12
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "subcommandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 13,
+                "endIndex": 14
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "commandId",
+              "parameterTypeTokenRange": {
+                "startIndex": 15,
+                "endIndex": 16
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "N",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "G",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "S",
+              "constraintTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "I",
+              "constraintTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "chatInputApplicationCommandMention"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention:function(2)",
+          "docComment": "/**\n * Formats an application command name, subcommand name, and id into an application command mention.\n *\n * @param commandName - The application command name to format\n *\n * @param subcommandName - The subcommand name to format\n *\n * @param commandId - The application command id to format\n *\n * @typeParam N - This is inferred by the supplied command name\n *\n * @typeParam S - This is inferred by the supplied subcommand name\n *\n * @typeParam I - This is inferred by the supplied command id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function chatInputApplicationCommandMention<N extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", S extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", I extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(commandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": ", subcommandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": ", commandId: "
+            },
+            {
+              "kind": "Content",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`</${N} ${S}:${I}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 13,
+            "endIndex": 14
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "commandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "subcommandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "commandId",
+              "parameterTypeTokenRange": {
+                "startIndex": 11,
+                "endIndex": 12
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "N",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "S",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "I",
+              "constraintTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "chatInputApplicationCommandMention"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention:function(3)",
+          "docComment": "/**\n * Formats an application command name and id into an application command mention.\n *\n * @param commandName - The application command name to format\n *\n * @param commandId - The application command id to format\n *\n * @typeParam N - This is inferred by the supplied command name\n *\n * @typeParam I - This is inferred by the supplied command id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function chatInputApplicationCommandMention<N extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", I extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(commandName: "
+            },
+            {
+              "kind": "Content",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": ", commandId: "
+            },
+            {
+              "kind": "Content",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`</${N}:${I}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 9,
+            "endIndex": 10
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 3,
+          "parameters": [
+            {
+              "parameterName": "commandName",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "commandId",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "N",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "I",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "chatInputApplicationCommandMention"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!codeBlock:function(1)",
+          "docComment": "/**\n * Wraps the content inside a code block with no language.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function codeBlock<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`\\`\\`\\`\\n${C}\\n\\`\\`\\``"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "codeBlock"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!codeBlock:function(2)",
+          "docComment": "/**\n * Wraps the content inside a code block with the specified language.\n *\n * @param language - The language for the code block\n *\n * @param content - The content to wrap\n *\n * @typeParam L - This is inferred by the supplied language\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function codeBlock<L extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(language: "
+            },
+            {
+              "kind": "Content",
+              "text": "L"
+            },
+            {
+              "kind": "Content",
+              "text": ", content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`\\`\\`\\`${L}\\n${C}\\n\\`\\`\\``"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 9,
+            "endIndex": 10
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "language",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "L",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "codeBlock"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeBold:function(1)",
+          "docComment": "/**\n * Escapes bold markdown in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeBold(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeBold"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeBulletedList:function(1)",
+          "docComment": "/**\n * Escapes bulleted list characters in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeBulletedList(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeBulletedList"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeCodeBlock:function(1)",
+          "docComment": "/**\n * Escapes code block markdown in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeCodeBlock(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeCodeBlock"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeEscape:function(1)",
+          "docComment": "/**\n * Escapes escape characters in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeEscape(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeEscape"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeHeading:function(1)",
+          "docComment": "/**\n * Escapes heading characters in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeHeading(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeHeading"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeInlineCode:function(1)",
+          "docComment": "/**\n * Escapes inline code markdown in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeInlineCode(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeInlineCode"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeItalic:function(1)",
+          "docComment": "/**\n * Escapes italic markdown in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeItalic(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeItalic"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeMarkdown:function(1)",
+          "docComment": "/**\n * Escapes any Discord-flavored markdown in a string.\n *\n * @param text - Content to escape\n *\n * @param options - Options for escaping the markdown\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeMarkdown(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", options?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "EscapeMarkdownOptions",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "options",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": true
+            }
+          ],
+          "name": "escapeMarkdown"
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions:interface",
+          "docComment": "/**\n * The options that affect what will be escaped.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare interface EscapeMarkdownOptions "
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "EscapeMarkdownOptions",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#bold:member",
+              "docComment": "/**\n * Whether to escape bold text.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "bold?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "bold",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#bulletedList:member",
+              "docComment": "/**\n * Whether to escape bulleted lists.\n *\n * @defaultValue\n *\n * `false`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "bulletedList?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "bulletedList",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#codeBlock:member",
+              "docComment": "/**\n * Whether to escape code blocks.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "codeBlock?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "codeBlock",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#codeBlockContent:member",
+              "docComment": "/**\n * Whether to escape text inside code blocks.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "codeBlockContent?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "codeBlockContent",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#escape:member",
+              "docComment": "/**\n * Whether to escape `\\`.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "escape?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "escape",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#heading:member",
+              "docComment": "/**\n * Whether to escape headings.\n *\n * @defaultValue\n *\n * `false`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "heading?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "heading",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#inlineCode:member",
+              "docComment": "/**\n * Whether to escape inline code.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "inlineCode?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "inlineCode",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#inlineCodeContent:member",
+              "docComment": "/**\n * Whether to escape text inside inline code.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "inlineCodeContent?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "inlineCodeContent",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#italic:member",
+              "docComment": "/**\n * Whether to escape italics.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "italic?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "italic",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#maskedLink:member",
+              "docComment": "/**\n * Whether to escape masked links.\n *\n * @defaultValue\n *\n * `false`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "maskedLink?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "maskedLink",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#numberedList:member",
+              "docComment": "/**\n * Whether to escape numbered lists.\n *\n * @defaultValue\n *\n * `false`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "numberedList?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "numberedList",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#spoiler:member",
+              "docComment": "/**\n * Whether to escape spoilers.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "spoiler?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "spoiler",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#strikethrough:member",
+              "docComment": "/**\n * Whether to escape strikethroughs.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "strikethrough?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "strikethrough",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#underline:member",
+              "docComment": "/**\n * Whether to escape underlines.\n *\n * @defaultValue\n *\n * `true`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "underline?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "underline",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeMaskedLink:function(1)",
+          "docComment": "/**\n * Escapes masked link characters in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeMaskedLink(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeMaskedLink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeNumberedList:function(1)",
+          "docComment": "/**\n * Escapes numbered list characters in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeNumberedList(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeNumberedList"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeSpoiler:function(1)",
+          "docComment": "/**\n * Escapes spoiler markdown in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeSpoiler(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeSpoiler"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeStrikethrough:function(1)",
+          "docComment": "/**\n * Escapes strikethrough markdown in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeStrikethrough(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeStrikethrough"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!escapeUnderline:function(1)",
+          "docComment": "/**\n * Escapes underline markdown in a string.\n *\n * @param text - Content to escape\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function escapeUnderline(text: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "text",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "escapeUnderline"
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@discordjs/formatters!Faces:enum",
+          "docComment": "/**\n * All the available faces from Discord's native slash commands.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum Faces "
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "Faces",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!Faces.Shrug:member",
+              "docComment": "/**\n * `¯\\_(ツ)_/¯`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Shrug = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"\\u00AF_(\\u30C4)_/\\u00AF\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Shrug"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!Faces.Tableflip:member",
+              "docComment": "/**\n * `(╯°□°)╯︵ ┻━┻`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Tableflip = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"(\\u256F\\u00B0\\u25A1\\u00B0)\\u256F\\uFE35 \\u253B\\u2501\\u253B\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Tableflip"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!Faces.Unflip:member",
+              "docComment": "/**\n * `┬─┬ノ( º _ ºノ)`\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Unflip = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"\\u252C\\u2500\\u252C\\u30CE( \\u00BA _ \\u00BA\\u30CE)\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Unflip"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!formatEmoji:function(1)",
+          "docComment": "/**\n * Formats a non-animated emoji id into a fully qualified emoji identifier.\n *\n * @param emojiId - The emoji id to format\n *\n * @typeParam C - This is inferred by the supplied emoji id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function formatEmoji<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(emojiId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", animated?: "
+            },
+            {
+              "kind": "Content",
+              "text": "false"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<:_:${C}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "emojiId",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "animated",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": true
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "formatEmoji"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!formatEmoji:function(2)",
+          "docComment": "/**\n * Formats an animated emoji id into a fully qualified emoji identifier.\n *\n * @param emojiId - The emoji id to format\n *\n * @param animated - Whether the emoji is animated\n *\n * @typeParam C - This is inferred by the supplied emoji id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function formatEmoji<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(emojiId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", animated?: "
+            },
+            {
+              "kind": "Content",
+              "text": "true"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<a:_:${C}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "emojiId",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "animated",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": true
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "formatEmoji"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!formatEmoji:function(3)",
+          "docComment": "/**\n * Formats an emoji id into a fully qualified emoji identifier.\n *\n * @param emojiId - The emoji id to format\n *\n * @param animated - Whether the emoji is animated\n *\n * @typeParam C - This is inferred by the supplied emoji id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function formatEmoji<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(emojiId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", animated?: "
+            },
+            {
+              "kind": "Content",
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<:_:${C}>` | `<a:_:${C}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 3,
+          "parameters": [
+            {
+              "parameterName": "emojiId",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "animated",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": true
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "formatEmoji"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!hideLinkEmbed:function(1)",
+          "docComment": "/**\n * Wraps the URL into `<>` which stops it from embedding.\n *\n * @param url - The URL to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function hideLinkEmbed<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(url: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<${C}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "url",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "hideLinkEmbed"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!hideLinkEmbed:function(2)",
+          "docComment": "/**\n * Wraps the URL into `<>` which stops it from embedding.\n *\n * @param url - The URL to wrap\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function hideLinkEmbed(url: "
+            },
+            {
+              "kind": "Reference",
+              "text": "URL_2",
+              "canonicalReference": "!\"\\\"url\\\"\".URL:class"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<${string}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "url",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "hideLinkEmbed"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!hyperlink:function(1)",
+          "docComment": "/**\n * Formats the content and the URL into a masked URL.\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function hyperlink<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", url: "
+            },
+            {
+              "kind": "Reference",
+              "text": "URL_2",
+              "canonicalReference": "!\"\\\"url\\\"\".URL:class"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`[${C}](${string})`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "url",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "hyperlink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!hyperlink:function(2)",
+          "docComment": "/**\n * Formats the content and the URL into a masked URL.\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @typeParam C - This is inferred by the supplied content\n *\n * @typeParam U - This is inferred by the supplied URL\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function hyperlink<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", U extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", url: "
+            },
+            {
+              "kind": "Content",
+              "text": "U"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`[${C}](${U})`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 9,
+            "endIndex": 10
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "url",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "U",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "hyperlink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!hyperlink:function(3)",
+          "docComment": "/**\n * Formats the content and the URL into a masked URL with a custom tooltip.\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @param title - The title shown when hovering on the masked link\n *\n * @typeParam C - This is inferred by the supplied content\n *\n * @typeParam T - This is inferred by the supplied title\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function hyperlink<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", T extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", url: "
+            },
+            {
+              "kind": "Reference",
+              "text": "URL_2",
+              "canonicalReference": "!\"\\\"url\\\"\".URL:class"
+            },
+            {
+              "kind": "Content",
+              "text": ", title: "
+            },
+            {
+              "kind": "Content",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`[${C}](${string} \"${T}\")`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 11,
+            "endIndex": 12
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 3,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "url",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "title",
+              "parameterTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "T",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "hyperlink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!hyperlink:function(4)",
+          "docComment": "/**\n * Formats the content and the URL into a masked URL with a custom tooltip.\n *\n * @param content - The content to display\n *\n * @param url - The URL the content links to\n *\n * @param title - The title shown when hovering on the masked link\n *\n * @typeParam C - This is inferred by the supplied content\n *\n * @typeParam U - This is inferred by the supplied URL\n *\n * @typeParam T - This is inferred by the supplied title\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function hyperlink<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", U extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", T extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", url: "
+            },
+            {
+              "kind": "Content",
+              "text": "U"
+            },
+            {
+              "kind": "Content",
+              "text": ", title: "
+            },
+            {
+              "kind": "Content",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`[${C}](${U} \"${T}\")`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 13,
+            "endIndex": 14
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 4,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "url",
+              "parameterTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "title",
+              "parameterTypeTokenRange": {
+                "startIndex": 11,
+                "endIndex": 12
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "U",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "T",
+              "constraintTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "hyperlink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!inlineCode:function(1)",
+          "docComment": "/**\n * Wraps the content inside \\`backticks\\` which formats it as inline code.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function inlineCode<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`\\`${C}\\``"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "inlineCode"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!italic:function(1)",
+          "docComment": "/**\n * Formats the content into italic text.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function italic<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`_${C}_`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "italic"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!messageLink:function(1)",
+          "docComment": "/**\n * Formats a message link for a direct message channel.\n *\n * @param channelId - The channel's id\n *\n * @param messageId - The message's id\n *\n * @typeParam C - This is inferred by the supplied channel id\n *\n * @typeParam M - This is inferred by the supplied message id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function messageLink<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", M extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(channelId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", messageId: "
+            },
+            {
+              "kind": "Content",
+              "text": "M"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`https://discord.com/channels/@me/${C}/${M}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 9,
+            "endIndex": 10
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "channelId",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "messageId",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "M",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "messageLink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!messageLink:function(2)",
+          "docComment": "/**\n * Formats a message link for a guild channel.\n *\n * @param channelId - The channel's id\n *\n * @param messageId - The message's id\n *\n * @param guildId - The guild's id\n *\n * @typeParam C - This is inferred by the supplied channel id\n *\n * @typeParam M - This is inferred by the supplied message id\n *\n * @typeParam G - This is inferred by the supplied guild id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function messageLink<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", M extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ", G extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(channelId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", messageId: "
+            },
+            {
+              "kind": "Content",
+              "text": "M"
+            },
+            {
+              "kind": "Content",
+              "text": ", guildId: "
+            },
+            {
+              "kind": "Content",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`https://discord.com/channels/${G}/${C}/${M}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 13,
+            "endIndex": 14
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "channelId",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "messageId",
+              "parameterTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "guildId",
+              "parameterTypeTokenRange": {
+                "startIndex": 11,
+                "endIndex": 12
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "M",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "G",
+              "constraintTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "messageLink"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!quote:function(1)",
+          "docComment": "/**\n * Formats the content into a quote.\n *\n * @remarks\n *\n * This needs to be at the start of the line for Discord to format it.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function quote<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`> ${C}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "quote"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!roleMention:function(1)",
+          "docComment": "/**\n * Formats a role id into a role mention.\n *\n * @param roleId - The role id to format\n *\n * @typeParam C - This is inferred by the supplied role id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function roleMention<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(roleId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<@&${C}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "roleId",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "roleMention"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!spoiler:function(1)",
+          "docComment": "/**\n * Formats the content into a spoiler.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function spoiler<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`||${C}||`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "spoiler"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!strikethrough:function(1)",
+          "docComment": "/**\n * Formats the content into strike-through text.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function strikethrough<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`~~${C}~~`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "strikethrough"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!time:function(1)",
+          "docComment": "/**\n * Formats a date into a short date-time string.\n *\n * @param date - The date to format. Defaults to the current time\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function time(date?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Date",
+              "canonicalReference": "!Date:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<t:${bigint}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "date",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": true
+            }
+          ],
+          "name": "time"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!time:function(2)",
+          "docComment": "/**\n * Formats a date given a format style.\n *\n * @param date - The date to format\n *\n * @param style - The style to use\n *\n * @typeParam S - This is inferred by the supplied {@link TimestampStylesString}\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function time<S extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "TimestampStylesString",
+              "canonicalReference": "@discordjs/formatters!TimestampStylesString:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(date: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Date",
+              "canonicalReference": "!Date:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ", style: "
+            },
+            {
+              "kind": "Content",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<t:${bigint}:${S}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "date",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "style",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "S",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "time"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!time:function(3)",
+          "docComment": "/**\n * Formats the given timestamp into a short date-time string.\n *\n * @param seconds - A Unix timestamp in seconds\n *\n * @typeParam C - This is inferred by the supplied timestamp\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function time<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ">(seconds: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<t:${C}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 3,
+          "parameters": [
+            {
+              "parameterName": "seconds",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "time"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!time:function(4)",
+          "docComment": "/**\n * Formats the given timestamp into a short date-time string.\n *\n * @param seconds - A Unix timestamp in seconds\n *\n * @param style - The style to use\n *\n * @typeParam C - This is inferred by the supplied timestamp\n *\n * @typeParam S - This is inferred by the supplied {@link TimestampStylesString}\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function time<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ", S extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "TimestampStylesString",
+              "canonicalReference": "@discordjs/formatters!TimestampStylesString:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(seconds: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", style: "
+            },
+            {
+              "kind": "Content",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<t:${C}:${S}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 9,
+            "endIndex": 10
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 4,
+          "parameters": [
+            {
+              "parameterName": "seconds",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "style",
+              "parameterTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "S",
+              "constraintTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "time"
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/formatters!TimestampStyles:var",
+          "docComment": "/**\n * The {@link https://discord.com/developers/docs/reference#message-formatting-timestamp-styles | message formatting timestamp styles} supported by Discord.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "TimestampStyles: "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    readonly ShortTime: \"t\";\n    readonly LongTime: \"T\";\n    readonly ShortDate: \"d\";\n    readonly LongDate: \"D\";\n    readonly ShortDateTime: \"f\";\n    readonly LongDateTime: \"F\";\n    readonly RelativeTime: \"R\";\n}"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "TimestampStyles",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@discordjs/formatters!TimestampStylesString:type",
+          "docComment": "/**\n * The possible {@link TimestampStyles} values.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type TimestampStylesString = "
+            },
+            {
+              "kind": "Content",
+              "text": "(typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "TimestampStyles",
+              "canonicalReference": "@discordjs/formatters!TimestampStyles:var"
+            },
+            {
+              "kind": "Content",
+              "text": ")[keyof typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "TimestampStyles",
+              "canonicalReference": "@discordjs/formatters!TimestampStyles:var"
+            },
+            {
+              "kind": "Content",
+              "text": "]"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "TimestampStylesString",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 6
+          }
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!underscore:function(1)",
+          "docComment": "/**\n * Formats the content into underscored text.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function underscore<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`__${C}__`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "underscore"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!userMention:function(1)",
+          "docComment": "/**\n * Formats a user id into a user mention.\n *\n * @param userId - The user id to format\n *\n * @typeParam C - This is inferred by the supplied user id\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function userMention<C extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">(userId: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`<@${C}>`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "userId",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "userMention"
+        }
+      ]
+    }
+  ]
+}
