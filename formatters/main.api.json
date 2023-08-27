@@ -2448,6 +2448,415 @@
           "name": "formatEmoji"
         },
         {
+          "kind": "Enum",
+          "canonicalReference": "@discordjs/formatters!GuildNavigationMentions:enum",
+          "docComment": "/**\n * All the available guild navigation mentions.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum GuildNavigationMentions "
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "GuildNavigationMentions",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!GuildNavigationMentions.Browse:member",
+              "docComment": "/**\n * _Browse Channels_ tab.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Browse = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"<id:browse>\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Browse"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!GuildNavigationMentions.Customize:member",
+              "docComment": "/**\n * _Customize_ tab with the server's {@link https://discord.com/developers/docs/resources/guild#guild-onboarding-object | onboarding prompts}.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Customize = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"<id:customize>\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Customize"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!GuildNavigationMentions.Guide:member",
+              "docComment": "/**\n * {@link https://support.discord.com/hc/articles/13497665141655 | Server Guide} tab.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Guide = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"<id:guide>\""
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Guide"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!heading:function(1)",
+          "docComment": "/**\n * Formats the content into a heading level.\n *\n * @param content - The content to wrap\n *\n * @param level - The heading level\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function heading<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", level?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "HeadingLevel.One",
+              "canonicalReference": "@discordjs/formatters!HeadingLevel.One:member"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`# ${C}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "level",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": true
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "heading"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!heading:function(2)",
+          "docComment": "/**\n * Formats the content into a heading level.\n *\n * @param content - The content to wrap\n *\n * @param level - The heading level\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function heading<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", level: "
+            },
+            {
+              "kind": "Reference",
+              "text": "HeadingLevel.Two",
+              "canonicalReference": "@discordjs/formatters!HeadingLevel.Two:member"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`## ${C}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "level",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "heading"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!heading:function(3)",
+          "docComment": "/**\n * Formats the content into a heading level.\n *\n * @param content - The content to wrap\n *\n * @param level - The heading level\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function heading<C extends "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">(content: "
+            },
+            {
+              "kind": "Content",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", level: "
+            },
+            {
+              "kind": "Reference",
+              "text": "HeadingLevel.Three",
+              "canonicalReference": "@discordjs/formatters!HeadingLevel.Three:member"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "`### ${C}`"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 7,
+            "endIndex": 8
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 3,
+          "parameters": [
+            {
+              "parameterName": "content",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "level",
+              "parameterTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "isOptional": false
+            }
+          ],
+          "typeParameters": [
+            {
+              "typeParameterName": "C",
+              "constraintTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "name": "heading"
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@discordjs/formatters!HeadingLevel:enum",
+          "docComment": "/**\n * The heading levels for expanded markdown.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum HeadingLevel "
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "HeadingLevel",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!HeadingLevel.One:member",
+              "docComment": "/**\n * The first heading level.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "One = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "1"
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "One"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!HeadingLevel.Three:member",
+              "docComment": "/**\n * The third heading level.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Three = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "3"
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Three"
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@discordjs/formatters!HeadingLevel.Two:member",
+              "docComment": "/**\n * The second heading level.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Two = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "2"
+                }
+              ],
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "name": "Two"
+            }
+          ]
+        },
+        {
           "kind": "Function",
           "canonicalReference": "@discordjs/formatters!hideLinkEmbed:function(1)",
           "docComment": "/**\n * Wraps the URL into `<>` which stops it from embedding.\n *\n * @param url - The URL to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
@@ -3373,6 +3782,72 @@
         },
         {
           "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!orderedList:function(1)",
+          "docComment": "/**\n * Formats the elements in the array to an ordered list.\n *\n * @param list - The array of elements to list\n *\n * @param startNumber - The starting number for the list\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function orderedList(list: "
+            },
+            {
+              "kind": "Reference",
+              "text": "RecursiveArray",
+              "canonicalReference": "@discordjs/formatters!RecursiveArray:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<string>"
+            },
+            {
+              "kind": "Content",
+              "text": ", startNumber?: "
+            },
+            {
+              "kind": "Content",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 6,
+            "endIndex": 7
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "list",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "startNumber",
+              "parameterTypeTokenRange": {
+                "startIndex": 4,
+                "endIndex": 5
+              },
+              "isOptional": true
+            }
+          ],
+          "name": "orderedList"
+        },
+        {
+          "kind": "Function",
           "canonicalReference": "@discordjs/formatters!quote:function(1)",
           "docComment": "/**\n * Formats the content into a quote.\n *\n * @remarks\n *\n * This needs to be at the start of the line for Discord to format it.\n *\n * @param content - The content to wrap\n *\n * @typeParam C - This is inferred by the supplied content\n */\n",
           "excerptTokens": [
@@ -3436,6 +3911,54 @@
             }
           ],
           "name": "quote"
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@discordjs/formatters!RecursiveArray:type",
+          "docComment": "/**\n * A type that recursively traverses into arrays.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type RecursiveArray<T> = "
+            },
+            {
+              "kind": "Content",
+              "text": "readonly ("
+            },
+            {
+              "kind": "Reference",
+              "text": "RecursiveArray",
+              "canonicalReference": "@discordjs/formatters!RecursiveArray:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<T> | T)[]"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "RecursiveArray",
+          "typeParameters": [
+            {
+              "typeParameterName": "T",
+              "constraintTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            }
+          ],
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 4
+          }
         },
         {
           "kind": "Function",
@@ -4066,6 +4589,56 @@
             }
           ],
           "name": "underscore"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@discordjs/formatters!unorderedList:function(1)",
+          "docComment": "/**\n * Formats the elements in the array to an unordered list.\n *\n * @param list - The array of elements to list\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function unorderedList(list: "
+            },
+            {
+              "kind": "Reference",
+              "text": "RecursiveArray",
+              "canonicalReference": "@discordjs/formatters!RecursiveArray:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<string>"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 4,
+            "endIndex": 5
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "list",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "unorderedList"
         },
         {
           "kind": "Function",
