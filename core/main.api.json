@@ -2629,7 +2629,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationsAPI#getCurrent:member(1)",
-              "docComment": "/**\n * Fetches the application associated with the requesting bot user.\n *\n * @param options - The options for editing the application\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application#get-current-application}\n */\n",
+              "docComment": "/**\n * Fetches the application associated with the requesting bot user.\n *\n * @param options - The options for fetching the application\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application#get-current-application}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
