@@ -20810,8 +20810,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RESTGetNitroStickerPacksResult",
-                  "canonicalReference": "discord-api-types!RESTGetNitroStickerPacksResult:interface"
+                  "text": "RESTGetStickerPacksResult",
+                  "canonicalReference": "discord-api-types!RESTGetStickerPacksResult:interface"
                 },
                 {
                   "kind": "Content",
