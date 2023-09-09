@@ -1329,7 +1329,85 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/rest!CDN#emoji:member(1)",
-              "docComment": "/**\n * Generates an emoji's URL for an emoji.\n *\n * @param emojiId - The emoji id\n *\n * @param extension - The extension of the emoji\n */\n",
+              "docComment": "/**\n * Generates an emoji's URL for an emoji.\n *\n * @param emojiId - The emoji id\n *\n * @param options - Optional options for the emoji\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "emoji(emojiId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", options?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Readonly",
+                  "canonicalReference": "!Readonly:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "BaseImageURLOptions",
+                  "canonicalReference": "@discordjs/rest!BaseImageURLOptions:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 9
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "emojiId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 7
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "emoji"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/rest!CDN#emoji:member(2)",
+              "docComment": "/**\n * Generates an emoji's URL for an emoji.\n *\n * @deprecated\n *\n * This overload is deprecated. Pass an object containing the extension instead.\n *\n * @param emojiId - The emoji id\n *\n * @param extension - The extension of the emoji\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1368,7 +1446,7 @@
               },
               "releaseTag": "Public",
               "isProtected": false,
-              "overloadIndex": 1,
+              "overloadIndex": 2,
               "parameters": [
                 {
                   "parameterName": "emojiId",
