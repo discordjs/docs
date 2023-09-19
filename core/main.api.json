@@ -20771,11 +20771,87 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!StickersAPI#getNitroStickers:member(1)",
-              "docComment": "/**\n * Fetches all of the nitro sticker packs\n *\n * @param options - The options for fetching the sticker packs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-nitro-sticker-packs}\n */\n",
+              "docComment": "/**\n * Fetches all of the sticker packs\n *\n * @deprecated\n *\n * Use {@link getStickers} instead.\n *\n * @param options - The options for fetching the sticker packs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-sticker-packs}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "getNitroStickers({ signal }?: "
+                  "text": "getNitroStickers(options?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTGetStickerPacksResult",
+                  "canonicalReference": "discord-api-types!RESTGetStickerPacksResult:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 6,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 5
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "getNitroStickers"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!StickersAPI#getStickers:member(1)",
+              "docComment": "/**\n * Fetches all of the sticker packs\n *\n * @param options - The options for fetching the sticker packs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-sticker-packs}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getStickers({ signal }?: "
                 },
                 {
                   "kind": "Reference",
@@ -20842,7 +20918,7 @@
               ],
               "isOptional": false,
               "isAbstract": false,
-              "name": "getNitroStickers"
+              "name": "getStickers"
             }
           ],
           "implementsTokenRanges": []
