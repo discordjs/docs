@@ -2628,6 +2628,99 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/core!ApplicationsAPI#editCurrent:member(1)",
+              "docComment": "/**\n * Edits properties of the application associated with the requesting bot user.\n *\n * @param body - The new application data\n *\n * @param options - The options for editing the application\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application#edit-current-application}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "editCurrent(body: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPatchCurrentApplicationJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPatchCurrentApplicationJSONBody:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIApplication",
+                  "canonicalReference": "discord-api-types!APIApplication:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 8,
+                "endIndex": 12
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "body",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 7
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "editCurrent"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/core!ApplicationsAPI#getCurrent:member(1)",
               "docComment": "/**\n * Fetches the application associated with the requesting bot user.\n *\n * @param options - The options for fetching the application\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/application#get-current-application}\n */\n",
               "excerptTokens": [
@@ -20771,7 +20864,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!StickersAPI#getNitroStickers:member(1)",
-              "docComment": "/**\n * Fetches all of the sticker packs\n *\n * @deprecated\n *\n * Use {@link getStickers} instead.\n *\n * @param options - The options for fetching the sticker packs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-sticker-packs}\n */\n",
+              "docComment": "/**\n * Fetches all of the sticker packs\n *\n * @deprecated\n *\n * Use {@link StickersAPI.getStickers} instead.\n *\n * @param options - The options for fetching the sticker packs\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/sticker#list-sticker-packs}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -24131,7 +24224,16 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: "
+              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        flags?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "MessageFlags",
+              "canonicalReference": "discord-api-types!MessageFlags:enum"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: "
             },
             {
               "kind": "Reference",
@@ -24167,16 +24269,7 @@
             },
             {
               "kind": "Content",
-              "text": ">[] | undefined;\n        flags?: "
-            },
-            {
-              "kind": "Reference",
-              "text": "MessageFlags",
-              "canonicalReference": "discord-api-types!MessageFlags:enum"
-            },
-            {
-              "kind": "Content",
-              "text": ";\n        thread_name?: string | undefined;\n    };\n    files: {\n        name: string;\n        data: string | number | boolean | "
+              "text": ">[] | undefined;\n        thread_name?: string | undefined;\n    };\n    files: {\n        name: string;\n        data: string | number | boolean | "
             },
             {
               "kind": "Reference",
