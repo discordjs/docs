@@ -905,85 +905,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/rest!CDN#avatarDecoration:member(1)",
-              "docComment": "/**\n * Generates a user avatar decoration preset URL.\n *\n * @param asset - The avatar decoration hash\n *\n * @param options - Optional options for the avatar decoration preset\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "avatarDecoration(asset: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ", options?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Readonly",
-                  "canonicalReference": "!Readonly:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ImageURLOptions",
-                  "canonicalReference": "@discordjs/rest!ImageURLOptions:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 9
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "asset",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  },
-                  "isOptional": false
-                },
-                {
-                  "parameterName": "options",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 3,
-                    "endIndex": 7
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "avatarDecoration"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/rest!CDN#avatarDecoration:member(2)",
-              "docComment": "/**\n * Generates a user avatar decoration URL.\n *\n * @deprecated\n *\n * This overload is deprecated. Pass an hash instead.\n *\n * @param userId - The id of the user\n *\n * @param userAvatarDecoration - The hash provided by Discord for this avatar decoration\n *\n * @param options - Optional options for the avatar decoration\n */\n",
+              "docComment": "/**\n * Generates a user avatar decoration URL.\n *\n * @param userId - The id of the user\n *\n * @param userAvatarDecoration - The hash provided by Discord for this avatar decoration\n *\n * @param options - Optional options for the avatar decoration\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1043,7 +965,7 @@
               },
               "releaseTag": "Public",
               "isProtected": false,
-              "overloadIndex": 2,
+              "overloadIndex": 1,
               "parameters": [
                 {
                   "parameterName": "userId",
