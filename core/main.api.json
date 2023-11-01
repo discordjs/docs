@@ -9410,6 +9410,116 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/core!GuildsAPI#editOnboarding:member(1)",
+              "docComment": "/**\n * Edits a guild onboarding\n *\n * @param guildId - The id of the guild\n *\n * @param body - The data for editing the guild onboarding\n *\n * @param options - The options for editing the guild onboarding\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-onboarding}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "editOnboarding(guildId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", body: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPutAPIGuildOnboardingJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPutAPIGuildOnboardingJSONBody:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { reason, signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'reason' | 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIGuildOnboarding",
+                  "canonicalReference": "discord-api-types!APIGuildOnboarding:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 10,
+                "endIndex": 14
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "guildId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "body",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ reason, signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 9
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "editOnboarding"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#editRole:member(1)",
               "docComment": "/**\n * Edits a guild role\n *\n * @param guildId - The id of the guild to edit the role in\n *\n * @param roleId - The id of the role to edit\n *\n * @param body - data for editing the role\n *\n * @param options - The options for editing the guild role\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#modify-guild-role}\n */\n",
               "excerptTokens": [
