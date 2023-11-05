@@ -6789,6 +6789,133 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/core!GuildsAPI#addMember:member(1)",
+              "docComment": "/**\n * Adds user to the guild\n *\n * @param guildId - The id of the guild to add the user to\n *\n * @param userId - The id of the user to add\n *\n * @param body - The data for adding users to the guild\n *\n * @param options - The options for adding users to the guild\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#add-guild-member}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "addMember(guildId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", userId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", body: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPutAPIGuildMemberJSONBody",
+                  "canonicalReference": "discord-api-types!RESTPutAPIGuildMemberJSONBody:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", { signal }?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Pick",
+                  "canonicalReference": "!Pick:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RequestData",
+                  "canonicalReference": "@discordjs/rest!RequestData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", 'signal'>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RESTPutAPIGuildMemberResult",
+                  "canonicalReference": "discord-api-types!RESTPutAPIGuildMemberResult:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 12,
+                "endIndex": 16
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "guildId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "userId",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "body",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 6
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "{ signal }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 7,
+                    "endIndex": 11
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "addMember"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/core!GuildsAPI#addRoleToMember:member(1)",
               "docComment": "/**\n * Adds a role to a guild member\n *\n * @param guildId - The id of the guild\n *\n * @param userId - The id of the user\n *\n * @param roleId - The id of the role\n *\n * @param options - The options for adding a role to a guild member\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/resources/guild#add-guild-member-role}\n */\n",
               "excerptTokens": [
