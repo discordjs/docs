@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.0",
+    "toolVersion": "7.38.2",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -185,7 +185,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
+              "canonicalReference": "@discordjs/voice!~EventEmitter"
             },
             {
               "kind": "Content",
@@ -549,7 +549,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
+              "canonicalReference": "@discordjs/voice!~EventEmitter"
             },
             {
               "kind": "Content",
@@ -4790,7 +4790,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
+              "canonicalReference": "@discordjs/voice!~EventEmitter"
             },
             {
               "kind": "Content",
@@ -4954,7 +4954,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
+              "canonicalReference": "@discordjs/voice!~EventEmitter"
             },
             {
               "kind": "Content",
@@ -5108,7 +5108,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
+              "canonicalReference": "@discordjs/voice!~EventEmitter"
             },
             {
               "kind": "Content",
@@ -5310,7 +5310,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
+              "canonicalReference": "@discordjs/voice!~EventEmitter"
             },
             {
               "kind": "Content",
@@ -5752,7 +5752,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
+              "canonicalReference": "@discordjs/voice!~EventEmitter"
             },
             {
               "kind": "Content",
@@ -6422,7 +6422,7 @@
             {
               "kind": "Reference",
               "text": "EventEmitter",
-              "canonicalReference": "!\"\\\"events\\\"\".EventEmitter:class"
+              "canonicalReference": "@discordjs/voice!~EventEmitter"
             },
             {
               "kind": "Content",

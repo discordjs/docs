@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.0",
+    "toolVersion": "7.38.2",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -2465,7 +2465,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/formatters!GuildNavigationMentions.Browse:member",
-              "docComment": "/**\n * _Browse Channels_ tab.\n */\n",
+              "docComment": "/**\n * Browse Channels tab.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2486,7 +2486,7 @@
             {
               "kind": "EnumMember",
               "canonicalReference": "@discordjs/formatters!GuildNavigationMentions.Customize:member",
-              "docComment": "/**\n * _Customize_ tab with the server's {@link https://discord.com/developers/docs/resources/guild#guild-onboarding-object | onboarding prompts}.\n */\n",
+              "docComment": "/**\n * Customize tab with the server's {@link https://discord.com/developers/docs/resources/guild#guild-onboarding-object | onboarding prompts}.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",

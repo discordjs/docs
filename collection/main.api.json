@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.0",
+    "toolVersion": "7.38.2",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -2445,6 +2445,622 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#findLast:member(1)",
+              "docComment": "/**\n * Searches for a last item where the given function returns a truthy value. This behaves like {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast | Array.findLast()}.\n *\n * @param fn - The function to test with (should return a boolean)\n *\n * @param thisArg - Value to use as `this` when executing the function\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findLast<V2 extends "
+                },
+                {
+                  "kind": "Content",
+                  "text": "V"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(value: V, key: K, collection: this) => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "value",
+                  "canonicalReference": "@discordjs/collection!~value"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is V2"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "V2 | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "V2",
+                  "constraintTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 6
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "findLast"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#findLast:member(2)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findLast(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(value: V, key: K, collection: this) => unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "V | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 2,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "findLast"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#findLast:member(3)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findLast<This, V2 extends "
+                },
+                {
+                  "kind": "Content",
+                  "text": "V"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(this: This, value: V, key: K, collection: this) => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "value",
+                  "canonicalReference": "@discordjs/collection!~value"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is V2"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", thisArg: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "This"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "V2 | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "This",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                },
+                {
+                  "typeParameterName": "V2",
+                  "constraintTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 3,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 6
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "thisArg",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 7,
+                    "endIndex": 8
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "findLast"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#findLast:member(4)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findLast<This>(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(this: This, value: V, key: K, collection: this) => unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", thisArg: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "This"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "V | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "This",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 4,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "thisArg",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "findLast"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#findLastKey:member(1)",
+              "docComment": "/**\n * Searches for the key of a last item where the given function returns a truthy value. This behaves like {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLastIndex | Array.findLastIndex()}, but returns the key rather than the positional index.\n *\n * @param fn - The function to test with (should return a boolean)\n *\n * @param thisArg - Value to use as `this` when executing the function\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findLastKey<K2 extends "
+                },
+                {
+                  "kind": "Content",
+                  "text": "K"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(value: V, key: K, collection: this) => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "key",
+                  "canonicalReference": "@discordjs/collection!~key"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is K2"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "K2 | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "K2",
+                  "constraintTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 7,
+                "endIndex": 8
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 6
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "findLastKey"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#findLastKey:member(2)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findLastKey(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(value: V, key: K, collection: this) => unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "K | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 2,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "findLastKey"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#findLastKey:member(3)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findLastKey<This, K2 extends "
+                },
+                {
+                  "kind": "Content",
+                  "text": "K"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(this: This, value: V, key: K, collection: this) => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "key",
+                  "canonicalReference": "@discordjs/collection!~key"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is K2"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", thisArg: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "This"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "K2 | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "This",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                },
+                {
+                  "typeParameterName": "K2",
+                  "constraintTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 3,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 6
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "thisArg",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 7,
+                    "endIndex": 8
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "findLastKey"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#findLastKey:member(4)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "findLastKey<This>(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(this: This, value: V, key: K, collection: this) => unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", thisArg: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "This"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "K | undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "This",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 4,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "thisArg",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "findLastKey"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#first:member(1)",
               "docComment": "/**\n * Obtains the first value(s) in this collection.\n *\n * @param amount - Amount of values to obtain from the beginning\n *\n * @returns A single value if no amount is provided or an array of values, starting from the end if amount is negative\n */\n",
               "excerptTokens": [
@@ -4493,6 +5109,83 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "reduce"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#reduceRight:member(1)",
+              "docComment": "/**\n * Applies a function to produce a single value. Identical in behavior to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight | Array.reduceRight()}.\n *\n * @param fn - Function used to reduce, taking four arguments; `accumulator`, `value`, `key`, and `collection`\n *\n * @param initialValue - Starting value for the accumulator\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "reduceRight<T>(fn: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(accumulator: T, value: V, key: K, collection: this) => T"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", initialValue?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "T"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "T"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "typeParameterName": "T",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "fn",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "initialValue",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "reduceRight"
             },
             {
               "kind": "Method",
