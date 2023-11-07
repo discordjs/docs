@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.2",
+    "toolPackage": "@discordjs/api-extractor",
+    "toolVersion": "7.38.1",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -196,7 +196,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/collection.ts",
+          "fileLine": 38,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -252,6 +254,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 151,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -267,7 +271,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -297,6 +302,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 683,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -354,6 +361,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 954,
+              "fileColumn": 2,
               "typeParameters": [
                 {
                   "typeParameterName": "K",
@@ -393,7 +402,8 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "combine",
@@ -401,7 +411,8 @@
                     "startIndex": 4,
                     "endIndex": 5
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -444,6 +455,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 696,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 4,
@@ -459,7 +472,8 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": true
                 }
               ],
               "isOptional": false,
@@ -469,7 +483,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/collection!Collection#difference:member(1)",
-              "docComment": "/**\n * The difference method returns a new structure containing items where the key is present in one of the original structures but not the other.\n *\n * @param other - The other Collection to filter against\n */\n",
+              "docComment": "/**\n * Returns a new collection containing the items where the key is present in this collection but not the other.\n *\n * @param other - The other Collection to filter against\n *\n * @example\n * ```ts\n * const col1 = new Collection([['a', 1], ['b', 2]]);\n * const col2 = new Collection([['a', 1], ['c', 3]]);\n * console.log(col1.difference(col2));\n * // => Collection { 'b' => 2 }\n * console.log(col2.difference(col1));\n * // => Collection { 'c' => 3 }\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -495,13 +509,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, T | V>"
+                  "text": "<K, V>"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
+              "fileLine": 816,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -530,7 +546,8 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -563,6 +580,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 640,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -578,7 +597,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -619,6 +639,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 641,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -647,7 +669,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -655,7 +678,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -696,6 +720,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 49,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -711,7 +737,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "defaultValueGenerator",
@@ -719,7 +746,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -757,6 +785,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 713,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 4,
@@ -772,7 +802,8 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -831,6 +862,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 541,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "K2",
@@ -859,7 +892,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -918,6 +952,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 542,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "V2",
@@ -946,7 +982,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -979,6 +1016,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 543,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -994,7 +1033,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1061,6 +1101,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 544,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -1100,7 +1142,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -1108,7 +1151,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1175,6 +1219,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 548,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -1214,7 +1260,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -1222,7 +1269,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1263,6 +1311,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 552,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -1291,7 +1341,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -1299,7 +1350,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1354,6 +1406,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 367,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "K2",
@@ -1382,7 +1436,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1437,6 +1492,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 368,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "V2",
@@ -1465,7 +1522,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1503,6 +1561,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 369,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -1518,7 +1578,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1581,6 +1642,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 370,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -1620,7 +1683,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -1628,7 +1692,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1691,6 +1756,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 374,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -1730,7 +1797,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -1738,7 +1806,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1784,6 +1853,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 378,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -1812,7 +1883,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -1820,7 +1892,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1870,6 +1943,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 231,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "V2",
@@ -1898,7 +1973,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1931,6 +2007,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 232,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -1946,7 +2024,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2004,6 +2083,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 233,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -2043,7 +2124,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -2051,7 +2133,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2092,6 +2175,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 237,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -2120,7 +2205,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -2128,7 +2214,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2178,6 +2265,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 260,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "K2",
@@ -2206,7 +2295,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2239,6 +2329,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 261,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -2254,7 +2346,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2312,6 +2405,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 262,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -2351,7 +2446,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -2359,7 +2455,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2400,6 +2497,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 266,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -2428,7 +2527,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -2436,7 +2536,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2486,6 +2587,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 284,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "V2",
@@ -2514,7 +2617,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2547,6 +2651,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 285,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -2562,7 +2668,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2620,6 +2727,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 286,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -2659,7 +2768,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -2667,7 +2777,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2708,6 +2819,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 290,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -2736,7 +2849,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -2744,7 +2858,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2794,6 +2909,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 312,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "K2",
@@ -2822,7 +2939,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2855,6 +2973,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 313,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -2870,7 +2990,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2928,6 +3049,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 314,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -2967,7 +3090,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -2975,7 +3099,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3016,6 +3141,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 318,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -3044,7 +3171,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -3052,7 +3180,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3077,6 +3206,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 83,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3116,6 +3247,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 84,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3131,7 +3264,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3156,6 +3290,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 100,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3195,6 +3331,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 101,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3210,7 +3348,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3257,6 +3396,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 452,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -3285,7 +3426,8 @@
                     "startIndex": 1,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3340,6 +3482,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 453,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -3379,7 +3523,8 @@
                     "startIndex": 1,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -3387,7 +3532,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3420,6 +3566,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 63,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3435,7 +3583,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": true
                 }
               ],
               "isOptional": false,
@@ -3468,6 +3617,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 73,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3483,7 +3634,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": true
                 }
               ],
               "isOptional": false,
@@ -3492,12 +3644,12 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@discordjs/collection!Collection#intersect:member(1)",
-              "docComment": "/**\n * The intersect method returns a new structure containing items where the keys and values are present in both original structures.\n *\n * @param other - The other Collection to filter against\n */\n",
+              "canonicalReference": "@discordjs/collection!Collection#intersection:member(1)",
+              "docComment": "/**\n * The intersection method returns a new collection containing the items where the key is present in both collections.\n *\n * @param other - The other Collection to filter against\n *\n * @example\n * ```ts\n * const col1 = new Collection([['a', 1], ['b', 2]]);\n * const col2 = new Collection([['a', 1], ['c', 3]]);\n * const intersection = col1.intersection(col2);\n * console.log(col1.intersection(col2));\n * // => Collection { 'a' => 1 }\n * ```\n *\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "intersect<T>(other: "
+                  "text": "intersection<T>(other: "
                 },
                 {
                   "kind": "Reference",
@@ -3519,13 +3671,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<K, T>"
+                  "text": "<K, T | V>"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
+              "fileLine": 766,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -3554,12 +3708,13 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
               "isAbstract": false,
-              "name": "intersect"
+              "name": "intersection"
             },
             {
               "kind": "Method",
@@ -3587,6 +3742,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 164,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3602,7 +3759,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3627,6 +3785,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 117,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3666,6 +3826,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 118,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3681,7 +3843,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3706,6 +3869,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 134,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3745,6 +3910,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 135,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3760,7 +3927,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3793,6 +3961,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 474,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -3821,7 +3991,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3862,6 +4033,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 475,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -3901,7 +4074,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -3909,7 +4083,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3947,6 +4122,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 497,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -3975,7 +4152,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4021,6 +4199,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 498,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -4060,7 +4240,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -4068,7 +4249,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4162,6 +4344,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 881,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -4201,7 +4385,8 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "whenInSelf",
@@ -4209,7 +4394,8 @@
                     "startIndex": 4,
                     "endIndex": 7
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "whenInOther",
@@ -4217,7 +4403,8 @@
                     "startIndex": 8,
                     "endIndex": 11
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "whenInBoth",
@@ -4225,7 +4412,8 @@
                     "startIndex": 12,
                     "endIndex": 15
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4302,6 +4490,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 401,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "K2",
@@ -4330,7 +4520,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4407,6 +4598,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 404,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "V2",
@@ -4435,7 +4628,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4486,6 +4680,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 407,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -4501,7 +4697,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4586,6 +4783,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 408,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -4625,7 +4824,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -4633,7 +4833,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4718,6 +4919,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 412,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -4757,7 +4960,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -4765,7 +4969,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4824,6 +5029,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 416,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "This",
@@ -4852,7 +5059,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -4860,7 +5068,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4885,6 +5094,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 176,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -4924,6 +5135,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 177,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -4939,7 +5152,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4964,6 +5178,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 194,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5003,6 +5219,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 195,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5018,7 +5236,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5067,6 +5286,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 575,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -5095,7 +5316,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "initialValue",
@@ -5103,7 +5325,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5144,6 +5367,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 601,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -5172,7 +5397,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "initialValue",
@@ -5180,7 +5406,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5205,6 +5432,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 210,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5244,6 +5473,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 518,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5259,7 +5490,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5300,6 +5532,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 519,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -5328,7 +5562,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -5336,7 +5571,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5374,6 +5610,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 738,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 4,
@@ -5389,141 +5627,13 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
               "isAbstract": false,
               "name": "sort"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/collection!Collection#sorted:member(1)",
-              "docComment": "/**\n * The sorted method sorts the items of a collection and returns it. The sort is not necessarily stable in Node 10 or older. The default sort order is according to string Unicode code points.\n *\n * @param compareFunction - Specifies a function that defines the sort order. If omitted, the collection is sorted according to each character's Unicode code point value, according to the string conversion of each element.\n *\n * @example\n * ```ts\n * collection.sorted((userA, userB) => userA.createdTimestamp - userB.createdTimestamp);\n * ```\n *\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "sorted(compareFunction?: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Comparator",
-                  "canonicalReference": "@discordjs/collection!Comparator:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<K, V>"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<K, V>"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 4,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "compareFunction",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 3
-                  },
-                  "isOptional": true
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "sorted"
-            },
-            {
-              "kind": "Method",
-              "canonicalReference": "@discordjs/collection!Collection#subtract:member(1)",
-              "docComment": "/**\n * The subtract method returns a new structure containing items where the keys and values of the original structure are not present in the other.\n *\n * @param other - The other Collection to filter against\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "subtract<T>(other: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ReadonlyCollection",
-                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<K, T>"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Collection",
-                  "canonicalReference": "@discordjs/collection!Collection:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<K, V>"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "typeParameters": [
-                {
-                  "typeParameterName": "T",
-                  "constraintTokenRange": {
-                    "startIndex": 0,
-                    "endIndex": 0
-                  },
-                  "defaultTypeTokenRange": {
-                    "startIndex": 0,
-                    "endIndex": 0
-                  }
-                }
-              ],
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 4,
-                "endIndex": 6
-              },
-              "releaseTag": "Public",
-              "isProtected": false,
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "other",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 3
-                  },
-                  "isOptional": false
-                }
-              ],
-              "isOptional": false,
-              "isAbstract": false,
-              "name": "subtract"
             },
             {
               "kind": "Method",
@@ -5551,6 +5661,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 342,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5566,7 +5678,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5607,6 +5720,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 343,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -5635,7 +5750,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -5643,12 +5759,87 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
               "isAbstract": false,
               "name": "sweep"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#symmetricDifference:member(1)",
+              "docComment": "/**\n * Returns a new collection containing only the items where the keys are present in either collection, but not both.\n *\n * @param other - The other Collection to filter against\n *\n * @example\n * ```ts\n * const col1 = new Collection([['a', 1], ['b', 2]]);\n * const col2 = new Collection([['a', 1], ['c', 3]]);\n * const symmetricDifference = col1.symmetricDifference(col2);\n * console.log(col1.symmetricDifference(col2));\n * // => Collection { 'b' => 2, 'c' => 3 }\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "symmetricDifference<T>(other: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ReadonlyCollection",
+                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, T>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, T | V>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 839,
+              "fileColumn": 9,
+              "typeParameters": [
+                {
+                  "typeParameterName": "T",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 4,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "other",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 3
+                  },
+                  "isOptional": false,
+                  "isRest": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "symmetricDifference"
             },
             {
               "kind": "Method",
@@ -5676,6 +5867,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 666,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5691,7 +5884,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5732,6 +5926,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 667,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -5760,7 +5956,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "thisArg",
@@ -5768,7 +5965,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5793,6 +5991,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 934,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5805,6 +6005,179 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "toJSON"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#toReversed:member(1)",
+              "docComment": "/**\n * Identical to {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed | Array.toReversed()} but returns a Collection instead of an Array.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "toReversed(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, V>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 913,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "toReversed"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#toSorted:member(1)",
+              "docComment": "/**\n * The sorted method sorts the items of a collection and returns it. The sort is not necessarily stable in Node 10 or older. The default sort order is according to string Unicode code points.\n *\n * @param compareFunction - Specifies a function that defines the sort order. If omitted, the collection is sorted according to each character's Unicode code point value, according to the string conversion of each element.\n *\n * @example\n * ```ts\n * collection.sorted((userA, userB) => userA.createdTimestamp - userB.createdTimestamp);\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "toSorted(compareFunction?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Comparator",
+                  "canonicalReference": "@discordjs/collection!Comparator:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, V>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, V>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 930,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 4,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "compareFunction",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 3
+                  },
+                  "isOptional": true,
+                  "isRest": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "toSorted"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/collection!Collection#union:member(1)",
+              "docComment": "/**\n * Returns a new collection containing the items where the key is present in either of the collections.\n *\n * @remarks\n *\n * If the collections have any items with the same key, the value from the first collection will be used.\n *\n * @param other - The other Collection to filter against\n *\n * @example\n * ```ts\n * const col1 = new Collection([['a', 1], ['b', 2]]);\n * const col2 = new Collection([['a', 1], ['b', 3], ['c', 3]]);\n * const union = col1.union(col2);\n * console.log(union);\n * // => Collection { 'a' => 1, 'b' => 2, 'c' => 3 }\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "union<T>(other: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ReadonlyCollection",
+                  "canonicalReference": "@discordjs/collection!ReadonlyCollection:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, T>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Collection",
+                  "canonicalReference": "@discordjs/collection!Collection:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<K, T | V>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 792,
+              "fileColumn": 9,
+              "typeParameters": [
+                {
+                  "typeParameterName": "T",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 4,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "other",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 3
+                  },
+                  "isOptional": false,
+                  "isRest": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "union"
             }
           ],
           "extendsTokenRange": {
@@ -5820,7 +6193,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ReadonlyCollection<K, V> = "
+              "text": "export type ReadonlyCollection<K, V> = "
             },
             {
               "kind": "Reference",
@@ -5854,7 +6227,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/collection.ts",
+          "fileLine": 16,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ReadonlyCollection",
           "typeParameters": [
@@ -5901,6 +6276,8 @@
             }
           ],
           "fileUrlPath": "src/index.ts",
+          "fileLine": 8,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",

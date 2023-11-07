@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.2",
+    "toolPackage": "@discordjs/api-extractor",
+    "toolVersion": "7.38.1",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -180,10 +180,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface BaseBrokerOptions "
+              "text": "export interface BaseBrokerOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileLine": 9,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "BaseBrokerOptions",
           "preserveMemberOrder": false,
@@ -206,6 +208,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 13,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -230,7 +234,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -242,6 +246,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -266,7 +272,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -274,6 +280,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 23,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -301,6 +309,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 27,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -328,6 +338,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 33,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -398,7 +410,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/redis/BaseRedis.ts",
+          "fileLine": 30,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -436,6 +450,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 58,
+              "fileColumn": 1,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -446,7 +462,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -473,6 +490,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 163,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -497,7 +516,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -537,6 +556,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 171,
+              "fileColumn": 2,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 9,
@@ -552,7 +573,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "group",
@@ -560,7 +582,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "event",
@@ -568,7 +591,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "data",
@@ -576,7 +600,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -614,6 +639,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 110,
+              "fileColumn": 2,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -629,7 +656,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -654,6 +682,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 57,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -698,6 +728,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 42,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -728,6 +760,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 37,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -763,6 +797,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 52,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -814,6 +850,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 72,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -829,7 +867,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "events",
@@ -837,7 +876,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -867,6 +907,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 47,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -918,6 +960,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 92,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -933,7 +977,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "events",
@@ -941,7 +986,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -975,7 +1021,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer_2",
+              "text": "Buffer",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -984,7 +1030,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer_2",
+              "text": "Buffer",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -992,7 +1038,9 @@
               "text": ") => unknown;\n}"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileLine": 39,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultBrokerOptions",
@@ -1016,7 +1064,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer_2",
+              "text": "Buffer",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -1025,7 +1073,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer_2",
+              "text": "Buffer",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -1033,7 +1081,9 @@
               "text": ") => unknown;\n}"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
+          "fileLine": 24,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultRPCRedisBrokerOptions",
@@ -1049,7 +1099,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface IBaseBroker<TEvents extends "
+              "text": "export interface IBaseBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1065,7 +1115,9 @@
               "text": "> "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileLine": 61,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1122,6 +1174,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 65,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -1136,7 +1190,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "events",
@@ -1144,7 +1199,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "subscribe"
@@ -1188,6 +1244,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 69,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -1202,7 +1260,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "events",
@@ -1210,7 +1269,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "unsubscribe"
@@ -1225,7 +1285,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface IPubSubBroker<TEvents extends "
+              "text": "export interface IPubSubBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1276,7 +1336,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileLine": 72,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1341,6 +1403,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 78,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 7,
@@ -1355,7 +1419,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "data",
@@ -1363,7 +1428,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "typeParameters": [
@@ -1400,7 +1466,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface IRPCBroker<TEvents extends "
+              "text": "export interface IRPCBroker<TEvents extends "
             },
             {
               "kind": "Reference",
@@ -1464,7 +1530,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileLine": 81,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1548,6 +1616,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 87,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 9,
@@ -1562,7 +1632,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "data",
@@ -1570,7 +1641,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "timeoutDuration",
@@ -1578,7 +1650,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "typeParameters": [
@@ -1657,7 +1730,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/redis/PubSubRedis.ts",
+          "fileLine": 32,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -1687,7 +1762,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -1727,6 +1802,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 48,
+              "fileColumn": 2,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 9,
@@ -1742,7 +1819,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "group",
@@ -1750,7 +1828,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "event",
@@ -1758,7 +1837,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "data",
@@ -1766,7 +1846,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1820,6 +1901,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 39,
+              "fileColumn": 15,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -1848,7 +1931,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "data",
@@ -1856,7 +1940,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1882,7 +1967,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RedisBrokerOptions extends "
+              "text": "export interface RedisBrokerOptions extends "
             },
             {
               "kind": "Reference",
@@ -1894,7 +1979,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/redis/BaseRedis.ts",
+          "fileLine": 20,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RedisBrokerOptions",
           "preserveMemberOrder": false,
@@ -1918,6 +2005,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 24,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1997,7 +2086,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
+          "fileLine": 57,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2046,6 +2137,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 66,
+              "fileColumn": 67,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -2056,7 +2149,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -2115,6 +2209,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 86,
+              "fileColumn": 15,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -2143,7 +2239,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "data",
@@ -2151,7 +2248,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "timeoutDuration",
@@ -2159,7 +2257,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2177,7 +2276,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -2217,6 +2316,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 117,
+              "fileColumn": 2,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 9,
@@ -2232,7 +2333,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "group",
@@ -2240,7 +2342,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "event",
@@ -2248,7 +2351,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "data",
@@ -2256,7 +2360,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2295,6 +2400,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 64,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2339,6 +2446,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 66,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2370,7 +2479,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RPCRedisBrokerOptions extends "
+              "text": "export interface RPCRedisBrokerOptions extends "
             },
             {
               "kind": "Reference",
@@ -2382,7 +2491,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/redis/RPCRedis.ts",
+          "fileLine": 17,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RPCRedisBrokerOptions",
           "preserveMemberOrder": false,
@@ -2405,6 +2516,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -2429,7 +2542,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ToEventMap<TRecord extends "
+              "text": "export type ToEventMap<TRecord extends "
             },
             {
               "kind": "Reference",
@@ -2467,7 +2580,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    [TKey in keyof TRecord]: [\n    event: TResponses extends "
+              "text": "{\n    [TKey in keyof TRecord]: [\n        event: TResponses extends "
             },
             {
               "kind": "Reference",
@@ -2476,7 +2589,7 @@
             },
             {
               "kind": "Content",
-              "text": "<keyof TRecord, any> ? {\n        ack(): "
+              "text": "<keyof TRecord, any> ? {\n            ack(): "
             },
             {
               "kind": "Reference",
@@ -2485,7 +2598,7 @@
             },
             {
               "kind": "Content",
-              "text": "<void>;\n        reply(data: TResponses[TKey]): "
+              "text": "<void>;\n            reply(data: TResponses[TKey]): "
             },
             {
               "kind": "Reference",
@@ -2494,7 +2607,7 @@
             },
             {
               "kind": "Content",
-              "text": "<void>;\n    } : {\n        ack(): "
+              "text": "<void>;\n        } : {\n            ack(): "
             },
             {
               "kind": "Reference",
@@ -2503,14 +2616,16 @@
             },
             {
               "kind": "Content",
-              "text": "<void>;\n    } & {\n        data: TRecord[TKey];\n    }\n    ];\n} & {\n    [K: string]: any;\n}"
+              "text": "<void>;\n        } & {\n            data: TRecord[TKey];\n        }\n    ];\n} & {\n    [K: string]: any;\n}"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/brokers/Broker.ts",
+          "fileLine": 50,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ToEventMap",
           "typeParameters": [

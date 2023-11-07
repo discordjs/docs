@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.2",
+    "toolPackage": "@discordjs/api-extractor",
+    "toolVersion": "7.38.1",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -180,7 +180,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type Awaitable<T> = "
+              "text": "export type Awaitable<T> = "
             },
             {
               "kind": "Reference",
@@ -196,7 +196,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/types.ts",
+          "fileLine": 4,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "Awaitable",
           "typeParameters": [
@@ -251,7 +253,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/functions/calculateShardId.ts",
+          "fileLine": 7,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 6
@@ -265,7 +269,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "shardCount",
@@ -273,7 +278,8 @@
                 "startIndex": 3,
                 "endIndex": 4
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "calculateShardId"
@@ -285,10 +291,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface Equatable<T> "
+              "text": "export interface Equatable<T> "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/Equatable.ts",
+          "fileLine": 7,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -332,6 +340,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 11,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -346,7 +356,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "equals"
@@ -372,7 +383,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/functions/userAgentAppendix.ts",
+          "fileLine": 6,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -422,7 +435,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/Equatable.ts",
+          "fileLine": 19,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -436,7 +451,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "isEquatable"
@@ -481,7 +497,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/JSONEncodable.ts",
+          "fileLine": 18,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -495,7 +513,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "isJSONEncodable"
@@ -507,10 +526,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface JSONEncodable<T> "
+              "text": "export interface JSONEncodable<T> "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/JSONEncodable.ts",
+          "fileLine": 6,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -546,6 +567,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -585,7 +608,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/functions/lazy.ts",
+          "fileLine": 14,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -599,7 +624,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "typeParameters": [
@@ -653,7 +679,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/functions/range.ts",
+          "fileLine": 45,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 4,
             "endIndex": 6
@@ -667,7 +695,8 @@
                 "startIndex": 1,
                 "endIndex": 3
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "range"
@@ -679,10 +708,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RangeOptions "
+              "text": "export interface RangeOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/functions/range.ts",
+          "fileLine": 4,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RangeOptions",
           "preserveMemberOrder": false,
@@ -705,6 +736,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 8,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -732,6 +765,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 12,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -759,6 +794,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -789,7 +826,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/functions/runtime.ts",
+          "fileLine": 3,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.2",
+    "toolPackage": "@discordjs/api-extractor",
+    "toolVersion": "7.38.1",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -187,7 +187,9 @@
               "text": "readonly [\"webp\", \"png\", \"jpg\", \"jpeg\", \"gif\"]"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 48,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_EXTENSIONS",
@@ -210,7 +212,9 @@
               "text": "readonly [16, 32, 64, 128, 256, 512, 1024, 2048, 4096]"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 50,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_SIZES",
@@ -233,7 +237,9 @@
               "text": "readonly [\"png\", \"json\", \"gif\"]"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 49,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ALLOWED_STICKER_EXTENSIONS",
@@ -249,10 +255,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface APIRequest "
+              "text": "export interface APIRequest "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 177,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "APIRequest",
           "preserveMemberOrder": false,
@@ -276,6 +284,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 181,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -303,6 +313,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 185,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -323,7 +335,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RequestInit_2",
+                  "text": "RequestInit",
                   "canonicalReference": "undici!RequestInit:interface"
                 },
                 {
@@ -331,6 +343,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 189,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -359,6 +373,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 193,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -386,6 +402,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 197,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -413,6 +431,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 201,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -432,10 +452,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface BaseImageURLOptions "
+              "text": "export interface BaseImageURLOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/CDN.ts",
+          "fileLine": 18,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "BaseImageURLOptions",
           "preserveMemberOrder": false,
@@ -459,6 +481,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 24,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -487,6 +511,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 28,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -513,7 +539,9 @@
               "text": "\"burst\""
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 61,
+          "fileColumn": 14,
           "initializerTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -553,7 +581,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/utils.ts",
+          "fileLine": 121,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -567,7 +597,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "calculateUserDefaultAvatarIndex"
@@ -582,7 +613,9 @@
               "text": "export declare class CDN "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/CDN.ts",
+          "fileLine": 64,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "CDN",
@@ -606,6 +639,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 65,
+              "fileColumn": 42,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -616,7 +651,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ]
             },
@@ -676,6 +712,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 74,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -691,7 +729,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "assetHash",
@@ -699,7 +738,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -707,7 +747,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -770,6 +811,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 85,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -785,7 +828,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "iconHash",
@@ -793,7 +837,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -801,7 +846,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -864,6 +910,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 96,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -879,7 +927,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "avatarHash",
@@ -887,7 +936,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -895,7 +945,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -958,6 +1009,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 107,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -973,7 +1026,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "userAvatarDecoration",
@@ -981,7 +1035,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -989,7 +1044,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1052,6 +1108,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 122,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -1067,7 +1125,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "bannerHash",
@@ -1075,7 +1134,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1083,7 +1143,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1146,6 +1207,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 133,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -1161,7 +1224,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "iconHash",
@@ -1169,7 +1233,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1177,7 +1242,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1210,6 +1276,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 145,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -1225,7 +1293,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1288,6 +1357,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 156,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -1303,7 +1374,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "splashHash",
@@ -1311,7 +1383,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1319,7 +1392,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1374,6 +1448,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 166,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
@@ -1389,7 +1465,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1397,7 +1474,8 @@
                     "startIndex": 3,
                     "endIndex": 7
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1439,6 +1517,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 176,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -1454,7 +1534,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "extension",
@@ -1462,7 +1543,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1533,6 +1615,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 206,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
@@ -1548,7 +1632,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "userId",
@@ -1556,7 +1641,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "avatarHash",
@@ -1564,7 +1650,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1572,7 +1659,8 @@
                     "startIndex": 7,
                     "endIndex": 11
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1643,6 +1731,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 223,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
@@ -1658,7 +1748,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "userId",
@@ -1666,7 +1757,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "bannerHash",
@@ -1674,7 +1766,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1682,7 +1775,8 @@
                     "startIndex": 7,
                     "endIndex": 11
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1745,6 +1839,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 305,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -1760,7 +1856,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "coverHash",
@@ -1768,7 +1865,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1776,7 +1874,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1839,6 +1938,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 239,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -1854,7 +1955,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "iconHash",
@@ -1862,7 +1964,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1870,7 +1973,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1933,6 +2037,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 250,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -1948,7 +2054,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "roleIconHash",
@@ -1956,7 +2063,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -1964,7 +2072,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2027,6 +2136,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 261,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -2042,7 +2153,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "splashHash",
@@ -2050,7 +2162,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -2058,7 +2171,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2100,6 +2214,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 273,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -2115,7 +2231,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "extension",
@@ -2123,7 +2240,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2178,6 +2296,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 283,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
@@ -2193,7 +2313,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -2201,7 +2322,8 @@
                     "startIndex": 3,
                     "endIndex": 7
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2264,6 +2386,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 294,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
@@ -2279,7 +2403,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "iconHash",
@@ -2287,7 +2412,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -2295,7 +2421,8 @@
                     "startIndex": 5,
                     "endIndex": 9
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2316,11 +2443,11 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    readonly agent: null;\n    readonly api: \"https://discord.com/api\";\n    readonly authPrefix: \"Bot\";\n    readonly cdn: \"https://cdn.discordapp.com\";\n    readonly headers: {};\n    readonly invalidRequestWarningInterval: 0;\n    readonly globalRequestsPerSecond: 50;\n    readonly offset: 50;\n    readonly rejectOnRateLimit: null;\n    readonly retries: 3;\n    readonly timeout: 15000;\n    readonly userAgentAppendix: string;\n    readonly version: \"10\";\n    readonly hashSweepInterval: 14400000;\n    readonly hashLifetime: 86400000;\n    readonly handlerSweepInterval: 3600000;\n    readonly makeRequest: (url: string, init: "
+              "text": "{\n    readonly agent: null;\n    readonly api: \"https://discord.com/api\";\n    readonly authPrefix: \"Bot\";\n    readonly cdn: \"https://cdn.discordapp.com\";\n    readonly headers: {};\n    readonly invalidRequestWarningInterval: 0;\n    readonly globalRequestsPerSecond: 50;\n    readonly offset: 50;\n    readonly rejectOnRateLimit: null;\n    readonly retries: 3;\n    readonly timeout: 15000;\n    readonly userAgentAppendix: string;\n    readonly version: \"10\";\n    readonly hashSweepInterval: 14400000;\n    readonly hashLifetime: 86400000;\n    readonly handlerSweepInterval: 3600000;\n    readonly makeRequest: (url: string, init: import(\"undici\")."
             },
             {
               "kind": "Reference",
-              "text": "RequestInit_2",
+              "text": "RequestInit",
               "canonicalReference": "undici!RequestInit:interface"
             },
             {
@@ -2346,7 +2473,9 @@
               "text": ">;\n}"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 14,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultRestOptions",
@@ -2369,7 +2498,9 @@
               "text": "`DiscordBot (https://discord.js.org, ${string})`"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 6,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultUserAgent",
@@ -2392,7 +2523,9 @@
               "text": "string"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 12,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultUserAgentAppendix",
@@ -2420,7 +2553,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
+          "fileLine": 41,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "DiscordAPIError",
@@ -2508,6 +2643,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 52,
+              "fileColumn": 2,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -2518,7 +2655,8 @@
                     "startIndex": 1,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "code",
@@ -2526,7 +2664,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "status",
@@ -2534,7 +2673,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "method",
@@ -2542,7 +2682,8 @@
                     "startIndex": 9,
                     "endIndex": 10
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "url",
@@ -2550,7 +2691,8 @@
                     "startIndex": 11,
                     "endIndex": 12
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "bodyData",
@@ -2558,7 +2700,8 @@
                     "startIndex": 13,
                     "endIndex": 17
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -2580,6 +2723,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 54,
+              "fileColumn": 10,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2610,6 +2755,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 56,
+              "fileColumn": 10,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2640,6 +2787,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 68,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2680,6 +2829,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 53,
+              "fileColumn": 10,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2711,6 +2862,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 42,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2741,6 +2894,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 55,
+              "fileColumn": 10,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2771,6 +2926,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 57,
+              "fileColumn": 10,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2797,10 +2954,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface DiscordErrorData "
+              "text": "export interface DiscordErrorData "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
+          "fileLine": 14,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "DiscordErrorData",
           "preserveMemberOrder": false,
@@ -2823,6 +2982,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 15,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2851,6 +3012,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 16,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -2878,6 +3041,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 17,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2897,7 +3062,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type HandlerRequestData = "
+              "text": "export type HandlerRequestData = "
             },
             {
               "kind": "Reference",
@@ -2922,7 +3087,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 338,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "HandlerRequestData",
           "typeTokenRange": {
@@ -2949,7 +3116,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/errors/HTTPError.ts",
+          "fileLine": 7,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "HTTPError",
@@ -3019,6 +3188,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 19,
+              "fileColumn": 2,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -3029,7 +3200,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "statusText",
@@ -3037,7 +3209,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "method",
@@ -3045,7 +3218,8 @@
                     "startIndex": 5,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "url",
@@ -3053,7 +3227,8 @@
                     "startIndex": 7,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "bodyData",
@@ -3061,7 +3236,8 @@
                     "startIndex": 9,
                     "endIndex": 13
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -3083,6 +3259,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 22,
+              "fileColumn": 10,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3113,6 +3291,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 18,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3144,6 +3324,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 8,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3174,6 +3356,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 20,
+              "fileColumn": 10,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3204,6 +3388,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 23,
+              "fileColumn": 10,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3230,7 +3416,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ImageExtension = "
+              "text": "export type ImageExtension = "
             },
             {
               "kind": "Content",
@@ -3250,7 +3436,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 52,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ImageExtension",
           "typeTokenRange": {
@@ -3265,7 +3453,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ImageSize = "
+              "text": "export type ImageSize = "
             },
             {
               "kind": "Content",
@@ -3285,7 +3473,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 54,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ImageSize",
           "typeTokenRange": {
@@ -3300,7 +3490,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface ImageURLOptions extends "
+              "text": "export interface ImageURLOptions extends "
             },
             {
               "kind": "Reference",
@@ -3312,7 +3502,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/CDN.ts",
+          "fileLine": 34,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ImageURLOptions",
           "preserveMemberOrder": false,
@@ -3335,6 +3527,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 38,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3359,10 +3553,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface InvalidRequestWarningData "
+              "text": "export interface InvalidRequestWarningData "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 209,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "InvalidRequestWarningData",
           "preserveMemberOrder": false,
@@ -3385,6 +3581,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 213,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3412,6 +3610,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 217,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3431,10 +3631,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface MakeURLOptions "
+              "text": "export interface MakeURLOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/CDN.ts",
+          "fileLine": 44,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "MakeURLOptions",
           "preserveMemberOrder": false,
@@ -3457,6 +3659,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 48,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3484,6 +3688,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 54,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3512,6 +3718,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 58,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3555,8 +3763,12 @@
               "text": "): "
             },
             {
+              "kind": "Content",
+              "text": "import(\"url\")."
+            },
+            {
               "kind": "Reference",
-              "text": "URLSearchParams_2",
+              "text": "URLSearchParams",
               "canonicalReference": "!\"\\\"url\\\"\".URLSearchParams:class"
             },
             {
@@ -3564,10 +3776,12 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/utils.ts",
+          "fileLine": 36,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 6,
-            "endIndex": 7
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3578,7 +3792,8 @@
                 "startIndex": 3,
                 "endIndex": 5
               },
-              "isOptional": true
+              "isOptional": true,
+              "isRest": false
             }
           ],
           "typeParameters": [
@@ -3603,10 +3818,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface OAuthErrorData "
+              "text": "export interface OAuthErrorData "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
+          "fileLine": 20,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "OAuthErrorData",
           "preserveMemberOrder": false,
@@ -3629,6 +3846,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 22,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3656,6 +3875,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 21,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3682,7 +3903,9 @@
               "text": "{\n    readonly 'image/apng': \"image/png\";\n}"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 56,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "OverwrittenMimeTypes",
@@ -3723,7 +3946,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/utils.ts",
+          "fileLine": 53,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 5
@@ -3737,7 +3962,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "parseResponse"
@@ -3749,10 +3975,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RateLimitData "
+              "text": "export interface RateLimitData "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 134,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RateLimitData",
           "preserveMemberOrder": false,
@@ -3775,6 +4003,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 138,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3802,6 +4032,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 142,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3829,6 +4061,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 146,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3856,6 +4090,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 153,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3883,6 +4119,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 157,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3910,6 +4148,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 161,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3937,6 +4177,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 165,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3964,6 +4206,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 169,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4004,7 +4248,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/errors/RateLimitError.ts",
+          "fileLine": 3,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "RateLimitError",
@@ -4029,6 +4275,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 25,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -4039,7 +4287,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -4061,6 +4310,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4091,6 +4342,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4121,6 +4374,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 6,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4151,6 +4406,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 16,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4181,6 +4438,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 8,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4211,6 +4470,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 35,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4241,6 +4502,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 14,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4271,6 +4534,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 4,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4301,6 +4566,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 12,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4332,7 +4599,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type RateLimitQueueFilter = "
+              "text": "export type RateLimitQueueFilter = "
             },
             {
               "kind": "Content",
@@ -4361,7 +4628,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 175,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RateLimitQueueFilter",
           "typeTokenRange": {
@@ -4376,10 +4645,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RawFile "
+              "text": "export interface RawFile "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 223,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RawFile",
           "preserveMemberOrder": false,
@@ -4402,6 +4673,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 227,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4443,6 +4716,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 231,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4470,6 +4745,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 237,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4497,6 +4774,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 241,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4516,10 +4795,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RequestBody "
+              "text": "export interface RequestBody "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/errors/DiscordAPIError.ts",
+          "fileLine": 25,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestBody",
           "preserveMemberOrder": false,
@@ -4547,6 +4828,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 26,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4574,6 +4857,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 27,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4593,10 +4878,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RequestData "
+              "text": "export interface RequestData "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 247,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestData",
           "preserveMemberOrder": false,
@@ -4619,6 +4906,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 251,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4646,6 +4935,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 257,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4673,6 +4964,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 263,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4693,7 +4986,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "BodyInit_2",
+                  "text": "BodyInit",
                   "canonicalReference": "undici!BodyInit:type"
                 },
                 {
@@ -4705,6 +4998,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 268,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4733,6 +5028,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 272,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4765,6 +5062,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 276,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4797,6 +5096,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 280,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4824,6 +5125,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 285,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4852,6 +5155,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 289,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4879,6 +5184,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 293,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4911,6 +5218,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 297,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4938,6 +5247,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 303,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4957,10 +5268,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RequestHeaders "
+              "text": "export interface RequestHeaders "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 309,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestHeaders",
           "preserveMemberOrder": false,
@@ -4983,6 +5296,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 311,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5010,6 +5325,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 312,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -5037,6 +5354,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 310,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -5059,7 +5378,9 @@
               "text": "export declare enum RequestMethod "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 318,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestMethod",
           "preserveMemberOrder": false,
@@ -5078,6 +5399,8 @@
                   "text": "\"DELETE\""
                 }
               ],
+              "fileLine": 319,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5099,6 +5422,8 @@
                   "text": "\"GET\""
                 }
               ],
+              "fileLine": 320,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5120,6 +5445,8 @@
                   "text": "\"PATCH\""
                 }
               ],
+              "fileLine": 321,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5141,6 +5468,8 @@
                   "text": "\"POST\""
                 }
               ],
+              "fileLine": 322,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5162,6 +5491,8 @@
                   "text": "\"PUT\""
                 }
               ],
+              "fileLine": 323,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5178,7 +5509,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface ResponseLike extends "
+              "text": "export interface ResponseLike extends "
             },
             {
               "kind": "Reference",
@@ -5191,7 +5522,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Response_2",
+              "text": "Response",
               "canonicalReference": "undici!Response:class"
             },
             {
@@ -5203,7 +5534,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 204,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ResponseLike",
           "preserveMemberOrder": false,
@@ -5228,7 +5561,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "ReadableStream_2",
+                  "text": "ReadableStream",
                   "canonicalReference": "!\"\\\"stream/web\\\"\".ReadableStream:interface"
                 },
                 {
@@ -5240,6 +5573,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 206,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5289,7 +5624,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/REST.ts",
+          "fileLine": 34,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "REST",
@@ -5327,6 +5664,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 74,
+              "fileColumn": 39,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -5337,7 +5676,8 @@
                     "startIndex": 1,
                     "endIndex": 5
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ]
             },
@@ -5364,6 +5704,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 39,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5395,6 +5737,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 41,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5425,6 +5769,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 417,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5456,6 +5802,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 410,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5510,6 +5858,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 171,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -5525,7 +5875,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -5533,7 +5884,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5581,6 +5933,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 161,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -5596,7 +5950,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -5604,7 +5959,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5634,6 +5990,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 51,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5664,6 +6022,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 46,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5694,6 +6054,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 56,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5738,6 +6100,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 66,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5782,6 +6146,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 61,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5813,6 +6179,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 74,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5866,6 +6234,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 201,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -5881,7 +6251,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -5889,7 +6260,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5937,6 +6309,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 181,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -5952,7 +6326,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -5960,7 +6335,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6008,6 +6384,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 191,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -6023,7 +6401,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -6031,7 +6410,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6079,6 +6459,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 241,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6094,7 +6476,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6133,6 +6516,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 210,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6148,7 +6533,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6182,6 +6568,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 220,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6197,7 +6585,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6230,6 +6619,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 230,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6245,7 +6636,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6269,7 +6661,9 @@
               "text": "export declare enum RESTEvents "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 39,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RESTEvents",
           "preserveMemberOrder": false,
@@ -6288,6 +6682,8 @@
                   "text": "\"restDebug\""
                 }
               ],
+              "fileLine": 40,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6309,6 +6705,8 @@
                   "text": "\"handlerSweep\""
                 }
               ],
+              "fileLine": 41,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6330,6 +6728,8 @@
                   "text": "\"hashSweep\""
                 }
               ],
+              "fileLine": 42,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6351,6 +6751,8 @@
                   "text": "\"invalidRequestWarning\""
                 }
               ],
+              "fileLine": 43,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6372,6 +6774,8 @@
                   "text": "\"rateLimited\""
                 }
               ],
+              "fileLine": 44,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6393,6 +6797,8 @@
                   "text": "\"response\""
                 }
               ],
+              "fileLine": 45,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6409,10 +6815,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RestEvents "
+              "text": "export interface RestEvents "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 7,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RestEvents",
           "preserveMemberOrder": false,
@@ -6453,6 +6861,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 8,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6498,6 +6908,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 9,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6534,6 +6946,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6570,6 +6984,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 11,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6615,6 +7031,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 12,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6642,6 +7060,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 13,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6661,7 +7081,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type RestEventsMap = "
+              "text": "export type RestEventsMap = "
             },
             {
               "kind": "Content",
@@ -6690,7 +7110,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 16,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RestEventsMap",
           "typeTokenRange": {
@@ -6705,10 +7127,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RESTOptions "
+              "text": "export interface RESTOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 23,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RESTOptions",
           "preserveMemberOrder": false,
@@ -6736,6 +7160,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 27,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6763,6 +7189,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 33,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6790,6 +7218,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 40,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6817,6 +7247,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 46,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6844,6 +7276,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 52,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6871,6 +7305,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 58,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6898,6 +7334,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 64,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6925,6 +7363,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 70,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6957,6 +7397,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 76,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6984,6 +7426,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 83,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7012,7 +7456,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "RequestInit_2",
+                  "text": "RequestInit",
                   "canonicalReference": "undici!RequestInit:interface"
                 },
                 {
@@ -7042,6 +7486,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 88,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -7056,7 +7502,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "init",
@@ -7064,7 +7511,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "makeRequest"
@@ -7087,6 +7535,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 94,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7119,6 +7569,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 103,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7146,6 +7598,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 110,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7173,6 +7627,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 116,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7200,6 +7656,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 122,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7227,6 +7685,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 128,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7246,7 +7706,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type RouteLike = "
+              "text": "export type RouteLike = "
             },
             {
               "kind": "Content",
@@ -7257,7 +7717,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/types.ts",
+          "fileLine": 326,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RouteLike",
           "typeTokenRange": {
@@ -7272,7 +7734,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type StickerExtension = "
+              "text": "export type StickerExtension = "
             },
             {
               "kind": "Content",
@@ -7292,7 +7754,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/lib/utils/constants.ts",
+          "fileLine": 53,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "StickerExtension",
           "typeTokenRange": {
@@ -7314,7 +7778,9 @@
               "text": "string"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/shared.ts",
+          "fileLine": 15,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",

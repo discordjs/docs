@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.2",
+    "toolPackage": "@discordjs/api-extractor",
+    "toolVersion": "7.38.1",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -192,7 +192,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 214,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "AudioPlayer",
@@ -217,6 +219,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 242,
+              "fileColumn": 2,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -227,7 +231,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ]
             },
@@ -249,6 +254,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 510,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -288,6 +295,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 460,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -303,7 +312,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -341,6 +351,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 378,
+              "fileColumn": 9,
               "typeParameters": [
                 {
                   "typeParameterName": "T",
@@ -369,7 +381,8 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -399,6 +412,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 256,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -439,6 +454,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 308,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -477,6 +494,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 492,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -492,7 +511,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -517,6 +537,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 475,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -544,7 +566,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface AudioPlayer extends "
+              "text": "export interface AudioPlayer extends "
             },
             {
               "kind": "Reference",
@@ -556,7 +578,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 155,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "AudioPlayer",
           "preserveMemberOrder": false,
@@ -604,6 +628,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 161,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 7,
@@ -618,7 +644,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -626,7 +653,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -665,6 +693,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 167,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -679,7 +709,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -687,7 +718,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -744,6 +776,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 173,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 9,
@@ -758,7 +792,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -766,7 +801,8 @@
                     "startIndex": 3,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -814,6 +850,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 179,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 7,
@@ -828,7 +866,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -836,7 +875,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -902,6 +942,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 185,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 11,
@@ -916,7 +958,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -924,7 +967,8 @@
                     "startIndex": 5,
                     "endIndex": 10
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "typeParameters": [
@@ -957,10 +1001,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface AudioPlayerBufferingState "
+              "text": "export interface AudioPlayerBufferingState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 85,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "AudioPlayerBufferingState",
           "preserveMemberOrder": false,
@@ -983,6 +1029,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 86,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1010,6 +1058,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 87,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1046,6 +1096,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 88,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1074,6 +1126,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 92,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1102,6 +1156,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 93,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1133,7 +1189,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayerError.ts",
+          "fileLine": 7,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "AudioPlayerError",
@@ -1167,6 +1225,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 11,
+              "fileColumn": 42,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -1177,7 +1237,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "resource",
@@ -1185,7 +1246,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -1208,6 +1270,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 11,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1234,10 +1298,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface AudioPlayerIdleState "
+              "text": "export interface AudioPlayerIdleState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 76,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "AudioPlayerIdleState",
           "preserveMemberOrder": false,
@@ -1261,6 +1327,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 77,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1280,10 +1348,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface AudioPlayerPausedState "
+              "text": "export interface AudioPlayerPausedState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 125,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "AudioPlayerPausedState",
           "preserveMemberOrder": false,
@@ -1315,6 +1385,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 126,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1342,6 +1414,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 131,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1370,6 +1444,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 136,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1397,6 +1473,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 141,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1434,6 +1512,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 143,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1453,10 +1533,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface AudioPlayerPlayingState "
+              "text": "export interface AudioPlayerPlayingState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 100,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "AudioPlayerPlayingState",
           "preserveMemberOrder": false,
@@ -1479,6 +1561,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 104,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1515,6 +1599,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 105,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1542,6 +1628,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 111,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1570,6 +1658,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 116,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1598,6 +1688,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 118,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1617,7 +1709,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type AudioPlayerState = "
+              "text": "export type AudioPlayerState = "
             },
             {
               "kind": "Reference",
@@ -1656,7 +1748,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 149,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "AudioPlayerState",
           "typeTokenRange": {
@@ -1674,7 +1768,9 @@
               "text": "export declare enum AudioPlayerStatus "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 35,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "AudioPlayerStatus",
           "preserveMemberOrder": false,
@@ -1693,6 +1789,8 @@
                   "text": "\"autopaused\""
                 }
               ],
+              "fileLine": 39,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -1714,6 +1812,8 @@
                   "text": "\"buffering\""
                 }
               ],
+              "fileLine": 44,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -1735,6 +1835,8 @@
                   "text": "\"idle\""
                 }
               ],
+              "fileLine": 49,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -1756,6 +1858,8 @@
                   "text": "\"paused\""
                 }
               ],
+              "fileLine": 54,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -1777,6 +1881,8 @@
                   "text": "\"playing\""
                 }
               ],
+              "fileLine": 59,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -1805,7 +1911,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
+          "fileLine": 50,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "AudioReceiveStream",
@@ -1829,6 +1937,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 88,
+              "fileColumn": 18,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -1861,6 +1971,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 56,
+              "fileColumn": 38,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -1871,7 +1983,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -1894,6 +2007,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 54,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1917,7 +2032,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -1937,6 +2052,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 67,
+              "fileColumn": 18,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 4,
@@ -1952,7 +2069,8 @@
                     "startIndex": 1,
                     "endIndex": 3
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -1973,7 +2091,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface AudioReceiveStreamOptions extends "
+              "text": "export interface AudioReceiveStreamOptions extends "
             },
             {
               "kind": "Reference",
@@ -1985,7 +2103,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
+          "fileLine": 34,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "AudioReceiveStreamOptions",
           "preserveMemberOrder": false,
@@ -2009,6 +2129,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 35,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2044,7 +2166,9 @@
               "text": "> "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioResource.ts",
+          "fileLine": 44,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2123,6 +2247,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 97,
+              "fileColumn": 31,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -2133,7 +2259,8 @@
                     "startIndex": 1,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "streams",
@@ -2141,7 +2268,8 @@
                     "startIndex": 5,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "metadata",
@@ -2149,7 +2277,8 @@
                     "startIndex": 9,
                     "endIndex": 10
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "silencePaddingFrames",
@@ -2157,7 +2286,8 @@
                     "startIndex": 11,
                     "endIndex": 12
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -2184,6 +2314,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 77,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -2223,6 +2355,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 55,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2254,6 +2388,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 72,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": true,
               "releaseTag": "Public",
@@ -2284,6 +2420,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 134,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2314,6 +2452,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 60,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2344,6 +2484,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 82,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2375,6 +2517,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 48,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2405,6 +2549,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 120,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2435,6 +2581,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 92,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2465,6 +2613,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 97,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2495,6 +2645,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 87,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2526,6 +2678,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 66,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": true,
               "releaseTag": "Public",
@@ -2569,7 +2723,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 648,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -2583,7 +2739,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": true
+              "isOptional": true,
+              "isRest": false
             }
           ],
           "name": "createAudioPlayer"
@@ -2595,10 +2752,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface CreateAudioPlayerOptions "
+              "text": "export interface CreateAudioPlayerOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 65,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "CreateAudioPlayerOptions",
           "preserveMemberOrder": false,
@@ -2630,6 +2789,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 66,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -2657,6 +2818,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 70,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -2754,7 +2917,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioResource.ts",
+          "fileLine": 211,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 15,
             "endIndex": 17
@@ -2768,7 +2933,8 @@
                 "startIndex": 1,
                 "endIndex": 3
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "options",
@@ -2776,7 +2942,8 @@
                 "startIndex": 4,
                 "endIndex": 14
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "typeParameters": [
@@ -2860,7 +3027,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioResource.ts",
+          "fileLine": 233,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 11,
             "endIndex": 13
@@ -2874,7 +3043,8 @@
                 "startIndex": 3,
                 "endIndex": 5
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "options",
@@ -2882,7 +3052,8 @@
                 "startIndex": 6,
                 "endIndex": 10
               },
-              "isOptional": true
+              "isOptional": true,
+              "isRest": false
             }
           ],
           "typeParameters": [
@@ -2907,10 +3078,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface CreateAudioResourceOptions<T> "
+              "text": "export interface CreateAudioResourceOptions<T> "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioResource.ts",
+          "fileLine": 13,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "typeParameters": [
             {
@@ -2946,6 +3119,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -2974,6 +3149,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 23,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3001,6 +3178,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 30,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3028,6 +3207,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 36,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3059,7 +3240,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
+          "fileLine": 38,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -3076,10 +3259,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface CreateVoiceConnectionOptions "
+              "text": "export interface CreateVoiceConnectionOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/joinVoiceChannel.ts",
+          "fileLine": 8,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "CreateVoiceConnectionOptions",
           "preserveMemberOrder": false,
@@ -3103,6 +3288,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 9,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3130,6 +3317,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 15,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -3204,7 +3393,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/demuxProbe.ts",
+          "fileLine": 44,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3218,7 +3409,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "probeSize",
@@ -3226,7 +3418,8 @@
                 "startIndex": 3,
                 "endIndex": 4
               },
-              "isOptional": true
+              "isOptional": true,
+              "isRest": false
             },
             {
               "parameterName": "validator",
@@ -3234,7 +3427,8 @@
                 "startIndex": 5,
                 "endIndex": 7
               },
-              "isOptional": true
+              "isOptional": true,
+              "isRest": false
             }
           ],
           "name": "demuxProbe"
@@ -3246,7 +3440,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type DiscordGatewayAdapterCreator = "
+              "text": "export type DiscordGatewayAdapterCreator = "
             },
             {
               "kind": "Content",
@@ -3271,7 +3465,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/adapter.ts",
+          "fileLine": 50,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterCreator",
           "typeTokenRange": {
@@ -3286,10 +3482,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface DiscordGatewayAdapterImplementerMethods "
+              "text": "export interface DiscordGatewayAdapterImplementerMethods "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/adapter.ts",
+          "fileLine": 29,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterImplementerMethods",
           "preserveMemberOrder": false,
@@ -3312,6 +3510,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 34,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3348,6 +3548,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 41,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3362,7 +3564,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "sendPayload"
@@ -3377,10 +3580,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface DiscordGatewayAdapterLibraryMethods "
+              "text": "export interface DiscordGatewayAdapterLibraryMethods "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/adapter.ts",
+          "fileLine": 7,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "DiscordGatewayAdapterLibraryMethods",
           "preserveMemberOrder": false,
@@ -3403,6 +3608,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 11,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3440,6 +3647,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 17,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3454,7 +3663,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "onVoiceServerUpdate"
@@ -3486,6 +3696,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 23,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3500,7 +3712,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "onVoiceStateUpdate"
@@ -3515,7 +3728,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type EndBehavior = "
+              "text": "export type EndBehavior = "
             },
             {
               "kind": "Content",
@@ -3553,7 +3766,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
+          "fileLine": 25,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "EndBehavior",
           "typeTokenRange": {
@@ -3571,7 +3786,9 @@
               "text": "export declare enum EndBehaviorType "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/AudioReceiveStream.ts",
+          "fileLine": 8,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "EndBehaviorType",
           "preserveMemberOrder": false,
@@ -3590,6 +3807,8 @@
                   "text": "2"
                 }
               ],
+              "fileLine": 22,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -3611,6 +3830,8 @@
                   "text": "1"
                 }
               ],
+              "fileLine": 17,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -3632,6 +3853,8 @@
                   "text": "0"
                 }
               ],
+              "fileLine": 12,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -3704,7 +3927,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/entersState.ts",
+          "fileLine": 13,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3718,7 +3943,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "status",
@@ -3726,7 +3952,8 @@
                 "startIndex": 3,
                 "endIndex": 4
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "timeoutOrSignal",
@@ -3734,7 +3961,8 @@
                 "startIndex": 5,
                 "endIndex": 7
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "entersState"
@@ -3802,7 +4030,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/entersState.ts",
+          "fileLine": 26,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 8,
             "endIndex": 12
@@ -3816,7 +4046,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "status",
@@ -3824,7 +4055,8 @@
                 "startIndex": 3,
                 "endIndex": 4
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "timeoutOrSignal",
@@ -3832,7 +4064,8 @@
                 "startIndex": 5,
                 "endIndex": 7
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "entersState"
@@ -3855,7 +4088,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/generateDependencyReport.ts",
+          "fileLine": 51,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -3906,7 +4141,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/DataStore.ts",
+          "fileLine": 50,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 7
@@ -3955,7 +4192,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/DataStore.ts",
+          "fileLine": 87,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 5,
             "endIndex": 7
@@ -3969,7 +4208,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             },
             {
               "parameterName": "group",
@@ -3977,7 +4217,8 @@
                 "startIndex": 3,
                 "endIndex": 4
               },
-              "isOptional": true
+              "isOptional": true,
+              "isRest": false
             }
           ],
           "name": "getVoiceConnection"
@@ -4022,7 +4263,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/DataStore.ts",
+          "fileLine": 60,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -4036,7 +4279,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": true
+              "isOptional": true,
+              "isRest": false
             }
           ],
           "name": "getVoiceConnections"
@@ -4081,7 +4325,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/DataStore.ts",
+          "fileLine": 68,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -4095,7 +4341,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "getVoiceConnections"
@@ -4107,10 +4354,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface JoinConfig "
+              "text": "export interface JoinConfig "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/DataStore.ts",
+          "fileLine": 5,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "JoinConfig",
           "preserveMemberOrder": false,
@@ -4133,6 +4382,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 6,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4160,6 +4411,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 7,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4187,6 +4440,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 8,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4214,6 +4469,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 9,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4241,6 +4498,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4281,6 +4540,10 @@
               "text": "): "
             },
             {
+              "kind": "Content",
+              "text": "import(\"./VoiceConnection\")."
+            },
+            {
               "kind": "Reference",
               "text": "VoiceConnection",
               "canonicalReference": "@discordjs/voice!VoiceConnection:class"
@@ -4290,10 +4553,12 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/joinVoiceChannel.ts",
+          "fileLine": 53,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 5,
-            "endIndex": 6
+            "endIndex": 7
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4304,7 +4569,8 @@
                 "startIndex": 1,
                 "endIndex": 4
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "joinVoiceChannel"
@@ -4316,10 +4582,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface JoinVoiceChannelOptions "
+              "text": "export interface JoinVoiceChannelOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/joinVoiceChannel.ts",
+          "fileLine": 21,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "JoinVoiceChannelOptions",
           "preserveMemberOrder": false,
@@ -4342,6 +4610,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 25,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4369,6 +4639,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 30,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4396,6 +4668,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 35,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4423,6 +4697,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 40,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4450,6 +4726,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 45,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4472,7 +4750,9 @@
               "text": "export declare enum NoSubscriberBehavior "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/AudioPlayer.ts",
+          "fileLine": 18,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "NoSubscriberBehavior",
           "preserveMemberOrder": false,
@@ -4491,6 +4771,8 @@
                   "text": "\"pause\""
                 }
               ],
+              "fileLine": 22,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4512,6 +4794,8 @@
                   "text": "\"play\""
                 }
               ],
+              "fileLine": 27,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4533,6 +4817,8 @@
                   "text": "\"stop\""
                 }
               ],
+              "fileLine": 32,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4552,7 +4838,9 @@
               "text": "export declare class PlayerSubscription "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/PlayerSubscription.ts",
+          "fileLine": 9,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "PlayerSubscription",
@@ -4586,6 +4874,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 38,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -4596,7 +4886,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "player",
@@ -4604,7 +4895,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -4627,6 +4919,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 13,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4658,6 +4952,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4688,6 +4984,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 29,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -4711,10 +5009,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface ProbeInfo "
+              "text": "export interface ProbeInfo "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/demuxProbe.ts",
+          "fileLine": 23,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ProbeInfo",
           "preserveMemberOrder": false,
@@ -4738,6 +5038,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 28,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4766,6 +5068,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 33,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4797,7 +5101,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/SpeakingMap.ts",
+          "fileLine": 23,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "SpeakingMap",
@@ -4813,6 +5119,8 @@
                   "text": "constructor();"
                 }
               ],
+              "fileLine": 34,
+              "fileColumn": 65,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -4836,6 +5144,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 27,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4878,6 +5188,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 42,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -4893,7 +5205,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4923,6 +5236,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 32,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4949,7 +5264,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface SpeakingMap extends "
+              "text": "export interface SpeakingMap extends "
             },
             {
               "kind": "Reference",
@@ -4961,7 +5276,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/SpeakingMap.ts",
+          "fileLine": 4,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "SpeakingMap",
           "preserveMemberOrder": false,
@@ -5000,6 +5317,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -5014,7 +5333,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -5022,7 +5342,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -5061,6 +5382,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 17,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -5075,7 +5398,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -5083,7 +5407,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -5115,7 +5440,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/SSRCMap.ts",
+          "fileLine": 33,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "SSRCMap",
@@ -5131,6 +5458,8 @@
                   "text": "constructor();"
                 }
               ],
+              "fileLine": 37,
+              "fileColumn": 51,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -5167,6 +5496,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 87,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5182,7 +5513,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5220,6 +5552,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 67,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5235,7 +5569,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5269,6 +5604,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 49,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5284,7 +5621,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5305,7 +5643,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface SSRCMap extends "
+              "text": "export interface SSRCMap extends "
             },
             {
               "kind": "Reference",
@@ -5317,7 +5655,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/SSRCMap.ts",
+          "fileLine": 24,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "SSRCMap",
           "preserveMemberOrder": false,
@@ -5365,6 +5705,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 25,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 7,
@@ -5379,7 +5721,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -5387,7 +5730,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -5444,6 +5788,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 26,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 9,
@@ -5458,7 +5804,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -5466,7 +5813,8 @@
                     "startIndex": 3,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -5514,6 +5862,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 27,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 7,
@@ -5528,7 +5878,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -5536,7 +5887,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -5559,7 +5911,9 @@
               "text": "export declare enum StreamType "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/audio/TransformerGraph.ts",
+          "fileLine": 28,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "StreamType",
           "preserveMemberOrder": false,
@@ -5578,6 +5932,8 @@
                   "text": "\"arbitrary\""
                 }
               ],
+              "fileLine": 32,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5599,6 +5955,8 @@
                   "text": "\"ogg/opus\""
                 }
               ],
+              "fileLine": 36,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5620,6 +5978,8 @@
                   "text": "\"opus\""
                 }
               ],
+              "fileLine": 40,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5641,6 +6001,8 @@
                   "text": "\"raw\""
                 }
               ],
+              "fileLine": 44,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5662,6 +6024,8 @@
                   "text": "\"webm/opus\""
                 }
               ],
+              "fileLine": 48,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5682,7 +6046,7 @@
             },
             {
               "kind": "Reference",
-              "text": "Buffer_2",
+              "text": "Buffer",
               "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
             },
             {
@@ -5698,7 +6062,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/util/demuxProbe.ts",
+          "fileLine": 14,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 4
@@ -5712,7 +6078,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "validateDiscordOpusHead"
@@ -5732,6 +6099,8 @@
             }
           ],
           "fileUrlPath": "src/index.ts",
+          "fileLine": 28,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
@@ -5759,7 +6128,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 199,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "VoiceConnection",
@@ -5793,6 +6164,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 244,
+              "fileColumn": 2,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -5803,7 +6176,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -5811,7 +6185,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -5833,6 +6208,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 404,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5872,6 +6249,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 551,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5887,7 +6266,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5912,6 +6292,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 574,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5943,6 +6325,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 526,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5983,6 +6367,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 702,
+              "fileColumn": 2,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5998,7 +6384,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6023,6 +6410,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 680,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6046,7 +6435,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -6062,6 +6451,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 537,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6077,7 +6468,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6095,7 +6487,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -6104,7 +6496,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "Buffer_2",
+                  "text": "Buffer",
                   "canonicalReference": "!\"\\\"buffer\\\"\".__global.Buffer:interface"
                 },
                 {
@@ -6116,6 +6508,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 517,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6131,7 +6525,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6157,6 +6552,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 231,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6209,6 +6606,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 611,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -6224,7 +6623,8 @@
                     "startIndex": 1,
                     "endIndex": 5
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6249,6 +6649,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 204,
+              "fileColumn": 9,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6287,6 +6689,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 646,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6302,7 +6706,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6337,6 +6742,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 276,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6381,6 +6788,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 658,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6396,7 +6805,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6417,7 +6827,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceConnection extends "
+              "text": "export interface VoiceConnection extends "
             },
             {
               "kind": "Reference",
@@ -6429,7 +6839,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 166,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnection",
           "preserveMemberOrder": false,
@@ -6477,6 +6889,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 172,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 7,
@@ -6491,7 +6905,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -6499,7 +6914,8 @@
                     "startIndex": 3,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -6538,6 +6954,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 178,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -6552,7 +6970,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -6560,7 +6979,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -6617,6 +7037,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 184,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 9,
@@ -6631,7 +7053,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -6639,7 +7062,8 @@
                     "startIndex": 3,
                     "endIndex": 8
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "on"
@@ -6705,6 +7129,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 190,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 11,
@@ -6719,7 +7145,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "listener",
@@ -6727,7 +7154,8 @@
                     "startIndex": 5,
                     "endIndex": 10
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "typeParameters": [
@@ -6760,10 +7188,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceConnectionConnectingState "
+              "text": "export interface VoiceConnectionConnectingState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 129,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionConnectingState",
           "preserveMemberOrder": false,
@@ -6787,6 +7217,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 130,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6815,6 +7247,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 131,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6843,6 +7277,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 132,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6875,6 +7311,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 133,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -6894,10 +7332,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceConnectionDestroyedState "
+              "text": "export interface VoiceConnectionDestroyedState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 152,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionDestroyedState",
           "preserveMemberOrder": false,
@@ -6921,6 +7361,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 153,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6940,10 +7382,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceConnectionDisconnectedBaseState "
+              "text": "export interface VoiceConnectionDisconnectedBaseState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 90,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedBaseState",
           "preserveMemberOrder": false,
@@ -6967,6 +7411,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 91,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6995,6 +7441,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 92,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7027,6 +7475,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 93,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -7046,7 +7496,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceConnectionDisconnectedOtherState extends "
+              "text": "export interface VoiceConnectionDisconnectedOtherState extends "
             },
             {
               "kind": "Reference",
@@ -7058,7 +7508,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 100,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedOtherState",
           "preserveMemberOrder": false,
@@ -7104,6 +7556,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 101,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7128,7 +7582,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type VoiceConnectionDisconnectedState = "
+              "text": "export type VoiceConnectionDisconnectedState = "
             },
             {
               "kind": "Reference",
@@ -7149,7 +7603,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 121,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedState",
           "typeTokenRange": {
@@ -7164,7 +7620,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceConnectionDisconnectedWebSocketState extends "
+              "text": "export interface VoiceConnectionDisconnectedWebSocketState extends "
             },
             {
               "kind": "Reference",
@@ -7176,7 +7632,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 108,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectedWebSocketState",
           "preserveMemberOrder": false,
@@ -7199,6 +7657,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 112,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7227,6 +7687,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 114,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7254,7 +7716,9 @@
               "text": "export declare enum VoiceConnectionDisconnectReason "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 64,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionDisconnectReason",
           "preserveMemberOrder": false,
@@ -7273,6 +7737,8 @@
                   "text": "1"
                 }
               ],
+              "fileLine": 73,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7294,6 +7760,8 @@
                   "text": "2"
                 }
               ],
+              "fileLine": 78,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7315,6 +7783,8 @@
                   "text": "3"
                 }
               ],
+              "fileLine": 83,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7336,6 +7806,8 @@
                   "text": "0"
                 }
               ],
+              "fileLine": 68,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7352,10 +7824,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceConnectionReadyState "
+              "text": "export interface VoiceConnectionReadyState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 140,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionReadyState",
           "preserveMemberOrder": false,
@@ -7379,6 +7853,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 141,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7407,6 +7883,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 142,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7435,6 +7913,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 143,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7467,6 +7947,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 144,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -7486,10 +7968,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceConnectionSignallingState "
+              "text": "export interface VoiceConnectionSignallingState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 55,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionSignallingState",
           "preserveMemberOrder": false,
@@ -7513,6 +7997,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 56,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7541,6 +8027,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 57,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -7573,6 +8061,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 58,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -7592,7 +8082,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type VoiceConnectionState = "
+              "text": "export type VoiceConnectionState = "
             },
             {
               "kind": "Reference",
@@ -7640,7 +8130,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 159,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionState",
           "typeTokenRange": {
@@ -7658,7 +8150,9 @@
               "text": "export declare enum VoiceConnectionStatus "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/VoiceConnection.ts",
+          "fileLine": 24,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceConnectionStatus",
           "preserveMemberOrder": false,
@@ -7677,6 +8171,8 @@
                   "text": "\"connecting\""
                 }
               ],
+              "fileLine": 28,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7698,6 +8194,8 @@
                   "text": "\"destroyed\""
                 }
               ],
+              "fileLine": 33,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7719,6 +8217,8 @@
                   "text": "\"disconnected\""
                 }
               ],
+              "fileLine": 38,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7740,6 +8240,8 @@
                   "text": "\"ready\""
                 }
               ],
+              "fileLine": 43,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7761,6 +8263,8 @@
                   "text": "\"signalling\""
                 }
               ],
+              "fileLine": 48,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -7780,7 +8284,9 @@
               "text": "export declare class VoiceReceiver "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/VoiceReceiver.ts",
+          "fileLine": 22,
+          "fileColumn": 1,
           "releaseTag": "Beta",
           "isAbstract": false,
           "name": "VoiceReceiver",
@@ -7805,6 +8311,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 48,
+              "fileColumn": 40,
               "releaseTag": "Beta",
               "isProtected": false,
               "overloadIndex": 1,
@@ -7815,7 +8323,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -7838,6 +8347,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 48,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Beta",
@@ -7869,6 +8380,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 31,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Beta",
@@ -7930,6 +8443,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 169,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
@@ -7945,7 +8460,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -7953,7 +8469,8 @@
                     "startIndex": 3,
                     "endIndex": 7
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -7992,6 +8509,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 36,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Beta",
@@ -8023,6 +8542,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 26,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Beta",
@@ -8045,10 +8566,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface VoiceUserData "
+              "text": "export interface VoiceUserData "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/receive/SSRCMap.ts",
+          "fileLine": 6,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "VoiceUserData",
           "preserveMemberOrder": false,
@@ -8071,6 +8594,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -8098,6 +8623,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 15,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -8125,6 +8652,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 21,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",

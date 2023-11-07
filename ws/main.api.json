@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.38.2",
+    "toolPackage": "@discordjs/api-extractor",
+    "toolVersion": "7.38.1",
     "schemaVersion": 1011,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -180,10 +180,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface BootstrapOptions "
+              "text": "export interface BootstrapOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/utils/WorkerBootstrapper.ts",
+          "fileLine": 18,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "BootstrapOptions",
           "preserveMemberOrder": false,
@@ -211,6 +213,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 24,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -252,6 +256,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 28,
+              "fileColumn": 2,
               "isOptional": true,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -266,7 +272,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "shardCallback"
@@ -284,7 +291,9 @@
               "text": "export declare enum CloseCodes "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileLine": 73,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "CloseCodes",
           "preserveMemberOrder": false,
@@ -303,6 +312,8 @@
                   "text": "1000"
                 }
               ],
+              "fileLine": 74,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -324,6 +335,8 @@
                   "text": "4200"
                 }
               ],
+              "fileLine": 75,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -343,7 +356,9 @@
               "text": "export declare enum CompressionMethod "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/utils/constants.ts",
+          "fileLine": 20,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "CompressionMethod",
           "preserveMemberOrder": false,
@@ -362,6 +377,8 @@
                   "text": "\"zlib-stream\""
                 }
               ],
+              "fileLine": 21,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -385,7 +402,9 @@
               "text": "`@discordjs/ws ${string}`"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/utils/constants.ts",
+          "fileLine": 24,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultDeviceProperty",
@@ -489,7 +508,9 @@
               "text": " | null) => void;\n    readonly handshakeTimeout: 30000;\n    readonly helloTimeout: 60000;\n    readonly readyTimeout: 15000;\n}"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/utils/constants.ts",
+          "fileLine": 31,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "DefaultWebSocketManagerOptions",
@@ -508,7 +529,9 @@
               "text": "export declare enum Encoding "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/utils/constants.ts",
+          "fileLine": 13,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "Encoding",
           "preserveMemberOrder": false,
@@ -527,6 +550,8 @@
                   "text": "\"json\""
                 }
               ],
+              "fileLine": 14,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -543,7 +568,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface FetchingStrategyOptions extends "
+              "text": "export interface FetchingStrategyOptions extends "
             },
             {
               "kind": "Reference",
@@ -568,7 +593,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/context/IContextFetchingStrategy.ts",
+          "fileLine": 5,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "FetchingStrategyOptions",
           "preserveMemberOrder": false,
@@ -592,6 +619,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 16,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -619,6 +648,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 17,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -655,7 +686,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/utils/constants.ts",
+          "fileLine": 72,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -672,10 +705,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface IContextFetchingStrategy "
+              "text": "export interface IContextFetchingStrategy "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/context/IContextFetchingStrategy.ts",
+          "fileLine": 23,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "IContextFetchingStrategy",
           "preserveMemberOrder": false,
@@ -699,6 +734,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 24,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -748,6 +785,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 25,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -762,7 +801,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "retrieveSessionInfo"
@@ -811,6 +851,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 26,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -825,7 +867,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "sessionInfo",
@@ -833,7 +876,8 @@
                     "startIndex": 3,
                     "endIndex": 5
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "updateSessionInfo"
@@ -878,6 +922,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 32,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -892,7 +938,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "signal",
@@ -900,7 +947,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "waitForIdentify"
@@ -915,10 +963,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface IdentifyState "
+              "text": "export interface IdentifyState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/throttling/SimpleIdentifyThrottler.ts",
+          "fileLine": 9,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "IdentifyState",
           "preserveMemberOrder": false,
@@ -942,6 +992,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -969,6 +1021,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 11,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -988,10 +1042,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface IIdentifyThrottler "
+              "text": "export interface IIdentifyThrottler "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/throttling/IIdentifyThrottler.ts",
+          "fileLine": 6,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "IIdentifyThrottler",
           "preserveMemberOrder": false,
@@ -1036,6 +1092,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 10,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -1050,7 +1108,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "signal",
@@ -1058,7 +1117,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "waitForIdentify"
@@ -1094,7 +1154,9 @@
               "text": ">"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/utils/constants.ts",
+          "fileLine": 66,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "ImportantGatewayOpcodes",
@@ -1110,10 +1172,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface IShardingStrategy "
+              "text": "export interface IShardingStrategy "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/IShardingStrategy.ts",
+          "fileLine": 9,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "IShardingStrategy",
           "preserveMemberOrder": false,
@@ -1141,6 +1205,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 13,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -1196,6 +1262,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 17,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -1210,7 +1278,8 @@
                     "startIndex": 1,
                     "endIndex": 5
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "name": "destroy"
@@ -1256,6 +1325,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 21,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -1306,6 +1377,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 25,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -1320,7 +1393,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "payload",
@@ -1328,7 +1402,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "send"
@@ -1364,6 +1439,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 29,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -1378,7 +1455,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "spawn"
@@ -1393,7 +1471,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type ManagerShardEventsMap = "
+              "text": "export type ManagerShardEventsMap = "
             },
             {
               "kind": "Content",
@@ -1406,7 +1484,7 @@
             },
             {
               "kind": "Content",
-              "text": "]: [\n    "
+              "text": "]: [\n        "
             },
             {
               "kind": "Reference",
@@ -1415,7 +1493,7 @@
             },
             {
               "kind": "Content",
-              "text": "[K] extends [] ? {\n        shardId: number;\n    } : "
+              "text": "[K] extends [] ? {\n            shardId: number;\n        } : "
             },
             {
               "kind": "Reference",
@@ -1424,14 +1502,16 @@
             },
             {
               "kind": "Content",
-              "text": "[K][0] & {\n        shardId: number;\n    }\n    ];\n}"
+              "text": "[K][0] & {\n            shardId: number;\n        }\n    ];\n}"
             },
             {
               "kind": "Content",
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileLine": 183,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ManagerShardEventsMap",
           "typeTokenRange": {
@@ -1480,7 +1560,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/context/IContextFetchingStrategy.ts",
+          "fileLine": 35,
+          "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
             "endIndex": 7
@@ -1494,7 +1576,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "isOptional": false
+              "isOptional": false,
+              "isRest": false
             }
           ],
           "name": "managerToFetchingStrategyOptions"
@@ -1506,10 +1589,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface OptionalWebSocketManagerOptions "
+              "text": "export interface OptionalWebSocketManagerOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileLine": 73,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "OptionalWebSocketManagerOptions",
           "preserveMemberOrder": false,
@@ -1555,6 +1640,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 77,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -1569,7 +1656,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "buildIdentifyThrottler"
@@ -1602,6 +1690,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 91,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -1616,7 +1706,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "buildStrategy"
@@ -1644,6 +1735,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 97,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1672,6 +1765,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 103,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1699,6 +1794,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 107,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1726,6 +1823,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 111,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1754,6 +1853,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 115,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1786,6 +1887,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 119,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1813,6 +1916,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 123,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1840,6 +1945,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 127,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1889,6 +1996,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 142,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -1903,7 +2012,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "retrieveSessionInfo"
@@ -1926,6 +2036,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 147,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -1962,6 +2074,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 168,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2015,6 +2129,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 172,
+              "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -2029,7 +2145,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "sessionInfo",
@@ -2037,7 +2154,8 @@
                     "startIndex": 3,
                     "endIndex": 5
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "name": "updateSessionInfo"
@@ -2060,6 +2178,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 178,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2079,10 +2199,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface RequiredWebSocketManagerOptions "
+              "text": "export interface RequiredWebSocketManagerOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileLine": 55,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequiredWebSocketManagerOptions",
           "preserveMemberOrder": false,
@@ -2110,6 +2232,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 59,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2138,6 +2262,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 63,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2165,6 +2291,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 67,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2184,10 +2312,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface SendRateLimitState "
+              "text": "export interface SendRateLimitState "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileLine": 78,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "SendRateLimitState",
           "preserveMemberOrder": false,
@@ -2210,6 +2340,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 79,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2237,6 +2369,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 80,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2256,10 +2390,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface SessionInfo "
+              "text": "export interface SessionInfo "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileLine": 29,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "SessionInfo",
           "preserveMemberOrder": false,
@@ -2282,6 +2418,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 33,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2309,6 +2447,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 37,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2336,6 +2476,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 41,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2363,6 +2505,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 45,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2390,6 +2534,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 49,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2409,10 +2555,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface ShardRange "
+              "text": "export interface ShardRange "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileLine": 21,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ShardRange",
           "preserveMemberOrder": false,
@@ -2435,6 +2583,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 22,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2462,6 +2612,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 23,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2493,7 +2645,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/context/SimpleContextFetchingStrategy.ts",
+          "fileLine": 5,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "SimpleContextFetchingStrategy",
@@ -2527,6 +2681,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 11,
+              "fileColumn": 8,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -2537,7 +2693,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -2545,7 +2702,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -2568,6 +2726,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 24,
+              "fileColumn": 3,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -2620,6 +2780,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 27,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -2635,7 +2797,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2673,6 +2836,10 @@
                   "text": "): "
                 },
                 {
+                  "kind": "Content",
+                  "text": "import(\"@discordjs/util\")."
+                },
+                {
                   "kind": "Reference",
                   "text": "Awaitable",
                   "canonicalReference": "@discordjs/util!Awaitable:type"
@@ -2686,10 +2853,12 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 31,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
-                "endIndex": 8
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2701,7 +2870,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "sessionInfo",
@@ -2709,7 +2879,8 @@
                     "startIndex": 3,
                     "endIndex": 5
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2756,6 +2927,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 35,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -2771,7 +2944,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "signal",
@@ -2779,7 +2953,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2813,7 +2988,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/throttling/SimpleIdentifyThrottler.ts",
+          "fileLine": 17,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "SimpleIdentifyThrottler",
@@ -2837,6 +3014,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 68,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -2847,7 +3026,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -2891,6 +3071,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 25,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -2906,7 +3088,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "signal",
@@ -2914,7 +3097,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -2948,7 +3132,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/SimpleShardingStrategy.ts",
+          "fileLine": 12,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "SimpleShardingStrategy",
@@ -2973,6 +3159,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 15,
+              "fileColumn": 69,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -2983,7 +3171,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -3010,6 +3199,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 42,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3068,6 +3259,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 55,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -3083,7 +3276,8 @@
                     "startIndex": 1,
                     "endIndex": 5
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3115,7 +3309,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, "
+                  "text": "<number, import(\"../../ws/WebSocketShard.js\")."
                 },
                 {
                   "kind": "Reference",
@@ -3131,6 +3325,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 81,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3184,6 +3380,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 69,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -3199,7 +3397,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "payload",
@@ -3207,7 +3406,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3245,6 +3445,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 24,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3260,7 +3462,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3290,6 +3493,8 @@
             }
           ],
           "fileUrlPath": "src/index.ts",
+          "fileLine": 23,
+          "fileColumn": 14,
           "isReadonly": true,
           "releaseTag": "Public",
           "name": "version",
@@ -3330,7 +3535,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileLine": 189,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WebSocketManager",
@@ -3373,6 +3580,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 213,
+              "fileColumn": 47,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -3383,7 +3592,8 @@
                     "startIndex": 1,
                     "endIndex": 6
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -3410,6 +3620,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 294,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3468,6 +3680,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 313,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -3483,7 +3697,8 @@
                     "startIndex": 1,
                     "endIndex": 5
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3530,6 +3745,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 226,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3545,7 +3762,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3568,7 +3786,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<import(\"@discordjs/collection\")."
                 },
                 {
                   "kind": "Reference",
@@ -3577,7 +3795,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, "
+                  "text": "<number, import(\"./WebSocketShard.js\")."
                 },
                 {
                   "kind": "Reference",
@@ -3593,6 +3811,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 321,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3629,6 +3849,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 260,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -3673,6 +3895,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 272,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3688,7 +3912,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3714,6 +3939,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 193,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -3766,6 +3993,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 317,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -3781,7 +4010,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "payload",
@@ -3789,7 +4019,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3827,6 +4058,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 247,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -3842,7 +4075,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -3863,7 +4097,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type WebSocketManagerOptions = "
+              "text": "export type WebSocketManagerOptions = "
             },
             {
               "kind": "Reference",
@@ -3884,7 +4118,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketManager.ts",
+          "fileLine": 181,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WebSocketManagerOptions",
           "typeTokenRange": {
@@ -3924,7 +4160,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileLine": 89,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WebSocketShard",
@@ -3957,6 +4195,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 128,
+              "fileColumn": 3,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -3967,7 +4207,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "id",
@@ -3975,7 +4216,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -4002,6 +4244,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 136,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -4047,6 +4291,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 227,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -4062,7 +4308,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4087,6 +4334,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 122,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4131,6 +4380,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 358,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -4146,7 +4397,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4172,6 +4424,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 126,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4198,10 +4452,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface WebSocketShardDestroyOptions "
+              "text": "export interface WebSocketShardDestroyOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileLine": 67,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WebSocketShardDestroyOptions",
           "preserveMemberOrder": false,
@@ -4224,6 +4480,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 68,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4251,6 +4509,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 69,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4279,6 +4539,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 70,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
@@ -4301,7 +4563,9 @@
               "text": "export declare enum WebSocketShardDestroyRecovery "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileLine": 50,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WebSocketShardDestroyRecovery",
           "preserveMemberOrder": false,
@@ -4320,6 +4584,8 @@
                   "text": "0"
                 }
               ],
+              "fileLine": 51,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4341,6 +4607,8 @@
                   "text": "1"
                 }
               ],
+              "fileLine": 52,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4360,7 +4628,9 @@
               "text": "export declare enum WebSocketShardEvents "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileLine": 32,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WebSocketShardEvents",
           "preserveMemberOrder": false,
@@ -4379,6 +4649,8 @@
                   "text": "\"closed\""
                 }
               ],
+              "fileLine": 33,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4400,6 +4672,8 @@
                   "text": "\"debug\""
                 }
               ],
+              "fileLine": 34,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4421,6 +4695,8 @@
                   "text": "\"dispatch\""
                 }
               ],
+              "fileLine": 35,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4442,6 +4718,8 @@
                   "text": "\"error\""
                 }
               ],
+              "fileLine": 36,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4463,6 +4741,8 @@
                   "text": "\"heartbeat\""
                 }
               ],
+              "fileLine": 37,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4484,6 +4764,8 @@
                   "text": "\"hello\""
                 }
               ],
+              "fileLine": 38,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4505,6 +4787,8 @@
                   "text": "\"ready\""
                 }
               ],
+              "fileLine": 39,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4526,6 +4810,8 @@
                   "text": "\"resumed\""
                 }
               ],
+              "fileLine": 40,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4542,7 +4828,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type WebSocketShardEventsMap = "
+              "text": "export type WebSocketShardEventsMap = "
             },
             {
               "kind": "Content",
@@ -4652,7 +4938,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileLine": 56,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WebSocketShardEventsMap",
           "typeTokenRange": {
@@ -4670,7 +4958,9 @@
               "text": "export declare enum WebSocketShardStatus "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/ws/WebSocketShard.ts",
+          "fileLine": 43,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WebSocketShardStatus",
           "preserveMemberOrder": false,
@@ -4689,6 +4979,8 @@
                   "text": "1"
                 }
               ],
+              "fileLine": 45,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4710,6 +5002,8 @@
                   "text": "0"
                 }
               ],
+              "fileLine": 44,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4731,6 +5025,8 @@
                   "text": "3"
                 }
               ],
+              "fileLine": 47,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4752,6 +5048,8 @@
                   "text": "2"
                 }
               ],
+              "fileLine": 46,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -4771,7 +5069,9 @@
               "text": "export declare class WorkerBootstrapper "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/utils/WorkerBootstrapper.ts",
+          "fileLine": 34,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WorkerBootstrapper",
@@ -4787,6 +5087,8 @@
                   "text": "constructor();"
                 }
               ],
+              "fileLine": 43,
+              "fileColumn": 71,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -4837,6 +5139,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 146,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -4852,7 +5156,8 @@
                     "startIndex": 1,
                     "endIndex": 5
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4890,6 +5195,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 54,
+              "fileColumn": 2,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -4905,7 +5212,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -4931,6 +5239,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 38,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -4983,6 +5293,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 66,
+              "fileColumn": 2,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -4998,7 +5310,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -5006,7 +5319,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5031,6 +5345,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 78,
+              "fileColumn": 2,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -5076,6 +5392,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 43,
+              "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5110,7 +5428,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/context/WorkerContextFetchingStrategy.ts",
+          "fileLine": 12,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WorkerContextFetchingStrategy",
@@ -5135,6 +5455,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 18,
+              "fileColumn": 6,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -5145,7 +5467,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -5168,6 +5491,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 12,
+              "fileColumn": 79,
               "isReadonly": true,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5220,6 +5545,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 45,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -5235,7 +5562,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5281,6 +5609,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 58,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -5296,7 +5626,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "sessionInfo",
@@ -5304,7 +5635,8 @@
                     "startIndex": 3,
                     "endIndex": 5
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5351,6 +5683,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 67,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -5366,7 +5700,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "signal",
@@ -5374,7 +5709,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -5396,7 +5732,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface WorkerData extends "
+              "text": "export interface WorkerData extends "
             },
             {
               "kind": "Reference",
@@ -5408,7 +5744,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileLine": 16,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WorkerData",
           "preserveMemberOrder": false,
@@ -5431,6 +5769,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 17,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -5455,7 +5795,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type WorkerReceivePayload = "
+              "text": "export type WorkerReceivePayload = "
             },
             {
               "kind": "Content",
@@ -5574,7 +5914,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileLine": 49,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WorkerReceivePayload",
           "typeTokenRange": {
@@ -5592,7 +5934,9 @@
               "text": "export declare enum WorkerReceivePayloadOp "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileLine": 37,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WorkerReceivePayloadOp",
           "preserveMemberOrder": false,
@@ -5611,6 +5955,8 @@
                   "text": "8"
                 }
               ],
+              "fileLine": 46,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5632,6 +5978,8 @@
                   "text": "0"
                 }
               ],
+              "fileLine": 38,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5653,6 +6001,8 @@
                   "text": "1"
                 }
               ],
+              "fileLine": 39,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5674,6 +6024,8 @@
                   "text": "2"
                 }
               ],
+              "fileLine": 40,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5695,6 +6047,8 @@
                   "text": "6"
                 }
               ],
+              "fileLine": 44,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5716,6 +6070,8 @@
                   "text": "3"
                 }
               ],
+              "fileLine": 41,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5737,6 +6093,8 @@
                   "text": "4"
                 }
               ],
+              "fileLine": 42,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5758,6 +6116,8 @@
                   "text": "5"
                 }
               ],
+              "fileLine": 43,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5779,6 +6139,8 @@
                   "text": "7"
                 }
               ],
+              "fileLine": 45,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5795,7 +6157,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type WorkerSendPayload = "
+              "text": "export type WorkerSendPayload = "
             },
             {
               "kind": "Content",
@@ -5887,7 +6249,9 @@
               "text": ";"
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileLine": 29,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WorkerSendPayload",
           "typeTokenRange": {
@@ -5905,7 +6269,9 @@
               "text": "export declare enum WorkerSendPayloadOp "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileLine": 20,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WorkerSendPayloadOp",
           "preserveMemberOrder": false,
@@ -5924,6 +6290,8 @@
                   "text": "0"
                 }
               ],
+              "fileLine": 21,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5945,6 +6313,8 @@
                   "text": "1"
                 }
               ],
+              "fileLine": 22,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5966,6 +6336,8 @@
                   "text": "5"
                 }
               ],
+              "fileLine": 26,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -5987,6 +6359,8 @@
                   "text": "2"
                 }
               ],
+              "fileLine": 23,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6008,6 +6382,8 @@
                   "text": "3"
                 }
               ],
+              "fileLine": 24,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6029,6 +6405,8 @@
                   "text": "4"
                 }
               ],
+              "fileLine": 25,
+              "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -6057,7 +6435,9 @@
               "text": " "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileLine": 78,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
           "name": "WorkerShardingStrategy",
@@ -6091,6 +6471,8 @@
                   "text": ");"
                 }
               ],
+              "fileLine": 95,
+              "fileColumn": 41,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
@@ -6101,7 +6483,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "options",
@@ -6109,7 +6492,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ]
             },
@@ -6136,6 +6520,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 128,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -6194,6 +6580,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 149,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
@@ -6209,7 +6597,8 @@
                     "startIndex": 1,
                     "endIndex": 5
                   },
-                  "isOptional": true
+                  "isOptional": true,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6257,6 +6646,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 192,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
@@ -6305,6 +6696,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 175,
+              "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
@@ -6320,7 +6713,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 },
                 {
                   "parameterName": "data",
@@ -6328,7 +6722,8 @@
                     "startIndex": 3,
                     "endIndex": 4
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6366,6 +6761,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 105,
+              "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
@@ -6381,7 +6778,8 @@
                     "startIndex": 1,
                     "endIndex": 2
                   },
-                  "isOptional": false
+                  "isOptional": false,
+                  "isRest": false
                 }
               ],
               "isOptional": false,
@@ -6403,10 +6801,12 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare interface WorkerShardingStrategyOptions "
+              "text": "export interface WorkerShardingStrategyOptions "
             }
           ],
-          "fileUrlPath": "src/index.ts",
+          "fileUrlPath": "src/strategies/sharding/WorkerShardingStrategy.ts",
+          "fileLine": 64,
+          "fileColumn": 1,
           "releaseTag": "Public",
           "name": "WorkerShardingStrategyOptions",
           "preserveMemberOrder": false,
@@ -6429,6 +6829,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 68,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
@@ -6456,6 +6858,8 @@
                   "text": ";"
                 }
               ],
+              "fileLine": 72,
+              "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
               "releaseTag": "Public",
