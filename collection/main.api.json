@@ -5984,7 +5984,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "V[]"
+                  "text": "[K, V][]"
                 },
                 {
                   "kind": "Content",
@@ -6182,7 +6182,11 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 3
+            "endIndex": 3,
+            "typeParameters": [
+              "K",
+              "V"
+            ]
           },
           "implementsTokenRanges": []
         },

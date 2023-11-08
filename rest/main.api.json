@@ -2943,7 +2943,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -3405,7 +3406,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -3542,7 +3544,8 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },
@@ -4583,12 +4586,14 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": [
             {
               "startIndex": 3,
-              "endIndex": 4
+              "endIndex": 4,
+              "typeParameters": []
             }
           ]
         },
@@ -5588,7 +5593,11 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 5
+              "endIndex": 5,
+              "typeParameters": [
+                "Response",
+                ""
+              ]
             }
           ]
         },
@@ -6647,7 +6656,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "RestEventsMap"
+            ]
           },
           "implementsTokenRanges": []
         },

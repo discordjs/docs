@@ -505,7 +505,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 3,
-            "endIndex": 11
+            "endIndex": 11,
+            "typeParameters": [
+              "APIActionRowComponent"
+            ]
           },
           "implementsTokenRanges": []
         },
@@ -1031,7 +1034,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -1821,7 +1825,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 3,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "SelectMenuType"
+            ]
           },
           "implementsTokenRanges": []
         },
@@ -2259,7 +2266,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "APIButtonComponent"
+            ]
           },
           "implementsTokenRanges": []
         },
@@ -2519,7 +2529,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "APIChannelSelectComponent"
+            ]
           },
           "implementsTokenRanges": []
         },
@@ -3611,7 +3624,10 @@
           "implementsTokenRanges": [
             {
               "startIndex": 13,
-              "endIndex": 17
+              "endIndex": 17,
+              "typeParameters": [
+                "AnyAPIActionRowComponent"
+              ]
             }
           ]
         },
@@ -6705,7 +6721,11 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 9
+              "endIndex": 9,
+              "typeParameters": [
+                "APIEmbedImage",
+                "Exclude"
+              ]
             }
           ]
         },
@@ -7333,7 +7353,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "APIMentionableSelectComponent"
+            ]
           },
           "implementsTokenRanges": []
         },
@@ -8206,7 +8229,10 @@
           "implementsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 5
+              "endIndex": 5,
+              "typeParameters": [
+                "APIModalInteractionResponseCallbackData"
+              ]
             }
           ]
         },
@@ -8484,7 +8510,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "APIRoleSelectComponent"
+            ]
           },
           "implementsTokenRanges": []
         },
@@ -11245,7 +11274,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -11346,7 +11376,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -12102,11 +12133,13 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             },
             {
               "startIndex": 3,
-              "endIndex": 4
+              "endIndex": 4,
+              "typeParameters": []
             }
           ]
         },
@@ -12207,7 +12240,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -12240,7 +12274,8 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },
@@ -12452,12 +12487,14 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": [
             {
               "startIndex": 3,
-              "endIndex": 4
+              "endIndex": 4,
+              "typeParameters": []
             }
           ]
         },
@@ -12503,11 +12540,13 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             },
             {
               "startIndex": 3,
-              "endIndex": 5
+              "endIndex": 5,
+              "typeParameters": []
             }
           ]
         },
@@ -12608,7 +12647,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -12820,12 +12860,14 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": [
             {
               "startIndex": 3,
-              "endIndex": 4
+              "endIndex": 4,
+              "typeParameters": []
             }
           ]
         },
@@ -12871,11 +12913,13 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             },
             {
               "startIndex": 3,
-              "endIndex": 5
+              "endIndex": 5,
+              "typeParameters": []
             }
           ]
         },
@@ -12939,15 +12983,18 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             },
             {
               "startIndex": 3,
-              "endIndex": 4
+              "endIndex": 4,
+              "typeParameters": []
             },
             {
               "startIndex": 5,
-              "endIndex": 9
+              "endIndex": 9,
+              "typeParameters": []
             }
           ]
         },
@@ -13048,7 +13095,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -13315,7 +13363,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -13352,7 +13401,10 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 3
+              "endIndex": 3,
+              "typeParameters": [
+                ""
+              ]
             }
           ]
         },
@@ -13522,7 +13574,8 @@
           "implementsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },
@@ -13568,11 +13621,13 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             },
             {
               "startIndex": 3,
-              "endIndex": 5
+              "endIndex": 5,
+              "typeParameters": []
             }
           ]
         },
@@ -13816,7 +13871,8 @@
           "implementsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },
@@ -13849,7 +13905,8 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },
@@ -13931,7 +13988,11 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 13
+              "endIndex": 13,
+              "typeParameters": [
+                "SlashCommandBuilder",
+                "Exclude"
+              ]
             }
           ]
         },
@@ -14032,7 +14093,8 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 2,
+            "typeParameters": []
           },
           "implementsTokenRanges": []
         },
@@ -14455,7 +14517,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "APIStringSelectComponent"
+            ]
           },
           "implementsTokenRanges": []
         },
@@ -14888,7 +14953,10 @@
           "implementsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 5
+              "endIndex": 5,
+              "typeParameters": [
+                "APISelectMenuOption"
+              ]
             }
           ]
         },
@@ -15885,12 +15953,18 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "APITextInputComponent"
+            ]
           },
           "implementsTokenRanges": [
             {
               "startIndex": 6,
-              "endIndex": 14
+              "endIndex": 14,
+              "typeParameters": [
+                ""
+              ]
             }
           ]
         },
@@ -16037,7 +16111,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "APIUserSelectComponent"
+            ]
           },
           "implementsTokenRanges": []
         },

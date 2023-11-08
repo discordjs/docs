@@ -997,12 +997,18 @@
           ],
           "extendsTokenRange": {
             "startIndex": 4,
-            "endIndex": 8
+            "endIndex": 8,
+            "typeParameters": [
+              "ToEventMap"
+            ]
           },
           "implementsTokenRanges": [
             {
               "startIndex": 9,
-              "endIndex": 11
+              "endIndex": 11,
+              "typeParameters": [
+                "TEvents"
+              ]
             }
           ]
         },
@@ -1451,11 +1457,17 @@
           "extendsTokenRanges": [
             {
               "startIndex": 4,
-              "endIndex": 6
+              "endIndex": 6,
+              "typeParameters": [
+                "TEvents"
+              ]
             },
             {
               "startIndex": 7,
-              "endIndex": 11
+              "endIndex": 11,
+              "typeParameters": [
+                "TEvents"
+              ]
             }
           ]
         },
@@ -1673,11 +1685,17 @@
           "extendsTokenRanges": [
             {
               "startIndex": 7,
-              "endIndex": 9
+              "endIndex": 9,
+              "typeParameters": [
+                "TEvents"
+              ]
             },
             {
               "startIndex": 10,
-              "endIndex": 14
+              "endIndex": 14,
+              "typeParameters": [
+                "TEvents"
+              ]
             }
           ]
         },
@@ -1951,12 +1969,18 @@
           ],
           "extendsTokenRange": {
             "startIndex": 4,
-            "endIndex": 6
+            "endIndex": 6,
+            "typeParameters": [
+              "TEvents"
+            ]
           },
           "implementsTokenRanges": [
             {
               "startIndex": 7,
-              "endIndex": 9
+              "endIndex": 9,
+              "typeParameters": [
+                "TEvents"
+              ]
             }
           ]
         },
@@ -2020,7 +2044,8 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },
@@ -2463,12 +2488,19 @@
           ],
           "extendsTokenRange": {
             "startIndex": 7,
-            "endIndex": 9
+            "endIndex": 9,
+            "typeParameters": [
+              "TEvents"
+            ]
           },
           "implementsTokenRanges": [
             {
               "startIndex": 10,
-              "endIndex": 12
+              "endIndex": 12,
+              "typeParameters": [
+                "TEvents",
+                "TResponses"
+              ]
             }
           ]
         },
@@ -2531,7 +2563,8 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },

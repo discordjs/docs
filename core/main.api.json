@@ -6926,7 +6926,10 @@
           ],
           "extendsTokenRange": {
             "startIndex": 1,
-            "endIndex": 5
+            "endIndex": 5,
+            "typeParameters": [
+              "ManagerShardEventsMap"
+            ]
           },
           "implementsTokenRanges": []
         },
@@ -7069,7 +7072,8 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },
@@ -21935,7 +21939,8 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         },
@@ -25788,7 +25793,8 @@
           "extendsTokenRanges": [
             {
               "startIndex": 1,
-              "endIndex": 2
+              "endIndex": 2,
+              "typeParameters": []
             }
           ]
         }
