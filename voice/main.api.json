@@ -246,7 +246,7 @@
                   "text": "checkPlayable(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -279,7 +279,7 @@
                   "text": "pause(interpolateSilence?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -287,7 +287,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -343,7 +343,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -478,7 +478,7 @@
                   "text": "stop(force?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -486,7 +486,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -529,7 +529,7 @@
                   "text": "unpause(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -614,7 +614,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -633,8 +637,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -652,7 +656,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 6
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -679,7 +683,19 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(message: string) => void"
+                  "text": "(message: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -698,8 +714,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 2,
@@ -717,7 +733,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 4
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -762,7 +778,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -781,8 +801,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 9,
-                "endIndex": 10
+                "startIndex": 10,
+                "endIndex": 11
               },
               "releaseTag": "Public",
               "overloadIndex": 3,
@@ -800,7 +820,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 8
+                    "endIndex": 9
                   },
                   "isOptional": false,
                   "isRest": false
@@ -836,7 +856,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -855,8 +879,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 4,
@@ -874,7 +898,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 6
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -928,7 +952,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " & {\n        status: T;\n    }) => void"
+                  "text": " & {\n        status: T;\n    }) => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -947,8 +975,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 11,
-                "endIndex": 12
+                "startIndex": 12,
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "overloadIndex": 5,
@@ -966,7 +994,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 5,
-                    "endIndex": 10
+                    "endIndex": 11
                   },
                   "isOptional": false,
                   "isRest": false
@@ -1024,7 +1052,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "() => void"
+                  "text": "() => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -1039,7 +1071,7 @@
               "name": "onFailureCallback",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             },
             {
@@ -1053,7 +1085,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "() => void"
+                  "text": "() => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -1068,7 +1104,7 @@
               "name": "onReadableCallback",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             },
             {
@@ -1091,7 +1127,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -1106,7 +1146,7 @@
               "name": "onStreamError",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 4
+                "endIndex": 5
               }
             },
             {
@@ -1381,7 +1421,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -1396,7 +1440,7 @@
               "name": "onStreamError",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 4
+                "endIndex": 5
               }
             },
             {
@@ -1409,7 +1453,7 @@
                   "text": "playbackDuration: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1468,7 +1512,7 @@
                   "text": "silencePacketsRemaining: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1556,7 +1600,7 @@
                   "text": "missedFrames: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1595,7 +1639,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -1610,7 +1658,7 @@
               "name": "onStreamError",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 4
+                "endIndex": 5
               }
             },
             {
@@ -1623,7 +1671,7 @@
                   "text": "playbackDuration: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1932,7 +1980,7 @@
                   "text": "_read(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -2040,14 +2088,18 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -2059,8 +2111,8 @@
               "fileColumn": 18,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 4,
-                "endIndex": 5
+                "startIndex": 5,
+                "endIndex": 6
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2070,7 +2122,7 @@
                   "parameterName": "buffer",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 3
+                    "endIndex": 4
                   },
                   "isOptional": false,
                   "isRest": false
@@ -2163,7 +2215,7 @@
               "text": "export declare class AudioResource<T = "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "unknown"
             },
             {
@@ -2244,7 +2296,7 @@
                   "text": ", silencePaddingFrames: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2312,7 +2364,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -2327,7 +2383,7 @@
               "name": "audioPlayer",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               },
               "isStatic": false,
               "isProtected": false,
@@ -2417,7 +2473,7 @@
                   "text": "get ended(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -2481,7 +2537,7 @@
                   "text": "playbackDuration: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2546,7 +2602,7 @@
                   "text": "get readable(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -2578,7 +2634,7 @@
                   "text": "readonly silencePaddingFrames: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2610,7 +2666,7 @@
                   "text": "silenceRemaining: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2642,7 +2698,7 @@
                   "text": "started: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -2778,7 +2834,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "{\n        maxMissedFrames?: number;\n        noSubscriber?: "
+                  "text": "{\n        maxMissedFrames?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n        noSubscriber?: "
                 },
                 {
                   "kind": "Reference",
@@ -2802,7 +2866,7 @@
               "name": "behaviors",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 4
+                "endIndex": 6
               }
             },
             {
@@ -2815,7 +2879,7 @@
                   "text": "debug?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -2853,7 +2917,11 @@
             },
             {
               "kind": "Content",
-              "text": " | string"
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
             },
             {
               "kind": "Content",
@@ -2875,7 +2943,23 @@
             },
             {
               "kind": "Content",
-              "text": "<T extends null | undefined ? "
+              "text": "<T extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": " ? "
             },
             {
               "kind": "Reference",
@@ -2915,7 +2999,31 @@
             },
             {
               "kind": "Content",
-              "text": "<T extends null | undefined ? null : T>"
+              "text": "<T extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": " ? "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": " : T>"
             },
             {
               "kind": "Content",
@@ -2926,8 +3034,8 @@
           "fileLine": 211,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 15,
-            "endIndex": 17
+            "startIndex": 20,
+            "endIndex": 28
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -2936,7 +3044,7 @@
               "parameterName": "input",
               "parameterTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               },
               "isOptional": false,
               "isRest": false
@@ -2944,8 +3052,8 @@
             {
               "parameterName": "options",
               "parameterTypeTokenRange": {
-                "startIndex": 4,
-                "endIndex": 14
+                "startIndex": 5,
+                "endIndex": 19
               },
               "isOptional": false,
               "isRest": false
@@ -2976,8 +3084,16 @@
               "text": "export declare function createAudioResource<T extends "
             },
             {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
               "kind": "Content",
-              "text": "null | undefined"
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
             },
             {
               "kind": "Content",
@@ -2990,7 +3106,11 @@
             },
             {
               "kind": "Content",
-              "text": " | string"
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
             },
             {
               "kind": "Content",
@@ -3025,7 +3145,15 @@
             },
             {
               "kind": "Content",
-              "text": "<null>"
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
             },
             {
               "kind": "Content",
@@ -3036,8 +3164,8 @@
           "fileLine": 233,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 11,
-            "endIndex": 13
+            "startIndex": 14,
+            "endIndex": 18
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -3045,8 +3173,8 @@
             {
               "parameterName": "input",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
+                "startIndex": 5,
+                "endIndex": 8
               },
               "isOptional": false,
               "isRest": false
@@ -3054,8 +3182,8 @@
             {
               "parameterName": "options",
               "parameterTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 10
+                "startIndex": 9,
+                "endIndex": 13
               },
               "isOptional": true,
               "isRest": false
@@ -3066,7 +3194,7 @@
               "typeParameterName": "T",
               "constraintTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3116,7 +3244,7 @@
                   "text": "inlineVolume?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -3204,7 +3332,7 @@
                   "text": "silencePaddingFrames?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3314,8 +3442,16 @@
                   "text": "debug?: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "boolean"
+                },
+                {
                   "kind": "Content",
-                  "text": "boolean | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -3330,7 +3466,7 @@
               "name": "debug",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             }
           ],
@@ -3355,7 +3491,7 @@
               "text": ", probeSize?: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "number"
             },
             {
@@ -3363,8 +3499,12 @@
               "text": ", validator?: "
             },
             {
+              "kind": "Reference",
+              "text": "typeof"
+            },
+            {
               "kind": "Content",
-              "text": "typeof "
+              "text": " "
             },
             {
               "kind": "Reference",
@@ -3402,8 +3542,8 @@
           "fileLine": 44,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 8,
-            "endIndex": 12
+            "startIndex": 9,
+            "endIndex": 13
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3430,7 +3570,7 @@
               "parameterName": "validator",
               "parameterTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 8
               },
               "isOptional": true,
               "isRest": false
@@ -3507,7 +3647,7 @@
                   "text": "destroy(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -3537,7 +3677,7 @@
                   "text": "sendPayload(payload: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "any"
                 },
                 {
@@ -3545,7 +3685,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -3605,7 +3745,7 @@
                   "text": "destroy(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -3644,7 +3784,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -3693,7 +3833,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -3755,7 +3895,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    duration: number;\n} | {\n    behavior: "
+              "text": ";\n    duration: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    behavior: "
             },
             {
               "kind": "Reference",
@@ -3778,7 +3926,7 @@
           "name": "EndBehavior",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 8
+            "endIndex": 10
           }
         },
         {
@@ -3903,7 +4051,11 @@
             },
             {
               "kind": "Content",
-              "text": " | number"
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
             },
             {
               "kind": "Content",
@@ -3936,8 +4088,8 @@
           "fileLine": 13,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 8,
-            "endIndex": 12
+            "startIndex": 9,
+            "endIndex": 13
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3964,7 +4116,7 @@
               "parameterName": "timeoutOrSignal",
               "parameterTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 8
               },
               "isOptional": false,
               "isRest": false
@@ -4006,7 +4158,11 @@
             },
             {
               "kind": "Content",
-              "text": " | number"
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
             },
             {
               "kind": "Content",
@@ -4039,8 +4195,8 @@
           "fileLine": 26,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 8,
-            "endIndex": 12
+            "startIndex": 9,
+            "endIndex": 13
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -4067,7 +4223,7 @@
               "parameterName": "timeoutOrSignal",
               "parameterTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 8
               },
               "isOptional": false,
               "isRest": false
@@ -4085,7 +4241,7 @@
               "text": "export declare function generateDependencyReport(): "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             },
             {
@@ -4121,7 +4277,15 @@
             },
             {
               "kind": "Content",
-              "text": "<string, "
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
             },
             {
               "kind": "Reference",
@@ -4130,7 +4294,15 @@
             },
             {
               "kind": "Content",
-              "text": "<string, "
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
             },
             {
               "kind": "Reference",
@@ -4151,7 +4323,7 @@
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 7
+            "endIndex": 11
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4168,7 +4340,7 @@
               "text": "export declare function getVoiceConnection(guildId: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             },
             {
@@ -4176,7 +4348,7 @@
               "text": ", group?: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             },
             {
@@ -4190,7 +4362,11 @@
             },
             {
               "kind": "Content",
-              "text": " | undefined"
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
             },
             {
               "kind": "Content",
@@ -4202,7 +4378,7 @@
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 5,
-            "endIndex": 7
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4252,7 +4428,15 @@
             },
             {
               "kind": "Content",
-              "text": "<string, "
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
             },
             {
               "kind": "Reference",
@@ -4273,7 +4457,7 @@
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
-            "endIndex": 7
+            "endIndex": 9
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4300,7 +4484,7 @@
               "text": "export declare function getVoiceConnections(group: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             },
             {
@@ -4314,7 +4498,15 @@
             },
             {
               "kind": "Content",
-              "text": "<string, "
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
             },
             {
               "kind": "Reference",
@@ -4323,7 +4515,11 @@
             },
             {
               "kind": "Content",
-              "text": "> | undefined"
+              "text": "> | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
             },
             {
               "kind": "Content",
@@ -4335,7 +4531,7 @@
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
-            "endIndex": 7
+            "endIndex": 10
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -4379,8 +4575,16 @@
                   "text": "channelId: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
                   "kind": "Content",
-                  "text": "string | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -4395,7 +4599,7 @@
               "name": "channelId",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -4408,7 +4612,7 @@
                   "text": "group: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4437,7 +4641,7 @@
                   "text": "guildId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4466,7 +4670,7 @@
                   "text": "selfDeaf: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -4495,7 +4699,7 @@
                   "text": "selfMute: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -4607,7 +4811,7 @@
                   "text": "channelId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4636,7 +4840,7 @@
                   "text": "group?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4665,7 +4869,7 @@
                   "text": "guildId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4694,7 +4898,7 @@
                   "text": "selfDeaf?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -4723,7 +4927,7 @@
                   "text": "selfMute?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -4981,7 +5185,7 @@
                   "text": "unsubscribe(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -5177,7 +5381,7 @@
                   "text": "onPacket(userId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -5185,7 +5389,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -5234,7 +5438,23 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<string, number>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5249,7 +5469,7 @@
               "name": "users",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 7
               },
               "isStatic": false,
               "isProtected": false,
@@ -5308,7 +5528,19 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(userId: string) => void"
+                  "text": "(userId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -5327,8 +5559,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -5346,7 +5578,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 4
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -5373,7 +5605,19 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(userId: string) => void"
+                  "text": "(userId: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -5392,8 +5636,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 2,
@@ -5411,7 +5655,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 4
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -5482,8 +5726,16 @@
                   "text": "delete(target: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | string"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
                 },
                 {
                   "kind": "Content",
@@ -5496,7 +5748,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -5507,8 +5763,8 @@
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
+                "startIndex": 5,
+                "endIndex": 8
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5518,7 +5774,7 @@
                   "parameterName": "target",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 2
+                    "endIndex": 4
                   },
                   "isOptional": false,
                   "isRest": false
@@ -5538,8 +5794,16 @@
                   "text": "get(target: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | string"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
                 },
                 {
                   "kind": "Content",
@@ -5552,7 +5816,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -5563,8 +5831,8 @@
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
+                "startIndex": 5,
+                "endIndex": 8
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5574,7 +5842,7 @@
                   "parameterName": "target",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 2
+                    "endIndex": 4
                   },
                   "isOptional": false,
                   "isRest": false
@@ -5603,7 +5871,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -5698,7 +5966,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -5717,8 +5989,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -5736,7 +6008,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 6
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -5772,7 +6044,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined, newData: "
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", newData: "
                 },
                 {
                   "kind": "Reference",
@@ -5781,7 +6061,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -5800,8 +6084,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 9,
-                "endIndex": 10
+                "startIndex": 12,
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "overloadIndex": 2,
@@ -5819,7 +6103,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 8
+                    "endIndex": 11
                   },
                   "isOptional": false,
                   "isRest": false
@@ -5855,7 +6139,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -5874,8 +6162,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 3,
@@ -5893,7 +6181,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 6
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -6063,7 +6351,7 @@
               "text": "): "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "boolean"
             },
             {
@@ -6103,7 +6391,7 @@
               "text": "version: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             }
           ],
@@ -6209,7 +6497,7 @@
                   "text": "configureNetworking(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -6242,7 +6530,7 @@
                   "text": "destroy(adapterAvailable?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -6250,7 +6538,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -6293,7 +6581,7 @@
                   "text": "disconnect(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -6326,8 +6614,16 @@
                   "text": "dispatchAudio(): "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "boolean"
+                },
+                {
                   "kind": "Content",
-                  "text": "boolean | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -6339,7 +6635,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6368,7 +6664,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -6412,7 +6708,39 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "{\n        ws: number | undefined;\n        udp: number | undefined;\n    }"
+                  "text": "{\n        ws: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n        udp: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n    }"
                 },
                 {
                   "kind": "Content",
@@ -6427,7 +6755,7 @@
               "name": "ping",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 10
               },
               "isStatic": false,
               "isProtected": false,
@@ -6452,8 +6780,16 @@
                   "text": "): "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "boolean"
+                },
+                {
                   "kind": "Content",
-                  "text": "boolean | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -6465,7 +6801,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 4
+                "endIndex": 6
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6510,7 +6846,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -6522,7 +6862,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 6
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6607,7 +6947,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -6650,7 +6990,7 @@
                   "text": "rejoinAttempts: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -6682,7 +7022,7 @@
                   "text": "setSpeaking(enabled: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -6691,7 +7031,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "false | void"
+                  "text": "false | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -6703,7 +7047,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 4
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6790,7 +7134,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -6802,7 +7150,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 6
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6884,7 +7232,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -6903,8 +7255,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -6922,7 +7274,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 6
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -6949,7 +7301,19 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(message: string) => void"
+                  "text": "(message: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -6968,8 +7332,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 8,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 2,
@@ -6987,7 +7351,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 4
+                    "endIndex": 7
                   },
                   "isOptional": false,
                   "isRest": false
@@ -7032,7 +7396,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ") => void"
+                  "text": ") => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -7051,8 +7419,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 9,
-                "endIndex": 10
+                "startIndex": 10,
+                "endIndex": 11
               },
               "releaseTag": "Public",
               "overloadIndex": 3,
@@ -7070,7 +7438,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 8
+                    "endIndex": 9
                   },
                   "isOptional": false,
                   "isRest": false
@@ -7124,7 +7492,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " & {\n        status: T;\n    }) => void"
+                  "text": " & {\n        status: T;\n    }) => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
                 },
                 {
                   "kind": "Content",
@@ -7143,8 +7515,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 11,
-                "endIndex": 12
+                "startIndex": 12,
+                "endIndex": 13
               },
               "releaseTag": "Public",
               "overloadIndex": 4,
@@ -7162,7 +7534,7 @@
                   "parameterName": "listener",
                   "parameterTypeTokenRange": {
                     "startIndex": 5,
-                    "endIndex": 10
+                    "endIndex": 11
                   },
                   "isOptional": false,
                   "isRest": false
@@ -7315,7 +7687,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -7330,7 +7706,7 @@
               "name": "subscription",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             }
           ],
@@ -7479,7 +7855,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -7494,7 +7874,7 @@
               "name": "subscription",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             }
           ],
@@ -7661,7 +8041,7 @@
                   "text": "closeCode: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7953,7 +8333,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -7968,7 +8352,7 @@
               "name": "subscription",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             }
           ],
@@ -8067,7 +8451,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -8082,7 +8470,7 @@
               "name": "subscription",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             }
           ],
@@ -8417,7 +8805,7 @@
                   "text": "subscribe(userId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -8506,7 +8894,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<string, "
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
@@ -8530,7 +8926,7 @@
               "name": "subscriptions",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 5
+                "endIndex": 7
               },
               "isStatic": false,
               "isProtected": false,
@@ -8599,7 +8995,7 @@
                   "text": "audioSSRC: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -8628,7 +9024,7 @@
                   "text": "userId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -8657,7 +9053,7 @@
                   "text": "videoSSRC?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {

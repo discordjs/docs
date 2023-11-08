@@ -305,7 +305,7 @@
                   "text": "method: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -394,7 +394,7 @@
                   "text": "retries: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -423,7 +423,7 @@
                   "text": "route: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -573,7 +573,7 @@
               "text": "): "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "number"
             },
             {
@@ -631,7 +631,7 @@
                   "text": "constructor(base?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -666,7 +666,7 @@
                   "text": "appAsset(clientId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -674,7 +674,7 @@
                   "text": ", assetHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -704,7 +704,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -765,7 +765,7 @@
                   "text": "appIcon(clientId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -773,7 +773,7 @@
                   "text": ", iconHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -803,7 +803,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -864,7 +864,7 @@
                   "text": "avatar(id: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -872,7 +872,7 @@
                   "text": ", avatarHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -902,7 +902,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -963,7 +963,7 @@
                   "text": "avatarDecoration(userId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -971,7 +971,7 @@
                   "text": ", userAvatarDecoration: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1001,7 +1001,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1062,7 +1062,7 @@
                   "text": "banner(id: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1070,7 +1070,7 @@
                   "text": ", bannerHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1100,7 +1100,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1161,7 +1161,7 @@
                   "text": "channelIcon(channelId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1169,7 +1169,7 @@
                   "text": ", iconHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1199,7 +1199,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1260,7 +1260,7 @@
                   "text": "defaultAvatar(index: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1268,7 +1268,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1311,7 +1311,7 @@
                   "text": "discoverySplash(guildId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1319,7 +1319,7 @@
                   "text": ", splashHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1349,7 +1349,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1410,7 +1410,7 @@
                   "text": "emoji(emojiId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1440,7 +1440,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1492,7 +1492,7 @@
                   "text": "emoji(emojiId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1509,7 +1509,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1561,7 +1561,7 @@
                   "text": "guildMemberAvatar(guildId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1569,7 +1569,7 @@
                   "text": ", userId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1577,7 +1577,7 @@
                   "text": ", avatarHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1607,7 +1607,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1677,7 +1677,7 @@
                   "text": "guildMemberBanner(guildId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1685,7 +1685,7 @@
                   "text": ", userId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1693,7 +1693,7 @@
                   "text": ", bannerHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1723,7 +1723,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1793,7 +1793,7 @@
                   "text": "guildScheduledEventCover(scheduledEventId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1801,7 +1801,7 @@
                   "text": ", coverHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1831,7 +1831,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1892,7 +1892,7 @@
                   "text": "icon(id: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1900,7 +1900,7 @@
                   "text": ", iconHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1930,7 +1930,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1991,7 +1991,7 @@
                   "text": "roleIcon(roleId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -1999,7 +1999,7 @@
                   "text": ", roleIconHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2029,7 +2029,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2090,7 +2090,7 @@
                   "text": "splash(guildId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2098,7 +2098,7 @@
                   "text": ", splashHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2128,7 +2128,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2189,7 +2189,7 @@
                   "text": "sticker(stickerId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2206,7 +2206,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2258,7 +2258,7 @@
                   "text": "stickerPackBanner(bannerId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2288,7 +2288,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2340,7 +2340,7 @@
                   "text": "teamIcon(teamId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2348,7 +2348,7 @@
                   "text": ", iconHash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2378,7 +2378,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2443,7 +2443,39 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    readonly agent: null;\n    readonly api: \"https://discord.com/api\";\n    readonly authPrefix: \"Bot\";\n    readonly cdn: \"https://cdn.discordapp.com\";\n    readonly headers: {};\n    readonly invalidRequestWarningInterval: 0;\n    readonly globalRequestsPerSecond: 50;\n    readonly offset: 50;\n    readonly rejectOnRateLimit: null;\n    readonly retries: 3;\n    readonly timeout: 15000;\n    readonly userAgentAppendix: string;\n    readonly version: \"10\";\n    readonly hashSweepInterval: 14400000;\n    readonly hashLifetime: 86400000;\n    readonly handlerSweepInterval: 3600000;\n    readonly makeRequest: (url: string, init: import(\"undici\")."
+              "text": "{\n    readonly agent: "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly api: \"https://discord.com/api\";\n    readonly authPrefix: \"Bot\";\n    readonly cdn: \"https://cdn.discordapp.com\";\n    readonly headers: {};\n    readonly invalidRequestWarningInterval: 0;\n    readonly globalRequestsPerSecond: 50;\n    readonly offset: 50;\n    readonly rejectOnRateLimit: "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly retries: 3;\n    readonly timeout: 15000;\n    readonly userAgentAppendix: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly version: \"10\";\n    readonly hashSweepInterval: 14400000;\n    readonly hashLifetime: 86400000;\n    readonly handlerSweepInterval: 3600000;\n    readonly makeRequest: (url: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", init: import(\"undici\")."
             },
             {
               "kind": "Reference",
@@ -2481,7 +2513,7 @@
           "name": "DefaultRestOptions",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 8
+            "endIndex": 16
           }
         },
         {
@@ -2495,7 +2527,15 @@
             },
             {
               "kind": "Content",
-              "text": "`DiscordBot (https://discord.js.org, ${string})`"
+              "text": "`DiscordBot (https://discord.js.org, ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "})`"
             }
           ],
           "fileUrlPath": "src/lib/utils/constants.ts",
@@ -2506,7 +2546,7 @@
           "name": "DefaultUserAgent",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 4
           }
         },
         {
@@ -2519,7 +2559,7 @@
               "text": "DefaultUserAgentAppendix: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             }
           ],
@@ -2589,15 +2629,23 @@
                   "text": ", code: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | string"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
                 },
                 {
                   "kind": "Content",
                   "text": ", status: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2605,7 +2653,7 @@
                   "text": ", method: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2613,7 +2661,7 @@
                   "text": ", url: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2662,22 +2710,13 @@
                   "parameterName": "code",
                   "parameterTypeTokenRange": {
                     "startIndex": 5,
-                    "endIndex": 6
-                  },
-                  "isOptional": false,
-                  "isRest": false
-                },
-                {
-                  "parameterName": "status",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 7,
                     "endIndex": 8
                   },
                   "isOptional": false,
                   "isRest": false
                 },
                 {
-                  "parameterName": "method",
+                  "parameterName": "status",
                   "parameterTypeTokenRange": {
                     "startIndex": 9,
                     "endIndex": 10
@@ -2686,7 +2725,7 @@
                   "isRest": false
                 },
                 {
-                  "parameterName": "url",
+                  "parameterName": "method",
                   "parameterTypeTokenRange": {
                     "startIndex": 11,
                     "endIndex": 12
@@ -2695,10 +2734,19 @@
                   "isRest": false
                 },
                 {
-                  "parameterName": "bodyData",
+                  "parameterName": "url",
                   "parameterTypeTokenRange": {
                     "startIndex": 13,
-                    "endIndex": 17
+                    "endIndex": 14
+                  },
+                  "isOptional": false,
+                  "isRest": false
+                },
+                {
+                  "parameterName": "bodyData",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 15,
+                    "endIndex": 19
                   },
                   "isOptional": false,
                   "isRest": false
@@ -2715,8 +2763,16 @@
                   "text": "code: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | string"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
                 },
                 {
                   "kind": "Content",
@@ -2731,7 +2787,7 @@
               "name": "code",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               },
               "isStatic": false,
               "isProtected": false,
@@ -2747,7 +2803,7 @@
                   "text": "method: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2779,7 +2835,7 @@
                   "text": "get name(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2886,7 +2942,7 @@
                   "text": "status: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2918,7 +2974,7 @@
                   "text": "url: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2975,7 +3031,7 @@
                   "text": "code: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3034,7 +3090,7 @@
                   "text": "message: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3135,7 +3191,7 @@
                   "text": "constructor(status: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3143,7 +3199,7 @@
                   "text": ", statusText: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3151,7 +3207,7 @@
                   "text": ", method: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3159,7 +3215,7 @@
                   "text": ", url: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3252,7 +3308,7 @@
                   "text": "method: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3284,7 +3340,7 @@
                   "text": "name: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3349,7 +3405,7 @@
                   "text": "status: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3381,7 +3437,7 @@
                   "text": "url: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3422,7 +3478,15 @@
             },
             {
               "kind": "Content",
-              "text": "(typeof "
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "typeof"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             },
             {
               "kind": "Reference",
@@ -3431,7 +3495,15 @@
             },
             {
               "kind": "Content",
-              "text": ")[number]"
+              "text": ")["
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": "]"
             },
             {
               "kind": "Content",
@@ -3445,7 +3517,7 @@
           "name": "ImageExtension",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 4
+            "endIndex": 8
           }
         },
         {
@@ -3459,7 +3531,15 @@
             },
             {
               "kind": "Content",
-              "text": "(typeof "
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "typeof"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             },
             {
               "kind": "Reference",
@@ -3468,7 +3548,15 @@
             },
             {
               "kind": "Content",
-              "text": ")[number]"
+              "text": ")["
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": "]"
             },
             {
               "kind": "Content",
@@ -3482,7 +3570,7 @@
           "name": "ImageSize",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 4
+            "endIndex": 8
           }
         },
         {
@@ -3521,7 +3609,7 @@
                   "text": "forceStatic?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -3576,7 +3664,7 @@
                   "text": "count: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3605,7 +3693,7 @@
                   "text": "remainingTime: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3655,7 +3743,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "readonly string[]"
+                  "text": "readonly "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
                 },
                 {
                   "kind": "Content",
@@ -3670,7 +3766,7 @@
               "name": "allowedExtensions",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -3683,8 +3779,16 @@
                   "text": "extension?: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
                   "kind": "Content",
-                  "text": "string | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -3699,7 +3803,7 @@
               "name": "extension",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -3745,7 +3849,7 @@
               "text": "export declare function makeURLSearchParams<T extends "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "object"
             },
             {
@@ -3841,7 +3945,7 @@
                   "text": "error_description?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3870,7 +3974,7 @@
                   "text": "error: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3942,7 +4046,15 @@
             },
             {
               "kind": "Content",
-              "text": "<unknown>"
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "unknown"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
             },
             {
               "kind": "Content",
@@ -3954,7 +4066,7 @@
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 3,
-            "endIndex": 5
+            "endIndex": 7
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3998,7 +4110,7 @@
                   "text": "global: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -4027,7 +4139,7 @@
                   "text": "hash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4056,7 +4168,7 @@
                   "text": "limit: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -4085,7 +4197,7 @@
                   "text": "majorParameter: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4114,7 +4226,7 @@
                   "text": "method: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4143,7 +4255,7 @@
                   "text": "route: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4172,7 +4284,7 @@
                   "text": "timeToReset: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -4201,7 +4313,7 @@
                   "text": "url: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4305,7 +4417,7 @@
                   "text": "global: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -4337,7 +4449,7 @@
                   "text": "hash: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4369,7 +4481,7 @@
                   "text": "limit: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -4401,7 +4513,7 @@
                   "text": "majorParameter: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4433,7 +4545,7 @@
                   "text": "method: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4465,7 +4577,7 @@
                   "text": "get name(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4497,7 +4609,7 @@
                   "text": "route: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4529,7 +4641,7 @@
                   "text": "timeToReset: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -4561,7 +4673,7 @@
                   "text": "url: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4626,7 +4738,19 @@
             },
             {
               "kind": "Content",
-              "text": "<boolean> | boolean"
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": "> | "
+            },
+            {
+              "kind": "Reference",
+              "text": "boolean"
             },
             {
               "kind": "Content",
@@ -4640,7 +4764,7 @@
           "name": "RateLimitQueueFilter",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 6
+            "endIndex": 9
           }
         },
         {
@@ -4670,7 +4794,7 @@
                   "text": "contentType?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4714,7 +4838,27 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | boolean | number | string"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
                 },
                 {
                   "kind": "Content",
@@ -4729,7 +4873,7 @@
               "name": "data",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 5
+                "endIndex": 10
               }
             },
             {
@@ -4742,7 +4886,7 @@
                   "text": "key?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4771,7 +4915,7 @@
                   "text": "name: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4826,7 +4970,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[] | undefined"
+                  "text": "[] | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -4841,7 +4989,7 @@
               "name": "files",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -4854,8 +5002,16 @@
                   "text": "json: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
                   "kind": "Content",
-                  "text": "unknown | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -4870,7 +5026,7 @@
               "name": "json",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             }
           ],
@@ -4903,7 +5059,7 @@
                   "text": "appendToFormData?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -4932,7 +5088,7 @@
                   "text": "auth?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -4996,7 +5152,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | unknown"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
                 },
                 {
                   "kind": "Content",
@@ -5011,7 +5171,7 @@
               "name": "body",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -5060,7 +5220,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[] | undefined"
+                  "text": "[] | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -5075,7 +5239,7 @@
               "name": "files",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -5094,7 +5258,23 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<string, string>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5109,7 +5289,7 @@
               "name": "headers",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 7
               }
             },
             {
@@ -5122,7 +5302,7 @@
                   "text": "passThroughBody?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -5181,8 +5361,16 @@
                   "text": "reason?: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
                   "kind": "Content",
-                  "text": "string | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -5197,7 +5385,7 @@
               "name": "reason",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -5216,7 +5404,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | undefined"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
                 },
                 {
                   "kind": "Content",
@@ -5231,7 +5423,7 @@
               "name": "signal",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -5244,7 +5436,7 @@
                   "text": "versioned?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -5293,7 +5485,7 @@
                   "text": "'User-Agent': "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -5322,7 +5514,7 @@
                   "text": "'X-Audit-Log-Reason'?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -5351,7 +5543,7 @@
                   "text": "Authorization?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -5571,7 +5763,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -5586,7 +5782,7 @@
               "name": "body",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 5
+                "endIndex": 6
               }
             }
           ],
@@ -5706,7 +5902,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -5721,7 +5921,7 @@
               "name": "agent",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               },
               "isStatic": false,
               "isProtected": false,
@@ -5770,7 +5970,7 @@
                   "text": "clearHandlerSweeper(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -5803,7 +6003,7 @@
                   "text": "clearHashSweeper(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -5860,7 +6060,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<unknown>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5872,7 +6080,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5935,7 +6143,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<unknown>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5947,7 +6163,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5992,7 +6208,19 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void> | null"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": "> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -6007,7 +6235,7 @@
               "name": "globalDelay",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 6
               },
               "isStatic": false,
               "isProtected": false,
@@ -6023,7 +6251,7 @@
                   "text": "globalRemaining: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -6055,7 +6283,7 @@
                   "text": "globalReset: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -6093,7 +6321,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<string, "
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
@@ -6117,7 +6353,7 @@
               "name": "handlers",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 5
+                "endIndex": 7
               },
               "isStatic": false,
               "isProtected": false,
@@ -6139,7 +6375,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<string, "
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
@@ -6163,7 +6407,7 @@
               "name": "hashes",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 5
+                "endIndex": 7
               },
               "isStatic": false,
               "isProtected": false,
@@ -6236,7 +6480,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<unknown>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6248,7 +6500,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6311,7 +6563,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<unknown>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6323,7 +6583,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6386,7 +6646,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<unknown>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6398,7 +6666,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6518,7 +6786,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<unknown>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6530,7 +6806,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6612,7 +6888,7 @@
                   "text": "setToken(token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -6857,7 +7133,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<string, "
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
@@ -6881,7 +7165,7 @@
               "name": "handlerSweep",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 6
+                "endIndex": 8
               }
             },
             {
@@ -6904,7 +7188,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<string, "
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
@@ -6928,7 +7220,7 @@
               "name": "hashSweep",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 6
+                "endIndex": 8
               }
             },
             {
@@ -7065,7 +7357,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[info: string]"
+                  "text": "[info: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "]"
                 },
                 {
                   "kind": "Content",
@@ -7080,7 +7380,7 @@
               "name": "restDebug",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             }
           ],
@@ -7165,7 +7465,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -7180,7 +7484,7 @@
               "name": "agent",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -7193,7 +7497,7 @@
                   "text": "api: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -7251,7 +7555,7 @@
                   "text": "cdn: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -7280,7 +7584,7 @@
                   "text": "globalRequestsPerSecond: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7309,7 +7613,7 @@
                   "text": "handlerSweepInterval: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7338,7 +7642,7 @@
                   "text": "hashLifetime: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7367,7 +7671,7 @@
                   "text": "hashSweepInterval: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7402,7 +7706,23 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<string, string>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -7417,7 +7737,7 @@
               "name": "headers",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 7
               }
             },
             {
@@ -7430,7 +7750,7 @@
                   "text": "invalidRequestWarningInterval: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7459,7 +7779,7 @@
                   "text": "makeRequest(url: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -7539,7 +7859,7 @@
                   "text": "offset: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7574,7 +7894,19 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | string[] | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[] | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -7589,7 +7921,7 @@
               "name": "rejectOnRateLimit",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 6
               }
             },
             {
@@ -7602,7 +7934,7 @@
                   "text": "retries: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7631,7 +7963,7 @@
                   "text": "timeout: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -7660,7 +7992,7 @@
                   "text": "userAgentAppendix: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -7689,7 +8021,7 @@
                   "text": "version: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -7722,7 +8054,15 @@
             },
             {
               "kind": "Content",
-              "text": "`/${string}`"
+              "text": "`/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -7736,7 +8076,7 @@
           "name": "RouteLike",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 4
           }
         },
         {
@@ -7750,7 +8090,15 @@
             },
             {
               "kind": "Content",
-              "text": "(typeof "
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "typeof"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             },
             {
               "kind": "Reference",
@@ -7759,7 +8107,15 @@
             },
             {
               "kind": "Content",
-              "text": ")[number]"
+              "text": ")["
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": "]"
             },
             {
               "kind": "Content",
@@ -7773,7 +8129,7 @@
           "name": "StickerExtension",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 4
+            "endIndex": 8
           }
         },
         {
@@ -7786,7 +8142,7 @@
               "text": "version: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             }
           ],

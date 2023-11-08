@@ -183,7 +183,7 @@
               "text": "version: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             }
           ],

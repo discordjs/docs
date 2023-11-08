@@ -1331,7 +1331,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -1343,7 +1351,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -1446,7 +1454,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -1458,7 +1474,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -1799,7 +1815,7 @@
                   "text": "editGuildCommandPermissions(userToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3019,7 +3035,7 @@
                   "text": ", emoji: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -3055,7 +3071,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3067,7 +3091,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3174,7 +3198,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3186,7 +3218,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 11,
-                "endIndex": 13
+                "endIndex": 15
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4098,7 +4130,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4110,7 +4150,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4176,7 +4216,7 @@
                   "text": ", emoji: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4212,7 +4252,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4224,7 +4272,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4327,7 +4375,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4339,7 +4395,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4405,7 +4461,7 @@
                   "text": ", emoji: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4441,7 +4497,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4453,7 +4517,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4556,7 +4620,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4568,7 +4640,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4634,7 +4706,7 @@
                   "text": ", emoji: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4679,7 +4751,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4691,7 +4771,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 14,
-                "endIndex": 16
+                "endIndex": 18
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5073,7 +5153,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5085,7 +5173,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5831,7 +5919,7 @@
                   "text": ", emoji: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -6287,7 +6375,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6299,7 +6395,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6384,7 +6480,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6396,7 +6500,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 10
+                "endIndex": 12
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6481,7 +6585,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6493,7 +6605,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6695,7 +6807,7 @@
                   "text": ", timeout?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -6718,7 +6830,23 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[];\n        nonce: string;\n        notFound: unknown[];\n        presences: import(\"discord-api-types/v10\")."
+                  "text": "[];\n        nonce: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n        notFound: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[];\n        presences: import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
@@ -6739,7 +6867,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 11
+                "endIndex": 15
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6787,7 +6915,7 @@
                   "text": ", timeout?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -6810,7 +6938,31 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[];\n        nonce: string;\n        notFound: unknown[] | null;\n        presences: import(\"discord-api-types/v10\")."
+                  "text": "[];\n        nonce: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n        notFound: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[] | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n        presences: import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
@@ -6819,7 +6971,47 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[] | null;\n        chunkIndex: number;\n        chunkCount: number;\n    }, void, unknown>"
+                  "text": "[] | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n        chunkIndex: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n        chunkCount: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n    }, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6831,7 +7023,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 11
+                "endIndex": 27
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6903,7 +7095,7 @@
                   "text": "updatePresence(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -6926,7 +7118,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6938,7 +7138,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6992,7 +7192,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -7004,7 +7212,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -7150,7 +7358,7 @@
                   "text": "description?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -7430,7 +7638,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -7442,7 +7658,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -7554,7 +7770,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -7566,7 +7790,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -8547,7 +8771,7 @@
                   "text": "createTemplate(templateCode: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -8698,7 +8922,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -8710,7 +8942,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 10
+                "endIndex": 12
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -8795,7 +9027,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -8807,7 +9047,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -8901,7 +9141,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -8913,7 +9161,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -9007,7 +9255,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -9019,7 +9275,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -9113,7 +9369,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -9125,7 +9389,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -9219,7 +9483,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -9231,7 +9503,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -9325,7 +9597,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -9337,7 +9617,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -9394,7 +9674,7 @@
                   "text": ", templateCode: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -9430,7 +9710,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -9442,7 +9730,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -10642,7 +10930,7 @@
                   "text": ", templateCode: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -10820,7 +11108,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -10832,7 +11128,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -13602,7 +13898,7 @@
                   "text": "getTemplate(templateCode: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -14507,7 +14803,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<unknown>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "unknown"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -14519,7 +14823,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -14622,7 +14926,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -14634,7 +14946,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -14852,7 +15164,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -14864,7 +15184,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -15051,7 +15371,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<never>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "never"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -15063,7 +15391,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -15111,7 +15439,7 @@
                   "text": ", templateCode: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -15262,7 +15590,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -15274,7 +15610,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -15406,7 +15742,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -15451,7 +15787,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -15463,7 +15807,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -15529,7 +15873,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -15574,7 +15918,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -15586,7 +15938,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 12,
-                "endIndex": 14
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -15652,7 +16004,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -15701,7 +16053,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -15713,7 +16073,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 13,
-                "endIndex": 15
+                "endIndex": 17
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -15779,7 +16139,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -15815,7 +16175,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -15827,7 +16195,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -15884,7 +16252,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -15933,7 +16301,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -15945,7 +16321,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 13,
-                "endIndex": 15
+                "endIndex": 17
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -16011,7 +16387,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -16178,7 +16554,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -16323,7 +16699,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -16437,7 +16813,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -16495,7 +16871,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -16507,7 +16891,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 15,
-                "endIndex": 17
+                "endIndex": 19
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -16573,7 +16957,7 @@
                   "text": ", interactionToken: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -16631,7 +17015,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -16643,7 +17035,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 15,
-                "endIndex": 17
+                "endIndex": 19
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -16750,7 +17142,7 @@
                   "text": "shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -16836,7 +17228,7 @@
                   "text": "delete(code: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -16872,7 +17264,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -16884,7 +17284,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 10
+                "endIndex": 12
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -16923,7 +17323,7 @@
                   "text": "get(code: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -19698,7 +20098,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<never>]"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "never"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">]"
                 },
                 {
                   "kind": "Content",
@@ -19713,7 +20121,7 @@
               "name": "RESUMED",
               "propertyTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 6
+                "endIndex": 8
               }
             },
             {
@@ -20576,7 +20984,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -21711,7 +22119,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -21723,7 +22139,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 10
+                "endIndex": 12
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -22467,7 +22883,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -22479,7 +22903,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -22776,7 +23200,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -22788,7 +23220,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 10
+                "endIndex": 12
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -22864,7 +23296,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -22876,7 +23316,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 10
+                "endIndex": 12
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -22961,7 +23401,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -22973,7 +23421,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 10,
-                "endIndex": 12
+                "endIndex": 14
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -23970,7 +24418,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -23982,7 +24438,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 8,
-                "endIndex": 10
+                "endIndex": 12
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -24139,7 +24595,7 @@
               "text": "version: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             }
           ],
@@ -24378,7 +24834,23 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'reason' | 'signal'> & {\n        token?: string | undefined;\n    }"
+                  "text": ", 'reason' | 'signal'> & {\n        token?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n    }"
                 },
                 {
                   "kind": "Content",
@@ -24391,7 +24863,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -24402,8 +24882,8 @@
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 10
+                "startIndex": 12,
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -24422,7 +24902,7 @@
                   "parameterName": "{ token, reason, signal }",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 7
+                    "endIndex": 11
                   },
                   "isOptional": true,
                   "isRest": false
@@ -24451,7 +24931,7 @@
                   "text": ", token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -24513,7 +24993,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -24525,7 +25013,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 16,
-                "endIndex": 18
+                "endIndex": 20
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -24624,7 +25112,23 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'reason' | 'signal'> & {\n        token?: string | undefined;\n    }"
+                  "text": ", 'reason' | 'signal'> & {\n        token?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n    }"
                 },
                 {
                   "kind": "Content",
@@ -24657,8 +25161,8 @@
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 10,
-                "endIndex": 14
+                "startIndex": 14,
+                "endIndex": 18
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -24686,7 +25190,7 @@
                   "parameterName": "{ token, reason, signal }",
                   "parameterTypeTokenRange": {
                     "startIndex": 5,
-                    "endIndex": 9
+                    "endIndex": 13
                   },
                   "isOptional": true,
                   "isRest": false
@@ -24715,7 +25219,7 @@
                   "text": ", token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -24747,7 +25251,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[];\n        thread_id?: string;\n    }"
+                  "text": "[];\n        thread_id?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n    }"
                 },
                 {
                   "kind": "Content",
@@ -24802,8 +25314,8 @@
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 17,
-                "endIndex": 21
+                "startIndex": 19,
+                "endIndex": 23
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -24840,7 +25352,7 @@
                   "parameterName": "{ thread_id, files, ...body }",
                   "parameterTypeTokenRange": {
                     "startIndex": 7,
-                    "endIndex": 11
+                    "endIndex": 13
                   },
                   "isOptional": false,
                   "isRest": false
@@ -24848,8 +25360,8 @@
                 {
                   "parameterName": "{ signal }",
                   "parameterTypeTokenRange": {
-                    "startIndex": 12,
-                    "endIndex": 16
+                    "startIndex": 14,
+                    "endIndex": 18
                   },
                   "isOptional": true,
                   "isRest": false
@@ -24878,7 +25390,7 @@
                   "text": ", token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -25032,7 +25544,7 @@
                   "text": ", token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -25099,7 +25611,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -25111,7 +25631,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 17,
-                "endIndex": 19
+                "endIndex": 21
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -25177,7 +25697,7 @@
                   "text": ", token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -25185,7 +25705,7 @@
                   "text": ", body: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "unknown"
                 },
                 {
@@ -25230,7 +25750,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -25242,7 +25770,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 14,
-                "endIndex": 16
+                "endIndex": 18
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -25317,7 +25845,7 @@
                   "text": ", token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -25325,7 +25853,7 @@
                   "text": ", body: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "unknown"
                 },
                 {
@@ -25370,7 +25898,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -25382,7 +25918,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 14,
-                "endIndex": 16
+                "endIndex": 18
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -25472,7 +26008,23 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ", 'signal'> & {\n        token?: string | undefined;\n    }"
+                  "text": ", 'signal'> & {\n        token?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "undefined"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n    }"
                 },
                 {
                   "kind": "Content",
@@ -25505,8 +26057,8 @@
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 8,
-                "endIndex": 12
+                "startIndex": 12,
+                "endIndex": 16
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -25525,7 +26077,7 @@
                   "parameterName": "{ token, signal }",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 7
+                    "endIndex": 11
                   },
                   "isOptional": true,
                   "isRest": false
@@ -25554,7 +26106,7 @@
                   "text": ", token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -25721,7 +26273,31 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    body: {\n        attachments: {\n            id: string;\n            description: string | undefined;\n        }[];\n        flags?: import(\"discord-api-types/v10\")."
+              "text": "{\n    body: {\n        attachments: {\n            id: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n            description: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        }[];\n        flags?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -25730,7 +26306,23 @@
             },
             {
               "kind": "Content",
-              "text": ";\n        content?: string | undefined;\n        embeds?: import(\"discord-api-types/v10\")."
+              "text": ";\n        content?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        embeds?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -25739,7 +26331,15 @@
             },
             {
               "kind": "Content",
-              "text": "[] | undefined;\n        allowed_mentions?: import(\"discord-api-types/v10\")."
+              "text": "[] | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        allowed_mentions?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -25748,7 +26348,15 @@
             },
             {
               "kind": "Content",
-              "text": " | undefined;\n        components?: import(\"discord-api-types/v10\")."
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        components?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -25766,7 +26374,79 @@
             },
             {
               "kind": "Content",
-              "text": ">[] | undefined;\n        tts?: boolean | undefined;\n        thread_name?: string | undefined;\n    };\n    files: {\n        name: string;\n        data: string | number | boolean | "
+              "text": ">[] | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        tts?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        thread_name?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "undefined"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    };\n    files: {\n        name: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        data: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
             },
             {
               "kind": "Reference",
@@ -25796,7 +26476,7 @@
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 6,
-            "endIndex": 21
+            "endIndex": 53
           },
           "releaseTag": "Public",
           "overloadIndex": 1,

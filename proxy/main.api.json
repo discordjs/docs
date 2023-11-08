@@ -192,7 +192,7 @@
               "text": "): "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "void"
             },
             {
@@ -241,7 +241,7 @@
               "text": ", error: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "unknown"
             },
             {
@@ -249,7 +249,7 @@
               "text": "): "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "boolean"
             },
             {
@@ -325,7 +325,7 @@
               "text": "): "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "void"
             },
             {
@@ -392,7 +392,7 @@
               "text": "): "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "void"
             },
             {
@@ -465,7 +465,15 @@
             },
             {
               "kind": "Content",
-              "text": "<void>"
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "void"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
             },
             {
               "kind": "Content",
@@ -477,7 +485,7 @@
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 5,
-            "endIndex": 7
+            "endIndex": 9
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -591,7 +599,15 @@
             },
             {
               "kind": "Content",
-              "text": "<void>"
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "void"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
             },
             {
               "kind": "Content",
@@ -605,7 +621,7 @@
           "name": "RequestHandler",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 8
+            "endIndex": 10
           }
         }
       ]

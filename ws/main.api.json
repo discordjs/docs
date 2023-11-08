@@ -249,7 +249,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -261,7 +269,7 @@
               "isOptional": true,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -399,7 +407,15 @@
             },
             {
               "kind": "Content",
-              "text": "`@discordjs/ws ${string}`"
+              "text": "`@discordjs/ws ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             }
           ],
           "fileUrlPath": "src/utils/constants.ts",
@@ -410,7 +426,7 @@
           "name": "DefaultDeviceProperty",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 4
           }
         },
         {
@@ -469,7 +485,55 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    readonly shardCount: null;\n    readonly shardIds: null;\n    readonly largeThreshold: null;\n    readonly initialPresence: null;\n    readonly identifyProperties: {\n        readonly browser: `@discordjs/ws ${string}`;\n        readonly device: `@discordjs/ws ${string}`;\n        readonly os: "
+              "text": ";\n    readonly shardCount: "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly shardIds: "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly largeThreshold: "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly initialPresence: "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly identifyProperties: {\n        readonly browser: `@discordjs/ws ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "}`;\n        readonly device: `@discordjs/ws ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "}`;\n        readonly os: "
             },
             {
               "kind": "Reference",
@@ -487,7 +551,23 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    readonly compression: null;\n    readonly retrieveSessionInfo: (shardId: number) => "
+              "text": ";\n    readonly compression: "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly retrieveSessionInfo: (shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ") => "
             },
             {
               "kind": "Reference",
@@ -496,7 +576,23 @@
             },
             {
               "kind": "Content",
-              "text": " | null;\n    readonly updateSessionInfo: (shardId: number, info: "
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly updateSessionInfo: (shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ", info: "
             },
             {
               "kind": "Reference",
@@ -505,7 +601,23 @@
             },
             {
               "kind": "Content",
-              "text": " | null) => void;\n    readonly handshakeTimeout: 30000;\n    readonly helloTimeout: 60000;\n    readonly readyTimeout: 15000;\n}"
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ") => "
+            },
+            {
+              "kind": "Reference",
+              "text": "void"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    readonly handshakeTimeout: 30000;\n    readonly helloTimeout: 60000;\n    readonly readyTimeout: 15000;\n}"
             }
           ],
           "fileUrlPath": "src/utils/constants.ts",
@@ -516,7 +628,7 @@
           "name": "DefaultWebSocketManagerOptions",
           "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 20
+            "endIndex": 44
           }
         },
         {
@@ -640,7 +752,7 @@
                   "text": "readonly shardCount: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -759,7 +871,7 @@
                   "text": "retrieveSessionInfo(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -782,7 +894,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null>"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -794,7 +914,7 @@
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -821,7 +941,7 @@
                   "text": "updateSessionInfo(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -835,7 +955,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -848,7 +972,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -859,8 +991,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 8
+                "startIndex": 7,
+                "endIndex": 11
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -878,7 +1010,7 @@
                   "parameterName": "sessionInfo",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 5
+                    "endIndex": 6
                   },
                   "isOptional": false,
                   "isRest": false
@@ -896,7 +1028,7 @@
                   "text": "waitForIdentify(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -919,7 +1051,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -931,7 +1071,7 @@
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -1017,7 +1157,7 @@
                   "text": "resetsAt: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1066,7 +1206,7 @@
                   "text": "waitForIdentify(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1089,7 +1229,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -1101,7 +1249,7 @@
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -1202,7 +1350,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -1214,7 +1370,7 @@
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -1259,7 +1415,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -1271,7 +1435,7 @@
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
-                "endIndex": 8
+                "endIndex": 10
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -1313,7 +1477,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, "
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
@@ -1334,7 +1506,7 @@
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -1351,7 +1523,7 @@
                   "text": "send(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1374,7 +1546,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -1386,7 +1566,7 @@
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -1422,8 +1602,12 @@
                   "text": "spawn(shardIds: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number[]"
+                  "text": "[]"
                 },
                 {
                   "kind": "Content",
@@ -1436,7 +1620,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -1447,8 +1639,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
+                "startIndex": 4,
+                "endIndex": 8
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -1457,7 +1649,7 @@
                   "parameterName": "shardIds",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 2
+                    "endIndex": 3
                   },
                   "isOptional": false,
                   "isRest": false
@@ -1497,7 +1689,15 @@
             },
             {
               "kind": "Content",
-              "text": "[K] extends [] ? {\n            shardId: number;\n        } : "
+              "text": "[K] extends [] ? {\n            shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        } : "
             },
             {
               "kind": "Reference",
@@ -1506,7 +1706,15 @@
             },
             {
               "kind": "Content",
-              "text": "[K][0] & {\n            shardId: number;\n        }\n    ];\n}"
+              "text": "[K][0] & {\n            shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        }\n    ];\n}"
             },
             {
               "kind": "Content",
@@ -1520,7 +1728,7 @@
           "name": "ManagerShardEventsMap",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 8
+            "endIndex": 12
           }
         },
         {
@@ -1732,7 +1940,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -1747,7 +1959,7 @@
               "name": "compression",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -1790,8 +2002,16 @@
                   "text": "handshakeTimeout: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -1806,7 +2026,7 @@
               "name": "handshakeTimeout",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -1819,8 +2039,16 @@
                   "text": "helloTimeout: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -1835,7 +2063,7 @@
               "name": "helloTimeout",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -1884,7 +2112,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -1899,7 +2131,7 @@
               "name": "initialPresence",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -1912,8 +2144,16 @@
                   "text": "largeThreshold: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -1928,7 +2168,7 @@
               "name": "largeThreshold",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -1941,8 +2181,16 @@
                   "text": "readyTimeout: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -1957,7 +2205,7 @@
               "name": "readyTimeout",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -1970,7 +2218,7 @@
                   "text": "retrieveSessionInfo(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -1993,7 +2241,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null>"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -2005,7 +2261,7 @@
               "isOptional": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -2032,8 +2288,16 @@
                   "text": "shardCount: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -2048,7 +2312,7 @@
               "name": "shardCount",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 4
               }
             },
             {
@@ -2061,8 +2325,12 @@
                   "text": "shardIds: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number[] | "
+                  "text": "[] | "
                 },
                 {
                   "kind": "Reference",
@@ -2071,7 +2339,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -2086,7 +2358,7 @@
               "name": "shardIds",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 4
+                "endIndex": 6
               }
             },
             {
@@ -2099,7 +2371,7 @@
                   "text": "updateSessionInfo(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2113,7 +2385,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -2126,7 +2402,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -2137,8 +2421,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 8
+                "startIndex": 7,
+                "endIndex": 11
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -2156,7 +2440,7 @@
                   "parameterName": "sessionInfo",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 5
+                    "endIndex": 6
                   },
                   "isOptional": false,
                   "isRest": false
@@ -2174,7 +2458,7 @@
                   "text": "version: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2287,7 +2571,7 @@
                   "text": "token: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2336,7 +2620,7 @@
                   "text": "remaining: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2365,7 +2649,7 @@
                   "text": "resetAt: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2414,7 +2698,7 @@
                   "text": "resumeURL: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2443,7 +2727,7 @@
                   "text": "sequence: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2472,7 +2756,7 @@
                   "text": "sessionId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -2501,7 +2785,7 @@
                   "text": "shardCount: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2530,7 +2814,7 @@
                   "text": "shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2579,7 +2863,7 @@
                   "text": "end: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2608,7 +2892,7 @@
                   "text": "start: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2754,7 +3038,7 @@
                   "text": "retrieveSessionInfo(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2777,7 +3061,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null>"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -2789,7 +3081,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2819,7 +3111,7 @@
                   "text": "updateSessionInfo(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2833,7 +3125,11 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -2850,7 +3146,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -2861,8 +3165,8 @@
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 9
+                "startIndex": 7,
+                "endIndex": 12
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2881,7 +3185,7 @@
                   "parameterName": "sessionInfo",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 5
+                    "endIndex": 6
                   },
                   "isOptional": false,
                   "isRest": false
@@ -2901,7 +3205,7 @@
                   "text": "waitForIdentify(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -2924,7 +3228,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -2936,7 +3248,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3011,7 +3323,7 @@
                   "text": "constructor(maxConcurrency: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3046,7 +3358,7 @@
                   "text": "waitForIdentify(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3069,7 +3381,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3081,7 +3401,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3198,7 +3518,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3210,7 +3538,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3258,7 +3586,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3270,7 +3606,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
-                "endIndex": 8
+                "endIndex": 10
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3315,7 +3651,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, import(\"../../ws/WebSocketShard.js\")."
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", import(\"../../ws/WebSocketShard.js\")."
                 },
                 {
                   "kind": "Reference",
@@ -3336,7 +3680,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3356,7 +3700,7 @@
                   "text": "send(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3379,7 +3723,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3391,7 +3743,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3430,8 +3782,12 @@
                   "text": "spawn(shardIds: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number[]"
+                  "text": "[]"
                 },
                 {
                   "kind": "Content",
@@ -3444,7 +3800,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3455,8 +3819,8 @@
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
+                "startIndex": 4,
+                "endIndex": 8
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3466,7 +3830,7 @@
                   "parameterName": "shardIds",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 2
+                    "endIndex": 3
                   },
                   "isOptional": false,
                   "isRest": false
@@ -3495,7 +3859,7 @@
               "text": "version: "
             },
             {
-              "kind": "Content",
+              "kind": "Reference",
               "text": "string"
             }
           ],
@@ -3620,7 +3984,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3632,7 +4004,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3680,7 +4052,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3692,7 +4072,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
-                "endIndex": 8
+                "endIndex": 10
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3722,7 +4102,7 @@
                   "text": "fetchGatewayInformation(force?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -3802,7 +4182,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, import(\"./WebSocketShard.js\")."
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", import(\"./WebSocketShard.js\")."
                 },
                 {
                   "kind": "Reference",
@@ -3823,7 +4211,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3849,7 +4237,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -3861,7 +4257,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3881,7 +4277,7 @@
                   "text": "getShardIds(force?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "boolean"
                 },
                 {
@@ -3895,7 +4291,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number[]>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]>"
                 },
                 {
                   "kind": "Content",
@@ -3907,7 +4311,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3970,7 +4374,7 @@
                   "text": "send(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -3993,7 +4397,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4005,7 +4417,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4044,8 +4456,16 @@
                   "text": "updateShardCount(shardCount: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
@@ -4069,8 +4489,8 @@
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
+                "startIndex": 5,
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4080,7 +4500,7 @@
                   "parameterName": "shardCount",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 2
+                    "endIndex": 4
                   },
                   "isOptional": false,
                   "isRest": false
@@ -4197,7 +4617,7 @@
                   "text": ", id: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -4247,7 +4667,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4259,7 +4687,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4294,7 +4722,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4306,7 +4742,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4336,7 +4772,7 @@
                   "text": "readonly id: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -4383,7 +4819,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -4395,7 +4839,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -4485,7 +4929,7 @@
                   "text": "code?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -4514,7 +4958,7 @@
                   "text": "reason?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
@@ -4854,7 +5298,15 @@
             },
             {
               "kind": "Content",
-              "text": "]: [{\n        code: number;\n    }];\n    ["
+              "text": "]: [{\n        code: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    }];\n    ["
             },
             {
               "kind": "Reference",
@@ -4863,7 +5315,15 @@
             },
             {
               "kind": "Content",
-              "text": "]: [payload: {\n        message: string;\n    }];\n    ["
+              "text": "]: [payload: {\n        message: "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    }];\n    ["
             },
             {
               "kind": "Reference",
@@ -4944,7 +5404,31 @@
             },
             {
               "kind": "Content",
-              "text": "]: [payload: {\n        ackAt: number;\n        heartbeatAt: number;\n        latency: number;\n    }];\n}"
+              "text": "]: [payload: {\n        ackAt: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        heartbeatAt: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n        latency: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    }];\n}"
             },
             {
               "kind": "Content",
@@ -4958,7 +5442,7 @@
           "name": "WebSocketShardEventsMap",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 24
+            "endIndex": 34
           }
         },
         {
@@ -5145,7 +5629,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5157,7 +5649,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
-                "endIndex": 8
+                "endIndex": 10
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5187,7 +5679,7 @@
                   "text": "protected connect(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -5201,7 +5693,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5213,7 +5713,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 5
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": true,
@@ -5276,7 +5776,7 @@
                   "text": "protected destroy(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -5299,7 +5799,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5311,7 +5819,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": true,
@@ -5350,7 +5858,7 @@
                   "text": "protected setupThreadEvents(): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -5389,7 +5897,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, "
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
@@ -5413,7 +5929,7 @@
               "name": "shards",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 5
+                "endIndex": 7
               },
               "isStatic": false,
               "isProtected": true,
@@ -5528,7 +6044,7 @@
                   "text": "retrieveSessionInfo(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -5551,7 +6067,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null>"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5563,7 +6087,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5593,7 +6117,7 @@
                   "text": "updateSessionInfo(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -5607,14 +6131,18 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | null"
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "null"
                 },
                 {
                   "kind": "Content",
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -5626,8 +6154,8 @@
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 7
+                "startIndex": 7,
+                "endIndex": 8
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5646,7 +6174,7 @@
                   "parameterName": "sessionInfo",
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
-                    "endIndex": 5
+                    "endIndex": 6
                   },
                   "isOptional": false,
                   "isRest": false
@@ -5666,7 +6194,7 @@
                   "text": "waitForIdentify(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -5689,7 +6217,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -5701,7 +6237,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -5775,8 +6311,12 @@
                   "text": "shardIds: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number[]"
+                  "text": "[]"
                 },
                 {
                   "kind": "Content",
@@ -5791,7 +6331,7 @@
               "name": "shardIds",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             }
           ],
@@ -5814,7 +6354,15 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    data: any;\n    event: "
+              "text": "{\n    data: "
+            },
+            {
+              "kind": "Reference",
+              "text": "any"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    event: "
             },
             {
               "kind": "Reference",
@@ -5832,7 +6380,23 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    nonce: number;\n    op: "
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    nonce: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    op: "
             },
             {
               "kind": "Reference",
@@ -5841,7 +6405,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n} | {\n    nonce: number;\n    op: "
+              "text": ";\n} | {\n    nonce: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    op: "
             },
             {
               "kind": "Reference",
@@ -5859,7 +6431,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n} | {\n    nonce: number;\n    op: "
+              "text": ";\n} | {\n    nonce: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    op: "
             },
             {
               "kind": "Reference",
@@ -5868,7 +6448,23 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    nonce: number;\n    op: "
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    nonce: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    op: "
             },
             {
               "kind": "Reference",
@@ -5877,7 +6473,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    op: "
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -5886,7 +6490,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    op: "
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -5895,7 +6507,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    op: "
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -5913,7 +6533,23 @@
             },
             {
               "kind": "Content",
-              "text": " | null;\n    shardId: number;\n} | {\n    op: "
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -5936,7 +6572,7 @@
           "name": "WorkerReceivePayload",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 26
+            "endIndex": 50
           }
         },
         {
@@ -6176,7 +6812,23 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    nonce: number;\n    ok: boolean;\n    op: "
+              "text": "{\n    nonce: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    ok: "
+            },
+            {
+              "kind": "Reference",
+              "text": "boolean"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    op: "
             },
             {
               "kind": "Reference",
@@ -6185,7 +6837,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n} | {\n    nonce: number;\n    op: "
+              "text": ";\n} | {\n    nonce: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    op: "
             },
             {
               "kind": "Reference",
@@ -6194,7 +6854,23 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    nonce: number;\n    op: "
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    nonce: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    op: "
             },
             {
               "kind": "Reference",
@@ -6212,7 +6888,15 @@
             },
             {
               "kind": "Content",
-              "text": " | null;\n} | {\n    op: "
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "null"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -6221,7 +6905,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    op: "
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -6239,7 +6931,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n} | {\n    op: "
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n} | {\n    op: "
             },
             {
               "kind": "Reference",
@@ -6257,7 +6957,15 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    shardId: number;\n}"
+              "text": ";\n    shardId: "
+            },
+            {
+              "kind": "Reference",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n}"
             },
             {
               "kind": "Content",
@@ -6271,7 +6979,7 @@
           "name": "WorkerSendPayload",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 20
+            "endIndex": 38
           }
         },
         {
@@ -6528,7 +7236,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6540,7 +7256,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6588,7 +7304,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6600,7 +7324,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 6,
-                "endIndex": 8
+                "endIndex": 10
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6645,7 +7369,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<number, "
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
                 },
                 {
                   "kind": "Reference",
@@ -6666,7 +7398,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 7
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6686,7 +7418,7 @@
                   "text": "send(shardId: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "number"
                 },
                 {
@@ -6703,7 +7435,7 @@
                   "text": "): "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "void"
                 },
                 {
@@ -6755,8 +7487,12 @@
                   "text": "spawn(shardIds: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number[]"
+                  "text": "[]"
                 },
                 {
                   "kind": "Content",
@@ -6769,7 +7505,15 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<void>"
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -6780,8 +7524,8 @@
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
+                "startIndex": 4,
+                "endIndex": 8
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6791,7 +7535,7 @@
                   "parameterName": "shardIds",
                   "parameterTypeTokenRange": {
                     "startIndex": 1,
-                    "endIndex": 2
+                    "endIndex": 3
                   },
                   "isOptional": false,
                   "isRest": false
@@ -6837,8 +7581,12 @@
                   "text": "shardsPerWorker: "
                 },
                 {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
                   "kind": "Content",
-                  "text": "number | 'all'"
+                  "text": " | 'all'"
                 },
                 {
                   "kind": "Content",
@@ -6853,7 +7601,7 @@
               "name": "shardsPerWorker",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 3
               }
             },
             {
@@ -6866,7 +7614,7 @@
                   "text": "workerPath?: "
                 },
                 {
-                  "kind": "Content",
+                  "kind": "Reference",
                   "text": "string"
                 },
                 {
