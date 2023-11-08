@@ -25730,7 +25730,7 @@
             },
             {
               "kind": "Content",
-              "text": ";\n        content?: string | undefined;\n        tts?: boolean | undefined;\n        embeds?: import(\"discord-api-types/v10\")."
+              "text": ";\n        content?: string | undefined;\n        embeds?: import(\"discord-api-types/v10\")."
             },
             {
               "kind": "Reference",
@@ -25766,7 +25766,7 @@
             },
             {
               "kind": "Content",
-              "text": ">[] | undefined;\n        thread_name?: string | undefined;\n    };\n    files: {\n        name: string;\n        data: string | number | boolean | "
+              "text": ">[] | undefined;\n        tts?: boolean | undefined;\n        thread_name?: string | undefined;\n    };\n    files: {\n        name: string;\n        data: string | number | boolean | "
             },
             {
               "kind": "Reference",
