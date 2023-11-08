@@ -6679,7 +6679,7 @@
             {
               "kind": "Method",
               "canonicalReference": "@discordjs/core!Client#requestGuildMembers:member(1)",
-              "docComment": "/**\n * Requests guild members from the gateway.\n *\n * @param options - The options for the request\n *\n * @param timeout - The timeout for waiting for each guild members chunk event\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/gateway-events#request-guild-members}\n */\n",
+              "docComment": "/**\n * Requests guild members from the gateway.\n *\n * @param options - The options for the request\n *\n * @param timeout - The timeout for waiting for each guild members chunk event\n *\n * @example\n *\n * Requesting specific members from a guild\n * ```ts\n * const { members } = await client.requestGuildMembers({ guild_id: '1234567890', user_ids: ['9876543210'] });\n * ```\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/gateway-events#request-guild-members}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -6709,28 +6709,37 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
+                  "text": "<{\n        members: import(\"discord-api-types/v10\")."
                 },
                 {
                   "kind": "Reference",
-                  "text": "RequestGuildMembersResult",
-                  "canonicalReference": "@discordjs/core!RequestGuildMembersResult:interface"
+                  "text": "APIGuildMember",
+                  "canonicalReference": "discord-api-types!APIGuildMember:interface"
                 },
                 {
                   "kind": "Content",
-                  "text": ">"
+                  "text": "[];\n        nonce: string;\n        notFound: unknown[];\n        presences: import(\"discord-api-types/v10\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayGuildMembersChunkPresence",
+                  "canonicalReference": "discord-api-types!GatewayGuildMembersChunkPresence:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[];\n    }>"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "fileLine": 208,
+              "fileLine": 290,
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 9
+                "endIndex": 11
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -6758,6 +6767,98 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "requestGuildMembers"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/core!Client#requestGuildMembersIterator:member(1)",
+              "docComment": "/**\n * Requests guild members from the gateway and returns an async iterator that yields the data from each guild members chunk event.\n *\n * @param options - The options for the request\n *\n * @param timeout - The timeout for waiting for each guild members chunk event\n *\n * @example\n *\n * Requesting all members from a guild\n * ```ts\n * for await (const { members } of client.requestGuildMembersIterator({ guild_id: '1234567890', query: '', limit: 0 })) {\n * \tconsole.log(members);\n * }\n * ```\n *\n * @see\n *\n * {@link https://discord.com/developers/docs/topics/gateway-events#request-guild-members}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "requestGuildMembersIterator(options: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayRequestGuildMembersData",
+                  "canonicalReference": "discord-api-types!GatewayRequestGuildMembersData:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", timeout?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "AsyncGenerator",
+                  "canonicalReference": "!AsyncGenerator:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n        members: import(\"discord-api-types/v10\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APIGuildMember",
+                  "canonicalReference": "discord-api-types!APIGuildMember:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[];\n        nonce: string;\n        notFound: unknown[] | null;\n        presences: import(\"discord-api-types/v10\")."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "GatewayGuildMembersChunkPresence",
+                  "canonicalReference": "discord-api-types!GatewayGuildMembersChunkPresence:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[] | null;\n        chunkIndex: number;\n        chunkCount: number;\n    }, void, unknown>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 215,
+              "fileColumn": 16,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 11
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "options",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false,
+                  "isRest": false
+                },
+                {
+                  "parameterName": "timeout",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": true,
+                  "isRest": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "requestGuildMembersIterator"
             },
             {
               "kind": "Property",
@@ -6832,7 +6933,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 273,
+              "fileLine": 327,
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -6898,7 +6999,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 257,
+              "fileLine": 311,
               "fileColumn": 15,
               "isStatic": false,
               "returnTypeTokenRange": {
