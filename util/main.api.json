@@ -2,7 +2,7 @@
   "metadata": {
     "toolPackage": "@discordjs/api-extractor",
     "toolVersion": "7.38.1",
-    "schemaVersion": 1011,
+    "schemaVersion": 1012,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -180,7 +180,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type Awaitable<T> = "
+              "text": "export type "
+            },
+            {
+              "kind": "Reference",
+              "text": "Awaitable",
+              "canonicalReference": "@discordjs/util!Awaitable:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "> = "
             },
             {
               "kind": "Reference",
@@ -189,7 +206,19 @@
             },
             {
               "kind": "Content",
-              "text": "<T> | T"
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "> | "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
             },
             {
               "kind": "Content",
@@ -215,8 +244,8 @@
             }
           ],
           "typeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 3
+            "startIndex": 5,
+            "endIndex": 10
           }
         },
         {
@@ -226,7 +255,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function calculateShardId(guildId: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "calculateShardId",
+              "canonicalReference": "@discordjs/util!calculateShardId"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "guildId",
+              "canonicalReference": "@discordjs/util!~guildId"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -234,7 +281,16 @@
             },
             {
               "kind": "Content",
-              "text": ", shardCount: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "shardCount",
+              "canonicalReference": "@discordjs/util!~shardCount"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -257,8 +313,8 @@
           "fileLine": 7,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 12
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -266,8 +322,8 @@
             {
               "parameterName": "guildId",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -275,8 +331,8 @@
             {
               "parameterName": "shardCount",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -291,7 +347,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface Equatable<T> "
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "Equatable",
+              "canonicalReference": "@discordjs/util!Equatable:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
             }
           ],
           "fileUrlPath": "src/Equatable.ts",
@@ -320,11 +393,25 @@
               "docComment": "/**\n * Whether or not this is equal to another structure\n */\n",
               "excerptTokens": [
                 {
-                  "kind": "Content",
-                  "text": "equals(other: "
+                  "kind": "Reference",
+                  "text": "equals",
+                  "canonicalReference": "@discordjs/util!Equatable#equals"
                 },
                 {
                   "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "other",
+                  "canonicalReference": "@discordjs/util!~other"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
                   "text": "T"
                 },
                 {
@@ -344,8 +431,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 6,
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -353,8 +440,8 @@
                 {
                   "parameterName": "other",
                   "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
+                    "startIndex": 4,
+                    "endIndex": 5
                   },
                   "isOptional": false,
                   "isRest": false
@@ -372,7 +459,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function getUserAgentAppendix(): "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "getUserAgentAppendix",
+              "canonicalReference": "@discordjs/util!getUserAgentAppendix"
+            },
+            {
+              "kind": "Content",
+              "text": "(): "
             },
             {
               "kind": "Reference",
@@ -387,8 +483,8 @@
           "fileLine": 6,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
+            "startIndex": 3,
+            "endIndex": 4
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -402,7 +498,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function isEquatable(maybeEquatable: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "isEquatable",
+              "canonicalReference": "@discordjs/util!isEquatable"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "maybeEquatable",
+              "canonicalReference": "@discordjs/util!~maybeEquatable"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -447,8 +561,8 @@
           "fileLine": 19,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 9
+            "startIndex": 7,
+            "endIndex": 13
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -456,8 +570,8 @@
             {
               "parameterName": "maybeEquatable",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -472,7 +586,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function isJSONEncodable(maybeEncodable: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "isJSONEncodable",
+              "canonicalReference": "@discordjs/util!isJSONEncodable"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "maybeEncodable",
+              "canonicalReference": "@discordjs/util!~maybeEncodable"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -517,8 +649,8 @@
           "fileLine": 18,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 9
+            "startIndex": 7,
+            "endIndex": 13
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -526,8 +658,8 @@
             {
               "parameterName": "maybeEncodable",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -542,7 +674,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface JSONEncodable<T> "
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "JSONEncodable",
+              "canonicalReference": "@discordjs/util!JSONEncodable:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
             }
           ],
           "fileUrlPath": "src/JSONEncodable.ts",
@@ -571,11 +720,16 @@
               "docComment": "/**\n * Transforms this object to its JSON format\n */\n",
               "excerptTokens": [
                 {
-                  "kind": "Content",
-                  "text": "toJSON(): "
+                  "kind": "Reference",
+                  "text": "toJSON",
+                  "canonicalReference": "@discordjs/util!JSONEncodable#toJSON"
                 },
                 {
                   "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Reference",
                   "text": "T"
                 },
                 {
@@ -587,8 +741,8 @@
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "overloadIndex": 1,
@@ -605,11 +759,41 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function lazy<T>(cb: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "lazy",
+              "canonicalReference": "@discordjs/util!lazy"
             },
             {
               "kind": "Content",
-              "text": "() => T"
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "cb",
+              "canonicalReference": "@discordjs/util!~cb"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Content",
+              "text": "() => "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
             },
             {
               "kind": "Content",
@@ -617,7 +801,11 @@
             },
             {
               "kind": "Content",
-              "text": "() => T"
+              "text": "() => "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
             },
             {
               "kind": "Content",
@@ -628,8 +816,8 @@
           "fileLine": 14,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 10,
+            "endIndex": 12
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -637,8 +825,8 @@
             {
               "parameterName": "cb",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 7,
+                "endIndex": 9
               },
               "isOptional": false,
               "isRest": false
@@ -666,7 +854,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function range(range: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "range",
+              "canonicalReference": "@discordjs/util!range"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "range",
+              "canonicalReference": "@discordjs/util!~range"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -727,8 +933,8 @@
           "fileLine": 45,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 13
+            "startIndex": 9,
+            "endIndex": 17
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -736,8 +942,8 @@
             {
               "parameterName": "range",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
+                "startIndex": 5,
+                "endIndex": 8
               },
               "isOptional": false,
               "isRest": false
@@ -752,7 +958,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface RangeOptions "
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "RangeOptions",
+              "canonicalReference": "@discordjs/util!RangeOptions:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "fileUrlPath": "src/functions/range.ts",
@@ -768,8 +983,13 @@
               "docComment": "/**\n * The end of the range (exclusive)\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "end",
+                  "canonicalReference": "@discordjs/util!RangeOptions#end"
+                },
+                {
                   "kind": "Content",
-                  "text": "end: "
+                  "text": ": "
                 },
                 {
                   "kind": "Reference",
@@ -787,8 +1007,8 @@
               "releaseTag": "Public",
               "name": "end",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -797,8 +1017,13 @@
               "docComment": "/**\n * The start of the range (inclusive)\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "start",
+                  "canonicalReference": "@discordjs/util!RangeOptions#start"
+                },
+                {
                   "kind": "Content",
-                  "text": "start: "
+                  "text": ": "
                 },
                 {
                   "kind": "Reference",
@@ -816,8 +1041,8 @@
               "releaseTag": "Public",
               "name": "start",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -826,8 +1051,13 @@
               "docComment": "/**\n * The amount to increment by\n *\n * @defaultValue\n *\n * `1`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "step",
+                  "canonicalReference": "@discordjs/util!RangeOptions#step"
+                },
+                {
                   "kind": "Content",
-                  "text": "step?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -845,8 +1075,8 @@
               "releaseTag": "Public",
               "name": "step",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             }
           ],
@@ -859,7 +1089,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function shouldUseGlobalFetchAndWebSocket(): "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "shouldUseGlobalFetchAndWebSocket",
+              "canonicalReference": "@discordjs/util!shouldUseGlobalFetchAndWebSocket"
+            },
+            {
+              "kind": "Content",
+              "text": "(): "
             },
             {
               "kind": "Reference",
@@ -874,8 +1113,8 @@
           "fileLine": 3,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
+            "startIndex": 3,
+            "endIndex": 4
           },
           "releaseTag": "Public",
           "overloadIndex": 1,

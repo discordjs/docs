@@ -2,7 +2,7 @@
   "metadata": {
     "toolPackage": "@discordjs/api-extractor",
     "toolVersion": "7.38.1",
-    "schemaVersion": 1011,
+    "schemaVersion": 1012,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -179,8 +179,13 @@
           "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/next/#readme | @discordjs/next} version that you are currently using.\n */\n",
           "excerptTokens": [
             {
+              "kind": "Reference",
+              "text": "version",
+              "canonicalReference": "@discordjs/next!version"
+            },
+            {
               "kind": "Content",
-              "text": "version: "
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -194,8 +199,8 @@
           "releaseTag": "Public",
           "name": "version",
           "variableTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
+            "startIndex": 2,
+            "endIndex": 3
           }
         }
       ]

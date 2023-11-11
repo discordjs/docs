@@ -2,7 +2,7 @@
   "metadata": {
     "toolPackage": "@discordjs/api-extractor",
     "toolVersion": "7.38.1",
-    "schemaVersion": 1011,
+    "schemaVersion": 1012,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
       "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
@@ -180,7 +180,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function blockQuote<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "blockQuote",
+              "canonicalReference": "@discordjs/formatters!blockQuote"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -188,10 +205,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -200,7 +226,15 @@
             },
             {
               "kind": "Content",
-              "text": "`>>> ${C}`"
+              "text": "`>>> ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -211,8 +245,8 @@
           "fileLine": 94,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -220,8 +254,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -231,8 +265,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -249,7 +283,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function bold<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "bold",
+              "canonicalReference": "@discordjs/formatters!bold"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -257,10 +308,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -269,7 +329,15 @@
             },
             {
               "kind": "Content",
-              "text": "`**${C}**`"
+              "text": "`**${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}**`"
             },
             {
               "kind": "Content",
@@ -280,8 +348,8 @@
           "fileLine": 52,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -289,8 +357,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -300,8 +368,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -318,7 +386,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function channelLink<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "channelLink",
+              "canonicalReference": "@discordjs/formatters!channelLink"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -327,10 +412,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(channelId: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "channelId",
+              "canonicalReference": "@discordjs/formatters!~channelId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -339,7 +433,15 @@
             },
             {
               "kind": "Content",
-              "text": "`https://discord.com/channels/@me/${C}`"
+              "text": "`https://discord.com/channels/@me/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -350,8 +452,8 @@
           "fileLine": 317,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -359,8 +461,8 @@
             {
               "parameterName": "channelId",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -370,8 +472,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -388,36 +490,79 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function channelLink<C extends "
+              "text": "export declare function "
             },
             {
               "kind": "Reference",
-              "text": "Snowflake",
-              "canonicalReference": "discord-api-types!Snowflake:type"
+              "text": "channelLink",
+              "canonicalReference": "@discordjs/formatters!channelLink"
             },
             {
               "kind": "Content",
-              "text": ", G extends "
+              "text": "<"
             },
             {
               "kind": "Reference",
-              "text": "Snowflake",
-              "canonicalReference": "discord-api-types!Snowflake:type"
-            },
-            {
-              "kind": "Content",
-              "text": ">(channelId: "
-            },
-            {
-              "kind": "Content",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", guildId: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
             },
             {
               "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "channelId",
+              "canonicalReference": "@discordjs/formatters!~channelId"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "guildId",
+              "canonicalReference": "@discordjs/formatters!~guildId"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "G"
             },
             {
@@ -426,7 +571,23 @@
             },
             {
               "kind": "Content",
-              "text": "`https://discord.com/channels/${G}/${C}`"
+              "text": "`https://discord.com/channels/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": "}/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -437,8 +598,8 @@
           "fileLine": 327,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 9,
-            "endIndex": 10
+            "startIndex": 19,
+            "endIndex": 24
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -446,8 +607,8 @@
             {
               "parameterName": "channelId",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -455,8 +616,8 @@
             {
               "parameterName": "guildId",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -466,8 +627,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -477,8 +638,8 @@
             {
               "typeParameterName": "G",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -495,7 +656,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function channelMention<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "channelMention",
+              "canonicalReference": "@discordjs/formatters!channelMention"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -504,10 +682,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(channelId: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "channelId",
+              "canonicalReference": "@discordjs/formatters!~channelId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -516,7 +703,15 @@
             },
             {
               "kind": "Content",
-              "text": "`<#${C}>`"
+              "text": "`<#${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -527,8 +722,8 @@
           "fileLine": 197,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -536,8 +731,8 @@
             {
               "parameterName": "channelId",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -547,8 +742,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -565,7 +760,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function chatInputApplicationCommandMention<N extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "chatInputApplicationCommandMention",
+              "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -573,7 +785,15 @@
             },
             {
               "kind": "Content",
-              "text": ", G extends "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -581,7 +801,15 @@
             },
             {
               "kind": "Content",
-              "text": ", S extends "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -589,7 +817,15 @@
             },
             {
               "kind": "Content",
-              "text": ", I extends "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -598,34 +834,70 @@
             },
             {
               "kind": "Content",
-              "text": ">(commandName: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "commandName",
+              "canonicalReference": "@discordjs/formatters!~commandName"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "N"
             },
             {
               "kind": "Content",
-              "text": ", subcommandGroupName: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "subcommandGroupName",
+              "canonicalReference": "@discordjs/formatters!~subcommandGroupName"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "G"
             },
             {
               "kind": "Content",
-              "text": ", subcommandName: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "subcommandName",
+              "canonicalReference": "@discordjs/formatters!~subcommandName"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "S"
             },
             {
               "kind": "Content",
-              "text": ", commandId: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "commandId",
+              "canonicalReference": "@discordjs/formatters!~commandId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "I"
             },
             {
@@ -634,7 +906,39 @@
             },
             {
               "kind": "Content",
-              "text": "`</${N} ${G} ${S}:${I}>`"
+              "text": "`</${"
+            },
+            {
+              "kind": "Reference",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": "} ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": "} ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": "}:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -645,8 +949,8 @@
           "fileLine": 223,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 17,
-            "endIndex": 18
+            "startIndex": 35,
+            "endIndex": 44
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -654,8 +958,8 @@
             {
               "parameterName": "commandName",
               "parameterTypeTokenRange": {
-                "startIndex": 9,
-                "endIndex": 10
+                "startIndex": 21,
+                "endIndex": 22
               },
               "isOptional": false,
               "isRest": false
@@ -663,8 +967,8 @@
             {
               "parameterName": "subcommandGroupName",
               "parameterTypeTokenRange": {
-                "startIndex": 11,
-                "endIndex": 12
+                "startIndex": 25,
+                "endIndex": 26
               },
               "isOptional": false,
               "isRest": false
@@ -672,8 +976,8 @@
             {
               "parameterName": "subcommandName",
               "parameterTypeTokenRange": {
-                "startIndex": 13,
-                "endIndex": 14
+                "startIndex": 29,
+                "endIndex": 30
               },
               "isOptional": false,
               "isRest": false
@@ -681,8 +985,8 @@
             {
               "parameterName": "commandId",
               "parameterTypeTokenRange": {
-                "startIndex": 15,
-                "endIndex": 16
+                "startIndex": 33,
+                "endIndex": 34
               },
               "isOptional": false,
               "isRest": false
@@ -691,28 +995,6 @@
           "typeParameters": [
             {
               "typeParameterName": "N",
-              "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "defaultTypeTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              }
-            },
-            {
-              "typeParameterName": "G",
-              "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
-              },
-              "defaultTypeTokenRange": {
-                "startIndex": 0,
-                "endIndex": 0
-              }
-            },
-            {
-              "typeParameterName": "S",
               "constraintTokenRange": {
                 "startIndex": 5,
                 "endIndex": 6
@@ -723,10 +1005,32 @@
               }
             },
             {
+              "typeParameterName": "G",
+              "constraintTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
+              "typeParameterName": "S",
+              "constraintTokenRange": {
+                "startIndex": 13,
+                "endIndex": 14
+              },
+              "defaultTypeTokenRange": {
+                "startIndex": 0,
+                "endIndex": 0
+              }
+            },
+            {
               "typeParameterName": "I",
               "constraintTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -743,7 +1047,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function chatInputApplicationCommandMention<N extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "chatInputApplicationCommandMention",
+              "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -751,7 +1072,15 @@
             },
             {
               "kind": "Content",
-              "text": ", S extends "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -759,7 +1088,15 @@
             },
             {
               "kind": "Content",
-              "text": ", I extends "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -768,26 +1105,53 @@
             },
             {
               "kind": "Content",
-              "text": ">(commandName: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "commandName",
+              "canonicalReference": "@discordjs/formatters!~commandName"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "N"
             },
             {
               "kind": "Content",
-              "text": ", subcommandName: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "subcommandName",
+              "canonicalReference": "@discordjs/formatters!~subcommandName"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "S"
             },
             {
               "kind": "Content",
-              "text": ", commandId: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "commandId",
+              "canonicalReference": "@discordjs/formatters!~commandId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "I"
             },
             {
@@ -796,7 +1160,31 @@
             },
             {
               "kind": "Content",
-              "text": "`</${N} ${S}:${I}>`"
+              "text": "`</${"
+            },
+            {
+              "kind": "Reference",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": "} ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": "}:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -807,8 +1195,8 @@
           "fileLine": 240,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 13,
-            "endIndex": 14
+            "startIndex": 27,
+            "endIndex": 34
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -816,8 +1204,8 @@
             {
               "parameterName": "commandName",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -825,8 +1213,8 @@
             {
               "parameterName": "subcommandName",
               "parameterTypeTokenRange": {
-                "startIndex": 9,
-                "endIndex": 10
+                "startIndex": 21,
+                "endIndex": 22
               },
               "isOptional": false,
               "isRest": false
@@ -834,8 +1222,8 @@
             {
               "parameterName": "commandId",
               "parameterTypeTokenRange": {
-                "startIndex": 11,
-                "endIndex": 12
+                "startIndex": 25,
+                "endIndex": 26
               },
               "isOptional": false,
               "isRest": false
@@ -845,8 +1233,8 @@
             {
               "typeParameterName": "N",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -856,8 +1244,8 @@
             {
               "typeParameterName": "S",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -867,8 +1255,8 @@
             {
               "typeParameterName": "I",
               "constraintTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -885,7 +1273,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function chatInputApplicationCommandMention<N extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "chatInputApplicationCommandMention",
+              "canonicalReference": "@discordjs/formatters!chatInputApplicationCommandMention"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -893,7 +1298,15 @@
             },
             {
               "kind": "Content",
-              "text": ", I extends "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -902,18 +1315,36 @@
             },
             {
               "kind": "Content",
-              "text": ">(commandName: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "commandName",
+              "canonicalReference": "@discordjs/formatters!~commandName"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "N"
             },
             {
               "kind": "Content",
-              "text": ", commandId: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "commandId",
+              "canonicalReference": "@discordjs/formatters!~commandId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "I"
             },
             {
@@ -922,7 +1353,23 @@
             },
             {
               "kind": "Content",
-              "text": "`</${N}:${I}>`"
+              "text": "`</${"
+            },
+            {
+              "kind": "Reference",
+              "text": "N"
+            },
+            {
+              "kind": "Content",
+              "text": "}:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "I"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -933,8 +1380,8 @@
           "fileLine": 254,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 9,
-            "endIndex": 10
+            "startIndex": 19,
+            "endIndex": 24
           },
           "releaseTag": "Public",
           "overloadIndex": 3,
@@ -942,8 +1389,8 @@
             {
               "parameterName": "commandName",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -951,8 +1398,8 @@
             {
               "parameterName": "commandId",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -962,8 +1409,8 @@
             {
               "typeParameterName": "N",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -973,8 +1420,8 @@
             {
               "typeParameterName": "I",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -991,7 +1438,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function codeBlock<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "codeBlock",
+              "canonicalReference": "@discordjs/formatters!codeBlock"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -999,10 +1463,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -1011,7 +1484,15 @@
             },
             {
               "kind": "Content",
-              "text": "`\\`\\`\\`\\n${C}\\n\\`\\`\\``"
+              "text": "`\\`\\`\\`\\n${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}\\n\\`\\`\\``"
             },
             {
               "kind": "Content",
@@ -1022,8 +1503,8 @@
           "fileLine": 10,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1031,8 +1512,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -1042,8 +1523,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -1060,34 +1541,77 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function codeBlock<L extends "
+              "text": "export declare function "
             },
             {
               "kind": "Reference",
-              "text": "string"
+              "text": "codeBlock",
+              "canonicalReference": "@discordjs/formatters!codeBlock"
             },
             {
               "kind": "Content",
-              "text": ", C extends "
+              "text": "<"
             },
             {
               "kind": "Reference",
-              "text": "string"
-            },
-            {
-              "kind": "Content",
-              "text": ">(language: "
-            },
-            {
-              "kind": "Content",
               "text": "L"
             },
             {
               "kind": "Content",
-              "text": ", content: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
             },
             {
               "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "language",
+              "canonicalReference": "@discordjs/formatters!~language"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "L"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -1096,7 +1620,23 @@
             },
             {
               "kind": "Content",
-              "text": "`\\`\\`\\`${L}\\n${C}\\n\\`\\`\\``"
+              "text": "`\\`\\`\\`${"
+            },
+            {
+              "kind": "Reference",
+              "text": "L"
+            },
+            {
+              "kind": "Content",
+              "text": "}\\n${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}\\n\\`\\`\\``"
             },
             {
               "kind": "Content",
@@ -1107,8 +1647,8 @@
           "fileLine": 20,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 9,
-            "endIndex": 10
+            "startIndex": 19,
+            "endIndex": 24
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -1116,8 +1656,8 @@
             {
               "parameterName": "language",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -1125,8 +1665,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -1136,8 +1676,8 @@
             {
               "typeParameterName": "L",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -1147,8 +1687,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -1165,7 +1705,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeBold(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeBold",
+              "canonicalReference": "@discordjs/formatters!escapeBold"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -1188,8 +1746,8 @@
           "fileLine": 231,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1197,8 +1755,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -1213,7 +1771,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeBulletedList(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeBulletedList",
+              "canonicalReference": "@discordjs/formatters!escapeBulletedList"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -1236,8 +1812,8 @@
           "fileLine": 293,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1245,8 +1821,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -1261,7 +1837,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeCodeBlock(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeCodeBlock",
+              "canonicalReference": "@discordjs/formatters!escapeCodeBlock"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -1284,8 +1878,8 @@
           "fileLine": 195,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1293,8 +1887,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -1309,7 +1903,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeEscape(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeEscape",
+              "canonicalReference": "@discordjs/formatters!escapeEscape"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -1332,8 +1944,8 @@
           "fileLine": 275,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1341,8 +1953,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -1357,7 +1969,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeHeading(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeHeading",
+              "canonicalReference": "@discordjs/formatters!escapeHeading"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -1380,8 +2010,8 @@
           "fileLine": 284,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1389,8 +2019,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -1405,7 +2035,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeInlineCode(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeInlineCode",
+              "canonicalReference": "@discordjs/formatters!escapeInlineCode"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -1428,8 +2076,8 @@
           "fileLine": 204,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1437,8 +2085,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -1453,7 +2101,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeItalic(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeItalic",
+              "canonicalReference": "@discordjs/formatters!escapeItalic"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -1476,8 +2142,8 @@
           "fileLine": 213,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1485,8 +2151,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -1501,7 +2167,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeMarkdown(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeMarkdown",
+              "canonicalReference": "@discordjs/formatters!escapeMarkdown"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -1509,7 +2193,16 @@
             },
             {
               "kind": "Content",
-              "text": ", options?: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "options",
+              "canonicalReference": "@discordjs/formatters!~options"
+            },
+            {
+              "kind": "Content",
+              "text": "?: "
             },
             {
               "kind": "Reference",
@@ -1533,8 +2226,8 @@
           "fileLine": 111,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 12
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -1542,8 +2235,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -1551,8 +2244,8 @@
             {
               "parameterName": "options",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": true,
               "isRest": false
@@ -1567,7 +2260,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface EscapeMarkdownOptions "
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "EscapeMarkdownOptions",
+              "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "fileUrlPath": "src/escapers.ts",
@@ -1583,8 +2285,13 @@
               "docComment": "/**\n * Whether to escape bold text.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "bold",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#bold"
+                },
+                {
                   "kind": "Content",
-                  "text": "bold?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1602,8 +2309,8 @@
               "releaseTag": "Public",
               "name": "bold",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1612,8 +2319,13 @@
               "docComment": "/**\n * Whether to escape bulleted lists.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "bulletedList",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#bulletedList"
+                },
+                {
                   "kind": "Content",
-                  "text": "bulletedList?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1631,8 +2343,8 @@
               "releaseTag": "Public",
               "name": "bulletedList",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1641,8 +2353,13 @@
               "docComment": "/**\n * Whether to escape code blocks.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "codeBlock",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#codeBlock"
+                },
+                {
                   "kind": "Content",
-                  "text": "codeBlock?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1660,8 +2377,8 @@
               "releaseTag": "Public",
               "name": "codeBlock",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1670,8 +2387,13 @@
               "docComment": "/**\n * Whether to escape text inside code blocks.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "codeBlockContent",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#codeBlockContent"
+                },
+                {
                   "kind": "Content",
-                  "text": "codeBlockContent?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1689,8 +2411,8 @@
               "releaseTag": "Public",
               "name": "codeBlockContent",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1699,8 +2421,13 @@
               "docComment": "/**\n * Whether to escape `\\`.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "escape",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#escape"
+                },
+                {
                   "kind": "Content",
-                  "text": "escape?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1718,8 +2445,8 @@
               "releaseTag": "Public",
               "name": "escape",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1728,8 +2455,13 @@
               "docComment": "/**\n * Whether to escape headings.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "heading",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#heading"
+                },
+                {
                   "kind": "Content",
-                  "text": "heading?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1747,8 +2479,8 @@
               "releaseTag": "Public",
               "name": "heading",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1757,8 +2489,13 @@
               "docComment": "/**\n * Whether to escape inline code.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "inlineCode",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#inlineCode"
+                },
+                {
                   "kind": "Content",
-                  "text": "inlineCode?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1776,8 +2513,8 @@
               "releaseTag": "Public",
               "name": "inlineCode",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1786,8 +2523,13 @@
               "docComment": "/**\n * Whether to escape text inside inline code.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "inlineCodeContent",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#inlineCodeContent"
+                },
+                {
                   "kind": "Content",
-                  "text": "inlineCodeContent?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1805,8 +2547,8 @@
               "releaseTag": "Public",
               "name": "inlineCodeContent",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1815,8 +2557,13 @@
               "docComment": "/**\n * Whether to escape italics.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "italic",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#italic"
+                },
+                {
                   "kind": "Content",
-                  "text": "italic?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1834,8 +2581,8 @@
               "releaseTag": "Public",
               "name": "italic",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1844,8 +2591,13 @@
               "docComment": "/**\n * Whether to escape masked links.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "maskedLink",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#maskedLink"
+                },
+                {
                   "kind": "Content",
-                  "text": "maskedLink?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1863,8 +2615,8 @@
               "releaseTag": "Public",
               "name": "maskedLink",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1873,8 +2625,13 @@
               "docComment": "/**\n * Whether to escape numbered lists.\n *\n * @defaultValue\n *\n * `false`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "numberedList",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#numberedList"
+                },
+                {
                   "kind": "Content",
-                  "text": "numberedList?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1892,8 +2649,8 @@
               "releaseTag": "Public",
               "name": "numberedList",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1902,8 +2659,13 @@
               "docComment": "/**\n * Whether to escape spoilers.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "spoiler",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#spoiler"
+                },
+                {
                   "kind": "Content",
-                  "text": "spoiler?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1921,8 +2683,8 @@
               "releaseTag": "Public",
               "name": "spoiler",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1931,8 +2693,13 @@
               "docComment": "/**\n * Whether to escape strikethroughs.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "strikethrough",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#strikethrough"
+                },
+                {
                   "kind": "Content",
-                  "text": "strikethrough?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1950,8 +2717,8 @@
               "releaseTag": "Public",
               "name": "strikethrough",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             },
             {
@@ -1960,8 +2727,13 @@
               "docComment": "/**\n * Whether to escape underlines.\n *\n * @defaultValue\n *\n * `true`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "underline",
+                  "canonicalReference": "@discordjs/formatters!EscapeMarkdownOptions#underline"
+                },
+                {
                   "kind": "Content",
-                  "text": "underline?: "
+                  "text": "?: "
                 },
                 {
                   "kind": "Reference",
@@ -1979,8 +2751,8 @@
               "releaseTag": "Public",
               "name": "underline",
               "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               }
             }
           ],
@@ -1993,7 +2765,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeMaskedLink(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeMaskedLink",
+              "canonicalReference": "@discordjs/formatters!escapeMaskedLink"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -2016,8 +2806,8 @@
           "fileLine": 311,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -2025,8 +2815,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -2041,7 +2831,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeNumberedList(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeNumberedList",
+              "canonicalReference": "@discordjs/formatters!escapeNumberedList"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -2064,8 +2872,8 @@
           "fileLine": 302,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -2073,8 +2881,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -2089,7 +2897,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeSpoiler(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeSpoiler",
+              "canonicalReference": "@discordjs/formatters!escapeSpoiler"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -2112,8 +2938,8 @@
           "fileLine": 266,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -2121,8 +2947,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -2137,7 +2963,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeStrikethrough(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeStrikethrough",
+              "canonicalReference": "@discordjs/formatters!escapeStrikethrough"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -2160,8 +3004,8 @@
           "fileLine": 257,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -2169,8 +3013,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -2185,7 +3029,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function escapeUnderline(text: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "escapeUnderline",
+              "canonicalReference": "@discordjs/formatters!escapeUnderline"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "text",
+              "canonicalReference": "@discordjs/formatters!~text"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -2208,8 +3070,8 @@
           "fileLine": 244,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
+            "startIndex": 7,
+            "endIndex": 8
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -2217,8 +3079,8 @@
             {
               "parameterName": "text",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -2233,7 +3095,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum Faces "
+              "text": "export declare enum "
+            },
+            {
+              "kind": "Reference",
+              "text": "Faces",
+              "canonicalReference": "@discordjs/formatters!Faces:enum"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "fileUrlPath": "src/formatters.ts",
@@ -2249,8 +3120,13 @@
               "docComment": "/**\n * `¯\\_(ツ)_/¯`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "Shrug",
+                  "canonicalReference": "@discordjs/formatters!Faces.Shrug:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "Shrug = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -2260,8 +3136,8 @@
               "fileLine": 581,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "Shrug"
@@ -2272,8 +3148,13 @@
               "docComment": "/**\n * `(╯°□°)╯︵ ┻━┻`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "Tableflip",
+                  "canonicalReference": "@discordjs/formatters!Faces.Tableflip:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "Tableflip = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -2283,8 +3164,8 @@
               "fileLine": 586,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "Tableflip"
@@ -2295,8 +3176,13 @@
               "docComment": "/**\n * `┬─┬ノ( º _ ºノ)`\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "Unflip",
+                  "canonicalReference": "@discordjs/formatters!Faces.Unflip:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "Unflip = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -2306,8 +3192,8 @@
               "fileLine": 591,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "Unflip"
@@ -2321,7 +3207,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function formatEmoji<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "formatEmoji",
+              "canonicalReference": "@discordjs/formatters!formatEmoji"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -2330,15 +3233,33 @@
             },
             {
               "kind": "Content",
-              "text": ">(emojiId: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "emojiId",
+              "canonicalReference": "@discordjs/formatters!~emojiId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", animated?: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "animated",
+              "canonicalReference": "@discordjs/formatters!~animated"
+            },
+            {
+              "kind": "Content",
+              "text": "?: "
             },
             {
               "kind": "Content",
@@ -2350,7 +3271,15 @@
             },
             {
               "kind": "Content",
-              "text": "`<:_:${C}>`"
+              "text": "`<:_:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -2361,8 +3290,8 @@
           "fileLine": 287,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 8
+            "startIndex": 15,
+            "endIndex": 18
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -2370,8 +3299,8 @@
             {
               "parameterName": "emojiId",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -2379,8 +3308,8 @@
             {
               "parameterName": "animated",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": true,
               "isRest": false
@@ -2390,8 +3319,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -2408,7 +3337,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function formatEmoji<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "formatEmoji",
+              "canonicalReference": "@discordjs/formatters!formatEmoji"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -2417,15 +3363,33 @@
             },
             {
               "kind": "Content",
-              "text": ">(emojiId: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "emojiId",
+              "canonicalReference": "@discordjs/formatters!~emojiId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", animated?: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "animated",
+              "canonicalReference": "@discordjs/formatters!~animated"
+            },
+            {
+              "kind": "Content",
+              "text": "?: "
             },
             {
               "kind": "Content",
@@ -2437,7 +3401,15 @@
             },
             {
               "kind": "Content",
-              "text": "`<a:_:${C}>`"
+              "text": "`<a:_:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -2448,8 +3420,8 @@
           "fileLine": 296,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 8
+            "startIndex": 15,
+            "endIndex": 18
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -2457,8 +3429,8 @@
             {
               "parameterName": "emojiId",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -2466,8 +3438,8 @@
             {
               "parameterName": "animated",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": true,
               "isRest": false
@@ -2477,8 +3449,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -2495,7 +3467,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function formatEmoji<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "formatEmoji",
+              "canonicalReference": "@discordjs/formatters!formatEmoji"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -2504,15 +3493,33 @@
             },
             {
               "kind": "Content",
-              "text": ">(emojiId: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "emojiId",
+              "canonicalReference": "@discordjs/formatters!~emojiId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", animated?: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "animated",
+              "canonicalReference": "@discordjs/formatters!~animated"
+            },
+            {
+              "kind": "Content",
+              "text": "?: "
             },
             {
               "kind": "Reference",
@@ -2524,7 +3531,23 @@
             },
             {
               "kind": "Content",
-              "text": "`<:_:${C}>` | `<a:_:${C}>`"
+              "text": "`<:_:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>` | `<a:_:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -2535,8 +3558,8 @@
           "fileLine": 305,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 8
+            "startIndex": 15,
+            "endIndex": 20
           },
           "releaseTag": "Public",
           "overloadIndex": 3,
@@ -2544,8 +3567,8 @@
             {
               "parameterName": "emojiId",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -2553,8 +3576,8 @@
             {
               "parameterName": "animated",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": true,
               "isRest": false
@@ -2564,8 +3587,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -2582,7 +3605,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum GuildNavigationMentions "
+              "text": "export declare enum "
+            },
+            {
+              "kind": "Reference",
+              "text": "GuildNavigationMentions",
+              "canonicalReference": "@discordjs/formatters!GuildNavigationMentions:enum"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "fileUrlPath": "src/formatters.ts",
@@ -2598,8 +3630,13 @@
               "docComment": "/**\n * Browse Channels tab.\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "Browse",
+                  "canonicalReference": "@discordjs/formatters!GuildNavigationMentions.Browse:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "Browse = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -2609,8 +3646,8 @@
               "fileLine": 601,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "Browse"
@@ -2621,8 +3658,13 @@
               "docComment": "/**\n * Customize tab with the server's {@link https://discord.com/developers/docs/resources/guild#guild-onboarding-object | onboarding prompts}.\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "Customize",
+                  "canonicalReference": "@discordjs/formatters!GuildNavigationMentions.Customize:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "Customize = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -2632,8 +3674,8 @@
               "fileLine": 605,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "Customize"
@@ -2644,8 +3686,13 @@
               "docComment": "/**\n * {@link https://support.discord.com/hc/articles/13497665141655 | Server Guide} tab.\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "Guide",
+                  "canonicalReference": "@discordjs/formatters!GuildNavigationMentions.Guide:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "Guide = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -2655,8 +3702,8 @@
               "fileLine": 609,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "Guide"
@@ -2670,7 +3717,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function heading<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "heading",
+              "canonicalReference": "@discordjs/formatters!heading"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -2678,15 +3742,33 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", level?: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "level",
+              "canonicalReference": "@discordjs/formatters!~level"
+            },
+            {
+              "kind": "Content",
+              "text": "?: "
             },
             {
               "kind": "Reference",
@@ -2699,7 +3781,15 @@
             },
             {
               "kind": "Content",
-              "text": "`# ${C}`"
+              "text": "`# ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -2710,8 +3800,8 @@
           "fileLine": 401,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 8
+            "startIndex": 15,
+            "endIndex": 18
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -2719,8 +3809,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -2728,8 +3818,8 @@
             {
               "parameterName": "level",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": true,
               "isRest": false
@@ -2739,8 +3829,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -2757,7 +3847,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function heading<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "heading",
+              "canonicalReference": "@discordjs/formatters!heading"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -2765,15 +3872,33 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", level: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "level",
+              "canonicalReference": "@discordjs/formatters!~level"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -2786,7 +3911,15 @@
             },
             {
               "kind": "Content",
-              "text": "`## ${C}`"
+              "text": "`## ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -2797,8 +3930,8 @@
           "fileLine": 410,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 8
+            "startIndex": 15,
+            "endIndex": 18
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -2806,8 +3939,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -2815,8 +3948,8 @@
             {
               "parameterName": "level",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -2826,8 +3959,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -2844,7 +3977,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function heading<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "heading",
+              "canonicalReference": "@discordjs/formatters!heading"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -2852,15 +4002,33 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", level: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "level",
+              "canonicalReference": "@discordjs/formatters!~level"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -2873,7 +4041,15 @@
             },
             {
               "kind": "Content",
-              "text": "`### ${C}`"
+              "text": "`### ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -2884,8 +4060,8 @@
           "fileLine": 419,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 8
+            "startIndex": 15,
+            "endIndex": 18
           },
           "releaseTag": "Public",
           "overloadIndex": 3,
@@ -2893,8 +4069,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -2902,8 +4078,8 @@
             {
               "parameterName": "level",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -2913,8 +4089,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -2931,7 +4107,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare enum HeadingLevel "
+              "text": "export declare enum "
+            },
+            {
+              "kind": "Reference",
+              "text": "HeadingLevel",
+              "canonicalReference": "@discordjs/formatters!HeadingLevel:enum"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "fileUrlPath": "src/formatters.ts",
@@ -2947,8 +4132,13 @@
               "docComment": "/**\n * The first heading level.\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "One",
+                  "canonicalReference": "@discordjs/formatters!HeadingLevel.One:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "One = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -2958,8 +4148,8 @@
               "fileLine": 383,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "One"
@@ -2970,8 +4160,13 @@
               "docComment": "/**\n * The third heading level.\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "Three",
+                  "canonicalReference": "@discordjs/formatters!HeadingLevel.Three:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "Three = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -2981,8 +4176,8 @@
               "fileLine": 391,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "Three"
@@ -2993,8 +4188,13 @@
               "docComment": "/**\n * The second heading level.\n */\n",
               "excerptTokens": [
                 {
+                  "kind": "Reference",
+                  "text": "Two",
+                  "canonicalReference": "@discordjs/formatters!HeadingLevel.Two:member"
+                },
+                {
                   "kind": "Content",
-                  "text": "Two = "
+                  "text": " = "
                 },
                 {
                   "kind": "Content",
@@ -3004,8 +4204,8 @@
               "fileLine": 387,
               "fileColumn": 2,
               "initializerTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 2,
+                "endIndex": 3
               },
               "releaseTag": "Public",
               "name": "Two"
@@ -3019,7 +4219,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hideLinkEmbed<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "hideLinkEmbed",
+              "canonicalReference": "@discordjs/formatters!hideLinkEmbed"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -3027,10 +4244,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(url: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "url",
+              "canonicalReference": "@discordjs/formatters!~url"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -3039,7 +4265,15 @@
             },
             {
               "kind": "Content",
-              "text": "`<${C}>`"
+              "text": "`<${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -3050,8 +4284,8 @@
           "fileLine": 104,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3059,8 +4293,8 @@
             {
               "parameterName": "url",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -3070,8 +4304,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3088,7 +4322,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hideLinkEmbed(url: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "hideLinkEmbed",
+              "canonicalReference": "@discordjs/formatters!hideLinkEmbed"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "url",
+              "canonicalReference": "@discordjs/formatters!~url"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -3120,8 +4372,8 @@
           "fileLine": 111,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 6
+            "startIndex": 7,
+            "endIndex": 10
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -3129,8 +4381,8 @@
             {
               "parameterName": "url",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": false,
               "isRest": false
@@ -3145,7 +4397,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hyperlink<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "hyperlink",
+              "canonicalReference": "@discordjs/formatters!hyperlink"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -3153,15 +4422,33 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", url: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "url",
+              "canonicalReference": "@discordjs/formatters!~url"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -3174,7 +4461,15 @@
             },
             {
               "kind": "Content",
-              "text": "`[${C}](${"
+              "text": "`[${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}](${"
             },
             {
               "kind": "Reference",
@@ -3193,8 +4488,8 @@
           "fileLine": 124,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 10
+            "startIndex": 15,
+            "endIndex": 20
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3202,8 +4497,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -3211,8 +4506,8 @@
             {
               "parameterName": "url",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -3222,8 +4517,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3240,34 +4535,77 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hyperlink<C extends "
+              "text": "export declare function "
             },
             {
               "kind": "Reference",
-              "text": "string"
+              "text": "hyperlink",
+              "canonicalReference": "@discordjs/formatters!hyperlink"
             },
             {
               "kind": "Content",
-              "text": ", U extends "
+              "text": "<"
             },
             {
               "kind": "Reference",
-              "text": "string"
-            },
-            {
-              "kind": "Content",
-              "text": ">(content: "
-            },
-            {
-              "kind": "Content",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", url: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
             },
             {
               "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "U"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "url",
+              "canonicalReference": "@discordjs/formatters!~url"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "U"
             },
             {
@@ -3276,7 +4614,23 @@
             },
             {
               "kind": "Content",
-              "text": "`[${C}](${U})`"
+              "text": "`[${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}](${"
+            },
+            {
+              "kind": "Reference",
+              "text": "U"
+            },
+            {
+              "kind": "Content",
+              "text": "})`"
             },
             {
               "kind": "Content",
@@ -3287,8 +4641,8 @@
           "fileLine": 134,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 9,
-            "endIndex": 10
+            "startIndex": 19,
+            "endIndex": 24
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -3296,8 +4650,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -3305,8 +4659,8 @@
             {
               "parameterName": "url",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -3316,8 +4670,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3327,8 +4681,8 @@
             {
               "typeParameterName": "U",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3345,31 +4699,74 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hyperlink<C extends "
+              "text": "export declare function "
             },
             {
               "kind": "Reference",
-              "text": "string"
+              "text": "hyperlink",
+              "canonicalReference": "@discordjs/formatters!hyperlink"
             },
             {
               "kind": "Content",
-              "text": ", T extends "
+              "text": "<"
             },
             {
               "kind": "Reference",
-              "text": "string"
-            },
-            {
-              "kind": "Content",
-              "text": ">(content: "
-            },
-            {
-              "kind": "Content",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", url: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "url",
+              "canonicalReference": "@discordjs/formatters!~url"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -3378,10 +4775,19 @@
             },
             {
               "kind": "Content",
-              "text": ", title: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "title",
+              "canonicalReference": "@discordjs/formatters!~title"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "T"
             },
             {
@@ -3390,7 +4796,15 @@
             },
             {
               "kind": "Content",
-              "text": "`[${C}](${"
+              "text": "`[${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}](${"
             },
             {
               "kind": "Reference",
@@ -3398,7 +4812,15 @@
             },
             {
               "kind": "Content",
-              "text": "} \"${T}\")`"
+              "text": "} \"${"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "}\")`"
             },
             {
               "kind": "Content",
@@ -3409,8 +4831,8 @@
           "fileLine": 145,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 11,
-            "endIndex": 14
+            "startIndex": 23,
+            "endIndex": 30
           },
           "releaseTag": "Public",
           "overloadIndex": 3,
@@ -3418,8 +4840,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -3427,8 +4849,8 @@
             {
               "parameterName": "url",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -3436,8 +4858,8 @@
             {
               "parameterName": "title",
               "parameterTypeTokenRange": {
-                "startIndex": 9,
-                "endIndex": 10
+                "startIndex": 21,
+                "endIndex": 22
               },
               "isOptional": false,
               "isRest": false
@@ -3447,8 +4869,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3458,8 +4880,8 @@
             {
               "typeParameterName": "T",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3476,50 +4898,110 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function hyperlink<C extends "
+              "text": "export declare function "
             },
             {
               "kind": "Reference",
-              "text": "string"
+              "text": "hyperlink",
+              "canonicalReference": "@discordjs/formatters!hyperlink"
             },
             {
               "kind": "Content",
-              "text": ", U extends "
+              "text": "<"
             },
             {
               "kind": "Reference",
-              "text": "string"
-            },
-            {
-              "kind": "Content",
-              "text": ", T extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "string"
-            },
-            {
-              "kind": "Content",
-              "text": ">(content: "
-            },
-            {
-              "kind": "Content",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", url: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
             },
             {
               "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
               "text": "U"
             },
             {
               "kind": "Content",
-              "text": ", title: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
             },
             {
               "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "url",
+              "canonicalReference": "@discordjs/formatters!~url"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "U"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "title",
+              "canonicalReference": "@discordjs/formatters!~title"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "T"
             },
             {
@@ -3528,7 +5010,31 @@
             },
             {
               "kind": "Content",
-              "text": "`[${C}](${U} \"${T}\")`"
+              "text": "`[${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}](${"
+            },
+            {
+              "kind": "Reference",
+              "text": "U"
+            },
+            {
+              "kind": "Content",
+              "text": "} \"${"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "}\")`"
             },
             {
               "kind": "Content",
@@ -3539,8 +5045,8 @@
           "fileLine": 161,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 13,
-            "endIndex": 14
+            "startIndex": 27,
+            "endIndex": 34
           },
           "releaseTag": "Public",
           "overloadIndex": 4,
@@ -3548,8 +5054,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -3557,8 +5063,8 @@
             {
               "parameterName": "url",
               "parameterTypeTokenRange": {
-                "startIndex": 9,
-                "endIndex": 10
+                "startIndex": 21,
+                "endIndex": 22
               },
               "isOptional": false,
               "isRest": false
@@ -3566,8 +5072,8 @@
             {
               "parameterName": "title",
               "parameterTypeTokenRange": {
-                "startIndex": 11,
-                "endIndex": 12
+                "startIndex": 25,
+                "endIndex": 26
               },
               "isOptional": false,
               "isRest": false
@@ -3577,8 +5083,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3588,8 +5094,8 @@
             {
               "typeParameterName": "U",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3599,8 +5105,8 @@
             {
               "typeParameterName": "T",
               "constraintTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3617,7 +5123,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function inlineCode<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "inlineCode",
+              "canonicalReference": "@discordjs/formatters!inlineCode"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -3625,10 +5148,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -3637,7 +5169,15 @@
             },
             {
               "kind": "Content",
-              "text": "`\\`${C}\\``"
+              "text": "`\\`${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}\\``"
             },
             {
               "kind": "Content",
@@ -3648,8 +5188,8 @@
           "fileLine": 32,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3657,8 +5197,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -3668,8 +5208,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3686,7 +5226,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function italic<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "italic",
+              "canonicalReference": "@discordjs/formatters!italic"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -3694,10 +5251,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -3706,7 +5272,15 @@
             },
             {
               "kind": "Content",
-              "text": "`_${C}_`"
+              "text": "`_${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}_`"
             },
             {
               "kind": "Content",
@@ -3717,8 +5291,8 @@
           "fileLine": 42,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3726,8 +5300,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -3737,8 +5311,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3755,36 +5329,79 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function messageLink<C extends "
+              "text": "export declare function "
             },
             {
               "kind": "Reference",
-              "text": "Snowflake",
-              "canonicalReference": "discord-api-types!Snowflake:type"
+              "text": "messageLink",
+              "canonicalReference": "@discordjs/formatters!messageLink"
             },
             {
               "kind": "Content",
-              "text": ", M extends "
+              "text": "<"
             },
             {
               "kind": "Reference",
-              "text": "Snowflake",
-              "canonicalReference": "discord-api-types!Snowflake:type"
-            },
-            {
-              "kind": "Content",
-              "text": ">(channelId: "
-            },
-            {
-              "kind": "Content",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", messageId: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
             },
             {
               "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "M"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "channelId",
+              "canonicalReference": "@discordjs/formatters!~channelId"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "messageId",
+              "canonicalReference": "@discordjs/formatters!~messageId"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "M"
             },
             {
@@ -3793,7 +5410,23 @@
             },
             {
               "kind": "Content",
-              "text": "`https://discord.com/channels/@me/${C}/${M}`"
+              "text": "`https://discord.com/channels/@me/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "M"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -3804,8 +5437,8 @@
           "fileLine": 347,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 9,
-            "endIndex": 10
+            "startIndex": 19,
+            "endIndex": 24
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -3813,8 +5446,8 @@
             {
               "parameterName": "channelId",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -3822,8 +5455,8 @@
             {
               "parameterName": "messageId",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -3833,8 +5466,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3844,8 +5477,8 @@
             {
               "typeParameterName": "M",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3862,53 +5495,113 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function messageLink<C extends "
+              "text": "export declare function "
             },
             {
               "kind": "Reference",
-              "text": "Snowflake",
-              "canonicalReference": "discord-api-types!Snowflake:type"
+              "text": "messageLink",
+              "canonicalReference": "@discordjs/formatters!messageLink"
             },
             {
               "kind": "Content",
-              "text": ", M extends "
+              "text": "<"
             },
             {
               "kind": "Reference",
-              "text": "Snowflake",
-              "canonicalReference": "discord-api-types!Snowflake:type"
-            },
-            {
-              "kind": "Content",
-              "text": ", G extends "
-            },
-            {
-              "kind": "Reference",
-              "text": "Snowflake",
-              "canonicalReference": "discord-api-types!Snowflake:type"
-            },
-            {
-              "kind": "Content",
-              "text": ">(channelId: "
-            },
-            {
-              "kind": "Content",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", messageId: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
             },
             {
               "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
               "text": "M"
             },
             {
               "kind": "Content",
-              "text": ", guildId: "
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
             },
             {
               "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "discord-api-types!Snowflake:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "channelId",
+              "canonicalReference": "@discordjs/formatters!~channelId"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "messageId",
+              "canonicalReference": "@discordjs/formatters!~messageId"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "M"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "guildId",
+              "canonicalReference": "@discordjs/formatters!~guildId"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "G"
             },
             {
@@ -3917,7 +5610,31 @@
             },
             {
               "kind": "Content",
-              "text": "`https://discord.com/channels/${G}/${C}/${M}`"
+              "text": "`https://discord.com/channels/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "G"
+            },
+            {
+              "kind": "Content",
+              "text": "}/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}/${"
+            },
+            {
+              "kind": "Reference",
+              "text": "M"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -3928,8 +5645,8 @@
           "fileLine": 362,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 13,
-            "endIndex": 14
+            "startIndex": 27,
+            "endIndex": 34
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -3937,8 +5654,8 @@
             {
               "parameterName": "channelId",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -3946,8 +5663,8 @@
             {
               "parameterName": "messageId",
               "parameterTypeTokenRange": {
-                "startIndex": 9,
-                "endIndex": 10
+                "startIndex": 21,
+                "endIndex": 22
               },
               "isOptional": false,
               "isRest": false
@@ -3955,8 +5672,8 @@
             {
               "parameterName": "guildId",
               "parameterTypeTokenRange": {
-                "startIndex": 11,
-                "endIndex": 12
+                "startIndex": 25,
+                "endIndex": 26
               },
               "isOptional": false,
               "isRest": false
@@ -3966,8 +5683,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3977,8 +5694,8 @@
             {
               "typeParameterName": "M",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -3988,8 +5705,8 @@
             {
               "typeParameterName": "G",
               "constraintTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4006,7 +5723,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function orderedList(list: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "orderedList",
+              "canonicalReference": "@discordjs/formatters!orderedList"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "list",
+              "canonicalReference": "@discordjs/formatters!~list"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -4027,7 +5762,16 @@
             },
             {
               "kind": "Content",
-              "text": ", startNumber?: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "startNumber",
+              "canonicalReference": "@discordjs/formatters!~startNumber"
+            },
+            {
+              "kind": "Content",
+              "text": "?: "
             },
             {
               "kind": "Reference",
@@ -4050,8 +5794,8 @@
           "fileLine": 456,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 8,
-            "endIndex": 9
+            "startIndex": 14,
+            "endIndex": 15
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4059,8 +5803,8 @@
             {
               "parameterName": "list",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
+                "startIndex": 5,
+                "endIndex": 9
               },
               "isOptional": false,
               "isRest": false
@@ -4068,8 +5812,8 @@
             {
               "parameterName": "startNumber",
               "parameterTypeTokenRange": {
-                "startIndex": 6,
-                "endIndex": 7
+                "startIndex": 12,
+                "endIndex": 13
               },
               "isOptional": true,
               "isRest": false
@@ -4084,7 +5828,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function quote<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "quote",
+              "canonicalReference": "@discordjs/formatters!quote"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4092,10 +5853,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -4104,7 +5874,15 @@
             },
             {
               "kind": "Content",
-              "text": "`> ${C}`"
+              "text": "`> ${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}`"
             },
             {
               "kind": "Content",
@@ -4115,8 +5893,8 @@
           "fileLine": 83,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4124,8 +5902,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -4135,8 +5913,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4153,7 +5931,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type RecursiveArray<T> = "
+              "text": "export type "
+            },
+            {
+              "kind": "Reference",
+              "text": "RecursiveArray",
+              "canonicalReference": "@discordjs/formatters!RecursiveArray:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "> = "
             },
             {
               "kind": "Content",
@@ -4166,7 +5961,23 @@
             },
             {
               "kind": "Content",
-              "text": "<T> | T)[]"
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": "> | "
+            },
+            {
+              "kind": "Reference",
+              "text": "T"
+            },
+            {
+              "kind": "Content",
+              "text": ")[]"
             },
             {
               "kind": "Content",
@@ -4192,8 +6003,8 @@
             }
           ],
           "typeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 4
+            "startIndex": 5,
+            "endIndex": 12
           }
         },
         {
@@ -4203,7 +6014,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function roleMention<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "roleMention",
+              "canonicalReference": "@discordjs/formatters!roleMention"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4212,10 +6040,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(roleId: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "roleId",
+              "canonicalReference": "@discordjs/formatters!~roleId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -4224,7 +6061,15 @@
             },
             {
               "kind": "Content",
-              "text": "`<@&${C}>`"
+              "text": "`<@&${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -4235,8 +6080,8 @@
           "fileLine": 207,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4244,8 +6089,8 @@
             {
               "parameterName": "roleId",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -4255,8 +6100,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4273,7 +6118,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function spoiler<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "spoiler",
+              "canonicalReference": "@discordjs/formatters!spoiler"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4281,10 +6143,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -4293,7 +6164,15 @@
             },
             {
               "kind": "Content",
-              "text": "`||${C}||`"
+              "text": "`||${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}||`"
             },
             {
               "kind": "Content",
@@ -4304,8 +6183,8 @@
           "fileLine": 177,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4313,8 +6192,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -4324,8 +6203,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4342,7 +6221,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function strikethrough<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "strikethrough",
+              "canonicalReference": "@discordjs/formatters!strikethrough"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4350,10 +6246,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -4362,7 +6267,15 @@
             },
             {
               "kind": "Content",
-              "text": "`~~${C}~~`"
+              "text": "`~~${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}~~`"
             },
             {
               "kind": "Content",
@@ -4373,8 +6286,8 @@
           "fileLine": 72,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4382,8 +6295,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -4393,8 +6306,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4411,7 +6324,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function time(date?: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "time",
+              "canonicalReference": "@discordjs/formatters!time"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "date",
+              "canonicalReference": "@discordjs/formatters!~date"
+            },
+            {
+              "kind": "Content",
+              "text": "?: "
             },
             {
               "kind": "Reference",
@@ -4443,8 +6374,8 @@
           "fileLine": 474,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 6
+            "startIndex": 7,
+            "endIndex": 10
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4452,8 +6383,8 @@
             {
               "parameterName": "date",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "isOptional": true,
               "isRest": false
@@ -4468,7 +6399,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function time<S extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "time",
+              "canonicalReference": "@discordjs/formatters!time"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4477,7 +6425,16 @@
             },
             {
               "kind": "Content",
-              "text": ">(date: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "date",
+              "canonicalReference": "@discordjs/formatters!~date"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -4486,10 +6443,19 @@
             },
             {
               "kind": "Content",
-              "text": ", style: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "style",
+              "canonicalReference": "@discordjs/formatters!~style"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "S"
             },
             {
@@ -4506,7 +6472,15 @@
             },
             {
               "kind": "Content",
-              "text": "}:${S}>`"
+              "text": "}:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -4517,8 +6491,8 @@
           "fileLine": 483,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 7,
-            "endIndex": 10
+            "startIndex": 15,
+            "endIndex": 20
           },
           "releaseTag": "Public",
           "overloadIndex": 2,
@@ -4526,8 +6500,8 @@
             {
               "parameterName": "date",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -4535,8 +6509,8 @@
             {
               "parameterName": "style",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -4546,8 +6520,8 @@
             {
               "typeParameterName": "S",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4564,7 +6538,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function time<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "time",
+              "canonicalReference": "@discordjs/formatters!time"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4572,10 +6563,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(seconds: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "seconds",
+              "canonicalReference": "@discordjs/formatters!~seconds"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -4584,7 +6584,15 @@
             },
             {
               "kind": "Content",
-              "text": "`<t:${C}>`"
+              "text": "`<t:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -4595,8 +6603,8 @@
           "fileLine": 491,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 3,
@@ -4604,8 +6612,8 @@
             {
               "parameterName": "seconds",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -4615,8 +6623,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4633,7 +6641,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function time<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "time",
+              "canonicalReference": "@discordjs/formatters!time"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4641,7 +6666,15 @@
             },
             {
               "kind": "Content",
-              "text": ", S extends "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4650,18 +6683,36 @@
             },
             {
               "kind": "Content",
-              "text": ">(seconds: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "seconds",
+              "canonicalReference": "@discordjs/formatters!~seconds"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
               "kind": "Content",
-              "text": ", style: "
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "style",
+              "canonicalReference": "@discordjs/formatters!~style"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "S"
             },
             {
@@ -4670,7 +6721,23 @@
             },
             {
               "kind": "Content",
-              "text": "`<t:${C}:${S}>`"
+              "text": "`<t:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}:${"
+            },
+            {
+              "kind": "Reference",
+              "text": "S"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -4681,8 +6748,8 @@
           "fileLine": 501,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 9,
-            "endIndex": 10
+            "startIndex": 19,
+            "endIndex": 24
           },
           "releaseTag": "Public",
           "overloadIndex": 4,
@@ -4690,8 +6757,8 @@
             {
               "parameterName": "seconds",
               "parameterTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 6
+                "startIndex": 13,
+                "endIndex": 14
               },
               "isOptional": false,
               "isRest": false
@@ -4699,8 +6766,8 @@
             {
               "parameterName": "style",
               "parameterTypeTokenRange": {
-                "startIndex": 7,
-                "endIndex": 8
+                "startIndex": 17,
+                "endIndex": 18
               },
               "isOptional": false,
               "isRest": false
@@ -4710,8 +6777,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4721,8 +6788,8 @@
             {
               "typeParameterName": "S",
               "constraintTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4738,12 +6805,80 @@
           "docComment": "/**\n * The {@link https://discord.com/developers/docs/reference#message-formatting-timestamp-styles | message formatting timestamp styles} supported by Discord.\n */\n",
           "excerptTokens": [
             {
-              "kind": "Content",
-              "text": "TimestampStyles: "
+              "kind": "Reference",
+              "text": "TimestampStyles",
+              "canonicalReference": "@discordjs/formatters!TimestampStyles"
             },
             {
               "kind": "Content",
-              "text": "{\n    readonly ShortTime: \"t\";\n    readonly LongTime: \"T\";\n    readonly ShortDate: \"d\";\n    readonly LongDate: \"D\";\n    readonly ShortDateTime: \"f\";\n    readonly LongDateTime: \"F\";\n    readonly RelativeTime: \"R\";\n}"
+              "text": ": "
+            },
+            {
+              "kind": "Content",
+              "text": "{  readonly "
+            },
+            {
+              "kind": "Reference",
+              "text": "ShortTime",
+              "canonicalReference": "@discordjs/formatters!~__type#ShortTime"
+            },
+            {
+              "kind": "Content",
+              "text": ": \"t\";  readonly "
+            },
+            {
+              "kind": "Reference",
+              "text": "LongTime",
+              "canonicalReference": "@discordjs/formatters!~__type#LongTime"
+            },
+            {
+              "kind": "Content",
+              "text": ": \"T\";  readonly "
+            },
+            {
+              "kind": "Reference",
+              "text": "ShortDate",
+              "canonicalReference": "@discordjs/formatters!~__type#ShortDate"
+            },
+            {
+              "kind": "Content",
+              "text": ": \"d\";  readonly "
+            },
+            {
+              "kind": "Reference",
+              "text": "LongDate",
+              "canonicalReference": "@discordjs/formatters!~__type#LongDate"
+            },
+            {
+              "kind": "Content",
+              "text": ": \"D\";  readonly "
+            },
+            {
+              "kind": "Reference",
+              "text": "ShortDateTime",
+              "canonicalReference": "@discordjs/formatters!~__type#ShortDateTime"
+            },
+            {
+              "kind": "Content",
+              "text": ": \"f\";  readonly "
+            },
+            {
+              "kind": "Reference",
+              "text": "LongDateTime",
+              "canonicalReference": "@discordjs/formatters!~__type#LongDateTime"
+            },
+            {
+              "kind": "Content",
+              "text": ": \"F\";  readonly "
+            },
+            {
+              "kind": "Reference",
+              "text": "RelativeTime",
+              "canonicalReference": "@discordjs/formatters!~__type#RelativeTime"
+            },
+            {
+              "kind": "Content",
+              "text": ": \"R\";}"
             }
           ],
           "fileUrlPath": "src/formatters.ts",
@@ -4753,8 +6888,8 @@
           "releaseTag": "Public",
           "name": "TimestampStyles",
           "variableTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
+            "startIndex": 2,
+            "endIndex": 17
           }
         },
         {
@@ -4764,7 +6899,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type TimestampStylesString = "
+              "text": "export type "
+            },
+            {
+              "kind": "Reference",
+              "text": "TimestampStylesString",
+              "canonicalReference": "@discordjs/formatters!TimestampStylesString:type"
+            },
+            {
+              "kind": "Content",
+              "text": " = "
             },
             {
               "kind": "Content",
@@ -4815,8 +6959,8 @@
           "releaseTag": "Public",
           "name": "TimestampStylesString",
           "typeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 10
+            "startIndex": 3,
+            "endIndex": 12
           }
         },
         {
@@ -4826,7 +6970,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function underscore<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "underscore",
+              "canonicalReference": "@discordjs/formatters!underscore"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4834,10 +6995,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(content: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "content",
+              "canonicalReference": "@discordjs/formatters!~content"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -4846,7 +7016,15 @@
             },
             {
               "kind": "Content",
-              "text": "`__${C}__`"
+              "text": "`__${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}__`"
             },
             {
               "kind": "Content",
@@ -4857,8 +7035,8 @@
           "fileLine": 62,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4866,8 +7044,8 @@
             {
               "parameterName": "content",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -4877,8 +7055,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
@@ -4895,7 +7073,25 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function unorderedList(list: "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "unorderedList",
+              "canonicalReference": "@discordjs/formatters!unorderedList"
+            },
+            {
+              "kind": "Content",
+              "text": "("
+            },
+            {
+              "kind": "Reference",
+              "text": "list",
+              "canonicalReference": "@discordjs/formatters!~list"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
             },
             {
               "kind": "Reference",
@@ -4931,8 +7127,8 @@
           "fileLine": 465,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 6,
-            "endIndex": 7
+            "startIndex": 10,
+            "endIndex": 11
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4940,8 +7136,8 @@
             {
               "parameterName": "list",
               "parameterTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 5
+                "startIndex": 5,
+                "endIndex": 9
               },
               "isOptional": false,
               "isRest": false
@@ -4956,7 +7152,24 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare function userMention<C extends "
+              "text": "export declare function "
+            },
+            {
+              "kind": "Reference",
+              "text": "userMention",
+              "canonicalReference": "@discordjs/formatters!userMention"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
             },
             {
               "kind": "Reference",
@@ -4965,10 +7178,19 @@
             },
             {
               "kind": "Content",
-              "text": ">(userId: "
+              "text": ">("
+            },
+            {
+              "kind": "Reference",
+              "text": "userId",
+              "canonicalReference": "@discordjs/formatters!~userId"
             },
             {
               "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
               "text": "C"
             },
             {
@@ -4977,7 +7199,15 @@
             },
             {
               "kind": "Content",
-              "text": "`<@${C}>`"
+              "text": "`<@${"
+            },
+            {
+              "kind": "Reference",
+              "text": "C"
+            },
+            {
+              "kind": "Content",
+              "text": "}>`"
             },
             {
               "kind": "Content",
@@ -4988,8 +7218,8 @@
           "fileLine": 187,
           "fileColumn": 1,
           "returnTypeTokenRange": {
-            "startIndex": 5,
-            "endIndex": 6
+            "startIndex": 11,
+            "endIndex": 14
           },
           "releaseTag": "Public",
           "overloadIndex": 1,
@@ -4997,8 +7227,8 @@
             {
               "parameterName": "userId",
               "parameterTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 4
+                "startIndex": 9,
+                "endIndex": 10
               },
               "isOptional": false,
               "isRest": false
@@ -5008,8 +7238,8 @@
             {
               "typeParameterName": "C",
               "constraintTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
+                "startIndex": 5,
+                "endIndex": 6
               },
               "defaultTypeTokenRange": {
                 "startIndex": 0,
