@@ -283,7 +283,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 177,
+          "fileLine": 188,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "APIRequest",
@@ -313,7 +313,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 181,
+              "fileLine": 192,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -347,7 +347,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 185,
+              "fileLine": 196,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -382,7 +382,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 189,
+              "fileLine": 200,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -417,7 +417,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 193,
+              "fileLine": 204,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -451,7 +451,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 197,
+              "fileLine": 208,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -485,7 +485,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 201,
+              "fileLine": 212,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -4152,7 +4152,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 338,
+          "fileLine": 349,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "HandlerRequestData",
@@ -4775,7 +4775,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 209,
+          "fileLine": 220,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "InvalidRequestWarningData",
@@ -4804,7 +4804,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 213,
+              "fileLine": 224,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -4838,7 +4838,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 217,
+              "fileLine": 228,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5518,6 +5518,40 @@
             },
             {
               "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/rest!RateLimitData#retryAfter:member",
+              "docComment": "/**\n * The time, in milliseconds, that will need to pass before this specific request can be retried\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "retryAfter",
+                  "canonicalReference": "@discordjs/rest!RateLimitData#retryAfter"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 161,
+              "fileColumn": 2,
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "retryAfter",
+              "propertyTypeTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
               "canonicalReference": "@discordjs/rest!RateLimitData#route:member",
               "docComment": "/**\n * The route being hit in this request\n */\n",
               "excerptTokens": [
@@ -5539,7 +5573,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 161,
+              "fileLine": 165,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5552,8 +5586,42 @@
             },
             {
               "kind": "PropertySignature",
+              "canonicalReference": "@discordjs/rest!RateLimitData#sublimitTimeout:member",
+              "docComment": "/**\n * The time, in milliseconds, that will need to pass before the sublimit lock for the route resets, and requests that fall under a sublimit can be retried\n *\n * This is only present on certain sublimits, and `0` otherwise\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "sublimitTimeout",
+                  "canonicalReference": "@discordjs/rest!RateLimitData#sublimitTimeout"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 172,
+              "fileColumn": 2,
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "sublimitTimeout",
+              "propertyTypeTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
               "canonicalReference": "@discordjs/rest!RateLimitData#timeToReset:member",
-              "docComment": "/**\n * The time, in milliseconds, until the request-lock is reset\n */\n",
+              "docComment": "/**\n * The time, in milliseconds, until the route's request-lock is reset\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Reference",
@@ -5573,7 +5641,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 165,
+              "fileLine": 176,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5607,7 +5675,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 169,
+              "fileLine": 180,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5745,7 +5813,25 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " }: "
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "retryAfter",
+                  "canonicalReference": "@discordjs/rest!~retryAfter"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "sublimitTimeout",
+                  "canonicalReference": "@discordjs/rest!~sublimitTimeout"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", }: "
                 },
                 {
                   "kind": "Reference",
@@ -5757,17 +5843,17 @@
                   "text": ");"
                 }
               ],
-              "fileLine": 18,
-              "fileColumn": 25,
+              "fileLine": 22,
+              "fileColumn": 33,
               "releaseTag": "Public",
               "isProtected": false,
               "overloadIndex": 1,
               "parameters": [
                 {
-                  "parameterName": "{ timeToReset, limit, method, hash, url, route, majorParameter, global }",
+                  "parameterName": "{ timeToReset, limit, method, hash, url, route, majorParameter, global, retryAfter, sublimitTimeout, }",
                   "parameterTypeTokenRange": {
-                    "startIndex": 17,
-                    "endIndex": 18
+                    "startIndex": 21,
+                    "endIndex": 22
                   },
                   "isOptional": false,
                   "isRest": false
@@ -5986,7 +6072,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 35,
+              "fileLine": 52,
               "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
@@ -5995,6 +6081,43 @@
               "propertyTypeTokenRange": {
                 "startIndex": 3,
                 "endIndex": 4
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/rest!RateLimitError#retryAfter:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "retryAfter",
+                  "canonicalReference": "@discordjs/rest!RateLimitError#retryAfter"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 20,
+              "fileColumn": 9,
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "retryAfter",
+              "propertyTypeTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
               },
               "isStatic": false,
               "isProtected": false,
@@ -6029,6 +6152,43 @@
               "isOptional": false,
               "releaseTag": "Public",
               "name": "route",
+              "propertyTypeTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@discordjs/rest!RateLimitError#sublimitTimeout:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "sublimitTimeout",
+                  "canonicalReference": "@discordjs/rest!RateLimitError#sublimitTimeout"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 22,
+              "fileColumn": 9,
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "sublimitTimeout",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
                 "endIndex": 3
@@ -6192,7 +6352,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 175,
+          "fileLine": 186,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RateLimitQueueFilter",
@@ -6221,7 +6381,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 223,
+          "fileLine": 234,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RawFile",
@@ -6250,7 +6410,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 227,
+              "fileLine": 238,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6318,7 +6478,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 231,
+              "fileLine": 242,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -6352,7 +6512,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 237,
+              "fileLine": 248,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6386,7 +6546,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 241,
+              "fileLine": 252,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -6534,7 +6694,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 247,
+          "fileLine": 258,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestData",
@@ -6563,7 +6723,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 251,
+              "fileLine": 262,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6597,7 +6757,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 257,
+              "fileLine": 268,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6631,7 +6791,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 263,
+              "fileLine": 274,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6674,7 +6834,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 268,
+              "fileLine": 279,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6709,7 +6869,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 272,
+              "fileLine": 283,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6752,7 +6912,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 276,
+              "fileLine": 287,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6807,7 +6967,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 280,
+              "fileLine": 291,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6841,7 +7001,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 285,
+              "fileLine": 296,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6876,7 +7036,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 289,
+              "fileLine": 300,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6918,7 +7078,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 293,
+              "fileLine": 304,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6961,7 +7121,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 297,
+              "fileLine": 308,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6995,7 +7155,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 303,
+              "fileLine": 314,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7029,7 +7189,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 309,
+          "fileLine": 320,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestHeaders",
@@ -7053,7 +7213,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 311,
+              "fileLine": 322,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -7082,7 +7242,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 312,
+              "fileLine": 323,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7116,7 +7276,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 310,
+              "fileLine": 321,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7150,7 +7310,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 318,
+          "fileLine": 329,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestMethod",
@@ -7175,7 +7335,7 @@
                   "text": "\"DELETE\""
                 }
               ],
-              "fileLine": 319,
+              "fileLine": 330,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7203,7 +7363,7 @@
                   "text": "\"GET\""
                 }
               ],
-              "fileLine": 320,
+              "fileLine": 331,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7231,7 +7391,7 @@
                   "text": "\"PATCH\""
                 }
               ],
-              "fileLine": 321,
+              "fileLine": 332,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7259,7 +7419,7 @@
                   "text": "\"POST\""
                 }
               ],
-              "fileLine": 322,
+              "fileLine": 333,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7287,7 +7447,7 @@
                   "text": "\"PUT\""
                 }
               ],
-              "fileLine": 323,
+              "fileLine": 334,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7340,7 +7500,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 204,
+          "fileLine": 215,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ResponseLike",
@@ -7387,7 +7547,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 206,
+              "fileLine": 217,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -10171,7 +10331,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 326,
+          "fileLine": 337,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RouteLike",
