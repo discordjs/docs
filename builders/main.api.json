@@ -176,7 +176,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/builders!ActionRowBuilder:class",
-          "docComment": "/**\n * A builder that creates API-compatible JSON data for action rows.\n *\n * @typeParam T - The types of components this action row holds\n */\n",
+          "docComment": "/**\n * A builder that creates API-compatible JSON data for action rows.\n *\n * @typeParam ComponentType - The types of components this action row holds\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -193,7 +193,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "ComponentType"
             },
             {
               "kind": "Content",
@@ -259,7 +259,7 @@
           "releaseTag": "Public",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "ComponentType",
               "constraintTokenRange": {
                 "startIndex": 5,
                 "endIndex": 6
@@ -384,7 +384,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ComponentType"
                 },
                 {
                   "kind": "Content",
@@ -448,7 +448,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ComponentType"
                 },
                 {
                   "kind": "Content",
@@ -507,7 +507,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ComponentType"
                 },
                 {
                   "kind": "Content",
@@ -585,7 +585,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ComponentType"
                 },
                 {
                   "kind": "Content",
@@ -1482,7 +1482,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "ChoiceType"
             },
             {
               "kind": "Content",
@@ -1511,7 +1511,7 @@
           "releaseTag": "Public",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "ChoiceType",
               "constraintTokenRange": {
                 "startIndex": 5,
                 "endIndex": 8
@@ -1560,7 +1560,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ChoiceType"
                 },
                 {
                   "kind": "Content",
@@ -1674,7 +1674,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ChoiceType"
                 },
                 {
                   "kind": "Content",
@@ -1797,7 +1797,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ChoiceType"
                 },
                 {
                   "kind": "Content",
@@ -6720,7 +6720,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!createComponentBuilder:function(1)",
-          "docComment": "/**\n * Factory for creating components from API data.\n *\n * @param data - The API data to transform to a component class\n *\n * @typeParam T - The type of component to use\n */\n",
+          "docComment": "/**\n * Factory for creating components from API data.\n *\n * @param data - The API data to transform to a component class\n *\n * @typeParam ComponentType - The type of component to use\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6737,7 +6737,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "ComponentType"
             },
             {
               "kind": "Content",
@@ -6798,7 +6798,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "ComponentType"
             },
             {
               "kind": "Content",
@@ -6819,7 +6819,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "ComponentType"
             },
             {
               "kind": "Content",
@@ -6852,7 +6852,7 @@
           ],
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "ComponentType",
               "constraintTokenRange": {
                 "startIndex": 5,
                 "endIndex": 7
@@ -6868,7 +6868,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!createComponentBuilder:function(2)",
-          "docComment": "/**\n * Factory for creating components from API data.\n *\n * @param data - The API data to transform to a component class\n *\n * @typeParam C - The type of component to use\n */\n",
+          "docComment": "/**\n * Factory for creating components from API data.\n *\n * @param data - The API data to transform to a component class\n *\n * @typeParam ComponentBuilder - The type of component to use\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -6885,7 +6885,7 @@
             },
             {
               "kind": "Reference",
-              "text": "C"
+              "text": "ComponentBuilder"
             },
             {
               "kind": "Content",
@@ -6920,7 +6920,7 @@
             },
             {
               "kind": "Reference",
-              "text": "C"
+              "text": "ComponentBuilder"
             },
             {
               "kind": "Content",
@@ -6928,7 +6928,7 @@
             },
             {
               "kind": "Reference",
-              "text": "C"
+              "text": "ComponentBuilder"
             },
             {
               "kind": "Content",
@@ -6957,7 +6957,7 @@
           ],
           "typeParameters": [
             {
-              "typeParameterName": "C",
+              "typeParameterName": "ComponentBuilder",
               "constraintTokenRange": {
                 "startIndex": 5,
                 "endIndex": 8
@@ -12327,7 +12327,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/builders!normalizeArray:function(1)",
-          "docComment": "/**\n * Normalizes data that is a rest parameter or an array into an array with a depth of 1.\n *\n * @param arr - The (possibly variadic) data to normalize\n *\n * @typeParam T - The data that must satisfy {@link RestOrArray}.\n */\n",
+          "docComment": "/**\n * Normalizes data that is a rest parameter or an array into an array with a depth of 1.\n *\n * @param arr - The (possibly variadic) data to normalize\n *\n * @typeParam ItemType - The data that must satisfy {@link RestOrArray}.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -12344,7 +12344,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "ItemType"
             },
             {
               "kind": "Content",
@@ -12370,7 +12370,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "ItemType"
             },
             {
               "kind": "Content",
@@ -12382,7 +12382,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "ItemType"
             },
             {
               "kind": "Content",
@@ -12415,7 +12415,7 @@
           ],
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "ItemType",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -12448,7 +12448,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Type"
             },
             {
               "kind": "Content",
@@ -12456,7 +12456,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Type"
             },
             {
               "kind": "Content",
@@ -12464,7 +12464,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Type"
             },
             {
               "kind": "Content",
@@ -12482,7 +12482,7 @@
           "name": "RestOrArray",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Type",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -15151,7 +15151,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ReturnType"
                 },
                 {
                   "kind": "Content",
@@ -15216,7 +15216,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "ReturnType"
                 },
                 {
                   "kind": "Content",
@@ -15262,7 +15262,7 @@
               ],
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "ReturnType",
                   "constraintTokenRange": {
                     "startIndex": 5,
                     "endIndex": 10

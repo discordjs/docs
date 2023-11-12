@@ -176,7 +176,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/collection!Collection:class",
-          "docComment": "/**\n * A Map with additional utility methods. This is used throughout discord.js rather than Arrays for anything that has an ID, for significantly improved performance and ease-of-use.\n *\n * @typeParam K - The key type this collection holds\n *\n * @typeParam V - The value type this collection holds\n */\n",
+          "docComment": "/**\n * A Map with additional utility methods. This is used throughout discord.js rather than Arrays for anything that has an ID, for significantly improved performance and ease-of-use.\n *\n * @typeParam Key - The key type this collection holds\n *\n * @typeParam Value - The value type this collection holds\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -193,7 +193,7 @@
             },
             {
               "kind": "Reference",
-              "text": "K"
+              "text": "Key"
             },
             {
               "kind": "Content",
@@ -201,7 +201,7 @@
             },
             {
               "kind": "Reference",
-              "text": "V"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -218,7 +218,7 @@
             },
             {
               "kind": "Reference",
-              "text": "K"
+              "text": "Key"
             },
             {
               "kind": "Content",
@@ -226,7 +226,7 @@
             },
             {
               "kind": "Reference",
-              "text": "V"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -243,7 +243,7 @@
           "releaseTag": "Public",
           "typeParameters": [
             {
-              "typeParameterName": "K",
+              "typeParameterName": "Key",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -254,7 +254,7 @@
               }
             },
             {
-              "typeParameterName": "V",
+              "typeParameterName": "Value",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -302,7 +302,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -367,7 +367,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -375,7 +375,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -386,7 +386,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 683,
+              "fileLine": 733,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -421,7 +421,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -429,7 +429,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -455,7 +455,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -463,7 +463,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -497,7 +497,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -514,7 +514,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -531,7 +531,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -539,7 +539,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -556,7 +556,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -564,7 +564,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -575,11 +575,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 954,
+              "fileLine": 1006,
               "fileColumn": 2,
               "typeParameters": [
                 {
-                  "typeParameterName": "K",
+                  "typeParameterName": "Key",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -590,7 +590,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "V",
+                  "typeParameterName": "Value",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -667,7 +667,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -675,7 +675,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -696,7 +696,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -704,7 +704,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -715,7 +715,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 696,
+              "fileLine": 746,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -752,15 +752,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "T"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">("
+                  "text": "("
                 },
                 {
                   "kind": "Reference",
@@ -782,7 +774,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -790,7 +782,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -811,7 +803,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -819,7 +811,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -830,25 +822,12 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 816,
+              "fileLine": 866,
               "fileColumn": 9,
-              "typeParameters": [
-                {
-                  "typeParameterName": "T",
-                  "constraintTokenRange": {
-                    "startIndex": 0,
-                    "endIndex": 0
-                  },
-                  "defaultTypeTokenRange": {
-                    "startIndex": 0,
-                    "endIndex": 0
-                  }
-                }
-              ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 13,
-                "endIndex": 19
+                "startIndex": 11,
+                "endIndex": 17
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -857,8 +836,8 @@
                 {
                   "parameterName": "other",
                   "parameterTypeTokenRange": {
-                    "startIndex": 6,
-                    "endIndex": 12
+                    "startIndex": 4,
+                    "endIndex": 10
                   },
                   "isOptional": false,
                   "isRest": false
@@ -906,7 +885,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -923,7 +902,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -955,7 +934,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 640,
+              "fileLine": 690,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -996,7 +975,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -1026,7 +1005,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -1043,7 +1022,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1060,7 +1039,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1094,7 +1073,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -1109,11 +1088,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 641,
+              "fileLine": 691,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "This",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -1181,7 +1160,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1211,7 +1190,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1228,7 +1207,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1236,7 +1215,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1311,7 +1290,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1319,7 +1298,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1338,7 +1317,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 713,
+              "fileLine": 763,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -1379,7 +1358,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -1387,7 +1366,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1417,7 +1396,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1434,7 +1413,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1460,7 +1439,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -1481,7 +1460,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -1489,7 +1468,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1500,11 +1479,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 541,
+              "fileLine": 581,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -1554,7 +1533,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -1562,7 +1541,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1592,7 +1571,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1609,7 +1588,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1635,7 +1614,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -1656,7 +1635,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1664,7 +1643,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -1675,11 +1654,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 542,
+              "fileLine": 584,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -1751,7 +1730,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1768,7 +1747,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1800,7 +1779,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 543,
+              "fileLine": 587,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -1849,7 +1828,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -1857,7 +1836,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1904,7 +1883,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -1921,7 +1900,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -1947,7 +1926,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -1985,7 +1964,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -1993,7 +1972,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2004,7 +1983,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 544,
+              "fileLine": 588,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -2019,7 +1998,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -2086,7 +2065,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -2094,7 +2073,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2141,7 +2120,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2158,7 +2137,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2184,7 +2163,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -2222,7 +2201,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2230,7 +2209,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -2241,7 +2220,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 548,
+              "fileLine": 592,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -2256,7 +2235,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -2362,7 +2341,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2379,7 +2358,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2428,7 +2407,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 552,
+              "fileLine": 596,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -2491,7 +2470,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -2499,7 +2478,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2529,7 +2508,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2546,7 +2525,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2572,7 +2551,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -2589,7 +2568,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -2597,7 +2576,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2608,11 +2587,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 367,
+              "fileLine": 384,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -2662,7 +2641,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -2670,7 +2649,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2700,7 +2679,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2717,7 +2696,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2743,7 +2722,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -2760,7 +2739,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2768,7 +2747,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -2779,11 +2758,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 368,
+              "fileLine": 387,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -2855,7 +2834,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2872,7 +2851,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2906,7 +2885,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -2914,7 +2893,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -2925,7 +2904,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 369,
+              "fileLine": 390,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -2974,7 +2953,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -2982,7 +2961,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -3029,7 +3008,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3046,7 +3025,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -3072,7 +3051,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -3106,7 +3085,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -3114,7 +3093,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3125,7 +3104,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 370,
+              "fileLine": 391,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -3140,7 +3119,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -3207,7 +3186,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -3215,7 +3194,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3262,7 +3241,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3279,7 +3258,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -3305,7 +3284,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -3339,7 +3318,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -3347,7 +3326,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -3358,7 +3337,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 374,
+              "fileLine": 395,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -3373,7 +3352,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -3479,7 +3458,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3496,7 +3475,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -3547,7 +3526,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -3555,7 +3534,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3566,7 +3545,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 378,
+              "fileLine": 399,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -3629,7 +3608,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -3637,7 +3616,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3667,7 +3646,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3684,7 +3663,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -3710,7 +3689,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -3718,7 +3697,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -3737,7 +3716,7 @@
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -3809,7 +3788,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3826,7 +3805,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -3851,7 +3830,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3866,7 +3845,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 232,
+              "fileLine": 234,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -3915,7 +3894,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -3923,7 +3902,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3970,7 +3949,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -3987,7 +3966,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4013,7 +3992,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -4038,7 +4017,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -4053,7 +4032,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 233,
+              "fileLine": 235,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -4068,7 +4047,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -4174,7 +4153,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -4191,7 +4170,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4233,7 +4212,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -4248,7 +4227,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 237,
+              "fileLine": 239,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -4311,7 +4290,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -4319,7 +4298,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4349,7 +4328,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -4366,7 +4345,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4392,7 +4371,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -4400,7 +4379,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -4415,11 +4394,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 260,
+              "fileLine": 265,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -4491,7 +4470,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -4508,7 +4487,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4533,7 +4512,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4548,7 +4527,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 261,
+              "fileLine": 268,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -4597,7 +4576,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -4605,7 +4584,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4652,7 +4631,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -4669,7 +4648,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4695,7 +4674,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -4720,7 +4699,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -4735,7 +4714,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 262,
+              "fileLine": 269,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -4750,7 +4729,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -4856,7 +4835,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -4873,7 +4852,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4915,7 +4894,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -4930,7 +4909,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 266,
+              "fileLine": 273,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -4993,7 +4972,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -5001,7 +4980,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5031,7 +5010,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5048,7 +5027,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -5074,7 +5053,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -5082,7 +5061,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -5097,11 +5076,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 284,
+              "fileLine": 294,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -5173,7 +5152,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5190,7 +5169,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -5215,7 +5194,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5230,7 +5209,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 285,
+              "fileLine": 297,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -5279,7 +5258,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -5287,7 +5266,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5334,7 +5313,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5351,7 +5330,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -5377,7 +5356,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -5402,7 +5381,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -5417,7 +5396,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 286,
+              "fileLine": 298,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -5432,7 +5411,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -5538,7 +5517,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5555,7 +5534,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -5597,7 +5576,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5612,7 +5591,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 290,
+              "fileLine": 302,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -5675,7 +5654,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -5683,7 +5662,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -5713,7 +5692,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5730,7 +5709,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -5756,7 +5735,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -5764,7 +5743,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -5779,11 +5758,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 312,
+              "fileLine": 327,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -5855,7 +5834,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -5872,7 +5851,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -5897,7 +5876,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -5912,7 +5891,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 313,
+              "fileLine": 330,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -5961,7 +5940,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -5969,7 +5948,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6016,7 +5995,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -6033,7 +6012,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6059,7 +6038,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -6084,7 +6063,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -6099,7 +6078,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 314,
+              "fileLine": 331,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -6114,7 +6093,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -6220,7 +6199,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -6237,7 +6216,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6279,7 +6258,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6294,7 +6273,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 318,
+              "fileLine": 335,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -6357,7 +6336,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -6420,7 +6399,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -6472,7 +6451,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6535,7 +6514,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6587,7 +6566,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -6617,7 +6596,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -6634,7 +6613,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6660,7 +6639,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6668,7 +6647,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -6689,7 +6668,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6697,7 +6676,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -6708,11 +6687,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 452,
+              "fileLine": 478,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -6762,7 +6741,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -6817,7 +6796,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -6834,7 +6813,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6860,7 +6839,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6868,7 +6847,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -6906,7 +6885,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -6914,7 +6893,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -6925,11 +6904,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 453,
+              "fileLine": 481,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -7008,7 +6987,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7077,7 +7056,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7133,15 +7112,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "T"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">("
+                  "text": "("
                 },
                 {
                   "kind": "Reference",
@@ -7163,7 +7134,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7171,7 +7142,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -7192,7 +7163,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7200,15 +7171,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
-                },
-                {
-                  "kind": "Content",
-                  "text": " | "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -7219,25 +7182,12 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 766,
+              "fileLine": 816,
               "fileColumn": 9,
-              "typeParameters": [
-                {
-                  "typeParameterName": "T",
-                  "constraintTokenRange": {
-                    "startIndex": 0,
-                    "endIndex": 0
-                  },
-                  "defaultTypeTokenRange": {
-                    "startIndex": 0,
-                    "endIndex": 0
-                  }
-                }
-              ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 13,
-                "endIndex": 21
+                "startIndex": 11,
+                "endIndex": 17
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -7246,8 +7196,8 @@
                 {
                   "parameterName": "other",
                   "parameterTypeTokenRange": {
-                    "startIndex": 6,
-                    "endIndex": 12
+                    "startIndex": 4,
+                    "endIndex": 10
                   },
                   "isOptional": false,
                   "isRest": false
@@ -7290,7 +7240,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7346,7 +7296,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -7409,7 +7359,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -7461,7 +7411,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7524,7 +7474,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7576,7 +7526,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -7606,7 +7556,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -7623,7 +7573,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7640,7 +7590,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -7648,7 +7598,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -7659,11 +7609,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 474,
+              "fileLine": 505,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -7721,7 +7671,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -7768,7 +7718,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -7785,7 +7735,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7802,7 +7752,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -7827,7 +7777,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -7838,7 +7788,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 475,
+              "fileLine": 506,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -7853,7 +7803,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -7912,7 +7862,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -7942,7 +7892,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -7959,7 +7909,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -7976,7 +7926,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -7993,7 +7943,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8001,7 +7951,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -8012,11 +7962,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 497,
+              "fileLine": 531,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -8074,7 +8024,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -8121,7 +8071,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -8138,7 +8088,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8155,7 +8105,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -8189,7 +8139,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8197,7 +8147,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -8208,7 +8158,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 498,
+              "fileLine": 532,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -8223,7 +8173,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -8282,7 +8232,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -8290,7 +8240,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "R"
+                  "text": "ResultValue"
                 },
                 {
                   "kind": "Content",
@@ -8316,7 +8266,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8324,7 +8274,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -8358,7 +8308,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -8375,7 +8325,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8392,7 +8342,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "R"
+                  "text": "ResultValue"
                 },
                 {
                   "kind": "Content",
@@ -8426,7 +8376,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -8443,7 +8393,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8460,7 +8410,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "R"
+                  "text": "ResultValue"
                 },
                 {
                   "kind": "Content",
@@ -8494,7 +8444,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -8511,7 +8461,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -8528,7 +8478,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8545,7 +8495,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "R"
+                  "text": "ResultValue"
                 },
                 {
                   "kind": "Content",
@@ -8566,7 +8516,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8574,7 +8524,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "R"
+                  "text": "ResultValue"
                 },
                 {
                   "kind": "Content",
@@ -8585,11 +8535,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 881,
+              "fileLine": 933,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "OtherValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -8600,7 +8550,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "R",
+                  "typeParameterName": "ResultValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -8677,7 +8627,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -8685,7 +8635,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8715,7 +8665,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -8732,7 +8682,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8758,7 +8708,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -8779,7 +8729,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -8787,7 +8737,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -8813,7 +8763,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8821,7 +8771,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -8829,7 +8779,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -8840,11 +8790,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 401,
+              "fileLine": 425,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -8894,7 +8844,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -8902,7 +8852,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -8932,7 +8882,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -8949,7 +8899,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -8975,7 +8925,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -8996,7 +8946,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9004,7 +8954,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -9021,7 +8971,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9038,7 +8988,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9046,7 +8996,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -9057,11 +9007,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 404,
+              "fileLine": 428,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -9133,7 +9083,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9150,7 +9100,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9188,7 +9138,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9196,7 +9146,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9213,7 +9163,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9221,7 +9171,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9232,7 +9182,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 407,
+              "fileLine": 431,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -9281,7 +9231,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -9289,7 +9239,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9336,7 +9286,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9353,7 +9303,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9379,7 +9329,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -9417,7 +9367,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -9425,7 +9375,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9451,7 +9401,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9459,7 +9409,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K2"
+                  "text": "NewKey"
                 },
                 {
                   "kind": "Content",
@@ -9467,7 +9417,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9478,7 +9428,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 408,
+              "fileLine": 434,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -9493,7 +9443,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "K2",
+                  "typeParameterName": "NewKey",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -9560,7 +9510,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -9568,7 +9518,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9615,7 +9565,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9632,7 +9582,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9658,7 +9608,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -9696,7 +9646,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9704,7 +9654,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -9721,7 +9671,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9738,7 +9688,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9746,7 +9696,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V2"
+                  "text": "NewValue"
                 },
                 {
                   "kind": "Content",
@@ -9757,7 +9707,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 412,
+              "fileLine": 438,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -9772,7 +9722,7 @@
                   }
                 },
                 {
-                  "typeParameterName": "V2",
+                  "typeParameterName": "NewValue",
                   "constraintTokenRange": {
                     "startIndex": 6,
                     "endIndex": 7
@@ -9878,7 +9828,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9895,7 +9845,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9950,7 +9900,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9958,7 +9908,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9975,7 +9925,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -9983,7 +9933,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -9994,7 +9944,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 416,
+              "fileLine": 442,
               "fileColumn": 9,
               "typeParameters": [
                 {
@@ -10057,7 +10007,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -10120,7 +10070,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -10172,7 +10122,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -10235,7 +10185,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -10287,7 +10237,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
@@ -10295,7 +10245,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -10325,7 +10275,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
@@ -10342,7 +10292,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -10359,7 +10309,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -10376,7 +10326,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
@@ -10393,7 +10343,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
@@ -10401,18 +10351,18 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "fileLine": 575,
+              "fileLine": 619,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "InitialValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -10471,7 +10421,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
@@ -10501,7 +10451,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
@@ -10518,7 +10468,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -10535,7 +10485,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -10552,7 +10502,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
@@ -10569,7 +10519,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
@@ -10577,18 +10527,18 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "InitialValue"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "fileLine": 601,
+              "fileLine": 648,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "InitialValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -10707,7 +10657,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -10724,7 +10674,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -10756,7 +10706,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 518,
+              "fileLine": 558,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -10797,7 +10747,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -10827,7 +10777,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -10844,7 +10794,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -10861,7 +10811,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -10895,7 +10845,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -10910,11 +10860,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 519,
+              "fileLine": 559,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "This",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -10991,7 +10941,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -10999,7 +10949,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -11018,7 +10968,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 738,
+              "fileLine": 788,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -11081,7 +11031,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -11098,7 +11048,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11130,7 +11080,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 342,
+              "fileLine": 359,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -11171,7 +11121,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -11201,7 +11151,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -11218,7 +11168,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -11235,7 +11185,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11269,7 +11219,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -11284,11 +11234,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 343,
+              "fileLine": 360,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "This",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -11347,7 +11297,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -11373,7 +11323,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11381,7 +11331,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -11402,7 +11352,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11410,7 +11360,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -11418,7 +11368,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -11429,11 +11379,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 839,
+              "fileLine": 889,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "OtherValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -11520,7 +11470,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 666,
+              "fileLine": 716,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -11561,7 +11511,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -11591,7 +11541,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -11625,7 +11575,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "This"
                 },
                 {
                   "kind": "Content",
@@ -11640,11 +11590,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 667,
+              "fileLine": 717,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "This",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -11707,7 +11657,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11715,7 +11665,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -11726,7 +11676,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 934,
+              "fileLine": 986,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -11766,7 +11716,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11774,7 +11724,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -11785,7 +11735,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 913,
+              "fileLine": 965,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -11834,7 +11784,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11842,7 +11792,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -11863,7 +11813,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11871,7 +11821,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -11882,7 +11832,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 930,
+              "fileLine": 982,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -11923,7 +11873,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -11949,7 +11899,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11957,7 +11907,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -11978,7 +11928,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "K"
+                  "text": "Key"
                 },
                 {
                   "kind": "Content",
@@ -11986,7 +11936,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "OtherValue"
                 },
                 {
                   "kind": "Content",
@@ -11994,7 +11944,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "V"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -12005,11 +11955,11 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 792,
+              "fileLine": 842,
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "OtherValue",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -12080,7 +12030,7 @@
             },
             {
               "kind": "Reference",
-              "text": "K"
+              "text": "Key"
             },
             {
               "kind": "Content",
@@ -12088,7 +12038,7 @@
             },
             {
               "kind": "Reference",
-              "text": "V"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -12114,7 +12064,7 @@
             },
             {
               "kind": "Reference",
-              "text": "K"
+              "text": "Key"
             },
             {
               "kind": "Content",
@@ -12122,7 +12072,7 @@
             },
             {
               "kind": "Reference",
-              "text": "V"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -12139,7 +12089,7 @@
             },
             {
               "kind": "Reference",
-              "text": "K"
+              "text": "Key"
             },
             {
               "kind": "Content",
@@ -12147,7 +12097,7 @@
             },
             {
               "kind": "Reference",
-              "text": "V"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -12165,7 +12115,7 @@
           "name": "ReadonlyCollection",
           "typeParameters": [
             {
-              "typeParameterName": "K",
+              "typeParameterName": "Key",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -12176,7 +12126,7 @@
               }
             },
             {
-              "typeParameterName": "V",
+              "typeParameterName": "Value",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0

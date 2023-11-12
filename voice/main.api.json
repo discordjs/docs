@@ -373,7 +373,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Metadata"
                 },
                 {
                   "kind": "Content",
@@ -399,7 +399,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Metadata"
                 },
                 {
                   "kind": "Content",
@@ -422,7 +422,7 @@
               "fileColumn": 9,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "Metadata",
                   "constraintTokenRange": {
                     "startIndex": 0,
                     "endIndex": 0
@@ -1190,7 +1190,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -1216,7 +1216,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -1282,7 +1282,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -1336,7 +1336,7 @@
               ],
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "Event",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5
@@ -2833,7 +2833,7 @@
         {
           "kind": "Class",
           "canonicalReference": "@discordjs/voice!AudioResource:class",
-          "docComment": "/**\n * Represents an audio resource that can be played by an audio player.\n *\n * @typeParam T - the type for the metadata (if any) of the audio resource\n */\n",
+          "docComment": "/**\n * Represents an audio resource that can be played by an audio player.\n *\n * @typeParam Metadata - the type for the metadata (if any) of the audio resource\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -2850,7 +2850,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -2871,7 +2871,7 @@
           "releaseTag": "Public",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Metadata",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -2958,7 +2958,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Metadata"
                 },
                 {
                   "kind": "Content",
@@ -3191,7 +3191,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 134,
+              "fileLine": 139,
               "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
@@ -3221,7 +3221,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Metadata"
                 },
                 {
                   "kind": "Content",
@@ -3348,7 +3348,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 120,
+              "fileLine": 125,
               "fileColumn": 2,
               "isReadonly": true,
               "isOptional": false,
@@ -3725,7 +3725,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/voice!createAudioResource:function(1)",
-          "docComment": "/**\n * Creates an audio resource that can be played by audio players.\n *\n * @remarks\n *\n * If the input is given as a string, then the inputType option will be overridden and FFmpeg will be used.\n *\n * If the input is not in the correct format, then a pipeline of transcoders and transformers will be created to ensure that the resultant stream is in the correct format for playback. This could involve using FFmpeg, Opus transcoders, and Ogg/WebM demuxers.\n *\n * @param input - The resource to play\n *\n * @param options - Configurable options for creating the resource\n *\n * @typeParam T - the type for the metadata (if any) of the audio resource\n */\n",
+          "docComment": "/**\n * Creates an audio resource that can be played by audio players.\n *\n * @remarks\n *\n * If the input is given as a string, then the inputType option will be overridden and FFmpeg will be used.\n *\n * If the input is not in the correct format, then a pipeline of transcoders and transformers will be created to ensure that the resultant stream is in the correct format for playback. This could involve using FFmpeg, Opus transcoders, and Ogg/WebM demuxers.\n *\n * @param input - The resource to play\n *\n * @param options - Configurable options for creating the resource\n *\n * @typeParam Metadata - the type for the metadata (if any) of the audio resource\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3742,7 +3742,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -3794,7 +3794,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -3811,7 +3811,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -3844,7 +3844,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -3870,7 +3870,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -3891,7 +3891,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -3923,7 +3923,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -3935,7 +3935,7 @@
             }
           ],
           "fileUrlPath": "src/audio/AudioResource.ts",
-          "fileLine": 211,
+          "fileLine": 216,
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 36,
@@ -3965,7 +3965,7 @@
           ],
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Metadata",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -3981,7 +3981,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/voice!createAudioResource:function(2)",
-          "docComment": "/**\n * Creates an audio resource that can be played by audio players.\n *\n * @remarks\n *\n * If the input is given as a string, then the inputType option will be overridden and FFmpeg will be used.\n *\n * If the input is not in the correct format, then a pipeline of transcoders and transformers will be created to ensure that the resultant stream is in the correct format for playback. This could involve using FFmpeg, Opus transcoders, and Ogg/WebM demuxers.\n *\n * @param input - The resource to play\n *\n * @param options - Configurable options for creating the resource\n *\n * @typeParam T - the type for the metadata (if any) of the audio resource\n */\n",
+          "docComment": "/**\n * Creates an audio resource that can be played by audio players.\n *\n * @remarks\n *\n * If the input is given as a string, then the inputType option will be overridden and FFmpeg will be used.\n *\n * If the input is not in the correct format, then a pipeline of transcoders and transformers will be created to ensure that the resultant stream is in the correct format for playback. This could involve using FFmpeg, Opus transcoders, and Ogg/WebM demuxers.\n *\n * @param input - The resource to play\n *\n * @param options - Configurable options for creating the resource\n *\n * @typeParam Metadata - the type for the metadata (if any) of the audio resource\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -3998,7 +3998,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -4075,7 +4075,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -4108,7 +4108,7 @@
             }
           ],
           "fileUrlPath": "src/audio/AudioResource.ts",
-          "fileLine": 233,
+          "fileLine": 240,
           "fileColumn": 1,
           "returnTypeTokenRange": {
             "startIndex": 24,
@@ -4138,7 +4138,7 @@
           ],
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Metadata",
               "constraintTokenRange": {
                 "startIndex": 5,
                 "endIndex": 8
@@ -4154,7 +4154,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/voice!CreateAudioResourceOptions:interface",
-          "docComment": "/**\n * Options that are set when creating a new audio resource.\n *\n * @typeParam T - the type for the metadata (if any) of the audio resource\n */\n",
+          "docComment": "/**\n * Options that are set when creating a new audio resource.\n *\n * @typeParam Metadata - the type for the metadata (if any) of the audio resource\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -4171,7 +4171,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Metadata"
             },
             {
               "kind": "Content",
@@ -4184,7 +4184,7 @@
           "releaseTag": "Public",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Metadata",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -4283,7 +4283,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Metadata"
                 },
                 {
                   "kind": "Content",
@@ -9652,7 +9652,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -9678,7 +9678,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -9744,7 +9744,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -9798,7 +9798,7 @@
               ],
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "Event",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 5

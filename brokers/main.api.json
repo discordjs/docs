@@ -2082,7 +2082,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2111,7 +2111,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2136,7 +2136,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2199,7 +2199,7 @@
               ],
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "Event",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 6
@@ -2439,7 +2439,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2468,7 +2468,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2493,7 +2493,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2539,7 +2539,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2590,7 +2590,7 @@
               ],
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "Event",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 6
@@ -2910,7 +2910,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2939,7 +2939,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -2964,7 +2964,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -3000,7 +3000,7 @@
               "fileColumn": 15,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "Event",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 6
@@ -3382,7 +3382,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -3411,7 +3411,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -3436,7 +3436,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -3482,7 +3482,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Event"
                 },
                 {
                   "kind": "Content",
@@ -3497,7 +3497,7 @@
               "fileColumn": 15,
               "typeParameters": [
                 {
-                  "typeParameterName": "T",
+                  "typeParameterName": "Event",
                   "constraintTokenRange": {
                     "startIndex": 4,
                     "endIndex": 6

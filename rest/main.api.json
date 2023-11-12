@@ -5020,7 +5020,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "OptionsType"
             },
             {
               "kind": "Content",
@@ -5054,7 +5054,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "OptionsType"
             },
             {
               "kind": "Content",
@@ -5100,7 +5100,7 @@
           ],
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "OptionsType",
               "constraintTokenRange": {
                 "startIndex": 5,
                 "endIndex": 6

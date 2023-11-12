@@ -33670,7 +33670,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Data"
             },
             {
               "kind": "Content",
@@ -33692,7 +33692,7 @@
           "releaseTag": "Public",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Data",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -33722,7 +33722,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Data"
                 },
                 {
                   "kind": "Content",

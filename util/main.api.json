@@ -193,7 +193,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -210,7 +210,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -218,7 +218,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -232,7 +232,7 @@
           "name": "Awaitable",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Value",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -343,7 +343,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/util!Equatable:interface",
-          "docComment": "/**\n * Represents a structure that can be checked against another given structure for equality\n *\n * @typeParam T - The type of object to compare the current object to\n */\n",
+          "docComment": "/**\n * Represents a structure that can be checked against another given structure for equality\n *\n * @typeParam Value - The type of object to compare the current object to\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -360,7 +360,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -373,7 +373,7 @@
           "releaseTag": "Public",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Value",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -412,7 +412,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -670,7 +670,7 @@
         {
           "kind": "Interface",
           "canonicalReference": "@discordjs/util!JSONEncodable:interface",
-          "docComment": "/**\n * Represents an object capable of representing itself as a JSON object\n *\n * @typeParam T - The JSON type corresponding to {@link JSONEncodable.toJSON} outputs.\n */\n",
+          "docComment": "/**\n * Represents an object capable of representing itself as a JSON object\n *\n * @typeParam Value - The JSON type corresponding to {@link JSONEncodable.toJSON} outputs.\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -687,7 +687,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -700,7 +700,7 @@
           "releaseTag": "Public",
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Value",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
@@ -730,7 +730,7 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "T"
+                  "text": "Value"
                 },
                 {
                   "kind": "Content",
@@ -755,7 +755,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@discordjs/util!lazy:function(1)",
-          "docComment": "/**\n * Lazy is a wrapper around a value that is computed lazily. It is useful for cases where the value is expensive to compute and the computation may not be needed at all.\n *\n * @param cb - The callback to lazily evaluate\n *\n * @typeParam T - The type of the value\n *\n * @example\n * ```ts\n * const value = lazy(() => computeExpensiveValue());\n * ```\n *\n */\n",
+          "docComment": "/**\n * Lazy is a wrapper around a value that is computed lazily. It is useful for cases where the value is expensive to compute and the computation may not be needed at all.\n *\n * @param cb - The callback to lazily evaluate\n *\n * @typeParam Value - The type of the value\n *\n * @example\n * ```ts\n * const value = lazy(() => computeExpensiveValue());\n * ```\n *\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -772,7 +772,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -793,7 +793,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -805,7 +805,7 @@
             },
             {
               "kind": "Reference",
-              "text": "T"
+              "text": "Value"
             },
             {
               "kind": "Content",
@@ -834,7 +834,7 @@
           ],
           "typeParameters": [
             {
-              "typeParameterName": "T",
+              "typeParameterName": "Value",
               "constraintTokenRange": {
                 "startIndex": 0,
                 "endIndex": 0
