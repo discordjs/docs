@@ -2963,7 +2963,7 @@
             }
           ],
           "fileUrlPath": "src/components/selectMenu/ChannelSelectMenu.ts",
-          "fileLine": 10,
+          "fileLine": 15,
           "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
@@ -3011,7 +3011,7 @@
                   "text": ");"
                 }
               ],
-              "fileLine": 34,
+              "fileLine": 39,
               "fileColumn": 2,
               "releaseTag": "Public",
               "isProtected": false,
@@ -3082,7 +3082,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 43,
+              "fileLine": 48,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -3106,6 +3106,85 @@
               "isOptional": false,
               "isAbstract": false,
               "name": "addChannelTypes"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#addDefaultChannels:member(1)",
+              "docComment": "/**\n * Adds default channels to this auto populated select menu.\n *\n * @param channels - The channels to add\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "addDefaultChannels",
+                  "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#addDefaultChannels"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "channels",
+                  "canonicalReference": "@discordjs/builders!~channels"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 72,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "channels",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 8
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "addDefaultChannels"
             },
             {
               "kind": "Method",
@@ -3161,7 +3240,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 55,
+              "fileLine": 60,
               "fileColumn": 9,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -3188,6 +3267,85 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#setDefaultChannels:member(1)",
+              "docComment": "/**\n * Sets default channels to this auto populated select menu.\n *\n * @param channels - The channels to set\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setDefaultChannels",
+                  "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#setDefaultChannels"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "channels",
+                  "canonicalReference": "@discordjs/builders!~channels"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 92,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "channels",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 8
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "setDefaultChannels"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "@discordjs/builders!ChannelSelectMenuBuilder#toJSON:member(1)",
               "docComment": "/**\n * Serializes this builder to API-compatible JSON data.\n *\n * @remarks\n *\n * This method runs validations on the data before serializing it. As such, it may throw an error if the data is invalid.\n */\n",
               "excerptTokens": [
@@ -3210,7 +3368,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 65,
+              "fileLine": 107,
               "fileColumn": 18,
               "isStatic": false,
               "returnTypeTokenRange": {
@@ -10596,7 +10754,7 @@
             }
           ],
           "fileUrlPath": "src/components/selectMenu/MentionableSelectMenu.ts",
-          "fileLine": 8,
+          "fileLine": 15,
           "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
@@ -10644,7 +10802,7 @@
                   "text": ");"
                 }
               ],
-              "fileLine": 31,
+              "fileLine": 38,
               "fileColumn": 2,
               "releaseTag": "Public",
               "isProtected": false,
@@ -10660,6 +10818,376 @@
                   "isRest": false
                 }
               ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder#addDefaultRoles:member(1)",
+              "docComment": "/**\n * Adds default roles to this auto populated select menu.\n *\n * @param roles - The roles to add\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "addDefaultRoles",
+                  "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder#addDefaultRoles"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "roles",
+                  "canonicalReference": "@discordjs/builders!~roles"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 47,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "roles",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 8
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "addDefaultRoles"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder#addDefaultUsers:member(1)",
+              "docComment": "/**\n * Adds default users to this auto populated select menu.\n *\n * @param users - The users to add\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "addDefaultUsers",
+                  "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder#addDefaultUsers"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "users",
+                  "canonicalReference": "@discordjs/builders!~users"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 67,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "users",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 8
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "addDefaultUsers"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder#addDefaultValues:member(1)",
+              "docComment": "/**\n * Adds default values to this auto populated select menu.\n *\n * @param values - The values to add\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "addDefaultValues",
+                  "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder#addDefaultValues"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "values",
+                  "canonicalReference": "@discordjs/builders!~values"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuDefaultValue",
+                  "canonicalReference": "discord-api-types!APISelectMenuDefaultValue:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SelectMenuDefaultValueType.Role",
+                  "canonicalReference": "discord-api-types!SelectMenuDefaultValueType.Role:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": "> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuDefaultValue",
+                  "canonicalReference": "discord-api-types!APISelectMenuDefaultValue:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SelectMenuDefaultValueType.User",
+                  "canonicalReference": "discord-api-types!SelectMenuDefaultValueType.User:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 87,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 15,
+                "endIndex": 16
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "values",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 14
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "addDefaultValues"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder#setDefaultValues:member(1)",
+              "docComment": "/**\n * Sets default values to this auto populated select menu.\n *\n * @param values - The values to set\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setDefaultValues",
+                  "canonicalReference": "@discordjs/builders!MentionableSelectMenuBuilder#setDefaultValues"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "values",
+                  "canonicalReference": "@discordjs/builders!~values"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuDefaultValue",
+                  "canonicalReference": "discord-api-types!APISelectMenuDefaultValue:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SelectMenuDefaultValueType.Role",
+                  "canonicalReference": "discord-api-types!SelectMenuDefaultValueType.Role:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": "> | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "APISelectMenuDefaultValue",
+                  "canonicalReference": "discord-api-types!APISelectMenuDefaultValue:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SelectMenuDefaultValueType.User",
+                  "canonicalReference": "discord-api-types!SelectMenuDefaultValueType.User:member"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">>"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 105,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 15,
+                "endIndex": 16
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "values",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 14
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "setDefaultValues"
             }
           ],
           "extendsTokenRange": {
@@ -12073,7 +12601,7 @@
             }
           ],
           "fileUrlPath": "src/components/selectMenu/RoleSelectMenu.ts",
-          "fileLine": 8,
+          "fileLine": 14,
           "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
@@ -12121,7 +12649,7 @@
                   "text": ");"
                 }
               ],
-              "fileLine": 31,
+              "fileLine": 37,
               "fileColumn": 2,
               "releaseTag": "Public",
               "isProtected": false,
@@ -12137,6 +12665,164 @@
                   "isRest": false
                 }
               ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder#addDefaultRoles:member(1)",
+              "docComment": "/**\n * Adds default roles to this auto populated select menu.\n *\n * @param roles - The roles to add\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "addDefaultRoles",
+                  "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder#addDefaultRoles"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "roles",
+                  "canonicalReference": "@discordjs/builders!~roles"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 46,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "roles",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 8
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "addDefaultRoles"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder#setDefaultRoles:member(1)",
+              "docComment": "/**\n * Sets default roles to this auto populated select menu.\n *\n * @param roles - The roles to set\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setDefaultRoles",
+                  "canonicalReference": "@discordjs/builders!RoleSelectMenuBuilder#setDefaultRoles"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "roles",
+                  "canonicalReference": "@discordjs/builders!~roles"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 66,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "roles",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 8
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "setDefaultRoles"
             }
           ],
           "extendsTokenRange": {
@@ -21804,7 +22490,7 @@
             }
           ],
           "fileUrlPath": "src/components/selectMenu/UserSelectMenu.ts",
-          "fileLine": 8,
+          "fileLine": 14,
           "fileColumn": 1,
           "releaseTag": "Public",
           "isAbstract": false,
@@ -21852,7 +22538,7 @@
                   "text": ");"
                 }
               ],
-              "fileLine": 31,
+              "fileLine": 37,
               "fileColumn": 2,
               "releaseTag": "Public",
               "isProtected": false,
@@ -21868,6 +22554,164 @@
                   "isRest": false
                 }
               ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder#addDefaultUsers:member(1)",
+              "docComment": "/**\n * Adds default users to this auto populated select menu.\n *\n * @param users - The users to add\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "addDefaultUsers",
+                  "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder#addDefaultUsers"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "users",
+                  "canonicalReference": "@discordjs/builders!~users"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 46,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "users",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 8
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "addDefaultUsers"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder#setDefaultUsers:member(1)",
+              "docComment": "/**\n * Sets default users to this auto populated select menu.\n *\n * @param users - The users to set\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setDefaultUsers",
+                  "canonicalReference": "@discordjs/builders!UserSelectMenuBuilder#setDefaultUsers"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(..."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "users",
+                  "canonicalReference": "@discordjs/builders!~users"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "RestOrArray",
+                  "canonicalReference": "@discordjs/builders!RestOrArray:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Snowflake",
+                  "canonicalReference": "discord-api-types!Snowflake:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "this"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileLine": 66,
+              "fileColumn": 9,
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 9,
+                "endIndex": 10
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "users",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 4,
+                    "endIndex": 8
+                  },
+                  "isOptional": false,
+                  "isRest": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "setDefaultUsers"
             }
           ],
           "extendsTokenRange": {
