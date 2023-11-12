@@ -283,7 +283,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 188,
+          "fileLine": 189,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "APIRequest",
@@ -313,7 +313,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 192,
+              "fileLine": 193,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -347,7 +347,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 196,
+              "fileLine": 197,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -382,7 +382,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 200,
+              "fileLine": 201,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -417,7 +417,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 204,
+              "fileLine": 205,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -451,7 +451,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 208,
+              "fileLine": 209,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -485,7 +485,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 212,
+              "fileLine": 213,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -4152,7 +4152,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 349,
+          "fileLine": 350,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "HandlerRequestData",
@@ -4775,7 +4775,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 220,
+          "fileLine": 221,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "InvalidRequestWarningData",
@@ -4804,7 +4804,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 224,
+              "fileLine": 225,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -4838,7 +4838,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 228,
+              "fileLine": 229,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5340,7 +5340,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 134,
+          "fileLine": 135,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RateLimitData",
@@ -5369,7 +5369,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 138,
+              "fileLine": 139,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5403,7 +5403,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 142,
+              "fileLine": 143,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5437,7 +5437,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 146,
+              "fileLine": 147,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5471,7 +5471,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 153,
+              "fileLine": 154,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5505,7 +5505,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 157,
+              "fileLine": 158,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5539,7 +5539,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 161,
+              "fileLine": 162,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5573,7 +5573,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 165,
+              "fileLine": 166,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5607,7 +5607,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 172,
+              "fileLine": 173,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5641,7 +5641,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 176,
+              "fileLine": 177,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -5675,7 +5675,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 180,
+              "fileLine": 181,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -6327,8 +6327,8 @@
             },
             {
               "kind": "Reference",
-              "text": "Promise",
-              "canonicalReference": "!Promise:interface"
+              "text": "Awaitable",
+              "canonicalReference": "@discordjs/util!Awaitable:type"
             },
             {
               "kind": "Content",
@@ -6340,11 +6340,7 @@
             },
             {
               "kind": "Content",
-              "text": "> | "
-            },
-            {
-              "kind": "Reference",
-              "text": "boolean"
+              "text": ">"
             },
             {
               "kind": "Content",
@@ -6352,13 +6348,13 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 186,
+          "fileLine": 187,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RateLimitQueueFilter",
           "typeTokenRange": {
             "startIndex": 3,
-            "endIndex": 13
+            "endIndex": 12
           }
         },
         {
@@ -6381,7 +6377,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 234,
+          "fileLine": 235,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RawFile",
@@ -6410,7 +6406,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 238,
+              "fileLine": 239,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6478,7 +6474,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 242,
+              "fileLine": 243,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -6512,7 +6508,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 248,
+              "fileLine": 249,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6546,7 +6542,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 252,
+              "fileLine": 253,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -6694,7 +6690,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 258,
+          "fileLine": 259,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestData",
@@ -6723,7 +6719,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 262,
+              "fileLine": 263,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6757,7 +6753,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 268,
+              "fileLine": 269,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6791,7 +6787,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 274,
+              "fileLine": 275,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6834,7 +6830,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 279,
+              "fileLine": 280,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6869,7 +6865,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 283,
+              "fileLine": 284,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6912,7 +6908,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 287,
+              "fileLine": 288,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -6967,7 +6963,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 291,
+              "fileLine": 292,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7001,7 +6997,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 296,
+              "fileLine": 297,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7036,7 +7032,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 300,
+              "fileLine": 301,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7078,7 +7074,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 304,
+              "fileLine": 305,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7121,7 +7117,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 308,
+              "fileLine": 309,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7155,7 +7151,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 314,
+              "fileLine": 315,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7189,7 +7185,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 320,
+          "fileLine": 321,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestHeaders",
@@ -7213,7 +7209,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 322,
+              "fileLine": 323,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -7242,7 +7238,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 323,
+              "fileLine": 324,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7276,7 +7272,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 321,
+              "fileLine": 322,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": true,
@@ -7310,7 +7306,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 329,
+          "fileLine": 330,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RequestMethod",
@@ -7335,7 +7331,7 @@
                   "text": "\"DELETE\""
                 }
               ],
-              "fileLine": 330,
+              "fileLine": 331,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7363,7 +7359,7 @@
                   "text": "\"GET\""
                 }
               ],
-              "fileLine": 331,
+              "fileLine": 332,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7391,7 +7387,7 @@
                   "text": "\"PATCH\""
                 }
               ],
-              "fileLine": 332,
+              "fileLine": 333,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7419,7 +7415,7 @@
                   "text": "\"POST\""
                 }
               ],
-              "fileLine": 333,
+              "fileLine": 334,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7447,7 +7443,7 @@
                   "text": "\"PUT\""
                 }
               ],
-              "fileLine": 334,
+              "fileLine": 335,
               "fileColumn": 2,
               "initializerTokenRange": {
                 "startIndex": 2,
@@ -7500,7 +7496,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 215,
+          "fileLine": 216,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "ResponseLike",
@@ -7547,7 +7543,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 217,
+              "fileLine": 218,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9192,7 +9188,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 7,
+          "fileLine": 8,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RestEvents",
@@ -9247,7 +9243,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 8,
+              "fileLine": 9,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9307,7 +9303,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 9,
+              "fileLine": 10,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9350,7 +9346,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 10,
+              "fileLine": 11,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9393,7 +9389,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 11,
+              "fileLine": 12,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9445,7 +9441,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 12,
+              "fileLine": 13,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9487,7 +9483,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 13,
+              "fileLine": 14,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9563,7 +9559,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 16,
+          "fileLine": 17,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RestEventsMap",
@@ -9592,7 +9588,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 23,
+          "fileLine": 24,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RESTOptions",
@@ -9630,7 +9626,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 27,
+              "fileLine": 28,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9664,7 +9660,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 33,
+              "fileLine": 34,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9698,7 +9694,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 40,
+              "fileLine": 41,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9732,7 +9728,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 46,
+              "fileLine": 47,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9766,7 +9762,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 52,
+              "fileLine": 53,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9800,7 +9796,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 58,
+              "fileLine": 59,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9834,7 +9830,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 64,
+              "fileLine": 65,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9868,7 +9864,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 70,
+              "fileLine": 71,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9923,7 +9919,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 76,
+              "fileLine": 77,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -9957,7 +9953,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 83,
+              "fileLine": 84,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -10040,7 +10036,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 88,
+              "fileLine": 89,
               "fileColumn": 2,
               "isOptional": false,
               "returnTypeTokenRange": {
@@ -10094,7 +10090,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 94,
+              "fileLine": 95,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -10145,7 +10141,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 103,
+              "fileLine": 104,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -10179,7 +10175,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 110,
+              "fileLine": 111,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -10213,7 +10209,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 116,
+              "fileLine": 117,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -10247,7 +10243,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 122,
+              "fileLine": 123,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -10281,7 +10277,7 @@
                   "text": ";"
                 }
               ],
-              "fileLine": 128,
+              "fileLine": 129,
               "fileColumn": 2,
               "isReadonly": false,
               "isOptional": false,
@@ -10331,7 +10327,7 @@
             }
           ],
           "fileUrlPath": "src/lib/utils/types.ts",
-          "fileLine": 337,
+          "fileLine": 338,
           "fileColumn": 1,
           "releaseTag": "Public",
           "name": "RouteLike",
