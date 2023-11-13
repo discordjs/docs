@@ -7025,7 +7025,7 @@
                 {
                   "kind": "Reference",
                   "text": "URLSearchParams",
-                  "canonicalReference": "!URLSearchParams:interface"
+                  "canonicalReference": "!\"\\\"url\\\"\".__global.URLSearchParams:interface"
                 },
                 {
                   "kind": "Content",
