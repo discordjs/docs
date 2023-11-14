@@ -7248,6 +7248,36 @@
             }
           ],
           "name": "userMention"
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/formatters!version:var",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/formatters#readme | @discordjs/formatters} version that you are currently using.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Reference",
+              "text": "version",
+              "canonicalReference": "@discordjs/formatters!version"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "fileLine": 10,
+          "fileColumn": 14,
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "version",
+          "variableTypeTokenRange": {
+            "startIndex": 2,
+            "endIndex": 3
+          }
         }
       ]
     }

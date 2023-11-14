@@ -1120,6 +1120,36 @@
           "overloadIndex": 1,
           "parameters": [],
           "name": "shouldUseGlobalFetchAndWebSocket"
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/util!version:var",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/util#readme | @discordjs/util} version that you are currently using.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Reference",
+              "text": "version",
+              "canonicalReference": "@discordjs/util!version"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "fileLine": 12,
+          "fileColumn": 14,
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "version",
+          "variableTypeTokenRange": {
+            "startIndex": 2,
+            "endIndex": 3
+          }
         }
       ]
     }

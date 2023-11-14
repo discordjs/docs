@@ -30965,7 +30965,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/core!version:var",
-          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/core/#readme | @discordjs/core} version that you are currently using.\n */\n",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/core#readme | @discordjs/core} version that you are currently using.\n */\n",
           "excerptTokens": [
             {
               "kind": "Reference",

@@ -8243,7 +8243,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/voice!version:var",
-          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/voice/#readme | @discordjs/voice} version that you are currently using.\n */\n",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/voice#readme | @discordjs/voice} version that you are currently using.\n */\n",
           "excerptTokens": [
             {
               "kind": "Reference",

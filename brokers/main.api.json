@@ -4269,6 +4269,36 @@
             "startIndex": 24,
             "endIndex": 73
           }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/brokers!version:var",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/brokers#readme | @discordjs/brokers} version that you are currently using.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Reference",
+              "text": "version",
+              "canonicalReference": "@discordjs/brokers!version"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "fileLine": 13,
+          "fileColumn": 14,
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "version",
+          "variableTypeTokenRange": {
+            "startIndex": 2,
+            "endIndex": 3
+          }
         }
       ]
     }

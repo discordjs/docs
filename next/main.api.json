@@ -176,7 +176,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@discordjs/next!version:var",
-          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/next/#readme | @discordjs/next} version that you are currently using.\n */\n",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/next#readme | @discordjs/next} version that you are currently using.\n */\n",
           "excerptTokens": [
             {
               "kind": "Reference",

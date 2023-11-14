@@ -794,6 +794,36 @@
             "startIndex": 3,
             "endIndex": 16
           }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@discordjs/proxy!version:var",
+          "docComment": "/**\n * The {@link https://github.com/discordjs/discord.js/blob/main/packages/proxy#readme | @discordjs/proxy} version that you are currently using.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Reference",
+              "text": "version",
+              "canonicalReference": "@discordjs/proxy!version"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "string"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "fileLine": 11,
+          "fileColumn": 14,
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "version",
+          "variableTypeTokenRange": {
+            "startIndex": 2,
+            "endIndex": 3
+          }
         }
       ]
     }
